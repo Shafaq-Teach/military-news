@@ -98,6 +98,25 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
     return INITIAL_ARTICLES;
   });
 
+  // Load online published articles dynamically from news.json (updated by n8n)
+  useEffect(() => {
+    fetch('./news.json?t=' + Date.now())
+      .then(res => res.ok ? res.json() : [])
+      .then((onlineArticles: Article[]) => {
+        if (Array.isArray(onlineArticles) && onlineArticles.length > 0) {
+          setArticles(prev => {
+            const existingIds = new Set(prev.map(a => a.id));
+            const newItems = onlineArticles.filter(a => !existingIds.has(a.id));
+            if (newItems.length > 0) {
+              return [...newItems, ...prev];
+            }
+            return prev;
+          });
+        }
+      })
+      .catch(err => console.debug('Online news fetch:', err));
+  }, []);
+
   // 5. Site Settings state
   const [siteSettings, setSiteSettings] = useState<SiteSettings>(() => {
     const saved = localStorage.getItem('mil_settings');

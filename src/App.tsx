@@ -146,11 +146,15 @@ const MainLayout: React.FC = () => {
   );
 };
 
+import { ErrorBoundary } from './components/common/ErrorBoundary';
+
 export function App() {
   return (
-    <MilitaryProvider>
-      <MainLayout />
-    </MilitaryProvider>
+    <ErrorBoundary>
+      <MilitaryProvider>
+        <MainLayout />
+      </MilitaryProvider>
+    </ErrorBoundary>
   );
 }
 

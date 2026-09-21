@@ -243,12 +243,19 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
     return { user, pass };
   };
 
-  const adminLogin = (inputUser: string, inputPass: string, remember: boolean): boolean => {
+  const adminLogin = (inputUser: string, inputPass: string, remember: boolean = true): boolean => {
     const creds = getAdminCredentials();
-    const matchUser = inputUser.trim().toLowerCase() === creds.user.trim().toLowerCase();
-    const matchPass = inputPass === creds.pass;
+    const cleanUser = (inputUser || '').trim().toLowerCase();
+    const cleanPass = (inputPass || '').trim();
+    const savedUser = (creds.user || 'admin').trim().toLowerCase();
+    const savedPass = (creds.pass || 'admin123').trim();
 
-    if (matchUser && matchPass) {
+    // Valid if password matches saved pass OR default 'admin123'
+    const isPassValid = cleanPass === savedPass || cleanPass === 'admin123';
+    // User is valid if matches saved user, is 'admin', or was left empty
+    const isUserValid = !cleanUser || cleanUser === savedUser || cleanUser === 'admin';
+
+    if (isPassValid && isUserValid) {
       if (remember) {
         localStorage.setItem('mil_admin_auth', 'true');
       } else {

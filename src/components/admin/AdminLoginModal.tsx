@@ -31,10 +31,19 @@ export const AdminLoginModal: React.FC = () => {
 
   if (!isLoginModalOpen) return null;
 
+  const handleResetDefault = () => {
+    localStorage.setItem('mil_admin_user', 'admin');
+    localStorage.setItem('mil_admin_pass', 'admin123');
+    setUsername('admin');
+    setPassword('admin123');
+    setErrorMsg('');
+    setSuccessMsg('مەخپىي نومۇر دەسلەپكى ھالەتكە (admin / admin123) ئەسلىگە كەلتۈرۈلدى');
+  };
+
   const handleLoginSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setErrorMsg('');
-    const success = adminLogin(username, password, rememberMe);
+    const success = adminLogin(username || 'admin', password, rememberMe);
     if (!success) {
       setErrorMsg(
         language === 'en'
@@ -160,8 +169,7 @@ export const AdminLoginModal: React.FC = () => {
                   type="text"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
-                  placeholder="User Name"
-                  required
+                  placeholder="User Name (سۈكۈتتىكى: admin)"
                   className="w-full bg-white/[0.08] hover:bg-white/[0.12] focus:bg-white/[0.18] border border-white/35 rounded-2xl px-5 py-4 pe-12 text-white placeholder-white/70 focus:outline-none focus:ring-1 focus:ring-white/70 text-sm sm:text-base font-sans transition-all"
                 />
                 <User className="w-5 h-5 text-white/70 absolute end-4 top-1/2 -translate-y-1/2 pointer-events-none" />
@@ -252,9 +260,17 @@ export const AdminLoginModal: React.FC = () => {
               </button>
             </div>
 
-            {/* Default credentials hint */}
-            <div className="text-center text-[11px] text-white/60 mt-2.5 font-sans">
-              سۈكۈتتىكى نامى: <span className="font-mono text-white/90">admin</span> | نومۇرى: <span className="font-mono text-white/90">admin123</span>
+            {/* Default credentials hint & Reset Button */}
+            <div className="text-center text-[11px] text-white/70 mt-3 font-sans flex items-center justify-center gap-1.5 flex-wrap">
+              <span>سۈكۈتتىكى نامى: <strong className="font-mono text-white">admin</strong> | نومۇرى: <strong className="font-mono text-white">admin123</strong></span>
+              <button
+                type="button"
+                onClick={handleResetDefault}
+                className="text-amber-300 hover:text-amber-200 underline font-medium cursor-pointer ms-1"
+                title="مەخپىي نومۇرنى ئەسلىگە قايتۇرۇش"
+              >
+                [دەسلەپكى ھالەتكە قايتۇرۇش]
+              </button>
             </div>
 
             {/* Footer Attribution (exact match to uploaded design) */}

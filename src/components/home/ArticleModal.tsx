@@ -19,7 +19,8 @@ import {
   FileText,
   Layers,
   ChevronRight,
-  Compass
+  Compass,
+  ExternalLink
 } from 'lucide-react';
 import { translateMetadata } from '../../utils/translator';
 
@@ -78,6 +79,13 @@ export const ArticleModal: React.FC = () => {
   if (!selectedArticle) return null;
 
   const category = CATEGORIES.find(c => c.key === selectedArticle.category);
+
+  const sourceUrl = 
+    selectedArticle.specs?.['ئەسلى ئۇلانما'] || 
+    (selectedArticle.specs as any)?.sourceUrl || 
+    (selectedArticle.specs as any)?.['مەنبە ئۇلانمىسى'] ||
+    (selectedArticle as any).sourceUrl ||
+    (selectedArticle.specs?.origin?.startsWith('http') ? selectedArticle.specs.origin : null);
 
   const isHardware = Boolean(
     (selectedArticle.category === 'weapons' || selectedArticle.category === 'drones') &&
@@ -238,6 +246,33 @@ export const ArticleModal: React.FC = () => {
             <h1 className="text-2xl sm:text-3xl md:text-4xl xl:text-[2.6rem] font-black text-[var(--text-primary)] leading-tight tracking-tight">
               {selectedArticle.title[language] || selectedArticle.title.ug}
             </h1>
+
+            {/* Direct Source Reference Button */}
+            {sourceUrl && (
+              <div className="p-3 sm:p-4 rounded-xl bg-[var(--bg-surface)] border border-emerald-500/40 flex flex-wrap items-center justify-between gap-3 shadow-sm">
+                <div className="flex items-center gap-2.5 text-xs">
+                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />
+                  <span className="font-bold text-emerald-400 font-mono">
+                    {language === 'en' ? 'ORIGINAL INTEL SOURCE:' : language === 'ar' ? 'المصدر الأصلي للتقرير:' : 'ئەسلى خەۋەر ۋە تەھلىل مەنبەسى:'}
+                  </span>
+                  <span className="text-[var(--text-secondary)] font-medium">
+                    {selectedArticle.specs?.['مەنبە'] || selectedArticle.author || 'ئەسلى مەنبە'}
+                  </span>
+                </div>
+
+                <a
+                  href={sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-xs sm:text-sm flex items-center gap-2 shadow-md hover:shadow-emerald-900/40 transition-all group shrink-0"
+                >
+                  <ExternalLink className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                  <span>
+                    {language === 'en' ? 'Open Original Source' : language === 'ar' ? 'فتح المصدر الأصلي' : '🌐 ئەسلى مەنبەدىن كۆرۈش'}
+                  </span>
+                </a>
+              </div>
+            )}
 
             {/* Strategic Executive Summary (Lead Briefing Box) */}
             <div className="relative p-5 sm:p-7 rounded-2xl bg-[var(--bg-surface)] border-2 border-[var(--border-color)] shadow-[0_0_30px_var(--accent-glow)]/15 overflow-hidden">
@@ -468,22 +503,38 @@ export const ArticleModal: React.FC = () => {
               )}
 
               {/* Action Deck Buttons inside Sidebar */}
-              <div className="pt-2 flex items-center gap-3">
-                <button
-                  onClick={() => window.print()}
-                  className="flex-1 py-2.5 px-3 rounded-xl bg-[var(--bg-main)] hover:bg-[var(--bg-card-hover)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] text-xs font-bold text-[var(--text-primary)] flex items-center justify-center gap-2 transition-all"
-                >
-                  <Printer className="w-4 h-4 text-[var(--accent-primary)]" />
-                  <span>{language === 'en' ? 'Print Dossier' : language === 'ar' ? 'طباعة التقرير' : 'دوكلات بېسىش'}</span>
-                </button>
+              <div className="pt-2 space-y-2.5">
+                {sourceUrl && (
+                  <a
+                    href={sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-full py-2.5 px-3 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 shadow-lg shadow-emerald-900/30 transition-all group"
+                  >
+                    <ExternalLink className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                    <span>
+                      {language === 'en' ? 'View Original Source' : language === 'ar' ? 'عرض المصدر الأصلي' : '🌐 ئەسلى مەنبەدىن كۆرۈش'}
+                    </span>
+                  </a>
+                )}
 
-                <button
-                  onClick={handleCopyLink}
-                  className="flex-1 py-2.5 px-3 rounded-xl bg-[var(--accent-primary)]/15 hover:bg-[var(--accent-primary)]/25 border border-[var(--accent-primary)] text-xs font-bold text-[var(--accent-primary)] flex items-center justify-center gap-2 transition-all"
-                >
-                  {copied ? <Check className="w-4 h-4 text-emerald-400" /> : <Share2 className="w-4 h-4" />}
-                  <span>{copied ? (language === 'en' ? 'Copied' : language === 'ar' ? 'تم النسخ' : 'كۆچۈرۈلدى') : (language === 'en' ? 'Share Link' : language === 'ar' ? 'مشاركة' : 'ھەمبەھىرلەش')}</span>
-                </button>
+                <div className="flex items-center gap-3">
+                  <button
+                    onClick={() => window.print()}
+                    className="flex-1 py-2.5 px-3 rounded-xl bg-[var(--bg-main)] hover:bg-[var(--bg-card-hover)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] text-xs font-bold text-[var(--text-primary)] flex items-center justify-center gap-2 transition-all"
+                  >
+                    <Printer className="w-4 h-4 text-[var(--accent-primary)]" />
+                    <span>{language === 'en' ? 'Print Dossier' : language === 'ar' ? 'طباعة التقرير' : 'دوكلات بېسىش'}</span>
+                  </button>
+
+                  <button
+                    onClick={handleCopyLink}
+                    className="flex-1 py-2.5 px-3 rounded-xl bg-[var(--accent-primary)]/15 hover:bg-[var(--accent-primary)]/25 border border-[var(--accent-primary)] text-xs font-bold text-[var(--accent-primary)] flex items-center justify-center gap-2 transition-all"
+                  >
+                    {copied ? <Check className="w-4 h-4 text-emerald-400" /> : <Share2 className="w-4 h-4" />}
+                    <span>{copied ? (language === 'en' ? 'Copied' : language === 'ar' ? 'تم النسخ' : 'كۆچۈرۈلدى') : (language === 'en' ? 'Share Link' : language === 'ar' ? 'مشاركة' : 'ھەمبەھىرلەش')}</span>
+                  </button>
+                </div>
               </div>
 
             </div>

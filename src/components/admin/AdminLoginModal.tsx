@@ -107,7 +107,15 @@ export const AdminLoginModal: React.FC = () => {
         
         {/* Close Button */}
         <button
-          onClick={() => setIsLoginModalOpen(false)}
+          onClick={() => {
+            setIsLoginModalOpen(false);
+            try {
+              if (window.location.pathname.includes('sensiz520') || window.location.hash.includes('sensiz520')) {
+                const basePath = window.location.pathname.replace(/\/sensiz520\/?$/, '') || '/';
+                window.history.replaceState(null, '', basePath);
+              }
+            } catch {}
+          }}
           className="absolute top-6 end-6 w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 border border-white/30 flex items-center justify-center text-white/80 hover:text-white transition-all shadow-sm"
           title={language === 'en' ? 'Close' : language === 'ar' ? 'إغلاق' : 'تاقاش'}
         >

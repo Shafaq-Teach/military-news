@@ -81,7 +81,7 @@ export const ArticleModal: React.FC = () => {
   const category = CATEGORIES.find(c => c.key === selectedArticle.category);
 
   const sourceUrl = 
-    selectedArticle.specs?.['ئەسلى ئۇلانما'] || 
+    (selectedArticle.specs as any)?.['ئەسلى ئۇلانما'] || 
     (selectedArticle.specs as any)?.sourceUrl || 
     (selectedArticle.specs as any)?.['مەنبە ئۇلانمىسى'] ||
     (selectedArticle as any).sourceUrl ||
@@ -256,7 +256,7 @@ export const ArticleModal: React.FC = () => {
                     {language === 'en' ? 'ORIGINAL INTEL SOURCE:' : language === 'ar' ? 'المصدر الأصلي للتقرير:' : 'ئەسلى خەۋەر ۋە تەھلىل مەنبەسى:'}
                   </span>
                   <span className="text-[var(--text-secondary)] font-medium">
-                    {selectedArticle.specs?.['مەنبە'] || selectedArticle.author || 'ئەسلى مەنبە'}
+                    {(selectedArticle.specs as any)?.['مەنبە'] || selectedArticle.author || 'ئەسلى مەنبە'}
                   </span>
                 </div>
 

@@ -188,26 +188,16 @@ export const Header: React.FC = () => {
               )}
             </div>
 
-            {/* 4) Admin CMS Dashboard Button (Settings Icon Only button) */}
-            <button
-              onClick={() => {
-                if (isAdminOpen) {
-                  setIsAdminOpen(false);
-                } else if (isAdminAuthenticated) {
-                  setIsAdminOpen(true);
-                } else {
-                  setIsLoginModalOpen(true);
-                }
-              }}
-              title={isAdminOpen ? t('exitAdmin') : (isAdminAuthenticated ? t('adminDashboard') : 'باشقۇرۇشقا كىرىش (Login)')}
-              className={`p-2 rounded-lg text-xs font-bold transition-all flex items-center justify-center ${
-                isAdminOpen
-                  ? 'bg-rose-600 text-white shadow-[0_0_15px_rgba(225,29,72,0.5)] border border-rose-400'
-                  : 'bg-[var(--accent-primary)]/15 border border-[var(--border-highlight)] text-[var(--accent-primary)] hover:bg-[var(--accent-primary)] hover:text-[var(--bg-main)] shadow-[0_0_12px_var(--accent-glow)]'
-              }`}
-            >
-              <Settings className={`w-4 h-4 ${isAdminOpen ? 'animate-spin' : ''}`} />
-            </button>
+            {/* 4) Admin CMS Dashboard Button: Hidden on homepage for security. Only shows exit button when admin is actively open */}
+            {isAdminOpen && (
+              <button
+                onClick={() => setIsAdminOpen(false)}
+                title={t('exitAdmin')}
+                className="p-2 rounded-lg text-xs font-bold transition-all flex items-center justify-center bg-rose-600 text-white shadow-[0_0_15px_rgba(225,29,72,0.5)] border border-rose-400"
+              >
+                <Settings className="w-4 h-4 animate-spin" />
+              </button>
+            )}
 
           </div>
 

@@ -267,35 +267,26 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
     localStorage.removeItem('mil_admin_auth');
     setIsAdminAuthenticated(false);
     setIsAdminOpen(false);
+    try {
+      if (window.location.pathname.includes('sensiz520') || window.location.hash.includes('sensiz520')) {
+        const basePath = window.location.pathname.replace(/\/sensiz520\/?$/, '') || '/';
+        window.history.replaceState(null, '', basePath);
+      }
+    } catch {}
   };
 
   const changeAdminPassword = (
     currentPass: string, 
     newPass: string, 
     newUser?: string
-  ): { success: boolean; error?: string } => {
+  ): { success: boolean; message?: string } => {
     const creds = getAdminCredentials();
     if (currentPass !== creds.pass) {
-      return { 
-        success: false, 
-        error: language === 'en' 
-          ? 'Current password does not match' 
-          : language === 'ar' 
-          ? 'كلمة المرور الحالية غير صحيحة' 
-          : 'ھازىرقى مەخپىي نومۇر خاتا' 
-      };
+      return { success: false, message: 'مەۋجۇت مەخپىي نومۇر خاتا كىرگۈزۈلدى' };
     }
-    if (!newPass || newPass.length < 4) {
-      return { 
-        success: false, 
-        error: language === 'en' 
-          ? 'New password must be at least 4 characters' 
-          : language === 'ar' 
-          ? 'يجب أن تكون كلمة المرور 4 أحرف على الأقل' 
-          : 'يېڭى مەخپىي نومۇر كەم دېگەندە 4 ھەرپ ياكى سان بولسۇن' 
-      };
+    if (newPass.length < 4) {
+      return { success: false, message: 'يېڭى مەخپىي نومۇر كەم دېگەندە 4 ھەرپ ياكى سان بولسۇن' };
     }
-
     if (newUser && newUser.trim()) {
       localStorage.setItem('mil_admin_user', newUser.trim());
     }
@@ -303,25 +294,49 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
     return { success: true };
   };
 
-  // Check URL param or hash on mount to support direct linking to an article or admin
+  // Check URL path, hash or query on mount and navigation to support secret admin entry: sensiz520
   useEffect(() => {
-    try {
-      const params = new URLSearchParams(window.location.search);
-      const articleId = params.get('article') || (window.location.hash ? window.location.hash.replace('#', '') : null);
-      if (articleId && articles.length > 0) {
-        const found = articles.find(a => a.id === articleId);
-        if (found) setSelectedArticle(found);
-      }
+    const checkRoute = () => {
+      try {
+        const path = window.location.pathname.toLowerCase();
+        const hash = window.location.hash.toLowerCase();
+        const search = window.location.search.toLowerCase();
+        const params = new URLSearchParams(window.location.search);
 
-      const adminParam = params.get('admin') || params.get('login');
-      if (adminParam === 'true' || adminParam === '1') {
-        if (isAdminAuthenticated) {
-          setIsAdminOpen(true);
-        } else {
-          setIsLoginModalOpen(true);
+        const articleId = params.get('article') || (window.location.hash && !hash.includes('sensiz520') ? window.location.hash.replace('#', '') : null);
+        if (articleId && articles.length > 0) {
+          const found = articles.find(a => a.id === articleId);
+          if (found) setSelectedArticle(found);
         }
-      }
-    } catch {}
+
+        // Secret Admin URL detection: 'sensiz520'
+        // Supports:
+        // https://shafaq-teach.github.io/military-news/sensiz520
+        // https://shafaq-teach.github.io/military-news/#sensiz520
+        // https://shafaq-teach.github.io/military-news/?sensiz520
+        const isSecretAdminRoute =
+          path.includes('sensiz520') ||
+          hash.includes('sensiz520') ||
+          search.includes('sensiz520') ||
+          params.get('admin') === 'sensiz520';
+
+        if (isSecretAdminRoute) {
+          if (isAdminAuthenticated) {
+            setIsAdminOpen(true);
+          } else {
+            setIsLoginModalOpen(true);
+          }
+        }
+      } catch {}
+    };
+
+    checkRoute();
+    window.addEventListener('hashchange', checkRoute);
+    window.addEventListener('popstate', checkRoute);
+    return () => {
+      window.removeEventListener('hashchange', checkRoute);
+      window.removeEventListener('popstate', checkRoute);
+    };
   }, [articles, isAdminAuthenticated]);
 
   // Sync Language with DOM dir, lang and local storage

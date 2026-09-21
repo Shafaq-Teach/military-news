@@ -18,6 +18,15 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
 
   const categoryInfo = CATEGORIES.find(c => c.key === article.category);
 
+  const isHardware = Boolean(
+    (article.category === 'weapons' || article.category === 'drones') &&
+    article.specs?.speed &&
+    article.specs.speed !== 'N/A' &&
+    !article.specs.speed.toLowerCase().includes('strategic') &&
+    !article.specs.speed.toLowerCase().includes('inference') &&
+    !article.specs.speed.toLowerCase().includes('quarterly')
+  );
+
   return (
     <div 
       onClick={() => setSelectedArticle(article)}
@@ -83,27 +92,50 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
         </p>
       </div>
 
-      {/* Quick Specs Matrix Bar (Mach, Range, Payload) */}
-      <div className="grid grid-cols-3 gap-2 py-2 px-3 rounded-lg bg-[var(--bg-main)]/80 border border-[var(--border-color)] mb-4 text-center">
-        <div>
-          <div className="text-[9px] text-[var(--text-muted)]">{t('speed')}</div>
-          <div className="text-xs font-bold font-mono text-[var(--accent-primary)] truncate">
-            {translateMetadata(article.specs.speed, language)}
+      {/* Quick Specs Matrix Bar (Hardware vs Intel Dossier) */}
+      {isHardware ? (
+        <div className="grid grid-cols-3 gap-2 py-2 px-3 rounded-lg bg-[var(--bg-main)]/80 border border-[var(--border-color)] mb-4 text-center">
+          <div>
+            <div className="text-[9px] text-[var(--text-muted)]">{t('speed')}</div>
+            <div className="text-xs font-bold font-mono text-[var(--accent-primary)] truncate">
+              {translateMetadata(article.specs.speed, language)}
+            </div>
+          </div>
+          <div className="border-x border-[var(--border-color)] px-1">
+            <div className="text-[9px] text-[var(--text-muted)]">{t('range')}</div>
+            <div className="text-xs font-bold font-mono text-[var(--accent-secondary)] truncate">
+              {translateMetadata(article.specs.range, language)}
+            </div>
+          </div>
+          <div>
+            <div className="text-[9px] text-[var(--text-muted)]">{t('payload')}</div>
+            <div className="text-xs font-bold font-mono text-[var(--text-primary)] truncate">
+              {translateMetadata(article.specs.payload, language)}
+            </div>
           </div>
         </div>
-        <div className="border-x border-[var(--border-color)] px-1">
-          <div className="text-[9px] text-[var(--text-muted)]">{t('range')}</div>
-          <div className="text-xs font-bold font-mono text-[var(--accent-secondary)] truncate">
-            {translateMetadata(article.specs.range, language)}
+      ) : (
+        <div className="grid grid-cols-3 gap-2 py-2 px-3 rounded-lg bg-[var(--bg-main)]/80 border border-[var(--border-color)] mb-4 text-center">
+          <div>
+            <div className="text-[9px] text-[var(--text-muted)]">{language === 'en' ? 'Domain' : language === 'ar' ? 'المجال' : 'سەھىپە'}</div>
+            <div className="text-xs font-bold text-[var(--accent-primary)] truncate font-sans">
+              {categoryInfo?.name[language] || categoryInfo?.name.ug}
+            </div>
+          </div>
+          <div className="border-x border-[var(--border-color)] px-1">
+            <div className="text-[9px] text-[var(--text-muted)]">{language === 'en' ? 'Source' : language === 'ar' ? 'المصدر' : 'مەنبە'}</div>
+            <div className="text-xs font-bold text-[var(--accent-secondary)] truncate font-sans">
+              {article.author}
+            </div>
+          </div>
+          <div>
+            <div className="text-[9px] text-[var(--text-muted)]">{language === 'en' ? 'Status' : language === 'ar' ? 'الحالة' : 'ھالىتى'}</div>
+            <div className="text-xs font-bold text-[var(--text-primary)] truncate font-sans">
+              {translateMetadata(article.specs.status, language) || (language === 'en' ? 'VERIFIED' : language === 'ar' ? 'موثق' : 'تەستىقلانغان')}
+            </div>
           </div>
         </div>
-        <div>
-          <div className="text-[9px] text-[var(--text-muted)]">{t('payload')}</div>
-          <div className="text-xs font-bold font-mono text-[var(--text-primary)] truncate">
-            {translateMetadata(article.specs.payload, language)}
-          </div>
-        </div>
-      </div>
+      )}
 
       {/* Footer Details: Author, Views, and Button */}
       <div className="flex items-center justify-between pt-2 border-t border-[var(--border-color)] text-xs">

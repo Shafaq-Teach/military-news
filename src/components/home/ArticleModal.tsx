@@ -33,6 +33,15 @@ export const ArticleModal: React.FC = () => {
 
   const category = CATEGORIES.find(c => c.key === selectedArticle.category);
 
+  const isHardware = Boolean(
+    (selectedArticle.category === 'weapons' || selectedArticle.category === 'drones') &&
+    selectedArticle.specs?.speed &&
+    selectedArticle.specs.speed !== 'N/A' &&
+    !selectedArticle.specs.speed.toLowerCase().includes('strategic') &&
+    !selectedArticle.specs.speed.toLowerCase().includes('inference') &&
+    !selectedArticle.specs.speed.toLowerCase().includes('quarterly')
+  );
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 overflow-y-auto bg-black/80 backdrop-blur-md animate-in fade-in duration-200">
       
@@ -110,51 +119,82 @@ export const ArticleModal: React.FC = () => {
           <div className="bg-[var(--bg-main)]/90 border border-[var(--border-color)] rounded-xl p-4 sm:p-5">
             <h3 className="text-xs font-bold text-[var(--accent-primary)] uppercase mb-4 flex items-center gap-2">
               <Zap className="w-4 h-4" />
-              <span>{t('quickSpecs')} (TECHNICAL TELEMETRY)</span>
+              <span>
+                {isHardware
+                  ? `${t('quickSpecs')} (TECHNICAL TELEMETRY)`
+                  : (language === 'en' ? 'INTEL DOSSIER OVERVIEW' : language === 'ar' ? 'بيانات التقرير التكتيكي' : 'ئاخبارات ۋە تەھلىل مەلۇماتى')}
+              </span>
             </h3>
 
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 text-xs">
-              <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
-                <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">{t('speed')}</span>
-                <span className="text-sm font-bold text-[var(--accent-primary)] font-mono">{translateMetadata(selectedArticle.specs.speed, language)}</span>
-              </div>
-              <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
-                <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">{t('range')}</span>
-                <span className="text-sm font-bold text-[var(--accent-secondary)] font-mono">{translateMetadata(selectedArticle.specs.range, language)}</span>
-              </div>
-              <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
-                <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">{t('payload')}</span>
-                <span className="text-sm font-bold text-[var(--text-primary)] font-mono">{translateMetadata(selectedArticle.specs.payload, language)}</span>
-              </div>
-              <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
-                <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">{t('origin')}</span>
-                <span className="text-sm font-bold text-amber-300 font-sans">{translateMetadata(selectedArticle.specs.origin, language)}</span>
-              </div>
-
-              {selectedArticle.specs.radarCrossSection && (
+            {isHardware ? (
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 text-xs">
                 <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
-                  <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">{t('rcs')}</span>
-                  <span className="text-xs font-bold text-emerald-400 font-mono">{selectedArticle.specs.radarCrossSection}</span>
+                  <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">{t('speed')}</span>
+                  <span className="text-sm font-bold text-[var(--accent-primary)] font-mono">{translateMetadata(selectedArticle.specs.speed, language)}</span>
                 </div>
-              )}
-
-              {selectedArticle.specs.ceiling && (
                 <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
-                  <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">{t('ceiling')}</span>
-                  <span className="text-xs font-bold text-sky-400 font-mono">{selectedArticle.specs.ceiling}</span>
+                  <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">{t('range')}</span>
+                  <span className="text-sm font-bold text-[var(--accent-secondary)] font-mono">{translateMetadata(selectedArticle.specs.range, language)}</span>
                 </div>
-              )}
+                <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
+                  <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">{t('payload')}</span>
+                  <span className="text-sm font-bold text-[var(--text-primary)] font-mono">{translateMetadata(selectedArticle.specs.payload, language)}</span>
+                </div>
+                <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
+                  <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">{t('origin')}</span>
+                  <span className="text-sm font-bold text-amber-300 font-sans">{translateMetadata(selectedArticle.specs.origin, language)}</span>
+                </div>
 
-              <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
-                <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">{t('status')}</span>
-                <span className="text-xs font-bold text-[var(--text-secondary)] font-sans">{translateMetadata(selectedArticle.specs.status, language)}</span>
-              </div>
+                {selectedArticle.specs.radarCrossSection && selectedArticle.specs.radarCrossSection !== 'N/A' && (
+                  <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
+                    <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">{t('rcs')}</span>
+                    <span className="text-xs font-bold text-emerald-400 font-mono">{selectedArticle.specs.radarCrossSection}</span>
+                  </div>
+                )}
 
-              <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
-                <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">{t('clearance')}</span>
-                <span className="text-xs font-bold text-red-400 font-sans">{translateMetadata(selectedArticle.specs.clearance, language)}</span>
+                {selectedArticle.specs.ceiling && selectedArticle.specs.ceiling !== 'N/A' && (
+                  <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
+                    <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">{t('ceiling')}</span>
+                    <span className="text-xs font-bold text-sky-400 font-mono">{selectedArticle.specs.ceiling}</span>
+                  </div>
+                )}
               </div>
-            </div>
+            ) : (
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 text-xs">
+                <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
+                  <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">
+                    {language === 'en' ? 'INTEL DOMAIN' : language === 'ar' ? 'المجال التكتيكي' : 'تەھلىل ساھەسى'}
+                  </span>
+                  <span className="text-xs sm:text-sm font-bold text-[var(--accent-primary)] font-sans">
+                    {category?.name[language] || category?.name.ug}
+                  </span>
+                </div>
+                <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
+                  <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">
+                    {language === 'en' ? 'ANALYST / AGENCY' : language === 'ar' ? 'الباحث / المصدر' : 'تەتقىقاتچى / ئورگان'}
+                  </span>
+                  <span className="text-xs sm:text-sm font-bold text-[var(--accent-secondary)] font-sans">
+                    {selectedArticle.author}
+                  </span>
+                </div>
+                <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
+                  <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">
+                    {language === 'en' ? 'CLASSIFICATION' : language === 'ar' ? 'درجة التصنيف' : 'ئاخبارات دەرىجىسى'}
+                  </span>
+                  <span className="text-xs sm:text-sm font-bold text-amber-300 font-sans">
+                    {translateMetadata(selectedArticle.specs.clearance, language)}
+                  </span>
+                </div>
+                <div className="p-3 rounded bg-[var(--bg-surface)] border border-[var(--border-color)]">
+                  <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">
+                    {language === 'en' ? 'STATUS' : language === 'ar' ? 'الحالة' : 'ھالىتى'}
+                  </span>
+                  <span className="text-xs sm:text-sm font-bold text-emerald-400 font-sans">
+                    {translateMetadata(selectedArticle.specs.status, language) || 'دەلىللەنگەن'}
+                  </span>
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Deep Analysis Content */}

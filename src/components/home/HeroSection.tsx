@@ -54,6 +54,16 @@ export const HeroSection: React.FC = () => {
   const activeArticle = latestArticles[currentIndex] || articles[0];
   const activeCategoryInfo = CATEGORIES.find(c => c.key === activeArticle?.category);
 
+  const isHardware = Boolean(
+    activeArticle &&
+    (activeArticle.category === 'weapons' || activeArticle.category === 'drones') &&
+    activeArticle.specs?.speed &&
+    activeArticle.specs.speed !== 'N/A' &&
+    !activeArticle.specs.speed.toLowerCase().includes('strategic') &&
+    !activeArticle.specs.speed.toLowerCase().includes('inference') &&
+    !activeArticle.specs.speed.toLowerCase().includes('quarterly')
+  );
+
   const handleNext = () => {
     setCurrentIndex(prev => (prev + 1) % latestArticles.length);
   };
@@ -238,27 +248,56 @@ export const HeroSection: React.FC = () => {
                 {activeArticle.summary[language] || activeArticle.summary.ug}
               </p>
 
-              {/* Quick Specs Badges */}
-              <div className="grid grid-cols-3 gap-2 sm:gap-3 pt-1">
-                <div className="p-2 sm:p-2.5 rounded bg-[var(--bg-main)]/90 border border-[var(--border-color)] text-center">
-                  <div className="text-[10px] text-[var(--text-muted)]">{t('speed')}</div>
-                  <div className="text-xs sm:text-sm font-bold text-[var(--accent-primary)] font-mono truncate">
-                    {translateMetadata(activeArticle.specs.speed, language)}
+              {/* Quick Telemetry / Specs Badges (Hardware Platform vs Intel Dossier) */}
+              {isHardware ? (
+                <div className="grid grid-cols-3 gap-2 sm:gap-3 pt-1">
+                  <div className="p-2 sm:p-2.5 rounded bg-[var(--bg-main)]/90 border border-[var(--border-color)] text-center">
+                    <div className="text-[10px] text-[var(--text-muted)]">{t('speed')}</div>
+                    <div className="text-xs sm:text-sm font-bold text-[var(--accent-primary)] font-mono truncate">
+                      {translateMetadata(activeArticle.specs.speed, language)}
+                    </div>
+                  </div>
+                  <div className="p-2 sm:p-2.5 rounded bg-[var(--bg-main)]/90 border border-[var(--border-color)] text-center">
+                    <div className="text-[10px] text-[var(--text-muted)]">{t('range')}</div>
+                    <div className="text-xs sm:text-sm font-bold text-[var(--accent-secondary)] font-mono truncate">
+                      {translateMetadata(activeArticle.specs.range, language)}
+                    </div>
+                  </div>
+                  <div className="p-2 sm:p-2.5 rounded bg-[var(--bg-main)]/90 border border-[var(--border-color)] text-center">
+                    <div className="text-[10px] text-[var(--text-muted)]">{t('payload')}</div>
+                    <div className="text-xs sm:text-sm font-bold text-[var(--text-primary)] font-mono truncate">
+                      {translateMetadata(activeArticle.specs.payload, language)}
+                    </div>
                   </div>
                 </div>
-                <div className="p-2 sm:p-2.5 rounded bg-[var(--bg-main)]/90 border border-[var(--border-color)] text-center">
-                  <div className="text-[10px] text-[var(--text-muted)]">{t('range')}</div>
-                  <div className="text-xs sm:text-sm font-bold text-[var(--accent-secondary)] font-mono truncate">
-                    {translateMetadata(activeArticle.specs.range, language)}
+              ) : (
+                <div className="grid grid-cols-3 gap-2 sm:gap-3 pt-1">
+                  <div className="p-2 sm:p-2.5 rounded bg-[var(--bg-main)]/90 border border-[var(--border-color)] text-center">
+                    <div className="text-[10px] text-[var(--text-muted)]">
+                      {language === 'en' ? 'INTEL DOMAIN' : language === 'ar' ? 'المجال التكتيكي' : 'ئاخبارات ساھەسى'}
+                    </div>
+                    <div className="text-xs sm:text-sm font-bold text-[var(--accent-primary)] truncate font-sans">
+                      {activeCategoryInfo?.name[language] || activeCategoryInfo?.name.ug}
+                    </div>
+                  </div>
+                  <div className="p-2 sm:p-2.5 rounded bg-[var(--bg-main)]/90 border border-[var(--border-color)] text-center">
+                    <div className="text-[10px] text-[var(--text-muted)]">
+                      {language === 'en' ? 'AUTHOR / SOURCE' : language === 'ar' ? 'المصدر' : 'ئاپتور / مەنبە'}
+                    </div>
+                    <div className="text-xs sm:text-sm font-bold text-[var(--accent-secondary)] truncate font-sans">
+                      {activeArticle.author}
+                    </div>
+                  </div>
+                  <div className="p-2 sm:p-2.5 rounded bg-[var(--bg-main)]/90 border border-[var(--border-color)] text-center">
+                    <div className="text-[10px] text-[var(--text-muted)]">
+                      {language === 'en' ? 'INTEL STATUS' : language === 'ar' ? 'الحالة' : 'تەھلىل ھالىتى'}
+                    </div>
+                    <div className="text-xs sm:text-sm font-bold text-[var(--text-primary)] truncate font-sans">
+                      {translateMetadata(activeArticle.specs.status, language) || (language === 'en' ? 'VERIFIED' : language === 'ar' ? 'موثق' : 'دەلىللەنگەن')}
+                    </div>
                   </div>
                 </div>
-                <div className="p-2 sm:p-2.5 rounded bg-[var(--bg-main)]/90 border border-[var(--border-color)] text-center">
-                  <div className="text-[10px] text-[var(--text-muted)]">{t('payload')}</div>
-                  <div className="text-xs sm:text-sm font-bold text-[var(--text-primary)] font-mono truncate">
-                    {translateMetadata(activeArticle.specs.payload, language)}
-                  </div>
-                </div>
-              </div>
+              )}
 
               {/* Action Buttons */}
               <div className="pt-2 flex flex-wrap items-center gap-3">

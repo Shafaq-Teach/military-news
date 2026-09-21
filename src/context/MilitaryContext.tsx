@@ -89,6 +89,23 @@ const saveDeletedId = (id: string) => {
   }
 };
 
+const sanitizeArticle = (a: Article): Article => {
+  if (a.category !== 'weapons' && a.category !== 'drones') {
+    if (a.specs) {
+      return {
+        ...a,
+        specs: {
+          ...a.specs,
+          speed: 'N/A',
+          range: 'N/A',
+          payload: 'N/A'
+        }
+      };
+    }
+  }
+  return a;
+};
+
 export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   // 1. Language state
   const [language, setLanguageState] = useState<Language>(() => {
@@ -114,7 +131,7 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
       if (saved) {
         try {
           const parsed = JSON.parse(saved);
-          return Array.isArray(parsed) ? parsed.filter((a: Article) => !deletedIds.has(a.id)) : [];
+          return Array.isArray(parsed) ? parsed.filter((a: Article) => !deletedIds.has(a.id)).map(sanitizeArticle) : [];
         } catch {
           return [];
         }
@@ -127,13 +144,13 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
       try {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed)) {
-          return parsed.filter((a: Article) => !deletedIds.has(a.id));
+          return parsed.filter((a: Article) => !deletedIds.has(a.id)).map(sanitizeArticle);
         }
       } catch (e) {
         console.error('Failed to parse articles from storage', e);
       }
     }
-    return INITIAL_ARTICLES.filter(a => !deletedIds.has(a.id));
+    return INITIAL_ARTICLES.filter(a => !deletedIds.has(a.id)).map(sanitizeArticle);
   });
 
   // Load online published articles dynamically from news.json (updated by n8n or automation)

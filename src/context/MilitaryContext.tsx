@@ -70,6 +70,25 @@ const THEMES_LIST: ThemeId[] = ['cyber-teal', 'black-ops', 'combat-alert', 'dese
 
 const MilitaryContext = createContext<MilitaryContextType | undefined>(undefined);
 
+const getDeletedIds = (): Set<string> => {
+  try {
+    const raw = localStorage.getItem('mil_deleted_ids');
+    return raw ? new Set(JSON.parse(raw)) : new Set();
+  } catch {
+    return new Set();
+  }
+};
+
+const saveDeletedId = (id: string) => {
+  try {
+    const deleted = getDeletedIds();
+    deleted.add(id);
+    localStorage.setItem('mil_deleted_ids', JSON.stringify(Array.from(deleted)));
+  } catch (e) {
+    console.error('Failed to save deleted ID', e);
+  }
+};
+
 export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   // 1. Language state
   const [language, setLanguageState] = useState<Language>(() => {
@@ -88,13 +107,14 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
 
   // 4. Articles state
   const [articles, setArticles] = useState<Article[]>(() => {
-    // If user explicitly wiped out all articles, do not repopulate demo articles
+    const deletedIds = getDeletedIds();
     const isCleared = localStorage.getItem('mil_articles_cleared') === 'true';
     if (isCleared) {
       const saved = localStorage.getItem('mil_articles');
       if (saved) {
         try {
-          return JSON.parse(saved);
+          const parsed = JSON.parse(saved);
+          return Array.isArray(parsed) ? parsed.filter((a: Article) => !deletedIds.has(a.id)) : [];
         } catch {
           return [];
         }
@@ -105,23 +125,55 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
     const saved = localStorage.getItem('mil_articles');
     if (saved !== null) {
       try {
-        return JSON.parse(saved);
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed)) {
+          return parsed.filter((a: Article) => !deletedIds.has(a.id));
+        }
       } catch (e) {
         console.error('Failed to parse articles from storage', e);
       }
     }
-    return INITIAL_ARTICLES;
+    return INITIAL_ARTICLES.filter(a => !deletedIds.has(a.id));
   });
 
-  // Load online published articles dynamically from news.json (updated by n8n)
+  // Load online published articles dynamically from news.json (updated by n8n or automation)
   useEffect(() => {
     fetch('./news.json?t=' + Date.now())
       .then(res => res.ok ? res.json() : [])
-      .then((onlineArticles: Article[]) => {
+      .then((onlineArticles: any[]) => {
         if (Array.isArray(onlineArticles) && onlineArticles.length > 0) {
+          const deletedIds = getDeletedIds();
           setArticles(prev => {
             const existingIds = new Set(prev.map(a => a.id));
-            const newItems = onlineArticles.filter(a => !existingIds.has(a.id));
+            const newItems = onlineArticles
+              .filter(a => a && a.id && !existingIds.has(a.id) && !deletedIds.has(a.id))
+              .map(a => ({
+                ...a,
+                title: {
+                  ug: a.title?.ug || a.title?.en || '',
+                  ar: a.title?.ar || a.title?.ug || a.title?.en || '',
+                  en: a.title?.en || a.title?.ug || ''
+                },
+                summary: {
+                  ug: a.summary?.ug || a.summary?.en || '',
+                  ar: a.summary?.ar || a.summary?.ug || a.summary?.en || '',
+                  en: a.summary?.en || a.summary?.ug || ''
+                },
+                content: {
+                  ug: a.content?.ug || a.content?.en || '',
+                  ar: a.content?.ar || a.content?.ug || a.content?.en || '',
+                  en: a.content?.en || a.content?.ug || ''
+                },
+                specs: {
+                  speed: a.specs?.speed || a.specs?.['تېزلىكى'] || 'N/A',
+                  range: a.specs?.range || a.specs?.['دائىرىسى'] || 'N/A',
+                  payload: a.specs?.payload || a.specs?.['يۈكى'] || 'N/A',
+                  origin: a.specs?.origin || a.specs?.['ئىشلەپچىقارغۇچى'] || a.specs?.['مەنبە'] || 'دۇنياۋى ئاخبارات',
+                  status: a.specs?.status || a.specs?.['ھالىتى'] || 'ئاكتىپ',
+                  clearance: a.specs?.clearance || a.specs?.['دەرىجىسى'] || 'ئاشكارا تاكتىكىلىق ئاخبارات'
+                }
+              }));
+
             if (newItems.length > 0) {
               return [...newItems, ...prev];
             }
@@ -234,6 +286,7 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
   };
 
   const deleteArticle = (id: string) => {
+    saveDeletedId(id);
     setArticles(prev => {
       const updated = prev.filter(a => a.id !== id);
       if (updated.length === 0) {
@@ -247,6 +300,8 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
   };
 
   const clearAllArticles = () => {
+    articles.forEach(a => saveDeletedId(a.id));
+    INITIAL_ARTICLES.forEach(a => saveDeletedId(a.id));
     setArticles([]);
     setSelectedArticle(null);
     localStorage.setItem('mil_articles', JSON.stringify([]));
@@ -258,6 +313,7 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
   };
 
   const resetToDemo = () => {
+    localStorage.removeItem('mil_deleted_ids');
     localStorage.removeItem('mil_articles_cleared');
     setArticles(INITIAL_ARTICLES);
     setSiteSettings(DEFAULT_SETTINGS);

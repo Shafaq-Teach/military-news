@@ -14,7 +14,8 @@ import {
   Sparkles,
   Pause,
   Play,
-  ExternalLink
+  ExternalLink,
+  FilePlus2
 } from 'lucide-react';
 import { CATEGORIES } from '../../data/categories';
 import { translateMetadata } from '../../utils/translator';
@@ -26,6 +27,7 @@ export const HeroSection: React.FC = () => {
     searchQuery, 
     setSearchQuery, 
     setSelectedArticle,
+    setIsAdminOpen,
     t 
   } = useMilitary();
 
@@ -112,11 +114,29 @@ export const HeroSection: React.FC = () => {
         </div>
 
         {/* Main Hero HUD Showcase - Auto-rotating 5 latest articles */}
-        <div 
-          onMouseEnter={() => setIsPaused(true)}
-          onMouseLeave={() => setIsPaused(false)}
-          className="bg-[var(--bg-surface)]/90 border border-[var(--border-color)] rounded-2xl p-4 sm:p-6 lg:p-8 hud-cut-corner relative shadow-[0_0_30px_rgba(0,0,0,0.4)]"
-        >
+        {!activeArticle ? (
+          <div className="bg-[var(--bg-surface)]/90 border border-dashed border-[var(--border-color)] rounded-2xl p-8 sm:p-12 text-center space-y-4 hud-cut-corner shadow-[0_0_30px_rgba(0,0,0,0.4)] my-4">
+            <Shield className="w-12 h-12 text-[var(--accent-primary)] mx-auto opacity-70 animate-pulse" />
+            <h3 className="text-base sm:text-lg font-bold text-[var(--text-primary)]">
+              {t('noArticlesHero')}
+            </h3>
+            <p className="text-xs text-[var(--text-secondary)] max-w-md mx-auto leading-relaxed">
+              {t('noArticlesHeroDesc')}
+            </p>
+            <button
+              onClick={() => setIsAdminOpen(true)}
+              className="px-5 py-2.5 rounded-lg bg-[var(--accent-primary)] text-[var(--bg-main)] font-bold text-xs hover:bg-[var(--accent-secondary)] transition-all inline-flex items-center gap-2 shadow-[0_0_15px_var(--accent-glow)]"
+            >
+              <FilePlus2 className="w-4 h-4" />
+              <span>{t('tabPublish')}</span>
+            </button>
+          </div>
+        ) : (
+          <div 
+            onMouseEnter={() => setIsPaused(true)}
+            onMouseLeave={() => setIsPaused(false)}
+            className="bg-[var(--bg-surface)]/90 border border-[var(--border-color)] rounded-2xl p-4 sm:p-6 lg:p-8 hud-cut-corner relative shadow-[0_0_30px_rgba(0,0,0,0.4)]"
+          >
           
           {/* Top Slider Carousel Controls Bar */}
           <div className="flex flex-wrap items-center justify-between gap-3 mb-5 pb-3 border-b border-[var(--border-color)]/70">
@@ -305,6 +325,7 @@ export const HeroSection: React.FC = () => {
           </div>
 
         </div>
+      )}
 
       </div>
 

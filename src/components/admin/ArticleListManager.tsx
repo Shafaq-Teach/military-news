@@ -17,6 +17,7 @@ export const ArticleListManager: React.FC = () => {
   const { 
     articles, 
     deleteArticle, 
+    clearAllArticles,
     setSelectedArticle, 
     language, 
     t 
@@ -55,16 +56,35 @@ export const ArticleListManager: React.FC = () => {
           ))}
         </div>
 
-        {/* Search Input */}
-        <div className="relative">
-          <Search className="w-3.5 h-3.5 absolute inset-y-0 start-3 my-auto text-[var(--text-muted)]" />
-          <input
-            type="text"
-            value={filterText}
-            onChange={(e) => setFilterText(e.target.value)}
-            placeholder="ماقالىلەردىن ئىزدەش..."
-            className="ps-8 pe-3 py-1.5 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] text-xs text-[var(--text-primary)] focus:outline-none focus:border-[var(--border-highlight)]"
-          />
+        {/* Actions & Search */}
+        <div className="flex items-center gap-3">
+          {articles.length > 0 && (
+            <button
+              type="button"
+              onClick={() => {
+                if (window.confirm(t('confirmClearAll'))) {
+                  clearAllArticles();
+                }
+              }}
+              className="px-3 py-1.5 rounded-lg bg-rose-950/50 hover:bg-rose-900 border border-rose-800/80 text-rose-300 text-xs font-bold flex items-center gap-1.5 transition-colors shrink-0"
+              title={t('btnClearAll')}
+            >
+              <Trash2 className="w-3.5 h-3.5 text-rose-400" />
+              <span>{t('btnClearAll')}</span>
+            </button>
+          )}
+
+          {/* Search Input */}
+          <div className="relative">
+            <Search className="w-3.5 h-3.5 absolute inset-y-0 start-3 my-auto text-[var(--text-muted)]" />
+            <input
+              type="text"
+              value={filterText}
+              onChange={(e) => setFilterText(e.target.value)}
+              placeholder="ماقالىلەردىن ئىزدەش..."
+              className="ps-8 pe-3 py-1.5 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] text-xs text-[var(--text-primary)] focus:outline-none focus:border-[var(--border-highlight)]"
+            />
+          </div>
         </div>
 
       </div>
@@ -136,7 +156,11 @@ export const ArticleListManager: React.FC = () => {
                       </button>
 
                       <button
-                        onClick={() => deleteArticle(article.id)}
+                        onClick={() => {
+                          if (window.confirm('بۇ ماقالىنى ئۆچۈرۈشنى جەزملەشتۈرەمسىز؟')) {
+                            deleteArticle(article.id);
+                          }
+                        }}
                         title="ئۆچۈرۈش"
                         className="p-1.5 rounded hover:bg-rose-950/60 text-rose-400 border border-transparent hover:border-rose-800"
                       >
@@ -147,6 +171,14 @@ export const ArticleListManager: React.FC = () => {
                 </tr>
               );
             })}
+
+            {filtered.length === 0 && (
+              <tr>
+                <td colSpan={6} className="p-8 text-center text-xs text-[var(--text-muted)]">
+                  ھېچقانداق ماقالە تېپىلمىدى (بارلىق ماقالىلەر بوشىتىلغان ياكى ئىزدەش نەتىجىسى يوق).
+                </td>
+              </tr>
+            )}
           </tbody>
         </table>
       </div>

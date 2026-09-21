@@ -33,6 +33,7 @@ interface MilitaryContextType {
   approveArticle: (id: string) => void;
   rejectArticle: (id: string) => void;
   deleteArticle: (id: string) => void;
+  clearAllArticles: () => void;
   updateSiteSettings: (settings: Partial<SiteSettings>) => void;
   resetToDemo: () => void;
   // UI Translation Helper
@@ -87,8 +88,22 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
 
   // 4. Articles state
   const [articles, setArticles] = useState<Article[]>(() => {
+    // If user explicitly wiped out all articles, do not repopulate demo articles
+    const isCleared = localStorage.getItem('mil_articles_cleared') === 'true';
+    if (isCleared) {
+      const saved = localStorage.getItem('mil_articles');
+      if (saved) {
+        try {
+          return JSON.parse(saved);
+        } catch {
+          return [];
+        }
+      }
+      return [];
+    }
+
     const saved = localStorage.getItem('mil_articles');
-    if (saved) {
+    if (saved !== null) {
       try {
         return JSON.parse(saved);
       } catch (e) {
@@ -219,10 +234,23 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
   };
 
   const deleteArticle = (id: string) => {
-    setArticles(prev => prev.filter(a => a.id !== id));
+    setArticles(prev => {
+      const updated = prev.filter(a => a.id !== id);
+      if (updated.length === 0) {
+        localStorage.setItem('mil_articles_cleared', 'true');
+      }
+      return updated;
+    });
     if (selectedArticle?.id === id) {
       setSelectedArticle(null);
     }
+  };
+
+  const clearAllArticles = () => {
+    setArticles([]);
+    setSelectedArticle(null);
+    localStorage.setItem('mil_articles', JSON.stringify([]));
+    localStorage.setItem('mil_articles_cleared', 'true');
   };
 
   const updateSiteSettings = (newSettings: Partial<SiteSettings>) => {
@@ -230,10 +258,11 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
   };
 
   const resetToDemo = () => {
+    localStorage.removeItem('mil_articles_cleared');
     setArticles(INITIAL_ARTICLES);
     setSiteSettings(DEFAULT_SETTINGS);
-    localStorage.removeItem('mil_articles');
-    localStorage.removeItem('mil_settings');
+    localStorage.setItem('mil_articles', JSON.stringify(INITIAL_ARTICLES));
+    localStorage.setItem('mil_settings', JSON.stringify(DEFAULT_SETTINGS));
   };
 
   const t = (key: string): string => {
@@ -264,6 +293,7 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
         approveArticle,
         rejectArticle,
         deleteArticle,
+        clearAllArticles,
         updateSiteSettings,
         resetToDemo,
         t

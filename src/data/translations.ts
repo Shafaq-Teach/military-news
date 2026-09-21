@@ -70,6 +70,10 @@ export const UI_TRANSLATIONS: Record<Language, Record<string, string>> = {
     settingDefcon: 'دۇنياۋى DEFCON خەتەر دەرىجىسى (1 - 5)',
     autoApproveToggle: 'يېڭى ماقالىلەرنى بىۋاسىتە ئاپتوماتىك تەستىقلاش',
     resetToDemo: 'ئەسلىدىكى 16 تال Demo مەزمۇنغا ئەسلىگە كەلتۈرۈش',
+    btnClearAll: 'بارلىق ماقالىلەرنى بىراقلا ئۆچۈرۈش (بوشىتىش)',
+    confirmClearAll: 'راستلا بارلىق ماقالىلەرنى بىراقلا ئۆچۈرۈۋېتەمسىز؟',
+    noArticlesHero: 'نۆۋەتتە ئېلان قىلىنغان ھەربىي ماقالە يوق',
+    noArticlesHeroDesc: 'بارلىق ماقالىلەر ئۆچۈرۈلدى. باشقۇرۇش مەركىزىدىن يېڭى ھۆججەت ياكى خەۋەر يوللىسىڭىز بولىدۇ.',
     viewsCount: 'كۆرۈلۈشى',
     classificationNotice: 'مەزكۇر بېكەتتىكى ئۇچۇرلار خەلقئارالىق ھەربىي تەھلىل ئۆلچىمىگە ئۇيغۇن تەييارلاندى.',
     allRightsReserved: 'بارلىق ھوقۇق قوغدىلىدۇ © 2026 ئەسكىرىي يېڭىلىقلار سۇپىسى'
@@ -142,6 +146,10 @@ export const UI_TRANSLATIONS: Record<Language, Record<string, string>> = {
     settingDefcon: 'مستوى تأهب DEFCON (1 - 5)',
     autoApproveToggle: 'اعتماد ونشر المواد الجديدة تلقائياً بدون مراجعة',
     resetToDemo: 'استعادة المحتوى التكتيكي الافتراضي (16 مادة Demo)',
+    btnClearAll: 'حذف وتفريغ جميع المقالات',
+    confirmClearAll: 'هل أنت متأكد من رغبتك في حذف وتفريغ جميع المقالات؟',
+    noArticlesHero: 'لا توجد تقارير عسكرية منشورة حالياً',
+    noArticlesHeroDesc: 'تم تفريغ كافة المقالات بنجاح. يمكنك إضافة تقرير جديد من لوحة التحكم.',
     viewsCount: 'المشاهدات',
     classificationNotice: 'المحتوى معد وفقاً للمعايير الدولية للتحليل والتوثيق العسكري.',
     allRightsReserved: 'كافة الحقوق محفوظة © 2026 منصة الأخبار العسكرية'
@@ -214,6 +222,10 @@ export const UI_TRANSLATIONS: Record<Language, Record<string, string>> = {
     settingDefcon: 'Active Strategic DEFCON Level (1 - 5)',
     autoApproveToggle: 'Auto-Authorize Inbound Submissions',
     resetToDemo: 'Restore Default 16 Tactical Demo Dossiers',
+    btnClearAll: 'Clear All Articles Permanently',
+    confirmClearAll: 'Are you sure you want to delete all articles permanently?',
+    noArticlesHero: 'NO PUBLISHED DEFENSE DOSSIERS',
+    noArticlesHeroDesc: 'All articles have been cleared. You can publish new intelligence from the Admin CMS.',
     viewsCount: 'Telemetry Views',
     classificationNotice: 'Information compiled in accordance with standard defense open-source intelligence guidelines.',
     allRightsReserved: 'All Rights Reserved © 2026 Military News & Tactical Systems'

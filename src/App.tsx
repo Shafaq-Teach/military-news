@@ -7,6 +7,7 @@ import { HeroSection } from './components/home/HeroSection';
 import { ArticleCard } from './components/home/ArticleCard';
 import { ArticleModal } from './components/home/ArticleModal';
 import { AdminDashboard } from './components/admin/AdminDashboard';
+import { AdminLoginModal } from './components/admin/AdminLoginModal';
 import { CATEGORIES } from './data/categories';
 import { ShieldAlert, RefreshCw } from 'lucide-react';
 
@@ -18,6 +19,7 @@ const MainLayout: React.FC = () => {
     setSearchQuery,
     setActiveCategory,
     isAdminOpen, 
+    isAdminAuthenticated,
     language, 
     t 
   } = useMilitary();
@@ -70,7 +72,7 @@ const MainLayout: React.FC = () => {
 
       {/* Content Area */}
       <main className="flex-1">
-        {isAdminOpen ? (
+        {isAdminOpen && isAdminAuthenticated ? (
           // Admin CMS Dashboard
           <AdminDashboard />
         ) : (
@@ -137,6 +139,9 @@ const MainLayout: React.FC = () => {
 
         {/* Full Dossier Reader Modal (renders anywhere when an article is selected/previewed) */}
         <ArticleModal />
+
+        {/* Frosted Glass Admin Login & Password Management Modal */}
+        <AdminLoginModal />
       </main>
 
       {/* Footer */}

@@ -22,6 +22,8 @@ export const Header: React.FC = () => {
     toggleDisplayMode,
     isAdminOpen, 
     setIsAdminOpen,
+    isAdminAuthenticated,
+    setIsLoginModalOpen,
     activeCategory,
     setActiveCategory,
     t
@@ -188,8 +190,16 @@ export const Header: React.FC = () => {
 
             {/* 4) Admin CMS Dashboard Button (Settings Icon Only button) */}
             <button
-              onClick={() => setIsAdminOpen(!isAdminOpen)}
-              title={isAdminOpen ? t('exitAdmin') : t('adminDashboard')}
+              onClick={() => {
+                if (isAdminOpen) {
+                  setIsAdminOpen(false);
+                } else if (isAdminAuthenticated) {
+                  setIsAdminOpen(true);
+                } else {
+                  setIsLoginModalOpen(true);
+                }
+              }}
+              title={isAdminOpen ? t('exitAdmin') : (isAdminAuthenticated ? t('adminDashboard') : 'باشقۇرۇشقا كىرىش (Login)')}
               className={`p-2 rounded-lg text-xs font-bold transition-all flex items-center justify-center ${
                 isAdminOpen
                   ? 'bg-rose-600 text-white shadow-[0_0_15px_rgba(225,29,72,0.5)] border border-rose-400'

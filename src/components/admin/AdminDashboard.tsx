@@ -17,7 +17,9 @@ import {
   AlertOctagon, 
   Eye, 
   Activity,
-  Layers
+  Layers,
+  KeyRound,
+  LogOut
 } from 'lucide-react';
 
 type AdminTab = 'overview' | 'publish' | 'approvals' | 'articles' | 'settings';
@@ -27,6 +29,8 @@ export const AdminDashboard: React.FC = () => {
     articles, 
     siteSettings, 
     setIsAdminOpen, 
+    adminLogout,
+    setIsLoginModalOpen,
     language, 
     t 
   } = useMilitary();
@@ -74,13 +78,36 @@ export const AdminDashboard: React.FC = () => {
           </div>
         </div>
 
-        <button
-          onClick={() => setIsAdminOpen(false)}
-          className="px-5 py-2.5 rounded-lg bg-[var(--bg-main)] hover:bg-[var(--bg-card-hover)] border border-[var(--border-highlight)] text-xs font-bold text-[var(--text-primary)] flex items-center gap-2 transition-all self-start sm:self-center"
-        >
-          {language === 'en' ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
-          <span>{t('exitAdmin')}</span>
-        </button>
+        <div className="flex flex-wrap items-center gap-2 self-start sm:self-center">
+          {/* Change Password Button */}
+          <button
+            onClick={() => setIsLoginModalOpen(true)}
+            className="px-3.5 py-2.5 rounded-lg bg-[var(--bg-main)] hover:bg-[var(--bg-card-hover)] border border-[var(--border-color)] text-xs font-bold text-[var(--accent-primary)] flex items-center gap-1.5 transition-all shadow-sm"
+            title={language === 'en' ? 'Change Password' : language === 'ar' ? 'تغيير كلمة المرور' : 'مەخپىي نومۇرنى ئۆزگەرتىش'}
+          >
+            <KeyRound className="w-4 h-4 text-amber-400" />
+            <span>{language === 'en' ? 'Change Password' : language === 'ar' ? 'تغيير كلمة المرور' : 'مەخپىي نومۇر ئۆزگەرتىش'}</span>
+          </button>
+
+          {/* Logout Button */}
+          <button
+            onClick={adminLogout}
+            className="px-3.5 py-2.5 rounded-lg bg-rose-500/15 hover:bg-rose-500/25 border border-rose-500/30 text-xs font-bold text-rose-400 flex items-center gap-1.5 transition-all shadow-sm"
+            title={language === 'en' ? 'Logout' : language === 'ar' ? 'تسجيل الخروج' : 'چىقىپ كېتىش'}
+          >
+            <LogOut className="w-4 h-4" />
+            <span>{language === 'en' ? 'Logout' : language === 'ar' ? 'خروج' : 'چىقىپ كېتىش'}</span>
+          </button>
+
+          {/* Return to Portal Button */}
+          <button
+            onClick={() => setIsAdminOpen(false)}
+            className="px-4 py-2.5 rounded-lg bg-[var(--bg-main)] hover:bg-[var(--bg-card-hover)] border border-[var(--border-highlight)] text-xs font-bold text-[var(--text-primary)] flex items-center gap-2 transition-all"
+          >
+            {language === 'en' ? <ArrowLeft className="w-4 h-4" /> : <ArrowRight className="w-4 h-4" />}
+            <span>{t('exitAdmin')}</span>
+          </button>
+        </div>
       </div>
 
       {/* Overview Stat Widgets */}

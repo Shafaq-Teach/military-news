@@ -28,6 +28,14 @@ interface MilitaryContextType {
   setSelectedArticle: (art: Article | null) => void;
   isAdminOpen: boolean;
   setIsAdminOpen: (open: boolean) => void;
+  isAdminAuthenticated: boolean;
+  setIsAdminAuthenticated: (auth: boolean) => void;
+  isLoginModalOpen: boolean;
+  setIsLoginModalOpen: (open: boolean) => void;
+  adminLogin: (user: string, pass: string, remember: boolean) => boolean;
+  adminLogout: () => void;
+  changeAdminPassword: (currentPass: string, newPass: string, newUser?: string) => { success: boolean; error?: string };
+  getAdminCredentials: () => { user: string; pass: string };
   // Admin Operations
   addArticle: (article: Omit<Article, 'id' | 'views' | 'date'>) => void;
   approveArticle: (id: string) => void;
@@ -220,7 +228,82 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
   const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
   const [isAdminOpen, setIsAdminOpen] = useState<boolean>(false);
 
-  // Check URL param or hash on mount to support direct linking to an article
+  // Admin Authentication State
+  const [isAdminAuthenticated, setIsAdminAuthenticated] = useState<boolean>(() => {
+    return (
+      sessionStorage.getItem('mil_admin_auth') === 'true' ||
+      localStorage.getItem('mil_admin_auth') === 'true'
+    );
+  });
+  const [isLoginModalOpen, setIsLoginModalOpen] = useState<boolean>(false);
+
+  const getAdminCredentials = () => {
+    const user = localStorage.getItem('mil_admin_user') || 'admin';
+    const pass = localStorage.getItem('mil_admin_pass') || 'admin123';
+    return { user, pass };
+  };
+
+  const adminLogin = (inputUser: string, inputPass: string, remember: boolean): boolean => {
+    const creds = getAdminCredentials();
+    const matchUser = inputUser.trim().toLowerCase() === creds.user.trim().toLowerCase();
+    const matchPass = inputPass === creds.pass;
+
+    if (matchUser && matchPass) {
+      if (remember) {
+        localStorage.setItem('mil_admin_auth', 'true');
+      } else {
+        sessionStorage.setItem('mil_admin_auth', 'true');
+      }
+      setIsAdminAuthenticated(true);
+      setIsLoginModalOpen(false);
+      setIsAdminOpen(true);
+      return true;
+    }
+    return false;
+  };
+
+  const adminLogout = () => {
+    sessionStorage.removeItem('mil_admin_auth');
+    localStorage.removeItem('mil_admin_auth');
+    setIsAdminAuthenticated(false);
+    setIsAdminOpen(false);
+  };
+
+  const changeAdminPassword = (
+    currentPass: string, 
+    newPass: string, 
+    newUser?: string
+  ): { success: boolean; error?: string } => {
+    const creds = getAdminCredentials();
+    if (currentPass !== creds.pass) {
+      return { 
+        success: false, 
+        error: language === 'en' 
+          ? 'Current password does not match' 
+          : language === 'ar' 
+          ? 'كلمة المرور الحالية غير صحيحة' 
+          : 'ھازىرقى مەخپىي نومۇر خاتا' 
+      };
+    }
+    if (!newPass || newPass.length < 4) {
+      return { 
+        success: false, 
+        error: language === 'en' 
+          ? 'New password must be at least 4 characters' 
+          : language === 'ar' 
+          ? 'يجب أن تكون كلمة المرور 4 أحرف على الأقل' 
+          : 'يېڭى مەخپىي نومۇر كەم دېگەندە 4 ھەرپ ياكى سان بولسۇن' 
+      };
+    }
+
+    if (newUser && newUser.trim()) {
+      localStorage.setItem('mil_admin_user', newUser.trim());
+    }
+    localStorage.setItem('mil_admin_pass', newPass);
+    return { success: true };
+  };
+
+  // Check URL param or hash on mount to support direct linking to an article or admin
   useEffect(() => {
     try {
       const params = new URLSearchParams(window.location.search);
@@ -229,8 +312,17 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
         const found = articles.find(a => a.id === articleId);
         if (found) setSelectedArticle(found);
       }
+
+      const adminParam = params.get('admin') || params.get('login');
+      if (adminParam === 'true' || adminParam === '1') {
+        if (isAdminAuthenticated) {
+          setIsAdminOpen(true);
+        } else {
+          setIsLoginModalOpen(true);
+        }
+      }
     } catch {}
-  }, [articles]);
+  }, [articles, isAdminAuthenticated]);
 
   // Sync Language with DOM dir, lang and local storage
   const setLanguage = (lang: Language) => {
@@ -374,6 +466,14 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
         setSelectedArticle,
         isAdminOpen,
         setIsAdminOpen,
+        isAdminAuthenticated,
+        setIsAdminAuthenticated,
+        isLoginModalOpen,
+        setIsLoginModalOpen,
+        adminLogin,
+        adminLogout,
+        changeAdminPassword,
+        getAdminCredentials,
         addArticle,
         approveArticle,
         rejectArticle,

@@ -12,7 +12,10 @@ export type CategoryKey =
   | 'intelligence'
   | 'geopolitics'
   | 'news'
-  | 'database';
+  | 'database'
+  | 'naval'
+  | 'aviation'
+  | (string & {});
 
 export type ArticleStatus = 'published' | 'pending' | 'rejected';
 

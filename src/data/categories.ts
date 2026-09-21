@@ -120,5 +120,35 @@ export const CATEGORIES: CategoryInfo[] = [
       ar: 'مواصفات تكتيكية تفصيلية للطائرات الشبحية، الغواصات والأنظمة الدفاعية',
       en: 'Standardized tactical specifications wiki for aircraft, naval assets, and armor'
     }
+  },
+  {
+    key: 'naval',
+    code: 'SEC-09',
+    iconName: 'Compass',
+    name: {
+      ug: 'دېڭىز ئارمىيىسى ۋە سۇ ئاستى پاراخوتلىرى',
+      ar: 'القوات البحرية والغواصات',
+      en: 'Naval & Submarine Fleet'
+    },
+    description: {
+      ug: 'سۇ ئاستى يادرو پاراخوتلىرى، ئاۋىئاماتكىلار ۋە دېڭىز ئۇرۇشى ئىستراتېگىيىسى',
+      ar: 'الغواصات النووية، حاملات الطائرات واستراتيجيات الردع البحري',
+      en: 'Nuclear attack submarines, aircraft carriers and naval warfare strategy'
+    }
+  },
+  {
+    key: 'aviation',
+    code: 'SEC-10',
+    iconName: 'Plane',
+    name: {
+      ug: 'ھەربىي ئاۋىئاتسىيە ۋە پەرۋاز سىستېمىلىرى',
+      ar: 'الطيران الحربي وأنظمة القتال الجوي',
+      en: 'Military Aviation & Air Supremacy'
+    },
+    description: {
+      ug: '5-ئەۋلاد ۋە 6-ئەۋلاد جەڭچى ئايروپىلانلار، بومباردىمانچىلار ۋە ئېلېكترونلۇق جەڭ ئايروپىلانلىرى',
+      ar: 'مقاتلات الجيل الخامس والسادس وقاذفات القنابل الاستراتيجية',
+      en: 'Next-gen fighters, stealth bombers and air dominance platforms'
+    }
   }
 ];

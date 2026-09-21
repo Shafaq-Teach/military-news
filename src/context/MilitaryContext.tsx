@@ -220,6 +220,18 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
   const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
   const [isAdminOpen, setIsAdminOpen] = useState<boolean>(false);
 
+  // Check URL param or hash on mount to support direct linking to an article
+  useEffect(() => {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const articleId = params.get('article') || (window.location.hash ? window.location.hash.replace('#', '') : null);
+      if (articleId && articles.length > 0) {
+        const found = articles.find(a => a.id === articleId);
+        if (found) setSelectedArticle(found);
+      }
+    } catch {}
+  }, [articles]);
+
   // Sync Language with DOM dir, lang and local storage
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);

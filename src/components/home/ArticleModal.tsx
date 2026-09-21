@@ -80,12 +80,30 @@ export const ArticleModal: React.FC = () => {
 
   const category = CATEGORIES.find(c => c.key === selectedArticle.category);
 
-  const sourceUrl = 
+  let extractedUrlFromContent: string | null = null;
+  const rawBody = selectedArticle.content?.[language] || selectedArticle.content?.ug || '';
+  const urlMatch = rawBody.match(/(?:https?:\/\/|www\.)[^\s\)\"\'\<\>]+/);
+  if (urlMatch) {
+    extractedUrlFromContent = urlMatch[0].startsWith('http') ? urlMatch[0] : `https://${urlMatch[0]}`;
+  }
+
+  const rawSourceUrl = 
     selectedArticle.specs?.['ئەسلى ئۇلانما'] || 
     (selectedArticle.specs as any)?.sourceUrl || 
     (selectedArticle.specs as any)?.['مەنبە ئۇلانمىسى'] ||
     (selectedArticle as any).sourceUrl ||
-    (selectedArticle.specs?.origin?.startsWith('http') ? selectedArticle.specs.origin : null);
+    (selectedArticle.specs?.origin?.startsWith('http') ? selectedArticle.specs.origin : null) ||
+    extractedUrlFromContent;
+
+  const sourceUrl = rawSourceUrl ? rawSourceUrl.split('?id=')[0] : null;
+
+  // Clean raw markdown link trailers from body text
+  const cleanBodyContent = rawBody
+    .replace(/\n*\s*---\s*\n*🔗\s*\*\*ئەسلى مەنبە ئۇلانمىسى:\*\*[\s\S]*$/gi, '')
+    .replace(/\n*\s*---\s*\n*🔗[\s\S]*$/gi, '')
+    .replace(/\n*🔗\s*\*\*ئەسلى مەنبە ئۇلانمىسى:\*\*[\s\S]*$/gi, '')
+    .replace(/\n*\[[^\]]+\]\(https?:\/\/[^\)]+\)/gi, '')
+    .trim();
 
   const isHardware = Boolean(
     (selectedArticle.category === 'weapons' || selectedArticle.category === 'drones') &&
@@ -268,7 +286,7 @@ export const ArticleModal: React.FC = () => {
                 >
                   <ExternalLink className="w-4 h-4 group-hover:scale-110 transition-transform" />
                   <span>
-                    {language === 'en' ? 'Open Original Source' : language === 'ar' ? 'فتح المصدر الأصلي' : '🌐 ئەسلى مەنبەدىن كۆرۈش'}
+                    {language === 'en' ? 'Original Source' : language === 'ar' ? 'المصدر الأصلي' : 'ئەسلى مەنبە'}
                   </span>
                 </a>
               </div>
@@ -305,9 +323,40 @@ export const ArticleModal: React.FC = () => {
 
               <div className="prose prose-invert max-w-none">
                 <p className="text-base sm:text-lg leading-[2.1] sm:leading-[2.3] text-[var(--text-primary)]/95 font-normal whitespace-pre-line tracking-wide">
-                  {selectedArticle.content[language] || selectedArticle.content.ug}
+                  {cleanBodyContent}
                 </p>
               </div>
+
+              {/* Bottom Dedicated Original Source Action Card with button "ئەسلى مەنبە" */}
+              {sourceUrl && (
+                <div className="mt-8 pt-6 border-t border-[var(--border-color)]">
+                  <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-[var(--bg-surface)] via-emerald-950/20 to-[var(--bg-surface)] border border-emerald-500/40 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm">
+                    <div className="flex items-center gap-3 w-full sm:w-auto">
+                      <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
+                        <ExternalLink className="w-5 h-5" />
+                      </div>
+                      <div className="min-w-0">
+                        <div className="text-sm font-bold text-[var(--text-primary)]">
+                          {language === 'en' ? 'Original Source Publication' : language === 'ar' ? 'منشور المصدر الأصلي' : 'بۇ تەھلىلنىڭ ئەسلى مەنبەسى'}
+                        </div>
+                        <div className="text-xs text-[var(--text-muted)] truncate">
+                          {selectedArticle.specs?.['مەنبە'] || selectedArticle.author || (language === 'en' ? 'Original Verified Source' : 'ئەسلى تەستىقلانغان مەنبە')}
+                        </div>
+                      </div>
+                    </div>
+
+                    <a
+                      href={sourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full sm:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-emerald-950/40 hover:shadow-emerald-900/60 transition-all group shrink-0"
+                    >
+                      <ExternalLink className="w-4 h-4 group-hover:scale-110 transition-transform" />
+                      <span>{language === 'en' ? 'Original Source' : language === 'ar' ? 'المصدر الأصلي' : 'ئەسلى مەنبە'}</span>
+                    </a>
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* Tags Pill Cloud */}

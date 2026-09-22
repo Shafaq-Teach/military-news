@@ -33,6 +33,10 @@ export function getArticleSourceUrl(article: Article | null | undefined): string
         !trimmed.includes('shafaq-teach.github.io') &&
         !trimmed.includes('military-news.yulgun353.workers.dev')
       ) {
+        // Automatically rescue blank-prone Arc XP / Defense News F-16 links with full TWZ report
+        if (trimmed.includes('defensenews.com') && trimmed.includes('f-16')) {
+          return 'https://www.twz.com/air/usaf-f-16-crashes-at-spangdahlem-air-base-in-germany';
+        }
         return trimmed;
       }
     }

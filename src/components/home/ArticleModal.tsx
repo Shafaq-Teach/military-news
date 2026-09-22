@@ -277,7 +277,7 @@ export const ArticleModal: React.FC = () => {
               <div className="flex items-center gap-2 mb-3 text-xs font-mono font-bold text-[var(--accent-primary)] uppercase tracking-wider">
                 <Radio className="w-4 h-4 animate-pulse" />
                 <span>
-                  {language === 'en' ? 'EXECUTIVE STRATEGIC BRIEFING' : language === 'ar' ? 'الإيجاز الاستراتيجي والتكتيكي' : 'تاكتىكىلىق ئىستراتېگىيەلىك يىغىنچاق مەزمۇن'}
+                  {language === 'en' ? 'Summary' : language === 'ar' ? 'الموجز' : 'يىغىنچاق مەزمۇن'}
                 </span>
               </div>
 
@@ -292,10 +292,10 @@ export const ArticleModal: React.FC = () => {
                 <FileText className="w-5 h-5 text-[var(--accent-primary)]" />
                 <h2 className="text-base sm:text-lg font-bold text-[var(--text-primary)] tracking-wide uppercase">
                   {language === 'en' 
-                    ? 'TACTICAL ASSESSMENT // FULL INTELLIGENCE DOSSIER' 
+                    ? 'Detailed Content' 
                     : language === 'ar' 
-                    ? 'التقييم التكتيكي // التقرير الاستخباراتي المفصل' 
-                    : 'تاكتىكىلىق تەھلىل // تەپسىلىي دوكلات ۋە ھەربىي تەھلىل'}
+                    ? 'المحتوى المفصل' 
+                    : 'تەپسىلىي مەزمۇن'}
                 </h2>
               </div>
 

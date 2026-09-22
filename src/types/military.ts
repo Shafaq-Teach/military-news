@@ -51,6 +51,7 @@ export interface Article {
   specs: WeaponSpecs;
   tags: string[];
   views: number;
+  sourceUrl?: string;
 }
 
 export interface CategoryInfo {

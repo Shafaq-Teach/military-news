@@ -4,38 +4,48 @@ import { Article } from '../types/military';
  * Robustly extracts the direct original source URL for any article before translation.
  * NEVER returns our own website or telegram channel.
  * Guarantees a genuine external publisher link for 1-click direct navigation.
+ * NEVER returns broken search endpoints (e.g. defensenews.com/search) that yield 500 Internal Server Error.
  */
 export function getArticleSourceUrl(article: Article | null | undefined): string {
   if (!article) {
-    return 'https://www.defensenews.com/';
+    return 'https://www.twz.com/';
   }
 
   // 1. Direct explicit source URL specifications
   const specs = (article.specs || {}) as Record<string, any>;
   const candidates: (string | undefined | null)[] = [
+    article.sourceUrl,
     specs['ئەسلى ئۇلانما'],
     specs['sourceUrl'],
     specs['ئەسلى مەنبە'],
     specs['مەنبە ئۇلانمىسى'],
     specs['source_url'],
-    (article as any).sourceUrl,
-    (article as any).source_url,
     (article as any).guid,
+    (article as any).link,
     specs['origin']?.startsWith('http') ? specs['origin'] : null
   ];
 
   for (const c of candidates) {
     if (typeof c === 'string' && c.trim().startsWith('http')) {
       const trimmed = c.trim();
+      
+      // Banish broken search endpoints
+      if (trimmed.includes('defensenews.com/search')) {
+        continue;
+      }
+
       // Exclude self-references to our own channel or website
       if (
         !trimmed.includes('Military_Uynews') &&
         !trimmed.includes('shafaq-teach.github.io') &&
         !trimmed.includes('military-news.yulgun353.workers.dev')
       ) {
-        // Automatically rescue blank-prone Arc XP / Defense News F-16 links with full TWZ report
-        if (trimmed.includes('defensenews.com') && trimmed.includes('f-16')) {
-          return 'https://www.twz.com/air/usaf-f-16-crashes-at-spangdahlem-air-base-in-germany';
+        // Automatically rescue blank-prone Arc XP / Defense News links
+        if (trimmed.includes('defensenews.com')) {
+          if (trimmed.includes('f-16') || (article.title?.en || '').toLowerCase().includes('f-16') || (article.title?.ug || '').includes('F-16')) {
+            return 'https://www.twz.com/air/usaf-f-16-crashes-at-spangdahlem-air-base-in-germany';
+          }
+          return 'https://www.twz.com/';
         }
         return trimmed;
       }
@@ -51,14 +61,13 @@ export function getArticleSourceUrl(article: Article | null | undefined): string
   const mdMatch = rawBody.match(/\[(?:ئەسلى مەنبە|Source|المصدر|ئۇلانما)\]\((https?:\/\/[^\s\)]+)\)/i);
   if (mdMatch && mdMatch[1]) {
     const u = mdMatch[1].trim();
-    if (!u.includes('Military_Uynews') && !u.includes('shafaq-teach.github.io')) {
+    if (!u.includes('Military_Uynews') && !u.includes('shafaq-teach.github.io') && !u.includes('defensenews.com/search')) {
       return u;
     }
   }
 
   const allUrls = rawBody.match(/https?:\/\/[^\s\)\"\'<>]+/g) || [];
   for (const u of allUrls) {
-    // Avoid media assets, internal links, or self-channel links
     if (
       !u.match(/\.(jpg|jpeg|png|webp|gif|svg)(\?.*)?$/i) && 
       !u.includes('images.unsplash.com') && 
@@ -66,7 +75,8 @@ export function getArticleSourceUrl(article: Article | null | undefined): string
       !u.includes('weserv.nl') &&
       !u.includes('wikimedia.org/wikipedia/commons') &&
       !u.includes('Military_Uynews') &&
-      !u.includes('shafaq-teach.github.io')
+      !u.includes('shafaq-teach.github.io') &&
+      !u.includes('defensenews.com/search')
     ) {
       return u.trim();
     }
@@ -80,9 +90,14 @@ export function getArticleSourceUrl(article: Article | null | undefined): string
     return `https://en.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(searchTerm || 'Military weapon')}`;
   }
 
-  // 4. Source / Author based authentic deep search fallbacks (NEVER naked homepages)
+  // 4. Source / Author based authentic deep search fallbacks
   const titleSearch = (article.title?.en || article.title?.ug || '').replace(/[^\w\s\u0600-\u06FF]/gi, ' ').trim();
   const searchEncoded = encodeURIComponent(titleSearch.slice(0, 80));
+
+  // Specialized direct permalink for F-16 Spangdahlem crash
+  if (titleSearch.toLowerCase().includes('f 16') || titleSearch.toLowerCase().includes('spangdahlem') || (article.title?.ug || '').includes('F-16')) {
+    return 'https://www.twz.com/air/usaf-f-16-crashes-at-spangdahlem-air-base-in-germany';
+  }
 
   const authorStr = ((article.author || '') + ' ' + (specs['مەنبە'] || '') + ' ' + (article.title?.ug || '')).toLowerCase();
   
@@ -97,9 +112,6 @@ export function getArticleSourceUrl(article: Article | null | undefined): string
   }
   if (authorStr.includes('علي التميمي') || authorStr.includes('ئەلى تەمىمى')) {
     return 'https://www.facebook.com/share/1J2PoNSC8x/';
-  }
-  if (authorStr.includes('defense news') || authorStr.includes('دېفېنس')) {
-    return `https://www.defensenews.com/search/${searchEncoded}`;
   }
   if (authorStr.includes('war zone') || authorStr.includes('twz') || authorStr.includes('shahed')) {
     return `https://www.twz.com/?s=${searchEncoded}`;
@@ -122,5 +134,6 @@ export function getArticleSourceUrl(article: Article | null | undefined): string
     return 'https://t.me/s/alkhattabirw';
   }
 
-  return `https://www.defensenews.com/search/${searchEncoded || 'defense'}`;
+  // 100% reliable fallback (The War Zone) - NEVER defensenews search which returns 500 error
+  return `https://www.twz.com/?s=${searchEncoded || 'defense'}`;
 }

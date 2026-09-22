@@ -168,41 +168,69 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
       .then((onlineArticles: any[]) => {
         if (Array.isArray(onlineArticles) && onlineArticles.length > 0) {
           const deletedIds = getDeletedIds();
-          setArticles(prev => {
-            const existingIds = new Set(prev.map(a => a.id));
-            const newItems = onlineArticles
-              .filter(a => a && a.id && !existingIds.has(a.id) && !deletedIds.has(a.id))
-              .map(a => ({
-                ...a,
-                title: {
-                  ug: a.title?.ug || a.title?.en || '',
-                  ar: a.title?.ar || a.title?.ug || a.title?.en || '',
-                  en: a.title?.en || a.title?.ug || ''
-                },
-                summary: {
-                  ug: a.summary?.ug || a.summary?.en || '',
-                  ar: a.summary?.ar || a.summary?.ug || a.summary?.en || '',
-                  en: a.summary?.en || a.summary?.ug || ''
-                },
-                content: {
-                  ug: a.content?.ug || a.content?.en || '',
-                  ar: a.content?.ar || a.content?.ug || a.content?.en || '',
-                  en: a.content?.en || a.content?.ug || ''
-                },
-                specs: {
-                  speed: a.specs?.speed || a.specs?.['تېزلىكى'] || 'N/A',
-                  range: a.specs?.range || a.specs?.['دائىرىسى'] || 'N/A',
-                  payload: a.specs?.payload || a.specs?.['يۈكى'] || 'N/A',
-                  origin: a.specs?.origin || a.specs?.['ئىشلەپچىقارغۇچى'] || a.specs?.['مەنبە'] || 'دۇنياۋى ئاخبارات',
-                  status: a.specs?.status || a.specs?.['ھالىتى'] || 'ئاكتىپ',
-                  clearance: a.specs?.clearance || a.specs?.['دەرىجىسى'] || 'ئاشكارا تاكتىكىلىق ئاخبارات'
-                }
-              }));
+          
+          const formatOnlineArticle = (a: any): Article => {
+            const rawSpecs = (a.specs || {}) as Record<string, any>;
+            const explicitSource = (
+              a.sourceUrl || 
+              rawSpecs['sourceUrl'] || 
+              rawSpecs['ئەسلى ئۇلانما'] || 
+              rawSpecs['ئەسلى مەنبە'] || 
+              rawSpecs['مەنبە ئۇلانمىسى'] || 
+              a.link || 
+              a.guid || 
+              ''
+            ).toString().trim();
 
-            if (newItems.length > 0) {
-              return [...newItems, ...prev];
-            }
-            return prev;
+            return {
+              ...a,
+              title: {
+                ug: a.title?.ug || a.title?.en || '',
+                ar: a.title?.ar || a.title?.ug || a.title?.en || '',
+                en: a.title?.en || a.title?.ug || ''
+              },
+              summary: {
+                ug: a.summary?.ug || a.summary?.en || '',
+                ar: a.summary?.ar || a.summary?.ug || a.summary?.en || '',
+                en: a.summary?.en || a.summary?.ug || ''
+              },
+              content: {
+                ug: a.content?.ug || a.content?.en || '',
+                ar: a.content?.ar || a.content?.ug || a.content?.en || '',
+                en: a.content?.en || a.content?.ug || ''
+              },
+              sourceUrl: explicitSource,
+              specs: {
+                ...rawSpecs,
+                'ئەسلى ئۇلانما': explicitSource || rawSpecs['ئەسلى ئۇلانما'] || '',
+                sourceUrl: explicitSource || rawSpecs['sourceUrl'] || '',
+                speed: rawSpecs.speed || rawSpecs['تېزلىكى'] || 'N/A',
+                range: rawSpecs.range || rawSpecs['دائىرىسى'] || 'N/A',
+                payload: rawSpecs.payload || rawSpecs['يۈكى'] || 'N/A',
+                origin: rawSpecs.origin || rawSpecs['ئىشلەپچىقارغۇچى'] || rawSpecs['مەنبە'] || 'دۇنياۋى ئاخبارات',
+                status: rawSpecs.status || rawSpecs['ھالىتى'] || 'ئاكتىپ',
+                clearance: rawSpecs.clearance || rawSpecs['دەرىجىسى'] || 'ئاشكارا تاكتىكىلىق ئاخبارات'
+              }
+            };
+          };
+
+          setArticles(prev => {
+            const validOnline = onlineArticles.filter(a => a && a.id && !deletedIds.has(a.id));
+            const onlineMap = new Map(validOnline.map(a => [a.id, formatOnlineArticle(a)]));
+
+            // Update existing articles with fresh data from news.json (e.g. updated links/translations)
+            const updatedExisting = prev.map(p => {
+              if (onlineMap.has(p.id)) {
+                const fresh = onlineMap.get(p.id)!;
+                onlineMap.delete(p.id);
+                return fresh;
+              }
+              return p;
+            });
+
+            // Prepend completely new articles that weren't in prev
+            const brandNew = Array.from(onlineMap.values());
+            return [...brandNew, ...updatedExisting];
           });
         }
       })

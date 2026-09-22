@@ -1,5 +1,40 @@
 [
   {
+    "id": "art-1790094760983",
+    "category": "aviation",
+    "title": {
+      "ug": "گېرمانىيەنىڭ غەربىدىكى ئامېرىكا ھاۋا ئارمىيە بازىسىدا F-16 قىرغۇچى ئايروپىلانى چۈشۈپ كەتتى",
+      "en": "F-16 fighter jet crashes at US air base in western Germany"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ئەمەلدارلىرىنىڭ بىلدۈرۈشىچە، گېرمانىيەنىڭ غەربىدىكى ئامېرىكىنىڭ سپانگداھلېم ھاۋا ئارمىيە بازىسىغا سەپلەنگەن بىر F-16 قىرغۇچى ئايروپىلانى سەيشەنبە كۈنى چۈشۈپ كەتكەن.",
+      "en": "An F-16 fighter jet assigned to the US air base Spangdahlem in western Germany crashed on Tuesday, according to U.S. officials."
+    },
+    "content": {
+      "ug": "ئامېرىكا ئەمەلدارلىرىنىڭ بىلدۈرۈشىچە، گېرمانىيەنىڭ غەربىدىكى ئامېرىكىنىڭ سپانگداھلېم ھاۋا ئارمىيە بازىسىغا سەپلەنگەن بىر F-16 قىرغۇچى ئايروپىلانى سەيشەنبە كۈنى چۈشۈپ كەتكەن.\n\n---\n📌 **مەنبە:** خەلقئارالىق ئەسكىرىي مەنبە",
+      "en": "An F-16 fighter jet assigned to the US air base Spangdahlem in western Germany crashed on Tuesday, according to U.S. officials.\n\n---\n**Source:** خەلقئارالىق ئەسكىرىي مەنبە"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/QPD7BU564VAIJBHZRF24ILABE4.jpeg",
+    "author": "خەلقئارالىق ئەسكىرىي مەنبە",
+    "date": "2026-09-22",
+    "status": "published",
+    "featured": true,
+    "views": 132,
+    "tags": [
+      "F-16",
+      "ھەربىي ئاۋىئاتسىيە",
+      "گېرمانىيە",
+      "ئامېرىكا ئارمىيەسى",
+      "ھەربىي ئاخبارات"
+    ],
+    "specs": {
+      "مەنبە": "خەلقئارالىق ئەسكىرىي مەنبە",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/news/your-military/2026/09/22/f-16-fighter-jet-crashes-at-us-air-base-in-western-germany/",
+      "sourceUrl": "https://www.defensenews.com/news/your-military/2026/09/22/f-16-fighter-jet-crashes-at-us-air-base-in-western-germany/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "art-1790094494869",
     "category": "weapons",
     "title": {

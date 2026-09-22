@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ئەسكىرىي يېڭىلىقلار | Military News</title>
     
-    <!-- Google Fonts for Arabic, English Tactical/HUD & Modern Sans (Non-blocking) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Optimized Asynchronous Fonts (Non-blocking with instant system font fallback) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&family=Readex+Pro:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'" />
+    <script>
+      // Load Google Fonts asynchronously after main DOM render
+      window.addEventListener('load', function() {
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = 'https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&family=Orbitron:wght@700&family=Rajdhani:wght@600&display=swap';
+        document.head.appendChild(link);
+      });
+    </script>
   </head>
   <body style="background-color: #040d14; color: #f0fdff; margin: 0; min-height: 100vh;" class="overflow-x-hidden selection:bg-cyan-500/30 selection:text-cyan-200">
     <div id="root">

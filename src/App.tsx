@@ -6,10 +6,11 @@ import { Footer } from './components/layout/Footer';
 import { HeroSection } from './components/home/HeroSection';
 import { ArticleCard } from './components/home/ArticleCard';
 import { ArticleModal } from './components/home/ArticleModal';
-import { AdminDashboard } from './components/admin/AdminDashboard';
-import { AdminLoginModal } from './components/admin/AdminLoginModal';
 import { CATEGORIES } from './data/categories';
 import { ShieldAlert, RefreshCw } from 'lucide-react';
+
+const AdminDashboard = React.lazy(() => import('./components/admin/AdminDashboard').then(m => ({ default: m.AdminDashboard })));
+const AdminLoginModal = React.lazy(() => import('./components/admin/AdminLoginModal').then(m => ({ default: m.AdminLoginModal })));
 
 const MainLayout: React.FC = () => {
   const { 
@@ -73,8 +74,10 @@ const MainLayout: React.FC = () => {
       {/* Content Area */}
       <main className="flex-1">
         {isAdminOpen && isAdminAuthenticated ? (
-          // Admin CMS Dashboard
-          <AdminDashboard />
+          // Admin CMS Dashboard (Lazy loaded)
+          <React.Suspense fallback={<div className="min-h-[50vh] flex items-center justify-center font-mono text-cyan-400">LOADING TACTICAL COMMAND...</div>}>
+            <AdminDashboard />
+          </React.Suspense>
         ) : (
           // Public Military Intelligence Portal
           <>
@@ -140,8 +143,10 @@ const MainLayout: React.FC = () => {
         {/* Full Dossier Reader Modal (renders anywhere when an article is selected/previewed) */}
         <ArticleModal />
 
-        {/* Frosted Glass Admin Login & Password Management Modal */}
-        <AdminLoginModal />
+        {/* Frosted Glass Admin Login & Password Management Modal (Lazy loaded) */}
+        <React.Suspense fallback={null}>
+          <AdminLoginModal />
+        </React.Suspense>
       </main>
 
       {/* Footer */}

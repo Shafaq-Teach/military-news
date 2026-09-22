@@ -76,14 +76,17 @@ export function getArticleSourceUrl(article: Article | null | undefined): string
     return `https://en.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(searchTerm || 'Military weapon')}`;
   }
 
-  // 4. Source / Author based authentic external fallbacks
+  // 4. Source / Author based authentic deep search fallbacks (NEVER naked homepages)
+  const titleSearch = (article.title?.en || article.title?.ug || '').replace(/[^\w\s\u0600-\u06FF]/gi, ' ').trim();
+  const searchEncoded = encodeURIComponent(titleSearch.slice(0, 80));
+
   const authorStr = ((article.author || '') + ' ' + (specs['مەنبە'] || '') + ' ' + (article.title?.ug || '')).toLowerCase();
   
   if (authorStr.includes('الخطابي') || authorStr.includes('خەتتابى')) {
-    return 'https://t.me/alkhattabirw';
+    return 'https://t.me/s/alkhattabirw';
   }
   if (authorStr.includes('قاسيون')) {
-    return 'https://t.me/QasiounStudies';
+    return 'https://t.me/s/QasiounStudies';
   }
   if (authorStr.includes('صقر العرب') || authorStr.includes('سەقرۇل ئەرەب')) {
     return 'https://www.facebook.com/share/1AgZuo6Khf/';
@@ -92,28 +95,28 @@ export function getArticleSourceUrl(article: Article | null | undefined): string
     return 'https://www.facebook.com/share/1J2PoNSC8x/';
   }
   if (authorStr.includes('defense news') || authorStr.includes('دېفېنس')) {
-    return 'https://www.defensenews.com/';
+    return `https://www.defensenews.com/search/${searchEncoded}`;
   }
   if (authorStr.includes('war zone') || authorStr.includes('twz') || authorStr.includes('shahed')) {
-    return 'https://www.twz.com/';
+    return `https://www.twz.com/?s=${searchEncoded}`;
   }
   if (authorStr.includes('naval') || authorStr.includes('دېڭىز')) {
-    return 'https://www.navalnews.com/';
+    return `https://www.navalnews.com/?s=${searchEncoded}`;
   }
   if (authorStr.includes('breaking defense')) {
-    return 'https://breakingdefense.com/';
+    return `https://breakingdefense.com/?s=${searchEncoded}`;
   }
 
-  // 5. Category-level external defense publishers (NEVER our own channel)
+  // 5. Category-level external defense publishers with direct topic query
   if (article.category === 'drones') {
-    return 'https://www.twz.com/';
+    return `https://www.twz.com/?s=${searchEncoded || 'drones'}`;
   }
   if (article.category === 'naval') {
-    return 'https://www.navalnews.com/';
+    return `https://www.navalnews.com/?s=${searchEncoded || 'naval'}`;
   }
   if (article.category === 'geopolitics') {
-    return 'https://t.me/alkhattabirw';
+    return 'https://t.me/s/alkhattabirw';
   }
 
-  return 'https://www.defensenews.com/';
+  return `https://www.defensenews.com/search/${searchEncoded || 'defense'}`;
 }

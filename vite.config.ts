@@ -3,8 +3,9 @@ import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
+// Support both Cloudflare Pages (root /) and GitHub Pages (/military-news/)
 export default defineConfig({
-  base: '/military-news/',
+  base: process.env.CF_PAGES ? '/' : (process.env.GITHUB_PAGES ? '/military-news/' : './'),
   plugins: [
     react(),
     tailwindcss(),
@@ -24,3 +25,4 @@ export default defineConfig({
     }
   }
 })
+

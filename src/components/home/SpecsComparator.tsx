@@ -99,7 +99,7 @@ export const SpecsComparator: React.FC = () => {
               />
               <div className="flex-1 min-w-0">
                 <span className="text-[10px] text-[var(--accent-primary)] block font-bold">
-                  PLATFORM A // {itemA.specs.clearance.split(' ')[0]}
+                  PLATFORM A // {(itemA.specs.clearance || 'UNCLASSIFIED').split(' ')[0]}
                 </span>
                 <h4 className="text-sm font-bold text-[var(--text-primary)] truncate">
                   {itemA.title[language] || itemA.title.ug}
@@ -144,7 +144,7 @@ export const SpecsComparator: React.FC = () => {
               />
               <div className="flex-1 min-w-0">
                 <span className="text-[10px] text-[var(--accent-secondary)] block font-bold">
-                  PLATFORM B // {itemB.specs.clearance.split(' ')[0]}
+                  PLATFORM B // {(itemB.specs.clearance || 'UNCLASSIFIED').split(' ')[0]}
                 </span>
                 <h4 className="text-sm font-bold text-[var(--text-primary)] truncate">
                   {itemB.title[language] || itemB.title.ug}

@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import { useMilitary } from '../../context/MilitaryContext';
 import { CATEGORIES } from '../../data/categories';
-import { ArticleStatus } from '../../types/military';
+import { Article, ArticleStatus } from '../../types/military';
+import { ArticleForm } from './ArticleForm';
 import { 
   Trash2, 
   Eye, 
-  Star, 
   Search, 
-  CheckCircle, 
-  Clock, 
-  XCircle,
-  FileText
+  Pencil,
+  RefreshCw,
+  X,
+  Cloud
 } from 'lucide-react';
 
 export const ArticleListManager: React.FC = () => {
@@ -19,16 +19,20 @@ export const ArticleListManager: React.FC = () => {
     deleteArticle, 
     clearAllArticles,
     setSelectedArticle, 
+    syncToCloud,
+    isSyncing,
+    syncStatus,
     language, 
     t 
   } = useMilitary();
 
   const [filterStatus, setFilterStatus] = useState<ArticleStatus | 'all'>('all');
   const [filterText, setFilterText] = useState('');
+  const [editingArticle, setEditingArticle] = useState<Article | null>(null);
 
   const filtered = articles.filter(a => {
     const matchesStatus = filterStatus === 'all' || a.status === filterStatus;
-    const title = (a.title[language] || a.title.ug).toLowerCase();
+    const title = (a.title[language] || a.title.ug || a.title.en || '').toLowerCase();
     const matchesSearch = !filterText || title.includes(filterText.toLowerCase());
     return matchesStatus && matchesSearch;
   });
@@ -36,6 +40,32 @@ export const ArticleListManager: React.FC = () => {
   return (
     <div className="space-y-6">
       
+      {/* Cloud Sync Status Banner */}
+      <div className="flex flex-wrap items-center justify-between gap-3 p-3.5 rounded-xl bg-[var(--bg-main)] border border-[var(--border-color)]">
+        <div className="flex items-center gap-2.5 text-xs">
+          <Cloud className="w-4 h-4 text-[var(--accent-primary)] shrink-0" />
+          <div className={`w-2 h-2 rounded-full shrink-0 ${isSyncing ? 'bg-amber-400 animate-ping' : syncStatus?.success === false ? 'bg-rose-500' : 'bg-emerald-400'}`} />
+          <span className="text-[var(--text-secondary)] text-[11px] sm:text-xs">
+            {isSyncing 
+              ? 'بارلىق ئۈسكۈنىلەر بىلەن بۇلۇتقا ماسقەدەملىنىۋاتىدۇ...' 
+              : syncStatus?.message 
+                ? syncStatus.message 
+                : 'بۇلۇت ماسقەدەملەش ھالىتى: ئاكتىپ (ئۆچۈرۈلگەن ياكى تەھرىرلەنگەن مەزمۇنلار بارلىق ئۈسكۈنىلەردە تولۇق ماس قەدەمدە كۈچكە ئىگە بولىدۇ)'}
+          </span>
+        </div>
+
+        <button
+          type="button"
+          disabled={isSyncing}
+          onClick={() => syncToCloud()}
+          className="px-3 py-1.5 rounded-lg bg-[var(--accent-primary)]/10 hover:bg-[var(--accent-primary)]/20 border border-[var(--accent-primary)]/30 text-[var(--accent-primary)] text-xs font-bold flex items-center gap-2 transition-all disabled:opacity-50 shrink-0"
+          title="بارلىق ئۈسكۈنىلەرگە بۇلۇت ئارقىلىق دەرھال ماسقەدەملەش"
+        >
+          <RefreshCw className={`w-3.5 h-3.5 ${isSyncing ? 'animate-spin' : ''}`} />
+          <span>{isSyncing ? 'ماسقەدەملىنىۋاتىدۇ...' : 'ھازىر بۇلۇتقا ماسقەدەملەش'}</span>
+        </button>
+      </div>
+
       {/* Top Filter and Search */}
       <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 border-b border-[var(--border-color)] pb-4">
         
@@ -99,7 +129,7 @@ export const ArticleListManager: React.FC = () => {
               <th className="p-3 text-start">ھالىتى (STATUS)</th>
               <th className="p-3 text-start">چېسلا</th>
               <th className="p-3 text-start">كۆرۈلۈشى</th>
-              <th className="p-3 text-end">مەغپىيەت ۋە باشقۇرۇش</th>
+              <th className="p-3 text-end">باشقۇرۇش ۋە مەشغۇلات</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-[var(--border-color)]">
@@ -116,7 +146,7 @@ export const ArticleListManager: React.FC = () => {
                         className="w-9 h-9 rounded object-cover border border-[var(--border-color)] shrink-0" 
                       />
                       <span className="font-bold text-[var(--text-primary)] line-clamp-1">
-                        {article.title[language] || article.title.ug}
+                        {article.title[language] || article.title.ug || article.title.en}
                       </span>
                     </div>
                   </td>
@@ -146,22 +176,33 @@ export const ArticleListManager: React.FC = () => {
                   </td>
 
                   <td className="p-3 text-end">
-                    <div className="flex items-center justify-end gap-2">
+                    <div className="flex items-center justify-end gap-1.5">
+                      {/* View Button */}
                       <button
                         onClick={() => setSelectedArticle(article)}
-                        title="ئالدىن كۆرۈش"
+                        title="ئالدىن كۆرۈش (View)"
                         className="p-1.5 rounded hover:bg-[var(--bg-main)] text-[var(--accent-primary)] border border-transparent hover:border-[var(--border-color)]"
                       >
                         <Eye className="w-4 h-4" />
                       </button>
 
+                      {/* Edit Button */}
+                      <button
+                        onClick={() => setEditingArticle(article)}
+                        title="ماقالىنى تەھرىرلەش (Edit)"
+                        className="p-1.5 rounded hover:bg-amber-500/15 text-amber-400 border border-transparent hover:border-amber-500/40"
+                      >
+                        <Pencil className="w-4 h-4" />
+                      </button>
+
+                      {/* Delete Button */}
                       <button
                         onClick={() => {
-                          if (window.confirm('بۇ ماقالىنى ئۆچۈرۈشنى جەزملەشتۈرەمسىز؟')) {
+                          if (window.confirm('بۇ ماقالىنى بارلىق ئۈسكۈنىلەردىن ئۆچۈرۈشنى جەزملەشتۈرەمسىز؟')) {
                             deleteArticle(article.id);
                           }
                         }}
-                        title="ئۆچۈرۈش"
+                        title="ئۆچۈرۈش (Delete)"
                         className="p-1.5 rounded hover:bg-rose-950/60 text-rose-400 border border-transparent hover:border-rose-800"
                       >
                         <Trash2 className="w-4 h-4" />
@@ -182,6 +223,26 @@ export const ArticleListManager: React.FC = () => {
           </tbody>
         </table>
       </div>
+
+      {/* Edit Article Modal */}
+      {editingArticle && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-black/80 backdrop-blur-sm animate-in fade-in">
+          <div className="bg-[var(--bg-surface)] border border-[var(--border-highlight)] rounded-2xl max-w-4xl w-full max-h-[92vh] overflow-y-auto p-4 sm:p-8 shadow-2xl relative">
+            <button
+              onClick={() => setEditingArticle(null)}
+              className="absolute top-4 start-4 sm:top-6 sm:start-6 p-2 rounded-lg bg-[var(--bg-main)] hover:bg-rose-950/40 text-[var(--text-muted)] hover:text-rose-400 border border-[var(--border-color)] transition-colors z-10"
+              title="تاقاش"
+            >
+              <X className="w-5 h-5" />
+            </button>
+            <ArticleForm 
+              editingArticle={editingArticle}
+              onCancel={() => setEditingArticle(null)}
+              onSuccess={() => setEditingArticle(null)}
+            />
+          </div>
+        </div>
+      )}
 
     </div>
   );

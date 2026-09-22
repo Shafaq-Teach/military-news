@@ -1,7 +1,7 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useMilitary } from '../../context/MilitaryContext';
 import { CATEGORIES } from '../../data/categories';
-import { CategoryKey } from '../../types/military';
+import { Article, CategoryKey } from '../../types/military';
 import { autoTranslateContent } from '../../utils/translator';
 import { 
   Send, 
@@ -12,7 +12,10 @@ import {
   Sparkles, 
   Trash2,
   FilePlus2,
-  Loader2
+  Loader2,
+  Pencil,
+  Save,
+  X
 } from 'lucide-react';
 
 const PRESET_MILITARY_IMAGES = [
@@ -42,21 +45,64 @@ const PRESET_MILITARY_IMAGES = [
   }
 ];
 
-export const ArticleForm: React.FC<{ onSuccess?: () => void }> = ({ onSuccess }) => {
-  const { addArticle, language, t } = useMilitary();
+interface ArticleFormProps {
+  editingArticle?: Article | null;
+  onCancel?: () => void;
+  onSuccess?: () => void;
+}
 
-  const [category, setCategory] = useState<CategoryKey>('news');
-  const [title, setTitle] = useState('');
-  const [summary, setSummary] = useState('');
-  const [content, setContent] = useState('');
+export const ArticleForm: React.FC<ArticleFormProps> = ({ 
+  editingArticle, 
+  onCancel, 
+  onSuccess 
+}) => {
+  const { addArticle, updateArticle, language, t } = useMilitary();
+
+  const isEditMode = Boolean(editingArticle);
+
+  const [category, setCategory] = useState<CategoryKey>(editingArticle?.category || 'news');
+  const [title, setTitle] = useState(
+    editingArticle ? (editingArticle.title[language] || editingArticle.title.ug || editingArticle.title.en || '') : ''
+  );
+  const [summary, setSummary] = useState(
+    editingArticle ? (editingArticle.summary[language] || editingArticle.summary.ug || editingArticle.summary.en || '') : ''
+  );
+  const [content, setContent] = useState(
+    editingArticle ? (editingArticle.content[language] || editingArticle.content.ug || editingArticle.content.en || '') : ''
+  );
+  const [sourceUrl, setSourceUrl] = useState(
+    editingArticle ? (editingArticle.sourceUrl || (editingArticle.specs && (editingArticle.specs.sourceUrl || editingArticle.specs['ئەسلى ئۇلانما'])) || '') : ''
+  );
   
   // Image handling
-  const [imageUrl, setImageUrl] = useState(PRESET_MILITARY_IMAGES[0].url);
-  const [imageTab, setImageTab] = useState<'upload' | 'gallery' | 'url'>('upload');
+  const [imageUrl, setImageUrl] = useState(
+    editingArticle?.imageUrl || PRESET_MILITARY_IMAGES[0].url
+  );
+  const [imageTab, setImageTab] = useState<'upload' | 'gallery' | 'url'>(
+    editingArticle?.imageUrl ? 'url' : 'upload'
+  );
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const [isTranslating, setIsTranslating] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+
+  useEffect(() => {
+    if (editingArticle) {
+      setCategory(editingArticle.category);
+      setTitle(editingArticle.title[language] || editingArticle.title.ug || editingArticle.title.en || '');
+      setSummary(editingArticle.summary[language] || editingArticle.summary.ug || editingArticle.summary.en || '');
+      setContent(editingArticle.content[language] || editingArticle.content.ug || editingArticle.content.en || '');
+      setImageUrl(editingArticle.imageUrl || PRESET_MILITARY_IMAGES[0].url);
+      setSourceUrl(editingArticle.sourceUrl || (editingArticle.specs && (editingArticle.specs.sourceUrl || editingArticle.specs['ئەسلى ئۇلانما'])) || '');
+    } else {
+      setCategory('news');
+      setTitle('');
+      setSummary('');
+      setContent('');
+      setImageUrl(PRESET_MILITARY_IMAGES[0].url);
+      setSourceUrl('');
+    }
+  }, [editingArticle, language]);
 
   // Handle local image file upload
   const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -87,7 +133,42 @@ export const ArticleForm: React.FC<{ onSuccess?: () => void }> = ({ onSuccess })
     setIsTranslating(true);
 
     try {
-      // Automatically translate title, summary, and content into Arabic and English in background!
+      if (isEditMode && editingArticle) {
+        // Edit Mode: check if fields changed and translate if updated
+        const isTitleChanged = title.trim() !== (editingArticle.title[language] || editingArticle.title.ug || '');
+        const isSummaryChanged = summary.trim() !== (editingArticle.summary[language] || editingArticle.summary.ug || '');
+        const isContentChanged = content.trim() !== (editingArticle.content[language] || editingArticle.content.ug || '');
+
+        const [multilingualTitle, multilingualSummary, multilingualContent] = await Promise.all([
+          isTitleChanged ? autoTranslateContent(title.trim(), language) : Promise.resolve(editingArticle.title),
+          isSummaryChanged ? autoTranslateContent(summary.trim() || title.trim(), language) : Promise.resolve(editingArticle.summary),
+          isContentChanged ? autoTranslateContent(content.trim() || summary.trim() || title.trim(), language) : Promise.resolve(editingArticle.content)
+        ]);
+
+        await updateArticle(editingArticle.id, {
+          category,
+          title: multilingualTitle,
+          summary: multilingualSummary,
+          content: multilingualContent,
+          imageUrl: imageUrl || editingArticle.imageUrl || PRESET_MILITARY_IMAGES[0].url,
+          sourceUrl: sourceUrl.trim(),
+          specs: {
+            ...(editingArticle.specs || {}),
+            sourceUrl: sourceUrl.trim(),
+            'ئەسلى ئۇلانما': sourceUrl.trim()
+          }
+        });
+
+        setIsTranslating(false);
+        setSubmitted(true);
+        setTimeout(() => {
+          setSubmitted(false);
+          if (onSuccess) onSuccess();
+        }, 1200);
+        return;
+      }
+
+      // Create Mode:
       const [multilingualTitle, multilingualSummary, multilingualContent] = await Promise.all([
         autoTranslateContent(title.trim(), language),
         autoTranslateContent(summary.trim() || title.trim(), language),
@@ -100,6 +181,7 @@ export const ArticleForm: React.FC<{ onSuccess?: () => void }> = ({ onSuccess })
         summary: multilingualSummary,
         content: multilingualContent,
         imageUrl: imageUrl || PRESET_MILITARY_IMAGES[0].url,
+        sourceUrl: sourceUrl.trim(),
         author: 'تەھرىرات',
         status: directPublish ? 'published' : 'pending',
         featured: false,
@@ -110,7 +192,9 @@ export const ArticleForm: React.FC<{ onSuccess?: () => void }> = ({ onSuccess })
           payload: 'N/A',
           origin: 'خەلقئارا',
           status: 'ئاكتىپ خىزمەتتە',
-          clearance: 'ئاشكارا كەسپىي (PUBLIC-OSINT)'
+          clearance: 'ئاشكارا كەسپىي (PUBLIC-OSINT)',
+          sourceUrl: sourceUrl.trim(),
+          'ئەسلى ئۇلانما': sourceUrl.trim()
         }
       });
 
@@ -123,19 +207,44 @@ export const ArticleForm: React.FC<{ onSuccess?: () => void }> = ({ onSuccess })
         setTitle('');
         setSummary('');
         setContent('');
+        setSourceUrl('');
         if (onSuccess) onSuccess();
       }, 1500);
 
     } catch (err) {
-      console.error('Submission translation error:', err);
+      console.error('Submission error:', err);
       setIsTranslating(false);
-      // Fallback: save article even if translation failed
+      
+      if (isEditMode && editingArticle) {
+        await updateArticle(editingArticle.id, {
+          category,
+          title: { ...editingArticle.title, [language]: title.trim() },
+          summary: { ...editingArticle.summary, [language]: summary.trim() },
+          content: { ...editingArticle.content, [language]: content.trim() },
+          imageUrl: imageUrl || editingArticle.imageUrl,
+          sourceUrl: sourceUrl.trim(),
+          specs: {
+            ...(editingArticle.specs || {}),
+            sourceUrl: sourceUrl.trim(),
+            'ئەسلى ئۇلانما': sourceUrl.trim()
+          }
+        });
+        setSubmitted(true);
+        setTimeout(() => {
+          setSubmitted(false);
+          if (onSuccess) onSuccess();
+        }, 1200);
+        return;
+      }
+
+      // Fallback create:
       addArticle({
         category,
         title: { ug: title, ar: title, en: title },
         summary: { ug: summary || title, ar: summary || title, en: summary || title },
         content: { ug: content || title, ar: content || title, en: content || title },
         imageUrl: imageUrl || PRESET_MILITARY_IMAGES[0].url,
+        sourceUrl: sourceUrl.trim(),
         author: 'تەھرىرات',
         status: directPublish ? 'published' : 'pending',
         featured: false,
@@ -146,7 +255,9 @@ export const ArticleForm: React.FC<{ onSuccess?: () => void }> = ({ onSuccess })
           payload: 'N/A',
           origin: 'خەلقئارا',
           status: 'ئاكتىپ خىزمەتتە',
-          clearance: 'ئاشكارا كەسپىي (PUBLIC-OSINT)'
+          clearance: 'ئاشكارا كەسپىي (PUBLIC-OSINT)',
+          sourceUrl: sourceUrl.trim(),
+          'ئەسلى ئۇلانما': sourceUrl.trim()
         }
       });
       setSubmitted(true);
@@ -155,6 +266,7 @@ export const ArticleForm: React.FC<{ onSuccess?: () => void }> = ({ onSuccess })
         setTitle('');
         setSummary('');
         setContent('');
+        setSourceUrl('');
         if (onSuccess) onSuccess();
       }, 1500);
     }
@@ -175,11 +287,22 @@ export const ArticleForm: React.FC<{ onSuccess?: () => void }> = ({ onSuccess })
       <div className="border-b border-[var(--border-color)] pb-3 flex items-center justify-between">
         <div>
           <h3 className="text-base sm:text-lg font-bold text-[var(--text-primary)] flex items-center gap-2">
-            <FilePlus2 className="w-5 h-5 text-[var(--accent-primary)]" />
-            <span>{t('publishNewTitle')}</span>
+            {isEditMode ? (
+              <>
+                <Pencil className="w-5 h-5 text-amber-400" />
+                <span>ماقالىنى تەھرىرلەش</span>
+              </>
+            ) : (
+              <>
+                <FilePlus2 className="w-5 h-5 text-[var(--accent-primary)]" />
+                <span>{t('publishNewTitle')}</span>
+              </>
+            )}
           </h3>
           <p className="text-xs text-[var(--text-secondary)] mt-1">
-            مەزمۇننى بىر تىلدا يازسىڭىزلا كۇپايە، سىستېما قالغان تىللارغا ئاپتوماتىك تەرجىمە قىلىپ بېرىدۇ.
+            {isEditMode 
+              ? 'مەزمۇنلارنى تەھرىرلەپ ساقلىسىڭىز، ئاپتوماتىك بۇلۇتقا ماسقەدەملىنىدۇ ۋە بارلىق ئۈسكۈنىلەردە كۈچكە ئىگە بولىدۇ.'
+              : 'مەزمۇننى بىر تىلدا يازسىڭىزلا كۇپايە، سىستېما قالغان تىللارغا ئاپتوماتىك تەرجىمە قىلىپ بېرىدۇ.'}
           </p>
         </div>
 
@@ -251,6 +374,21 @@ export const ArticleForm: React.FC<{ onSuccess?: () => void }> = ({ onSuccess })
           value={content}
           onChange={(e) => setContent(e.target.value)}
           placeholder="تولۇق ئەسكىرىي خەۋەر، مەزمۇن ياكى تاكتىكىلىق بايان..."
+          className="w-full px-3.5 py-2.5 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] text-xs text-[var(--text-primary)] focus:outline-none focus:border-[var(--border-highlight)]"
+        />
+      </div>
+
+      {/* 4.1 Source URL Field */}
+      <div className="space-y-1.5">
+        <label className="text-xs font-bold text-[var(--text-primary)] flex items-center gap-1.5">
+          <LinkIcon className="w-3.5 h-3.5 text-[var(--accent-primary)]" />
+          <span>ئەسلى مەنبە ئۇلانمىسى (ئىختىيارىي)</span>
+        </label>
+        <input
+          type="url"
+          value={sourceUrl}
+          onChange={(e) => setSourceUrl(e.target.value)}
+          placeholder="مەسىلەن: https://t.me/... ياكى https://..."
           className="w-full px-3.5 py-2.5 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] text-xs text-[var(--text-primary)] focus:outline-none focus:border-[var(--border-highlight)]"
         />
       </div>
@@ -399,40 +537,76 @@ export const ArticleForm: React.FC<{ onSuccess?: () => void }> = ({ onSuccess })
 
       {/* Submit Actions */}
       <div className="flex flex-wrap items-center justify-end gap-3 pt-4 border-t border-[var(--border-color)]">
-        <button
-          type="button"
-          disabled={isTranslating}
-          onClick={(e) => handleSubmit(e, false)}
-          className="px-5 py-2.5 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] text-xs font-bold text-[var(--text-primary)] transition-all disabled:opacity-50"
-        >
-          {isTranslating ? (
-            <span className="flex items-center gap-2">
-              <Loader2 className="w-4 h-4 animate-spin text-[var(--accent-primary)]" />
-              <span>تەرجىمە قىلىنىۋاتىدۇ...</span>
-            </span>
-          ) : (
-            t('btnSubmitForApproval')
-          )}
-        </button>
+        {isEditMode ? (
+          <>
+            {onCancel && (
+              <button
+                type="button"
+                onClick={onCancel}
+                className="px-5 py-2.5 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] text-xs font-bold text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-all flex items-center gap-1.5"
+              >
+                <X className="w-4 h-4" />
+                <span>بىكار قىلىش</span>
+              </button>
+            )}
 
-        <button
-          type="button"
-          disabled={isTranslating}
-          onClick={(e) => handleSubmit(e, true)}
-          className="px-6 py-2.5 rounded-lg bg-[var(--accent-primary)] hover:bg-[var(--accent-secondary)] text-[var(--bg-main)] text-xs font-black transition-all shadow-[0_0_15px_var(--accent-glow)] flex items-center gap-2 disabled:opacity-50"
-        >
-          {isTranslating ? (
-            <>
-              <Loader2 className="w-4 h-4 animate-spin text-[var(--bg-main)]" />
-              <span>3 تىلغا ئايلاندۇرۇلۇۋاتىدۇ...</span>
-            </>
-          ) : (
-            <>
-              <Send className="w-4 h-4" />
-              <span>{t('btnPublishDirect')}</span>
-            </>
-          )}
-        </button>
+            <button
+              type="button"
+              disabled={isTranslating}
+              onClick={(e) => handleSubmit(e, true)}
+              className="px-6 py-2.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-black text-xs font-black transition-all shadow-[0_0_15px_rgba(245,158,11,0.3)] flex items-center gap-2 disabled:opacity-50"
+            >
+              {isTranslating ? (
+                <>
+                  <Loader2 className="w-4 h-4 animate-spin text-black" />
+                  <span>ساقلىنىۋاتىدۇ ۋە ماسقەدەملىنىۋاتىدۇ...</span>
+                </>
+              ) : (
+                <>
+                  <Save className="w-4 h-4" />
+                  <span>ئۆزگەرتىشنى ساقلاش (Save)</span>
+                </>
+              )}
+            </button>
+          </>
+        ) : (
+          <>
+            <button
+              type="button"
+              disabled={isTranslating}
+              onClick={(e) => handleSubmit(e, false)}
+              className="px-5 py-2.5 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] text-xs font-bold text-[var(--text-primary)] transition-all disabled:opacity-50"
+            >
+              {isTranslating ? (
+                <span className="flex items-center gap-2">
+                  <Loader2 className="w-4 h-4 animate-spin text-[var(--accent-primary)]" />
+                  <span>تەرجىمە قىلىنىۋاتىدۇ...</span>
+                </span>
+              ) : (
+                t('btnSubmitForApproval')
+              )}
+            </button>
+
+            <button
+              type="button"
+              disabled={isTranslating}
+              onClick={(e) => handleSubmit(e, true)}
+              className="px-6 py-2.5 rounded-lg bg-[var(--accent-primary)] hover:bg-[var(--accent-secondary)] text-[var(--bg-main)] text-xs font-black transition-all shadow-[0_0_15px_var(--accent-glow)] flex items-center gap-2 disabled:opacity-50"
+            >
+              {isTranslating ? (
+                <>
+                  <Loader2 className="w-4 h-4 animate-spin text-[var(--bg-main)]" />
+                  <span>3 تىلغا ئايلاندۇرۇلۇۋاتىدۇ...</span>
+                </>
+              ) : (
+                <>
+                  <Send className="w-4 h-4" />
+                  <span>{t('btnPublishDirect')}</span>
+                </>
+              )}
+            </button>
+          </>
+        )}
       </div>
 
     </form>

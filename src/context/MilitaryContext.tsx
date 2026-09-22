@@ -9,6 +9,7 @@ import {
 } from '../types/military';
 import { INITIAL_ARTICLES } from '../data/initialArticles';
 import { UI_TRANSLATIONS } from '../data/translations';
+import { syncArticlesToGitHub } from '../utils/githubSync';
 
 interface MilitaryContextType {
   language: Language;
@@ -38,10 +39,14 @@ interface MilitaryContextType {
   getAdminCredentials: () => { user: string; pass: string };
   // Admin Operations
   addArticle: (article: Omit<Article, 'id' | 'views' | 'date'>) => void;
+  updateArticle: (id: string, updatedData: Partial<Article>) => Promise<void>;
   approveArticle: (id: string) => void;
   rejectArticle: (id: string) => void;
-  deleteArticle: (id: string) => void;
-  clearAllArticles: () => void;
+  deleteArticle: (id: string) => Promise<void>;
+  clearAllArticles: () => Promise<void>;
+  syncToCloud: (customArticles?: Article[]) => Promise<{ success: boolean; message: string }>;
+  isSyncing: boolean;
+  syncStatus: { success: boolean; message: string; timestamp: number } | null;
   updateSiteSettings: (settings: Partial<SiteSettings>) => void;
   resetToDemo: () => void;
   // UI Translation Helper
@@ -161,6 +166,10 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
     return INITIAL_ARTICLES.filter(a => !deletedIds.has(a.id)).map(sanitizeArticle);
   });
 
+  // 4.1 Syncing state with cloud (GitHub/Cloudflare)
+  const [isSyncing, setIsSyncing] = useState<boolean>(false);
+  const [syncStatus, setSyncStatus] = useState<{ success: boolean; message: string; timestamp: number } | null>(null);
+
   // Load online published articles dynamically from news.json (updated by n8n or automation)
   useEffect(() => {
     fetch('./news.json?t=' + Date.now())
@@ -214,23 +223,19 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
             };
           };
 
+          const validOnline = onlineArticles
+            .filter(a => a && a.id && !deletedIds.has(a.id))
+            .map(formatOnlineArticle);
+
+          const onlineIds = new Set(validOnline.map(a => a.id));
+
           setArticles(prev => {
-            const validOnline = onlineArticles.filter(a => a && a.id && !deletedIds.has(a.id));
-            const onlineMap = new Map(validOnline.map(a => [a.id, formatOnlineArticle(a)]));
-
-            // Update existing articles with fresh data from news.json (e.g. updated links/translations)
-            const updatedExisting = prev.map(p => {
-              if (onlineMap.has(p.id)) {
-                const fresh = onlineMap.get(p.id)!;
-                onlineMap.delete(p.id);
-                return fresh;
-              }
-              return p;
-            });
-
-            // Prepend completely new articles that weren't in prev
-            const brandNew = Array.from(onlineMap.values());
-            return [...brandNew, ...updatedExisting];
+            // Keep local pending articles (drafts submitted locally that aren't yet in news.json)
+            const localPending = prev.filter(p => p.status === 'pending' && !onlineIds.has(p.id) && !deletedIds.has(p.id));
+            
+            // For published articles, validOnline is the authoritative source!
+            // Any article not in validOnline is automatically discarded, guaranteeing deleted articles never reappear on other devices!
+            return [...localPending, ...validOnline];
           });
         }
       })
@@ -432,6 +437,25 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
     localStorage.setItem('mil_settings', JSON.stringify(siteSettings));
   }, [siteSettings]);
 
+  // Cloud Synchronization
+  const syncToCloud = async (articlesToSync?: Article[]): Promise<{ success: boolean; message: string }> => {
+    setIsSyncing(true);
+    try {
+      const target = articlesToSync !== undefined ? articlesToSync : articles;
+      const published = target.filter(a => a.status === 'published');
+      const listToSend = published.length > 0 ? published : target;
+      const res = await syncArticlesToGitHub(listToSend);
+      setSyncStatus({ success: res.success, message: res.message, timestamp: Date.now() });
+      return res;
+    } catch (err: any) {
+      const res = { success: false, message: err?.message || 'ماسقەدەملەش مەغلۇپ بولدى' };
+      setSyncStatus({ success: false, message: res.message, timestamp: Date.now() });
+      return res;
+    } finally {
+      setIsSyncing(false);
+    }
+  };
+
   // Admin Actions
   const addArticle = (articleData: Omit<Article, 'id' | 'views' | 'date'>) => {
     const newArticle: Article = {
@@ -441,42 +465,68 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
       views: 1,
       status: siteSettings.autoApproveArticles ? 'published' : 'pending'
     };
-    setArticles(prev => [newArticle, ...prev]);
-  };
-
-  const approveArticle = (id: string) => {
-    setArticles(prev => 
-      prev.map(a => a.id === id ? { ...a, status: 'published' } : a)
-    );
-  };
-
-  const rejectArticle = (id: string) => {
-    setArticles(prev => 
-      prev.map(a => a.id === id ? { ...a, status: 'rejected' } : a)
-    );
-  };
-
-  const deleteArticle = (id: string) => {
-    saveDeletedId(id);
-    setArticles(prev => {
-      const updated = prev.filter(a => a.id !== id);
-      if (updated.length === 0) {
-        localStorage.setItem('mil_articles_cleared', 'true');
-      }
-      return updated;
-    });
-    if (selectedArticle?.id === id) {
-      setSelectedArticle(null);
+    const updated = [newArticle, ...articles];
+    setArticles(updated);
+    if (newArticle.status === 'published') {
+      syncToCloud(updated);
     }
   };
 
-  const clearAllArticles = () => {
+  const updateArticle = async (id: string, updatedData: Partial<Article>) => {
+    const updated = articles.map(a => {
+      if (a.id === id) {
+        return {
+          ...a,
+          ...updatedData,
+          title: { ...a.title, ...(updatedData.title || {}) },
+          summary: { ...a.summary, ...(updatedData.summary || {}) },
+          content: { ...a.content, ...(updatedData.content || {}) },
+          specs: { ...a.specs, ...(updatedData.specs || {}) }
+        };
+      }
+      return a;
+    });
+    setArticles(updated);
+    if (selectedArticle?.id === id) {
+      setSelectedArticle(prev => prev ? { ...prev, ...updatedData } : null);
+    }
+    await syncToCloud(updated);
+  };
+
+  const approveArticle = (id: string) => {
+    const updated = articles.map(a => a.id === id ? { ...a, status: 'published' as const } : a);
+    setArticles(updated);
+    syncToCloud(updated);
+  };
+
+  const rejectArticle = (id: string) => {
+    const updated = articles.map(a => a.id === id ? { ...a, status: 'rejected' as const } : a);
+    setArticles(updated);
+    syncToCloud(updated);
+  };
+
+  const deleteArticle = async (id: string) => {
+    saveDeletedId(id);
+    const updated = articles.filter(a => a.id !== id);
+    setArticles(updated);
+    if (updated.length === 0) {
+      localStorage.setItem('mil_articles_cleared', 'true');
+    }
+    if (selectedArticle?.id === id) {
+      setSelectedArticle(null);
+    }
+    // Immediately sync to GitHub so other devices never download it again!
+    await syncToCloud(updated);
+  };
+
+  const clearAllArticles = async () => {
     articles.forEach(a => saveDeletedId(a.id));
     INITIAL_ARTICLES.forEach(a => saveDeletedId(a.id));
     setArticles([]);
     setSelectedArticle(null);
     localStorage.setItem('mil_articles', JSON.stringify([]));
     localStorage.setItem('mil_articles_cleared', 'true');
+    await syncToCloud([]);
   };
 
   const updateSiteSettings = (newSettings: Partial<SiteSettings>) => {
@@ -525,10 +575,14 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
         changeAdminPassword,
         getAdminCredentials,
         addArticle,
+        updateArticle,
         approveArticle,
         rejectArticle,
         deleteArticle,
         clearAllArticles,
+        syncToCloud,
+        isSyncing,
+        syncStatus,
         updateSiteSettings,
         resetToDemo,
         t

@@ -20,14 +20,15 @@ export type CategoryKey =
 export type ArticleStatus = 'published' | 'pending' | 'rejected';
 
 export interface WeaponSpecs {
-  speed: string;
-  range: string;
-  payload: string;
-  origin: string;
-  status: string;
-  clearance: string;
+  speed?: string;
+  range?: string;
+  payload?: string;
+  origin?: string;
+  status?: string;
+  clearance?: string;
   radarCrossSection?: string;
   ceiling?: string;
+  [key: string]: any;
 }
 
 export interface MultilingualText {

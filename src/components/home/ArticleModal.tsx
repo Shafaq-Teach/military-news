@@ -87,12 +87,13 @@ export const ArticleModal: React.FC = () => {
     extractedUrlFromContent = urlMatch[0].startsWith('http') ? urlMatch[0] : `https://${urlMatch[0]}`;
   }
 
+  const specs = (selectedArticle.specs || {}) as Record<string, any>;
   const rawSourceUrl = 
-    selectedArticle.specs?.['ئەسلى ئۇلانما'] || 
-    (selectedArticle.specs as any)?.sourceUrl || 
-    (selectedArticle.specs as any)?.['مەنبە ئۇلانمىسى'] ||
+    specs['ئەسلى ئۇلانما'] || 
+    specs.sourceUrl || 
+    specs['مەنبە ئۇلانمىسى'] ||
     (selectedArticle as any).sourceUrl ||
-    (selectedArticle.specs?.origin?.startsWith('http') ? selectedArticle.specs.origin : null) ||
+    (specs.origin?.startsWith('http') ? specs.origin : null) ||
     extractedUrlFromContent;
 
   const sourceUrl = rawSourceUrl ? rawSourceUrl.split('?id=')[0] : null;
@@ -274,7 +275,7 @@ export const ArticleModal: React.FC = () => {
                     {language === 'en' ? 'ORIGINAL INTEL SOURCE:' : language === 'ar' ? 'المصدر الأصلي للتقرير:' : 'ئەسلى خەۋەر ۋە تەھلىل مەنبەسى:'}
                   </span>
                   <span className="text-[var(--text-secondary)] font-medium">
-                    {selectedArticle.specs?.['مەنبە'] || selectedArticle.author || 'ئەسلى مەنبە'}
+                    {specs['مەنبە'] || selectedArticle.author || 'ئەسلى مەنبە'}
                   </span>
                 </div>
 
@@ -340,7 +341,7 @@ export const ArticleModal: React.FC = () => {
                           {language === 'en' ? 'Original Source Publication' : language === 'ar' ? 'منشور المصدر الأصلي' : 'بۇ تەھلىلنىڭ ئەسلى مەنبەسى'}
                         </div>
                         <div className="text-xs text-[var(--text-muted)] truncate">
-                          {selectedArticle.specs?.['مەنبە'] || selectedArticle.author || (language === 'en' ? 'Original Verified Source' : 'ئەسلى تەستىقلانغان مەنبە')}
+                          {specs['مەنبە'] || selectedArticle.author || (language === 'en' ? 'Original Verified Source' : 'ئەسلى تەستىقلانغان مەنبە')}
                         </div>
                       </div>
                     </div>

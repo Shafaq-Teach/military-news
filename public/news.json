@@ -1,5 +1,37 @@
 [
   {
+    "id": "art-1790094494869",
+    "category": "weapons",
+    "title": {
+      "ug": "F-16 fighter jet crashes at US air base in western Germany",
+      "en": "F-16 fighter jet crashes at US air base in western Germany"
+    },
+    "summary": {
+      "ug": "An F-16 fighter jet assigned to the US air base Spangdahlem in western Germany crashed on Tuesday, according to U.S. officials.",
+      "en": "An F-16 fighter jet assigned to the US air base Spangdahlem in western Germany crashed on Tuesday, according to U.S. officials."
+    },
+    "content": {
+      "ug": "An F-16 fighter jet assigned to the US air base Spangdahlem in western Germany crashed on Tuesday, according to U.S. officials.\n\n---\n📌 **مەنبە:** خەلقئارالىق ئەسكىرىي مەنبە",
+      "en": "An F-16 fighter jet assigned to the US air base Spangdahlem in western Germany crashed on Tuesday, according to U.S. officials.\n\n---\n**Source:** خەلقئارالىق ئەسكىرىي مەنبە"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/QPD7BU564VAIJBHZRF24ILABE4.jpeg",
+    "author": "خەلقئارالىق ئەسكىرىي مەنبە",
+    "date": "2026-09-22",
+    "status": "published",
+    "featured": true,
+    "views": 41,
+    "tags": [
+      "ھەربىي",
+      "خەۋەر"
+    ],
+    "specs": {
+      "مەنبە": "خەلقئارالىق ئەسكىرىي مەنبە",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/news/your-military/2026/09/22/f-16-fighter-jet-crashes-at-us-air-base-in-western-germany/",
+      "sourceUrl": "https://www.defensenews.com/news/your-military/2026/09/22/f-16-fighter-jet-crashes-at-us-air-base-in-western-germany/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "geo-1790094011291",
     "category": "geopolitics",
     "title": {

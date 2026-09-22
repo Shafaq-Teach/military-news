@@ -1,5 +1,39 @@
 [
   {
+    "id": "art-1790075444083",
+    "category": "drones",
+    "title": {
+      "ug": "«ئالتۇن گۈمبەز» (Golden Dome) نىڭ مەسئۇلى ئامېرىكىنىڭ بارلىق باشقۇرۇلىدىغان بومبا مۇداپىئە سىستېمىسى پروگراممىلىرىنى كونترول قىلىشى كېرەك",
+      "en": "The Golden Dome czar must get control of all US missile defense programs"
+    },
+    "summary": {
+      "ug": "تەھلىلچى تېين كلارنىڭ يېزىشىچە، ئەگەر «ئالتۇن گۈمبەز» (Golden Dome) پروگراممىسى مۇۋەپپەقىيەت قازانماقچى بولسا، ئامېرىكا دۆلەت مۇداپىئە مىنىستىرلىكى ئۆتمۈشتىكى مۇھىم تەشكىلاتچىلىق ساۋاقلىرىغا ئەستايىدىل مۇئامىلە قىلىشى كېرەك. بۇ پروگراممىنىڭ ئۈنۈملۈك بولۇشى ئۈچۈن، مەسئۇل خادىمنىڭ ئامېرىكىنىڭ بارلىق باشقۇرۇلىدىغان بومبا مۇداپىئە سىستېمىسى پروگراممىلىرىنى تولۇق كونترول قىلىش ھوقۇقىغا ئىگە بولۇشى زۆرۈر.",
+      "en": "The Defense Department must heed a vital organizational lesson from the past if Golden Dome is to succeed, writes analyst Thane Clare."
+    },
+    "content": {
+      "ug": "تەھلىلچى تېين كلارنىڭ يېزىشىچە، ئەگەر «ئالتۇن گۈمبەز» (Golden Dome) پروگراممىسى مۇۋەپپەقىيەت قازانماقچى بولسا، ئامېرىكا دۆلەت مۇداپىئە مىنىستىرلىكى ئۆتمۈشتىكى مۇھىم تەشكىلاتچىلىق ساۋاقلىرىغا ئەستايىدىل مۇئامىلە قىلىشى كېرەك. بۇ پروگراممىنىڭ ئۈنۈملۈك بولۇشى ئۈچۈن، مەسئۇل خادىمنىڭ ئامېرىكىنىڭ بارلىق باشقۇرۇلىدىغان بومبا مۇداپىئە سىستېمىسى پروگراممىلىرىنى تولۇق كونترول قىلىش ھوقۇقىغا ئىگە بولۇشى زۆرۈر.",
+      "en": "The Defense Department must heed a vital organizational lesson from the past if Golden Dome is to succeed, writes analyst Thane Clare."
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/RGMZ7JZQ3BAK3FAFM225YCJ3HU.jpg",
+    "author": "ئەسكىرىي خەۋەرلەر مەركىزى",
+    "date": "2026-09-22",
+    "status": "published",
+    "featured": true,
+    "views": 35,
+    "tags": [
+      "ھەربىي",
+      "قورال",
+      "تېخنىكا",
+      "ئاخبارات"
+    ],
+    "specs": {
+      "مەنبە": "خەلقئارالىق ئەسكىرىي مەنبە",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/opinion/2026/09/22/the-golden-dome-czar-must-get-control-of-all-us-missile-defense-programs/",
+      "sourceUrl": "https://www.defensenews.com/opinion/2026/09/22/the-golden-dome-czar-must-get-control-of-all-us-missile-defense-programs/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "wiki-1790075375954",
     "category": "database",
     "title": {

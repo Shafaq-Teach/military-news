@@ -262,19 +262,19 @@ export const ArticleModal: React.FC = () => {
               {selectedArticle.title[language] || selectedArticle.title.ug}
             </h1>
 
-            {/* Direct Source Reference Button */}
-            {sourceUrl && (
-              <div className="p-3 sm:p-4 rounded-xl bg-[var(--bg-surface)] border border-emerald-500/40 flex flex-wrap items-center justify-between gap-3 shadow-sm">
-                <div className="flex items-center gap-2.5 text-xs">
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />
-                  <span className="font-bold text-emerald-400 font-mono">
-                    {language === 'en' ? 'ORIGINAL INTEL SOURCE:' : language === 'ar' ? 'المصدر الأصلي للتقرير:' : 'ئەسلى خەۋەر ۋە تەھلىل مەنبەسى:'}
-                  </span>
-                  <span className="text-[var(--text-secondary)] font-medium">
-                    {(selectedArticle.specs as any)?.['مەنبە'] || selectedArticle.author || 'ئەسلى مەنبە'}
-                  </span>
-                </div>
+            {/* Direct Source Reference Bar */}
+            <div className="p-3 sm:p-4 rounded-xl bg-gradient-to-r from-[var(--bg-surface)] via-emerald-950/20 to-[var(--bg-surface)] border border-emerald-500/40 flex flex-wrap items-center justify-between gap-3 shadow-sm">
+              <div className="flex items-center gap-2.5 text-xs sm:text-sm">
+                <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse shrink-0" />
+                <span className="font-bold text-emerald-400">
+                  {language === 'en' ? 'SOURCE:' : language === 'ar' ? 'المصدر:' : 'مەنبە:'}
+                </span>
+                <span className="text-[var(--text-primary)] font-semibold">
+                  {(selectedArticle.specs as any)?.['مەنبە'] || selectedArticle.author || (language === 'en' ? 'Original Verified Source' : 'ئەسلى تەستىقلانغان مەنبە')}
+                </span>
+              </div>
 
+              {sourceUrl && (
                 <a
                   href={sourceUrl}
                   target="_blank"
@@ -283,11 +283,12 @@ export const ArticleModal: React.FC = () => {
                 >
                   <ExternalLink className="w-4 h-4 group-hover:scale-110 transition-transform" />
                   <span>
-                    {language === 'en' ? 'Original Source' : language === 'ar' ? 'المصدر الأصلي' : 'ئەسلى مەنبە'}
+                    🌐 {language === 'en' ? 'Original Source' : language === 'ar' ? 'المصدر الأصلي' : 'ئەسلى مەنبە'}
                   </span>
                 </a>
-              </div>
-            )}
+              )}
+            </div>
+
 
             {/* Strategic Executive Summary (Lead Briefing Box) */}
             <div className="relative p-5 sm:p-7 rounded-2xl bg-[var(--bg-surface)] border-2 border-[var(--border-color)] shadow-[0_0_30px_var(--accent-glow)]/15 overflow-hidden">
@@ -325,23 +326,27 @@ export const ArticleModal: React.FC = () => {
               </div>
 
               {/* Bottom Dedicated Original Source Action Card with button "ئەسلى مەنبە" */}
-              {sourceUrl && (
-                <div className="mt-8 pt-6 border-t border-[var(--border-color)]">
-                  <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-[var(--bg-surface)] via-emerald-950/20 to-[var(--bg-surface)] border border-emerald-500/40 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm">
-                    <div className="flex items-center gap-3 w-full sm:w-auto">
-                      <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
-                        <ExternalLink className="w-5 h-5" />
+              <div className="mt-8 pt-6 border-t border-[var(--border-color)]">
+                <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-[var(--bg-surface)] via-emerald-950/20 to-[var(--bg-surface)] border border-emerald-500/40 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm">
+                  <div className="flex items-center gap-3 w-full sm:w-auto">
+                    <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
+                      <ExternalLink className="w-5 h-5" />
+                    </div>
+                    <div className="min-w-0">
+                      <div className="text-sm font-bold text-[var(--text-primary)] flex items-center gap-2">
+                        <span>📌</span>
+                        <span>{language === 'en' ? 'Source:' : language === 'ar' ? 'المصدر:' : 'مەنبە:'}</span>
+                        <span className="text-emerald-400">
+                          {(selectedArticle.specs as any)?.['مەنبە'] || selectedArticle.author || 'ئەسلى تەستىقلانغان مەنبە'}
+                        </span>
                       </div>
-                      <div className="min-w-0">
-                        <div className="text-sm font-bold text-[var(--text-primary)]">
-                          {language === 'en' ? 'Original Source Publication' : language === 'ar' ? 'منشور المصدر الأصلي' : 'بۇ تەھلىلنىڭ ئەسلى مەنبەسى'}
-                        </div>
-                        <div className="text-xs text-[var(--text-muted)] truncate">
-                          {(selectedArticle.specs as any)?.['مەنبە'] || selectedArticle.author || (language === 'en' ? 'Original Verified Source' : 'ئەسلى تەستىقلانغان مەنبە')}
-                        </div>
+                      <div className="text-xs text-[var(--text-muted)] truncate mt-0.5">
+                        {sourceUrl ? sourceUrl : (language === 'en' ? 'Official intelligence repository' : 'ئورگان تەستىقلىغان ھەربىي دوكلات')}
                       </div>
                     </div>
+                  </div>
 
+                  {sourceUrl && (
                     <a
                       href={sourceUrl}
                       target="_blank"
@@ -349,11 +354,11 @@ export const ArticleModal: React.FC = () => {
                       className="w-full sm:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-emerald-950/40 hover:shadow-emerald-900/60 transition-all group shrink-0"
                     >
                       <ExternalLink className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                      <span>{language === 'en' ? 'Original Source' : language === 'ar' ? 'المصدر الأصلي' : 'ئەسلى مەنبە'}</span>
+                      <span>🌐 {language === 'en' ? 'Original Source' : language === 'ar' ? 'المصدر الأصلي' : 'ئەسلى مەنبە'}</span>
                     </a>
-                  </div>
+                  )}
                 </div>
-              )}
+              </div>
             </div>
 
             {/* Tags Pill Cloud */}

@@ -1,4 +1,4 @@
-import { Article } from '../types';
+import { Article } from '../types/military';
 
 /**
  * Robustly extracts the direct original source URL for any article.

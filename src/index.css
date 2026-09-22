@@ -278,13 +278,13 @@ body {
   animation: pulse-subtle 2.5s ease-in-out infinite;
 }
 
-/* Seamless Continuous News Ticker Marquee (Right-to-Left) */
-@keyframes ticker-rtl-slide {
+/* Seamless Continuous News Ticker Marquee (Left-to-Right: سولدىن ئوڭغا ھەرىكەتلىنىش) */
+@keyframes ticker-ltr-slide {
   0% {
-    transform: translate3d(0, 0, 0);
+    transform: translate3d(-50%, 0, 0);
   }
   100% {
-    transform: translate3d(-50%, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -292,7 +292,7 @@ body {
   display: flex;
   width: max-content;
   will-change: transform;
-  animation: ticker-rtl-slide 32s linear infinite;
+  animation: ticker-ltr-slide 32s linear infinite;
 }
 
 .ticker-track:hover {

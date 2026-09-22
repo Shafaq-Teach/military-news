@@ -13,13 +13,11 @@ import {
   ArrowLeft,
   Share2,
   Check,
-  Shield,
   Clock,
   Radio,
   FileText,
   Layers,
   ChevronRight,
-  Compass,
   ExternalLink
 } from 'lucide-react';
 import { translateMetadata } from '../../utils/translator';
@@ -146,14 +144,6 @@ export const ArticleModal: React.FC = () => {
               </kbd>
             </button>
 
-            <div className="hidden sm:flex items-center gap-2 text-xs font-mono border-s border-[var(--border-color)] ps-3 sm:ps-4">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              <span className="text-[var(--text-muted)]">DOSSIER //</span>
-              <span className="text-[var(--accent-primary)] font-bold">{selectedArticle.id}</span>
-              <span className="px-2 py-0.5 rounded bg-red-500/20 text-red-400 border border-red-500/30 text-[11px] font-bold">
-                {translateMetadata(selectedArticle.specs.clearance, language)}
-              </span>
-            </div>
           </div>
 
           {/* End: Quick Actions (Print, Share, Close) */}
@@ -370,25 +360,6 @@ export const ArticleModal: React.FC = () => {
               </div>
             </div>
 
-            {/* Authenticated Intelligence Footer Card */}
-            <div className="p-4 sm:p-5 rounded-2xl bg-[var(--bg-surface)]/60 border border-[var(--border-color)] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs font-mono text-[var(--text-muted)]">
-              <div className="flex items-center gap-3">
-                <Shield className="w-5 h-5 text-[var(--accent-primary)] shrink-0" />
-                <div>
-                  <div className="text-[var(--text-primary)] font-bold">
-                    AUTHENTICATED OSINT DEFENSE REPORT
-                  </div>
-                  <div className="text-[11px] text-[var(--text-muted)]">
-                    VERIFIED CLASSIFIED MILITARY INTELLIGENCE FEED
-                  </div>
-                </div>
-              </div>
-
-              <div className="text-end text-[11px]">
-                <div>TIMESTAMP: {selectedArticle.date}</div>
-                <div className="text-[var(--accent-secondary)]">CLEARANCE: {selectedArticle.specs.clearance}</div>
-              </div>
-            </div>
 
           </article>
 
@@ -580,20 +551,6 @@ export const ArticleModal: React.FC = () => {
 
             </div>
 
-            {/* Tactical Advisory Notice Card */}
-            <div className="p-4 rounded-2xl bg-[var(--bg-surface)]/40 border border-[var(--border-color)] text-xs space-y-2">
-              <div className="flex items-center gap-2 text-[var(--accent-primary)] font-bold">
-                <Compass className="w-4 h-4" />
-                <span>{language === 'en' ? 'OPERATIONAL ADVISORY' : language === 'ar' ? 'توجيهات العمليات' : 'تاكتىكىلىق ئەسكەرتىش'}</span>
-              </div>
-              <p className="text-[11px] text-[var(--text-muted)] leading-relaxed">
-                {language === 'en'
-                  ? 'All technical telemetry and strategic intelligence data are continuously audited and synchronized with global defense repositories.'
-                  : language === 'ar'
-                  ? 'يتم تحديث ومزامنة جميع البيانات التكتيكية والاستخباراتية باستمرار مع قواعد البيانات الدفاعية العالمية.'
-                  : 'بارلىق تاكتىكا پارامېتىرلىرى ۋە ئىستراتېگىيەلىك ئاخبارات دوكلاتلىرى دۇنياۋى ھەربىي مەنبەلەر ئارقىلىق ئۈزلۈكسىز دەلىللىنىپ تەڭشەپ تۇرۇلىدۇ.'}
-              </p>
-            </div>
 
           </aside>
 

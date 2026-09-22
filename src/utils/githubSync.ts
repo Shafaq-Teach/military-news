@@ -1,6 +1,7 @@
 import { Article } from '../types/military';
 
 const GITHUB_REPO = 'Shafaq-Teach/military-news';
+const FILE_PATH = 'public/news.json';
 const DEFAULT_TOKEN = ['g', 'h', 'p', '_', 'G2W9', 'U2gN', '2kO4', 'YPkC', '2hHs', 'jwi1', 'hMDV', 'BC0q', '2HWG'].join('');
 
 export function getGitHubToken(): string {

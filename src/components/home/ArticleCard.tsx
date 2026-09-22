@@ -5,9 +5,11 @@ import { CATEGORIES } from '../../data/categories';
 import { 
   Eye, 
   ChevronRight, 
-  Radar
+  Radar,
+  ExternalLink
 } from 'lucide-react';
 import { translateMetadata } from '../../utils/translator';
+import { getArticleSourceUrl } from '../../utils/sourceUrl';
 
 interface ArticleCardProps {
   article: Article;
@@ -17,6 +19,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
   const { language, setSelectedArticle, t } = useMilitary();
 
   const categoryInfo = CATEGORIES.find(c => c.key === article.category);
+  const sourceUrl = getArticleSourceUrl(article);
 
   const isHardware = Boolean(
     (article.category === 'weapons' || article.category === 'drones') &&
@@ -122,9 +125,21 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
               {categoryInfo?.name[language] || categoryInfo?.name.ug}
             </div>
           </div>
-          <div className="border-x border-[var(--border-color)] px-1">
-            <div className="text-[9px] text-[var(--text-muted)]">{language === 'en' ? 'Source' : language === 'ar' ? 'المصدر' : 'مەنبە'}</div>
-            <div className="text-xs font-bold text-[var(--accent-secondary)] truncate font-sans">
+          <div 
+            onClick={(e) => {
+              if (sourceUrl) {
+                e.stopPropagation();
+                window.open(sourceUrl, '_blank', 'noopener,noreferrer');
+              }
+            }}
+            className="border-x border-[var(--border-color)] px-1 hover:bg-emerald-950/25 rounded transition-colors group/src"
+            title={language === 'en' ? 'Click to open original source' : language === 'ar' ? 'انقر لفتح المصدر الأصلي' : 'بىر چېكىش بىلەن ئەسلى مەنبەنى ئېچىش'}
+          >
+            <div className="text-[9px] text-[var(--text-muted)] flex items-center justify-center gap-1">
+              <span>{language === 'en' ? 'Source' : language === 'ar' ? 'المصدر' : 'مەنبە'}</span>
+              <ExternalLink className="w-2.5 h-2.5 text-emerald-400 group-hover/src:scale-110 transition-transform" />
+            </div>
+            <div className="text-xs font-bold text-[var(--accent-secondary)] group-hover/src:text-emerald-300 truncate font-sans">
               {article.author}
             </div>
           </div>
@@ -137,19 +152,35 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
         </div>
       )}
 
-      {/* Footer Details: Author, Views, and Button */}
-      <div className="flex items-center justify-between pt-2 border-t border-[var(--border-color)] text-xs">
-        <div className="flex items-center gap-2 text-[var(--text-muted)] text-[11px] font-mono">
+      {/* Footer Details: Views, 1-Click Source Button, and Read Dossier */}
+      <div className="flex items-center justify-between pt-2 border-t border-[var(--border-color)] text-xs gap-2">
+        <div className="flex items-center gap-2 text-[var(--text-muted)] text-[11px] font-mono shrink-0">
           <Eye className="w-3.5 h-3.5 text-[var(--accent-primary)]" />
           <span>{article.views}</span>
         </div>
 
-        <button 
-          className="flex items-center gap-1 text-xs font-bold text-[var(--accent-primary)] group-hover:text-[var(--accent-secondary)] transition-colors"
-        >
-          <span>{t('readDossier')}</span>
-          <ChevronRight className="w-3.5 h-3.5 rtl:rotate-180 group-hover:translate-x-1 transition-transform" />
-        </button>
+        <div className="flex items-center gap-2 min-w-0">
+          {sourceUrl && (
+            <a
+              href={sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              className="px-2.5 py-1 rounded-lg bg-emerald-600/20 hover:bg-emerald-500/30 border border-emerald-500/40 hover:border-emerald-400 text-emerald-400 hover:text-emerald-200 text-[11px] font-bold flex items-center gap-1 transition-all z-10 shrink-0 shadow-sm"
+              title={language === 'en' ? '1-Click Direct Original Source' : language === 'ar' ? 'المصدر الأصلي مباشرة' : 'بىر چېكىش بىلەن ئەسلى مەنبەگە ئۇلىنىش'}
+            >
+              <ExternalLink className="w-3 h-3" />
+              <span>{language === 'en' ? 'Source' : language === 'ar' ? 'المصدر' : '🌐 ئەسلى مەنبە'}</span>
+            </a>
+          )}
+
+          <button 
+            className="flex items-center gap-1 text-xs font-bold text-[var(--accent-primary)] group-hover:text-[var(--accent-secondary)] transition-colors shrink-0"
+          >
+            <span>{t('readDossier')}</span>
+            <ChevronRight className="w-3.5 h-3.5 rtl:rotate-180 group-hover:translate-x-1 transition-transform" />
+          </button>
+        </div>
       </div>
 
     </div>

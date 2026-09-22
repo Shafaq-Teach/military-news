@@ -23,6 +23,7 @@ import {
   ExternalLink
 } from 'lucide-react';
 import { translateMetadata } from '../../utils/translator';
+import { getArticleSourceUrl } from '../../utils/sourceUrl';
 
 export const ArticleModal: React.FC = () => {
   const { 
@@ -81,18 +82,7 @@ export const ArticleModal: React.FC = () => {
   const category = CATEGORIES.find(c => c.key === selectedArticle.category);
 
   const rawBody = selectedArticle.content[language] || selectedArticle.content.ug || '';
-  const urlMatch = rawBody.match(/https?:\/\/[^\s\)\"\'<>]+/);
-  const extractedUrlFromContent = urlMatch ? urlMatch[0] : null;
-
-  const rawSourceUrl = 
-    (selectedArticle.specs as any)?.['ئەسلى ئۇلانما'] || 
-    (selectedArticle.specs as any)?.sourceUrl || 
-    (selectedArticle.specs as any)?.['مەنبە ئۇلانمىسى'] ||
-    (selectedArticle as any).sourceUrl ||
-    (selectedArticle.specs?.origin?.startsWith('http') ? selectedArticle.specs.origin : null) ||
-    extractedUrlFromContent;
-
-  const sourceUrl = rawSourceUrl ? rawSourceUrl.split('?id=')[0] : null;
+  const sourceUrl = getArticleSourceUrl(selectedArticle);
 
   // Clean raw markdown link trailers from body text
   const cleanBodyContent = rawBody

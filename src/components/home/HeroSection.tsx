@@ -19,6 +19,7 @@ import {
 } from 'lucide-react';
 import { CATEGORIES } from '../../data/categories';
 import { translateMetadata } from '../../utils/translator';
+import { getArticleSourceUrl } from '../../utils/sourceUrl';
 
 export const HeroSection: React.FC = () => {
   const { 
@@ -308,6 +309,20 @@ export const HeroSection: React.FC = () => {
                   <span>{t('readDossier')}</span>
                   <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform rtl:rotate-180" />
                 </button>
+
+                {getArticleSourceUrl(activeArticle) && (
+                  <a
+                    href={getArticleSourceUrl(activeArticle)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    className="px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-500/30 border border-emerald-500/50 hover:border-emerald-400 text-emerald-400 hover:text-emerald-200 text-xs font-bold flex items-center gap-2 transition-all shadow-sm group"
+                    title={language === 'en' ? '1-Click Direct Original Source' : 'بىر چېكىش بىلەن ئەسلى مەنبەگە ئۇلىنىش'}
+                  >
+                    <ExternalLink className="w-3.5 h-3.5 group-hover:scale-110 transition-transform" />
+                    <span>{language === 'en' ? 'Original Source' : language === 'ar' ? 'المصدر الأصلي' : '🌐 ئەسلى مەنبە'}</span>
+                  </a>
+                )}
               </div>
 
             </div>

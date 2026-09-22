@@ -99,8 +99,8 @@
     ],
     "specs": {
       "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
-      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
+      "ئەسلى ئۇلانما": "https://en.wikipedia.org/wiki/Desert_Eagle",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Desert_Eagle",
       "قورال ئىسمى": "چۆل بۈركۈتى .50 AE (Desert Eagle .50 AE)",
       "ئىشلەپچىقارغان دۆلەت": "ئىسرائىلىيە / ئامېرىكا",
       "قورال تىپى": "يېرىم ئاپتوماتىك تاپانچا",
@@ -181,7 +181,9 @@
       "ئوقدان سىغىمى": "8 ئوق",
       "ئوق ئېتىش سۈرئىتى": "ئۆلچەملىك",
       "ئۈنۈملۈك ئارىلىقى": "50 مېتىر",
-      "ئاساسلىق ۋارىيانتلىرى": "PMM, PB (ئۈنسىز نۇسخىسى), Baikal-442"
+      "ئاساسلىق ۋارىيانتلىرى": "PMM, PB (ئۈنسىز نۇسخىسى), Baikal-442",
+      "ئەسلى ئۇلانما": "https://en.wikipedia.org/wiki/Makarov_pistol",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Makarov_pistol"
     }
   },
   {
@@ -254,7 +256,9 @@
       "ئوقدان سىغىمى": "15 ئوقلۇق ئۆلچەملىك ئوقدان",
       "ئوق ئېتىش سۈرئىتى": "ئۆلچەملىك",
       "ئۈنۈملۈك ئارىلىقى": "50 مېتىر",
-      "ئاساسلىق ۋارىيانتلىرى": "92S, 92SB, 92FS Inox, 92G, 92A1"
+      "ئاساسلىق ۋارىيانتلىرى": "92S, 92SB, 92FS Inox, 92G, 92A1",
+      "ئەسلى ئۇلانما": "https://en.wikipedia.org/wiki/Beretta_92",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Beretta_92"
     }
   },
   {
@@ -462,7 +466,9 @@
       "ئوقدان سىغىمى": "17 ئوق (ئۆلچەملىك)",
       "ئوق ئېتىش سۈرئىتى": "يېرىم ئاپتوماتىك (ئوقچىنىڭ سۈرئىتىگە باغلىق)",
       "ئۈنۈملۈك ئارىلىقى": "50 مېتىر",
-      "ئاساسلىق ۋارىيانتلىرى": "Glock 17L, Glock 17C, Glock 17 Gen 5, Glock 17M"
+      "ئاساسلىق ۋارىيانتلىرى": "Glock 17L, Glock 17C, Glock 17 Gen 5, Glock 17M",
+      "ئەسلى ئۇلانما": "https://en.wikipedia.org/wiki/Glock",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Glock"
     }
   },
   {
@@ -974,7 +980,9 @@
       "ئوقدان سىغىمى": "ئوقدان: 17 پاتىدۇ (ئۆلچەملىك)",
       "ئوق ئېتىش سۈرئىتى": "يېرىم ئاپتوماتىك (ئوقچىنىڭ سۈرئىتىگە باغلىق)",
       "ئۈنۈملۈك ئارىلىقى": "50 مېتىر",
-      "ۋارىيانتلىرى": "Glock 17C, Glock 17L, Glock 17M, Glock 17 Gen5"
+      "ۋارىيانتلىرى": "Glock 17C, Glock 17L, Glock 17M, Glock 17 Gen5",
+      "ئەسلى ئۇلانما": "https://en.wikipedia.org/wiki/Glock",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Glock"
     }
   },
   {

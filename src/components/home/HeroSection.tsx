@@ -2,20 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { useMilitary } from '../../context/MilitaryContext';
 import { 
   Shield, 
-  Activity, 
   Cpu, 
   Zap, 
   Crosshair, 
   Search, 
-  ChevronRight,
-  ChevronLeft,
-  Radar,
-  Radio,
-  Sparkles,
-  Pause,
-  Play,
-  ExternalLink,
-  FilePlus2
+  ChevronRight, 
+  ChevronLeft, 
+  Radio, 
+  Sparkles, 
+  Pause, 
+  Play, 
+  ExternalLink, 
+  FilePlus2 
 } from 'lucide-react';
 import { CATEGORIES } from '../../data/categories';
 import { translateMetadata } from '../../utils/translator';
@@ -81,11 +79,9 @@ export const HeroSection: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         
-        {/* Top Search & Telemetry Bar */}
-        <div className="mb-6 sm:mb-8 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3 sm:gap-4">
-          
-          {/* Tactical Search Box */}
-          <div className="relative flex-1 max-w-xl">
+        {/* Top Search Bar */}
+        <div className="mb-6 sm:mb-8 max-w-xl">
+          <div className="relative">
             <div className="absolute inset-y-0 start-0 ps-3.5 flex items-center pointer-events-none text-[var(--accent-primary)]">
               <Search className="w-4 h-4" />
             </div>
@@ -105,23 +101,6 @@ export const HeroSection: React.FC = () => {
               </button>
             )}
           </div>
-
-          {/* Quick Telemetry Indicators */}
-          <div className="flex items-center gap-2 sm:gap-3 text-xs font-mono text-[var(--text-secondary)] shrink-0 overflow-x-auto pb-1 md:pb-0">
-            <div className="flex items-center gap-1.5 sm:gap-2 px-2.5 py-1.5 rounded bg-[var(--bg-surface)] border border-[var(--border-color)] whitespace-nowrap">
-              <span className="w-2 h-2 rounded-full bg-[var(--accent-primary)] animate-pulse"></span>
-              <span className="text-[11px]">FEED: SECURE</span>
-            </div>
-            <div className="flex items-center gap-1.5 sm:gap-2 px-2.5 py-1.5 rounded bg-[var(--bg-surface)] border border-[var(--border-color)] whitespace-nowrap">
-              <Radar className="w-3.5 h-3.5 text-[var(--accent-secondary)] animate-spin" style={{ animationDuration: '6s' }} />
-              <span className="text-[11px]">RADAR: ACTIVE</span>
-            </div>
-            <div className="flex items-center gap-1.5 sm:gap-2 px-2.5 py-1.5 rounded bg-[var(--bg-surface)] border border-[var(--border-color)] whitespace-nowrap">
-              <Activity className="w-3.5 h-3.5 text-emerald-400" />
-              <span className="text-[11px]">OSINT: 24/7</span>
-            </div>
-          </div>
-
         </div>
 
         {/* Main Hero HUD Showcase - Auto-rotating 5 latest articles */}

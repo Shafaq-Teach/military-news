@@ -305,40 +305,7 @@ export const ArticleModal: React.FC = () => {
                 </p>
               </div>
 
-              {/* Bottom Dedicated Original Source Action Card with button "ئەسلى مەنبە" */}
-              <div className="mt-8 pt-6 border-t border-[var(--border-color)]">
-                <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-[var(--bg-surface)] via-emerald-950/20 to-[var(--bg-surface)] border border-emerald-500/40 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm">
-                  <div className="flex items-center gap-3 w-full sm:w-auto">
-                    <div className="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
-                      <ExternalLink className="w-5 h-5" />
-                    </div>
-                    <div className="min-w-0">
-                      <div className="text-sm font-bold text-[var(--text-primary)] flex items-center gap-2">
-                        <span>📌</span>
-                        <span>{language === 'en' ? 'Source:' : language === 'ar' ? 'المصدر:' : 'مەنبە:'}</span>
-                        <span className="text-emerald-400">
-                          {(selectedArticle.specs as any)?.['مەنبە'] || selectedArticle.author || 'ئەسلى تەستىقلانغان مەنبە'}
-                        </span>
-                      </div>
-                      <div className="text-xs text-[var(--text-muted)] truncate mt-0.5">
-                        {sourceUrl ? sourceUrl : (language === 'en' ? 'Official intelligence repository' : 'ئورگان تەستىقلىغان ھەربىي دوكلات')}
-                      </div>
-                    </div>
-                  </div>
 
-                  {sourceUrl && (
-                    <a
-                      href={sourceUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-full sm:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-emerald-950/40 hover:shadow-emerald-900/60 transition-all group shrink-0"
-                    >
-                      <ExternalLink className="w-4 h-4 group-hover:scale-110 transition-transform" />
-                      <span>🌐 {language === 'en' ? 'Original Source' : language === 'ar' ? 'المصدر الأصلي' : 'ئەسلى مەنبە'}</span>
-                    </a>
-                  )}
-                </div>
-              </div>
             </div>
 
             {/* Tags Pill Cloud */}

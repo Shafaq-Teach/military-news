@@ -80,12 +80,16 @@ export const ArticleModal: React.FC = () => {
 
   const category = CATEGORIES.find(c => c.key === selectedArticle.category);
 
-  const sourceUrl = 
+  const rawBody = selectedArticle.content[language] || selectedArticle.content.ug || '';
+  const urlMatch = rawBody.match(/https?:\/\/[^\s\)\"\'<>]+/);
+  const extractedUrlFromContent = urlMatch ? urlMatch[0] : null;
+
+  const rawSourceUrl = 
     (selectedArticle.specs as any)?.['ئەسلى ئۇلانما'] || 
     (selectedArticle.specs as any)?.sourceUrl || 
     (selectedArticle.specs as any)?.['مەنبە ئۇلانمىسى'] ||
     (selectedArticle as any).sourceUrl ||
-    (specs.origin?.startsWith('http') ? specs.origin : null) ||
+    (selectedArticle.specs?.origin?.startsWith('http') ? selectedArticle.specs.origin : null) ||
     extractedUrlFromContent;
 
   const sourceUrl = rawSourceUrl ? rawSourceUrl.split('?id=')[0] : null;
@@ -333,7 +337,7 @@ export const ArticleModal: React.FC = () => {
                           {language === 'en' ? 'Original Source Publication' : language === 'ar' ? 'منشور المصدر الأصلي' : 'بۇ تەھلىلنىڭ ئەسلى مەنبەسى'}
                         </div>
                         <div className="text-xs text-[var(--text-muted)] truncate">
-                          {specs['مەنبە'] || selectedArticle.author || (language === 'en' ? 'Original Verified Source' : 'ئەسلى تەستىقلانغان مەنبە')}
+                          {(selectedArticle.specs as any)?.['مەنبە'] || selectedArticle.author || (language === 'en' ? 'Original Verified Source' : 'ئەسلى تەستىقلانغان مەنبە')}
                         </div>
                       </div>
                     </div>

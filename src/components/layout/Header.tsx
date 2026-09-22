@@ -160,9 +160,9 @@ export const Header: React.FC = () => {
             </div>
           </div>
 
-          {/* 2. Middle Category Navigation (Vibrant Candy Pills matching user screenshot) */}
-          <nav className="hidden md:flex items-center justify-center flex-1 mx-1 sm:mx-2 min-w-0">
-            <div className="flex items-center gap-1.5 sm:gap-2 px-3 py-2 rounded-2xl bg-black/40 border border-white/10 backdrop-blur-md overflow-x-auto scrollbar-none shadow-inner">
+          {/* 2. Middle Category Navigation (Clean Floating Candy Pills - No Grey Background) */}
+          <nav className="hidden md:flex items-center justify-center flex-1 mx-1 min-w-0">
+            <div className="flex items-center justify-center gap-1 xl:gap-1.5 py-1 overflow-x-auto scrollbar-none">
               {navCategories.map(cat => {
                 const isActive = activeCategory === cat.key;
                 const label = cat.label[language] || cat.label.ug;
@@ -172,15 +172,15 @@ export const Header: React.FC = () => {
                   <button
                     key={cat.key}
                     onClick={() => handleCategoryClick(cat.key)}
-                    className={`px-3.5 py-1.5 rounded-full text-xs sm:text-[13px] whitespace-nowrap transition-all duration-300 relative border bg-gradient-to-r ${theme.gradient} ${theme.border} ${theme.text} font-bold ${
+                    className={`px-2.5 xl:px-3 py-1 rounded-full text-xs xl:text-[13px] whitespace-nowrap transition-all duration-300 relative border bg-gradient-to-r ${theme.gradient} ${theme.border} ${theme.text} font-bold shrink-0 ${
                       isActive
                         ? `ring-2 ring-white scale-105 ${theme.glow} brightness-110 z-10 shadow-lg`
-                        : 'opacity-90 hover:opacity-100 hover:scale-105 shadow-sm'
+                        : 'opacity-95 hover:opacity-100 hover:scale-105 shadow-sm'
                     }`}
                   >
                     <span>{label}</span>
                     {isActive && (
-                      <span className="absolute -bottom-1 start-1/2 -translate-x-1/2 w-4 h-1 bg-white rounded-full shadow-[0_0_8px_#ffffff]"></span>
+                      <span className="absolute -bottom-1 start-1/2 -translate-x-1/2 w-3.5 h-0.5 bg-white rounded-full shadow-[0_0_8px_#ffffff]"></span>
                     )}
                   </button>
                 );
@@ -267,7 +267,7 @@ export const Header: React.FC = () => {
       </div>
 
       {/* 4. Mobile & Tablet Category Scroll Strip (Visible on screens < md) */}
-      <div className="md:hidden border-t border-white/10 bg-black/60 backdrop-blur-md px-2 py-2 overflow-x-auto scrollbar-none flex items-center gap-1.5 shadow-inner">
+      <div className="md:hidden border-t border-[var(--border-color)]/30 px-2 py-2 overflow-x-auto scrollbar-none flex items-center gap-1.5">
         {navCategories.map(cat => {
           const isActive = activeCategory === cat.key;
           const label = cat.label[language] || cat.label.ug;

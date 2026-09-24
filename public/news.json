@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790271077570",
+    "category": "weapons",
+    "title": {
+      "ug": "نېللىس ھەربىي ئاۋىئاتسىيە بازىسىدا A-10 ئايروپىلانلىرى دەۋرى ئاخىرلاشتى",
+      "en": "The A-10 Era Is Over At Nellis AFB"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسىنىڭ نېللىس بازىسىدىكى داڭلىق A-10 «Warthog» تىپلىق يەر يۈزىگە يېقىندىن مەدەت بېرىش ئايروپىلانلىرىنىڭ ۋەزىپىسى ئاخىرلاشتى. بۇ ئايروپىلانلارنىڭ چېكىنىشى ئامېرىكا ھاۋا ئارمىيەسىنىڭ يېقىندىن ھاۋا مەدەتى بېرىش ئىقتىدارىنى قايتىدىن تەشكىللەش ۋە ئۆتكۈنچى باسقۇچقا يۈزلىنىش مەزگىلىدە بىر قاتار يېڭى مۇزاكىرىلەرنى پەيدا قىلدى.",
+      "en": "The A-10 Era Is Over At Nellis AFB"
+    },
+    "content": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسىنىڭ نېللىس بازىسىدىكى داڭلىق A-10 «Warthog» تىپلىق يەر يۈزىگە يېقىندىن مەدەت بېرىش ئايروپىلانلىرىنىڭ ۋەزىپىسى ئاخىرلاشتى. بۇ ئايروپىلانلارنىڭ چېكىنىشى ئامېرىكا ھاۋا ئارمىيەسىنىڭ يېقىندىن ھاۋا مەدەتى بېرىش ئىقتىدارىنى قايتىدىن تەشكىللەش ۋە ئۆتكۈنچى باسقۇچقا يۈزلىنىش مەزگىلىدە بىر قاتار يېڭى مۇزاكىرىلەرنى پەيدا قىلدى.",
+      "en": "The Warthog’s departure leaves the USAF's mastery of close air support in a tenuous transition. \nThe post The A-10 Era Is Over At Nellis AFB appeared first on TWZ."
+    },
+    "imageUrl": "https://www.twz.com/wp-content/uploads/2026/09/a-10-nellis-ends.jpg?quality=85",
+    "author": "The War Zone (TWZ)",
+    "date": "2026-09-24",
+    "status": "published",
+    "featured": true,
+    "views": 104,
+    "tags": [
+      "ھەربىي",
+      "ئاۋىئاتسىيە",
+      "A-10",
+      "ئامېرىكا"
+    ],
+    "specs": {
+      "مەنبە": "The War Zone (TWZ)",
+      "ئەسلى ئۇلانما": "https://www.twz.com/air/the-a-10-era-is-over-at-nellis-afb",
+      "sourceUrl": "https://www.twz.com/air/the-a-10-era-is-over-at-nellis-afb",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1790271103744",
     "category": "geopolitics",
     "title": {

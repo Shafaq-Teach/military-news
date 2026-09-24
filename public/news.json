@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790274989969_495",
+    "category": "weapons",
+    "title": {
+      "ug": "ئۇكرائىنانىڭ شەرقىي سەپتە ئىلگىرىلىشىنى قولغا كەلتۈرگەن «ۋىۋالدى ھەربىي ھەرىكىتى» نىڭ تەپسىلاتلىرى",
+      "en": "Inside Ukraine’s Operation Vivaldi That Sees Its Troops Gaining Ground In The East"
+    },
+    "summary": {
+      "ug": "ئۇكرائىنا ئارمىيەسىنىڭ شەرقىي سەپتە ئاستا-ئاستا زېمىن كونتروللۇقىنى قولغا كەلتۈرۈشىگە تۈرتكە بولۇۋاتقان «ۋىۋالدى ھەربىي ھەرىكىتى» توغرىسىدا يۇقىرى دەرىجىلىك ئۇكرائىنا پولكۋنىكى مۇھىم مەلۇماتلارنى ئوتتۇرىغا قويدى. بۇ ھەرىكەت ئۇكرائىنا قىسىمل...",
+      "en": "Ukraine Situation Report: Ukrainian Colonel gives insights into how his forces have been slowly advancing on the eastern front.\nThe post Inside Ukraine&#8217;s Operation Vivaldi That Sees Its Troops Gaining Ground In The East appeared first"
+    },
+    "content": {
+      "ug": "ئۇكرائىنا ئارمىيەسىنىڭ شەرقىي سەپتە ئاستا-ئاستا زېمىن كونتروللۇقىنى قولغا كەلتۈرۈشىگە تۈرتكە بولۇۋاتقان «ۋىۋالدى ھەربىي ھەرىكىتى» توغرىسىدا يۇقىرى دەرىجىلىك ئۇكرائىنا پولكۋنىكى مۇھىم مەلۇماتلارنى ئوتتۇرىغا قويدى. بۇ ھەرىكەت ئۇكرائىنا قىسىملىرىنىڭ تاكتىكىلىق ئىلگىرىلەشلىرى ۋە رۇس ئارمىيەسىگە قارشى ئېلىپ بېرىۋاتقان تەدبىرلىرىنى ئۆز ئىچىگە ئالىدۇ.\n\n---\n📌 **مەنبە:** The War Zone (TWZ)",
+      "en": "Ukraine Situation Report: Ukrainian Colonel gives insights into how his forces have been slowly advancing on the eastern front.\nThe post Inside Ukraine&#8217;s Operation Vivaldi That Sees Its Troops Gaining Ground In The East appeared first on TWZ.\n\n---\n**Source:** The War Zone (TWZ)"
+    },
+    "imageUrl": "https://www.twz.com/wp-content/uploads/2026/09/Vivaldi2.jpg?quality=85",
+    "author": "The War Zone (TWZ)",
+    "date": "2026-05-19",
+    "status": "published",
+    "featured": true,
+    "views": 54,
+    "tags": [
+      "ئۇكرائىنا",
+      "ھەربىي ھەرىكەت",
+      "شەرقىي سەپ",
+      "ئەسكىرىي تەكتىكا"
+    ],
+    "specs": {
+      "مەنبە": "The War Zone (TWZ)",
+      "ئەسلى ئۇلانما": "https://www.twz.com/news-features/inside-ukraines-operation-vivaldi-that-sees-it-troops-gaining-ground-in-the-east",
+      "sourceUrl": "https://www.twz.com/news-features/inside-ukraines-operation-vivaldi-that-sees-it-troops-gaining-ground-in-the-east",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "wpn_1790273781371",
     "category": "database",
     "title": {

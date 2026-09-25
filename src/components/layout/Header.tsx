@@ -8,7 +8,8 @@ import {
   Moon, 
   Globe, 
   Settings, 
-  Crosshair
+  Crosshair,
+  Check
 } from 'lucide-react';
 
 export const Header: React.FC = () => {
@@ -38,10 +39,10 @@ export const Header: React.FC = () => {
     'desert-recon': '#f59e0b'
   };
 
-  const languages: { code: Language; label: string }[] = [
-    { code: 'ug', label: 'ئۇيغۇرچە' },
-    { code: 'ar', label: 'العربية' },
-    { code: 'en', label: 'English' }
+  const languages: { code: Language; label: string; sub: string }[] = [
+    { code: 'ug', label: 'ئۇيغۇرچە', sub: 'UG' },
+    { code: 'ar', label: 'العربية', sub: 'AR' },
+    { code: 'en', label: 'English', sub: 'EN' }
   ];
 
   // 8 Categories + All filter with concise, clear labels
@@ -124,7 +125,7 @@ export const Header: React.FC = () => {
   };
 
   return (
-    <header className="sticky top-0 z-40 bg-[var(--bg-main)]/95 backdrop-blur-md border-b border-[var(--border-color)] w-full max-w-full overflow-hidden">
+    <header className="sticky top-0 z-40 bg-[var(--bg-main)]/95 backdrop-blur-md border-b border-[var(--border-color)] w-full max-w-full">
       <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 w-full max-w-full">
         
         {/* Main Header Bar Row */}
@@ -228,24 +229,71 @@ export const Header: React.FC = () => {
               </button>
 
               {langDropdownOpen && (
-                <div 
-                  className="absolute end-0 mt-2 w-32 bg-[#07131d]/95 backdrop-blur-xl border border-purple-500/40 rounded-xl shadow-2xl p-1 z-50 hud-panel"
-                  onClick={() => setLangDropdownOpen(false)}
-                >
-                  {languages.map(item => (
-                    <button
-                      key={item.code}
-                      onClick={() => setLanguage(item.code)}
-                      className={`w-full text-start px-3 py-2 text-xs rounded-lg transition-colors font-bold ${
-                        language === item.code 
-                          ? 'bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-sm' 
-                          : 'hover:bg-white/10 text-white/90'
-                      }`}
-                    >
-                      {item.label}
-                    </button>
-                  ))}
-                </div>
+                <>
+                  {/* Backdrop to close dropdown on click outside */}
+                  <div 
+                    className="fixed inset-0 z-40" 
+                    onClick={() => setLangDropdownOpen(false)} 
+                  />
+
+                  <div 
+                    className={`absolute end-0 mt-2.5 w-44 sm:w-48 rounded-2xl p-1.5 z-50 backdrop-blur-2xl space-y-1 shadow-2xl transition-all ${
+                      displayMode === 'light'
+                        ? 'bg-white/98 border-2 border-purple-400 shadow-[0_12px_36px_rgba(147,51,234,0.18)]'
+                        : 'bg-[#091524]/98 border-2 border-purple-500/60 shadow-[0_12px_36px_rgba(0,0,0,0.65)]'
+                    }`}
+                  >
+                    <div className={`px-2.5 py-1 text-[10px] font-mono font-bold tracking-wider uppercase border-b mb-1 flex items-center justify-between ${
+                      displayMode === 'light'
+                        ? 'text-purple-700 border-purple-200'
+                        : 'text-purple-300 border-purple-500/30'
+                    }`}>
+                      <span>{t('language') || 'تىل تاللاش'}</span>
+                      <span className="text-[9px] opacity-75 font-sans">LANG</span>
+                    </div>
+
+                    {languages.map(item => {
+                      const isCurrent = language === item.code;
+                      return (
+                        <button
+                          key={item.code}
+                          onClick={() => {
+                            setLanguage(item.code);
+                            setLangDropdownOpen(false);
+                          }}
+                          className={`w-full flex items-center justify-between px-3 py-2 text-xs sm:text-[13px] rounded-xl transition-all font-bold ${
+                            isCurrent
+                              ? 'bg-gradient-to-r from-purple-600 via-indigo-600 to-purple-700 text-white shadow-md shadow-purple-500/35 font-black scale-[1.02]'
+                              : displayMode === 'light'
+                                ? 'text-slate-900 hover:bg-purple-100/90 hover:text-purple-800'
+                                : 'text-slate-100 hover:bg-purple-950/60 hover:text-purple-200'
+                          }`}
+                        >
+                          <div className="flex items-center gap-2">
+                            {isCurrent ? (
+                              <Check className="w-3.5 h-3.5 text-amber-300 shrink-0" />
+                            ) : (
+                              <span className={`w-2 h-2 rounded-full shrink-0 ${
+                                displayMode === 'light' ? 'bg-purple-500' : 'bg-purple-400'
+                              }`} />
+                            )}
+                            <span className="font-bold">{item.label}</span>
+                          </div>
+
+                          <span className={`text-[10px] font-mono px-1.5 py-0.5 rounded font-bold ${
+                            isCurrent 
+                              ? 'bg-white/25 text-white' 
+                              : displayMode === 'light'
+                                ? 'bg-slate-200 text-slate-800'
+                                : 'bg-slate-800 text-slate-200'
+                          }`}>
+                            {item.sub}
+                          </span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </>
               )}
             </div>
 

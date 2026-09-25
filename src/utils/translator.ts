@@ -1,9 +1,13 @@
 import { Language, MultilingualText } from '../types/military';
 
+export const isUg = (s?: string): boolean => /[\u067E\u0686\u0698\u06AD\u06AF\u06CB\u06C7\u06C8\u06D0\u06D5\u0649]/.test(s || '');
+export const isAr = (s?: string): boolean => /[\u0621-\u063A\u0641-\u064A]/.test(s || '') && !isUg(s);
+export const isLatin = (s?: string): boolean => /[a-zA-Z]/.test(s || '');
+
 const translationCache: Record<string, string> = {};
 
 /**
- * Free online translation using Google GTX public endpoint (CORS enabled).
+ * Free online translation using Google GTX public endpoint (CORS enabled) with safe chunking for long content.
  */
 export async function translateText(
   text: string,
@@ -12,59 +16,100 @@ export async function translateText(
 ): Promise<string> {
   if (!text || !text.trim()) return '';
 
-  const cacheKey = `${sourceLang}_${targetLang}_${text.trim()}`;
+  const clean = text.trim();
+  const cacheKey = `${sourceLang}_${targetLang}_${clean}`;
   if (translationCache[cacheKey]) {
     return translationCache[cacheKey];
   }
 
-  try {
-    const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&q=${encodeURIComponent(text)}`;
-    const response = await fetch(url);
-    if (!response.ok) {
-      throw new Error(`Translation HTTP error: ${response.status}`);
-    }
-    const data = await response.json();
-    if (Array.isArray(data) && Array.isArray(data[0])) {
-      const translated = data[0].map((item: [string]) => item[0]).join('');
-      if (translated) {
-        translationCache[cacheKey] = translated;
-        return translated;
+  // If text is short (<= 1200 chars), single call
+  if (clean.length <= 1200) {
+    try {
+      const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=${sourceLang}&tl=${targetLang}&dt=t&q=${encodeURIComponent(clean)}`;
+      const response = await fetch(url);
+      if (!response.ok) {
+        throw new Error(`Translation HTTP error: ${response.status}`);
       }
+      const data = await response.json();
+      if (Array.isArray(data) && Array.isArray(data[0])) {
+        const translated = data[0].map((item: [string]) => item[0]).join('');
+        if (translated) {
+          translationCache[cacheKey] = translated;
+          return translated;
+        }
+      }
+    } catch (err) {
+      console.warn('Auto translation fallback:', err);
     }
-  } catch (err) {
-    console.warn('Auto translation fallback:', err);
+    return clean;
   }
 
-  return text;
+  // For longer content, chunk safely by paragraphs / sentences
+  const chunks: string[] = [];
+  let remaining = clean;
+  while (remaining.length > 1200) {
+    let splitIdx = remaining.lastIndexOf('\n', 1200);
+    if (splitIdx < 400) splitIdx = remaining.lastIndexOf('. ', 1200);
+    if (splitIdx < 400) splitIdx = 1200;
+    chunks.push(remaining.slice(0, splitIdx));
+    remaining = remaining.slice(splitIdx);
+  }
+  if (remaining.length > 0) chunks.push(remaining);
+
+  try {
+    const translatedChunks: string[] = [];
+    for (const chunk of chunks) {
+      const res = await translateText(chunk, targetLang, sourceLang);
+      translatedChunks.push(res);
+    }
+    const full = translatedChunks.join('');
+    translationCache[cacheKey] = full;
+    return full;
+  } catch {
+    return clean;
+  }
 }
 
 /**
  * Automatically translates single content to all 3 languages (Uyghur, Arabic, English).
+ * Automatically detects whether input is Uyghur, Arabic, or English regardless of UI state.
  */
 export async function autoTranslateContent(
   text: string,
-  detectedOrSelectedLang: Language = 'ug'
+  hintLang: Language = 'ug'
 ): Promise<MultilingualText> {
   if (!text || !text.trim()) {
     return { ug: '', ar: '', en: '' };
   }
 
+  const clean = text.trim();
+
+  // Detect true source language from characters
+  let actualSource: Language = hintLang;
+  if (isUg(clean)) {
+    actualSource = 'ug';
+  } else if (isAr(clean)) {
+    actualSource = 'ar';
+  } else if (isLatin(clean)) {
+    actualSource = 'en';
+  }
+
   const result: MultilingualText = {
-    ug: text,
-    ar: text,
-    en: text
+    ug: clean,
+    ar: clean,
+    en: clean
   };
 
-  result[detectedOrSelectedLang] = text;
+  result[actualSource] = clean;
 
   const targets: Language[] = (['ug', 'ar', 'en'] as Language[]).filter(
-    l => l !== detectedOrSelectedLang
+    l => l !== actualSource
   );
 
   await Promise.all(
     targets.map(async (target) => {
       try {
-        const translated = await translateText(text, target, detectedOrSelectedLang);
+        const translated = await translateText(clean, target, actualSource);
         if (translated) {
           result[target] = translated;
         }
@@ -533,10 +578,6 @@ export function translateMetadata(value: string | undefined, lang: Language): st
 
   return trimmed;
 }
-
-export const isUg = (s?: string): boolean => /[\u067E\u0686\u0698\u06AD\u06AF\u06CB\u06C7\u06C8\u06D0\u06D5\u0649]/.test(s || '');
-export const isAr = (s?: string): boolean => /[\u0621-\u063A\u0641-\u064A]/.test(s || '') && !isUg(s);
-export const isLatin = (s?: string): boolean => /[a-zA-Z]/.test(s || '');
 
 export function getArticleTitle(article: any, lang: Language): string {
   if (!article) return '';

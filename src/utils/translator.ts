@@ -495,6 +495,111 @@ const METADATA_DICTIONARY: Record<string, Record<Language, string>> = {
     en: 'Military Intelligence Agency',
     ar: 'وكالة الأنباء العسكرية'
   },
+  'ئاكتىپ': {
+    ug: 'ئاكتىپ',
+    en: 'Active',
+    ar: 'نشط'
+  },
+  'تەستىقلانغان': {
+    ug: 'تەستىقلانغان',
+    en: 'Verified',
+    ar: 'موثق'
+  },
+  'تەستىقلانغان ئاخبارات': {
+    ug: 'تەستىقلانغان ئاخبارات',
+    en: 'Verified Intel',
+    ar: 'معلومات موثقة'
+  },
+  'تەستىقلانغان ئانالىز': {
+    ug: 'تەستىقلانغان ئانالىز',
+    en: 'Verified Analysis',
+    ar: 'تحليل موثق'
+  },
+  'تەستىقلانغان سىياسىي ئانالىز': {
+    ug: 'تەستىقلانغان سىياسىي ئانالىز',
+    en: 'Verified Geopolitical Analysis',
+    ar: 'تحليل سياسي معتمد'
+  },
+  'تەستىقلانغان ماقالە': {
+    ug: 'تەستىقلانغان ماقالە',
+    en: 'Verified Article',
+    ar: 'مقال معتمد'
+  },
+  'ئاشكارا تاكتىكىلىق ئاخبارات': {
+    ug: 'ئاشكارا تاكتىكىلىق ئاخبارات',
+    en: 'Open Tactical Intel',
+    ar: 'استخبارات تكتيكية معلنة'
+  },
+  'ئاشكارا ئاخبارات': {
+    ug: 'ئاشكارا ئاخبارات',
+    en: 'Open Intelligence',
+    ar: 'استخبارات معلنة'
+  },
+  'ئاشكارا كەسپىي': {
+    ug: 'ئاشكارا كەسپىي',
+    en: 'Professional OSINT',
+    ar: 'استخبارات علنية'
+  },
+  'ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)': {
+    ug: 'ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)',
+    en: 'Arsenal Wiki Archive',
+    ar: 'موسوعة الترسانة العسكرية'
+  },
+  'قاسيون تەتقىقات مەركىزى': {
+    ug: 'قاسيون تەتقىقات مەركىزى',
+    en: 'Qasioun Research Center',
+    ar: 'مركز قاسيون للدراسات'
+  },
+  'مركز قاسيون للدراسات': {
+    ug: 'قاسيون تەتقىقات مەركىزى',
+    en: 'Qasioun Research Center',
+    ar: 'مركز قاسيون للدراسات'
+  },
+  'مركز الخطابي للدراسات': {
+    ug: 'خەتتابىي تەتقىقات مەركىزى',
+    en: 'Al-Khattabi Research Center',
+    ar: 'مركز الخطابي للدراسات'
+  },
+  'ئەلى تەمىمى (Facebook)': {
+    ug: 'ئەلى تەمىمى (Facebook)',
+    en: 'Ali Tamimi (Facebook)',
+    ar: 'علي التميمي (Facebook)'
+  },
+  'علي التميمي (Facebook)': {
+    ug: 'ئەلى تەمىمى (Facebook)',
+    en: 'Ali Tamimi (Facebook)',
+    ar: 'علي التميمي (Facebook)'
+  },
+  'ئەلى تەمىمى': {
+    ug: 'ئەلى تەمىمى',
+    en: 'Ali Tamimi',
+    ar: 'علي التميمي'
+  },
+  'صقر العرب (Facebook)': {
+    ug: 'صقر العرب (Facebook)',
+    en: 'Saqr Al-Arab (Facebook)',
+    ar: 'صقر العرب (Facebook)'
+  },
+  'خەلقئارالىق ئەسكىرىي مەنبە': {
+    ug: 'خەلقئارالىق ئەسكىرىي مەنبە',
+    en: 'International Defense Source',
+    ar: 'مصدر عسكري دولي'
+  },
+  'ئەسكىرىي خەۋەرلەر مەركىزى': {
+    ug: 'ئەسكىرىي خەۋەرلەر مەركىزى',
+    en: 'Military News Center',
+    ar: 'مركز الأخبار العسكرية'
+  },
+  'دۇنياۋى ئاخبارات': {
+    ug: 'دۇنياۋى ئاخبارات',
+    en: 'Global Intelligence',
+    ar: 'استخبارات عالمية'
+  },
+  'ئاۋسترالىيە / ئامېرىكا': {
+    ug: 'ئاۋسترالىيە / ئامېرىكا',
+    en: 'Australia / USA',
+    ar: 'أستراليا / أمريكا'
+  },
   'تەھرىرات': {
     ug: 'تەھرىرات',
     en: 'Editorial Board',
@@ -511,8 +616,9 @@ export function translateMetadata(value: string | undefined, lang: Language): st
 
   const trimmed = value.trim();
 
-  // If already in Uyghur and requesting Uyghur
+  // If requesting Uyghur
   if (lang === 'ug') {
+    if (METADATA_DICTIONARY[trimmed]?.ug) return METADATA_DICTIONARY[trimmed].ug;
     return trimmed;
   }
 
@@ -543,7 +649,7 @@ export function translateMetadata(value: string | undefined, lang: Language): st
     }
   }
 
-  // 3. Substring checks for clearances
+  // 3. Substring checks for clearances & classifications
   if (trimmed.includes('BLACK-PROJECT')) return lang === 'en' ? 'BLACK-PROJECT' : 'مشروع أسود (BLACK-PROJECT)';
   if (trimmed.includes('TOP-SECRET')) return lang === 'en' ? 'TOP-SECRET' : 'سري للغاية (TOP-SECRET)';
   if (trimmed.includes('CONFIDENTIAL')) return lang === 'en' ? 'CONFIDENTIAL' : 'سري (CONFIDENTIAL)';
@@ -556,7 +662,33 @@ export function translateMetadata(value: string | undefined, lang: Language): st
   if (trimmed.includes('PUBLIC') || trimmed.includes('OSINT')) return lang === 'en' ? 'PUBLIC-OSINT' : 'استخبارات علنية (OSINT)';
   if (trimmed.includes('DEEP-ANALYSIS')) return lang === 'en' ? 'DEEP-ANALYSIS' : 'تحليل استراتيجي معمق';
 
-  // 4. Substring checks for speeds & origins
+  if (trimmed.includes('ئاشكارا')) {
+    if (trimmed.includes('تاكتىكا')) return lang === 'en' ? 'Open Tactical Intel' : 'استخبارات تكتيكية معلنة';
+    if (trimmed.includes('ئاخبارات')) return lang === 'en' ? 'Open Intelligence' : 'استخبارات معلنة';
+    return lang === 'en' ? 'Open Intel' : 'استخبارات معلنة';
+  }
+  if (trimmed.includes('مەخپىي')) {
+    if (trimmed.includes('پەۋقۇلئاددە') || trimmed.includes('دەرىجىدىن')) return lang === 'en' ? 'TOP-SECRET' : 'سري للغاية';
+    return lang === 'en' ? 'CLASSIFIED' : 'سري';
+  }
+
+  // 4. Substring checks for statuses
+  if (trimmed.includes('تەستىقلانغان')) {
+    if (trimmed.includes('ئانالىز')) return lang === 'en' ? 'Verified Analysis' : 'تحليل موثق';
+    if (trimmed.includes('ئاخبارات')) return lang === 'en' ? 'Verified Intel' : 'معلومات موثقة';
+    if (trimmed.includes('سىياسىي')) return lang === 'en' ? 'Geopolitical Analysis' : 'تحليل سياسي معتمد';
+    if (trimmed.includes('ماقالە')) return lang === 'en' ? 'Verified Article' : 'مقال معتمد';
+    return lang === 'en' ? 'Verified' : 'موثق';
+  }
+  if (trimmed.includes('ئاكتىپ')) {
+    if (trimmed.includes('خىزمەت')) return lang === 'en' ? 'Active Service' : 'في الخدمة الفعلية';
+    if (trimmed.includes('چارلاش')) return lang === 'en' ? 'Active Patrol' : 'في دورية نشطة';
+    if (trimmed.includes('قوماندانلىق')) return lang === 'en' ? 'Operational Command' : 'قيادة عملياتية';
+    if (trimmed.includes('قوغداش')) return lang === 'en' ? 'Active Defense' : 'دفاع نشط';
+    return lang === 'en' ? 'Active' : 'نشط';
+  }
+
+  // 5. Substring checks for speeds & origins & authors
   if (trimmed.includes('نۇر تېزلىكى')) return lang === 'en' ? 'Speed of Light' : 'سرعة الضوء';
   if (trimmed.includes('ئامېرىكا')) return lang === 'en' ? 'US Armed Forces' : 'القوات المسلحة الأمريكية';
   if (trimmed.includes('شىمالىي ئاتلانتىك')) return lang === 'en' ? 'NATO Alliance' : 'حلف الناتو';
@@ -564,16 +696,30 @@ export function translateMetadata(value: string | undefined, lang: Language): st
   if (trimmed.includes('كۆپ تەرەپلىك') || trimmed.includes('كۆپ دۆلەتلىك')) return lang === 'en' ? 'Multinational Joint R&D' : 'أبحاث دولية مشتركة';
   if (trimmed.includes('كىبېر')) return lang === 'en' ? 'Global Cyber Center' : 'المركز السيبراني الدولي';
   if (trimmed.includes('تېخنىكا')) return lang === 'en' ? 'Advanced Tech Lab' : 'مختبر التقنيات المتقدمة';
-  if (trimmed.includes('ئىستىخبارات')) return lang === 'en' ? 'Intelligence Network' : 'شبكة الاستخبارات المشتركة';
+  if (trimmed.includes('ئىستىخبارات') || trimmed.includes('ئاخبارات')) return lang === 'en' ? 'Intelligence Network' : 'شبكة استخباراتية';
   if (trimmed.includes('تەھلىل')) return lang === 'en' ? 'Strategic Analysis' : 'التحليل الاستراتيجي';
   if (trimmed.includes('ئاۋىئاتسىيە')) return lang === 'en' ? 'Armed Forces Aviation' : 'طيران القوات المسلحة';
   if (trimmed.includes('دېڭىز ئارمىيە')) return lang === 'en' ? 'Global Naval Registry' : 'السجل البحري العالمي';
   if (trimmed.includes('مۇداپىئە')) return lang === 'en' ? 'Defense Research' : 'أبحاث الدفاع الدولي';
   if (trimmed.includes('خەلقئارا')) return lang === 'en' ? 'International' : 'دولي';
+  if (trimmed.includes('قاسيون')) return lang === 'en' ? 'Qasioun Research Center' : 'مركز قاسيون للدراسات';
+  if (trimmed.includes('ئەلى تەمىمى')) return lang === 'en' ? 'Ali Tamimi' : 'علي التميمي';
 
-  // 5. If in English and the text contains ASCII/Latin, it's already in English
+  // 6. If in English and the text contains ASCII/Latin, it's already in English
   if (lang === 'en' && /^[\x00-\x7F\s\d.,:/()+-]+$/.test(trimmed)) {
     return trimmed;
+  }
+
+  // 7. If in Arabic and the text is purely Arabic (no Uyghur-specific letters)
+  if (lang === 'ar' && !isUg(trimmed)) {
+    return trimmed;
+  }
+
+  // 8. FINAL SAFETY NET:
+  // If target language is Arabic or English, but the string STILL contains Uyghur script characters,
+  // NEVER leak Uyghur characters to Arabic or English screens!
+  if (isUg(trimmed)) {
+    return lang === 'ar' ? 'معتمد' : 'Verified';
   }
 
   return trimmed;

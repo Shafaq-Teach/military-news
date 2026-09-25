@@ -359,7 +359,7 @@ export const ArticleModal: React.FC = () => {
                 </div>
 
                 <div className="px-2.5 py-1.5 rounded-lg bg-red-950/80 backdrop-blur-md border border-red-500/40 text-[11px] font-mono font-bold text-red-400">
-                  {selectedArticle.specs.clearance}
+                  {translateMetadata(selectedArticle.specs.clearance, language)}
                 </div>
               </div>
 
@@ -452,7 +452,7 @@ export const ArticleModal: React.FC = () => {
                       {t('analystAgency')}
                     </span>
                     <span className="text-xs sm:text-sm font-bold text-[var(--accent-secondary)] font-sans block truncate">
-                      {selectedArticle.author}
+                      {translateMetadata(selectedArticle.author, language)}
                     </span>
                   </div>
 

@@ -140,7 +140,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
               <ExternalLink className="w-2.5 h-2.5 text-emerald-400 group-hover/src:scale-110 transition-transform" />
             </div>
             <div className="text-xs font-bold text-[var(--accent-secondary)] group-hover/src:text-emerald-300 truncate font-sans">
-              {article.author}
+              {translateMetadata(article.author, language)}
             </div>
           </div>
           <div>

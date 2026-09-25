@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useMilitary } from '../../context/MilitaryContext';
 import { Crosshair, ArrowLeftRight, Zap, Shield, Gauge } from 'lucide-react';
+import { translateMetadata, getArticleTitle } from '../../utils/translator';
 
 export const SpecsComparator: React.FC = () => {
   const { articles, language, t } = useMilitary();
@@ -99,13 +100,13 @@ export const SpecsComparator: React.FC = () => {
               />
               <div className="flex-1 min-w-0">
                 <span className="text-[10px] text-[var(--accent-primary)] block font-bold">
-                  PLATFORM A // {(itemA.specs.clearance || 'UNCLASSIFIED').split(' ')[0]}
+                  PLATFORM A // {translateMetadata(itemA.specs.clearance, language) || 'UNCLASSIFIED'}
                 </span>
                 <h4 className="text-sm font-bold text-[var(--text-primary)] truncate">
-                  {itemA.title[language] || itemA.title.ug}
+                  {getArticleTitle(itemA, language)}
                 </h4>
                 <span className="text-xs text-[var(--text-muted)]">
-                  {itemA.specs.origin}
+                  {translateMetadata(itemA.specs.origin, language)}
                 </span>
               </div>
             </div>
@@ -113,15 +114,15 @@ export const SpecsComparator: React.FC = () => {
             <div className="space-y-2 pt-2 border-t border-[var(--border-color)] text-xs">
               <div className="flex justify-between py-1.5 border-b border-[var(--border-color)]/50">
                 <span className="text-[var(--text-muted)]">{t('speed')}</span>
-                <span className="font-bold text-[var(--accent-primary)] font-mono">{itemA.specs.speed}</span>
+                <span className="font-bold text-[var(--accent-primary)] font-mono">{translateMetadata(itemA.specs.speed, language)}</span>
               </div>
               <div className="flex justify-between py-1.5 border-b border-[var(--border-color)]/50">
                 <span className="text-[var(--text-muted)]">{t('range')}</span>
-                <span className="font-bold text-[var(--text-primary)] font-mono">{itemA.specs.range}</span>
+                <span className="font-bold text-[var(--text-primary)] font-mono">{translateMetadata(itemA.specs.range, language)}</span>
               </div>
               <div className="flex justify-between py-1.5 border-b border-[var(--border-color)]/50">
                 <span className="text-[var(--text-muted)]">{t('payload')}</span>
-                <span className="font-bold text-[var(--text-primary)] font-mono">{itemA.specs.payload}</span>
+                <span className="font-bold text-[var(--text-primary)] font-mono">{translateMetadata(itemA.specs.payload, language)}</span>
               </div>
               <div className="flex justify-between py-1.5 border-b border-[var(--border-color)]/50">
                 <span className="text-[var(--text-muted)]">{t('rcs')}</span>
@@ -129,7 +130,7 @@ export const SpecsComparator: React.FC = () => {
               </div>
               <div className="flex justify-between py-1.5">
                 <span className="text-[var(--text-muted)]">{t('status')}</span>
-                <span className="font-bold text-[var(--text-secondary)]">{itemA.specs.status}</span>
+                <span className="font-bold text-[var(--text-secondary)]">{translateMetadata(itemA.specs.status, language) || t('verified')}</span>
               </div>
             </div>
           </div>
@@ -144,13 +145,13 @@ export const SpecsComparator: React.FC = () => {
               />
               <div className="flex-1 min-w-0">
                 <span className="text-[10px] text-[var(--accent-secondary)] block font-bold">
-                  PLATFORM B // {(itemB.specs.clearance || 'UNCLASSIFIED').split(' ')[0]}
+                  PLATFORM B // {translateMetadata(itemB.specs.clearance, language) || 'UNCLASSIFIED'}
                 </span>
                 <h4 className="text-sm font-bold text-[var(--text-primary)] truncate">
-                  {itemB.title[language] || itemB.title.ug}
+                  {getArticleTitle(itemB, language)}
                 </h4>
                 <span className="text-xs text-[var(--text-muted)]">
-                  {itemB.specs.origin}
+                  {translateMetadata(itemB.specs.origin, language)}
                 </span>
               </div>
             </div>
@@ -158,15 +159,15 @@ export const SpecsComparator: React.FC = () => {
             <div className="space-y-2 pt-2 border-t border-[var(--border-color)] text-xs">
               <div className="flex justify-between py-1.5 border-b border-[var(--border-color)]/50">
                 <span className="text-[var(--text-muted)]">{t('speed')}</span>
-                <span className="font-bold text-[var(--accent-secondary)] font-mono">{itemB.specs.speed}</span>
+                <span className="font-bold text-[var(--accent-secondary)] font-mono">{translateMetadata(itemB.specs.speed, language)}</span>
               </div>
               <div className="flex justify-between py-1.5 border-b border-[var(--border-color)]/50">
                 <span className="text-[var(--text-muted)]">{t('range')}</span>
-                <span className="font-bold text-[var(--text-primary)] font-mono">{itemB.specs.range}</span>
+                <span className="font-bold text-[var(--text-primary)] font-mono">{translateMetadata(itemB.specs.range, language)}</span>
               </div>
               <div className="flex justify-between py-1.5 border-b border-[var(--border-color)]/50">
                 <span className="text-[var(--text-muted)]">{t('payload')}</span>
-                <span className="font-bold text-[var(--text-primary)] font-mono">{itemB.specs.payload}</span>
+                <span className="font-bold text-[var(--text-primary)] font-mono">{translateMetadata(itemB.specs.payload, language)}</span>
               </div>
               <div className="flex justify-between py-1.5 border-b border-[var(--border-color)]/50">
                 <span className="text-[var(--text-muted)]">{t('rcs')}</span>
@@ -174,7 +175,7 @@ export const SpecsComparator: React.FC = () => {
               </div>
               <div className="flex justify-between py-1.5">
                 <span className="text-[var(--text-muted)]">{t('status')}</span>
-                <span className="font-bold text-[var(--text-secondary)]">{itemB.specs.status}</span>
+                <span className="font-bold text-[var(--text-secondary)]">{translateMetadata(itemB.specs.status, language) || t('verified')}</span>
               </div>
             </div>
           </div>

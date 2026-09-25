@@ -2,7 +2,7 @@ import React from 'react';
 import { useMilitary } from '../../context/MilitaryContext';
 import { CATEGORIES } from '../../data/categories';
 import { CheckCircle2, XCircle, Trash2, Eye, ShieldAlert, Clock } from 'lucide-react';
-import { getArticleTitle, getArticleSummary } from '../../utils/translator';
+import { getArticleTitle, getArticleSummary, translateMetadata } from '../../utils/translator';
 
 export const ApprovalQueue: React.FC = () => {
   const { 
@@ -80,9 +80,9 @@ export const ApprovalQueue: React.FC = () => {
 
                     {article.specs.speed && article.specs.speed !== 'N/A' && (
                       <div className="flex items-center gap-2 sm:gap-3 text-[10px] sm:text-[11px] text-[var(--text-muted)] flex-wrap">
-                        <span>تېزلىكى: <span className="font-mono text-[var(--text-primary)] font-bold">{article.specs.speed}</span></span>
+                        <span>{t('speed')}: <span className="font-mono text-[var(--text-primary)] font-bold">{translateMetadata(article.specs.speed, language)}</span></span>
                         <span>•</span>
-                        <span>دائىرىسى: <span className="font-mono text-[var(--text-primary)] font-bold">{article.specs.range}</span></span>
+                        <span>{t('range')}: <span className="font-mono text-[var(--text-primary)] font-bold">{translateMetadata(article.specs.range, language)}</span></span>
                       </div>
                     )}
                   </div>
@@ -92,11 +92,11 @@ export const ApprovalQueue: React.FC = () => {
                 <div className="grid grid-cols-2 sm:flex items-center gap-1.5 sm:gap-2 w-full sm:w-auto shrink-0 pt-2 sm:pt-0 border-t sm:border-0 border-[var(--border-color)]/60">
                   <button
                     onClick={() => setSelectedArticle(article)}
-                    title="كۆرۈش"
+                    title={t('view')}
                     className="py-1.5 sm:p-2 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] text-[var(--text-primary)] text-xs font-semibold flex items-center justify-center gap-1"
                   >
                     <Eye className="w-3.5 h-3.5 text-[var(--accent-primary)]" />
-                    <span className="text-[10px] sm:text-xs">كۆرۈش</span>
+                    <span className="text-[10px] sm:text-xs">{t('view')}</span>
                   </button>
 
                   <button
@@ -118,7 +118,7 @@ export const ApprovalQueue: React.FC = () => {
                   <button
                     onClick={() => deleteArticle(article.id)}
                     className="py-1.5 sm:p-2 rounded-lg bg-rose-950/60 hover:bg-rose-900 border border-rose-800/50 text-rose-300 transition-colors flex items-center justify-center"
-                    title="ئۆچۈرۈش"
+                    title={t('delete')}
                   >
                     <Trash2 className="w-3.5 h-3.5" />
                   </button>

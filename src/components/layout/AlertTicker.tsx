@@ -2,9 +2,10 @@ import React from 'react';
 import { useMilitary } from '../../context/MilitaryContext';
 import { CATEGORIES } from '../../data/categories';
 import { Flame } from 'lucide-react';
+import { getArticleTitle } from '../../utils/translator';
 
 export const AlertTicker: React.FC = () => {
-  const { articles, setSelectedArticle, language } = useMilitary();
+  const { articles, setSelectedArticle, language, t } = useMilitary();
 
   // Filter published articles and sort by date descending
   const publishedArticles = articles.filter(a => a.status === 'published');
@@ -32,7 +33,7 @@ export const AlertTicker: React.FC = () => {
       <div className="flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3 py-1 bg-gradient-to-r from-red-600 to-rose-600 text-white text-[11px] sm:text-xs font-bold rounded-lg shrink-0 shadow-[0_0_12px_rgba(225,29,72,0.4)] border border-rose-400/40 z-10 me-2 sm:me-3">
         <Flame className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-300 animate-pulse shrink-0" />
         <span className="tracking-wide whitespace-nowrap font-['Cairo',sans-serif]">
-          {language === 'en' ? 'LATEST 5 NEWS' : language === 'ar' ? 'آخر 5 أخبار' : 'ئەڭ يېڭى 5 خەۋەر'}
+          {t('latestFive')}
         </span>
       </div>
 
@@ -44,14 +45,14 @@ export const AlertTicker: React.FC = () => {
         {/* 3. Scrolling Ticker Track (Continuously scrolls from Right to Left) */}
         <div dir="ltr" className="ticker-track flex items-center">
           {tickerItems.map((article, idx) => {
-            const title = article.title[language] || article.title.ug || article.title.en;
+            const title = getArticleTitle(article, language);
             const catLabel = getCategoryLabel(article.category);
             const itemNumber = (idx % latestFive.length) + 1;
 
             return (
               <div 
                 key={`${article.id}-${idx}`}
-                dir="rtl"
+                dir={language === 'en' ? 'ltr' : 'rtl'}
                 onClick={() => setSelectedArticle(article)}
                 className="flex items-center gap-2.5 mx-4 sm:mx-6 cursor-pointer group shrink-0 transition-colors"
                 title={title}

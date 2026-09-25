@@ -16,7 +16,7 @@ import {
   FilePlus2 
 } from 'lucide-react';
 import { CATEGORIES } from '../../data/categories';
-import { translateMetadata } from '../../utils/translator';
+import { translateMetadata, getArticleTitle, getArticleSummary } from '../../utils/translator';
 import { getArticleSourceUrl } from '../../utils/sourceUrl';
 
 export const HeroSection: React.FC = () => {
@@ -136,7 +136,7 @@ export const HeroSection: React.FC = () => {
               <span className="flex items-center gap-1.5 px-2.5 py-1 rounded bg-[var(--accent-primary)]/15 border border-[var(--accent-primary)]/40 text-[var(--accent-primary)] text-xs font-bold">
                 <Sparkles className="w-3.5 h-3.5 animate-pulse text-[var(--accent-primary)]" />
                 <span>
-                  {language === 'en' ? 'LATEST DOSSIERS' : language === 'ar' ? 'أحدث التقارير' : 'ئەڭ يېڭى يوللانغان مەزمۇنلار'}
+                  {t('latestDossiers')}
                 </span>
               </span>
 
@@ -154,7 +154,7 @@ export const HeroSection: React.FC = () => {
                   <button
                     key={art.id}
                     onClick={() => setCurrentIndex(idx)}
-                    title={art.title[language] || art.title.ug}
+                    title={getArticleTitle(art, language)}
                     className={`h-2 rounded-full transition-all duration-300 ${
                       idx === currentIndex 
                         ? 'w-7 bg-[var(--accent-primary)] shadow-[0_0_10px_var(--accent-glow)]' 
@@ -169,7 +169,7 @@ export const HeroSection: React.FC = () => {
                 type="button"
                 onClick={() => setIsPaused(!isPaused)}
                 className="p-1.5 rounded-md hover:bg-[var(--bg-main)] text-[var(--text-muted)] hover:text-[var(--text-primary)] transition-colors"
-                title={isPaused ? 'داۋاملاشتۇرۇش (Resume)' : 'ۋاقىتلىق توختىتىش (Pause)'}
+                title={isPaused ? t('resume') : t('pause')}
               >
                 {isPaused ? <Play className="w-3.5 h-3.5" /> : <Pause className="w-3.5 h-3.5" />}
               </button>
@@ -179,14 +179,14 @@ export const HeroSection: React.FC = () => {
                 <button
                   onClick={handlePrev}
                   className="p-1.5 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] hover:border-[var(--accent-primary)] text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-                  title="ئالدىنقىسى"
+                  title={t('prev')}
                 >
                   <ChevronLeft className="w-4 h-4 rtl:rotate-180" />
                 </button>
                 <button
                   onClick={handleNext}
                   className="p-1.5 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] hover:border-[var(--accent-primary)] text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-                  title="كېيىنكىسى"
+                  title={t('next')}
                 >
                   <ChevronRight className="w-4 h-4 rtl:rotate-180" />
                 </button>
@@ -220,12 +220,12 @@ export const HeroSection: React.FC = () => {
 
               {/* Title */}
               <h1 className="text-xl sm:text-2xl lg:text-3xl font-black text-[var(--text-primary)] leading-snug sm:leading-tight">
-                {activeArticle.title[language] || activeArticle.title.ug}
+                {getArticleTitle(activeArticle, language)}
               </h1>
 
               {/* Summary */}
               <p className="text-xs sm:text-sm text-[var(--text-secondary)] leading-relaxed line-clamp-3">
-                {activeArticle.summary[language] || activeArticle.summary.ug}
+                {getArticleSummary(activeArticle, language)}
               </p>
 
               {/* Quick Telemetry / Specs Badges (Hardware Platform vs Intel Dossier) */}
@@ -254,7 +254,7 @@ export const HeroSection: React.FC = () => {
                 <div className="grid grid-cols-3 gap-2 sm:gap-3 pt-1">
                   <div className="p-2 sm:p-2.5 rounded bg-[var(--bg-main)]/90 border border-[var(--border-color)] text-center">
                     <div className="text-[10px] text-[var(--text-muted)]">
-                      {language === 'en' ? 'INTEL DOMAIN' : language === 'ar' ? 'المجال التكتيكي' : 'ئاخبارات ساھەسى'}
+                      {t('intelDomain')}
                     </div>
                     <div className="text-xs sm:text-sm font-bold text-[var(--accent-primary)] truncate font-sans">
                       {activeCategoryInfo?.name[language] || activeCategoryInfo?.name.ug}
@@ -262,7 +262,7 @@ export const HeroSection: React.FC = () => {
                   </div>
                   <div className="p-2 sm:p-2.5 rounded bg-[var(--bg-main)]/90 border border-[var(--border-color)] text-center">
                     <div className="text-[10px] text-[var(--text-muted)]">
-                      {language === 'en' ? 'AUTHOR / SOURCE' : language === 'ar' ? 'المصدر' : 'ئاپتور / مەنبە'}
+                      {t('authorSource')}
                     </div>
                     <div className="text-xs sm:text-sm font-bold text-[var(--accent-secondary)] truncate font-sans">
                       {activeArticle.author}
@@ -270,10 +270,10 @@ export const HeroSection: React.FC = () => {
                   </div>
                   <div className="p-2 sm:p-2.5 rounded bg-[var(--bg-main)]/90 border border-[var(--border-color)] text-center">
                     <div className="text-[10px] text-[var(--text-muted)]">
-                      {language === 'en' ? 'INTEL STATUS' : language === 'ar' ? 'الحالة' : 'تەھلىل ھالىتى'}
+                      {t('intelStatus')}
                     </div>
                     <div className="text-xs sm:text-sm font-bold text-[var(--text-primary)] truncate font-sans">
-                      {translateMetadata(activeArticle.specs.status, language) || (language === 'en' ? 'VERIFIED' : language === 'ar' ? 'موثق' : 'دەلىللەنگەن')}
+                      {translateMetadata(activeArticle.specs.status, language) || t('verified')}
                     </div>
                   </div>
                 </div>
@@ -296,10 +296,10 @@ export const HeroSection: React.FC = () => {
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
                     className="px-4 sm:px-5 py-2 sm:py-2.5 rounded-lg bg-emerald-600/20 hover:bg-emerald-500/30 border border-emerald-500/50 hover:border-emerald-400 text-emerald-400 hover:text-emerald-200 text-xs font-bold flex items-center gap-2 transition-all shadow-sm group"
-                    title={language === 'en' ? '1-Click Direct Original Source' : 'بىر چېكىش بىلەن ئەسلى مەنبەگە ئۇلىنىش'}
+                    title={t('originalSource')}
                   >
                     <ExternalLink className="w-3.5 h-3.5 group-hover:scale-110 transition-transform" />
-                    <span>{language === 'en' ? 'Original Source' : language === 'ar' ? 'المصدر الأصلي' : '🌐 ئەسلى مەنبە'}</span>
+                    <span>{t('directSource')}</span>
                   </a>
                 )}
               </div>
@@ -315,7 +315,7 @@ export const HeroSection: React.FC = () => {
               {/* Cover Image with subtle scale on hover */}
               <img 
                 src={activeArticle.imageUrl} 
-                alt={activeArticle.title[language] || activeArticle.title.ug}
+                alt={getArticleTitle(activeArticle, language)}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100"
                 onError={(e) => {
                   (e.target as HTMLElement).style.display = 'none';

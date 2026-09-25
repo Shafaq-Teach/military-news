@@ -8,7 +8,7 @@ import {
   Radar,
   ExternalLink
 } from 'lucide-react';
-import { translateMetadata } from '../../utils/translator';
+import { translateMetadata, getArticleTitle, getArticleSummary } from '../../utils/translator';
 import { getArticleSourceUrl } from '../../utils/sourceUrl';
 
 interface ArticleCardProps {
@@ -58,7 +58,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
       <div className="relative h-44 sm:h-48 w-full rounded-lg overflow-hidden mb-4 bg-black/40 border border-[var(--border-color)]">
         <img 
           src={article.imageUrl} 
-          alt={article.title[language] || article.title.ug}
+          alt={getArticleTitle(article, language)}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90 group-hover:opacity-100"
           loading="lazy"
           onError={(e) => {
@@ -87,11 +87,11 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
       {/* Title & Summary */}
       <div className="flex-1 space-y-2 mb-4">
         <h3 className="text-sm sm:text-base font-bold text-[var(--text-primary)] group-hover:text-[var(--border-highlight)] transition-colors leading-snug line-clamp-2">
-          {article.title[language] || article.title.ug}
+          {getArticleTitle(article, language)}
         </h3>
 
         <p className="text-xs text-[var(--text-secondary)] line-clamp-2 leading-relaxed opacity-90">
-          {article.summary[language] || article.summary.ug}
+          {getArticleSummary(article, language)}
         </p>
       </div>
 
@@ -120,7 +120,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
       ) : (
         <div className="grid grid-cols-3 gap-2 py-2 px-3 rounded-lg bg-[var(--bg-main)]/80 border border-[var(--border-color)] mb-4 text-center">
           <div>
-            <div className="text-[9px] text-[var(--text-muted)]">{language === 'en' ? 'Domain' : language === 'ar' ? 'المجال' : 'سەھىپە'}</div>
+            <div className="text-[9px] text-[var(--text-muted)]">{t('intelDomain')}</div>
             <div className="text-xs font-bold text-[var(--accent-primary)] truncate font-sans">
               {categoryInfo?.name[language] || categoryInfo?.name.ug}
             </div>
@@ -132,11 +132,11 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
                 window.open(sourceUrl, '_blank', 'noopener,noreferrer');
               }
             }}
-            className="border-x border-[var(--border-color)] px-1 hover:bg-emerald-950/25 rounded transition-colors group/src"
-            title={language === 'en' ? 'Click to open original source' : language === 'ar' ? 'انقر لفتح المصدر الأصلي' : 'بىر چېكىش بىلەن ئەسلى مەنبەنى ئېچىش'}
+            className="border-x border-[var(--border-color)] px-1 hover:bg-emerald-950/25 rounded transition-colors group/src cursor-pointer"
+            title={t('originalSource')}
           >
             <div className="text-[9px] text-[var(--text-muted)] flex items-center justify-center gap-1">
-              <span>{language === 'en' ? 'Source' : language === 'ar' ? 'المصدر' : 'مەنبە'}</span>
+              <span>{t('source')}</span>
               <ExternalLink className="w-2.5 h-2.5 text-emerald-400 group-hover/src:scale-110 transition-transform" />
             </div>
             <div className="text-xs font-bold text-[var(--accent-secondary)] group-hover/src:text-emerald-300 truncate font-sans">
@@ -144,9 +144,9 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
             </div>
           </div>
           <div>
-            <div className="text-[9px] text-[var(--text-muted)]">{language === 'en' ? 'Status' : language === 'ar' ? 'الحالة' : 'ھالىتى'}</div>
+            <div className="text-[9px] text-[var(--text-muted)]">{t('statusCol')}</div>
             <div className="text-xs font-bold text-[var(--text-primary)] truncate font-sans">
-              {translateMetadata(article.specs.status, language) || (language === 'en' ? 'VERIFIED' : language === 'ar' ? 'موثق' : 'تەستىقلانغان')}
+              {translateMetadata(article.specs.status, language) || t('verified')}
             </div>
           </div>
         </div>
@@ -167,10 +167,10 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article }) => {
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
               className="px-2.5 py-1 rounded-lg bg-emerald-600/20 hover:bg-emerald-500/30 border border-emerald-500/40 hover:border-emerald-400 text-emerald-400 hover:text-emerald-200 text-[11px] font-bold flex items-center gap-1 transition-all z-10 shrink-0 shadow-sm"
-              title={language === 'en' ? '1-Click Direct Original Source' : language === 'ar' ? 'المصدر الأصلي مباشرة' : 'بىر چېكىش بىلەن ئەسلى مەنبەگە ئۇلىنىش'}
+              title={t('originalSource')}
             >
               <ExternalLink className="w-3 h-3" />
-              <span>{language === 'en' ? 'Source' : language === 'ar' ? 'المصدر' : '🌐 ئەسلى مەنبە'}</span>
+              <span>{t('directSource')}</span>
             </a>
           )}
 

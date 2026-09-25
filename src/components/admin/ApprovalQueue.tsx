@@ -2,6 +2,7 @@ import React from 'react';
 import { useMilitary } from '../../context/MilitaryContext';
 import { CATEGORIES } from '../../data/categories';
 import { CheckCircle2, XCircle, Trash2, Eye, ShieldAlert, Clock } from 'lucide-react';
+import { getArticleTitle, getArticleSummary } from '../../utils/translator';
 
 export const ApprovalQueue: React.FC = () => {
   const { 
@@ -70,11 +71,11 @@ export const ApprovalQueue: React.FC = () => {
                     </div>
 
                     <h4 className="text-xs sm:text-sm font-bold text-[var(--text-primary)] line-clamp-2">
-                      {article.title[language] || article.title.ug}
+                      {getArticleTitle(article, language)}
                     </h4>
 
                     <p className="text-[11px] sm:text-xs text-[var(--text-secondary)] line-clamp-2">
-                      {article.summary[language] || article.summary.ug}
+                      {getArticleSummary(article, language)}
                     </p>
 
                     {article.specs.speed && article.specs.speed !== 'N/A' && (

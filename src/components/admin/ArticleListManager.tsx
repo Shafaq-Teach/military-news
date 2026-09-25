@@ -12,6 +12,7 @@ import {
   X,
   Cloud
 } from 'lucide-react';
+import { getArticleTitle } from '../../utils/translator';
 
 export const ArticleListManager: React.FC = () => {
   const { 
@@ -47,10 +48,10 @@ export const ArticleListManager: React.FC = () => {
           <div className={`w-2 h-2 rounded-full shrink-0 ${isSyncing ? 'bg-amber-400 animate-ping' : syncStatus?.success === false ? 'bg-rose-500' : 'bg-emerald-400'}`} />
           <span className="text-[var(--text-secondary)] text-[11px] sm:text-xs leading-relaxed truncate sm:whitespace-normal">
             {isSyncing 
-              ? 'بارلىق ئۈسكۈنىلەر بىلەن بۇلۇتقا ماسقەدەملىنىۋاتىدۇ...' 
+              ? t('cloudSyncing') 
               : syncStatus?.message 
                 ? syncStatus.message 
-                : 'بۇلۇت ماسقەدەملەش ھالىتى: ئاكتىپ (ئۆچۈرۈلگەن ياكى تەھرىرلەنگەن مەزمۇنلار بارلىق ئۈسكۈنىلەردە كۈچكە ئىگە بولىدۇ)'}
+                : t('cloudSyncStatus')}
           </span>
         </div>
 
@@ -59,10 +60,10 @@ export const ArticleListManager: React.FC = () => {
           disabled={isSyncing}
           onClick={() => syncToCloud()}
           className="w-full sm:w-auto justify-center px-3 py-2 sm:py-1.5 rounded-lg bg-[var(--accent-primary)]/10 hover:bg-[var(--accent-primary)]/20 border border-[var(--accent-primary)]/30 text-[var(--accent-primary)] text-xs font-bold flex items-center gap-2 transition-all disabled:opacity-50 shrink-0"
-          title="بارلىق ئۈسكۈنىلەرگە بۇلۇت ئارقىلىق دەرھال ماسقەدەملەش"
+          title={t('syncNow')}
         >
           <RefreshCw className={`w-3.5 h-3.5 ${isSyncing ? 'animate-spin' : ''}`} />
-          <span>{isSyncing ? 'ماسقەدەملىنىۋاتىدۇ...' : 'ھازىر بۇلۇتقا ماسقەدەملەش'}</span>
+          <span>{isSyncing ? t('cloudSyncing') : t('syncNow')}</span>
         </button>
       </div>
 
@@ -95,7 +96,7 @@ export const ArticleListManager: React.FC = () => {
               type="text"
               value={filterText}
               onChange={(e) => setFilterText(e.target.value)}
-              placeholder="ماقالىلەردىن ئىزدەش..."
+              placeholder={t('searchArticlesPlaceholder')}
               className="w-full ps-8 pe-3 py-1.5 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] text-xs text-[var(--text-primary)] focus:outline-none focus:border-[var(--border-highlight)]"
             />
           </div>
@@ -124,12 +125,12 @@ export const ArticleListManager: React.FC = () => {
         <table className="w-full text-start text-xs border-collapse">
           <thead>
             <tr className="border-b border-[var(--border-color)] bg-[var(--bg-main)] text-[var(--text-muted)] font-bold text-[11px]">
-              <th className="p-3 text-start">سەرلەۋھە (TITLE)</th>
-              <th className="p-3 text-start">سەھىپە (CATEGORY)</th>
-              <th className="p-3 text-start">ھالىتى (STATUS)</th>
-              <th className="p-3 text-start">چېسلا</th>
-              <th className="p-3 text-start">كۆرۈلۈشى</th>
-              <th className="p-3 text-end">باشقۇرۇش ۋە مەشغۇلات</th>
+              <th className="p-3 text-start">{t('tableTitle')}</th>
+              <th className="p-3 text-start">{t('tableCategory')}</th>
+              <th className="p-3 text-start">{t('tableStatus')}</th>
+              <th className="p-3 text-start">{t('tableDate')}</th>
+              <th className="p-3 text-start">{t('tableViews')}</th>
+              <th className="p-3 text-end">{t('tableActions')}</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-[var(--border-color)]">
@@ -149,7 +150,7 @@ export const ArticleListManager: React.FC = () => {
                         }}
                       />
                       <span className="font-bold text-[var(--text-primary)] line-clamp-1">
-                        {article.title[language] || article.title.ug || article.title.en}
+                        {getArticleTitle(article, language)}
                       </span>
                     </div>
                   </td>
@@ -263,15 +264,15 @@ export const ArticleListManager: React.FC = () => {
                     </span>
                   </div>
                   <h4 className="font-bold text-xs text-[var(--text-primary)] line-clamp-2 leading-snug">
-                    {article.title[language] || article.title.ug || article.title.en}
+                    {getArticleTitle(article, language)}
                   </h4>
                 </div>
               </div>
 
               {/* Meta: Date & Views */}
               <div className="flex items-center justify-between text-[10px] text-[var(--text-muted)] pt-1.5 border-t border-[var(--border-color)]/60 font-mono">
-                <span>چېسلا: {article.date}</span>
-                <span>كۆرۈلۈشى: {article.views}</span>
+                <span>{t('tableDate')}: {article.date}</span>
+                <span>{t('tableViews')}: {article.views}</span>
               </div>
 
               {/* Touch Action Buttons */}
@@ -282,7 +283,7 @@ export const ArticleListManager: React.FC = () => {
                   className="py-1.5 px-2 rounded-lg bg-[var(--bg-main)] hover:bg-[var(--bg-card-hover)] border border-[var(--border-color)] text-[var(--accent-primary)] text-xs font-bold flex items-center justify-center gap-1.5 transition-colors"
                 >
                   <Eye className="w-3.5 h-3.5" />
-                  <span>كۆرۈش</span>
+                  <span>{t('view')}</span>
                 </button>
 
                 <button
@@ -291,7 +292,7 @@ export const ArticleListManager: React.FC = () => {
                   className="py-1.5 px-2 rounded-lg bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/40 text-amber-400 text-xs font-bold flex items-center justify-center gap-1.5 transition-colors"
                 >
                   <Pencil className="w-3.5 h-3.5" />
-                  <span>تەھرىرلەش</span>
+                  <span>{t('edit')}</span>
                 </button>
 
                 <button

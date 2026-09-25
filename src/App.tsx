@@ -97,13 +97,13 @@ const MainLayout: React.FC = () => {
                   </h3>
                   <p className="text-xs text-[var(--text-secondary)] mt-0.5">
                     {activeCategory === 'all'
-                      ? 'LIVE MULTI-DOMAIN DEFENSE FEED'
+                      ? t('liveFeed')
                       : (activeCategoryInfo?.description[language] || activeCategoryInfo?.description.ug)}
                   </p>
                 </div>
 
                 <div className="text-xs font-mono text-[var(--text-muted)]">
-                  SHOWING {filteredArticles.length} OF {articles.filter(a => a.status === 'published').length}
+                  {t('showingCount')} {filteredArticles.length} {t('of')} {articles.filter(a => a.status === 'published').length}
                 </div>
               </div>
 
@@ -112,10 +112,10 @@ const MainLayout: React.FC = () => {
                 <div className="p-10 text-center rounded-2xl bg-[var(--bg-surface)] border border-dashed border-[var(--border-color)] my-8 space-y-3">
                   <ShieldAlert className="w-10 h-10 text-amber-400 mx-auto opacity-80" />
                   <h4 className="text-sm sm:text-base font-bold text-[var(--text-primary)]">
-                    مۇناسىۋەتلىك ھەربىي ھۆججەت تېپىلمىدى
+                    {t('searchNoResults')}
                   </h4>
                   <p className="text-xs text-[var(--text-muted)] max-w-sm mx-auto">
-                    ئىزدەش شەرتىنى قايتا تەكشۈرۈڭ ياكى باشقا تاكتىكىلىق سەھىپىنى تاللاڭ.
+                    {t('searchNoResultsSub')}
                   </p>
                   <button
                     onClick={() => {
@@ -125,7 +125,7 @@ const MainLayout: React.FC = () => {
                     className="px-4 py-2 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] text-xs text-[var(--accent-primary)] font-bold inline-flex items-center gap-1.5 transition-colors"
                   >
                     <RefreshCw className="w-3.5 h-3.5" />
-                    <span>بارلىق مەزمۇننى كۆرسىتىش</span>
+                    <span>{t('showAll')}</span>
                   </button>
                 </div>
               ) : (

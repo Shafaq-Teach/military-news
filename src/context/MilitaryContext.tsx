@@ -191,23 +191,42 @@ export const MilitaryProvider: React.FC<{ children: ReactNode }> = ({ children }
               ''
             ).toString().trim();
 
+            const rawTitle = a.title || {};
+            const rawSummary = a.summary || {};
+            const rawContent = a.content;
+
+            const titleObj = typeof rawTitle === 'string'
+              ? { ug: rawTitle, ar: a.title_ar || '', en: a.title_en || '' }
+              : {
+                  ug: rawTitle.ug || '',
+                  ar: rawTitle.ar || '',
+                  en: rawTitle.en || ''
+                };
+
+            const summaryObj = typeof rawSummary === 'string'
+              ? { ug: rawSummary, ar: a.summary_ar || '', en: a.summary_en || '' }
+              : {
+                  ug: rawSummary.ug || '',
+                  ar: rawSummary.ar || '',
+                  en: rawSummary.en || ''
+                };
+
+            let contentObj = { ug: '', ar: '', en: '' };
+            if (typeof rawContent === 'string') {
+              contentObj = { ug: rawContent, ar: a.content_ar || '', en: a.content_en || '' };
+            } else if (rawContent && typeof rawContent === 'object') {
+              contentObj = {
+                ug: rawContent.ug || '',
+                ar: rawContent.ar || '',
+                en: rawContent.en || ''
+              };
+            }
+
             return {
               ...a,
-              title: {
-                ug: a.title?.ug || a.title?.en || '',
-                ar: a.title?.ar || a.title?.ug || a.title?.en || '',
-                en: a.title?.en || a.title?.ug || ''
-              },
-              summary: {
-                ug: a.summary?.ug || a.summary?.en || '',
-                ar: a.summary?.ar || a.summary?.ug || a.summary?.en || '',
-                en: a.summary?.en || a.summary?.ug || ''
-              },
-              content: {
-                ug: a.content?.ug || a.content?.en || '',
-                ar: a.content?.ar || a.content?.ug || a.content?.en || '',
-                en: a.content?.en || a.content?.ug || ''
-              },
+              title: titleObj,
+              summary: summaryObj,
+              content: contentObj,
               sourceUrl: explicitSource,
               specs: {
                 ...rawSpecs,

@@ -20,7 +20,7 @@ import {
   ChevronRight,
   ExternalLink
 } from 'lucide-react';
-import { translateMetadata } from '../../utils/translator';
+import { translateMetadata, getArticleTitle, getArticleSummary, getArticleContent } from '../../utils/translator';
 import { getArticleSourceUrl } from '../../utils/sourceUrl';
 
 export const ArticleModal: React.FC = () => {
@@ -79,7 +79,7 @@ export const ArticleModal: React.FC = () => {
 
   const category = CATEGORIES.find(c => c.key === selectedArticle.category);
 
-  const rawBody = selectedArticle.content[language] || selectedArticle.content.ug || '';
+  const rawBody = getArticleContent(selectedArticle, language);
   const sourceUrl = getArticleSourceUrl(selectedArticle);
 
   // Clean raw markdown link trailers from body text
@@ -137,7 +137,7 @@ export const ArticleModal: React.FC = () => {
                 <ArrowLeft className="w-4 h-4 text-[var(--accent-primary)] group-hover:-translate-x-0.5 transition-transform" />
               )}
               <span>
-                {language === 'en' ? 'Back / Close' : language === 'ar' ? 'رجوع / إغلاق' : 'قايتىش / تاقاش'}
+                {t('backClose')}
               </span>
               <kbd className="hidden md:inline-block px-1.5 py-0.5 text-[10px] font-mono rounded bg-black/40 text-[var(--text-muted)] border border-white/10">
                 ESC
@@ -151,20 +151,20 @@ export const ArticleModal: React.FC = () => {
             <button
               onClick={handleCopyLink}
               className="px-3 py-2 rounded-xl bg-[var(--bg-main)] hover:bg-[var(--bg-card-hover)] border border-[var(--border-color)] text-xs font-medium text-[var(--text-secondary)] hover:text-white flex items-center gap-1.5 transition-colors"
-              title={language === 'en' ? 'Copy Article Link' : language === 'ar' ? 'نسخ الرابط' : 'ئۇلانمىنى كۆچۈرۈش'}
+              title={t('share')}
             >
               {copied ? (
                 <>
                   <Check className="w-4 h-4 text-emerald-400" />
                   <span className="text-emerald-400 font-bold hidden sm:inline">
-                    {language === 'en' ? 'Copied!' : language === 'ar' ? 'تم النسخ!' : 'كۆچۈرۈلدى!'}
+                    {t('copied')}
                   </span>
                 </>
               ) : (
                 <>
                   <Share2 className="w-4 h-4 text-[var(--accent-primary)]" />
                   <span className="hidden sm:inline">
-                    {language === 'en' ? 'Share' : language === 'ar' ? 'مشاركة' : 'ھەمبەھىرلەش'}
+                    {t('share')}
                   </span>
                 </>
               )}
@@ -173,11 +173,11 @@ export const ArticleModal: React.FC = () => {
             <button
               onClick={() => window.print()}
               className="px-3 py-2 rounded-xl bg-[var(--bg-main)] hover:bg-[var(--bg-card-hover)] border border-[var(--border-color)] text-xs font-medium text-[var(--text-secondary)] hover:text-white flex items-center gap-1.5 transition-colors"
-              title={language === 'en' ? 'Print Dossier' : language === 'ar' ? 'طباعة التقرير' : 'بېسىپ چىقىرىش'}
+              title={t('print')}
             >
               <Printer className="w-4 h-4 text-[var(--accent-secondary)]" />
               <span className="hidden sm:inline">
-                {language === 'en' ? 'Print' : language === 'ar' ? 'طباعة' : 'بېسىپ چىقىرىش'}
+                {t('print')}
               </span>
             </button>
 
@@ -228,18 +228,18 @@ export const ArticleModal: React.FC = () => {
 
               <span className="px-3 py-1.5 rounded-lg bg-[var(--bg-surface)] border border-[var(--border-color)] text-[var(--text-muted)] font-mono flex items-center gap-1.5">
                 <Eye className="w-3.5 h-3.5 text-[var(--accent-primary)]" />
-                <span>{selectedArticle.views} {language === 'en' ? 'VIEWS' : language === 'ar' ? 'مشاهدة' : 'قېتىم كۆرۈلدى'}</span>
+                <span>{selectedArticle.views} {t('views')}</span>
               </span>
 
               <span className="px-3 py-1.5 rounded-lg bg-[var(--bg-surface)] border border-[var(--border-color)] text-[var(--text-muted)] flex items-center gap-1.5">
                 <Clock className="w-3.5 h-3.5 text-amber-400" />
-                <span>~3 {language === 'en' ? 'min read' : language === 'ar' ? 'دقيقة قراءة' : 'مىنۇتلۇق ئوقۇشلۇق'}</span>
+                <span>~3 {t('minRead')}</span>
               </span>
             </div>
 
             {/* Main Headline */}
             <h1 className="text-2xl sm:text-3xl md:text-4xl xl:text-[2.6rem] font-black text-[var(--text-primary)] leading-tight tracking-tight">
-              {selectedArticle.title[language] || selectedArticle.title.ug}
+              {getArticleTitle(selectedArticle, language)}
             </h1>
 
             {/* Direct Source Reference Bar */}
@@ -247,10 +247,10 @@ export const ArticleModal: React.FC = () => {
               <div className="flex items-center gap-2.5 text-xs sm:text-sm">
                 <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse shrink-0" />
                 <span className="font-bold text-emerald-400">
-                  {language === 'en' ? 'SOURCE:' : language === 'ar' ? 'المصدر:' : 'مەنبە:'}
+                  {t('source')}:
                 </span>
                 <span className="text-[var(--text-primary)] font-semibold">
-                  {(selectedArticle.specs as any)?.['مەنبە'] || selectedArticle.author || (language === 'en' ? 'Original Verified Source' : 'ئەسلى تەستىقلانغان مەنبە')}
+                  {(selectedArticle.specs as any)?.['مەنبە'] || selectedArticle.author || t('verified')}
                 </span>
               </div>
 
@@ -263,7 +263,7 @@ export const ArticleModal: React.FC = () => {
                 >
                   <ExternalLink className="w-4 h-4 group-hover:scale-110 transition-transform" />
                   <span>
-                    🌐 {language === 'en' ? 'Original Source' : language === 'ar' ? 'المصدر الأصلي' : 'ئەسلى مەنبە'}
+                    {t('directSource')}
                   </span>
                 </a>
               )}
@@ -277,12 +277,12 @@ export const ArticleModal: React.FC = () => {
               <div className="flex items-center gap-2 mb-3 text-xs font-mono font-bold text-[var(--accent-primary)] uppercase tracking-wider">
                 <Radio className="w-4 h-4 animate-pulse" />
                 <span>
-                  {language === 'en' ? 'Summary' : language === 'ar' ? 'الموجز' : 'يىغىنچاق مەزمۇن'}
+                  {t('summaryTitle')}
                 </span>
               </div>
 
               <p className="text-base sm:text-lg text-[var(--text-secondary)] font-medium leading-relaxed">
-                {selectedArticle.summary[language] || selectedArticle.summary.ug}
+                {getArticleSummary(selectedArticle, language)}
               </p>
             </div>
 
@@ -291,11 +291,7 @@ export const ArticleModal: React.FC = () => {
               <div className="flex items-center gap-3 border-b border-[var(--border-color)] pb-3">
                 <FileText className="w-5 h-5 text-[var(--accent-primary)]" />
                 <h2 className="text-base sm:text-lg font-bold text-[var(--text-primary)] tracking-wide uppercase">
-                  {language === 'en' 
-                    ? 'Detailed Content' 
-                    : language === 'ar' 
-                    ? 'المحتوى المفصل' 
-                    : 'تەپسىلىي مەزمۇن'}
+                  {t('detailedContent')}
                 </h2>
               </div>
 
@@ -312,7 +308,7 @@ export const ArticleModal: React.FC = () => {
             <div className="pt-6 border-t border-[var(--border-color)] space-y-3">
               <div className="flex items-center gap-2 text-xs font-mono text-[var(--text-muted)] uppercase">
                 <Tag className="w-3.5 h-3.5 text-[var(--accent-primary)]" />
-                <span>{language === 'en' ? 'TACTICAL TAGS & CLASSIFICATIONS' : language === 'ar' ? 'الوسوم والتصنيفات' : 'تاكتىكىلىق خەتكۈچلەر ۋە ئايرىملار'}</span>
+                <span>{t('tacticalTags')}</span>
               </div>
 
               <div className="flex flex-wrap items-center gap-2">
@@ -349,7 +345,7 @@ export const ArticleModal: React.FC = () => {
               <div className="relative aspect-[16/10] sm:aspect-video w-full overflow-hidden">
                 <img 
                   src={selectedArticle.imageUrl} 
-                  alt={selectedArticle.title[language] || selectedArticle.title.ug}
+                  alt={getArticleTitle(selectedArticle, language)}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30 pointer-events-none" />
@@ -377,8 +373,8 @@ export const ArticleModal: React.FC = () => {
                   <Zap className="w-4 h-4" />
                   <span>
                     {isHardware
-                      ? (language === 'en' ? 'TECHNICAL TELEMETRY' : language === 'ar' ? 'البيانات الفنية والتقنية' : 'تاكتىكا پارامېتىرلىرى')
-                      : (language === 'en' ? 'INTEL DOSSIER OVERVIEW' : language === 'ar' ? 'بيانات التقرير التكتيكي' : 'ئاخبارات ۋە تەھلىل مەلۇماتى')}
+                      ? t('technicalTelemetry')
+                      : t('intelOverview')}
                   </span>
                 </h3>
 
@@ -444,7 +440,7 @@ export const ArticleModal: React.FC = () => {
                   
                   <div className="p-3.5 rounded-xl bg-[var(--bg-main)] border border-[var(--border-color)] space-y-1">
                     <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">
-                      {language === 'en' ? 'INTEL DOMAIN' : language === 'ar' ? 'المجال التكتيكي' : 'تەھلىل ساھەسى'}
+                      {t('intelDomain')}
                     </span>
                     <span className="text-xs sm:text-sm font-bold text-[var(--accent-primary)] font-sans block truncate">
                       {category?.name[language] || category?.name.ug || translateMetadata(selectedArticle.category, language)}
@@ -453,7 +449,7 @@ export const ArticleModal: React.FC = () => {
 
                   <div className="p-3.5 rounded-xl bg-[var(--bg-main)] border border-[var(--border-color)] space-y-1">
                     <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">
-                      {language === 'en' ? 'ANALYST / AGENCY' : language === 'ar' ? 'الباحث / المصدر' : 'تەتقىقاتچى / ئورگان'}
+                      {t('analystAgency')}
                     </span>
                     <span className="text-xs sm:text-sm font-bold text-[var(--accent-secondary)] font-sans block truncate">
                       {selectedArticle.author}
@@ -462,7 +458,7 @@ export const ArticleModal: React.FC = () => {
 
                   <div className="p-3.5 rounded-xl bg-[var(--bg-main)] border border-[var(--border-color)] space-y-1">
                     <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">
-                      {language === 'en' ? 'CLASSIFICATION' : language === 'ar' ? 'درجة التصنيف' : 'ئاخبارات دەرىجىسى'}
+                      {t('clearance')}
                     </span>
                     <span className="text-xs sm:text-sm font-bold text-amber-300 font-sans block truncate">
                       {translateMetadata(selectedArticle.specs.clearance, language)}
@@ -471,10 +467,10 @@ export const ArticleModal: React.FC = () => {
 
                   <div className="p-3.5 rounded-xl bg-[var(--bg-main)] border border-[var(--border-color)] space-y-1">
                     <span className="text-[10px] text-[var(--text-muted)] block uppercase font-mono">
-                      {language === 'en' ? 'STATUS' : language === 'ar' ? 'الحالة' : 'ھالىتى'}
+                      {t('statusCol')}
                     </span>
                     <span className="text-xs sm:text-sm font-bold text-emerald-400 font-sans block truncate">
-                      {translateMetadata(selectedArticle.specs.status, language) || 'دەلىللەنگەن'}
+                      {translateMetadata(selectedArticle.specs.status, language) || t('verified')}
                     </span>
                   </div>
 
@@ -492,7 +488,7 @@ export const ArticleModal: React.FC = () => {
                   >
                     <ExternalLink className="w-4 h-4 group-hover:scale-110 transition-transform" />
                     <span>
-                      {language === 'en' ? 'View Original Source' : language === 'ar' ? 'عرض المصدر الأصلي' : '🌐 ئەسلى مەنبەدىن كۆرۈش'}
+                      {t('directSource')}
                     </span>
                   </a>
                 )}
@@ -503,7 +499,7 @@ export const ArticleModal: React.FC = () => {
                     className="flex-1 py-2.5 px-3 rounded-xl bg-[var(--bg-main)] hover:bg-[var(--bg-card-hover)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] text-xs font-bold text-[var(--text-primary)] flex items-center justify-center gap-2 transition-all"
                   >
                     <Printer className="w-4 h-4 text-[var(--accent-primary)]" />
-                    <span>{language === 'en' ? 'Print Dossier' : language === 'ar' ? 'طباعة التقرير' : 'دوكلات بېسىش'}</span>
+                    <span>{t('print')}</span>
                   </button>
 
                   <button
@@ -511,7 +507,7 @@ export const ArticleModal: React.FC = () => {
                     className="flex-1 py-2.5 px-3 rounded-xl bg-[var(--accent-primary)]/15 hover:bg-[var(--accent-primary)]/25 border border-[var(--accent-primary)] text-xs font-bold text-[var(--accent-primary)] flex items-center justify-center gap-2 transition-all"
                   >
                     {copied ? <Check className="w-4 h-4 text-emerald-400" /> : <Share2 className="w-4 h-4" />}
-                    <span>{copied ? (language === 'en' ? 'Copied' : language === 'ar' ? 'تم النسخ' : 'كۆچۈرۈلدى') : (language === 'en' ? 'Share Link' : language === 'ar' ? 'مشاركة' : 'ھەمبەھىرلەش')}</span>
+                    <span>{copied ? t('copied') : t('share')}</span>
                   </button>
                 </div>
               </div>

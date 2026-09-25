@@ -533,3 +533,76 @@ export function translateMetadata(value: string | undefined, lang: Language): st
 
   return trimmed;
 }
+
+export const isUg = (s?: string): boolean => /[\u067E\u0686\u0698\u06AD\u06AF\u06CB\u06C7\u06C8\u06D0\u06D5\u0649]/.test(s || '');
+export const isAr = (s?: string): boolean => /[\u0621-\u063A\u0641-\u064A]/.test(s || '') && !isUg(s);
+export const isLatin = (s?: string): boolean => /[a-zA-Z]/.test(s || '');
+
+export function getArticleTitle(article: any, lang: Language): string {
+  if (!article) return '';
+  if (typeof article.title === 'string') return article.title;
+  const t = article.title || {};
+  if (lang === 'ug') {
+    if (t.ug) return t.ug;
+    return t.ar || t.en || '';
+  }
+  if (lang === 'ar') {
+    if (t.ar && !isUg(t.ar)) return t.ar;
+    if (t.en && isAr(t.en) && !isLatin(t.en)) return t.en;
+    if (t.ar) return t.ar;
+    return t.ug || t.en || '';
+  }
+  if (lang === 'en') {
+    if (t.en && isLatin(t.en)) return t.en;
+    if (t.en && !isUg(t.en) && !isAr(t.en)) return t.en;
+    return t.en || t.ug || t.ar || '';
+  }
+  return t.ug || t.en || t.ar || '';
+}
+
+export function getArticleSummary(article: any, lang: Language): string {
+  if (!article) return '';
+  if (typeof article.summary === 'string') return article.summary;
+  const s = article.summary || {};
+  if (lang === 'ug') {
+    if (s.ug) return s.ug;
+    return s.ar || s.en || '';
+  }
+  if (lang === 'ar') {
+    if (s.ar && !isUg(s.ar)) return s.ar;
+    if (s.en && isAr(s.en) && !isLatin(s.en)) return s.en;
+    if (s.ar) return s.ar;
+    return s.ug || s.en || '';
+  }
+  if (lang === 'en') {
+    if (s.en && isLatin(s.en)) return s.en;
+    if (s.en && !isUg(s.en) && !isAr(s.en)) return s.en;
+    return s.en || s.ug || s.ar || '';
+  }
+  return s.ug || s.en || s.ar || '';
+}
+
+export function getArticleContent(article: any, lang: Language): string {
+  if (!article) return '';
+  if (typeof article.content === 'string') {
+    return article.content;
+  }
+  const c = article.content || {};
+  if (lang === 'ug') {
+    if (c.ug) return c.ug;
+    return c.ar || c.en || '';
+  }
+  if (lang === 'ar') {
+    if (c.ar && !isUg(c.ar)) return c.ar;
+    if (c.en && isAr(c.en) && !isLatin(c.en)) return c.en;
+    if (c.ar) return c.ar;
+    return c.ug || c.en || '';
+  }
+  if (lang === 'en') {
+    if (c.en && isLatin(c.en)) return c.en;
+    if (c.en && !isUg(c.en) && !isAr(c.en)) return c.en;
+    return c.en || c.ug || c.ar || '';
+  }
+  return c.ug || c.en || c.ar || '';
+}
+

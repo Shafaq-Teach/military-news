@@ -265,8 +265,15 @@
       "ئەسلى ئۇلانما": "https://t.me/QasiounStudies/6008",
       "sourceUrl": "https://t.me/QasiounStudies/6008",
       "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
-      "ھالىتى": "تەستىقلانغان ئانالىز"
-    }
+      "ھالىتى": "تەستىقلانغان ئانالىز",
+      "speed": "N/A",
+      "range": "N/A",
+      "payload": "N/A",
+      "origin": "مركز قاسيون للدراسات",
+      "status": "تەستىقلانغان ئانالىز",
+      "clearance": "ئاشكارا تاكتىكىلىق ئاخبارات"
+    },
+    "sourceUrl": "https://t.me/QasiounStudies/6008"
   },
   {
     "id": "wpn_1790319659919",
@@ -309,8 +316,15 @@
       "ئوقدان سىغىمى": "8 ئوق (ئۆلچەملىك ساندۇق)",
       "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 30 قېتىم (ئەمەلىي ئېتىش سۈرئىتى)",
       "ئۈنۈملۈك ئارىلىقى": "50 مېتىر",
-      "ئاساسلىق ۋارىيانتلىرى": "PMM, PB (ئۈنسىز ئېتىش نۇسخىسى), 59-نومۇرلۇق تاپانچا (خىتاي نۇسخىسى)"
-    }
+      "ئاساسلىق ۋارىيانتلىرى": "PMM, PB (ئۈنسىز ئېتىش نۇسخىسى), 59-نومۇرلۇق تاپانچا (خىتاي نۇسخىسى)",
+      "speed": "N/A",
+      "range": "N/A",
+      "payload": "N/A",
+      "origin": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "status": "ئاكتىپ",
+      "clearance": "ئاشكارا تاكتىكىلىق ئاخبارات"
+    },
+    "sourceUrl": "https://shafaq-teach.github.io/military-news/"
   },
   {
     "id": "news_1790319053606_47",
@@ -346,8 +360,15 @@
       "مەنبە": "The War Zone (TWZ)",
       "ئەسلى ئۇلانما": "https://www.twz.com/air/video-shows-raf-hawk-t2-trainer-crew-ejecting-before-jet-crashes",
       "sourceUrl": "https://www.twz.com/air/video-shows-raf-hawk-t2-trainer-crew-ejecting-before-jet-crashes",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
+      "ھالىتى": "تەستىقلانغان ئاخبارات",
+      "speed": "N/A",
+      "range": "N/A",
+      "payload": "N/A",
+      "origin": "The War Zone (TWZ)",
+      "status": "تەستىقلانغان ئاخبارات",
+      "clearance": "ئاشكارا تاكتىكىلىق ئاخبارات"
+    },
+    "sourceUrl": "https://www.twz.com/air/video-shows-raf-hawk-t2-trainer-crew-ejecting-before-jet-crashes"
   },
   {
     "id": "news_1790307958110_536",

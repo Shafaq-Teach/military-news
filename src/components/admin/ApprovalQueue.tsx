@@ -17,27 +17,27 @@ export const ApprovalQueue: React.FC = () => {
   const pendingArticles = articles.filter(a => a.status === 'pending');
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 w-full max-w-full min-w-0">
       
-      <div className="flex items-center justify-between border-b border-[var(--border-color)] pb-3">
-        <div>
-          <h3 className="text-base sm:text-lg font-bold text-[var(--text-primary)] flex items-center gap-2">
-            <Clock className="w-5 h-5 text-amber-400" />
-            <span>{t('tabApprovals')}</span>
+      <div className="flex items-center justify-between border-b border-[var(--border-color)] pb-3 w-full max-w-full min-w-0">
+        <div className="min-w-0 flex-1">
+          <h3 className="text-base sm:text-lg font-bold text-[var(--text-primary)] flex items-center gap-2 truncate">
+            <Clock className="w-5 h-5 text-amber-400 shrink-0" />
+            <span className="truncate">{t('tabApprovals')}</span>
           </h3>
-          <p className="text-xs text-[var(--text-secondary)] mt-1">
+          <p className="text-xs text-[var(--text-secondary)] mt-1 line-clamp-1 sm:line-clamp-none">
             يوللانغان ھەربىي ئاخبارات ۋە تەھلىل ماددىلىرىنى تەكشۈرۈپ تەستىقلاش مەركىزى
           </p>
         </div>
 
-        <span className="px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 text-xs font-mono font-bold">
+        <span className="px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 text-xs font-mono font-bold shrink-0">
           {pendingArticles.length} PENDING
         </span>
       </div>
 
       {pendingArticles.length === 0 ? (
-        <div className="p-12 text-center rounded-2xl bg-[var(--bg-surface)] border border-dashed border-[var(--border-color)] space-y-3">
-          <CheckCircle2 className="w-12 h-12 text-emerald-400 mx-auto opacity-70" />
+        <div className="p-8 sm:p-12 text-center rounded-2xl bg-[var(--bg-surface)] border border-dashed border-[var(--border-color)] space-y-3 w-full max-w-full">
+          <CheckCircle2 className="w-10 h-10 sm:w-12 sm:h-12 text-emerald-400 mx-auto opacity-70" />
           <h4 className="text-sm font-bold text-[var(--text-primary)]">
             تەستىق كۈتۈۋاتقان ھېچقانداق يېڭى مەزمۇن يوق
           </h4>
@@ -46,14 +46,14 @@ export const ApprovalQueue: React.FC = () => {
           </p>
         </div>
       ) : (
-        <div className="space-y-4">
+        <div className="space-y-4 w-full max-w-full min-w-0">
           {pendingArticles.map(article => {
             const category = CATEGORIES.find(c => c.key === article.category);
 
             return (
               <div 
                 key={article.id}
-                className="p-3.5 sm:p-5 rounded-xl bg-[var(--bg-surface)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] transition-colors flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4"
+                className="p-3.5 sm:p-5 rounded-xl bg-[var(--bg-surface)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] transition-colors flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4 w-full max-w-full min-w-0 overflow-hidden"
               >
                 <div className="flex items-start gap-3 sm:gap-4 min-w-0 flex-1">
                   <img 
@@ -88,7 +88,7 @@ export const ApprovalQueue: React.FC = () => {
                 </div>
 
                 {/* Actions */}
-                <div className="grid grid-cols-4 sm:flex items-center gap-1.5 sm:gap-2 w-full sm:w-auto shrink-0 pt-2 sm:pt-0 border-t sm:border-0 border-[var(--border-color)]/60">
+                <div className="grid grid-cols-2 sm:flex items-center gap-1.5 sm:gap-2 w-full sm:w-auto shrink-0 pt-2 sm:pt-0 border-t sm:border-0 border-[var(--border-color)]/60">
                   <button
                     onClick={() => setSelectedArticle(article)}
                     title="كۆرۈش"

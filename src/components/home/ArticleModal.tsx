@@ -110,7 +110,7 @@ export const ArticleModal: React.FC = () => {
   const isRtl = language !== 'en';
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-[var(--bg-main)]/95 backdrop-blur-xl text-[var(--text-primary)] transition-all animate-in fade-in duration-200">
+    <div className="fixed inset-0 z-50 overflow-y-auto overflow-x-hidden w-full max-w-full bg-[var(--bg-main)]/95 backdrop-blur-xl text-[var(--text-primary)] transition-all animate-in fade-in duration-200">
       
       {/* Background Military Grid Lines Pattern */}
       <div 
@@ -122,8 +122,8 @@ export const ArticleModal: React.FC = () => {
       />
 
       {/* Top Tactical Command & Navigation HUD Bar */}
-      <header className="sticky top-0 z-40 bg-[var(--bg-surface)]/95 backdrop-blur-md border-b border-[var(--border-color)] shadow-lg">
-        <div className="max-w-[1560px] mx-auto px-4 sm:px-6 lg:px-10 h-16 flex items-center justify-between gap-4">
+      <header className="sticky top-0 z-40 bg-[var(--bg-surface)]/95 backdrop-blur-md border-b border-[var(--border-color)] shadow-lg w-full max-w-full overflow-hidden">
+        <div className="max-w-[1560px] mx-auto px-3 sm:px-6 lg:px-10 h-16 flex items-center justify-between gap-2 sm:gap-4 w-full max-w-full min-w-0">
           
           {/* Start: Back to Intel Feed & Dossier ID */}
           <div className="flex items-center gap-3 sm:gap-4 min-w-0">

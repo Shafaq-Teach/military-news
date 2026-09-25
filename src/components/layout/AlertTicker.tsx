@@ -26,20 +26,20 @@ export const AlertTicker: React.FC = () => {
 
   return (
     <div 
-      className="w-full bg-[var(--bg-surface)] border-b border-[var(--border-color)] overflow-hidden py-1.5 px-3 sm:px-4 flex items-center relative z-20 shadow-sm select-none"
+      className="w-full max-w-full bg-[var(--bg-surface)] border-b border-[var(--border-color)] overflow-hidden py-1.5 px-2.5 sm:px-4 flex items-center relative z-20 shadow-sm select-none"
     >
       {/* 1. Leading Sleek Badge on the Right (RTL start) */}
-      <div className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1 bg-gradient-to-r from-red-600 to-rose-600 text-white text-xs font-bold rounded-lg shrink-0 shadow-[0_0_12px_rgba(225,29,72,0.4)] border border-rose-400/40 z-10 me-3">
-        <Flame className="w-3.5 h-3.5 text-amber-300 animate-pulse shrink-0" />
+      <div className="flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3 py-1 bg-gradient-to-r from-red-600 to-rose-600 text-white text-[11px] sm:text-xs font-bold rounded-lg shrink-0 shadow-[0_0_12px_rgba(225,29,72,0.4)] border border-rose-400/40 z-10 me-2 sm:me-3">
+        <Flame className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-300 animate-pulse shrink-0" />
         <span className="tracking-wide whitespace-nowrap font-['Cairo',sans-serif]">
           {language === 'en' ? 'LATEST 5 NEWS' : language === 'ar' ? 'آخر 5 أخبار' : 'ئەڭ يېڭى 5 خەۋەر'}
         </span>
       </div>
 
       {/* 2. Soft Edge Gradients for Cinematic Seamless Marquee */}
-      <div className="relative flex-1 overflow-hidden h-6 flex items-center">
-        <div className="pointer-events-none absolute inset-y-0 start-0 w-6 sm:w-10 bg-gradient-to-r from-[var(--bg-surface)] to-transparent z-10" />
-        <div className="pointer-events-none absolute inset-y-0 end-0 w-6 sm:w-10 bg-gradient-to-l from-[var(--bg-surface)] to-transparent z-10" />
+      <div className="relative flex-1 min-w-0 w-0 overflow-hidden h-6 flex items-center">
+        <div className="pointer-events-none absolute inset-y-0 start-0 w-4 sm:w-10 bg-gradient-to-r from-[var(--bg-surface)] to-transparent z-10" />
+        <div className="pointer-events-none absolute inset-y-0 end-0 w-4 sm:w-10 bg-gradient-to-l from-[var(--bg-surface)] to-transparent z-10" />
 
         {/* 3. Scrolling Ticker Track (Continuously scrolls from Right to Left) */}
         <div dir="ltr" className="ticker-track flex items-center">

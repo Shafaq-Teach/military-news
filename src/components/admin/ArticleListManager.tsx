@@ -38,14 +38,14 @@ export const ArticleListManager: React.FC = () => {
   });
 
   return (
-    <div className="space-y-4 sm:space-y-6">
+    <div className="space-y-4 sm:space-y-6 w-full max-w-full min-w-0">
       
       {/* Cloud Sync Status Banner */}
-      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 p-3 sm:p-3.5 rounded-xl bg-[var(--bg-main)] border border-[var(--border-color)]">
-        <div className="flex items-center gap-2 text-xs">
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 p-3 sm:p-3.5 rounded-xl bg-[var(--bg-main)] border border-[var(--border-color)] w-full max-w-full min-w-0">
+        <div className="flex items-center gap-2 text-xs min-w-0">
           <Cloud className="w-4 h-4 text-[var(--accent-primary)] shrink-0" />
           <div className={`w-2 h-2 rounded-full shrink-0 ${isSyncing ? 'bg-amber-400 animate-ping' : syncStatus?.success === false ? 'bg-rose-500' : 'bg-emerald-400'}`} />
-          <span className="text-[var(--text-secondary)] text-[11px] sm:text-xs leading-relaxed">
+          <span className="text-[var(--text-secondary)] text-[11px] sm:text-xs leading-relaxed truncate sm:whitespace-normal">
             {isSyncing 
               ? 'بارلىق ئۈسكۈنىلەر بىلەن بۇلۇتقا ماسقەدەملىنىۋاتىدۇ...' 
               : syncStatus?.message 
@@ -67,10 +67,10 @@ export const ArticleListManager: React.FC = () => {
       </div>
 
       {/* Top Filter and Search */}
-      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4 border-b border-[var(--border-color)] pb-4">
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4 border-b border-[var(--border-color)] pb-4 w-full max-w-full min-w-0">
         
         {/* Status Filter Tabs */}
-        <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none -mx-1 px-1">
+        <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none w-full max-w-full min-w-0 touch-pan-x">
           {(['all', 'published', 'pending', 'rejected'] as const).map(status => (
             <button
               key={status}
@@ -87,9 +87,9 @@ export const ArticleListManager: React.FC = () => {
         </div>
 
         {/* Actions & Search */}
-        <div className="flex items-center gap-2 w-full sm:w-auto">
+        <div className="flex items-center gap-2 w-full sm:w-auto min-w-0">
           {/* Search Input */}
-          <div className="relative flex-1 sm:w-60">
+          <div className="relative flex-1 sm:w-60 min-w-0">
             <Search className="w-3.5 h-3.5 absolute inset-y-0 start-3 my-auto text-[var(--text-muted)] pointer-events-none" />
             <input
               type="text"
@@ -120,7 +120,7 @@ export const ArticleListManager: React.FC = () => {
       </div>
 
       {/* Desktop Articles Table (Visible on sm screens and up) */}
-      <div className="hidden sm:block overflow-x-auto rounded-xl border border-[var(--border-color)] bg-[var(--bg-surface)]">
+      <div className="hidden sm:block overflow-x-auto w-full max-w-full rounded-xl border border-[var(--border-color)] bg-[var(--bg-surface)]">
         <table className="w-full text-start text-xs border-collapse">
           <thead>
             <tr className="border-b border-[var(--border-color)] bg-[var(--bg-main)] text-[var(--text-muted)] font-bold text-[11px]">
@@ -228,14 +228,14 @@ export const ArticleListManager: React.FC = () => {
       </div>
 
       {/* Mobile Touch Cards View (Visible on phones < 640px) */}
-      <div className="sm:hidden space-y-3">
+      <div className="sm:hidden space-y-3 w-full max-w-full min-w-0">
         {filtered.map(article => {
           const category = CATEGORIES.find(c => c.key === article.category);
 
           return (
             <div 
               key={article.id}
-              className="p-3.5 rounded-xl border border-[var(--border-color)] bg-[var(--bg-surface)] hover:border-[var(--border-highlight)] transition-all space-y-3"
+              className="p-3.5 rounded-xl border border-[var(--border-color)] bg-[var(--bg-surface)] hover:border-[var(--border-highlight)] transition-all space-y-3 w-full max-w-full min-w-0 overflow-hidden"
             >
               {/* Thumbnail + Title + Category */}
               <div className="flex items-start gap-3">

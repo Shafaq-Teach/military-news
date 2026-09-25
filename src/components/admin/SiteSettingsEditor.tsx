@@ -53,7 +53,7 @@ export const SiteSettingsEditor: React.FC = () => {
   };
 
   return (
-    <form onSubmit={handleSave} className="space-y-4 sm:space-y-6 bg-[var(--bg-surface)] p-3.5 sm:p-8 rounded-2xl border border-[var(--border-color)]">
+    <form onSubmit={handleSave} className="space-y-4 sm:space-y-6 bg-[var(--bg-surface)] p-3.5 sm:p-8 rounded-2xl border border-[var(--border-color)] w-full max-w-full min-w-0">
       
       {saved && (
         <div className="p-3 sm:p-4 rounded-xl bg-emerald-950/80 border border-emerald-500 text-emerald-300 text-xs flex items-center gap-2.5 animate-in fade-in">

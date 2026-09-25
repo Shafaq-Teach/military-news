@@ -124,11 +124,11 @@ export const Header: React.FC = () => {
   };
 
   return (
-    <header className="sticky top-0 z-40 bg-[var(--bg-main)]/95 backdrop-blur-md border-b border-[var(--border-color)]">
-      <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
+    <header className="sticky top-0 z-40 bg-[var(--bg-main)]/95 backdrop-blur-md border-b border-[var(--border-color)] w-full max-w-full overflow-hidden">
+      <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 w-full max-w-full">
         
         {/* Main Header Bar Row */}
-        <div className="flex items-center justify-between h-16 sm:h-20 gap-2 sm:gap-4">
+        <div className="flex items-center justify-between h-14 sm:h-20 gap-1.5 sm:gap-4 w-full max-w-full min-w-0">
           
           {/* 1. Logo & Brand Identity (Right in RTL) */}
           <div 
@@ -136,21 +136,21 @@ export const Header: React.FC = () => {
               setIsAdminOpen(false);
               setActiveCategory('all');
             }}
-            className="flex items-center gap-2 sm:gap-2.5 cursor-pointer group select-none shrink-0"
+            className="flex items-center gap-1.5 sm:gap-2.5 cursor-pointer group select-none min-w-0 flex-1 sm:flex-initial"
           >
-            <div className="relative w-9 h-9 sm:w-11 sm:h-11 flex items-center justify-center p-0.5 rounded-xl bg-gradient-to-br from-[#ff007a] via-[#a855f7] to-[#00d2ff] shadow-[0_0_16px_rgba(168,85,247,0.5)] group-hover:scale-105 transition-all shrink-0">
-              <div className="w-full h-full rounded-[10px] bg-[#07131d] flex items-center justify-center">
-                <Shield className="w-5 h-5 sm:w-6 sm:h-6 text-[#00f2fe] group-hover:scale-110 transition-transform" />
-                <Crosshair className="w-3.5 h-3.5 text-[#ff2a5f] absolute top-0.5 end-0.5 animate-spin" style={{ animationDuration: '8s' }} />
+            <div className="relative w-8 h-8 sm:w-11 sm:h-11 flex items-center justify-center p-0.5 rounded-xl bg-gradient-to-br from-[#ff007a] via-[#a855f7] to-[#00d2ff] shadow-[0_0_16px_rgba(168,85,247,0.5)] group-hover:scale-105 transition-all shrink-0">
+              <div className="w-full h-full rounded-[9px] sm:rounded-[10px] bg-[#07131d] flex items-center justify-center">
+                <Shield className="w-4 h-4 sm:w-6 sm:h-6 text-[#00f2fe] group-hover:scale-110 transition-transform" />
+                <Crosshair className="w-2.5 h-2.5 sm:w-3.5 sm:h-3.5 text-[#ff2a5f] absolute top-0.5 end-0.5 animate-spin" style={{ animationDuration: '8s' }} />
               </div>
             </div>
 
-            <div className="min-w-0">
-              <div className="flex items-center gap-1.5">
-                <span className="text-base sm:text-xl md:text-2xl font-black tracking-wider bg-gradient-to-r from-[#ff007a] via-[#a855f7] via-[#00d2ff] via-[#10b981] to-[#ffaa00] bg-clip-text text-transparent font-['Orbitron',sans-serif] drop-shadow-[0_2px_14px_rgba(168,85,247,0.6)] truncate">
+            <div className="min-w-0 flex-1">
+              <div className="flex items-center gap-1.5 min-w-0">
+                <span className="text-sm sm:text-xl md:text-2xl font-black tracking-wider bg-gradient-to-r from-[#ff007a] via-[#a855f7] via-[#00d2ff] via-[#10b981] to-[#ffaa00] bg-clip-text text-transparent font-['Orbitron',sans-serif] drop-shadow-[0_2px_14px_rgba(168,85,247,0.6)] truncate block">
                   {currentSiteName}
                 </span>
-                <span className="hidden xl:inline-block px-1.5 py-0.2 text-[9px] font-mono font-bold bg-gradient-to-r from-pink-500/20 to-purple-500/20 text-purple-300 border border-purple-500/40 rounded-full">
+                <span className="hidden xl:inline-block px-1.5 py-0.2 text-[9px] font-mono font-bold bg-gradient-to-r from-pink-500/20 to-purple-500/20 text-purple-300 border border-purple-500/40 rounded-full shrink-0">
                   v3.4
                 </span>
               </div>
@@ -189,17 +189,17 @@ export const Header: React.FC = () => {
           </nav>
 
           {/* 3. Action Controls: Vibrant Gradient Pill Buttons (Left in RTL, matching user screenshot) */}
-          <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
+          <div className="flex items-center gap-1 sm:gap-2.5 shrink-0">
 
             {/* 1) Theme Switcher Button (Golden-Amber Gradient) */}
             <button
               onClick={cycleTheme}
               title={t('theme')}
-              className="p-2.5 rounded-2xl border border-amber-300/40 bg-gradient-to-br from-[#f59e0b] via-[#ea580c] to-[#d97706] text-white hover:brightness-110 shadow-[0_4px_14px_rgba(245,158,11,0.5)] transition-all flex items-center gap-1.5 group shrink-0 hover:scale-105 active:scale-95"
+              className="p-1.5 sm:p-2.5 rounded-xl sm:rounded-2xl border border-amber-300/40 bg-gradient-to-br from-[#f59e0b] via-[#ea580c] to-[#d97706] text-white hover:brightness-110 shadow-[0_4px_14px_rgba(245,158,11,0.5)] transition-all flex items-center gap-1 group shrink-0 hover:scale-105 active:scale-95"
             >
-              <Palette className="w-4 h-4 text-white group-hover:rotate-45 transition-transform" />
+              <Palette className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-white group-hover:rotate-45 transition-transform" />
               <span 
-                className="w-2.5 h-2.5 rounded-full ring-2 ring-white/60 inline-block shadow-sm"
+                className="w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full ring-1 sm:ring-2 ring-white/60 inline-block shadow-sm"
                 style={{ backgroundColor: themeColors[theme] }}
               />
             </button>
@@ -208,12 +208,12 @@ export const Header: React.FC = () => {
             <button
               onClick={toggleDisplayMode}
               title={displayMode === 'dark' ? t('modeLight') : t('modeDark')}
-              className="p-2.5 rounded-2xl border border-cyan-300/40 bg-gradient-to-br from-[#00d2ff] via-[#0284c7] to-[#2563eb] text-white hover:brightness-110 shadow-[0_4px_14px_rgba(2,132,199,0.5)] transition-all flex items-center justify-center shrink-0 hover:scale-105 active:scale-95"
+              className="p-1.5 sm:p-2.5 rounded-xl sm:rounded-2xl border border-cyan-300/40 bg-gradient-to-br from-[#00d2ff] via-[#0284c7] to-[#2563eb] text-white hover:brightness-110 shadow-[0_4px_14px_rgba(2,132,199,0.5)] transition-all flex items-center justify-center shrink-0 hover:scale-105 active:scale-95"
             >
               {displayMode === 'dark' ? (
-                <Sun className="w-4 h-4 text-amber-200" />
+                <Sun className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-200" />
               ) : (
-                <Moon className="w-4 h-4 text-white" />
+                <Moon className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-white" />
               )}
             </button>
 
@@ -222,9 +222,9 @@ export const Header: React.FC = () => {
               <button
                 onClick={() => setLangDropdownOpen(prev => !prev)}
                 title="تىل تاللاش / Select Language"
-                className="p-2.5 rounded-2xl border border-purple-300/40 bg-gradient-to-br from-[#8b5cf6] via-[#7c3aed] to-[#6366f1] text-white hover:brightness-110 shadow-[0_4px_14px_rgba(139,92,246,0.5)] transition-all flex items-center justify-center shrink-0 hover:scale-105 active:scale-95"
+                className="p-1.5 sm:p-2.5 rounded-xl sm:rounded-2xl border border-purple-300/40 bg-gradient-to-br from-[#8b5cf6] via-[#7c3aed] to-[#6366f1] text-white hover:brightness-110 shadow-[0_4px_14px_rgba(139,92,246,0.5)] transition-all flex items-center justify-center shrink-0 hover:scale-105 active:scale-95"
               >
-                <Globe className="w-4 h-4 text-white" />
+                <Globe className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-white" />
               </button>
 
               {langDropdownOpen && (
@@ -254,9 +254,9 @@ export const Header: React.FC = () => {
               <button
                 onClick={() => setIsAdminOpen(false)}
                 title={t('exitAdmin')}
-                className="p-2.5 rounded-2xl text-xs font-bold transition-all flex items-center justify-center bg-gradient-to-r from-rose-600 to-red-600 text-white shadow-[0_0_15px_rgba(225,29,72,0.5)] border border-rose-300/50 hover:scale-105"
+                className="p-1.5 sm:p-2.5 rounded-xl sm:rounded-2xl text-xs font-bold transition-all flex items-center justify-center bg-gradient-to-r from-rose-600 to-red-600 text-white shadow-[0_0_15px_rgba(225,29,72,0.5)] border border-rose-300/50 hover:scale-105 shrink-0"
               >
-                <Settings className="w-4 h-4 animate-spin" />
+                <Settings className="w-3.5 h-3.5 sm:w-4 sm:h-4 animate-spin" />
               </button>
             )}
 
@@ -267,7 +267,7 @@ export const Header: React.FC = () => {
       </div>
 
       {/* 4. Mobile & Tablet Category Scroll Strip (Visible on screens < md) */}
-      <div className="md:hidden border-t border-[var(--border-color)]/30 px-2 py-2 overflow-x-auto scrollbar-none flex items-center gap-1.5">
+      <div className="md:hidden border-t border-[var(--border-color)]/30 w-full max-w-full px-2 py-2 overflow-x-auto scrollbar-none flex items-center gap-1.5 min-w-0 touch-pan-x">
         {navCategories.map(cat => {
           const isActive = activeCategory === cat.key;
           const label = cat.label[language] || cat.label.ug;
@@ -292,3 +292,4 @@ export const Header: React.FC = () => {
     </header>
   );
 };
+

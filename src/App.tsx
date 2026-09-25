@@ -63,7 +63,7 @@ const MainLayout: React.FC = () => {
   const activeCategoryInfo = CATEGORIES.find(c => c.key === activeCategory);
 
   return (
-    <div className="min-h-screen flex flex-col transition-colors duration-300">
+    <div className="min-h-screen w-full max-w-full overflow-x-hidden flex flex-col transition-colors duration-300">
       
       {/* Top Threat & Breaking Alert Ticker */}
       <AlertTicker />
@@ -72,7 +72,7 @@ const MainLayout: React.FC = () => {
       <Header />
 
       {/* Content Area */}
-      <main className="flex-1">
+      <main className="flex-1 w-full max-w-full min-w-0 overflow-x-hidden">
         {isAdminOpen && isAdminAuthenticated ? (
           // Admin CMS Dashboard (Lazy loaded)
           <React.Suspense fallback={<div className="min-h-[50vh] flex items-center justify-center font-mono text-cyan-400">LOADING TACTICAL COMMAND...</div>}>

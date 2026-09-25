@@ -273,7 +273,7 @@ export const ArticleForm: React.FC<ArticleFormProps> = ({
   };
 
   return (
-    <form className="space-y-4 sm:space-y-6 bg-[var(--bg-surface)] p-3.5 sm:p-8 rounded-2xl border border-[var(--border-color)]">
+    <form className="space-y-4 sm:space-y-6 bg-[var(--bg-surface)] p-3 sm:p-8 rounded-2xl border border-[var(--border-color)] w-full max-w-full min-w-0">
       
       {/* Success Notification */}
       {submitted && (

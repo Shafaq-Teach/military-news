@@ -53,32 +53,32 @@ export const ApprovalQueue: React.FC = () => {
             return (
               <div 
                 key={article.id}
-                className="p-5 rounded-xl bg-[var(--bg-surface)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] transition-colors flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4"
+                className="p-3.5 sm:p-5 rounded-xl bg-[var(--bg-surface)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] transition-colors flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 sm:gap-4"
               >
-                <div className="flex items-start gap-4 min-w-0 flex-1">
+                <div className="flex items-start gap-3 sm:gap-4 min-w-0 flex-1">
                   <img 
                     src={article.imageUrl} 
                     alt="" 
-                    className="w-20 h-20 rounded-lg object-cover bg-black/40 border border-[var(--border-color)] shrink-0"
+                    className="w-16 h-16 sm:w-20 sm:h-20 rounded-lg object-cover bg-black/40 border border-[var(--border-color)] shrink-0"
                   />
-                  <div className="min-w-0 space-y-1">
-                    <div className="flex items-center gap-2 text-xs">
-                      <span className="px-2 py-0.5 rounded bg-[var(--accent-primary)]/15 text-[var(--accent-primary)] font-bold">
+                  <div className="min-w-0 flex-1 space-y-1">
+                    <div className="flex items-center gap-2 text-xs flex-wrap">
+                      <span className="px-2 py-0.5 rounded bg-[var(--accent-primary)]/15 text-[var(--accent-primary)] font-bold text-[10px] sm:text-xs">
                         <span className="font-mono">{category?.code} :</span> {category?.name[language] || category?.name.ug}
                       </span>
                       <span className="text-[var(--text-muted)] font-mono text-[10px]">{article.date}</span>
                     </div>
 
-                    <h4 className="text-sm font-bold text-[var(--text-primary)] truncate">
+                    <h4 className="text-xs sm:text-sm font-bold text-[var(--text-primary)] line-clamp-2">
                       {article.title[language] || article.title.ug}
                     </h4>
 
-                    <p className="text-xs text-[var(--text-secondary)] line-clamp-1">
+                    <p className="text-[11px] sm:text-xs text-[var(--text-secondary)] line-clamp-2">
                       {article.summary[language] || article.summary.ug}
                     </p>
 
                     {article.specs.speed && article.specs.speed !== 'N/A' && (
-                      <div className="flex items-center gap-3 text-[11px] text-[var(--text-muted)]">
+                      <div className="flex items-center gap-2 sm:gap-3 text-[10px] sm:text-[11px] text-[var(--text-muted)] flex-wrap">
                         <span>تېزلىكى: <span className="font-mono text-[var(--text-primary)] font-bold">{article.specs.speed}</span></span>
                         <span>•</span>
                         <span>دائىرىسى: <span className="font-mono text-[var(--text-primary)] font-bold">{article.specs.range}</span></span>
@@ -88,37 +88,38 @@ export const ApprovalQueue: React.FC = () => {
                 </div>
 
                 {/* Actions */}
-                <div className="flex items-center gap-2 self-end sm:self-center shrink-0">
+                <div className="grid grid-cols-4 sm:flex items-center gap-1.5 sm:gap-2 w-full sm:w-auto shrink-0 pt-2 sm:pt-0 border-t sm:border-0 border-[var(--border-color)]/60">
                   <button
                     onClick={() => setSelectedArticle(article)}
                     title="كۆرۈش"
-                    className="p-2 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] text-[var(--text-primary)] text-xs font-semibold flex items-center gap-1.5"
+                    className="py-1.5 sm:p-2 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] text-[var(--text-primary)] text-xs font-semibold flex items-center justify-center gap-1"
                   >
-                    <Eye className="w-4 h-4 text-[var(--accent-primary)]" />
-                    <span className="hidden md:inline">ئالدىن كۆرۈش</span>
+                    <Eye className="w-3.5 h-3.5 text-[var(--accent-primary)]" />
+                    <span className="text-[10px] sm:text-xs">كۆرۈش</span>
                   </button>
 
                   <button
                     onClick={() => approveArticle(article.id)}
-                    className="px-3 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold flex items-center gap-1.5 shadow-[0_0_12px_rgba(16,185,129,0.3)] transition-all"
+                    className="py-1.5 sm:px-3 sm:py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold flex items-center justify-center gap-1 shadow-[0_0_12px_rgba(16,185,129,0.3)] transition-all"
                   >
-                    <CheckCircle2 className="w-4 h-4" />
-                    <span>{t('btnApprove')}</span>
+                    <CheckCircle2 className="w-3.5 h-3.5" />
+                    <span className="text-[10px] sm:text-xs">{t('btnApprove')}</span>
                   </button>
 
                   <button
                     onClick={() => rejectArticle(article.id)}
-                    className="px-3 py-2 rounded-lg bg-amber-700/60 hover:bg-amber-600 text-amber-100 text-xs font-semibold flex items-center gap-1.5 transition-all"
+                    className="py-1.5 sm:px-3 sm:py-2 rounded-lg bg-amber-700/60 hover:bg-amber-600 text-amber-100 text-xs font-semibold flex items-center justify-center gap-1 transition-all"
                   >
-                    <XCircle className="w-4 h-4" />
-                    <span>{t('btnReject')}</span>
+                    <XCircle className="w-3.5 h-3.5" />
+                    <span className="text-[10px] sm:text-xs">{t('btnReject')}</span>
                   </button>
 
                   <button
                     onClick={() => deleteArticle(article.id)}
-                    className="p-2 rounded-lg bg-rose-950/60 hover:bg-rose-900 border border-rose-800/50 text-rose-300 transition-colors"
+                    className="py-1.5 sm:p-2 rounded-lg bg-rose-950/60 hover:bg-rose-900 border border-rose-800/50 text-rose-300 transition-colors flex items-center justify-center"
+                    title="ئۆچۈرۈش"
                   >
-                    <Trash2 className="w-4 h-4" />
+                    <Trash2 className="w-3.5 h-3.5" />
                   </button>
                 </div>
 

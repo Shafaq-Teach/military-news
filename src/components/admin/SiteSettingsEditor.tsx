@@ -53,11 +53,11 @@ export const SiteSettingsEditor: React.FC = () => {
   };
 
   return (
-    <form onSubmit={handleSave} className="space-y-6 bg-[var(--bg-surface)] p-6 sm:p-8 rounded-2xl border border-[var(--border-color)]">
+    <form onSubmit={handleSave} className="space-y-4 sm:space-y-6 bg-[var(--bg-surface)] p-3.5 sm:p-8 rounded-2xl border border-[var(--border-color)]">
       
       {saved && (
-        <div className="p-4 rounded-xl bg-emerald-950/80 border border-emerald-500 text-emerald-300 text-xs flex items-center gap-3 animate-in fade-in">
-          <CheckCircle2 className="w-5 h-5 text-emerald-400" />
+        <div className="p-3 sm:p-4 rounded-xl bg-emerald-950/80 border border-emerald-500 text-emerald-300 text-xs flex items-center gap-2.5 animate-in fade-in">
+          <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-400 shrink-0" />
           <span>تور بېكەت ئاساسىي تەڭشەكلىرى مۇۋەپپەقىيەتلىك يېڭىلاندى ۋە دەرھال ئەكس ئەتتى!</span>
         </div>
       )}
@@ -181,11 +181,11 @@ export const SiteSettingsEditor: React.FC = () => {
       </div>
 
       {/* Save Actions & Reset */}
-      <div className="flex flex-wrap items-center justify-between gap-4 pt-4 border-t border-[var(--border-color)]">
+      <div className="flex flex-col-reverse sm:flex-row items-stretch sm:items-center justify-between gap-3 pt-4 border-t border-[var(--border-color)]">
         <button
           type="button"
           onClick={handleReset}
-          className="px-4 py-2 rounded-lg bg-rose-950/40 hover:bg-rose-900 border border-rose-800 text-rose-300 text-xs font-bold flex items-center gap-2 transition-colors"
+          className="w-full sm:w-auto px-4 py-2.5 rounded-lg bg-rose-950/40 hover:bg-rose-900 border border-rose-800 text-rose-300 text-xs font-bold flex items-center justify-center gap-2 transition-colors"
         >
           <RotateCcw className="w-4 h-4" />
           <span>{t('resetToDemo')}</span>
@@ -193,7 +193,7 @@ export const SiteSettingsEditor: React.FC = () => {
 
         <button
           type="submit"
-          className="px-6 py-2 rounded-lg bg-[var(--accent-primary)] hover:bg-[var(--accent-secondary)] text-[var(--bg-main)] text-xs font-black transition-all shadow-[0_0_15px_var(--accent-glow)] flex items-center gap-2"
+          className="w-full sm:w-auto px-6 py-2.5 rounded-lg bg-[var(--accent-primary)] hover:bg-[var(--accent-secondary)] text-[var(--bg-main)] text-xs font-black transition-all shadow-[0_0_15px_var(--accent-glow)] flex items-center justify-center gap-2"
         >
           <Save className="w-4 h-4" />
           <span>{t('btnSaveSettings')}</span>

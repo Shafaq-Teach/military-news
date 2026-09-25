@@ -273,42 +273,42 @@ export const ArticleForm: React.FC<ArticleFormProps> = ({
   };
 
   return (
-    <form className="space-y-6 bg-[var(--bg-surface)] p-5 sm:p-8 rounded-2xl border border-[var(--border-color)]">
+    <form className="space-y-4 sm:space-y-6 bg-[var(--bg-surface)] p-3.5 sm:p-8 rounded-2xl border border-[var(--border-color)]">
       
       {/* Success Notification */}
       {submitted && (
-        <div className="p-4 rounded-xl bg-emerald-950/80 border border-emerald-500 text-emerald-300 text-xs flex items-center gap-3 animate-in fade-in">
-          <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0" />
-          <span>مەزمۇن مۇۋەپپەقىيەتلىك ساقلاندى ھەمدە 3 خىل تىلغا (ئۇيغۇرچە، ئەرەبچە، ئىنگلىزچە) ئاپتوماتىك تەرجىمە قىلىندى!</span>
+        <div className="p-3 sm:p-4 rounded-xl bg-emerald-950/80 border border-emerald-500 text-emerald-300 text-xs flex items-center gap-2.5 animate-in fade-in">
+          <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-400 shrink-0" />
+          <span>مەزمۇن مۇۋەپپەقىيەتلىك ساقلاندى ۋە 3 تىلغا ئاپتوماتىك تەرجىمە قىلىندى!</span>
         </div>
       )}
 
       {/* Header */}
       <div className="border-b border-[var(--border-color)] pb-3 flex items-center justify-between">
-        <div>
+        <div className="min-w-0 flex-1">
           <h3 className="text-base sm:text-lg font-bold text-[var(--text-primary)] flex items-center gap-2">
             {isEditMode ? (
               <>
-                <Pencil className="w-5 h-5 text-amber-400" />
-                <span>ماقالىنى تەھرىرلەش</span>
+                <Pencil className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400 shrink-0" />
+                <span className="truncate">ماقالىنى تەھرىرلەش</span>
               </>
             ) : (
               <>
-                <FilePlus2 className="w-5 h-5 text-[var(--accent-primary)]" />
-                <span>{t('publishNewTitle')}</span>
+                <FilePlus2 className="w-4 h-4 sm:w-5 sm:h-5 text-[var(--accent-primary)] shrink-0" />
+                <span className="truncate">{t('publishNewTitle')}</span>
               </>
             )}
           </h3>
-          <p className="text-xs text-[var(--text-secondary)] mt-1">
+          <p className="text-[11px] sm:text-xs text-[var(--text-secondary)] mt-0.5 line-clamp-2">
             {isEditMode 
-              ? 'مەزمۇنلارنى تەھرىرلەپ ساقلىسىڭىز، ئاپتوماتىك بۇلۇتقا ماسقەدەملىنىدۇ ۋە بارلىق ئۈسكۈنىلەردە كۈچكە ئىگە بولىدۇ.'
+              ? 'مەزمۇنلارنى تەھرىرلەپ ساقلىسىڭىز، ئاپتوماتىك بارلىق ئۈسكۈنىلەردە كۈچكە ئىگە بولىدۇ.'
               : 'مەزمۇننى بىر تىلدا يازسىڭىزلا كۇپايە، سىستېما قالغان تىللارغا ئاپتوماتىك تەرجىمە قىلىپ بېرىدۇ.'}
           </p>
         </div>
 
-        <div className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[var(--accent-primary)]/10 border border-[var(--accent-primary)]/30 text-[var(--accent-primary)] text-xs font-bold">
+        <div className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[var(--accent-primary)]/10 border border-[var(--accent-primary)]/30 text-[var(--accent-primary)] text-xs font-bold shrink-0">
           <Sparkles className="w-4 h-4 animate-pulse" />
-          <span>3 تىللىق ئەقلىي تەرجىمە قوزغىتىلغان</span>
+          <span>3 تىللىق ئەقلىي تەرجىمە</span>
         </div>
       </div>
 
@@ -395,51 +395,51 @@ export const ArticleForm: React.FC<ArticleFormProps> = ({
 
       {/* 5. Rich Image Insertion Window (Upload / Gallery / URL) */}
       <div className="space-y-3 p-4 rounded-xl bg-[var(--bg-main)] border border-[var(--border-color)]">
-        <div className="flex items-center justify-between border-b border-[var(--border-color)] pb-2.5">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 border-b border-[var(--border-color)] pb-2.5">
           <label className="text-xs font-bold text-[var(--text-primary)] flex items-center gap-2">
             <ImageIcon className="w-4 h-4 text-[var(--accent-primary)]" />
             <span>رەسىم قىستۇرۇش كۆزنىكى</span>
           </label>
 
           {/* Navigation Tabs for Image Source */}
-          <div className="flex items-center gap-1 text-xs">
+          <div className="grid grid-cols-3 sm:flex items-center gap-1 text-[11px] sm:text-xs w-full sm:w-auto">
             <button
               type="button"
               onClick={() => setImageTab('upload')}
-              className={`px-3 py-1 rounded-md transition-colors flex items-center gap-1.5 ${
+              className={`px-2 sm:px-3 py-1.5 sm:py-1 rounded-md transition-colors flex items-center justify-center gap-1 sm:gap-1.5 ${
                 imageTab === 'upload' 
                   ? 'bg-[var(--accent-primary)] text-[var(--bg-main)] font-bold' 
-                  : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)]'
+                  : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)] bg-[var(--bg-surface)]'
               }`}
             >
-              <Upload className="w-3 h-3" />
-              <span>كومپيۇتېردىن يۈكلەش</span>
+              <Upload className="w-3 h-3 shrink-0" />
+              <span className="truncate">يۈكلەش</span>
             </button>
 
             <button
               type="button"
               onClick={() => setImageTab('gallery')}
-              className={`px-3 py-1 rounded-md transition-colors flex items-center gap-1.5 ${
+              className={`px-2 sm:px-3 py-1.5 sm:py-1 rounded-md transition-colors flex items-center justify-center gap-1 sm:gap-1.5 ${
                 imageTab === 'gallery' 
                   ? 'bg-[var(--accent-primary)] text-[var(--bg-main)] font-bold' 
-                  : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)]'
+                  : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)] bg-[var(--bg-surface)]'
               }`}
             >
-              <ImageIcon className="w-3 h-3" />
-              <span>ئۈلگە رەسىملەر</span>
+              <ImageIcon className="w-3 h-3 shrink-0" />
+              <span className="truncate">ئۈلگىلەر</span>
             </button>
 
             <button
               type="button"
               onClick={() => setImageTab('url')}
-              className={`px-3 py-1 rounded-md transition-colors flex items-center gap-1.5 ${
+              className={`px-2 sm:px-3 py-1.5 sm:py-1 rounded-md transition-colors flex items-center justify-center gap-1 sm:gap-1.5 ${
                 imageTab === 'url' 
                   ? 'bg-[var(--accent-primary)] text-[var(--bg-main)] font-bold' 
-                  : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)]'
+                  : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)] bg-[var(--bg-surface)]'
               }`}
             >
-              <LinkIcon className="w-3 h-3" />
-              <span>ئۇلىنىش كىرگۈزۈش</span>
+              <LinkIcon className="w-3 h-3 shrink-0" />
+              <span className="truncate">ئۇلىنىش</span>
             </button>
           </div>
         </div>
@@ -536,14 +536,14 @@ export const ArticleForm: React.FC<ArticleFormProps> = ({
       </div>
 
       {/* Submit Actions */}
-      <div className="flex flex-wrap items-center justify-end gap-3 pt-4 border-t border-[var(--border-color)]">
+      <div className="flex flex-col-reverse sm:flex-row items-stretch sm:items-center justify-end gap-2.5 sm:gap-3 pt-4 border-t border-[var(--border-color)]">
         {isEditMode ? (
           <>
             {onCancel && (
               <button
                 type="button"
                 onClick={onCancel}
-                className="px-5 py-2.5 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] text-xs font-bold text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-all flex items-center gap-1.5"
+                className="w-full sm:w-auto px-5 py-2.5 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] text-xs font-bold text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-all flex items-center justify-center gap-1.5"
               >
                 <X className="w-4 h-4" />
                 <span>بىكار قىلىش</span>
@@ -554,12 +554,12 @@ export const ArticleForm: React.FC<ArticleFormProps> = ({
               type="button"
               disabled={isTranslating}
               onClick={(e) => handleSubmit(e, true)}
-              className="px-6 py-2.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-black text-xs font-black transition-all shadow-[0_0_15px_rgba(245,158,11,0.3)] flex items-center gap-2 disabled:opacity-50"
+              className="w-full sm:w-auto px-6 py-2.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-black text-xs font-black transition-all shadow-[0_0_15px_rgba(245,158,11,0.3)] flex items-center justify-center gap-2 disabled:opacity-50"
             >
               {isTranslating ? (
                 <>
                   <Loader2 className="w-4 h-4 animate-spin text-black" />
-                  <span>ساقلىنىۋاتىدۇ ۋە ماسقەدەملىنىۋاتىدۇ...</span>
+                  <span>ساقلىنىۋاتىدۇ...</span>
                 </>
               ) : (
                 <>
@@ -575,7 +575,7 @@ export const ArticleForm: React.FC<ArticleFormProps> = ({
               type="button"
               disabled={isTranslating}
               onClick={(e) => handleSubmit(e, false)}
-              className="px-5 py-2.5 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] text-xs font-bold text-[var(--text-primary)] transition-all disabled:opacity-50"
+              className="w-full sm:w-auto px-5 py-2.5 rounded-lg bg-[var(--bg-main)] border border-[var(--border-color)] hover:border-[var(--border-highlight)] text-xs font-bold text-[var(--text-primary)] transition-all disabled:opacity-50 flex items-center justify-center gap-2"
             >
               {isTranslating ? (
                 <span className="flex items-center gap-2">
@@ -591,12 +591,12 @@ export const ArticleForm: React.FC<ArticleFormProps> = ({
               type="button"
               disabled={isTranslating}
               onClick={(e) => handleSubmit(e, true)}
-              className="px-6 py-2.5 rounded-lg bg-[var(--accent-primary)] hover:bg-[var(--accent-secondary)] text-[var(--bg-main)] text-xs font-black transition-all shadow-[0_0_15px_var(--accent-glow)] flex items-center gap-2 disabled:opacity-50"
+              className="w-full sm:w-auto px-6 py-2.5 rounded-lg bg-[var(--accent-primary)] hover:bg-[var(--accent-secondary)] text-[var(--bg-main)] text-xs font-black transition-all shadow-[0_0_15px_var(--accent-glow)] flex items-center justify-center gap-2 disabled:opacity-50"
             >
               {isTranslating ? (
                 <>
                   <Loader2 className="w-4 h-4 animate-spin text-[var(--bg-main)]" />
-                  <span>3 تىلغا ئايلاندۇرۇلۇۋاتىدۇ...</span>
+                  <span>ئېلان قىلىنىۋاتىدۇ...</span>
                 </>
               ) : (
                 <>

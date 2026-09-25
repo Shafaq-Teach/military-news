@@ -91,7 +91,7 @@ export const AdminLoginModal: React.FC = () => {
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto animate-in fade-in duration-300">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 overflow-y-auto animate-in fade-in duration-300">
       
       {/* Landscape Background Image */}
       <div 
@@ -105,7 +105,7 @@ export const AdminLoginModal: React.FC = () => {
       {/* Frosted Glass Card */}
       <div 
         dir="ltr"
-        className="relative w-full max-w-[390px] sm:max-w-[420px] rounded-[36px] p-7 sm:p-10 shadow-[0_30px_70px_rgba(0,0,0,0.45)] border border-white/40 text-white z-10 my-auto text-start"
+        className="relative w-full max-w-[360px] sm:max-w-[420px] rounded-[28px] sm:rounded-[36px] p-5 sm:p-10 shadow-[0_30px_70px_rgba(0,0,0,0.45)] border border-white/40 text-white z-10 my-auto text-start max-h-[96vh] overflow-y-auto"
         style={{
           background: 'rgba(255, 255, 255, 0.14)',
           backdropFilter: 'blur(28px)',
@@ -125,10 +125,10 @@ export const AdminLoginModal: React.FC = () => {
               }
             } catch {}
           }}
-          className="absolute top-6 end-6 w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 border border-white/30 flex items-center justify-center text-white/80 hover:text-white transition-all shadow-sm"
+          className="absolute top-4 end-4 sm:top-6 sm:end-6 w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-white/10 hover:bg-white/20 border border-white/30 flex items-center justify-center text-white/80 hover:text-white transition-all shadow-sm"
           title={language === 'en' ? 'Close' : language === 'ar' ? 'إغلاق' : 'تاقاش'}
         >
-          <X className="w-5 h-5" />
+          <X className="w-4 h-4 sm:w-5 sm:h-5" />
         </button>
 
         {mode === 'login' ? (
@@ -138,10 +138,10 @@ export const AdminLoginModal: React.FC = () => {
           <div>
             
             {/* Header */}
-            <h2 className="text-3xl sm:text-[34px] font-bold text-white tracking-tight mb-2 font-sans">
+            <h2 className="text-2xl sm:text-[34px] font-bold text-white tracking-tight mb-1 sm:mb-2 font-sans">
               Login
             </h2>
-            <p className="text-sm sm:text-[15px] text-white/90 font-normal mb-7 sm:mb-8 font-sans leading-snug">
+            <p className="text-xs sm:text-[15px] text-white/90 font-normal mb-5 sm:mb-8 font-sans leading-snug">
               Welcome back please login to your account
             </p>
 

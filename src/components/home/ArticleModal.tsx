@@ -82,12 +82,14 @@ export const ArticleModal: React.FC = () => {
   const rawBody = getArticleContent(selectedArticle, language);
   const sourceUrl = getArticleSourceUrl(selectedArticle);
 
-  // Clean raw markdown link trailers from body text
+  // Clean raw markdown link trailers and unwanted sections from body text
   const cleanBodyContent = rawBody
     .replace(/\n*\s*---\s*\n*🔗\s*\*\*ئەسلى مەنبە ئۇلانمىسى:\*\*[\s\S]*$/gi, '')
     .replace(/\n*\s*---\s*\n*🔗[\s\S]*$/gi, '')
     .replace(/\n*🔗\s*\*\*ئەسلى مەنبە ئۇلانمىسى:\*\*[\s\S]*$/gi, '')
     .replace(/\n*\[[^\]]+\]\(https?:\/\/[^\)]+\)/gi, '')
+    .replace(/###\s*⚔️?\s*جەڭ تەجرىبىسى[\s\S]*?(?=(?:###|---|📌|$))/gi, '')
+    .replace(/###\s*⚖️?\s*ئارتۇقچىلىقى[\s\S]*?(?=(?:###|---|📌|$))/gi, '')
     .trim();
 
   const isHardware = Boolean(

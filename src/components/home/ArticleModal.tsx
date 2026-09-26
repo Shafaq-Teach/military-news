@@ -109,6 +109,172 @@ export const ArticleModal: React.FC = () => {
 
   const isRtl = language !== 'en';
 
+  // Dedicated helper to render military weapon specs and rich intelligence dossiers
+  const renderArticleBody = (content: string) => {
+    if (!content) return null;
+
+    const lines = content.split('\n');
+    const elements: React.ReactNode[] = [];
+    let currentSpecs: { icon: string; label: string; value: string }[] = [];
+    let paragraphBuffer: string[] = [];
+
+    const flushParagraph = () => {
+      if (paragraphBuffer.length > 0) {
+        const text = paragraphBuffer.join('\n').trim();
+        if (text) {
+          elements.push(
+            <p key={`p-${elements.length}`} className="text-base sm:text-lg leading-[2.1] sm:leading-[2.3] text-[var(--text-primary)]/95 font-normal whitespace-pre-line tracking-wide mb-4">
+              {text}
+            </p>
+          );
+        }
+        paragraphBuffer = [];
+      }
+    };
+
+    const flushSpecs = () => {
+      if (currentSpecs.length > 0) {
+        elements.push(
+          <div key={`specs-${elements.length}`} className="my-6 rounded-2xl bg-[var(--bg-surface)]/90 border-2 border-[var(--border-color)] p-4 sm:p-6 shadow-xl space-y-3.5 relative overflow-hidden">
+            <div className="absolute top-0 start-0 w-2 h-full bg-gradient-to-b from-[var(--accent-primary)] via-amber-400 to-[var(--accent-secondary)]" />
+            
+            <div className="flex items-center justify-between border-b border-[var(--border-color)] pb-3 mb-2">
+              <span className="text-xs sm:text-sm font-mono font-bold text-[var(--accent-secondary)] uppercase flex items-center gap-2">
+                <span className="text-base">🏷️</span>
+                <span>{language === 'en' ? 'CATEGORY: #DAILY_WEAPON' : language === 'ar' ? 'النوع: #سلاح_اليوم' : 'تۈرى: #كۈندە_بىر_قورال'}</span>
+              </span>
+              <span className="text-[11px] font-mono text-[var(--text-muted)] tracking-wider">
+                TACTICAL SPECIFICATIONS // 1:1
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+              {currentSpecs.map((spec, sIdx) => (
+                <div 
+                  key={sIdx} 
+                  className="flex items-center gap-3.5 p-3.5 rounded-xl bg-[var(--bg-main)]/95 border border-[var(--border-color)] hover:border-[var(--accent-primary)]/60 transition-all shadow-sm hover:shadow-md group"
+                >
+                  <div className="w-10 h-10 rounded-xl bg-[var(--bg-surface)] border border-[var(--border-color)] flex items-center justify-center text-xl shrink-0 shadow-inner group-hover:scale-110 transition-transform">
+                    {spec.icon}
+                  </div>
+                  <div className="flex-1 min-w-0 flex flex-wrap items-baseline gap-2">
+                    <span className="text-xs sm:text-sm font-bold text-amber-300 shrink-0">
+                      {spec.label}:
+                    </span>
+                    <span className="text-xs sm:text-sm font-semibold text-[var(--text-primary)] break-words">
+                      {spec.value}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        );
+        currentSpecs = [];
+      }
+    };
+
+    const SPEC_ICONS: Record<string, string> = {
+      'قورال ئىسمى': '🔫',
+      'ئىشلەپچىقارغان دۆلەت': '🌍',
+      'ئىشلەپچىقارغان': '🌍',
+      'دۆلەت': '🌍',
+      'قورال تىپى': '⚙️',
+      'تىپى': '⚙️',
+      'ئوق ئۆلچىمى (كالىبېر)': '📏',
+      'ئوق ئۆلچىمى': '📏',
+      'كالىبېر': '📏',
+      'ئېغىرلىقى ۋە ئۇزۇنلۇقى': '⚖️',
+      'ئېغىرلىقى': '⚖️',
+      'ئوقدان سىغىمى': '🎯',
+      'ئوقدان': '🎯',
+      'ئوق ئېتىش سۈرئىتى': '⚡',
+      'ئوق ئېتىش': '⚡',
+      'ئۈنۈملۈك ئارىلىقى': '🎯',
+      'ئارىلىقى': '🎯',
+      'ئاساسلىق ۋارىيانتلىرى': '🔄',
+      'ۋارىيانتلىرى': '🔄'
+    };
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i].trim();
+
+      if (!line) {
+        flushParagraph();
+        flushSpecs();
+        continue;
+      }
+
+      // Headings (### 📌, ### ⚙️, etc.)
+      if (line.startsWith('### ') || line.startsWith('## ') || line.startsWith('# ')) {
+        flushParagraph();
+        flushSpecs();
+        const headingText = line.replace(/^#+\s*/, '').trim();
+        elements.push(
+          <div key={`h-${i}`} className="mt-8 mb-4 pt-2 flex items-center gap-3 border-b-2 border-[var(--border-color)] pb-3">
+            <span className="w-3 h-3 rounded-full bg-[var(--accent-primary)] animate-pulse shrink-0" />
+            <h3 className="text-lg sm:text-xl font-black text-[var(--text-primary)] tracking-wide">
+              {headingText}
+            </h3>
+          </div>
+        );
+        continue;
+      }
+
+      // Horizontal dividers
+      if (line === '---' || line.startsWith('━━━') || line.startsWith('───')) {
+        flushParagraph();
+        flushSpecs();
+        elements.push(
+          <div key={`hr-${i}`} className="my-6 border-t-2 border-[var(--border-color)]/70" />
+        );
+        continue;
+      }
+
+      // Bullet items: Detect icon and label/value
+      const bulletMatch = line.match(/^(?:[-*•]\s*)?([\uD800-\uDBFF][\uDC00-\uDFFF]|[\u2600-\u27BF]|⚙️|⚖️|⚡|🎯|🔫|🌍|📏|🔄)?\s*(?:\*\*)?([^:*]+?)(?:\*\*)?\s*[:：]\s*(.*)$/);
+
+      if (bulletMatch) {
+        flushParagraph();
+        let matchedIcon = bulletMatch[1]?.trim() || '';
+        let label = bulletMatch[2].replace(/\*\*/g, '').trim();
+        let value = bulletMatch[3].replace(/\*\*/g, '').trim();
+
+        if (!matchedIcon) {
+          for (const [key, ic] of Object.entries(SPEC_ICONS)) {
+            if (label.includes(key)) {
+              matchedIcon = ic;
+              break;
+            }
+          }
+        }
+
+        if (!matchedIcon) {
+          matchedIcon = '📌';
+        }
+
+        if (label === 'ئوق ئۆلچىمى') {
+          label = 'ئوق ئۆلچىمى (كالىبېر)';
+        }
+
+        currentSpecs.push({
+          icon: matchedIcon,
+          label: label,
+          value: value
+        });
+        continue;
+      }
+
+      // Normal paragraph line
+      paragraphBuffer.push(line);
+    }
+
+    flushParagraph();
+    flushSpecs();
+
+    return elements;
+  };
+
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto overflow-x-hidden w-full max-w-full bg-[var(--bg-main)]/95 backdrop-blur-xl text-[var(--text-primary)] transition-all animate-in fade-in duration-200">
       
@@ -296,9 +462,7 @@ export const ArticleModal: React.FC = () => {
               </div>
 
               <div className="prose prose-invert max-w-none">
-                <p className="text-base sm:text-lg leading-[2.1] sm:leading-[2.3] text-[var(--text-primary)]/95 font-normal whitespace-pre-line tracking-wide">
-                  {cleanBodyContent}
-                </p>
+                {renderArticleBody(cleanBodyContent)}
               </div>
 
 

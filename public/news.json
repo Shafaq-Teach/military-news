@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790495417625_463",
+    "category": "weapons",
+    "title": {
+      "ug": "فىرانسىيەنىڭ تالېس شىركىتى شىمالىي ئاتلانتىك ئەھدى تەشكىلاتى دۆلەتلىرى بىلەن سۈنئىي ئىدراكلىق قوماندانلىق يۇمشاق دېتالى ئۈستىدە سۆھبەتلىشىۋاتىدۇ",
+      "en": "Thales in ‘quite advanced’ talks with NATO countries on AI-powered command software"
+    },
+    "summary": {
+      "ug": "فىرانسىيەنىڭ مۇداپىئە تېخنىكا شىركىتى تالېس، بىر قانچە شىمالىي ئاتلانتىك ئەھدى تەشكىلاتى دۆلىتى بىلەن ئۆزىنىڭ سۈنئىي ئىدراك كۈچىگە ئىگە قوماندانلىق ۋە كونترول قىلىش سىستېمىسىنى قوللىنىش توغرىسىدا ئىلغار باسقۇچلۇق سۆھبەت ئېلىپ بارماقتا. بۇ س...",
+      "en": "French firm Thales is “quite advanced” in discussions with a number of NATO countries about using its artificial intelligence-powered C2 system."
+    },
+    "content": {
+      "ug": "فىرانسىيەنىڭ مۇداپىئە تېخنىكا شىركىتى تالېس، بىر قانچە شىمالىي ئاتلانتىك ئەھدى تەشكىلاتى دۆلىتى بىلەن ئۆزىنىڭ سۈنئىي ئىدراك كۈچىگە ئىگە قوماندانلىق ۋە كونترول قىلىش سىستېمىسىنى قوللىنىش توغرىسىدا ئىلغار باسقۇچلۇق سۆھبەت ئېلىپ بارماقتا. بۇ سىستېما ئۇرۇش مەيدانىدىكى ئۇچۇرلارنى تېز بىر تەرەپ قىلىش ۋە قارار چىقىرىش ئۈنۈمىنى ئاشۇرۇشنى مەقسەت قىلغان بولۇپ، خىتاي قاتارلىق دۆلەتلەرنىڭ ھەربىي تېخنىكا تەرەققىياتىغا قارشى غەرب ئەللىرىنىڭ ئېلېكترونلۇق ئۇرۇش ۋە ئاپتوماتلاشتۇرۇش ئىقتىدارىنى كۈچەيتىشنى كۆزلەيدۇ.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "French firm Thales is “quite advanced” in discussions with a number of NATO countries about using its artificial intelligence-powered C2 system.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/SXOQVQPKZBHC5LQYJD3R7EEG2A.jpg",
+    "author": "Defense News",
+    "date": "2026-09-27",
+    "status": "published",
+    "featured": true,
+    "views": 23,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "سۈنئىي ئىدراك"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/",
+      "sourceUrl": "https://www.defensenews.com/global/europe/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "wpn_1790492424786",
     "category": "database",
     "title": {

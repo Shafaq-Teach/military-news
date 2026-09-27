@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790484617805_828",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا فېدېراتسىيە سوت مەھكىمىسى ئامېرىكا دۆلەت مۇداپىئە مىنىستىرلىقىنىڭ ئانتوروپىك شىركىتىنى قارا تىزىملىككە كىرگۈزۈش قارارىنى تەستىقلىدى",
+      "en": "US appeals court upholds Pentagon’s blacklisting of Anthropic"
+    },
+    "summary": {
+      "ug": "ئامېرىكا فېدېراتسىيە نارازىلىق سوت مەھكىمىسى ئامېرىكا دۆلەت مۇداپىئە مىنىستىرلىقىنىڭ ئانتوروپىك شىركىتىنى ھەربىي توختام تۈزۈش سالاھىيىتىدىن مەھرۇم قىلىش ۋە قارا تىزىملىككە كىرگۈزۈش قارارىنى كۈچكە ئىگە دەپ قارىدى. بۇ قارار پرېزىدېنت ترامپ ۋە...",
+      "en": "A federal appeals court upheld the Pentagon’s blacklisting of Anthropic from military contracts, handing a victory to President Trump and the Pentagon."
+    },
+    "content": {
+      "ug": "ئامېرىكا فېدېراتسىيە نارازىلىق سوت مەھكىمىسى ئامېرىكا دۆلەت مۇداپىئە مىنىستىرلىقىنىڭ ئانتوروپىك شىركىتىنى ھەربىي توختام تۈزۈش سالاھىيىتىدىن مەھرۇم قىلىش ۋە قارا تىزىملىككە كىرگۈزۈش قارارىنى كۈچكە ئىگە دەپ قارىدى. بۇ قارار پرېزىدېنت ترامپ ۋە دۆلەت مۇداپىئە مىنىستىرلىقى ئۈچۈن بىر مۇھىم غەلىبە ھېسابلىنىدۇ، شۇنداقلا خىتاي قاتارلىق رەقىبلەرنىڭ سۈنئىي ئىدراك تېخنىكىسىدىكى تەھدىتلىرىگە قارشى ئامېرىكىنىڭ دۆلەت خەۋپسىزلىكىنى قوغداش تەدبىرلىرىنىڭ بىرى سۈپىتىدە كۆرۈلمەكتە.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "A federal appeals court upheld the Pentagon’s blacklisting of Anthropic from military contracts, handing a victory to President Trump and the Pentagon.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/6N7EZFKZOZF27FAT4MFMPHS25I.JPG",
+    "author": "Defense News",
+    "date": "2026-09-27",
+    "status": "published",
+    "featured": true,
+    "views": 154,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئامېرىكا",
+      "دۆلەت مۇداپىئەسى"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/",
+      "sourceUrl": "https://www.defensenews.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1790463924508",
     "category": "analysis",
     "title": {

@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790539235299_797",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا مەركىزىي ئاخبارات ئىدارىسى ياۋروپانى رۇسىيەنىڭ دېڭىزدىكى ئۇچقۇچىسىز ئايروپىلان (دىرون) ھۇجۇمىدىن ئاگاھلاندۇردى",
+      "en": "Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean"
+    },
+    "summary": {
+      "ug": "ئامېرىكا مەركىزىي ئاخبارات ئىدارىسى ياۋروپا دۆلەتلىرىنى رۇسىيەنىڭ ئوتتۇرا دېڭىزدىكى سودا پاراخوتلىرىدىن پايدىلىنىپ، پارتلاتقۇچ ئورنىتىلغان ئۇچقۇچىسىز ئايروپىلان (دىرون) ئارقىلىق ھۇجۇم قىلىش پىلانى بارلىقى توغرىسىدا جىددىي ئاگاھلاندۇردى. بۇ ...",
+      "en": "The CIA reportedly warned European nations of a suspected Russian plot to launch explosive drones from aboard commercial vessels in the Mediterranean."
+    },
+    "content": {
+      "ug": "ئامېرىكا مەركىزىي ئاخبارات ئىدارىسى ياۋروپا دۆلەتلىرىنى رۇسىيەنىڭ ئوتتۇرا دېڭىزدىكى سودا پاراخوتلىرىدىن پايدىلىنىپ، پارتلاتقۇچ ئورنىتىلغان ئۇچقۇچىسىز ئايروپىلان (دىرون) ئارقىلىق ھۇجۇم قىلىش پىلانى بارلىقى توغرىسىدا جىددىي ئاگاھلاندۇردى. بۇ خەۋەر رۇسىيەنىڭ دېڭىز قاتنىشى ۋە سودا پاراخوتلىرىنى ھەربىي مەقسەتتە ئىشلىتىش ئىستراتېگىيەسىنىڭ ياۋروپا خەۋپسىزلىكىگە بولغان تەھدىتىنى كۈچەيتكەنلىكىنى كۆرسىتىدۇ.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "The CIA reportedly warned European nations of a suspected Russian plot to launch explosive drones from aboard commercial vessels in the Mediterranean.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/5PIUG2BHDNC2NKMUML6K5OIJBM.jpg",
+    "author": "Defense News",
+    "date": "2026-09-27",
+    "status": "published",
+    "featured": true,
+    "views": 162,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "رۇسىيە"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/",
+      "sourceUrl": "https://www.defensenews.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1790532245120",
     "category": "analysis",
     "title": {

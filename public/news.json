@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790473816825_996",
+    "category": "weapons",
+    "title": {
+      "ug": "ئۇكرائىنانىڭ ئادەمسىز ئايروپىلان تېخنىكىسىنى تەرەققىي قىلدۇرۇش سۇپىسى ئەنگلىيە شىركەتلىرىگە ئېچىۋېتىلدى",
+      "en": "Ukraine’s deadly AI training platform for drone tech opens to UK companies"
+    },
+    "summary": {
+      "ug": "ئۇكرائىنا ئۆزىنىڭ ئۇرۇش مەيدانىدىكى سانلىق مەلۇماتلىرىنى ئەنگلىيە شىركەتلىرى بىلەن ئورتاقلىشىشنى قارار قىلدى. بۇ ھەمكارلىق 'Avengers AI Labs' سۇپىسى ئارقىلىق ئېلىپ بېرىلىدىغان بولۇپ، ئەنگلىيە شىركەتلىرىنىڭ سۈنئىي ئىدراك ئارقىلىق باشقۇرۇلىدى...",
+      "en": "Ukraine opens wartime battlefield data to Britain through Avengers AI Labs, giving British companies access to data for AI drone development."
+    },
+    "content": {
+      "ug": "ئۇكرائىنا ئۆزىنىڭ ئۇرۇش مەيدانىدىكى سانلىق مەلۇماتلىرىنى ئەنگلىيە شىركەتلىرى بىلەن ئورتاقلىشىشنى قارار قىلدى. بۇ ھەمكارلىق 'Avengers AI Labs' سۇپىسى ئارقىلىق ئېلىپ بېرىلىدىغان بولۇپ، ئەنگلىيە شىركەتلىرىنىڭ سۈنئىي ئىدراك ئارقىلىق باشقۇرۇلىدىغان ئۇچقۇچىسىز ئايروپىلان (دىرون) تېخنىكىسىنى تەرەققىي قىلدۇرۇشىغا شارائىت ھازىرلاپ بېرىدۇ. بۇ قەدەم ئۇكرائىنانىڭ ئۇرۇش مەيدانىدىكى ئەمەلىي تەجرىبىلىرىنى غەربنىڭ ئىلغار تېخنىكا ئىقتىدارى بىلەن بىرلەشتۈرۈشنى مەقسەت قىلىدۇ.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "Ukraine opens wartime battlefield data to Britain through Avengers AI Labs, giving British companies access to data for AI drone development.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/UVUT2Y7UUVBIJML47MKLS6DJFM.JPG",
+    "author": "Defense News",
+    "date": "2026-09-27",
+    "status": "published",
+    "featured": true,
+    "views": 81,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "سۈنئىي ئىدراك"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/unmanned/2026/09/25/ukraines-deadly-ai-training-platform-for-drone-tech-opens-to-uk-companies/",
+      "sourceUrl": "https://www.defensenews.com/unmanned/2026/09/25/ukraines-deadly-ai-training-platform-for-drone-tech-opens-to-uk-companies/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1790463327989",
     "category": "analysis",
     "title": {

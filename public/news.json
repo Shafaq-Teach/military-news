@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790528141078_275",
+    "category": "weapons",
+    "title": {
+      "ug": "تەھدىت ئاستىدىكى مۇھىتلاردا ھەربىي ئەشيا ئوبوروت تورىنى بەرپا قىلىش",
+      "en": "Building logistics networks that survive contested environments"
+    },
+    "summary": {
+      "ug": "بۇ خەۋەر زامانىۋى ئۇرۇش مەيدانىدىكى رىقابەت كۈچەيگەن شارائىتتا، يۇمشاق دېتال، سۈنئىي ئىدراك ۋە چىداملىق ئالاقە تورى ئارقىلىق ھەربىي ئەشيا ئوبوروت سىستېمىسىنى قانداق كۈچەيتىش توغرىسىدا توختىلىدۇ. خىتاي قاتارلىق دۆلەتلەرنىڭ ھەربىي تەھدىتلىرى ...",
+      "en": "Explore how software, edge AI and resilient connectivity can strengthen military logistics in contested environments. Join Breaking Defense on Oct. 21 and earn 1 CPE credit."
+    },
+    "content": {
+      "ug": "بۇ خەۋەر زامانىۋى ئۇرۇش مەيدانىدىكى رىقابەت كۈچەيگەن شارائىتتا، يۇمشاق دېتال، سۈنئىي ئىدراك ۋە چىداملىق ئالاقە تورى ئارقىلىق ھەربىي ئەشيا ئوبوروت سىستېمىسىنى قانداق كۈچەيتىش توغرىسىدا توختىلىدۇ. خىتاي قاتارلىق دۆلەتلەرنىڭ ھەربىي تەھدىتلىرى كۈچىيىۋاتقان بۈگۈنكى كۈندە، ئادەمسىز سىستېمىلار ۋە ئېلېكترونلۇق ئۇرۇش مۇھىتىدا ئەشيا ئوبوروتىنىڭ بىخەتەرلىكىنى ساقلاش ھەربىي ئىستراتېگىيەنىڭ مۇھىم نۇقتىسىغا ئايلاندى.\n\n---\n📌 **مەنبە:** Breaking Defense",
+      "en": "Explore how software, edge AI and resilient connectivity can strengthen military logistics in contested environments. Join Breaking Defense on Oct. 21 and earn 1 CPE credit.\n\n---\n**Source:** Breaking Defense"
+    },
+    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/2026_Wind_River_Webinar_Featured-Image-1024x576.png",
+    "author": "Breaking Defense",
+    "date": "2026-09-27",
+    "status": "published",
+    "featured": true,
+    "views": 72,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئەشيا ئوبوروتى",
+      "سۈنئىي ئىدراك"
+    ],
+    "specs": {
+      "مەنبە": "Breaking Defense",
+      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/09/building-logistics-networks-that-survive-contested-environments/",
+      "sourceUrl": "https://breakingdefense.com/2026/09/building-logistics-networks-that-survive-contested-environments/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790528132891_920",
     "category": "weapons",
     "title": {

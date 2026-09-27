@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790526855095_935",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيە بازىسىنى نىشان قىلغان تېررورلۇق گۇماندارلىرى قولغا ئېلىندى",
+      "en": "Terror suspects wanted to do ‘big damage’ to air base used by US, Trump says"
+    },
+    "summary": {
+      "ug": "ئەنگلىيە ساقچىلىرى ئامېرىكا ھاۋا ئارمىيە خادىملىرى جايلاشقان ھاۋا ئارمىيە بازىسى ئەتراپىدا پارتلاتقۇچ ماددا ئىشلىتىش ۋە تېررورلۇق قىلمىشى بىلەن گۇمان قىلىنغان بەش كىشىنى قولغا ئالدى. سابىق پرېزىدېنت ترامپ بۇ گۇماندارلارنىڭ ھاۋا بازىسىغا زور...",
+      "en": "British police on Sunday arrested five men on suspicion of explosive and terrorism offenses near an air base that hosts U.S. Air Force personnel."
+    },
+    "content": {
+      "ug": "ئەنگلىيە ساقچىلىرى ئامېرىكا ھاۋا ئارمىيە خادىملىرى جايلاشقان ھاۋا ئارمىيە بازىسى ئەتراپىدا پارتلاتقۇچ ماددا ئىشلىتىش ۋە تېررورلۇق قىلمىشى بىلەن گۇمان قىلىنغان بەش كىشىنى قولغا ئالدى. سابىق پرېزىدېنت ترامپ بۇ گۇماندارلارنىڭ ھاۋا بازىسىغا زور زىيان يەتكۈزمەكچى بولغانلىقىنى بىلدۈردى.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "British police on Sunday arrested five men on suspicion of explosive and terrorism offenses near an air base that hosts U.S. Air Force personnel.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/AKMBHJ4NGZGDBJWPEPEJPWVHIE.JPG",
+    "author": "Defense News",
+    "date": "2026-09-27",
+    "status": "published",
+    "featured": true,
+    "views": 57,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "ئەنگلىيە",
+      "تېررورىزىم"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/news/your-military/2026/09/27/terror-suspects-wanted-to-do-big-damage-to-air-base-used-by-us-trump-says/",
+      "sourceUrl": "https://www.defensenews.com/news/your-military/2026/09/27/terror-suspects-wanted-to-do-big-damage-to-air-base-used-by-us-trump-says/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790526844118_225",
     "category": "weapons",
     "title": {

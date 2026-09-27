@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790473823182_667",
+    "category": "weapons",
+    "title": {
+      "ug": "ترامپ ھۆكۈمىتى ئۇكرائىناغا 307 مىليون دوللارلىق ھەربىي ياردەم بېرىشنى قارار قىلدى",
+      "en": "Trump administration obligates $307M for military aid to Ukraine"
+    },
+    "summary": {
+      "ug": "ترامپ ھۆكۈمىتى ئامېرىكا پارلامېنتى تەرىپىدىن تەستىقلانغان 400 مىليون دوللارلىق ھەربىي ياردەم مەبلىغىنىڭ كۆپ قىسمىنى ئۇكرائىناغا يەتكۈزۈش ئۈچۈن قانۇنىي مەجبۇرىيەت ئاستىغا ئالدى. بۇ قارار خىتاي قاتارلىق دۆلەتلەرنىڭ رايون ۋەزىيىتىگە بولغان تەس...",
+      "en": "The Trump administration has made legally binding commitments to spend almost all of the $400 million Congress approved for military aid to Ukraine."
+    },
+    "content": {
+      "ug": "ترامپ ھۆكۈمىتى ئامېرىكا پارلامېنتى تەرىپىدىن تەستىقلانغان 400 مىليون دوللارلىق ھەربىي ياردەم مەبلىغىنىڭ كۆپ قىسمىنى ئۇكرائىناغا يەتكۈزۈش ئۈچۈن قانۇنىي مەجبۇرىيەت ئاستىغا ئالدى. بۇ قارار خىتاي قاتارلىق دۆلەتلەرنىڭ رايون ۋەزىيىتىگە بولغان تەسىرى كۈچىيىۋاتقان بىر پەيتتە، ئۇكرائىنانىڭ مۇداپىئە ئىقتىدارىنى كۈچەيتىشنى مەقسەت قىلىدۇ.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "The Trump administration has made legally binding commitments to spend almost all of the $400 million Congress approved for military aid to Ukraine.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/6OHP4RMOTJGBDJWVWP4HUIWN6U.JPG",
+    "author": "Defense News",
+    "date": "2026-09-27",
+    "status": "published",
+    "featured": true,
+    "views": 73,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "ئامېرىكا",
+      "ئۇكرائىنا"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/global/europe/2026/09/25/trump-administration-obligates-307m-for-military-aid-to-ukraine/",
+      "sourceUrl": "https://www.defensenews.com/global/europe/2026/09/25/trump-administration-obligates-307m-for-military-aid-to-ukraine/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790473816825_996",
     "category": "weapons",
     "title": {

@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790484628036_344",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا دېڭىز ئارمىيەسى ئادەمسىز سىستېمىلارنى جەڭگە تەييارلاش مەركىزى قۇردى",
+      "en": "US Navy stands up hub to prepare unmanned systems for combat"
+    },
+    "summary": {
+      "ug": "ئامېرىكا دېڭىز ئارمىيەسىنىڭ باش قوماندانى دارىل كاۋدل يېڭى بىر ئاپتونوم تەرەققىيات مەركىزىنىڭ قۇرۇلغانلىقىنى ئېلان قىلدى. بۇ مەركەز دېڭىز ئارمىيەسى خادىملىرىنى مەشىقلەندۈرۈش ۋە يېڭى ئادەمسىز سىستېمىلارنى سىناق قىلىش ئارقىلىق، خىتاي قاتارلىق...",
+      "en": "U.S. Chief of Naval Operations Adm. Daryl Caudle announced a new autonomous development center to train sailors and test new technology."
+    },
+    "content": {
+      "ug": "ئامېرىكا دېڭىز ئارمىيەسىنىڭ باش قوماندانى دارىل كاۋدل يېڭى بىر ئاپتونوم تەرەققىيات مەركىزىنىڭ قۇرۇلغانلىقىنى ئېلان قىلدى. بۇ مەركەز دېڭىز ئارمىيەسى خادىملىرىنى مەشىقلەندۈرۈش ۋە يېڭى ئادەمسىز سىستېمىلارنى سىناق قىلىش ئارقىلىق، خىتاي قاتارلىق رىقابەتچى دۆلەتلەرنىڭ دېڭىز تەۋەلىكىدىكى تەھدىتلىرىگە تاقابىل تۇرۇش ئىقتىدارىنى ئاشۇرۇشنى مەقسەت قىلىدۇ.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "U.S. Chief of Naval Operations Adm. Daryl Caudle announced a new autonomous development center to train sailors and test new technology.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/PNEAP2E7RNEX5DRMKKILVXNYFU.jpg",
+    "author": "Defense News",
+    "date": "2026-09-27",
+    "status": "published",
+    "featured": true,
+    "views": 48,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئادەمسىز سىستېما"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/industry/techwatch/2026/09/25/us-navy-stands-up-hub-to-prepare-unmanned-systems-for-combat/",
+      "sourceUrl": "https://www.defensenews.com/industry/techwatch/2026/09/25/us-navy-stands-up-hub-to-prepare-unmanned-systems-for-combat/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790484617805_828",
     "category": "weapons",
     "title": {

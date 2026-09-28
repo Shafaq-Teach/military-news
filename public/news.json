@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790571924559_36",
+    "category": "weapons",
+    "title": {
+      "ug": "خىتاي ئالەم قاتنىشى تەتقىقات ئورنىنىڭ كەلگۈسى توغرىسىدىكى تالاش-تارتىشلار",
+      "en": "Air Force, civilian staff dispute status of China Aerospace Studies Institute"
+    },
+    "summary": {
+      "ug": "خىتاي ئالەم قاتنىشى تەتقىقات ئورنىنىڭ (CASI) ئورنى ۋە كەلگۈسى ھەققىدە ئامېرىكا ھاۋا ئارمىيەسى بىلەن مەزكۇر ئورگاننىڭ خادىملىرى ئوتتۇرىسىدا ئىختىلاپ كېلىپ چىقتى. تەتقىقات ئورنىنىڭ مۇدىرى بۇ ئۆزگىرىشلەرنىڭ ئورگاننىڭ پائالىيىتىنى ئەمەلىي جەھەت...",
+      "en": "CASI's director said the move will effectively end the institute, even as the service says CASI’s mission will continue."
+    },
+    "content": {
+      "ug": "خىتاي ئالەم قاتنىشى تەتقىقات ئورنىنىڭ (CASI) ئورنى ۋە كەلگۈسى ھەققىدە ئامېرىكا ھاۋا ئارمىيەسى بىلەن مەزكۇر ئورگاننىڭ خادىملىرى ئوتتۇرىسىدا ئىختىلاپ كېلىپ چىقتى. تەتقىقات ئورنىنىڭ مۇدىرى بۇ ئۆزگىرىشلەرنىڭ ئورگاننىڭ پائالىيىتىنى ئەمەلىي جەھەتتىن ئاخىرلاشتۇرىدىغانلىقىنى ئاگاھلاندۇرغان بولسا، ھاۋا ئارمىيەسى تەرەپ بۇ ئورگاننىڭ ۋەزىپىسىنىڭ داۋاملىشىدىغانلىقىنى بىلدۈردى. بۇ ۋەزىيەت خىتاينىڭ ھەربىي ئىستراتېگىيەسى ۋە ئالەم قاتنىشى تېخنىكىسىنى تەتقىق قىلىدىغان ئورگانلارنىڭ باشقۇرۇلۇشىدىكى ئېنىقسىزلىقلارنى ئوتتۇرىغا چىقاردى.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "CASI's director said the move will effectively end the institute, even as the service says CASI’s mission will continue.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/GEPBHMFVNRHTPHC3GZASWAUKPE.jpg",
+    "author": "Defense News",
+    "date": "2026-09-28",
+    "status": "published",
+    "featured": true,
+    "views": 46,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "خىتاي"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/air/2026/09/23/air-force-civilian-staff-dispute-status-of-china-aerospace-studies-institute/",
+      "sourceUrl": "https://www.defensenews.com/air/2026/09/23/air-force-civilian-staff-dispute-status-of-china-aerospace-studies-institute/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1790569530338",
     "category": "analysis",
     "title": {

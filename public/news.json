@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790550323679_692",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا ئارمىيەسى ئوق-دورا باشقۇرۇش سىستېمىسىنى زامانىۋىلاشتۇرۇش ئۈچۈن پالانتىر شىركىتى بىلەن توختام ئىمزالىدى",
+      "en": "Army awards Palantir $48.1M to modernize ammo management"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ئارمىيەسى ئوق-دورا باشقۇرۇش سىستېمىسىنى رەقەملەشتۈرۈش ۋە زامانىۋىلاشتۇرۇش مەقسىتىدە، سۈنئىي ئىدراك تېخنىكىسى بىلەن شۇغۇللىنىدىغان پالانتىر شىركىتىگە 48 مىليون 100 مىڭ دوللارلىق توختام بەردى. بۇ يۇمشاق دېتال سىستېمىسى ئارمىيەنىڭ نىش...",
+      "en": "The tech company has built AI software designed to process data for targeting and decision-making, and now, managing ammo."
+    },
+    "content": {
+      "ug": "ئامېرىكا ئارمىيەسى ئوق-دورا باشقۇرۇش سىستېمىسىنى رەقەملەشتۈرۈش ۋە زامانىۋىلاشتۇرۇش مەقسىتىدە، سۈنئىي ئىدراك تېخنىكىسى بىلەن شۇغۇللىنىدىغان پالانتىر شىركىتىگە 48 مىليون 100 مىڭ دوللارلىق توختام بەردى. بۇ يۇمشاق دېتال سىستېمىسى ئارمىيەنىڭ نىشانغا ئېلىش ۋە قارار چىقىرىش جەريانىدىكى سانلىق مەلۇماتلارنى بىر تەرەپ قىلىش ئىقتىدارىنى ئۆستۈرۈش بىلەن بىرگە، ئوق-دورا زاپاسلىرىنى باشقۇرۇش ۋە ئەشيا ئوبوروتىنى ئەلالاشتۇرۇشقا ئىشلىتىلىدۇ. بۇ قەدەم خىتاي قاتارلىق رىقابەتچى دۆلەتلەرنىڭ ھەربىي تېخنىكا تەرەققىياتىغا تاقابىل تۇرۇش ئۈچۈن ئامېرىكا ئارمىيەسىنىڭ ئېلېكترونلۇق ئۇرۇش ۋە سانلىق مەلۇمات ئانالىزى ساھەسىدىكى ئىستراتېگىيەلىك تەييارلىقىنىڭ بىر قىسمى ھېسابلىنىدۇ.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "The tech company has built AI software designed to process data for targeting and decision-making, and now, managing ammo.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/2XXBC67GD5AM7OHRHJM3LHFWZ4.jpg",
+    "author": "Defense News",
+    "date": "2026-09-27",
+    "status": "published",
+    "featured": true,
+    "views": 55,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئامېرىكا",
+      "سۈنئىي_ئىدراك"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/news/your-army/2026/09/24/army-awards-palantir-481m-to-modernize-ammo-management/",
+      "sourceUrl": "https://www.defensenews.com/news/your-army/2026/09/24/army-awards-palantir-481m-to-modernize-ammo-management/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1790544319433",
     "category": "analysis",
     "title": {

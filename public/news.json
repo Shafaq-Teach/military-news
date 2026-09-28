@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790550330959_301",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا ئادمىرالى: زامانىۋى ئۇرۇشتا «كېبېر ئامبىرى» تېزلا تۈگەپ كېتىشى مۇمكىن",
+      "en": "&#8216;Cyber magazine&#8217; can run out &#8216;pretty damn quick&#8217; in modern conflict: Admiral"
+    },
+    "summary": {
+      "ug": "ئامېرىكا دېڭىز ئارمىيەسىنىڭ يۇقىرى دەرىجىلىك ئەمەلدارى زامانىۋى ئۇرۇش مەيدانىدا ئەنئەنىۋى ئوق-دورا زاپىسى بىلەن بىرگە، ئېلېكترونلۇق ئۇرۇش ۋە تور ھۇجۇمى قوراللىرىنى ئۆز ئىچىگە ئالغان «كېبېر ئامبىرى»نىڭمۇ چەكلىك ئىكەنلىكىنى ۋە ئۇنىڭ تېز سۈرئە...",
+      "en": "In the wake of public debates about the health of physical US munitions, a senior Navy official said the &#8220;cyber magazine&#8221; isn&#8217;t infinite either."
+    },
+    "content": {
+      "ug": "ئامېرىكا دېڭىز ئارمىيەسىنىڭ يۇقىرى دەرىجىلىك ئەمەلدارى زامانىۋى ئۇرۇش مەيدانىدا ئەنئەنىۋى ئوق-دورا زاپىسى بىلەن بىرگە، ئېلېكترونلۇق ئۇرۇش ۋە تور ھۇجۇمى قوراللىرىنى ئۆز ئىچىگە ئالغان «كېبېر ئامبىرى»نىڭمۇ چەكلىك ئىكەنلىكىنى ۋە ئۇنىڭ تېز سۈرئەتتە تۈگەپ كېتىش ئېھتىماللىقى بارلىقىنى ئاگاھلاندۇردى. بۇ بايانات خىتاي قاتارلىق رەقىبلەر بىلەن بولۇشى مۇمكىن بولغان يوشۇرۇن توقۇنۇشلاردا ئېلېكترونلۇق ئۇرۇش ئىقتىدارىنىڭ مۇھىملىقىنى ۋە ئۇنىڭ سىجىللىقىنى ساقلاشنىڭ قىيىنلىقىنى كۆرسىتىپ بېرىدۇ.\n\n---\n📌 **مەنبە:** Breaking Defense",
+      "en": "In the wake of public debates about the health of physical US munitions, a senior Navy official said the &#8220;cyber magazine&#8221; isn&#8217;t infinite either.\n\n---\n**Source:** Breaking Defense"
+    },
+    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/6762559-scaled-e1782151740819-1024x577.jpg",
+    "author": "Breaking Defense",
+    "date": "2026-09-27",
+    "status": "published",
+    "featured": true,
+    "views": 100,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "ئېلېكترونلۇق_ئۇرۇش",
+      "ئامېرىكا",
+      "خىتاي"
+    ],
+    "specs": {
+      "مەنبە": "Breaking Defense",
+      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/09/cyber-magazine-can-run-out-pretty-damn-quick-in-modern-conflict-admiral/",
+      "sourceUrl": "https://breakingdefense.com/2026/09/cyber-magazine-can-run-out-pretty-damn-quick-in-modern-conflict-admiral/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790550323679_692",
     "category": "weapons",
     "title": {

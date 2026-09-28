@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790583032740_323",
+    "category": "weapons",
+    "title": {
+      "ug": "گىرېنلاندىيە ئامېرىكا بىلەن تۈزۈلگەن يېڭى ھەربىي كېلىشىمنى قارشى ئالدى، ئەمما ئىشەنچ مەسىلىسى داۋاملاشماقتا",
+      "en": "Greenland welcomes US military pact but trust still shaky"
+    },
+    "summary": {
+      "ug": "گىرېنلاندىيە ھۆكۈمىتى ۋە ئاھالىلىرى ئامېرىكا ۋە ئەنگلىيەنىڭ ئىتتىپاقدىشى دانىيە بىلەن تۈزۈلگەن يېڭى ھەربىي كېلىشىمگە قارىتا ئۆزلىرىنىڭ مەيدانىنى بىلدۈردى. گەرچە بۇ كېلىشىم رايوننىڭ بىخەتەرلىكى ئۈچۈن مۇھىم قەدەم دەپ قارالسىمۇ، يەرلىك خەلق ئا...",
+      "en": "Greenland’s government and residents expressed relief about a new military pact with the United States and Denmark."
+    },
+    "content": {
+      "ug": "گىرېنلاندىيە ھۆكۈمىتى ۋە ئاھالىلىرى ئامېرىكا ۋە ئەنگلىيەنىڭ ئىتتىپاقدىشى دانىيە بىلەن تۈزۈلگەن يېڭى ھەربىي كېلىشىمگە قارىتا ئۆزلىرىنىڭ مەيدانىنى بىلدۈردى. گەرچە بۇ كېلىشىم رايوننىڭ بىخەتەرلىكى ئۈچۈن مۇھىم قەدەم دەپ قارالسىمۇ، يەرلىك خەلق ئارىسىدا خىتاي قاتارلىق دۆلەتلەرنىڭ ئاركتىك رايونىدىكى تەسىرى ۋە كەلگۈسىدىكى ئىشەنچ مەسىلىلىرى ھەققىدە ئەندىشىلەر ساقلىنىپ قالماقتا.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "Greenland’s government and residents expressed relief about a new military pact with the United States and Denmark.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/GYZLJVNO45DRDFMIXRN7O5NOOM.JPG",
+    "author": "Defense News",
+    "date": "2026-09-28",
+    "status": "published",
+    "featured": true,
+    "views": 110,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "گېئوپولىتىكا",
+      "ئامېرىكا",
+      "خىتاي"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/global/europe/2026/09/23/greenland-welcomes-us-military-pact-but-trust-still-shaky/",
+      "sourceUrl": "https://www.defensenews.com/global/europe/2026/09/23/greenland-welcomes-us-military-pact-but-trust-still-shaky/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1790582715621",
     "category": "analysis",
     "title": {

@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790627158637_356",
+    "category": "weapons",
+    "title": {
+      "ug": "سەپنىڭ ئالدىنقى سېپىدىكى يارىدارلارنى تارقىتىش: ئۇكرائينانىڭ MAUL ئادەمسىز قۇرۇقلۇق ئاپتوموبىلى",
+      "en": "CASEVAC on the frontline: Ukraine’s MAUL UGV"
+    },
+    "summary": {
+      "ug": "ئۇكرائينادىكى زامانىۋى يارىدارلارنى تارقىتىش ۋە قۇتقۇزۇش ھەرىكەتلىرى يېڭى تىپتىكى جەنگ مەيدانى ئۆلۈم-ئىچىملىرى، بولۇپمۇ ئۇچقۇچىسىز ئايروپىلانلارنىڭ (دىرون) كۆپ مىقداردا ئىشلىتىلىشى سەۋەبىدىن ئېغىر توسالغۇلارغا ئۇچرىماقتا.",
+      "en": "Modern CASEVAC operations in Ukraine are hampered by new types of battlefield lethality, particularly massed use of drones."
+    },
+    "content": {
+      "ug": "ئۇكرائينادىكى زامانىۋى يارىدارلارنى تارقىتىش ۋە قۇتقۇزۇش ھەرىكەتلىرى يېڭى تىپتىكى جەنگ مەيدانى ئۆلۈم-ئىچىملىرى، بولۇپمۇ ئۇچقۇچىسىز ئايروپىلانلارنىڭ (دىرون) كۆپ مىقداردا ئىشلىتىلىشى سەۋەبىدىن ئېغىر توسالغۇلارغا ئۇچرىماقتا.\n\n---\n📌 **مەنبە:** Army Technology",
+      "en": "Modern CASEVAC operations in Ukraine are hampered by new types of battlefield lethality, particularly massed use of drones.\n\n---\n**Source:** Army Technology"
+    },
+    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/09/MAUL-UGV-lead.jpg",
+    "author": "Army Technology",
+    "date": "2026-09-28",
+    "status": "published",
+    "featured": true,
+    "views": 128,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئۇكرائینا",
+      "ئادەمسىز ئاپتوموبىل"
+    ],
+    "specs": {
+      "مەنبە": "Army Technology",
+      "ئەسلى ئۇلانما": "https://www.army-technology.com/features/casevac-on-the-frontline-ukraines-maul-ugv/",
+      "sourceUrl": "https://www.army-technology.com/features/casevac-on-the-frontline-ukraines-maul-ugv/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790618370816_24",
     "category": "weapons",
     "title": {

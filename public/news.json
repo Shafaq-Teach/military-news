@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790561125283_493",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا دېڭىز ئارمىيەسى ئاۋىئاماتكىلاردا ئېلېكترومگنىتلىق كاتاپولت سىستېمىسىنى داۋاملىق ئىشلىتىشنى قارار قىلدى",
+      "en": "Steam catapults? US Navy appears to be sticking with electromagnetics on carriers"
+    },
+    "summary": {
+      "ug": "ئامېرىكا دېڭىز ئارمىيەسى ئاۋغۇست ئېيىدىكى يېڭى ئاۋىئاماتكىلاردا پارلىق كاتاپولت سىستېمىسىغا قايتىش توغرىسىدىكى كۆرسەتمىگە قارىماي، ئۆزىنىڭ ئىلغار ئېلېكترومگنىتلىق كاتاپولت سىستېمىسىنى داۋاملىق ئىشلىتىدىغانلىقىنى بىلدۈردى. بۇ قارار خىتاي قات...",
+      "en": "Despite an August order for the U.S. Navy to return to steam catapults on its newest carriers, the service appears to be sticking with electromagnetics."
+    },
+    "content": {
+      "ug": "ئامېرىكا دېڭىز ئارمىيەسى ئاۋغۇست ئېيىدىكى يېڭى ئاۋىئاماتكىلاردا پارلىق كاتاپولت سىستېمىسىغا قايتىش توغرىسىدىكى كۆرسەتمىگە قارىماي، ئۆزىنىڭ ئىلغار ئېلېكترومگنىتلىق كاتاپولت سىستېمىسىنى داۋاملىق ئىشلىتىدىغانلىقىنى بىلدۈردى. بۇ قارار خىتاي قاتارلىق دۆلەتلەرنىڭ دېڭىز ئارمىيەسى كۈچىنى كېڭەيتىۋاتقان بىر پەيتتە، ئامېرىكىنىڭ ئاۋىئاماتكا تېخنىكىسىدىكى زامانىۋىلاشتۇرۇش قەدىمىنى ساقلاپ قالىدىغانلىقىدىن دېرەك بېرىدۇ.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "Despite an August order for the U.S. Navy to return to steam catapults on its newest carriers, the service appears to be sticking with electromagnetics.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/DHO3FU7UNNA6ZNLZ7FZJGSADXI.jpg",
+    "author": "Defense News",
+    "date": "2026-09-28",
+    "status": "published",
+    "featured": true,
+    "views": 37,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئامېرىكا",
+      "ئاۋىئاماتكا"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/industry/techwatch/2026/09/23/steam-catapults-us-navy-appears-to-be-sticking-with-electromagnetics-on-carriers/",
+      "sourceUrl": "https://www.defensenews.com/industry/techwatch/2026/09/23/steam-catapults-us-navy-appears-to-be-sticking-with-electromagnetics-on-carriers/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790550330959_301",
     "category": "weapons",
     "title": {

@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790618370816_24",
+    "category": "weapons",
+    "title": {
+      "ug": "پولشا مۇداپىئە ئەمەلدارى ئامېرىكىنىڭ پولشادا ھەربىي ئاساسىي ئۆستۈرمە قۇرۇشنى قارار قىلغانلىقىنى بىلدۈردى",
+      "en": "Polish defense official says US has decided to establish a base in Poland"
+    },
+    "summary": {
+      "ug": "پولشانىڭ يۇقىرى دەرىجىلىك مۇداپىئە ئەمەلدارىنىڭ بىلدۈرۈشىچە، ئامېرىكا ھۆكۈمىتى پولشا زېمىنىدا مەڭگۈلۈك ھەربىي ئاساسىي ئۆستۈرمە قۇرۇشنى قارار قىلغان. بىراق، ئامېرىكا پەنتاگونى ۋارشافانىڭ ئۇزۇن يىللىق بۇ نىشانى توغرىسىدىكى قارارنى ھازىرچە دەل...",
+      "en": "But the Pentagon declined to confirm a decision about Warsaw's longtime goal."
+    },
+    "content": {
+      "ug": "پولشانىڭ يۇقىرى دەرىجىلىك مۇداپىئە ئەمەلدارىنىڭ بىلدۈرۈشىچە، ئامېرىكا ھۆكۈمىتى پولشا زېمىنىدا مەڭگۈلۈك ھەربىي ئاساسىي ئۆستۈرمە قۇرۇشنى قارار قىلغان. بىراق، ئامېرىكا پەنتاگونى ۋارشافانىڭ ئۇزۇن يىللىق بۇ نىشانى توغرىسىدىكى قارارنى ھازىرچە دەلىللەشتىن ئۆزىنى قاچۇردى.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "But the Pentagon declined to confirm a decision about Warsaw's longtime goal.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/09/25/9881423/large.jpg",
+    "author": "Defense One",
+    "date": "2026-09-28",
+    "status": "published",
+    "featured": true,
+    "views": 149,
+    "tags": [
+      "پولشا",
+      "ئامېرىكا",
+      "پەنتاگون",
+      "ھەربىي ئاساسىي ئۆستۈرمە",
+      "مۇداپىئە"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/policy/2026/09/poland-get-us-base-polish-defense-official-says/416257/",
+      "sourceUrl": "https://www.defenseone.com/policy/2026/09/poland-get-us-base-polish-defense-official-says/416257/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790618305800_977",
     "category": "weapons",
     "title": {

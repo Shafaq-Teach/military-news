@@ -1,5 +1,46 @@
 [
   {
+    "id": "wpn_1790578854589",
+    "category": "database",
+    "title": {
+      "ug": "FN Five-seveN يېرىم ئاپتوماتىك تاپانچىسى - قورال تەپسىلاتى",
+      "en": "FN Five-seveN Technical Dossier"
+    },
+    "summary": {
+      "ug": "FN Five-seveN يېرىم ئاپتوماتىك تاپانچىسى: بېلگىيە ئىشلەپچىقارغان تاپانچا (Pistol). ئوق ئۆلچىمى: 5.7×28 مىللىمېتىر، ئۈنۈملۈك ئارىلىقى: 100 مېتىر.",
+      "en": "Technical specifications for FN Five-seveN"
+    },
+    "content": {
+      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nFN Five-seveN يېرىم ئاپتوماتىك تاپانچىسى ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** FN Five-seveN يېرىم ئاپتوماتىك تاپانچىسى\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** بېلگىيە\n- ⚙️ **قورال تىپى:** تاپانچا (Pistol)\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 5.7×28 مىللىمېتىر\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: 610 گرام (ئوقسىز)، ئۇزۇنلۇقى: 208 مىللىمېتىر\n- 🎯 **ئوقدان سىغىمى:** 20 ئوق\n- ⚡ **ئوق ئېتىش سۈرئىتى:** يېرىم ئاپتوماتىك\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** 100 مېتىر\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** Five-seveN IOM, Five-seveN USG, Five-seveN Mk2\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "en": "Comprehensive technical dossier for FN Five-seveN"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/FN57mag01.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+    "date": "2026-09-28",
+    "status": "published",
+    "featured": true,
+    "views": 91,
+    "tags": [
+      "مەلۇمات_ئامبىرى",
+      "قورال",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
+      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
+      "قورال ئىسمى": "FN Five-seveN يېرىم ئاپتوماتىك تاپانچىسى",
+      "ئىشلەپچىقارغان دۆلەت": "بېلگىيە",
+      "قورال تىپى": "تاپانچا (Pistol)",
+      "ئوق ئۆلچىمى": "5.7×28 مىللىمېتىر",
+      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: 610 گرام (ئوقسىز)، ئۇزۇنلۇقى: 208 مىللىمېتىر",
+      "ئوقدان سىغىمى": "20 ئوق",
+      "ئوق ئېتىش سۈرئىتى": "يېرىم ئاپتوماتىك",
+      "ئۈنۈملۈك ئارىلىقى": "100 مېتىر",
+      "ئاساسلىق ۋارىيانتلىرى": "Five-seveN IOM, Five-seveN USG, Five-seveN Mk2"
+    }
+  },
+  {
     "id": "pol_1790577918542",
     "category": "analysis",
     "title": {

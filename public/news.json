@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790670930465_148",
+    "category": "weapons",
+    "title": {
+      "ug": "ساب شىركىتى კანادا بىلەن GlobalEye ئاۋازدىن ئىلگىرىكى ئايروپىلان كېلىشىمى ئۈچۈن مەشرۇئە ئىمزالىدى",
+      "en": "Saab signs non-binding term sheet for possible Canadian GlobalEye deal"
+    },
+    "summary": {
+      "ug": "ساب კანادانىڭ مۇداپىئە مەبلەغ سېلىش ئاگېنتلىقى კანادا خان جەمەتى ھاۋا ئارمىيەسى ئۈچۈن يوشۇرۇن GlobalEye ھاۋادىن ئاگاھلاندۇرۇش ۋە تىزگىنلەش سىستېمىسىنى سېتىۋېلىش سۆھبەتلىرىنى ئۆز ئىچىگە ئالغان بىر قەدەر مۇھىم بولمىغان شەرتلەر جەدۋىلىگە ئىمزا قويدى.",
+      "en": "Saab Canada’s Defence Investment Agency (DIA) have signed a non-binding term sheet covering detailed negotiations over a possible GlobalEye airborne early warning and control (AEW&C) acquisition for the Royal Canadian Air Force (RCAF)."
+    },
+    "content": {
+      "ug": "ساب კანادانىڭ مۇداپىئە مەبلەغ سېلىش ئاگېنتلىقى კანادا خان جەمەتى ھاۋا ئارمىيەسى ئۈچۈن يوشۇرۇن GlobalEye ھاۋادىن ئاگاھلاندۇرۇش ۋە تىزگىنلەش سىستېمىسىنى سېتىۋېلىش سۆھبەتلىرىنى ئۆز ئىچىگە ئالغان بىر قەدەر مۇھىم بولمىغان شەرتلەر جەدۋىلىگە ئىمزا قويدى.\n\n---\n📌 **مەنبە:** Air Force Technology",
+      "en": "Saab Canada’s Defence Investment Agency (DIA) have signed a non-binding term sheet covering detailed negotiations over a possible GlobalEye airborne early warning and control (AEW&C) acquisition for the Royal Canadian Air Force (RCAF).\n\n---\n**Source:** Air Force Technology"
+    },
+    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/09/Canada-GlobalEye.jpg",
+    "author": "Air Force Technology",
+    "date": "2026-09-29",
+    "status": "published",
+    "featured": true,
+    "views": 56,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "ئاۋازدىن_تېز",
+      "ھاۋا_مۇداپىئە_سىستېمىسى"
+    ],
+    "specs": {
+      "مەنبە": "Air Force Technology",
+      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/saab-canada-globaleye-deal/",
+      "sourceUrl": "https://www.airforce-technology.com/news/saab-canada-globaleye-deal/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "wpn_1790665232894",
     "category": "database",
     "title": {

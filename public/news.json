@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790703925242_282",
+    "category": "naval",
+    "title": {
+      "ug": "قاسكاس ئۇرۇشتىن كېيىن، دېڭىز ئارمىيەسىنىڭ ۋەيران قىلغۇچ پاراخوتى بازىسىغا قايتىپ كەلدى",
+      "en": "After 40 days of combat, Navy destroyer returns home"
+    },
+    "summary": {
+      "ug": "ئون ئاي داۋاملاشقان ۋەزىپە ئۆتەش جەريانىدا، ئامېرىكا دېڭىز ئارمىيەسىگە قاراشلىق «فرانك پېتېرسون كىچىك» ناملىق ۋەيران قىلغۇچ پاراخوتى ئيران تەرىپدىن ئېتىلغان نۇرغۇنلىغان باشقۇرۇلىدىغان بومبا ھۇجۇملىرى ۋە ئۇچقۇچىسىز ئايروپىلان (دىرون) لىرىغا ...",
+      "en": "During its 10-month deployment, USS Frank Petersen Jr. warded off scores of Iranian missiles and drones."
+    },
+    "content": {
+      "ug": "ئون ئاي داۋاملاشقان ۋەزىپە ئۆتەش جەريانىدا، ئامېرىكا دېڭىز ئارمىيەسىگە قاراشلىق «فرانك پېتېرسون كىچىك» ناملىق ۋەيران قىلغۇچ پاراخوتى ئيران تەرىپدىن ئېتىلغان نۇرغۇنلىغان باشقۇرۇلىدىغان بومبا ھۇجۇملىرى ۋە ئۇچقۇچىسىز ئايروپىلان (دىرون) لىرىغا تاقابىل تۇرۇپ، مۇداپىئە ۋەزىپىسىنى مۇۋەپپەقىيەتلىك تاماملىدى.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "During its 10-month deployment, USS Frank Petersen Jr. warded off scores of Iranian missiles and drones.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/09/29/IMG_1364/large.mpo",
+    "author": "Defense One",
+    "date": "2026-09-29",
+    "status": "published",
+    "featured": true,
+    "views": 37,
+    "tags": [
+      "ھەربىي",
+      "دېڭىز فلوتى",
+      "ئامېرىكا",
+      "مۇداپىئە"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/09/after-40-days-combat-navy-destroyer-returns-home/416311/",
+      "sourceUrl": "https://www.defenseone.com/threats/2026/09/after-40-days-combat-navy-destroyer-returns-home/416311/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790703930101_612",
     "category": "weapons",
     "title": {

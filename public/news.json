@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790649027029_893",
+    "category": "weapons",
+    "title": {
+      "ug": "روسىيە 2027-يىللىق ھەربىي چىقىمىنى %27 ئاشۇرۇشنى پىلانلىدى",
+      "en": "Russia raises 2027 military spending by 27%, budget documents show"
+    },
+    "summary": {
+      "ug": "يېڭى ئېلان قىلىنغان خامچوت ھۆججەتلىرىگە ئاساسلانغاندا، روسىيە 2027-يىلى مۇداپىئە ساھەسىگە 17 تىرىليون 100 مىليارد رۇبلى ياكى 202 مىليارد ئامېرىكا دوللىرى مەبلەغ ئاجرىتىشنى پىلانلىغان بولۇپ، بۇ ئۆتكەنكىگە سېلىشتۇرغاندا %27 لىك كۆرۈنەرلىك ئېش...",
+      "en": "Russia plans to spend 17.1 trillion roubles, or $202 billion, on defense in 2027, a 27% increase."
+    },
+    "content": {
+      "ug": "يېڭى ئېلان قىلىنغان خامچوت ھۆججەتلىرىگە ئاساسلانغاندا، روسىيە 2027-يىلى مۇداپىئە ساھەسىگە 17 تىرىليون 100 مىليارد رۇبلى ياكى 202 مىليارد ئامېرىكا دوللىرى مەبلەغ ئاجرىتىشنى پىلانلىغان بولۇپ، بۇ ئۆتكەنكىگە سېلىشتۇرغاندا %27 لىك كۆرۈنەرلىك ئېشىشنى كۆرسىتىدۇ.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "Russia plans to spend 17.1 trillion roubles, or $202 billion, on defense in 2027, a 27% increase.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/C6W2GYEKSVCT3HW7HH2XI5E6HE.JPG",
+    "author": "Defense News",
+    "date": "2026-09-29",
+    "status": "published",
+    "featured": true,
+    "views": 165,
+    "tags": [
+      "روسىيە",
+      "ھەربىي خامچوت",
+      "مۇداپىئە",
+      "ئەسكىرىي"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/global/europe/2026/09/28/russia-raises-2027-military-spending-by-27-budget-documents-show/",
+      "sourceUrl": "https://www.defensenews.com/global/europe/2026/09/28/russia-raises-2027-military-spending-by-27-budget-documents-show/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790649021886_341",
     "category": "naval",
     "title": {

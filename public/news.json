@@ -1,5 +1,38 @@
 [
   {
+    "id": "news_1790660129310_497",
+    "category": "weapons",
+    "title": {
+      "ug": "يېڭى تەتقىقات دوى مەشغۇلات ئىنكاسلىرىنى ئىستراتېگىيەلىك بايلىق سۈپىتىدە قاراشنى ئوتتۇرىغا قويدى",
+      "en": "Treat operational feedback as a strategic resource, new paper argues"
+    },
+    "summary": {
+      "ug": "يېڭى ئېلان قىلىنغان ھەربىي تەتقىقات دوىدا كۆرسىتىلىشىچە، قىسىملارنىڭ ئەمەلىي مەشغۇلات جەريانىدىكى ئىنكاسلىرىنى بىر قېتىملىق پائالىيەت ئەمەس، بەلكى ئۇزاق مەزگىللىك ۋە قىممەتلىك ئىستراتېگىيەلىك بايلىق سۈپىتىدە باھالاش كېرەك. شۇنداقلا، يۇمشاق ...",
+      "en": "And view software as a continuously developing capability, rather than a completed product."
+    },
+    "content": {
+      "ug": "يېڭى ئېلان قىلىنغان ھەربىي تەتقىقات دوىدا كۆرسىتىلىشىچە، قىسىملارنىڭ ئەمەلىي مەشغۇلات جەريانىدىكى ئىنكاسلىرىنى بىر قېتىملىق پائالىيەت ئەمەس، بەلكى ئۇزاق مەزگىللىك ۋە قىممەتلىك ئىستراتېگىيەلىك بايلىق سۈپىتىدە باھالاش كېرەك. شۇنداقلا، يۇمشاق دېھناتلارنى تاماملانغان مەھسۇلات ئەمەس، بەلكى توختىماي تەرەققىي قىلىپ تۇرىدىغان قابىلىيەت سۈپىتىدە كۆرۈش تەۋسىيە قىلىندى.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "And view software as a continuously developing capability, rather than a completed product.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/09/28/GettyImages_2293343072/large.jpg",
+    "author": "Defense One",
+    "date": "2026-06-06",
+    "status": "published",
+    "featured": true,
+    "views": 110,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "ئىستراتېگىيە"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/business/2026/09/treat-operational-feedback-strategic-resource-new-paper-argues/416284/",
+      "sourceUrl": "https://www.defenseone.com/business/2026/09/treat-operational-feedback-strategic-resource-new-paper-argues/416284/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790660122012_354",
     "category": "naval",
     "title": {

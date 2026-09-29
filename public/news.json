@@ -1,5 +1,46 @@
 [
   {
+    "id": "wpn_1790665232894",
+    "category": "database",
+    "title": {
+      "ug": "Walther PPK يېرىم ئاپتوماتىك تاپانچىسى - قورال تەپسىلاتى",
+      "en": "Walther PPK Technical Dossier"
+    },
+    "summary": {
+      "ug": "Walther PPK يېرىم ئاپتوماتىك تاپانچىسى: گېرمانىيە ئىشلەپچىقارغان تاپانچا (Pistol). ئوق ئۆلچىمى: .32 ACP (7.65×17mm Browning SR), شۇنداقلا .380 ACP ۋە 22 LR ۋارىيانتلىرىمۇ بار، ئۈنۈملۈك ئارىلىقى: 25 مېتىر.",
+      "en": "Technical specifications for Walther PPK"
+    },
+    "content": {
+      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nWalther PPK يېرىم ئاپتوماتىك تاپانچىسى ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** Walther PPK يېرىم ئاپتوماتىك تاپانچىسى\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** گېرمانىيە\n- ⚙️ **قورال تىپى:** تاپانچا (Pistol)\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** .32 ACP (7.65×17mm Browning SR), شۇنداقلا .380 ACP ۋە 22 LR ۋارىيانتلىرىمۇ بار\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: 590 گرام (قۇرۇق ھالەتتە)، ئۇزۇنلۇقى: 155 مىللىمېتىر\n- 🎯 **ئوقدان سىغىمى:** 7 ئوق (.32 ACP لىق نۇسخىسى ئۈچۈن)، 6 ئوق (.380 ACP لىق نۇسخىسى ئۈچۈن)\n- ⚡ **ئوق ئېتىش سۈرئىتى:** يېرىم ئاپتوماتىك (قولدا ئوق چىقىرىش سۈرئىتىگە باغلىق)\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** 25 مېتىر\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** Walther PP, Walther PPK, Walther PPK/S, Walther PPK/E\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "en": "Comprehensive technical dossier for Walther PPK"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/1972_Walther_PP.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+    "date": "2026-09-29",
+    "status": "published",
+    "featured": true,
+    "views": 174,
+    "tags": [
+      "مەلۇمات_ئامبىرى",
+      "قورال",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
+      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
+      "قورال ئىسمى": "Walther PPK يېرىم ئاپتوماتىك تاپانچىسى",
+      "ئىشلەپچىقارغان دۆلەت": "گېرمانىيە",
+      "قورال تىپى": "تاپانچا (Pistol)",
+      "ئوق ئۆلچىمى": ".32 ACP (7.65×17mm Browning SR), شۇنداقلا .380 ACP ۋە 22 LR ۋارىيانتلىرىمۇ بار",
+      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: 590 گرام (قۇرۇق ھالەتتە)، ئۇزۇنلۇقى: 155 مىللىمېتىر",
+      "ئوقدان سىغىمى": "7 ئوق (.32 ACP لىق نۇسخىسى ئۈچۈن)، 6 ئوق (.380 ACP لىق نۇسخىسى ئۈچۈن)",
+      "ئوق ئېتىش سۈرئىتى": "يېرىم ئاپتوماتىك (قولدا ئوق چىقىرىش سۈرئىتىگە باغلىق)",
+      "ئۈنۈملۈك ئارىلىقى": "25 مېتىر",
+      "ئاساسلىق ۋارىيانتلىرى": "Walther PP, Walther PPK, Walther PPK/S, Walther PPK/E"
+    }
+  },
+  {
     "id": "news_1790660129310_497",
     "category": "weapons",
     "title": {

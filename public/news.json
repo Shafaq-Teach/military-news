@@ -4,14 +4,17 @@
     "category": "weapons",
     "title": {
       "ug": "يېڭى تەتقىقات دوى مەشغۇلات ئىنكاسلىرىنى ئىستراتېگىيەلىك بايلىق سۈپىتىدە قاراشنى ئوتتۇرىغا قويدى",
+      "ar": "",
       "en": "Treat operational feedback as a strategic resource, new paper argues"
     },
     "summary": {
       "ug": "يېڭى ئېلان قىلىنغان ھەربىي تەتقىقات دوىدا كۆرسىتىلىشىچە، قىسىملارنىڭ ئەمەلىي مەشغۇلات جەريانىدىكى ئىنكاسلىرىنى بىر قېتىملىق پائالىيەت ئەمەس، بەلكى ئۇزاق مەزگىللىك ۋە قىممەتلىك ئىستراتېگىيەلىك بايلىق سۈپىتىدە باھالاش كېرەك. شۇنداقلا، يۇمشاق ...",
+      "ar": "",
       "en": "And view software as a continuously developing capability, rather than a completed product."
     },
     "content": {
       "ug": "يېڭى ئېلان قىلىنغان ھەربىي تەتقىقات دوىدا كۆرسىتىلىشىچە، قىسىملارنىڭ ئەمەلىي مەشغۇلات جەريانىدىكى ئىنكاسلىرىنى بىر قېتىملىق پائالىيەت ئەمەس، بەلكى ئۇزاق مەزگىللىك ۋە قىممەتلىك ئىستراتېگىيەلىك بايلىق سۈپىتىدە باھالاش كېرەك. شۇنداقلا، يۇمشاق دېھناتلارنى تاماملانغان مەھسۇلات ئەمەس، بەلكى توختىماي تەرەققىي قىلىپ تۇرىدىغان قابىلىيەت سۈپىتىدە كۆرۈش تەۋسىيە قىلىندى.\n\n---\n📌 **مەنبە:** Defense One",
+      "ar": "",
       "en": "And view software as a continuously developing capability, rather than a completed product.\n\n---\n**Source:** Defense One"
     },
     "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/09/28/GettyImages_2293343072/large.jpg",
@@ -29,22 +32,32 @@
       "مەنبە": "Defense One",
       "ئەسلى ئۇلانما": "https://www.defenseone.com/business/2026/09/treat-operational-feedback-strategic-resource-new-paper-argues/416284/",
       "sourceUrl": "https://www.defenseone.com/business/2026/09/treat-operational-feedback-strategic-resource-new-paper-argues/416284/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
+      "ھالىتى": "تەستىقلانغان ئاخبارات",
+      "speed": "N/A",
+      "range": "N/A",
+      "payload": "N/A",
+      "origin": "Defense One",
+      "status": "تەستىقلانغان ئاخبارات",
+      "clearance": "ئاشكارا تاكتىكىلىق ئاخبارات"
+    },
+    "sourceUrl": "https://www.defenseone.com/business/2026/09/treat-operational-feedback-strategic-resource-new-paper-argues/416284/"
   },
   {
     "id": "news_1790660122012_354",
     "category": "naval",
     "title": {
       "ug": "ئەنگلىيە ۋە ئامېرىكا دېڭىز ئارمىيەسى نىشانلىق پاراخوتقا قارشى باشقۇرۇلىدىغان بومبا ۋە تورپېدا سىناق قىلدى",
+      "ar": "",
       "en": "US, UK test SM-6, other missiles on SINKEX target frigate"
     },
     "summary": {
       "ug": "ئامېرىكا ۋە ئەنگلىيە ھەربىي قىسىملىرى بူးغۇن ئۆتكۈزۈلگەن قوشما ھەربىي مەشىق جەريانىدا «ئىسم-6» باشقۇرۇلىدىغان بومبا قاتارلىق بىر قانچە خىل ئوق-دارىلارنى سىناقتىن ئۆتكۈزدى. دېڭىز ئارمىيەسى ئەمەلدارىنىڭ بىلدۈرۈشىچە، مەشىقنىڭ ئاخىرقى زەربىسى «...",
+      "ar": "",
       "en": "The joint exercise saw the test of several muntions but the final blow was delivered by an Mk 48 Advanced Capability Torpedo, a Navy official said."
     },
     "content": {
       "ug": "ئامېرىكا ۋە ئەنگلىيە ھەربىي قىسىملىرى بူးغۇن ئۆتكۈزۈلگەن قوشما ھەربىي مەشىق جەريانىدا «ئىسم-6» باشقۇرۇلىدىغان بومبا قاتارلىق بىر قانچە خىل ئوق-دارىلارنى سىناقتىن ئۆتكۈزدى. دېڭىز ئارمىيەسى ئەمەلدارىنىڭ بىلدۈرۈشىچە، مەشىقنىڭ ئاخىرقى زەربىسى «Mk 48» تىپلىق ئىلغار ئىقتىدارلىق تورپېدا ئارقىلىق بېرىلگەن.\n\n---\n📌 **مەنبە:** Breaking Defense",
+      "ar": "",
       "en": "The joint exercise saw the test of several muntions but the final blow was delivered by an Mk 48 Advanced Capability Torpedo, a Navy official said.\n\n---\n**Source:** Breaking Defense"
     },
     "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/8087683-1024x576.jpg",
@@ -65,22 +78,32 @@
       "مەنبە": "Breaking Defense",
       "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/09/us-uk-test-sm-6-other-missiles-on-sinkex-target-frigate/",
       "sourceUrl": "https://breakingdefense.com/2026/09/us-uk-test-sm-6-other-missiles-on-sinkex-target-frigate/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
+      "ھالىتى": "تەستىقلانغان ئاخبارات",
+      "speed": "N/A",
+      "range": "N/A",
+      "payload": "N/A",
+      "origin": "Breaking Defense",
+      "status": "تەستىقلانغان ئاخبارات",
+      "clearance": "ئاشكارا تاكتىكىلىق ئاخبارات"
+    },
+    "sourceUrl": "https://breakingdefense.com/2026/09/us-uk-test-sm-6-other-missiles-on-sinkex-target-frigate/"
   },
   {
     "id": "news_1790649027029_893",
     "category": "weapons",
     "title": {
       "ug": "روسىيە 2027-يىللىق ھەربىي چىقىمىنى %27 ئاشۇرۇشنى پىلانلىدى",
+      "ar": "",
       "en": "Russia raises 2027 military spending by 27%, budget documents show"
     },
     "summary": {
       "ug": "يېڭى ئېلان قىلىنغان خامچوت ھۆججەتلىرىگە ئاساسلانغاندا، روسىيە 2027-يىلى مۇداپىئە ساھەسىگە 17 تىرىليون 100 مىليارد رۇبلى ياكى 202 مىليارد ئامېرىكا دوللىرى مەبلەغ ئاجرىتىشنى پىلانلىغان بولۇپ، بۇ ئۆتكەنكىگە سېلىشتۇرغاندا %27 لىك كۆرۈنەرلىك ئېش...",
+      "ar": "",
       "en": "Russia plans to spend 17.1 trillion roubles, or $202 billion, on defense in 2027, a 27% increase."
     },
     "content": {
       "ug": "يېڭى ئېلان قىلىنغان خامچوت ھۆججەتلىرىگە ئاساسلانغاندا، روسىيە 2027-يىلى مۇداپىئە ساھەسىگە 17 تىرىليون 100 مىليارد رۇبلى ياكى 202 مىليارد ئامېرىكا دوللىرى مەبلەغ ئاجرىتىشنى پىلانلىغان بولۇپ، بۇ ئۆتكەنكىگە سېلىشتۇرغاندا %27 لىك كۆرۈنەرلىك ئېشىشنى كۆرسىتىدۇ.\n\n---\n📌 **مەنبە:** Defense News",
+      "ar": "",
       "en": "Russia plans to spend 17.1 trillion roubles, or $202 billion, on defense in 2027, a 27% increase.\n\n---\n**Source:** Defense News"
     },
     "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/C6W2GYEKSVCT3HW7HH2XI5E6HE.JPG",
@@ -99,22 +122,32 @@
       "مەنبە": "Defense News",
       "ئەسلى ئۇلانما": "https://www.defensenews.com/global/europe/2026/09/28/russia-raises-2027-military-spending-by-27-budget-documents-show/",
       "sourceUrl": "https://www.defensenews.com/global/europe/2026/09/28/russia-raises-2027-military-spending-by-27-budget-documents-show/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
+      "ھالىتى": "تەستىقلانغان ئاخبارات",
+      "speed": "N/A",
+      "range": "N/A",
+      "payload": "N/A",
+      "origin": "Defense News",
+      "status": "تەستىقلانغان ئاخبارات",
+      "clearance": "ئاشكارا تاكتىكىلىق ئاخبارات"
+    },
+    "sourceUrl": "https://www.defensenews.com/global/europe/2026/09/28/russia-raises-2027-military-spending-by-27-budget-documents-show/"
   },
   {
     "id": "news_1790649021886_341",
     "category": "naval",
     "title": {
       "ug": "ئېغىر زەخمىلەنگەن «ئامېرىكا ئاا. كۆننېكتىكۇت» ناملىق سۇ ئاستى پاراخوتى 2027-يىلدىن بۇرۇن ۋەزىپىگە قايتمايدۇ",
+      "ar": "",
       "en": "Heavily Damaged Submarine USS Connecticut Now Won’t Return To Service Until 2027"
     },
     "summary": {
       "ug": "ئامېرىكا دېڭىز ئارمىيەسىگە قاراشلىق ئېغىر زەخمىلەنگەن «كۆننېكتىكۇت» ناملىق سۇ ئاستى پاراخوتىنى رېمونت قىلىش خىزمىتىنىڭ سوزلۈپ كېتىشى سەۋەبىدىن، بۇ سۇ ئاستى پاراخوتىنىڭ ئەڭ ئى Zيىدا 2027-يىلدىن بۇرۇن خىزمەتكە قايتمايدىغانلىقى ۋە بىۋاسىتە پنس...",
+      "ar": "",
       "en": "The Navy hoped Connecticut would be back by 2025, then this year, and it is now planning for its final retirement with repairs still underway.\n\n\nThe post Heavily Damaged Submarine USS Connecticut Now Won&#8217;t Return To Service Until 2027"
     },
     "content": {
       "ug": "ئامېرىكا دېڭىز ئارمىيەسىگە قاراشلىق ئېغىر زەخمىلەنگەن «كۆننېكتىكۇت» ناملىق سۇ ئاستى پاراخوتىنى رېمونت قىلىش خىزمىتىنىڭ سوزلۈپ كېتىشى سەۋەبىدىن، بۇ سۇ ئاستى پاراخوتىنىڭ ئەڭ ئى Zيىدا 2027-يىلدىن بۇرۇن خىزمەتكە قايتمايدىغانلىقى ۋە بىۋاسىتە پنسىيەگە چىقىرىلىشى پىلانلىنىۋاتقانلىقى ئېلان قىلىندى.\n\n---\n📌 **مەنبە:** The War Zone (TWZ)",
+      "ar": "",
       "en": "The Navy hoped Connecticut would be back by 2025, then this year, and it is now planning for its final retirement with repairs still underway.\n\n\nThe post Heavily Damaged Submarine USS Connecticut Now Won&#8217;t Return To Service Until 2027 appeared first on TWZ.\n\n---\n**Source:** The War Zone (TWZ)"
     },
     "imageUrl": "https://www.twz.com/wp-content/uploads/2026/09/uss-connecticut-repair-schedule-slips-to-2027.jpg?quality=85",
@@ -133,22 +166,32 @@
       "مەنبە": "The War Zone (TWZ)",
       "ئەسلى ئۇلانما": "https://www.twz.com/sea/heavily-damaged-submarine-uss-connecticut-now-wont-return-to-service-until-2027",
       "sourceUrl": "https://www.twz.com/sea/heavily-damaged-submarine-uss-connecticut-now-wont-return-to-service-until-2027",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
+      "ھالىتى": "تەستىقلانغان ئاخبارات",
+      "speed": "N/A",
+      "range": "N/A",
+      "payload": "N/A",
+      "origin": "The War Zone (TWZ)",
+      "status": "تەستىقلانغان ئاخبارات",
+      "clearance": "ئاشكارا تاكتىكىلىق ئاخبارات"
+    },
+    "sourceUrl": "https://www.twz.com/sea/heavily-damaged-submarine-uss-connecticut-now-wont-return-to-service-until-2027"
   },
   {
     "id": "news_1790638222525_504",
     "category": "drones",
     "title": {
       "ug": "ئەنگلىيە ئوچۇق دېڭىزدىكى ئادەمسىز ئايروپىلانلارنىڭ ئاۋىئاتسىيە پائالىيەتلىرىنى ماسلاشتۇرۇش پىلانىنى ئوتتۇرىغا قويدى",
+      "ar": "",
       "en": "Consultation: Civil UAS flights over the High Seas"
     },
     "summary": {
       "ug": "ئەنگلىيە ئاۋىئاتسىيە باشقۇرۇش ئىدارىسى ئوچۇق دېڭىزلار ئۈستىدىكى ئادەمسىز ئۇچقۇچىسىز ئايروپىلانلار (دىرون) پائالىيەتلىرىنى ماسلاشتۇرۇش ئۈچۈن ۋاقىتلىق يېڭى بىر ئۇسۇلنى تەتقىق قىلىۋاتىدۇ. بۇ تەدبىر ئوچۇق دېڭىز بوشلۇقىدىكى ھاۋا بىخەتەرلىكى ۋە ق...",
+      "ar": "",
       "en": "The CAA is proposing an interim UK approach to coordinating civil UAS activity over the"
     },
     "content": {
       "ug": "ئەنگلىيە ئاۋىئاتسىيە باشقۇرۇش ئىدارىسى ئوچۇق دېڭىزلار ئۈستىدىكى ئادەمسىز ئۇچقۇچىسىز ئايروپىلانلار (دىرون) پائالىيەتلىرىنى ماسلاشتۇرۇش ئۈچۈن ۋاقىتلىق يېڭى بىر ئۇسۇلنى تەتقىق قىلىۋاتىدۇ. بۇ تەدبىر ئوچۇق دېڭىز بوشلۇقىدىكى ھاۋا بىخەتەرلىكى ۋە قاتناش تەرتىپىنى قوغداشنى مەقسەت قىلىدۇ.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
+      "ar": "",
       "en": "The CAA is proposing an interim UK approach to coordinating civil UAS activity over the\n\n---\n**Source:** sUAS News (Drones)"
     },
     "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2019/04/CAA-you-have-control.png?fit=1024%2C702&#038;ssl=1",
@@ -167,22 +210,32 @@
       "مەنبە": "sUAS News (Drones)",
       "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/09/consultation-civil-uas-flights-over-the-high-seas/",
       "sourceUrl": "https://www.suasnews.com/2026/09/consultation-civil-uas-flights-over-the-high-seas/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
+      "ھالىتى": "تەستىقلانغان ئاخبارات",
+      "speed": "N/A",
+      "range": "N/A",
+      "payload": "N/A",
+      "origin": "sUAS News (Drones)",
+      "status": "تەستىقلانغان ئاخبارات",
+      "clearance": "ئاشكارا تاكتىكىلىق ئاخبارات"
+    },
+    "sourceUrl": "https://www.suasnews.com/2026/09/consultation-civil-uas-flights-over-the-high-seas/"
   },
   {
     "id": "news_1790638217805_824",
     "category": "naval",
     "title": {
       "ug": "ئەنگلىيە ۋە ئامىرلىك شىركەتلىرى سۇ ئاستى خەۋپسىزلىك ئىقتىدارلىرىنى تەتقىق قىلىش üçün ئۆزلەشتۈرۈش كېلىشىمى ئىمزالدۇردى",
+      "ar": "",
       "en": "TKMS and EDGE sign MoU to explore underwater security capabilities"
     },
     "summary": {
       "ug": "گېرمانىيەنىڭ داڭلىق دېڭىز تەتقىقات ۋە پاراخوت ياساش شىركىتى TKMS بىلەن ئاالبىر ئامىرلىكنىڭ مۇداپىئە گۇرۇپپىسى EDGE سۇ ئاستى كۆزىتىش ۋە مۇداپىئە ئىقتىدارلىرىنى بىرلىكتە تەرەققىي قىلدۇرۇش ئۈچۈن ئۆزئارا چۈشىنىش ئەسلەتمىسىگە ئىمزا قويدى. بۇ ھەم...",
+      "ar": "",
       "en": "TKMS and UAE defence group EDGE have signed a memorandum of understanding (MoU) to explore the joint development of underwater surveillance and protection capabilities.\n\n\nThe post TKMS and EDGE sign MoU to explore underwater security capabi"
     },
     "content": {
       "ug": "گېرمانىيەنىڭ داڭلىق دېڭىز تەتقىقات ۋە پاراخوت ياساش شىركىتى TKMS بىلەن ئاالبىر ئامىرلىكنىڭ مۇداپىئە گۇرۇپپىسى EDGE سۇ ئاستى كۆزىتىش ۋە مۇداپىئە ئىقتىدارلىرىنى بىرلىكتە تەرەققىي قىلدۇرۇش ئۈچۈن ئۆزئارا چۈشىنىش ئەسلەتمىسىگە ئىمزا قويدى. بۇ ھەمكارلىق سۇ ئاستى پاراخوتى ۋە دېڭىز ئاستى خەۋپسىزلىكىنى كۈچەيتىشنى مەقسەت قىلىدۇ.\n\n---\n📌 **مەنبە:** Naval Technology",
+      "ar": "",
       "en": "TKMS and UAE defence group EDGE have signed a memorandum of understanding (MoU) to explore the joint development of underwater surveillance and protection capabilities.\n\n\nThe post TKMS and EDGE sign MoU to explore underwater security capabilities  appeared first on Naval Technology.\n\n---\n**Source:** Naval Technology"
     },
     "imageUrl": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/09/TKMS-3.jpg",
@@ -201,22 +254,32 @@
       "مەنبە": "Naval Technology",
       "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/tkms-edge-underwater-capabilities/",
       "sourceUrl": "https://www.naval-technology.com/news/tkms-edge-underwater-capabilities/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
+      "ھالىتى": "تەستىقلانغان ئاخبارات",
+      "speed": "N/A",
+      "range": "N/A",
+      "payload": "N/A",
+      "origin": "Naval Technology",
+      "status": "تەستىقلانغان ئاخبارات",
+      "clearance": "ئاشكارا تاكتىكىلىق ئاخبارات"
+    },
+    "sourceUrl": "https://www.naval-technology.com/news/tkms-edge-underwater-capabilities/"
   },
   {
     "id": "news_1790627158637_356",
     "category": "weapons",
     "title": {
       "ug": "سەپنىڭ ئالدىنقى سېپىدىكى يارىدارلارنى تارقىتىش: ئۇكرائينانىڭ MAUL ئادەمسىز قۇرۇقلۇق ئاپتوموبىلى",
+      "ar": "",
       "en": "CASEVAC on the frontline: Ukraine’s MAUL UGV"
     },
     "summary": {
       "ug": "ئۇكرائينادىكى زامانىۋى يارىدارلارنى تارقىتىش ۋە قۇتقۇزۇش ھەرىكەتلىرى يېڭى تىپتىكى جەنگ مەيدانى ئۆلۈم-ئىچىملىرى، بولۇپمۇ ئۇچقۇچىسىز ئايروپىلانلارنىڭ (دىرون) كۆپ مىقداردا ئىشلىتىلىشى سەۋەبىدىن ئېغىر توسالغۇلارغا ئۇچرىماقتا.",
+      "ar": "",
       "en": "Modern CASEVAC operations in Ukraine are hampered by new types of battlefield lethality, particularly massed use of drones."
     },
     "content": {
       "ug": "ئۇكرائينادىكى زامانىۋى يارىدارلارنى تارقىتىش ۋە قۇتقۇزۇش ھەرىكەتلىرى يېڭى تىپتىكى جەنگ مەيدانى ئۆلۈم-ئىچىملىرى، بولۇپمۇ ئۇچقۇچىسىز ئايروپىلانلارنىڭ (دىرون) كۆپ مىقداردا ئىشلىتىلىشى سەۋەبىدىن ئېغىر توسالغۇلارغا ئۇچرىماقتا.\n\n---\n📌 **مەنبە:** Army Technology",
+      "ar": "",
       "en": "Modern CASEVAC operations in Ukraine are hampered by new types of battlefield lethality, particularly massed use of drones.\n\n---\n**Source:** Army Technology"
     },
     "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/09/MAUL-UGV-lead.jpg",
@@ -236,8 +299,15 @@
       "مەنبە": "Army Technology",
       "ئەسلى ئۇلانما": "https://www.army-technology.com/features/casevac-on-the-frontline-ukraines-maul-ugv/",
       "sourceUrl": "https://www.army-technology.com/features/casevac-on-the-frontline-ukraines-maul-ugv/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
+      "ھالىتى": "تەستىقلانغان ئاخبارات",
+      "speed": "N/A",
+      "range": "N/A",
+      "payload": "N/A",
+      "origin": "Army Technology",
+      "status": "تەستىقلانغان ئاخبارات",
+      "clearance": "ئاشكارا تاكتىكىلىق ئاخبارات"
+    },
+    "sourceUrl": "https://www.army-technology.com/features/casevac-on-the-frontline-ukraines-maul-ugv/"
   },
   {
     "id": "news_1790618370816_24",

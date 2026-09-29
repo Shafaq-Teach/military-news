@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790692834292_899",
+    "category": "weapons",
+    "title": {
+      "ug": "ئادەمسىز ئۇچقۇچىسىز ئايروپىلانلارنىڭ ئۆلچەمسىز ھاۋا مۇھىتىدىكى ھەرىكەت سىياسەت ئۇقۇمى",
+      "en": "Unmanned Aircraft Operations in an AtypicalAir Environment: Policy Concept"
+    },
+    "summary": {
+      "ug": "بۇ يېڭىچە سىياسەت ئۇقۇمى ئادەمسىز ئۇچقۇچىسىز ئايروپىلان تىجارەتچىلىرىنىڭ كۆرۈش دائىرىسىدىن ھالقىغان ئۇچۇش مەشغۇلاتلىرىنى ئېلىپ بېرىشى ئۈچۈن لايىھەلەنگەن بولۇپ، ھەربىي ۋە مۇداپىئە ساھەسىدىكى ئادەمسىز سىستېمىلارنىڭ بىخەتەرلىكى ۋە تىجارەت ئۈنۈ...",
+      "en": "This innovative policy concept is designed to enable UAS operators to conduct BVLOS operations within"
+    },
+    "content": {
+      "ug": "بۇ يېڭىچە سىياسەت ئۇقۇمى ئادەمسىز ئۇچقۇچىسىز ئايروپىلان تىجارەتچىلىرىنىڭ كۆرۈش دائىرىسىدىن ھالقىغان ئۇچۇش مەشغۇلاتلىرىنى ئېلىپ بېرىشى ئۈچۈن لايىھەلەنگەن بولۇپ، ھەربىي ۋە مۇداپىئە ساھەسىدىكى ئادەمسىز سىستېمىلارنىڭ بىخەتەرلىكى ۋە تىجارەت ئۈنۈمىنى ئۆستۈرۈشنى مەقسەت قىلىدۇ.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
+      "en": "This innovative policy concept is designed to enable UAS operators to conduct BVLOS operations within\n\n---\n**Source:** sUAS News (Drones)"
+    },
+    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2023/02/cropped-man-from-the-caa.jpg?fit=769%2C895&#038;ssl=1",
+    "author": "sUAS News (Drones)",
+    "date": "2026-09-29",
+    "status": "published",
+    "featured": true,
+    "views": 154,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئۇچقۇچىسىز ئايروپىلان"
+    ],
+    "specs": {
+      "مەنبە": "sUAS News (Drones)",
+      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/09/unmanned-aircraft-operations-in-an-atypicalair-environment-policy-concept/",
+      "sourceUrl": "https://www.suasnews.com/2026/09/unmanned-aircraft-operations-in-an-atypicalair-environment-policy-concept/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1790671526052",
     "category": "analysis",
     "title": {

@@ -1,5 +1,41 @@
 [
   {
+    "id": "news_1790660122012_354",
+    "category": "naval",
+    "title": {
+      "ug": "ئەنگلىيە ۋە ئامېرىكا دېڭىز ئارمىيەسى نىشانلىق پاراخوتقا قارشى باشقۇرۇلىدىغان بومبا ۋە تورپېدا سىناق قىلدى",
+      "en": "US, UK test SM-6, other missiles on SINKEX target frigate"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ۋە ئەنگلىيە ھەربىي قىسىملىرى بူးغۇن ئۆتكۈزۈلگەن قوشما ھەربىي مەشىق جەريانىدا «ئىسم-6» باشقۇرۇلىدىغان بومبا قاتارلىق بىر قانچە خىل ئوق-دارىلارنى سىناقتىن ئۆتكۈزدى. دېڭىز ئارمىيەسى ئەمەلدارىنىڭ بىلدۈرۈشىچە، مەشىقنىڭ ئاخىرقى زەربىسى «...",
+      "en": "The joint exercise saw the test of several muntions but the final blow was delivered by an Mk 48 Advanced Capability Torpedo, a Navy official said."
+    },
+    "content": {
+      "ug": "ئامېرىكا ۋە ئەنگلىيە ھەربىي قىسىملىرى بူးغۇن ئۆتكۈزۈلگەن قوشما ھەربىي مەشىق جەريانىدا «ئىسم-6» باشقۇرۇلىدىغان بومبا قاتارلىق بىر قانچە خىل ئوق-دارىلارنى سىناقتىن ئۆتكۈزدى. دېڭىز ئارمىيەسى ئەمەلدارىنىڭ بىلدۈرۈشىچە، مەشىقنىڭ ئاخىرقى زەربىسى «Mk 48» تىپلىق ئىلغار ئىقتىدارلىق تورپېدا ئارقىلىق بېرىلگەن.\n\n---\n📌 **مەنبە:** Breaking Defense",
+      "en": "The joint exercise saw the test of several muntions but the final blow was delivered by an Mk 48 Advanced Capability Torpedo, a Navy official said.\n\n---\n**Source:** Breaking Defense"
+    },
+    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/8087683-1024x576.jpg",
+    "author": "Breaking Defense",
+    "date": "2026-06-07",
+    "status": "published",
+    "featured": true,
+    "views": 76,
+    "tags": [
+      "ئامېرىكا",
+      "ئەنگلىيە",
+      "دېڭىز ئارمىيەسى",
+      "باشقۇرۇلىدىغان بومبا",
+      "تورپېدا",
+      "ھەربىي مەشىق"
+    ],
+    "specs": {
+      "مەنبە": "Breaking Defense",
+      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/09/us-uk-test-sm-6-other-missiles-on-sinkex-target-frigate/",
+      "sourceUrl": "https://breakingdefense.com/2026/09/us-uk-test-sm-6-other-missiles-on-sinkex-target-frigate/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790649027029_893",
     "category": "weapons",
     "title": {

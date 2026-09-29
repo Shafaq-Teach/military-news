@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790638222525_504",
+    "category": "drones",
+    "title": {
+      "ug": "ئەنگلىيە ئوچۇق دېڭىزدىكى ئادەمسىز ئايروپىلانلارنىڭ ئاۋىئاتسىيە پائالىيەتلىرىنى ماسلاشتۇرۇش پىلانىنى ئوتتۇرىغا قويدى",
+      "en": "Consultation: Civil UAS flights over the High Seas"
+    },
+    "summary": {
+      "ug": "ئەنگلىيە ئاۋىئاتسىيە باشقۇرۇش ئىدارىسى ئوچۇق دېڭىزلار ئۈستىدىكى ئادەمسىز ئۇچقۇچىسىز ئايروپىلانلار (دىرون) پائالىيەتلىرىنى ماسلاشتۇرۇش ئۈچۈن ۋاقىتلىق يېڭى بىر ئۇسۇلنى تەتقىق قىلىۋاتىدۇ. بۇ تەدبىر ئوچۇق دېڭىز بوشلۇقىدىكى ھاۋا بىخەتەرلىكى ۋە ق...",
+      "en": "The CAA is proposing an interim UK approach to coordinating civil UAS activity over the"
+    },
+    "content": {
+      "ug": "ئەنگلىيە ئاۋىئاتسىيە باشقۇرۇش ئىدارىسى ئوچۇق دېڭىزلار ئۈستىدىكى ئادەمسىز ئۇچقۇچىسىز ئايروپىلانلار (دىرون) پائالىيەتلىرىنى ماسلاشتۇرۇش ئۈچۈن ۋاقىتلىق يېڭى بىر ئۇسۇلنى تەتقىق قىلىۋاتىدۇ. بۇ تەدبىر ئوچۇق دېڭىز بوشلۇقىدىكى ھاۋا بىخەتەرلىكى ۋە قاتناش تەرتىپىنى قوغداشنى مەقسەت قىلىدۇ.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
+      "en": "The CAA is proposing an interim UK approach to coordinating civil UAS activity over the\n\n---\n**Source:** sUAS News (Drones)"
+    },
+    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2019/04/CAA-you-have-control.png?fit=1024%2C702&#038;ssl=1",
+    "author": "sUAS News (Drones)",
+    "date": "2026-09-28",
+    "status": "published",
+    "featured": true,
+    "views": 43,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئەنگلىيە"
+    ],
+    "specs": {
+      "مەنبە": "sUAS News (Drones)",
+      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/09/consultation-civil-uas-flights-over-the-high-seas/",
+      "sourceUrl": "https://www.suasnews.com/2026/09/consultation-civil-uas-flights-over-the-high-seas/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790638217805_824",
     "category": "naval",
     "title": {

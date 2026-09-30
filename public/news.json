@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790736941595_198",
+    "category": "weapons",
+    "title": {
+      "ug": "ياۋروپانىڭ ئامېرىكىغا بولغان بېقىندىلىقىنى ئازايتىش تىرىشچانلىقى مۇداپىئە ئالەم بوشلۇقى بازىرىدا يېڭى بۇرۇلۇش ياسىماقتا",
+      "en": "Europe’s push to reduce US reliance is reshaping the defense space market"
+    },
+    "summary": {
+      "ug": "يېقىنقى مەزگىللەردە يۈز بەرگەن كرىزىسلاردا ئامېرىكىنىڭ سۈنئىي ھەمراھ سانلىق مەلۇماتلىرىدىن پايدىلىنىشنى چەكلەپ قويۇشىدىن قاتتىق ئەندىشىگە چۈشكەن ياۋروپا دۆلەتلىرى، ئۆزلىرىنىڭ مۇستەقىل ئالەم بوشلۇقى مۇداپىئە ئىقتىدارىنى تېز سۈرئەتتە يۇقىرى ك...",
+      "en": "Spooked by U.S. restrictions on satellite data access during recent crises, European countries are scrambling to catch up on sovereign capabilities."
+    },
+    "content": {
+      "ug": "يېقىنقى مەزگىللەردە يۈز بەرگەن كرىزىسلاردا ئامېرىكىنىڭ سۈنئىي ھەمراھ سانلىق مەلۇماتلىرىدىن پايدىلىنىشنى چەكلەپ قويۇشىدىن قاتتىق ئەندىشىگە چۈشكەن ياۋروپا دۆلەتلىرى، ئۆزلىرىنىڭ مۇستەقىل ئالەم بوشلۇقى مۇداپىئە ئىقتىدارىنى تېز سۈرئەتتە يۇقىرى كۆتۈرۈش ۋە بۇ ساھەدىكى بوشلۇقنى تولدۇرۇش ئۈچۈن جىددىي ھەرىكەتكە ئۆتمەكتە. بۇ ئىستراتېگىيەلىك بۇرۇلۇش نۆۋەتتە يەرشارى مۇداپىئە ئالەم بوشلۇقى بازىرىنىڭ قۇرۇلمىسىنى تۈپتىن ئۆزگەرتمەكتە.\n\n---\n📌 **مەنبە:** C4ISRNET",
+      "en": "Spooked by U.S. restrictions on satellite data access during recent crises, European countries are scrambling to catch up on sovereign capabilities.\n\n---\n**Source:** C4ISRNET"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/W7IPMORUIRGRRFL2LCU6K2VQXM.JPG",
+    "author": "C4ISRNET",
+    "date": "2026-09-30",
+    "status": "published",
+    "featured": true,
+    "views": 126,
+    "tags": [
+      "مۇداپىئە",
+      "ئالەم_بوشلۇقى",
+      "ياۋروپا",
+      "ئامېرىكا",
+      "سۈنئىي_ھەمراھ"
+    ],
+    "specs": {
+      "مەنبە": "C4ISRNET",
+      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/",
+      "sourceUrl": "https://www.c4isrnet.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790726159094_387",
     "category": "weapons",
     "title": {

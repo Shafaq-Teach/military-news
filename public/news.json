@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790715051283_912",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا دۆلەت مۇداپىئە مىنىستىرلىقى AMRAAM باشقۇرۇلىدىغان بومبىسىنىڭ ئىشلەپچىقىرىش مىقدارىنى ئاشۇرۇش ئۈچۈن 20.7 مىليارد دوللارلىق توختام ئىمزالىدى",
+      "en": "Pentagon awards Raytheon up to $20.7 billion to nearly double AMRAAM production"
+    },
+    "summary": {
+      "ug": "ئامېرىكا دۆلەت مۇداپىئە مىنىستىرلىقى (پېنتاگون) «ئىلغار ئوتتۇرا مۇساپىلىك ھاۋادىن ھاۋاغا قويۇپ بېرىلىدىغان باشقۇرۇلىدىغان بومبا» (AMRAAM) نىڭ ئىشلەپچىقىرىش مىقدارىنى تەخمىنەن ئىككى ھەسسە ئاشۇرۇش مەقسىتىدە، رايتېئون (Raytheon) شىركىتى بىلەن ...",
+      "en": "The Defense Department has awarded Raytheon a multiyear contract worth up to $20.7 billion to build Advanced Medium-Range Air-to-Air Missiles, or AMRAAMs."
+    },
+    "content": {
+      "ug": "ئامېرىكا دۆلەت مۇداپىئە مىنىستىرلىقى (پېنتاگون) «ئىلغار ئوتتۇرا مۇساپىلىك ھاۋادىن ھاۋاغا قويۇپ بېرىلىدىغان باشقۇرۇلىدىغان بومبا» (AMRAAM) نىڭ ئىشلەپچىقىرىش مىقدارىنى تەخمىنەن ئىككى ھەسسە ئاشۇرۇش مەقسىتىدە، رايتېئون (Raytheon) شىركىتى بىلەن قىممىتى 20.7 مىليارد دوللارغا يېتىدىغان كۆپ يىللىق سېتىۋېلىش توختامى ئىمزالىدى. بۇ غايەت زور كېلىشىم ئامېرىكا ۋە ئۇنىڭ ئىتتىپاقداشلىرىنىڭ ھاۋا ئۈستۈنلىكىنى ساقلاش ھەمدە زامانىۋى ھاۋا مۇداپىئە ئېھتىياجىنى قامداش ئۈچۈن تاشلانغان ئىستراتېگىيەلىك قەدەم ھېسابلىنىدۇ.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "The Defense Department has awarded Raytheon a multiyear contract worth up to $20.7 billion to build Advanced Medium-Range Air-to-Air Missiles, or AMRAAMs.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/CRHVBXG55BEEZG5AMNI5PZ6IGQ.jpg",
+    "author": "Defense News",
+    "date": "2024-05-22",
+    "status": "published",
+    "featured": true,
+    "views": 97,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئامېرىكا",
+      "باشقۇرۇلىدىغان_بومبا"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/pentagon/2026/09/29/pentagon-awards-raytheon-up-to-207-billion-to-nearly-double-amraam-production/",
+      "sourceUrl": "https://www.defensenews.com/pentagon/2026/09/29/pentagon-awards-raytheon-up-to-207-billion-to-nearly-double-amraam-production/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790715027182_483",
     "category": "drones",
     "title": {

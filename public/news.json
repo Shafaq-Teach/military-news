@@ -1,5 +1,46 @@
 [
   {
+    "id": "wpn_1790751645709",
+    "category": "database",
+    "title": {
+      "ug": "Browning Hi-Power يېرىم ئاپتوماتىك تاپانچىسى - قورال تەپسىلاتى",
+      "en": "Browning Hi-Power Technical Dossier"
+    },
+    "summary": {
+      "ug": "Browning Hi-Power يېرىم ئاپتوماتىك تاپانچىسى: بېلگىيە / ئامېرىكا ئىشلەپچىقارغان تاپانچا (Pistol). ئوق ئۆلچىمى: 9×19 مىللىمېتىر Parabellum، ئۈنۈملۈك ئارىلىقى: 50 مېتىر.",
+      "en": "Technical specifications for Browning Hi-Power"
+    },
+    "content": {
+      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nBrowning Hi-Power يېرىم ئاپتوماتىك تاپانچىسى ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** Browning Hi-Power يېرىم ئاپتوماتىك تاپانچىسى\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** بېلگىيە / ئامېرىكا\n- ⚙️ **قورال تىپى:** تاپانچا (Pistol)\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 9×19 مىللىمېتىر Parabellum\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: 1000 گرام (قۇرۇق ھالەتتە)، ئۇزۇنلۇقى: 197 مىللىمېتىر\n- 🎯 **ئوقدان سىغىمى:** 13 ئوق (ئۆلچەملىك)\n- ⚡ **ئوق ئېتىش سۈرئىتى:** يېرىم ئاپتوماتىك\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** 50 مېتىر\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** HP-35, Mark I, Mark II, Mark III, Browning Practical\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "en": "Comprehensive technical dossier for Browning Hi-Power"
+    },
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/FN_Hi_Power.jpg/1280px-FN_Hi_Power.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+    "date": "2026-09-30",
+    "status": "published",
+    "featured": true,
+    "views": 199,
+    "tags": [
+      "مەلۇمات_ئامبىرى",
+      "قورال",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
+      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
+      "قورال ئىسمى": "Browning Hi-Power يېرىم ئاپتوماتىك تاپانچىسى",
+      "ئىشلەپچىقارغان دۆلەت": "بېلگىيە / ئامېرىكا",
+      "قورال تىپى": "تاپانچا (Pistol)",
+      "ئوق ئۆلچىمى": "9×19 مىللىمېتىر Parabellum",
+      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: 1000 گرام (قۇرۇق ھالەتتە)، ئۇزۇنلۇقى: 197 مىللىمېتىر",
+      "ئوقدان سىغىمى": "13 ئوق (ئۆلچەملىك)",
+      "ئوق ئېتىش سۈرئىتى": "يېرىم ئاپتوماتىك",
+      "ئۈنۈملۈك ئارىلىقى": "50 مېتىر",
+      "ئاساسلىق ۋارىيانتلىرى": "HP-35, Mark I, Mark II, Mark III, Browning Practical"
+    }
+  },
+  {
     "id": "news_1790748062824_429",
     "category": "naval",
     "title": {

@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790791833672_329",
+    "category": "aviation",
+    "title": {
+      "ug": "بى ئې ئى سىستېمىسى (BAE Systems) نىڭ يېڭى پەرقلەندۈرۈش سىستېمىسى F-16 كۈرەشچى ئايروپىلانلىرى ئۈچۈن رەسمىي تەستىقلاندى",
+      "en": "BAE Systems’ new IFF system gains certification for USAF F-16"
+    },
+    "summary": {
+      "ug": "بى ئې ئى سىستېمىسى (BAE Systems) شىركىتى ئۆزى تەتقىق قىلىپ چىققان AN/APX-127(V)1 تىپلىق بىرلەشمە سوراقچى-جاۋاب قايتۇرغۇچى (CIT) سىستېمىسىنىڭ ئامېرىكا ھاۋا ئارمىيەسىنىڭ F-16 «جەڭگىۋار بۈركۈت» (Fighting Falcon) تىپلىق كۈرەشچى ئايروپىلانلىرىدا...",
+      "en": "BAE Systems has received AIMS certification for its AN/APX-127(V)1 Combined Interrogator Transponder (CIT) for use on the US Air Force’s F-16 Fighting Falcon."
+    },
+    "content": {
+      "ug": "بى ئې ئى سىستېمىسى (BAE Systems) شىركىتى ئۆزى تەتقىق قىلىپ چىققان AN/APX-127(V)1 تىپلىق بىرلەشمە سوراقچى-جاۋاب قايتۇرغۇچى (CIT) سىستېمىسىنىڭ ئامېرىكا ھاۋا ئارمىيەسىنىڭ F-16 «جەڭگىۋار بۈركۈت» (Fighting Falcon) تىپلىق كۈرەشچى ئايروپىلانلىرىدا ئىشلىتىلىشى ئۈچۈن زۆرۈر بولغان AIMS گۇۋاھنامىسىگە ئېرىشكەنلىكىنى جاكارلىدى. مەزكۇر دوست-دۈشمەننى پەرقلەندۈرۈش (IFF) سىستېمىسى ئىلغار تېخنىكىلار ئارقىلىق ھاۋا بوشلۇقىدىكى نىشانلارنى پەرقلەندۈرۈش سۈرئىتى ۋە ئېنىقلىق دەرىجىسىنى ئۆستۈرۈپ، جەڭ مەيدانىدىكى خەتەرلەرنى ئازايتىشتا مۇھىم رول ئوينايدۇ.\n\n---\n📌 **مەنبە:** Air Force Technology",
+      "en": "BAE Systems has received AIMS certification for its AN/APX-127(V)1 Combined Interrogator Transponder (CIT) for use on the US Air Force’s F-16 Fighting Falcon.\n\n---\n**Source:** Air Force Technology"
+    },
+    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/09/BAE-Systems-46.jpg",
+    "author": "Air Force Technology",
+    "date": "2024-05-22",
+    "status": "published",
+    "featured": true,
+    "views": 141,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئاۋىئاتسىيە"
+    ],
+    "specs": {
+      "مەنبە": "Air Force Technology",
+      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/bae-systems-usaf-iff-systen/",
+      "sourceUrl": "https://www.airforce-technology.com/news/bae-systems-usaf-iff-systen/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1790782598684",
     "category": "analysis",
     "title": {

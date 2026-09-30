@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790726159094_387",
+    "category": "weapons",
+    "title": {
+      "ug": "خېگسېت تور ۋە ئاخبارات ئورگانلىرىغا سايلام مۇداپىئەسىنى ئالدىنقى ئورۇنغا قويۇش ھەققىدە بۇيرۇق چۈشۈردى",
+      "en": "Hegseth orders cyber, intelligence agencies to prioritize election defense"
+    },
+    "summary": {
+      "ug": "ئامېرىكا دۆلەت مۇداپىئە مىنىستىرى خېگسېت تور ۋە ئاخبارات ئورگانلىرىغا سايلام مۇداپىئەسىنى ئالدىنقى ئورۇنغا قويۇش ھەققىدە كۆرسەتمە بەردى. مەزكۇر يۆنىلىش، ھۆكۈمەت دائىرىلىرى چەتئەلنىڭ تەسىر كۆرسىتىش ھەرىكەتلىرىنى كۆزىتىدىغان ئاپپاراتلارنى تار...",
+      "en": "The directive comes as the administration has dismantled or reorganized offices that tracked foreign influence and reduced civilian election security support."
+    },
+    "content": {
+      "ug": "ئامېرىكا دۆلەت مۇداپىئە مىنىستىرى خېگسېت تور ۋە ئاخبارات ئورگانلىرىغا سايلام مۇداپىئەسىنى ئالدىنقى ئورۇنغا قويۇش ھەققىدە كۆرسەتمە بەردى. مەزكۇر يۆنىلىش، ھۆكۈمەت دائىرىلىرى چەتئەلنىڭ تەسىر كۆرسىتىش ھەرىكەتلىرىنى كۆزىتىدىغان ئاپپاراتلارنى تارقىتىۋەتكەن ياكى قايتىدىن تەشكىللىگەن، شۇنداقلا پۇقرالارنىڭ سايلام بىخەتەرلىكىنى قوغداشقا ئاجرىتىلغان ياردەملەرنى قىسقارتىۋەتكەن بىر مەزگىلدە ئېلان قىلىندى.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "The directive comes as the administration has dismantled or reorganized offices that tracked foreign influence and reduced civilian election security support.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/09/29/092826HegsethNG/large.jpg",
+    "author": "Defense One",
+    "date": "2024-05-22",
+    "status": "published",
+    "featured": true,
+    "views": 94,
+    "tags": [
+      "ھەربىي",
+      "ئاخبارات",
+      "تور بىخەتەرلىكى",
+      "سايلام"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/09/hegseth-orders-cyber-intelligence-agencies-prioritize-election-defense/416295/",
+      "sourceUrl": "https://www.defenseone.com/threats/2026/09/hegseth-orders-cyber-intelligence-agencies-prioritize-election-defense/416295/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790726131215_65",
     "category": "naval",
     "title": {

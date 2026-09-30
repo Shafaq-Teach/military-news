@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790780746359_456",
+    "category": "analysis",
+    "title": {
+      "ug": "پېنتاگوننىڭ دۆلەت مۇداپىئە ئىستراتېگىيەسىگە ئائىت يېڭى دوكلاتىدا نەتىجىلەر كۆرسىتىلىپ، ئاساسلىق تەھدىتلەر تىلغا ئېلىنمىدى",
+      "en": "Pentagon update on National Defense Strategy cites progress, omits key threats"
+    },
+    "summary": {
+      "ug": "ئامېرىكا پارلامېنتىغا سۇنۇلغان مەزكۇر دوكلاتتا قولغا كەلتۈرۈلگەن نەتىجىلەر ئالاھىدە تىلغا ئېلىنغان بولسىمۇ، ئەمما قورال-ياراغ زاپاسلىرىنىڭ ئازىيىپ كېتىشى، ئىستراتېگىيەلىك دىققەتنىڭ بۆلۈنۈشى ۋە ياۋروپا مۇداپىئەسىدىن ئاستا-ئاستا چېكىنىش قاتار...",
+      "en": "The report to Congress  notes accomplishments but masks depleted arsenals, strategic distractions, and a quiet retreat from European defense."
+    },
+    "content": {
+      "ug": "ئامېرىكا پارلامېنتىغا سۇنۇلغان مەزكۇر دوكلاتتا قولغا كەلتۈرۈلگەن نەتىجىلەر ئالاھىدە تىلغا ئېلىنغان بولسىمۇ، ئەمما قورال-ياراغ زاپاسلىرىنىڭ ئازىيىپ كېتىشى، ئىستراتېگىيەلىك دىققەتنىڭ بۆلۈنۈشى ۋە ياۋروپا مۇداپىئەسىدىن ئاستا-ئاستا چېكىنىش قاتارلىق ئېغىر مەسىلىلەر يوشۇرۇن قالدۇرۇلغان.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "The report to Congress  notes accomplishments but masks depleted arsenals, strategic distractions, and a quiet retreat from European defense.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/09/30/GettyImages_2293176513/large.jpg",
+    "author": "Defense One",
+    "date": "2026-09-30",
+    "status": "published",
+    "featured": true,
+    "views": 120,
+    "tags": [
+      "پېنتاگون",
+      "دۆلەت مۇداپىئەسى",
+      "ئىستراتېگىيە",
+      "ئامېرىكا",
+      "ياۋروپا"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/09/pentagon-update-national-defense-strategy-cites-progress-omits-key-threats/416329/",
+      "sourceUrl": "https://www.defenseone.com/threats/2026/09/pentagon-update-national-defense-strategy-cites-progress-omits-key-threats/416329/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790769968115_378",
     "category": "aviation",
     "title": {

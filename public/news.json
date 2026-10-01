@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790835382128_224",
+    "category": "weapons",
+    "title": {
+      "ug": "فرانسىيە ئارمىيەسى ئۇچۇرلار ئاشكارىلانغان جەڭ مەيدانىدا رەقىبلىرىنى قايمۇقتۇرۇش تاكتىكىسى ئۈستىدە ئىزدەنمەكتە",
+      "en": "French Army wants to keep adversaries guessing on see-through battlefield"
+    },
+    "summary": {
+      "ug": "فرانسىيە كەلگۈسى جەڭ قوماندانلىق شتابى جەڭ مەيدانىدىكى ئۇچۇرلارنىڭ يۇقىرى دەرىجىدە ئاشكارە بولۇش شارائىتىدا رەقىبلىرىنى قايمۇقتۇرۇش ۋە مۈجمەللىكتە قالدۇرۇش ئۈچۈن يېڭى تاكتىكىلىق چارىلەرنى ئىزدەنمەكتە. بۇ دائىرىدە، مەزكۇر قوماندانلىق شتابى گ...",
+      "en": "The French Future Combat Command is looking at what Baratz called “frugal artificial intelligence,” designed to consume as little energy as possible."
+    },
+    "content": {
+      "ug": "فرانسىيە كەلگۈسى جەڭ قوماندانلىق شتابى جەڭ مەيدانىدىكى ئۇچۇرلارنىڭ يۇقىرى دەرىجىدە ئاشكارە بولۇش شارائىتىدا رەقىبلىرىنى قايمۇقتۇرۇش ۋە مۈجمەللىكتە قالدۇرۇش ئۈچۈن يېڭى تاكتىكىلىق چارىلەرنى ئىزدەنمەكتە. بۇ دائىرىدە، مەزكۇر قوماندانلىق شتابى گېنېرال باراتز تەرىپىدىن «تېجەشلىك سۈنئىي ئەقىل» دەپ ئاتالغان، ئېنېرگىيە سەرپىياتىنى ئەڭ تۆۋەن چەككە چۈشۈرۈشنى نىشان قىلغان يېڭى بىر سۈنئىي ئەقىل تېخنىكىسىنى ھەربىي ساھەگە تەتبىقلاشنى پىلانلىماقتا.\n\n---\n📌 **مەنبە:** C4ISRNET",
+      "en": "The French Future Combat Command is looking at what Baratz called “frugal artificial intelligence,” designed to consume as little energy as possible.\n\n---\n**Source:** C4ISRNET"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/UZU4TTCHD5DA7MTOR4ZXPU3RS4.jpg",
+    "author": "C4ISRNET",
+    "date": "2024-05-18",
+    "status": "published",
+    "featured": true,
+    "views": 59,
+    "tags": [
+      "ھەربىي",
+      "سۈنئىي ئەقىل",
+      "فرانسىيە",
+      "جەڭ تاكتىكىسى"
+    ],
+    "specs": {
+      "مەنبە": "C4ISRNET",
+      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/global/europe/2026/09/18/french-army-wants-to-keep-adversaries-guessing-on-see-through-battlefield/",
+      "sourceUrl": "https://www.c4isrnet.com/global/europe/2026/09/18/french-army-wants-to-keep-adversaries-guessing-on-see-through-battlefield/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "wiki-1790838008972",
     "category": "database",
     "title": {

@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790813489945_19",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى بوئىن شىركىتى بىلەن 22 دانە F-15EX كۈرەشچى ئايروپىلانى سېتىۋېلىش توغرىسىدا 2.38 مىليارد دوللارلىق كېلىشىم ئىمزالىدى",
+      "en": "US Air Force awards $2.38B contract to Boeing for 22 F-15EX"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى بوئىن (Boeing) مۇداپىئە سانائىتى شىركىتى بىلەن يەنە 22 دانە F-15EX تىپلىق كۈرەشچى ئايروپىلان سېتىۋېلىش توغرىسىدا 2.38 مىليارد ئامېرىكا دوللىرى قىممىتىدە يېڭى بىر توختام ئىمزالىدى. مەزكۇر يېڭى كېلىشىم ئارقىلىق، بوئىن ...",
+      "en": "The service awarded Boeing a contract for 22 more F-15EX aircraft, bringing the number to a total of 120 to be manufactured by the defense company."
+    },
+    "content": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى بوئىن (Boeing) مۇداپىئە سانائىتى شىركىتى بىلەن يەنە 22 دانە F-15EX تىپلىق كۈرەشچى ئايروپىلان سېتىۋېلىش توغرىسىدا 2.38 مىليارد ئامېرىكا دوللىرى قىممىتىدە يېڭى بىر توختام ئىمزالىدى. مەزكۇر يېڭى كېلىشىم ئارقىلىق، بوئىن شىركىتى تەرىپىدىن ئامېرىكا ھاۋا ئارمىيەسى ئۈچۈن ئىشلەپچىقىرىلىدىغان F-15EX كۈرەشچى ئايروپىلانلىرىنىڭ ئومۇمىي سانى 120 غا يەتكۈزۈلىدۇ.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "The service awarded Boeing a contract for 22 more F-15EX aircraft, bringing the number to a total of 120 to be manufactured by the defense company.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/GUGGKR5PCFHGBOYKOP3TSLNTKQ.jpg",
+    "author": "Defense News",
+    "date": "2024-03-29",
+    "status": "published",
+    "featured": true,
+    "views": 28,
+    "tags": [
+      "ئامېرىكا",
+      "ھاۋا ئارمىيەسى",
+      "بوئىن",
+      "كۈرەشچى ئايروپىلان",
+      "ھەربىي توختام"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/industry/techwatch/2026/09/30/us-air-force-awards-238b-contract-to-boeing-for-22-f-15ex/",
+      "sourceUrl": "https://www.defensenews.com/industry/techwatch/2026/09/30/us-air-force-awards-238b-contract-to-boeing-for-22-f-15ex/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790813473575_136",
     "category": "weapons",
     "title": {

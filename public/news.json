@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790846484427_407",
+    "category": "weapons",
+    "title": {
+      "ug": "نورتوپ گرۇممان شىركىتى ئامېرىكا ئارمىيەسىنىڭ XRC رامجېت ئىتتىرىش سىستېمىسى توختامىنى قولغا كەلتۈردى",
+      "en": "Northrop wins US Army contract for XRC ramjet propulsion"
+    },
+    "summary": {
+      "ug": "نورتوپ گرۇممان (Northrop Grumman) شىركىتى ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ «ئۇزارتىلغان مۇساپىلىك ئادەمسىز ئايروپىلانلارغا قارشى تۇرۇش سىستېمىسى» (XRC) پىروگراممىسى دائىرىسىدە، باشقۇرۇلىدىغان بومبا تەجرىبە نۇسخىلىرىنىڭ قاتتىق يېقىلغۇلۇق رامجې...",
+      "en": "Northrop Grumman has secured an $18.8m contract from the US Army to develop and integrate solid-fuel ramjet propulsion for missile prototypes in the eXtended Range Counter-Uncrewed Aircraft System (XRC) programme."
+    },
+    "content": {
+      "ug": "نورتوپ گرۇممان (Northrop Grumman) شىركىتى ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ «ئۇزارتىلغان مۇساپىلىك ئادەمسىز ئايروپىلانلارغا قارشى تۇرۇش سىستېمىسى» (XRC) پىروگراممىسى دائىرىسىدە، باشقۇرۇلىدىغان بومبا تەجرىبە نۇسخىلىرىنىڭ قاتتىق يېقىلغۇلۇق رامجېت ئىتتىرىش سىستېمىسىنى تەتقىق قىلىپ ياساش ۋە بىر گەۋدىلەشتۈرۈش ئۈچۈن 18.8 مىليون دوللار قىممىتىدىكى بىر توختامنى قولغا كەلتۈردى.\n\n---\n📌 **مەنبە:** Army Technology",
+      "en": "Northrop Grumman has secured an $18.8m contract from the US Army to develop and integrate solid-fuel ramjet propulsion for missile prototypes in the eXtended Range Counter-Uncrewed Aircraft System (XRC) programme.\n\n---\n**Source:** Army Technology"
+    },
+    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/09/Northrop-Grumman-19.jpg",
+    "author": "Army Technology",
+    "date": "2024-11-15",
+    "status": "published",
+    "featured": true,
+    "views": 88,
+    "tags": [
+      "ھەربىي",
+      "ئامېرىكا_ئارمىيەسى",
+      "باشقۇرۇلىدىغان_بومبا",
+      "ئۇچقۇچىسىز_ئايروپىلان"
+    ],
+    "specs": {
+      "مەنبە": "Army Technology",
+      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/northerop-grumman-us-army-xrc/",
+      "sourceUrl": "https://www.army-technology.com/news/northerop-grumman-us-army-xrc/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1790846336299",
     "category": "analysis",
     "title": {

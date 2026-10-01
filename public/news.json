@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790868698358_932",
+    "category": "naval",
+    "title": {
+      "ug": "گوللاندىيە بېلگىيەنىڭ سۇ ئاستى پاراخوتلىرىغا قارشى تۇرۇش (ASW) فىرېگات پاراخوتى تۈرىدىن چېكىنىش ئېھتىماللىقى ئىچىدە سۆھبەتلەرنىڭ داۋاملىشىۋاتقانلىقىنى بىلدۈردى",
+      "en": "Dutch say ASW frigate talks ongoing amid reports Belgium may quit project"
+    },
+    "summary": {
+      "ug": "گوللاندىيە ۋە بېلگىيەنىڭ بىرلەشمە ھالدا دېڭىز ئارمىيەسى فىرېگات پاراخوتلىرىنى تەمىنلەش كېلىشىمى كۆپ يىللارغا سوزۇلۇپ كەتكەن كېچىكىشلەرگە دۇچ كەلگەن مەزگىلدە، بېلگىيەنىڭ يېڭى دېڭىز فىرېگات پاراخوتلىرىنى ۋاقتىدا قولغا كەلتۈرۈش ئۈچۈن بېسىم ئىش...",
+      "en": "Belgium is pushing to get new naval frigates on time, as a joint procurement with the Netherlands is delayed by years."
+    },
+    "content": {
+      "ug": "گوللاندىيە ۋە بېلگىيەنىڭ بىرلەشمە ھالدا دېڭىز ئارمىيەسى فىرېگات پاراخوتلىرىنى تەمىنلەش كېلىشىمى كۆپ يىللارغا سوزۇلۇپ كەتكەن كېچىكىشلەرگە دۇچ كەلگەن مەزگىلدە، بېلگىيەنىڭ يېڭى دېڭىز فىرېگات پاراخوتلىرىنى ۋاقتىدا قولغا كەلتۈرۈش ئۈچۈن بېسىم ئىشلىتىۋاتقانلىقى ۋە بۇ قۇرۇلۇشتىن چېكىنىش ئېھتىماللىقى بارلىقى توغرىسىدىكى خەۋەرلەر ئوتتۇرىغا چىققاندىن كېيىن، گوللاندىيە تەرەپ بۇ ھەقتىكى سۆھبەتلەرنىڭ ھازىرمۇ داۋاملىشىۋاتقانلىقىنى جاكارلىدى.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "Belgium is pushing to get new naval frigates on time, as a joint procurement with the Netherlands is delayed by years.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/2KD66FNFKJFPTLSZ3GZAFLPDYE.jpg",
+    "author": "Defense News",
+    "date": "2026-06-07",
+    "status": "published",
+    "featured": true,
+    "views": 129,
+    "tags": [
+      "مۇداپىئە",
+      "دېڭىز_ئارمىيەسى",
+      "فىرېگات",
+      "گوللاندىيە",
+      "بېلگىيە"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/global/europe/2026/10/01/dutch-say-asw-frigate-talks-ongoing-amid-reports-belgium-may-quit-project/",
+      "sourceUrl": "https://www.defensenews.com/global/europe/2026/10/01/dutch-say-asw-frigate-talks-ongoing-amid-reports-belgium-may-quit-project/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "dossier-1790852134883",
     "title": {
       "ug": "مېھراب بىلەن نەيزە ئارىسىدا: نۇر ئۈستىگە نۇر.. ئىشغالىيەتچىلەرنىڭ سىڭىپ كىرىشىنى"

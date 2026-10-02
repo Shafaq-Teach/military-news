@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790936794017_76",
+    "category": "drones",
+    "title": {
+      "ug": "پېنتاگوننىڭ ئۇچقۇچىسىز ئايروپىلان مۇسابىقىسىدە «نېروس» ۋە «پېرېننىئال ئاۋتونومىيە» شىركەتلىرى ئالدىنقى ئورۇنغا ئۆتتى",
+      "en": "Neros, Perennial Autonomy lead in Pentagon’s drone competition"
+    },
+    "summary": {
+      "ug": "ئامېرىكا دۆلەت مۇداپىئە مىنىستىرلىقى (پېنتاگون) نىڭ يۇقىرى سۈپەتلىك ھەم ئەرزان باھالىق سودا خاراكتېرلىك ئۇچقۇچىسىز ئايروپىلانلارنى (دىرون) ئىشلەپچىقىرىش ئىقتىدارىغا ئىگە كارخانىلارنى تاللاپ چىقىش مەقسىتىدە ئۆتكۈزگەن مۇسابىقىسىنىڭ ئىككىنچى ب...",
+      "en": "Two companies scored highest during the second phase of a Pentagon competition to find companies that can produce high-quality, low-cost commercial drones."
+    },
+    "content": {
+      "ug": "ئامېرىكا دۆلەت مۇداپىئە مىنىستىرلىقى (پېنتاگون) نىڭ يۇقىرى سۈپەتلىك ھەم ئەرزان باھالىق سودا خاراكتېرلىك ئۇچقۇچىسىز ئايروپىلانلارنى (دىرون) ئىشلەپچىقىرىش ئىقتىدارىغا ئىگە كارخانىلارنى تاللاپ چىقىش مەقسىتىدە ئۆتكۈزگەن مۇسابىقىسىنىڭ ئىككىنچى باسقۇچىدا، «نېروس» (Neros) ۋە «پېرېننىئال ئاۋتونومىيە» (Perennial Autonomy) شىركەتلىرى ئەڭ يۇقىرى نومۇرغا ئېرىشىپ ئالدىنقى قاتاردىن ئورۇن ئالدى.\n\n---\n📌 **مەنبە:** C4ISRNET",
+      "en": "Two companies scored highest during the second phase of a Pentagon competition to find companies that can produce high-quality, low-cost commercial drones.\n\n---\n**Source:** C4ISRNET"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/5P3QO3TXHJGJNCRVDV4YDT266Y.jpg",
+    "author": "C4ISRNET",
+    "date": "2026-10-02",
+    "status": "published",
+    "featured": true,
+    "views": 119,
+    "tags": [
+      "پېنتاگون",
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "ھەربىي تېخنىكا",
+      "مۇداپىئە"
+    ],
+    "specs": {
+      "مەنبە": "C4ISRNET",
+      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/unmanned/2026/10/01/neros-perennial-autonomy-lead-in-pentagons-drone-competition/",
+      "sourceUrl": "https://www.c4isrnet.com/unmanned/2026/10/01/neros-perennial-autonomy-lead-in-pentagons-drone-competition/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790925746052_214",
     "category": "weapons",
     "title": {

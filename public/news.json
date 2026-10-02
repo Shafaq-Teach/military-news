@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1790914613911_313",
+    "category": "weapons",
+    "title": {
+      "ug": "ئوق-دورا زاپىسى ئەندىشىسى جەريانىدا، ئامېرىكا دېڭىز ئارمىيەسى RTX گۇرۇھىنىڭ رەيتېئون شىركىتى بىلەن SM-6 باشقۇرۇلىدىغان بومبىلىرىنى سېتىۋېلىش بويىچە 24.4 مىليارد دوللارلىق توختام ئىمزالىدى",
+      "en": "US Navy awards RTX’s Raytheon $24.4B for SM-6 missiles amid stockpile concerns"
+    },
+    "summary": {
+      "ug": "مەزكۇر SM-6 تىپلىق تۇتۇپ قالغۇچى باشقۇرۇلىدىغان بومبىلارنى سېتىۋېلىش كېلىشىمى، پېنتاگوننىڭ يېقىن شەرقتىكى توقۇنۇشلار سەۋەبىدىن ئازىيىپ كەتكەن ئوق-دورا زاپاسلىرىنى جىددىي تولۇقلاشقا تىرىشىۋاتقان بىر پەيتىدە ئىمزالاندى.",
+      "en": "The deal for the SM-6 interceptors comes as the Pentagon pushes to replenish munitions stockpiles depleted by conflicts in the Middle East."
+    },
+    "content": {
+      "ug": "مەزكۇر SM-6 تىپلىق تۇتۇپ قالغۇچى باشقۇرۇلىدىغان بومبىلارنى سېتىۋېلىش كېلىشىمى، پېنتاگوننىڭ يېقىن شەرقتىكى توقۇنۇشلار سەۋەبىدىن ئازىيىپ كەتكەن ئوق-دورا زاپاسلىرىنى جىددىي تولۇقلاشقا تىرىشىۋاتقان بىر پەيتىدە ئىمزالاندى.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "The deal for the SM-6 interceptors comes as the Pentagon pushes to replenish munitions stockpiles depleted by conflicts in the Middle East.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/TI4GBTVCMFGWHGVVCCTJ5634PI.jpg",
+    "author": "Defense News",
+    "date": "2026-10-02",
+    "status": "published",
+    "featured": true,
+    "views": 137,
+    "tags": [
+      "ئامېرىكا دېڭىز ئارمىيەسى",
+      "رەيتېئون",
+      "SM-6 باشقۇرۇلىدىغان بومبىسى",
+      "پېنتاگون",
+      "مۇداپىئە"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/industry/techwatch/2026/10/01/us-navy-awards-rtxs-raytheon-244b-for-sm-6-missiles-amid-stockpile-concerns/",
+      "sourceUrl": "https://www.defensenews.com/industry/techwatch/2026/10/01/us-navy-awards-rtxs-raytheon-244b-for-sm-6-missiles-amid-stockpile-concerns/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790914588900_298",
     "category": "weapons",
     "title": {

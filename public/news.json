@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1790925746052_214",
+    "category": "weapons",
+    "title": {
+      "ug": "ھەربىي سانائەت خەۋەرلىرى: مالىيە يىلى ئاخىرىدىكى ئىستراتېگىيەلىك مەسلىھەتلەر ۋە ئادەمسىز كېمە تېخنىكىسىدىكى يېڭى ئۆزگىرىشلەر",
+      "en": "Defense Business Brief: End-of-fiscal-year advice for founders; Navy drone boats; Powerus to go public"
+    },
+    "summary": {
+      "ug": "مەزكۇر ھەربىي سانائەت خەۋەرلىرى دوكلاتىدا، مالىيە يىلى ئاخىرلاشقان مەزگىلدە مۇداپىئە ساھەسىدىكى شىركەت قۇرغۇچىلىرىغا بېرىلگەن ئىستراتېگىيەلىك مەسلىھەتلەر، دېڭىز ئارمىيەسىنىڭ ئادەمسىز كېمە تېخنىكىسىدىكى يېڭى تەرەققىياتلار ھەمدە پائۇئېرس (Pow...",
+      "en": ""
+    },
+    "content": {
+      "ug": "مەزكۇر ھەربىي سانائەت خەۋەرلىرى دوكلاتىدا، مالىيە يىلى ئاخىرلاشقان مەزگىلدە مۇداپىئە ساھەسىدىكى شىركەت قۇرغۇچىلىرىغا بېرىلگەن ئىستراتېگىيەلىك مەسلىھەتلەر، دېڭىز ئارمىيەسىنىڭ ئادەمسىز كېمە تېخنىكىسىدىكى يېڭى تەرەققىياتلار ھەمدە پائۇئېرس (Powerus) شىركىتىنىڭ ئاشكارە پاي چەك بازىرىغا كىرىش پىلانى قاتارلىق مۇھىم ئۇچۇرلار بايان قىلىندى.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/09/30/DBB_lander/large.jpg",
+    "author": "Defense One",
+    "date": "2024-05-22",
+    "status": "published",
+    "featured": true,
+    "views": 77,
+    "tags": [
+      "ھەربىي",
+      "ئادەمسىز كېمە",
+      "مالىيە",
+      "مۇداپىئە سانائىتى"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/business/2026/09/defense-business-brief-end-fiscal-year-advice-founders-navy-drone-boats-powerus-go-public/416357/",
+      "sourceUrl": "https://www.defenseone.com/business/2026/09/defense-business-brief-end-fiscal-year-advice-founders-navy-drone-boats-powerus-go-public/416357/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1790925720934_230",
     "category": "weapons",
     "title": {

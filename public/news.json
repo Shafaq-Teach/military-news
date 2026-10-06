@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791284826262_878",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا دۆلەتلىك ئاخبارات باشلىقى ئاقساراينىڭ سۈنئىي ئەقىل ئىشلىرىغا مەسئۇل باش نازارەتچىلىكىگە تەيىنلەندى",
+      "en": "US spy chief tapped as White House AI czar"
+    },
+    "summary": {
+      "ug": "ئامېرىكا دۆلەتلىك ئاخبارات باش مۇدىرى جېي كلايتون ئاقساراينىڭ سۈنئىي ئەقىل مەسىلىلىرىگە مەسئۇل باش نازارەتچىسى قىلىپ تەيىنلەنگەن بولۇپ، ئۇ بۇنىڭدىن كېيىن دۆلەت ئىچىدىكى كەڭ دائىرىلىك تېخنىكا ۋە ئىقتىساد سىياسىتىگە ئائىت مۇزاكىرىلەرگە يېتەكچ...",
+      "en": "Director of National Intelligence Jay Clayton will now helm broad domestic technology and economic policy discussions."
+    },
+    "content": {
+      "ug": "ئامېرىكا دۆلەتلىك ئاخبارات باش مۇدىرى جېي كلايتون ئاقساراينىڭ سۈنئىي ئەقىل مەسىلىلىرىگە مەسئۇل باش نازارەتچىسى قىلىپ تەيىنلەنگەن بولۇپ، ئۇ بۇنىڭدىن كېيىن دۆلەت ئىچىدىكى كەڭ دائىرىلىك تېخنىكا ۋە ئىقتىساد سىياسىتىگە ئائىت مۇزاكىرىلەرگە يېتەكچىلىك قىلىدۇ.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "Director of National Intelligence Jay Clayton will now helm broad domestic technology and economic policy discussions.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/05/100526ClaytonNG-1/large.jpg",
+    "author": "Defense One",
+    "date": "2026-10-06",
+    "status": "published",
+    "featured": true,
+    "views": 67,
+    "tags": [
+      "ئامېرىكا",
+      "ئاخبارات",
+      "سۈنئىي ئەقىل",
+      "ئاقساراي",
+      "تېخنىكا سىياسىتى"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/policy/2026/10/us-intel-chief-white-house-ai-czar/416416/",
+      "sourceUrl": "https://www.defenseone.com/policy/2026/10/us-intel-chief-white-house-ai-czar/416416/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791252267557_819",
     "category": "weapons",
     "title": {
@@ -3478,41 +3513,6 @@
       "مەنبە": "sUAS News (Drones)",
       "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/09/wingtraray-receives-c3-and-c6-certification-from-eu-drone-port/",
       "sourceUrl": "https://www.suasnews.com/2026/09/wingtraray-receives-c3-and-c6-certification-from-eu-drone-port/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1790769968115_378",
-    "category": "aviation",
-    "title": {
-      "ug": "بوئىن شىركىتىنىڭ F/A-XX تۈرىدىكى غەلبىسى: شىركەتنىڭ ئىستراتېگىيەلىك كەلگۈسى ۋە يېڭى خىرىسلار",
-      "en": "What Boeing’s F/A-XX win means for the company, and what challenges come next"
-    },
-    "summary": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيەسىنىڭ كېيىنكى ئەۋلاد كۈرەشچى ئايروپىلان تۈرى بولغان F/A-XX نى بوئىن (Boeing) شىركىتىنىڭ قولغا كەلتۈرۈشى، شىركەتنىڭ ئىشلەپچىقىرىش قوشۇنىنىڭ يەنە بىر زور كۆلەملىك پروگراممىنى ئۈستىگە ئېلىش ئىقتىدارىغا قارىتا تۈرلۈك سوئال...",
-      "en": "The selection also raises questions about how Boeing’s workforce will take on another major program."
-    },
-    "content": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيەسىنىڭ كېيىنكى ئەۋلاد كۈرەشچى ئايروپىلان تۈرى بولغان F/A-XX نى بوئىن (Boeing) شىركىتىنىڭ قولغا كەلتۈرۈشى، شىركەتنىڭ ئىشلەپچىقىرىش قوشۇنىنىڭ يەنە بىر زور كۆلەملىك پروگراممىنى ئۈستىگە ئېلىش ئىقتىدارىغا قارىتا تۈرلۈك سوئاللارنى تۇغدۇرماقتا. بۇ غەلبە شىركەت ئۈچۈن زور ئىستراتېگىيەلىك پۇرسەت بولسىمۇ، ئەمما كەلگۈسىدىكى تېخنىكىلىق قىيىنچىلىقلار ۋە ئەمگەك كۈچى بايلىقىنى باشقۇرۇش بېسىمى شىركەت دۇچ كېلىدىغان يېڭى سىناقلارغا ئايلىنىشى مۇمكىن.\n\n---\n📌 **مەنبە:** Breaking Defense",
-      "en": "The selection also raises questions about how Boeing’s workforce will take on another major program.\n\n---\n**Source:** Breaking Defense"
-    },
-    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2024/06/Boeing-HQ-e1719847032260-1024x575.jpg",
-    "author": "Breaking Defense",
-    "date": "2024-05-22",
-    "status": "published",
-    "featured": true,
-    "views": 168,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "بوئىن",
-      "ئايروپىلان"
-    ],
-    "specs": {
-      "مەنبە": "Breaking Defense",
-      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/09/what-boeings-f-a-xx-win-means-for-the-company-and-what-challenges-come-next/",
-      "sourceUrl": "https://breakingdefense.com/2026/09/what-boeings-f-a-xx-win-means-for-the-company-and-what-challenges-come-next/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

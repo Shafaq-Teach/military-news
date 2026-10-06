@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1791306521522_34",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا مۇداپىئە مىنىستىرلىقى ئۇچقۇچىسىز ئايروپىلانغا قارشى تۇرۇش سىنىقى ئۈچۈن تۆت يۆنىلىشلىك ئېنېرگىيە سىستېمىسىنى تاللىدى",
+      "en": "Pentagon selects four directed-energy systems for counter-drone pilot"
+    },
+    "summary": {
+      "ug": "ئامېرىكا مۇداپىئە مىنىستىرلىقى دۆلەت ئىچى مۇداپىئە خەفىگە تاقابىل تۇرۇش ئىقتىدارىنى باھالاش مەقسەت قىلىنغان ئۇچقۇچىسىز ئايروپىلانغا قارشى تۇرۇش سىناق پىلانى ئۈچۈن، تۆت يۇقىرى ئېنېرگىيەلىك لازېر ۋە يۇقىرى قۇۋۋەتلىك مىدولنۇق سىستېمىسىنى رەسمىي تاللىدى.",
+      "en": "The US Department of War (DoW) has selected four high-energy laser and high-powered microwave systems for a counter-uncrewed aircraft pilot intended to assess their operational use in homeland defence."
+    },
+    "content": {
+      "ug": "ئامېرىكا مۇداپىئە مىنىستىرلىقى دۆلەت ئىچى مۇداپىئە خەفىگە تاقابىل تۇرۇش ئىقتىدارىنى باھالاش مەقسەت قىلىنغان ئۇچقۇچىسىز ئايروپىلانغا قارشى تۇرۇش سىناق پىلانى ئۈچۈن، تۆت يۇقىرى ئېنېرگىيەلىك لازېر ۋە يۇقىرى قۇۋۋەتلىك مىدولنۇق سىستېمىسىنى رەسمىي تاللىدى.\n\n---\n📌 **مەنبە:** Army Technology",
+      "en": "The US Department of War (DoW) has selected four high-energy laser and high-powered microwave systems for a counter-uncrewed aircraft pilot intended to assess their operational use in homeland defence.\n\n---\n**Source:** Army Technology"
+    },
+    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/10/Counter-drone.jpg",
+    "author": "Army Technology",
+    "date": "2026-10-06",
+    "status": "published",
+    "featured": true,
+    "views": 150,
+    "tags": [
+      "مۇداپىئە",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئامېرىكا"
+    ],
+    "specs": {
+      "مەنبە": "Army Technology",
+      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/us-counter-drone-pilot/",
+      "sourceUrl": "https://www.army-technology.com/news/us-counter-drone-pilot/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791306531250_200",
     "category": "weapons",
     "title": {
@@ -3480,41 +3514,6 @@
       "مەنبە": "C4ISRNET",
       "ئەسلى ئۇلانما": "https://www.c4isrnet.com/global/europe/2026/10/05/germany-to-set-up-first-drone-regiment-next-year-modeled-after-ukraine-war-lessons/",
       "sourceUrl": "https://www.c4isrnet.com/global/europe/2026/10/05/germany-to-set-up-first-drone-regiment-next-year-modeled-after-ukraine-war-lessons/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1790903785987_626",
-    "category": "weapons",
-    "title": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيەسى RTX شىركىتى بىلەن SPY-6 رادار سىستېمىسى ئۈچۈن 511 مىليون دوللارلىق توختام ئىمزالىدى",
-      "en": "RTX wins $511m US Navy contract for SPY-6 hardware"
-    },
-    "summary": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيەسى ئارتىئېكىس (RTX) شىركىتى بىلەن تۈزۈلگەن توختامغا تۈزىتىش كىرگۈزۈپ، AN/SPY-6(V) تۈرىدىكى رادارلارنىڭ قاتتىق دېتاللىرىنى ئىشلەپچىقىرىش ۋە زاپاس زاپچاسلىرىنى سېتىۋېلىش ئۈچۈن 511 مىليون دوللار قىممىتىدە يېڭى بىر كېلىشىم...",
-      "en": "RTX won US Navy contract modification to produce hardware and purchase spares for the AN/SPY-6(V) family of radars.\n\n\nThe post RTX wins $511m US Navy contract for SPY-6 hardware appeared first on Naval Technology."
-    },
-    "content": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيەسى ئارتىئېكىس (RTX) شىركىتى بىلەن تۈزۈلگەن توختامغا تۈزىتىش كىرگۈزۈپ، AN/SPY-6(V) تۈرىدىكى رادارلارنىڭ قاتتىق دېتاللىرىنى ئىشلەپچىقىرىش ۋە زاپاس زاپچاسلىرىنى سېتىۋېلىش ئۈچۈن 511 مىليون دوللار قىممىتىدە يېڭى بىر كېلىشىم ھاسىل قىلدى. مەزكۇر تۈر ئامېرىكا دېڭىز ئارمىيەسىنىڭ زامانىۋى رادار تېخنىكىسىنى كۈچەيتىش ۋە ئۇرۇش پاراخوتلىرىنىڭ ھاۋا مۇداپىئە ھەمدە باشقۇرۇلىدىغان بومبىدىن مۇداپىئەلىنىش ئىقتىدارىنى ئۆستۈرۈشنى مەقسەت قىلىدۇ.\n\n---\n📌 **مەنبە:** Naval Technology",
-      "en": "RTX won US Navy contract modification to produce hardware and purchase spares for the AN/SPY-6(V) family of radars.\n\n\nThe post RTX wins $511m US Navy contract for SPY-6 hardware appeared first on Naval Technology.\n\n---\n**Source:** Naval Technology"
-    },
-    "imageUrl": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/10/SPY6.jpg",
-    "author": "Naval Technology",
-    "date": "2024-05-23",
-    "status": "published",
-    "featured": true,
-    "views": 151,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "رادار",
-      "ئامېرىكا"
-    ],
-    "specs": {
-      "مەنبە": "Naval Technology",
-      "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/rtx-511m-us-navy-contract-spy-6/",
-      "sourceUrl": "https://www.naval-technology.com/news/rtx-511m-us-navy-contract-spy-6/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

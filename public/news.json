@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791284988136_588",
+    "category": "analysis",
+    "title": {
+      "ug": "ئىراننىڭ باشقۇرۇلىدىغان بومبا ۋە ئۇچقۇچىسىز ئايروپىلان ئىشلەپچىقىرىش ئىقتىدارى ئېغىر خىرىسلارغا دۇچ كەلمەكتە",
+      "en": "Iran Faces Severe Challenges to Rebuild Missile and Drone Production"
+    },
+    "summary": {
+      "ug": "ئىسرائىلىيە ۋە ئامېرىكا ئارمىيەسىنىڭ 2025-يىلى ۋە 2026-يىلىنىڭ بېشىدا ئىرانغا قاراتقان كەڭ كۆلەملىك ھەربىي زەربىلىرىدىن كېيىن، تېھراننىڭ ئۆز قورال ئامبىرىدىكى باشقۇرۇلىدىغان بومبا ۋە ئۇچقۇچىسىز ئايروپىلانلارنى قايتىدىن تولۇقلاش ئىقتىدارى ئا...",
+      "en": "With the significant Israeli and U.S. military attacks against Iran in 2025 and early 2026, analysts have discussed and debated Iran&#8217;s ability to replenish its missile and drone arsenal. Since 2024, Iran has burned through thousands o"
+    },
+    "content": {
+      "ug": "ئىسرائىلىيە ۋە ئامېرىكا ئارمىيەسىنىڭ 2025-يىلى ۋە 2026-يىلىنىڭ بېشىدا ئىرانغا قاراتقان كەڭ كۆلەملىك ھەربىي زەربىلىرىدىن كېيىن، تېھراننىڭ ئۆز قورال ئامبىرىدىكى باشقۇرۇلىدىغان بومبا ۋە ئۇچقۇچىسىز ئايروپىلانلارنى قايتىدىن تولۇقلاش ئىقتىدارى ئانالىزچىلار ئارىسىدا جىددىي مۇنازىرە قوزغىماقتا. ئىران 2024-يىلىدىن بۇيان ئىسرائىلىيە، ئامېرىكا ھەربىي بازىلىرى ۋە رايوندىكى باشقا نىشانلارغا قاراتقان ئۆچ ئېلىش خاراكتېرلىك ھۇجۇملىرىدا مىڭلىغان باللىستىك باشقۇرۇلىدىغان بومبا، قاناتلىق باشقۇرۇلىدىغان بومبا (كروز) ۋە بىر قېتىملىق ھۇجۇم قىلىدىغان ئۇچقۇچىسىز ئايروپىلانلارنى (دىرون) سەرپ قىلىپ تۈگەتكەن. بۇنىڭدىن باشقا، ئىتتىپاقداشلارنىڭ ھاۋا ۋە باشقۇرۇلىدىغان بومبا زەربىلىرى نۇرغۇنلىغان ئىران قوراللىرىنى ۋە ئۇلارنىڭ قويۇپ بېرىش سىستېمىلىرىنى ۋەيران قىلغان. بولۇپمۇ 2024-يىلىدىن 2026-يىلىغىچە بولغان ئارىلىقتىكى ئۈزلۈكسىز ھۇجۇملار ئىراننىڭ باشقۇرۇلىدىغان بومبا ۋە ئۇچقۇچىسىز ئايروپىلان سانائىتىگە ئومۇميۈزلۈك ۋە ئېغىر زىيانلارنى ئېلىپ كەلگەن.\n\n---\n📌 **مەنبە:** War on the Rocks",
+      "en": "With the significant Israeli and U.S. military attacks against Iran in 2025 and early 2026, analysts have discussed and debated Iran&#8217;s ability to replenish its missile and drone arsenal. Since 2024, Iran has burned through thousands of ballistic missiles, cruise missiles, and one-way attack drones in its retaliatory attacks against Israel, U.S. military bases, and other targets in the region. In addition, air and missile strikes destroyed many more Iranian missiles and drones along with their launchers. Importantly, Israeli and U.S. attacks in 2024, 2025, and especially 2026 cumulatively caused severe damage to Iran&#8217;s missile and drone industry as well\n\n\nThe post Iran Faces Severe Challenges to Rebuild Missile and Drone Production appeared first on War on the Rocks.\n\n---\n**Source:** War on the Rocks"
+    },
+    "imageUrl": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-47189-cca6b3a92da4.jpg",
+    "author": "War on the Rocks",
+    "date": "2026-10-06",
+    "status": "published",
+    "featured": true,
+    "views": 113,
+    "tags": [
+      "ئىران",
+      "ئىسرائىلىيە",
+      "ئامېرىكا",
+      "باشقۇرۇلىدىغان بومبا",
+      "ئۇچقۇچىسىز ئايروپىلان"
+    ],
+    "specs": {
+      "مەنبە": "War on the Rocks",
+      "ئەسلى ئۇلانما": "https://warontherocks.com/iran-faces-severe-challenges-to-rebuild-missile-and-drone-production/",
+      "sourceUrl": "https://warontherocks.com/iran-faces-severe-challenges-to-rebuild-missile-and-drone-production/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791284826262_878",
     "category": "weapons",
     "title": {
@@ -3479,40 +3514,6 @@
       "مەنبە": "Defense One",
       "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/09/hegseth-orders-cyber-intelligence-agencies-prioritize-election-defense/416295/",
       "sourceUrl": "https://www.defenseone.com/threats/2026/09/hegseth-orders-cyber-intelligence-agencies-prioritize-election-defense/416295/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1790758850743_731",
-    "category": "drones",
-    "title": {
-      "ug": "WingtraRAY ئۇچقۇچىسىز ئايروپىلانى ياۋروپا ئىتتىپاقىنىڭ C3 ۋە C6 تۈرىدىكى گۇۋاھنامىسىگە ئېرىشتى",
-      "en": "WingtraRAY Receives C3 and C6 Certification from EU Drone Port"
-    },
-    "summary": {
-      "ug": "Wingtra شىركىتى تەرىپىدىن تەكشۈرۈش ۋە خەرىتىلەش مەقسىتىدە تەتقىق قىلىنغان WingtraRAY ناملىق تىك قوزغىلىپ تىك قونىدىغان (VTOL) ئۇچقۇچىسىز ئايروپىلانى، ياۋروپا ئىتتىپاقى ئۇچقۇچىسىز ئايروپىلان پورتى (EU Drone Port) تەرىپىدىن بېرىلىدىغان C3 ۋە ...",
-      "en": "The WingtraRAY, Wingtra’s VTOL survey and mapping drone, now carries two EU class identification labels:"
-    },
-    "content": {
-      "ug": "Wingtra شىركىتى تەرىپىدىن تەكشۈرۈش ۋە خەرىتىلەش مەقسىتىدە تەتقىق قىلىنغان WingtraRAY ناملىق تىك قوزغىلىپ تىك قونىدىغان (VTOL) ئۇچقۇچىسىز ئايروپىلانى، ياۋروپا ئىتتىپاقى ئۇچقۇچىسىز ئايروپىلان پورتى (EU Drone Port) تەرىپىدىن بېرىلىدىغان C3 ۋە C6 تۈرىدىكى گۇۋاھنامىگە ئېرىشتى. مەزكۇر ئىلگىرىلەش نەتىجىسىدە، WingtraRAY ئايروپىلانى نۆۋەتتە ياۋروپا ئىتتىپاقىنىڭ ئىككى خىل تۈر پەرقلەندۈرۈش بەلگىسىنى (class identification labels) رەسمىي ئېلىپ يۈرۈش سالاھىيىتىگە ئىگە بولۇپ، ئۆزىنىڭ تېخنىكىلىق ئۆلچەم ۋە بىخەتەرلىك تەلىپىگە تولۇق ئۇيغۇنلىقىنى ئىسپاتلىدى.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
-      "en": "The WingtraRAY, Wingtra’s VTOL survey and mapping drone, now carries two EU class identification labels:\n\n---\n**Source:** sUAS News (Drones)"
-    },
-    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/09/EUDP_WingtraRay-01-768x543-1.jpg?fit=768%2C543&#038;ssl=1",
-    "author": "sUAS News (Drones)",
-    "date": "2024-05-22",
-    "status": "published",
-    "featured": true,
-    "views": 95,
-    "tags": [
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "تېخنىكا",
-      "ياۋروپا ئىتتىپاقى",
-      "WingtraRAY"
-    ],
-    "specs": {
-      "مەنبە": "sUAS News (Drones)",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/09/wingtraray-receives-c3-and-c6-certification-from-eu-drone-port/",
-      "sourceUrl": "https://www.suasnews.com/2026/09/wingtraray-receives-c3-and-c6-certification-from-eu-drone-port/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

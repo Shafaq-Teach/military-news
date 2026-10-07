@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1791393611670_590",
+    "category": "weapons",
+    "title": {
+      "ug": "ئاندۇرىل شىركىتى دۆلەتنىڭ قاتنىشىشى بىلەن ئەنئەنىۋى سۇ ئاستى پاراخوتى ياساش ساھەسىگە قەدەم قويدى",
+      "en": "Anduril wades into traditional shipbuilding arena with major submarine play"
+    },
+    "summary": {
+      "ug": "سەيشەنبە كۈنى پرېزىدېنت دونالد ترامپنىڭ بىلدۈرۈشىچە، مۇداپىئە تېخنىكا شىركىتى بولغان ئاندۇرىل بالتىمور سىرتىدىكى بىر پاراخوت زاۋۇتىدا سۇ ئاستى پاراخوتى زاپچاسلىرىنى ئىشلەپچىقىرىشنى پىلانلىغان بولۇپ، ھۆكۈمەت بۇ زاۋۇتنىڭ تەخمىنەن پىرسەنت قىرى...",
+      "en": "The defense tech company plans to build submarine components at a shipyard outside of Baltimore in which the government will have an approximate 40 percent stake, President Donald Trump said Tuesday."
+    },
+    "content": {
+      "ug": "🏷️ <b>تۈرى:</b> #ھەربىي_سانائەت #سۇ_ئاستى_كېمىسى #مۇداپىئە_تېخنىكىسى\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌 <b>ئاندۇرىل شىركىتى دۆلەتنىڭ قاتنىشىشى بىلەن ئەنئەنىۋى سۇ ئاستى پاراخوتى ياساش ساھەسىگە قەدەم قويدى</b> 📝 سەيشەنبە كۈنى پرېزىدېنت دونالد ترامپنىڭ بىلدۈرۈشىچە، مۇداپىئە تېخنىكا شىركىتى بولغان ئاندۇرىل بالتىمور سىرتىدىكى بىر پاراخوت زاۋۇتىدا سسۇ ئاستى پاراخوتى زاپچاسلىرىنى ئىشلەپچىقىرىشنى پىلانلىغان بولۇپ، ھۆكۈمەت بۇ زاۋۇتنىڭ تەخمىنەن پىرسەنت قىرىق پاي ھوقۇقىغا ئىگە بولىدىكەن. 📅 <b>ئېلان قىلىنغان ۋاقتى:</b> 2026-10-07\n🏢 <b>مەنبە:</b> Defense One\n📌 #مۇداپىئە #سسۇ ئاستى كېمىسى #ئاندۇرىل #ھەربىي سانائەت\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+      "en": "The defense tech company plans to build submarine components at a shipyard outside of Baltimore in which the government will have an approximate 40 percent stake, President Donald Trump said Tuesday.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/07/GettyImages_2298350648/large.jpg",
+    "author": "Defense One",
+    "date": "2026-10-07",
+    "status": "published",
+    "featured": true,
+    "views": 79,
+    "tags": [
+      "مۇداپىئە",
+      "سۇ ئاستى كېمىسى",
+      "ئاندۇرىل",
+      "ھەربىي سانائەت"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/business/2026/10/anduril-wades-traditional-shipbuilding-arena-major-submarine-play/416459/",
+      "sourceUrl": "https://www.defenseone.com/business/2026/10/anduril-wades-traditional-shipbuilding-arena-major-submarine-play/416459/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791382761886_612",
     "category": "weapons",
     "title": {
@@ -3481,41 +3515,6 @@
       "مەنبە": "Breaking Defense",
       "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/after-yearslong-delay-taiwan-receives-first-pair-of-new-f-16s/",
       "sourceUrl": "https://breakingdefense.com/2026/10/after-yearslong-delay-taiwan-receives-first-pair-of-new-f-16s/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791035231123_665",
-    "category": "drones",
-    "title": {
-      "ug": "ياپونىيەنىڭ «يەرشارى بۈركۈتى» (Global Hawk) تىپلىق ئۇچقۇچىسىز ئايروپىلانى ھادىسىگە ئۇچراپ دېڭىزغا چۈشۈپ كەتتى",
-      "en": "Japanese Global Hawk drone splashes down in crash"
-    },
-    "summary": {
-      "ug": "بۇ ھەپتە ياپونىيەگە تەۋە بىر دانە «يەرشارى بۈركۈتى» (Global Hawk) تىپلىق ئۇچقۇچىسىز ئايروپىلان (دىرون) ياپونىيە دېڭىزىغا تىك چۈشۈپ كەتكەن بولۇپ، بۇ قېتىملىق ھادىسە مەزكۇر دۆلەتنىڭ ئىلكىدىكى شۇ تىپتىكى ئۇچقۇچىسىز ئايروپىلانلار ئەترىتىنىڭ ئۈچ...",
-      "en": "A Japanese Global Hawk drone nosedived into the Sea of Japan this week, instantly slashing the country’s fleet of these drones by a third."
-    },
-    "content": {
-      "ug": "بۇ ھەپتە ياپونىيەگە تەۋە بىر دانە «يەرشارى بۈركۈتى» (Global Hawk) تىپلىق ئۇچقۇچىسىز ئايروپىلان (دىرون) ياپونىيە دېڭىزىغا تىك چۈشۈپ كەتكەن بولۇپ، بۇ قېتىملىق ھادىسە مەزكۇر دۆلەتنىڭ ئىلكىدىكى شۇ تىپتىكى ئۇچقۇچىسىز ئايروپىلانلار ئەترىتىنىڭ ئۈچتىن بىر قىسمىنى دەرھال يوققا چىقاردى.\n\n---\n📌 **مەنبە:** C4ISRNET",
-      "en": "A Japanese Global Hawk drone nosedived into the Sea of Japan this week, instantly slashing the country’s fleet of these drones by a third.\n\n---\n**Source:** C4ISRNET"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/CMFCNWC5AND3FHEVW3C57DX3BQ.jpg",
-    "author": "C4ISRNET",
-    "date": "2024-11-23",
-    "status": "published",
-    "featured": true,
-    "views": 29,
-    "tags": [
-      "ھەربىي",
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "ياپونىيە",
-      "يەرشارى بۈركۈتى",
-      "ئاۋىئاتسىيە ھادىسىسى"
-    ],
-    "specs": {
-      "مەنبە": "C4ISRNET",
-      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/global/asia-pacific/2026/09/17/japanese-global-hawk-drone-splashes-down-in-crash/",
-      "sourceUrl": "https://www.c4isrnet.com/global/asia-pacific/2026/09/17/japanese-global-hawk-drone-splashes-down-in-crash/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

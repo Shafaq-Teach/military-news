@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791349987096_549",
+    "category": "analysis",
+    "title": {
+      "ug": "«S&K ئاۋىئاتسىيە شىركىتى» ئامېرىكا ھاۋا ئارمىيەسىنىڭ 4.3 مىليارد دوللارلىق مۇھىم تەمىنات توختامىغا ئېرىشتى",
+      "en": "S&K Aerospace awarded $4.3bn US Air Force PROS 7 contract"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى (USAF) «S&K ئاۋىئاتسىيە شىركىتى» (S&K Aerospace) بىلەن قىممىتى 4.3 مىليارد دوللارغا يېتىدىغان چوڭ تىپتىكى ھۆددىگەرلىك كېلىشىمى تۈزدى. مەزكۇر شىركەت «زاپچاس ۋە رېمونت قىلىش زاكاز سىستېمىسى 7» (PROS 7) پروگراممىسىغا يې...",
+      "en": "S&K Aerospace has received a $4.3bn contract by the US Air Force (USAF) to lead the Parts and Repair Ordering System 7 (PROS 7), delivering supply and logistics support for foreign military sales (FMS) customers over a potential 10-year per"
+    },
+    "content": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى (USAF) «S&K ئاۋىئاتسىيە شىركىتى» (S&K Aerospace) بىلەن قىممىتى 4.3 مىليارد دوللارغا يېتىدىغان چوڭ تىپتىكى ھۆددىگەرلىك كېلىشىمى تۈزدى. مەزكۇر شىركەت «زاپچاس ۋە رېمونت قىلىش زاكاز سىستېمىسى 7» (PROS 7) پروگراممىسىغا يېتەكچىلىك قىلىش مەسئۇلىيىتىنى ئۈستىگە ئالغان بولۇپ، پەرەز قىلىنغان 10 يىللىق مۇددەت ئىچىدە، ئامېرىكىنىڭ تاشقى ھەربىي سېتىش (FMS) تۈرىدىكى شېرىك دۆلەتلەرنى تەمىنات، ئەشيا ئوبوروتى ۋە تېخنىكىلىق رېمونت بويىچە ئەتراپلىق مۇلازىمەت بىلەن كاپالەتلەندۈرىدۇ.\n\n---\n📌 **مەنبە:** Air Force Technology",
+      "en": "S&K Aerospace has received a $4.3bn contract by the US Air Force (USAF) to lead the Parts and Repair Ordering System 7 (PROS 7), delivering supply and logistics support for foreign military sales (FMS) customers over a potential 10-year period.\n\n---\n**Source:** Air Force Technology"
+    },
+    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/SK-Aerospace.jpg",
+    "author": "Air Force Technology",
+    "date": "2026-10-07",
+    "status": "published",
+    "featured": true,
+    "views": 136,
+    "tags": [
+      "ئامېرىكا",
+      "ھاۋا ئارمىيەسى",
+      "ھەربىي تەمىنات",
+      "ئەشيا ئوبوروتى",
+      "FMS"
+    ],
+    "specs": {
+      "مەنبە": "Air Force Technology",
+      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/sk-aerospace-pros7-usaf-contract/",
+      "sourceUrl": "https://www.airforce-technology.com/news/sk-aerospace-pros7-usaf-contract/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791339181274_262",
     "category": "weapons",
     "title": {
@@ -3478,41 +3513,6 @@
       "مەنبە": "Army Technology",
       "ئەسلى ئۇلانما": "https://www.army-technology.com/news/northerop-grumman-us-army-xrc/",
       "sourceUrl": "https://www.army-technology.com/news/northerop-grumman-us-army-xrc/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791002733426_840",
-    "category": "naval",
-    "title": {
-      "ug": "سارونىك شىركىتى تېكساس شتاتىدا «پورت ئالفا» كېمە ياساش زاۋۇتىنىڭ قۇرۇلۇش ئۇلىنى قويدى",
-      "en": "Saronic begins Port Alpha shipyard construction in Texas"
-    },
-    "summary": {
-      "ug": "ئۆزلۈكىدىن باشقۇرۇلىدىغان (ئاپتونوم) پاراخوتلارنى تەتقىق قىلىپ ياسىغۇچى «سارونىك» (Saronic) شىركىتى ئامېرىكىنىڭ تېكساس شتاتىدىكى بروۋنسۋىل پورتىدا (Port of Brownsville) مەخسۇس لايىھەلەنگەن «پورت ئالفا» (Port Alpha) ناملىق يېڭى كېمە ياساش زا...",
-      "en": "Autonomous vessel developer Saronic has broken ground on Port Alpha, a purpose-built shipyard at the Port of Brownsville, Texas.\n\n\nThe post Saronic begins Port Alpha shipyard construction in Texas appeared first on Naval Technology."
-    },
-    "content": {
-      "ug": "ئۆزلۈكىدىن باشقۇرۇلىدىغان (ئاپتونوم) پاراخوتلارنى تەتقىق قىلىپ ياسىغۇچى «سارونىك» (Saronic) شىركىتى ئامېرىكىنىڭ تېكساس شتاتىدىكى بروۋنسۋىل پورتىدا (Port of Brownsville) مەخسۇس لايىھەلەنگەن «پورت ئالفا» (Port Alpha) ناملىق يېڭى كېمە ياساش زاۋۇتىنىڭ قۇرۇلۇش ئۇلىنى قويۇپ، رەسمىي قۇرۇلۇش خىزمىتىنى باشلىدى. بۇ زامانىۋى ئەسلىھە شىركەتنىڭ ئۆزلۈكىدىن باشقۇرۇلىدىغان دېڭىز سىستېمىلىرىنى تەتقىق قىلىپ ياساش ۋە ئىشلەپچىقىرىش ئىقتىدارىنى كۆرۈنەرلىك دەرىجىدە ئاشۇرۇشنى مەقسەت قىلىدۇ.\n\n---\n📌 **مەنبە:** Naval Technology",
-      "en": "Autonomous vessel developer Saronic has broken ground on Port Alpha, a purpose-built shipyard at the Port of Brownsville, Texas.\n\n\nThe post Saronic begins Port Alpha shipyard construction in Texas appeared first on Naval Technology.\n\n---\n**Source:** Naval Technology"
-    },
-    "imageUrl": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/10/Saronic.jpg",
-    "author": "Naval Technology",
-    "date": "2024-11-15",
-    "status": "published",
-    "featured": true,
-    "views": 94,
-    "tags": [
-      "سارونىك",
-      "ئاپتونوم_پاراخوت",
-      "كېمە_ياساش",
-      "تېكساس",
-      "دېڭىز_مۇداپىئەسى"
-    ],
-    "specs": {
-      "مەنبە": "Naval Technology",
-      "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/saronic-begins-construction-port-alpha/",
-      "sourceUrl": "https://www.naval-technology.com/news/saronic-begins-construction-port-alpha/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

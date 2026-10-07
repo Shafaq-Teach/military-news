@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791339160463_279",
+    "category": "naval",
+    "title": {
+      "ug": "40 كۈنلۈك كەسكىن جەڭدىن كېيىن، ئامېرىكا دېڭىز ئارمىيەسىنىڭ قوغلىغۇچى پاراخوتى بازىسىغا قايتتى",
+      "en": "After 40 days of combat, Navy destroyer returns home"
+    },
+    "summary": {
+      "ug": "«فرانك پېتېرسېن كىچىك» (USS Frank Petersen Jr.) ناملىق ئامېرىكا دېڭىز ئارمىيەسىنىڭ قوغلىغۇچى ئۇرۇش پاراخوتى ئۆزىنىڭ 10 ئايلىق ھەربىي ۋەزىپە ئۆتەش مۇددىتى جەريانىدا، ئىران تەرەپتىن قويۇپ بېرىلگەن كۆپلىگەن باشقۇرۇلىدىغان بومبا ۋە ئۇچقۇچىسىز ئ...",
+      "en": "During its 10-month deployment, USS Frank Petersen Jr. warded off scores of Iranian missiles and drones."
+    },
+    "content": {
+      "ug": "«فرانك پېتېرسېن كىچىك» (USS Frank Petersen Jr.) ناملىق ئامېرىكا دېڭىز ئارمىيەسىنىڭ قوغلىغۇچى ئۇرۇش پاراخوتى ئۆزىنىڭ 10 ئايلىق ھەربىي ۋەزىپە ئۆتەش مۇددىتى جەريانىدا، ئىران تەرەپتىن قويۇپ بېرىلگەن كۆپلىگەن باشقۇرۇلىدىغان بومبا ۋە ئۇچقۇچىسىز ئايروپىلان (دىرون) ھۇجۇملىرىنى مۇۋەپپەقىيەتلىك توسۇپ زەربە بەرگەندىن كېيىن، 40 كۈنلۈك كەسكىن جەڭ مەيدانىدىن ئۆز بازىسىغا غەلىبىلىك قايتىپ كەلدى.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "During its 10-month deployment, USS Frank Petersen Jr. warded off scores of Iranian missiles and drones.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/09/29/IMG_1364/large.mpo",
+    "author": "Defense One",
+    "date": "2024-11-15",
+    "status": "published",
+    "featured": true,
+    "views": 22,
+    "tags": [
+      "ھەربىي",
+      "دېڭىز ئارمىيەسى",
+      "قوغلىغۇچى پاراخوت",
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "باشقۇرۇلىدىغان بومبا"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/09/after-40-days-combat-navy-destroyer-returns-home/416311/",
+      "sourceUrl": "https://www.defenseone.com/threats/2026/09/after-40-days-combat-navy-destroyer-returns-home/416311/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791328263593_970",
     "category": "weapons",
     "title": {
@@ -3478,40 +3513,6 @@
       "مەنبە": "Naval Technology",
       "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/fincantieri-pal-indonesia-kri-sriwijaya/",
       "sourceUrl": "https://www.naval-technology.com/news/fincantieri-pal-indonesia-kri-sriwijaya/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1790791847315_588",
-    "category": "weapons",
-    "title": {
-      "ug": "«ئاۋىئو ئامېرىكا» شىركىتى ئۆزىنىڭ ئامېرىكىدىكى تۇنجى قاتتىق يېقىلغۇلۇق راكېتا ماتورى زاۋۇتىنىڭ قۇرۇلۇشىنى باشلىدى",
-      "en": "Ground broken on Avio USA’s first US manufacturing site"
-    },
-    "summary": {
-      "ug": "«ئاۋىئو ئامېرىكا» شىركىتى (Avio USA) ئامېرىكىنىڭ ۋىرگىنىيە ئىشتاتىدىكى خېرت (Hurt) رايونىدا ئۆزىنىڭ ئامېرىكا تەۋەلىكىدىكى تۇنجى ئىشلەپچىقىرىش بازىسى بولغان، كۆلىمى تەخمىنەن 900 مىڭ كۋادرات پۇت كېلىدىغان قاتتىق يېقىلغۇلۇق راكېتا ماتورى زاۋۇت...",
-      "en": "Avio USA has broken ground on a roughly 900,000ft2 solid rocket motor plant in Hurt, Virginia, its first manufacturing facility in the US."
-    },
-    "content": {
-      "ug": "«ئاۋىئو ئامېرىكا» شىركىتى (Avio USA) ئامېرىكىنىڭ ۋىرگىنىيە ئىشتاتىدىكى خېرت (Hurt) رايونىدا ئۆزىنىڭ ئامېرىكا تەۋەلىكىدىكى تۇنجى ئىشلەپچىقىرىش بازىسى بولغان، كۆلىمى تەخمىنەن 900 مىڭ كۋادرات پۇت كېلىدىغان قاتتىق يېقىلغۇلۇق راكېتا ماتورى زاۋۇتىنىڭ ئۇل سېلىش مۇراسىمىنى ئۆتكۈزۈپ، قۇرۇلۇش ئىشلىرىنى رەسمىي باشلىدى. بۇ يېڭى ئەسلىھە دۆلەت مۇداپىئەسى ۋە ئالەم قاتنىشى سانائىتى ئۈچۈن ئىنتايىن مۇھىم بولغان راكېتا ماتورلىرىنى ئىشلەپچىقىرىش ئىقتىدارىنى كۆرۈنەرلىك ئۆستۈرىدۇ.\n\n---\n📌 **مەنبە:** Army Technology",
-      "en": "Avio USA has broken ground on a roughly 900,000ft2 solid rocket motor plant in Hurt, Virginia, its first manufacturing facility in the US.\n\n---\n**Source:** Army Technology"
-    },
-    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/09/Avio-USA.jpg",
-    "author": "Army Technology",
-    "date": "2024-10-24",
-    "status": "published",
-    "featured": true,
-    "views": 71,
-    "tags": [
-      "راكېتا ماتورى",
-      "مۇداپىئە سانائىتى",
-      "ئاۋىئو ئامېرىكا",
-      "ھەربىي تېخنىكا"
-    ],
-    "specs": {
-      "مەنبە": "Army Technology",
-      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/avio-usa-manufacturing-facility/",
-      "sourceUrl": "https://www.army-technology.com/news/avio-usa-manufacturing-facility/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1791371671484_14",
+    "category": "drones",
+    "title": {
+      "ug": "GA-ASI شىركىتى ئامېرىكا دېڭىز ئارمىيەسى بىلەن بىرلىكتە تەقلىدىي جەڭدە ئۆزلۈكىدىن ۋەزىپە پىلانلاش تېخنىكىسىنى سىناق قىلدى",
+      "en": "GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle"
+    },
+    "summary": {
+      "ug": "جېنېرال ئاتومىكىس ئاۋىئاماتكا سىستېمىسى شىركىتى (GA-ASI) ئامېرىكا دېڭىز ئارمىيەسىنىڭ زەربە بېرىشنى پىلانلاش ۋە ئىجرا قىلىش سىستېمىسى بۆلۈمى بىلەن ھەمكارلىشىپ، تەقلىدىي جەڭ مۇھىتىدا ئۇچقۇچىسىز ئايروپىلانلارنىڭ ئۆزلۈكىدىن بىرلىكتە ۋەزىپە پىلا...",
+      "en": "General Atomics Aeronautical Systems, Inc. (GA-ASI) and the U.S. Navy’s Strike Planning and Execution Systems"
+    },
+    "content": {
+      "ug": "جېنېرال ئاتومىكىس ئاۋىئاماتكا سىستېمىسى شىركىتى (GA-ASI) ئامېرىكا دېڭىز ئارمىيەسىنىڭ زەربە بېرىشنى پىلانلاش ۋە ئىجرا قىلىش سىستېمىسى بۆلۈمى بىلەن ھەمكارلىشىپ، تەقلىدىي جەڭ مۇھىتىدا ئۇچقۇچىسىز ئايروپىلانلارنىڭ ئۆزلۈكىدىن بىرلىكتە ۋەزىپە پىلانلاش ئىقتىدارىنى مۇۋەپپەقىيەتلىك نامايان قىلدى. مەزكۇر ھەمكارلىق كەلگۈسىدىكى ئادەمسىز ئۇرۇش سىستېمىلىرىنىڭ جەڭ مەيدانىدىكى ماسلىشىشچانلىقى ۋە ئاپتونومىيىلىك مەشغۇلات ئۈنۈمىنى يۇقىرى كۆتۈرۈشتە مۇھىم ئەھمىيەتكە ئىگە.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
+      "en": "General Atomics Aeronautical Systems, Inc. (GA-ASI) and the U.S. Navy’s Strike Planning and Execution Systems\n\n---\n**Source:** sUAS News (Drones)"
+    },
+    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2011/12/Predator_C.jpg?fit=440%2C293&#038;ssl=1",
+    "author": "sUAS News (Drones)",
+    "date": "2026-10-07",
+    "status": "published",
+    "featured": true,
+    "views": 102,
+    "tags": [
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "ئامېرىكا دېڭىز ئارمىيەسى",
+      "ھەربىي تېخنىكا",
+      "ئاپتونومىيىلىك سىستېما"
+    ],
+    "specs": {
+      "مەنبە": "sUAS News (Drones)",
+      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/ga-asi-teams-with-u-s-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle/",
+      "sourceUrl": "https://www.suasnews.com/2026/10/ga-asi-teams-with-u-s-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791360754234_86",
     "category": "weapons",
     "title": {
@@ -3485,42 +3519,6 @@
       "sourceUrl": "https://www.facebook.com/alitamiii",
       "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
       "ھالىتى": "تەستىقلانغان ئانالىز"
-    }
-  },
-  {
-    "id": "news_1791198051259_401",
-    "category": "weapons",
-    "title": {
-      "ug": "ئىسپانىيەنىڭ «ئىندرا» شىركىتى تايلاندنىڭ ئۈچىنچى يۈرۈش «لانزا 3D» ئۇزۇن مۇساپىلىك رادار سىستېمىسىنى تەمىنلەش توختامىغا ئېرىشتى",
-      "en": "Indra wins Thai contract for third Lanza 3D long-range radar system"
-    },
-    "summary": {
-      "ug": "ئىسپانىيەنىڭ دۆلەت مۇداپىئە تېخنىكا شىركىتى «ئىندرا» (Indra) تايلاند بىلەن يېڭى بىر ھەربىي كېلىشىم ئىمزالاپ، دۆلەتنىڭ ئۈچىنچى يۈرۈش «لانزا 3D» (Lanza 3D) تىپلىق ئۇزۇن مۇساپىلىك رادار سىستېمىسىنى تەمىنلەش توختامىغا ئېرىشتى. بۇ زامانىۋى رادار...",
-      "en": "Indra wins Thai contract for third Lanza 3D long-range radar system"
-    },
-    "content": {
-      "ug": "ئىسپانىيەنىڭ دۆلەت مۇداپىئە تېخنىكا شىركىتى «ئىندرا» (Indra) تايلاند بىلەن يېڭى بىر ھەربىي كېلىشىم ئىمزالاپ، دۆلەتنىڭ ئۈچىنچى يۈرۈش «لانزا 3D» (Lanza 3D) تىپلىق ئۇزۇن مۇساپىلىك رادار سىستېمىسىنى تەمىنلەش توختامىغا ئېرىشتى. بۇ زامانىۋى رادار سىستېمىسى تايلاندنىڭ ھاۋا بوشلۇقىنى نازارەت قىلىش ۋە ھاۋا مۇداپىئە سىستېمىسىنىڭ ئومۇمىي مۇداپىئە ئىقتىدارىنى تېخىمۇ كۈچەيتىشتە مۇھىم رول ئوينايدۇ.\n\n---\n📌 **مەنبە:** Air Force Technology",
-      "en": "Indra wins Thai contract for third Lanza 3D long-range radar system\n\n---\n**Source:** Air Force Technology"
-    },
-    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/09/Indra-3.jpg",
-    "author": "Air Force Technology",
-    "date": "2024-11-19",
-    "status": "published",
-    "featured": true,
-    "views": 155,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "رادار",
-      "تايلاند",
-      "مۇداپىئە"
-    ],
-    "specs": {
-      "مەنبە": "Air Force Technology",
-      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/indra-thailand-lanza-radar/",
-      "sourceUrl": "https://www.airforce-technology.com/news/indra-thailand-lanza-radar/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }
 ]

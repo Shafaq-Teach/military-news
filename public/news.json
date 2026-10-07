@@ -1,5 +1,46 @@
 [
   {
+    "id": "wpn_1791356451951",
+    "category": "database",
+    "title": {
+      "ug": "QBZ-95 ئاپتومات مىلتىقى (95-تۈر) - قورال تەپسىلاتى",
+      "en": "QBZ-95 Technical Dossier"
+    },
+    "summary": {
+      "ug": "QBZ-95 ئاپتومات مىلتىقى (95-تۈر): خىتاي ئىشلەپچىقارغان ئاپتومات مىلتىق (Bullpup Assault Rifle). ئوق ئۆلچىمى: 5.8×42 مىللىمېتىر (DBP87)، ئۈنۈملۈك ئارىلىقى: 400 مېتىر (ئادەتتىكى نىشان)، 600 مېتىر (ئوپتىكىلىق ئۈسكۈنە بىلەن).",
+      "en": "Technical specifications for QBZ-95"
+    },
+    "content": {
+      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nQBZ-95 ئاپتومات مىلتىقى (95-تۈر) ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** QBZ-95 ئاپتومات مىلتىقى (95-تۈر)\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** خىتاي\n- ⚙️ **قورال تىپى:** ئاپتومات مىلتىق (Bullpup Assault Rifle)\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 5.8×42 مىللىمېتىر (DBP87)\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: 3.25 كىلوگرام (قۇرۇق ھالەتتە)؛ ئۇزۇنلۇقى: 745 مىللىمېتىر\n- 🎯 **ئوقدان سىغىمى:** 30 ئوقلۇق ئۆلچەملىك قاپ ياكى 75 ئوقلۇق دۇمباق\n- ⚡ **ئوق ئېتىش سۈرئىتى:** مىنۇتىغا 650 ئوق\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** 400 مېتىر (ئادەتتىكى نىشان)، 600 مېتىر (ئوپتىكىلىق ئۈسكۈنە بىلەن)\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** QBZ-95B (كارابىن نۇسخىسى)، QJB-95 (يېنىك پىلىموت)، QBZ-97 (5.56 مىللىمېتىرلىق ئېكسپورت نۇسخىسى)\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "en": "Comprehensive technical dossier for QBZ-95"
+    },
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/QBZ95_automatic_rifle_mod_noBG.png/1280px-QBZ95_automatic_rifle_mod_noBG.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+    "date": "2026-10-07",
+    "status": "published",
+    "featured": true,
+    "views": 52,
+    "tags": [
+      "مەلۇمات_ئامبىرى",
+      "قورال",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
+      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
+      "قورال ئىسمى": "QBZ-95 ئاپتومات مىلتىقى (95-تۈر)",
+      "ئىشلەپچىقارغان دۆلەت": "خىتاي",
+      "قورال تىپى": "ئاپتومات مىلتىق (Bullpup Assault Rifle)",
+      "ئوق ئۆلچىمى": "5.8×42 مىللىمېتىر (DBP87)",
+      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: 3.25 كىلوگرام (قۇرۇق ھالەتتە)؛ ئۇزۇنلۇقى: 745 مىللىمېتىر",
+      "ئوقدان سىغىمى": "30 ئوقلۇق ئۆلچەملىك قاپ ياكى 75 ئوقلۇق دۇمباق",
+      "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 650 ئوق",
+      "ئۈنۈملۈك ئارىلىقى": "400 مېتىر (ئادەتتىكى نىشان)، 600 مېتىر (ئوپتىكىلىق ئۈسكۈنە بىلەن)",
+      "ئاساسلىق ۋارىيانتلىرى": "QBZ-95B (كارابىن نۇسخىسى)، QJB-95 (يېنىك پىلىموت)، QBZ-97 (5.56 مىللىمېتىرلىق ئېكسپورت نۇسخىسى)"
+    }
+  },
+  {
     "id": "news_1791349987096_549",
     "category": "analysis",
     "title": {
@@ -3479,40 +3520,6 @@
       "مەنبە": "sUAS News (Drones)",
       "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/project-swamp-gas-why-the-pentagon-is-spending-64m-on-high-altitude-balloons/",
       "sourceUrl": "https://www.suasnews.com/2026/10/project-swamp-gas-why-the-pentagon-is-spending-64m-on-high-altitude-balloons/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1790846484427_407",
-    "category": "weapons",
-    "title": {
-      "ug": "نورتوپ گرۇممان شىركىتى ئامېرىكا ئارمىيەسىنىڭ XRC رامجېت ئىتتىرىش سىستېمىسى توختامىنى قولغا كەلتۈردى",
-      "en": "Northrop wins US Army contract for XRC ramjet propulsion"
-    },
-    "summary": {
-      "ug": "نورتوپ گرۇممان (Northrop Grumman) شىركىتى ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ «ئۇزارتىلغان مۇساپىلىك ئادەمسىز ئايروپىلانلارغا قارشى تۇرۇش سىستېمىسى» (XRC) پىروگراممىسى دائىرىسىدە، باشقۇرۇلىدىغان بومبا تەجرىبە نۇسخىلىرىنىڭ قاتتىق يېقىلغۇلۇق رامجې...",
-      "en": "Northrop Grumman has secured an $18.8m contract from the US Army to develop and integrate solid-fuel ramjet propulsion for missile prototypes in the eXtended Range Counter-Uncrewed Aircraft System (XRC) programme."
-    },
-    "content": {
-      "ug": "نورتوپ گرۇممان (Northrop Grumman) شىركىتى ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ «ئۇزارتىلغان مۇساپىلىك ئادەمسىز ئايروپىلانلارغا قارشى تۇرۇش سىستېمىسى» (XRC) پىروگراممىسى دائىرىسىدە، باشقۇرۇلىدىغان بومبا تەجرىبە نۇسخىلىرىنىڭ قاتتىق يېقىلغۇلۇق رامجېت ئىتتىرىش سىستېمىسىنى تەتقىق قىلىپ ياساش ۋە بىر گەۋدىلەشتۈرۈش ئۈچۈن 18.8 مىليون دوللار قىممىتىدىكى بىر توختامنى قولغا كەلتۈردى.\n\n---\n📌 **مەنبە:** Army Technology",
-      "en": "Northrop Grumman has secured an $18.8m contract from the US Army to develop and integrate solid-fuel ramjet propulsion for missile prototypes in the eXtended Range Counter-Uncrewed Aircraft System (XRC) programme.\n\n---\n**Source:** Army Technology"
-    },
-    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/09/Northrop-Grumman-19.jpg",
-    "author": "Army Technology",
-    "date": "2024-11-15",
-    "status": "published",
-    "featured": true,
-    "views": 88,
-    "tags": [
-      "ھەربىي",
-      "ئامېرىكا_ئارمىيەسى",
-      "باشقۇرۇلىدىغان_بومبا",
-      "ئۇچقۇچىسىز_ئايروپىلان"
-    ],
-    "specs": {
-      "مەنبە": "Army Technology",
-      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/northerop-grumman-us-army-xrc/",
-      "sourceUrl": "https://www.army-technology.com/news/northerop-grumman-us-army-xrc/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

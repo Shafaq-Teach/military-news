@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791404326767_370",
+    "category": "aviation",
+    "title": {
+      "ug": "ستاندارد ئېرو شىركىتى F100-220 ماتورلىرىنى ئالدىن مۆلچەرلەپ ئاسراش بويىچە ئامېرىكا ھاۋا ئارمىيەسىنىڭ توختامىغا ئېرىشتى",
+      "en": "StandardAero wins USAF predictive maintenance deal for F100-220 engines"
+    },
+    "summary": {
+      "ug": "ستاندارد ئېرو (StandardAero) شىركىتى ئۆزىنىڭ «ئاسراش چۈشەنچىسى» (Maintenance Insight) دەپ ئاتىلىدىغان ئالدىن مۆلچەرلەپ ئاسراش تېخنىكا قوراللىرىنى F100-220 تىپلىق ماتور پروگراممىسىغا تەتبىقلاش بويىچە ئامېرىكا ھاۋا ئارمىيەسىنىڭ مەخسۇس تۈر توخ...",
+      "en": "StandardAero has received a US Air Force award to apply its Maintenance Insight predictive maintenance tools to the F100-220 engine programme."
+    },
+    "content": {
+      "ug": "ستاندارد ئېرو (StandardAero) شىركىتى ئۆزىنىڭ «ئاسراش چۈشەنچىسى» (Maintenance Insight) دەپ ئاتىلىدىغان ئالدىن مۆلچەرلەپ ئاسراش تېخنىكا قوراللىرىنى F100-220 تىپلىق ماتور پروگراممىسىغا تەتبىقلاش بويىچە ئامېرىكا ھاۋا ئارمىيەسىنىڭ مەخسۇس تۈر توختامىغا ئېرىشتى. بۇ ئىلغار تېخنىكا ئارقىلىق ھاۋا ئارمىيەسى كاشىلا كۆرۈلۈشتىن بۇرۇن ئالدىن مۆلچەرلەپ ئاسراش ئېلىپ بېرىپ، كۈرەشچى ئايروپىلان ماتورلىرىنىڭ بىخەتەرلىكى ۋە جەڭگىۋارلىق ئىقتىدارىنى تېخىمۇ يۇقىرى كۆتۈرەلەيدۇ.\n\n---\n📌 **مەنبە:** Air Force Technology",
+      "en": "StandardAero has received a US Air Force award to apply its Maintenance Insight predictive maintenance tools to the F100-220 engine programme.\n\n---\n**Source:** Air Force Technology"
+    },
+    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/Pratt-Whitney-F100-PW-220.jpg",
+    "author": "Air Force Technology",
+    "date": "2026-10-07",
+    "status": "published",
+    "featured": true,
+    "views": 132,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئاۋىئاتسىيە",
+      "ئامېرىكا"
+    ],
+    "specs": {
+      "مەنبە": "Air Force Technology",
+      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/standardaero-usaf-f100-220/",
+      "sourceUrl": "https://www.airforce-technology.com/news/standardaero-usaf-f100-220/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791404311007_876",
     "category": "weapons",
     "title": {
@@ -3482,40 +3517,6 @@
       "مەنبە": "Defense News",
       "ئەسلى ئۇلانما": "https://www.defensenews.com/global/europe/2026/10/01/dutch-say-asw-frigate-talks-ongoing-amid-reports-belgium-may-quit-project/",
       "sourceUrl": "https://www.defensenews.com/global/europe/2026/10/01/dutch-say-asw-frigate-talks-ongoing-amid-reports-belgium-may-quit-project/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791219885161_350",
-    "category": "drones",
-    "title": {
-      "ug": "ئامېرىكا ئارمىيەسى زەھەرلىكچى كارتېللاردىن كېلىۋاتقان تەھدىتكە تاقابىل تۇرۇش ئۈچۈن مەكسىكا چېگراسىدا دىرونغا قارشى تۇرۇش تېخنىكىسىنى سىناق قىلدى",
-      "en": "US Army tests counter-drone tech at Mexican border as cartel drone use rises"
-    },
-    "summary": {
-      "ug": "ئامېرىكا ئارمىيەسى زەھەرلىك چېكىملىك ​​سودىگەرلىرى تەرىپىدىن ئۇچقۇچىسىز ئايروپىلانلارنى ئىشلىتىش قىلمىشىنىڭ كۈنسېرى كۈچىيىشىگە ئەگىشىپ، چېگرا رايونلاردىكى ھاۋا مۇداپىئە ۋە مۇداپىئە ئىقتىدارىنى ئۆستۈرۈش مەقسەتلىك مەكسىكا چېگراسىدا دىرونغا قا...",
-      "en": "The service is seeking to sharpen its defenses against the growing threat of drone use by cartels."
-    },
-    "content": {
-      "ug": "ئامېرىكا ئارمىيەسى زەھەرلىك چېكىملىك ​​سودىگەرلىرى تەرىپىدىن ئۇچقۇچىسىز ئايروپىلانلارنى ئىشلىتىش قىلمىشىنىڭ كۈنسېرى كۈچىيىشىگە ئەگىشىپ، چېگرا رايونلاردىكى ھاۋا مۇداپىئە ۋە مۇداپىئە ئىقتىدارىنى ئۆستۈرۈش مەقسەتلىك مەكسىكا چېگراسىدا دىرونغا قارشى تۇرۇش تېخنىكىلىرىنى سىناق قىلىش خىزمىتىنى باشلىدى.\n\n---\n📌 **مەنبە:** Defense News",
-      "en": "The service is seeking to sharpen its defenses against the growing threat of drone use by cartels.\n\n---\n**Source:** Defense News"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/IUXVIEK5CBBYLGXY7CCUAERUKU.JPG",
-    "author": "Defense News",
-    "date": "2026-06-07",
-    "status": "published",
-    "featured": true,
-    "views": 115,
-    "tags": [
-      "ئامېرىكا ئارمىيەسى",
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "مەكسىكا چېگراسى",
-      "مۇداپىئە"
-    ],
-    "specs": {
-      "مەنبە": "Defense News",
-      "ئەسلى ئۇلانما": "https://www.defensenews.com/news/your-military/2026/10/05/us-army-tests-counter-drone-tech-at-mexican-border-as-cartel-drone-use-rises/",
-      "sourceUrl": "https://www.defensenews.com/news/your-military/2026/10/05/us-army-tests-counter-drone-tech-at-mexican-border-as-cartel-drone-use-rises/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791360765706_351",
+    "category": "naval",
+    "title": {
+      "ug": "ساب (Saab) ۋە كراكىن (Kraken) شىركەتلىرى ئۇچقۇچىسىز ئايروپىلانلارنى بايقايدىغان ئادەمسىز پاراخوت تەتقىق قىلىپ چىقتى",
+      "en": "Saab and Kraken develop autonomous vessel for drone detection"
+    },
+    "summary": {
+      "ug": "ئەنگلىيە ساب (Saab UK) شىركىتى بىلەن كراكىن (Kraken) شىركىتى كېمە قاتنىشى ۋە ھالقىلىق ئۇل ئەسلىھەلەرگە تەھدىت ئېلىپ كېلىدىغان ھاۋادىكى ئۇچقۇچىسىز ئايروپىلانلارنى (دىرونلارنى) بايقاش مەقسەت قىلىنغان سىناق خاراكتېرلىك بىر ئادەمسىز سۇ ئۈستى پا...",
+      "en": "Saab UK and Kraken have developed an experimental uncrewed surface vessel intended to detect aerial drones that could threaten shipping and critical infrastructure.\n\n\nThe post Saab and Kraken develop autonomous vessel for drone detection ap"
+    },
+    "content": {
+      "ug": "ئەنگلىيە ساب (Saab UK) شىركىتى بىلەن كراكىن (Kraken) شىركىتى كېمە قاتنىشى ۋە ھالقىلىق ئۇل ئەسلىھەلەرگە تەھدىت ئېلىپ كېلىدىغان ھاۋادىكى ئۇچقۇچىسىز ئايروپىلانلارنى (دىرونلارنى) بايقاش مەقسەت قىلىنغان سىناق خاراكتېرلىك بىر ئادەمسىز سۇ ئۈستى پاراخوتىنى بىرلىكتە تەتقىق قىلىپ چىقتى.\n\n---\n📌 **مەنبە:** Naval Technology",
+      "en": "Saab UK and Kraken have developed an experimental uncrewed surface vessel intended to detect aerial drones that could threaten shipping and critical infrastructure.\n\n\nThe post Saab and Kraken develop autonomous vessel for drone detection appeared first on Naval Technology.\n\n---\n**Source:** Naval Technology"
+    },
+    "imageUrl": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/10/Saab-Kraken.jpg",
+    "author": "Naval Technology",
+    "date": "2024-11-24",
+    "status": "published",
+    "featured": true,
+    "views": 138,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئادەمسىز_پاراخوت",
+      "ئۇچقۇچىسىز_ئايروپىلان"
+    ],
+    "specs": {
+      "مەنبە": "Naval Technology",
+      "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/saab-kraken-k3-scout/",
+      "sourceUrl": "https://www.naval-technology.com/news/saab-kraken-k3-scout/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "wpn_1791356451951",
     "category": "database",
     "title": {
@@ -3485,41 +3520,6 @@
       "مەنبە": "Naval Technology",
       "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/us-navy-conducts-sinkex-off-uk-coast/",
       "sourceUrl": "https://www.naval-technology.com/news/us-navy-conducts-sinkex-off-uk-coast/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1790958384047_741",
-    "category": "weapons",
-    "title": {
-      "ug": "«پاتقاق گازى» تۈرى: پېنتاگوننىڭ يۇقىرى بوشلۇق شارلىرى ئۈچۈن 64 مىليون دوللار مەبلەغ ئاجرىتىشىدىكى سەۋەب نېمە؟",
-      "en": "Project Swamp Gas: why the Pentagon is spending $64m on high-altitude balloons"
-    },
-    "summary": {
-      "ug": "ئامېرىكا ھاۋا ئارمىيەسى ئەنئەنىۋى تەمىنلەش كېلىشىمى مۇساپىلىرىدىكى ۋاقىت چەكلىمىسىنى ئايلىنىپ ئۆتۈپ، ئۇچقۇچىسىز ئايروپىلان (دىرون)لار ئۈچۈن يوشۇرۇن ئانا كېمە سۈپىتىدە خىزمەت قىلالايدىغان ستراتوسفېرا چارلاش شارلىرىنى تەتقىق قىلىپ چىقىشنى مەق...",
-      "en": "The US Air Force has awarded a $64.4 million contract to Aerostar for project Swamp Gas, a secretive initiative to develop stratospheric surveillance balloons capable of bypassing traditional procurement timelines and acting as potential mo"
-    },
-    "content": {
-      "ug": "ئامېرىكا ھاۋا ئارمىيەسى ئەنئەنىۋى تەمىنلەش كېلىشىمى مۇساپىلىرىدىكى ۋاقىت چەكلىمىسىنى ئايلىنىپ ئۆتۈپ، ئۇچقۇچىسىز ئايروپىلان (دىرون)لار ئۈچۈن يوشۇرۇن ئانا كېمە سۈپىتىدە خىزمەت قىلالايدىغان ستراتوسفېرا چارلاش شارلىرىنى تەتقىق قىلىپ چىقىشنى مەقسەت قىلغان مەخپىي «پاتقاق گازى» (Swamp Gas) تۈرى ئۈچۈن، ئېروستار (Aerostar) شىركىتىگە 64.4 مىليون دوللار قىممىتىدە توختام بەردى.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
-      "en": "The US Air Force has awarded a $64.4 million contract to Aerostar for project Swamp Gas, a secretive initiative to develop stratospheric surveillance balloons capable of bypassing traditional procurement timelines and acting as potential motherships for drones\n\n---\n**Source:** sUAS News (Drones)"
-    },
-    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/Thunderhead-balloon-system.jpeg?fit=1200%2C528&#038;ssl=1",
-    "author": "sUAS News (Drones)",
-    "date": "2024-11-16",
-    "status": "published",
-    "featured": true,
-    "views": 120,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "ئۇچقۇچىسىز_ئايروپىلان",
-      "ئامېرىكا"
-    ],
-    "specs": {
-      "مەنبە": "sUAS News (Drones)",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/project-swamp-gas-why-the-pentagon-is-spending-64m-on-high-altitude-balloons/",
-      "sourceUrl": "https://www.suasnews.com/2026/10/project-swamp-gas-why-the-pentagon-is-spending-64m-on-high-altitude-balloons/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791415110377_739",
+    "category": "weapons",
+    "title": {
+      "ug": "لېئوناردو DRS شىركىتى ئاۋسترالىيە ئارمىيەسىگە زامانىۋى ئىسسىقلىق تەسۋىر نىشانلىغۇچى ئۈسكۈنىلەرنى تاپشۇرۇپ بېرىشنى تاماملىدى",
+      "en": "Leonardo DRS completes Australian Army thermal sight deliveries"
+    },
+    "summary": {
+      "ug": "لېئوناردو DRS (Leonardo DRS) شىركىتى ئاۋسترالىيە قۇرۇقلۇق ئارمىيەسىنىڭ «LAND 159» پىلانىنىڭ 1-باسقۇچى دائىرىسىدە زاكاز قىلغان «كۈچەيتىلگەن كۈندۈز-كېچىلىك كۆزىتىش ئۈسكۈنىسىنىڭ 3-نۇسخىسى» (INDOD Block III) ناملىق ئىسسىقلىق تەسۋىر قورال نىشانل...",
+      "en": "Leonardo DRS has completed delivery and final training for Improved Night/Day Observation Device Block III thermal weapon sights ordered by the Australian Army through the LAND 159 Tranche 1 programme."
+    },
+    "content": {
+      "ug": "لېئوناردو DRS (Leonardo DRS) شىركىتى ئاۋسترالىيە قۇرۇقلۇق ئارمىيەسىنىڭ «LAND 159» پىلانىنىڭ 1-باسقۇچى دائىرىسىدە زاكاز قىلغان «كۈچەيتىلگەن كۈندۈز-كېچىلىك كۆزىتىش ئۈسكۈنىسىنىڭ 3-نۇسخىسى» (INDOD Block III) ناملىق ئىسسىقلىق تەسۋىر قورال نىشانلىغۇچىلىرىنى تاپشۇرۇپ بېرىش ۋە بۇنىڭغا مۇناسىۋەتلىك ئاخىرقى باسقۇچلۇق مەشىق خىزمەتلىرىنى تولۇق تاماملىدى.\n\n---\n📌 **مەنبە:** Army Technology",
+      "en": "Leonardo DRS has completed delivery and final training for Improved Night/Day Observation Device Block III thermal weapon sights ordered by the Australian Army through the LAND 159 Tranche 1 programme.\n\n---\n**Source:** Army Technology"
+    },
+    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/10/Leonardo-DRS-4.jpg",
+    "author": "Army Technology",
+    "date": "2024-11-20",
+    "status": "published",
+    "featured": true,
+    "views": 147,
+    "tags": [
+      "ئاۋسترالىيە",
+      "لېئوناردو_DRS",
+      "ئىسسىقلىق_تەسۋىر",
+      "قورال_ياراق",
+      "ھەربىي_تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "Army Technology",
+      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/leonardo-drs-australian-army-sight/",
+      "sourceUrl": "https://www.army-technology.com/news/leonardo-drs-australian-army-sight/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791404326767_370",
     "category": "aviation",
     "title": {
@@ -3483,41 +3518,6 @@
       "sourceUrl": "https://t.me/QasiounStudies/6027",
       "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
       "ھالىتى": "تەستىقلانغان ئانالىز"
-    }
-  },
-  {
-    "id": "news_1790868698358_932",
-    "category": "naval",
-    "title": {
-      "ug": "گوللاندىيە بېلگىيەنىڭ سۇ ئاستى پاراخوتلىرىغا قارشى تۇرۇش (ASW) فىرېگات پاراخوتى تۈرىدىن چېكىنىش ئېھتىماللىقى ئىچىدە سۆھبەتلەرنىڭ داۋاملىشىۋاتقانلىقىنى بىلدۈردى",
-      "en": "Dutch say ASW frigate talks ongoing amid reports Belgium may quit project"
-    },
-    "summary": {
-      "ug": "گوللاندىيە ۋە بېلگىيەنىڭ بىرلەشمە ھالدا دېڭىز ئارمىيەسى فىرېگات پاراخوتلىرىنى تەمىنلەش كېلىشىمى كۆپ يىللارغا سوزۇلۇپ كەتكەن كېچىكىشلەرگە دۇچ كەلگەن مەزگىلدە، بېلگىيەنىڭ يېڭى دېڭىز فىرېگات پاراخوتلىرىنى ۋاقتىدا قولغا كەلتۈرۈش ئۈچۈن بېسىم ئىش...",
-      "en": "Belgium is pushing to get new naval frigates on time, as a joint procurement with the Netherlands is delayed by years."
-    },
-    "content": {
-      "ug": "گوللاندىيە ۋە بېلگىيەنىڭ بىرلەشمە ھالدا دېڭىز ئارمىيەسى فىرېگات پاراخوتلىرىنى تەمىنلەش كېلىشىمى كۆپ يىللارغا سوزۇلۇپ كەتكەن كېچىكىشلەرگە دۇچ كەلگەن مەزگىلدە، بېلگىيەنىڭ يېڭى دېڭىز فىرېگات پاراخوتلىرىنى ۋاقتىدا قولغا كەلتۈرۈش ئۈچۈن بېسىم ئىشلىتىۋاتقانلىقى ۋە بۇ قۇرۇلۇشتىن چېكىنىش ئېھتىماللىقى بارلىقى توغرىسىدىكى خەۋەرلەر ئوتتۇرىغا چىققاندىن كېيىن، گوللاندىيە تەرەپ بۇ ھەقتىكى سۆھبەتلەرنىڭ ھازىرمۇ داۋاملىشىۋاتقانلىقىنى جاكارلىدى.\n\n---\n📌 **مەنبە:** Defense News",
-      "en": "Belgium is pushing to get new naval frigates on time, as a joint procurement with the Netherlands is delayed by years.\n\n---\n**Source:** Defense News"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/2KD66FNFKJFPTLSZ3GZAFLPDYE.jpg",
-    "author": "Defense News",
-    "date": "2026-06-07",
-    "status": "published",
-    "featured": true,
-    "views": 129,
-    "tags": [
-      "مۇداپىئە",
-      "دېڭىز_ئارمىيەسى",
-      "فىرېگات",
-      "گوللاندىيە",
-      "بېلگىيە"
-    ],
-    "specs": {
-      "مەنبە": "Defense News",
-      "ئەسلى ئۇلانما": "https://www.defensenews.com/global/europe/2026/10/01/dutch-say-asw-frigate-talks-ongoing-amid-reports-belgium-may-quit-project/",
-      "sourceUrl": "https://www.defensenews.com/global/europe/2026/10/01/dutch-say-asw-frigate-talks-ongoing-amid-reports-belgium-may-quit-project/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }
 ]

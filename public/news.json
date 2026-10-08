@@ -1,5 +1,46 @@
 [
   {
+    "id": "wpn_1791442831746",
+    "category": "database",
+    "title": {
+      "ug": "FAMAS ئاپتومات مىلتىقى - قورال تەپسىلاتى",
+      "en": "FAMAS Technical Dossier"
+    },
+    "summary": {
+      "ug": "FAMAS ئاپتومات مىلتىقى: فىرانسىيە ئىشلەپچىقارغان ئاپتومات مىلتىق (Bullpup Assault Rifle). ئوق ئۆلچىمى: 5.56×45 مىللىمېتىر NATO، ئۈنۈملۈك ئارىلىقى: 300 مېتىر (F1)، 450 مېتىر (G2).",
+      "en": "Technical specifications for FAMAS"
+    },
+    "content": {
+      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nFAMAS ئاپتومات مىلتىقى ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** FAMAS ئاپتومات مىلتىقى\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** فىرانسىيە\n- ⚙️ **قورال تىپى:** ئاپتومات مىلتىق (Bullpup Assault Rifle)\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 5.56×45 مىللىمېتىر NATO\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: 3.61 كىلوگرام (F1 ئوقسىز)، ئۇزۇنلۇقى: 757 مىللىمېتىر، لولىسىنىڭ ئۇزۇنلۇقى: 488 مىللىمېتىر\n- 🎯 **ئوقدان سىغىمى:** 25 ئوقدان (F1 نۇسخىسى)، 30 ئوقدان (G2 نۇسخىسى)\n- ⚡ **ئوق ئېتىش سۈرئىتى:** مىنۇتىغا 900 دىن 1100 پاتىرونغىچە\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** 300 مېتىر (F1)، 450 مېتىر (G2)\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** FAMAS F1, FAMAS G2, FAMAS Infantry, FAMAS Félin\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "en": "Comprehensive technical dossier for FAMAS"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Rifles_FAMAS.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+    "date": "2026-10-08",
+    "status": "published",
+    "featured": true,
+    "views": 210,
+    "tags": [
+      "مەلۇمات_ئامبىرى",
+      "قورال",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
+      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
+      "قورال ئىسمى": "FAMAS ئاپتومات مىلتىقى",
+      "ئىشلەپچىقارغان دۆلەت": "فىرانسىيە",
+      "قورال تىپى": "ئاپتومات مىلتىق (Bullpup Assault Rifle)",
+      "ئوق ئۆلچىمى": "5.56×45 مىللىمېتىر NATO",
+      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: 3.61 كىلوگرام (F1 ئوقسىز)، ئۇزۇنلۇقى: 757 مىللىمېتىر، لولىسىنىڭ ئۇزۇنلۇقى: 488 مىللىمېتىر",
+      "ئوقدان سىغىمى": "25 ئوقدان (F1 نۇسخىسى)، 30 ئوقدان (G2 نۇسخىسى)",
+      "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 900 دىن 1100 پاتىرونغىچە",
+      "ئۈنۈملۈك ئارىلىقى": "300 مېتىر (F1)، 450 مېتىر (G2)",
+      "ئاساسلىق ۋارىيانتلىرى": "FAMAS F1, FAMAS G2, FAMAS Infantry, FAMAS Félin"
+    }
+  },
+  {
     "id": "news_1791436845156_546",
     "category": "weapons",
     "title": {
@@ -3474,42 +3515,6 @@
       "مەنبە": "Naval Technology",
       "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/kongsberg-naval-strike-missile-us/",
       "sourceUrl": "https://www.naval-technology.com/news/kongsberg-naval-strike-missile-us/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1790715027182_483",
-    "category": "drones",
-    "title": {
-      "ug": "ئۇكرائىنانىڭ قارشى تۇرۇش تىرىشچانلىقى ئاستىدا، رۇسىيەنىڭ رېئاكتىپ ماتورلۇق «شاھىد» ئۇچقۇچىسىز ئايروپىلانلىرى تېز سۈرئەتتە يېڭىلانماقتا",
-      "en": "Russia’s Jet-Powered Shahed Drones Are Quickly Evolving As Ukraine Scrambles To Blunt Their Damage"
-    },
-    "summary": {
-      "ug": "ئۇكرائىنا ئارمىيەسى رۇسىيەنىڭ رېئاكتىپ ماتورلۇق «شاھىد» (Shahed) تىپلىق ئۇچقۇچىسىز ئايروپىلانلىرى ئېلىپ كېلىۋاتقان ۋەيرانچىلىق زەربىسىنى پەسەيتىش ئۈچۈن جىددىي چارە-تەدبىرلەرنى ئىزدەۋاتقان بىر پەيتتە، رۇسىيە تەرەپ بۇ قورال سىستېمىسىنى تېز سۈ...",
-      "en": "The Geran-4 one-way attack drone uses speed and altitude to evade low-cost interceptors Ukraine depends heavily upon. \n\n\nThe post Russia&#8217;s Jet-Powered Shahed Drones Are Quickly Evolving As Ukraine Scrambles To Blunt Their Damage appea"
-    },
-    "content": {
-      "ug": "ئۇكرائىنا ئارمىيەسى رۇسىيەنىڭ رېئاكتىپ ماتورلۇق «شاھىد» (Shahed) تىپلىق ئۇچقۇچىسىز ئايروپىلانلىرى ئېلىپ كېلىۋاتقان ۋەيرانچىلىق زەربىسىنى پەسەيتىش ئۈچۈن جىددىي چارە-تەدبىرلەرنى ئىزدەۋاتقان بىر پەيتتە، رۇسىيە تەرەپ بۇ قورال سىستېمىسىنى تېز سۈرئەتتە يېڭىلاپ تەرەققىي قىلدۇرماقتا. نۆۋەتتە، رۇسىيەنىڭ يېڭىدىن ئىشقا سالغان «گېران-4» (Geran-4) تىپلىق بىر قېتىملىق زەربە بېرىش ئۇچقۇچىسىز ئايروپىلانى ئۆزىنىڭ يۇقىرى سۈرئىتى ۋە ئۇچۇش ئېگىزلىكىدىن پايدىلىنىپ، ئۇكرائىنا تەرەپ ئىنتايىن تايىنىپ كېلىۋاتقان تۆۋەن تەننەرخلىق ھاۋا مۇداپىئە تۇتۇپ قالغۇچى سىستېمىلىرىنى ئۈنۈملۈك ئايلىنىپ ئۆتۈپ، نىشانلارغا زەربە بەرمەكتە.\n\n---\n📌 **مەنبە:** The War Zone (TWZ)",
-      "en": "The Geran-4 one-way attack drone uses speed and altitude to evade low-cost interceptors Ukraine depends heavily upon. \n\n\nThe post Russia&#8217;s Jet-Powered Shahed Drones Are Quickly Evolving As Ukraine Scrambles To Blunt Their Damage appeared first on TWZ.\n\n---\n**Source:** The War Zone (TWZ)"
-    },
-    "imageUrl": "https://www.twz.com/wp-content/uploads/2026/09/Gean-4-Ukraine-drone-jet-shahed.jpg?quality=85",
-    "author": "The War Zone (TWZ)",
-    "date": "2026-09-29",
-    "status": "published",
-    "featured": true,
-    "views": 56,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "ئۇچقۇچىسىز_ئايروپىلان",
-      "رۇسىيە",
-      "ئۇكرائىنا"
-    ],
-    "specs": {
-      "مەنبە": "The War Zone (TWZ)",
-      "ئەسلى ئۇلانما": "https://www.twz.com/news-features/russias-jet-powered-shahed-drones-are-quickly-evolving-as-ukraine-scrambles-to-blunt-their-damage",
-      "sourceUrl": "https://www.twz.com/news-features/russias-jet-powered-shahed-drones-are-quickly-evolving-as-ukraine-scrambles-to-blunt-their-damage",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

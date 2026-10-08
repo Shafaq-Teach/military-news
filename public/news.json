@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1791447770656_239",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا قۇرۇلغانلىقىنىڭ 250 يىللىقى: ئۇرۇش دەۋرىدە بارلىققا كەلگەن ۋە تارىخنى ئۆزگەرتكەن ئون چوڭ تېخنىكا",
+      "en": "Ten Wartime Technologies at America&#8217;s 250th"
+    },
+    "summary": {
+      "ug": "ئامېرىكا قوشما ئىشتاتلىرى قۇرۇلغانلىقىنىڭ 250 يىللىق مەرىكىسى مۇناسىۋىتى بىلەن، «ئۇرۇش چىشلىق چاقلىرى» (Cogs of War) سەھىپىسىدە ئۇرۇش ئوتلىرى ئىچىدە تاپلىنىپ بارلىققا كەلگەن، كېيىنچە پۇقرالار ئىقتىسادىي ساھەسىگە يۆتكىلىپ، جەمئىيەت، دۆلەت ئى...",
+      "en": "For America&#8217;s 250th anniversary, Cogs of War ran ten essays on innovations forged in wartime that subsequently diffused throughout the civilian economy, or had a lasting impact on society, governance, and Americans&#8217; relationship"
+    },
+    "content": {
+      "ug": "ئامېرىكا قوشما ئىشتاتلىرى قۇرۇلغانلىقىنىڭ 250 يىللىق مەرىكىسى مۇناسىۋىتى بىلەن، «ئۇرۇش چىشلىق چاقلىرى» (Cogs of War) سەھىپىسىدە ئۇرۇش ئوتلىرى ئىچىدە تاپلىنىپ بارلىققا كەلگەن، كېيىنچە پۇقرالار ئىقتىسادىي ساھەسىگە يۆتكىلىپ، جەمئىيەت، دۆلەت ئىدارە قىلىش ۋە ئىنسانلارنىڭ تېخنىكا بىلەن بولغان مۇناسىۋىتىگە ئۆچمەس ئىز قالدۇرغان تېخنىكىلىق يېڭىلىقلار ھەققىدە ئون پارچە نادىر ئېسسې ئېلان قىلىندى. بىزگە تاپشۇرۇلغان ماقالىلەر ئارىسىدا، 1812-يىلدىكى ئۇرۇشتىن كېيىن مىلتىق كوندىقى چىقىرىش ئۈچۈن ياسالغان كۆچۈرۈپ يولۇش تېزگاھىدىن تارتىپ، زامانىۋى كۆرۈنمەس (راداردىن يوشۇرۇنغۇچى) بومباردىمانچى ئايروپىلانلارغىچە بولغان ئىنتايىن كەڭ دائىرىلىك ھەربىي تېخنىكىلار ئورۇن ئالغان. يېقىنقى بىر قانچە ھەپتە مابەينىدە، ھەقسىز ئېلېكترونلۇق ژۇرنىلىمىزنىڭ ئوقۇرمەنلىرى بېلەت تاشلاش ئارقىلىق ئەڭ ياخشى ئەسەرلەرنى تاللاپ چىقتى. بىز بۈگۈن مەزكۇر تاللاش مۇسابىقىسىنىڭ غالبلىرىنى ئېلان قىلغانلىقىمىزدىن مەمنۇنمىز. بۇ ئېسسېلارنىڭ كۆپىنچىسىدە بىر ئورتاق ھەقىقەت ئوتتۇرىغا قويۇلغان: تارىخىي نۇقتىدىن ئالغاندا، دۆلەتنىڭ تېخنىكىدا يېڭىلىق يارىتىش جەريانىدىكى رولى ئىنتايىن زور بولغان.\n\n---\n📌 **مەنبە:** War on the Rocks",
+      "en": "For America&#8217;s 250th anniversary, Cogs of War ran ten essays on innovations forged in wartime that subsequently diffused throughout the civilian economy, or had a lasting impact on society, governance, and Americans&#8217; relationship with technology. We received submissions on a wide range of technologies, ranging from a copying lathe built for musket stocks after the War of 1812 to the stealth bomber. Over the last few weeks, subscribers to our free newsletter voted, and we&#8217;re pleased to announce the winners of our contest below.One idea surfaced in most of the essays: Historically, the government&#8217;s role in innovation was as much\n\n\nThe post Ten Wartime Technologies at America&#8217;s 250th appeared first on War on the Rocks.\n\n---\n**Source:** War on the Rocks"
+    },
+    "imageUrl": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-48013-e45e71831c17.jpg",
+    "author": "War on the Rocks",
+    "date": "2026-10-08",
+    "status": "published",
+    "featured": true,
+    "views": 54,
+    "tags": [
+      "ھەربىي تېخنىكا",
+      "ئۇرۇش تارىخى",
+      "كۆرۈنمەس بومباردىمانچى",
+      "ئامېرىكا"
+    ],
+    "specs": {
+      "مەنبە": "War on the Rocks",
+      "ئەسلى ئۇلانما": "https://warontherocks.com/cogs-of-war/ten-wartime-technologies-at-americas-250th/",
+      "sourceUrl": "https://warontherocks.com/cogs-of-war/ten-wartime-technologies-at-americas-250th/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "wpn_1791442831746",
     "category": "database",
     "title": {
@@ -3480,41 +3514,6 @@
       "مەنبە": "Defense One",
       "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/09/after-40-days-combat-navy-destroyer-returns-home/416311/",
       "sourceUrl": "https://www.defenseone.com/threats/2026/09/after-40-days-combat-navy-destroyer-returns-home/416311/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1790705729442_38",
-    "category": "naval",
-    "title": {
-      "ug": "نورۋېگىيەنىڭ «كونگسبېرگ» شىركىتى ئامېرىكا دېڭىز ئارمىيەسى بىلەن 404 مىليون دولبارلىق دېڭىز زەربە بېرىش باشقۇرۇلىدىغان بومبا كېلىشىمى ئىمزالايدۇ",
-      "en": "Kongsberg wins up to $404m US contract for Naval Strike Missile"
-    },
-    "summary": {
-      "ug": "نورۋېگىيەنىڭ داڭلىق مۇداپىئە سانائىتى كارخانىسى «كونگسبېرگ» (Kongsberg) شىركىتى، ئامېرىكا دېڭىز ئارمىيە قىسىملىرى ئۈچۈن دېڭىز زەربە بېرىش باشقۇرۇلىدىغان بومبا (NSM) قوزغاتقۇچ ئورۇنلىرىنى ئىشلەپچىقىرىش ۋە ئۇلارغا تېخنىكىلىق كاپالەتلىك قىلىشن...",
-      "en": "Kongsberg has signed a framework agreement with the US Marine Corps covering production and sustainment for the Naval Strike Missile (NSM) launcher unit used in the service’s Navy/Marine Expeditionary Ship Interdiction System (NMESIS).\n\n\nTh"
-    },
-    "content": {
-      "ug": "نورۋېگىيەنىڭ داڭلىق مۇداپىئە سانائىتى كارخانىسى «كونگسبېرگ» (Kongsberg) شىركىتى، ئامېرىكا دېڭىز ئارمىيە قىسىملىرى ئۈچۈن دېڭىز زەربە بېرىش باشقۇرۇلىدىغان بومبا (NSM) قوزغاتقۇچ ئورۇنلىرىنى ئىشلەپچىقىرىش ۋە ئۇلارغا تېخنىكىلىق كاپالەتلىك قىلىشنى ئۆز ئىچىگە ئغان، قىممىتى 404 مىليون ئامېرىكا دوللىرىغا يېتىدىغان بىر قاتار رامكا كېلىشىملىرىنى ئامېرىكا تەرەپ بىلەن ئىمزادىن ئۆتكۈزدى. بۇ سېتىۋېلىش كېلىشىمى ئامېرىكا دېڭىز ئارمىيەسى ۋە دېڭىز پىيادە ئەسكەرلىرى قىسىملىرىنىڭ ئورتاق دېڭىز قىرغىقى ۋە پاراخوتلارغا زەربە بېرىش سىستېمىسى (NMESIS) نىڭ جەڭگىۋار ئىقتىدارىنى تې ئاشۇرۇشنى مەقسەت قىلىدۇ.\n\n---\n📌 **مەنبە:** Naval Technology",
-      "en": "Kongsberg has signed a framework agreement with the US Marine Corps covering production and sustainment for the Naval Strike Missile (NSM) launcher unit used in the service’s Navy/Marine Expeditionary Ship Interdiction System (NMESIS).\n\n\nThe post Kongsberg wins up to $404m US contract for Naval Strike Missile appeared first on Naval Technology.\n\n---\n**Source:** Naval Technology"
-    },
-    "imageUrl": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/09/Kongsberg-NSM.jpg",
-    "author": "Naval Technology",
-    "date": "2026-09-29",
-    "status": "published",
-    "featured": true,
-    "views": 39,
-    "tags": [
-      "ھەربىي",
-      "دېڭىز مۇداپىئەسى",
-      "باشقۇرۇلىدىغان بومبا",
-      "ئامېرىكا",
-      "نورۋېگىيە"
-    ],
-    "specs": {
-      "مەنبە": "Naval Technology",
-      "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/kongsberg-naval-strike-missile-us/",
-      "sourceUrl": "https://www.naval-technology.com/news/kongsberg-naval-strike-missile-us/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

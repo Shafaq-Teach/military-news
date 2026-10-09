@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1791534522598_102",
+    "category": "drones",
+    "title": {
+      "ug": "دېلتاكۇئاد شىركىتى سەككىز سائەت ئۇچۇش ئىقتىدارىغا ئىگە ئېۋو-ئېل-ئى (Evo-LE) ناملىق يېڭى تىپتىكى ئۇچقۇچىسىز ئايروپىلانىنى ئېلان قىلدى",
+      "en": "DeltaQuad Launches Evo-LE With up to Eight Hours of Flight Endurance"
+    },
+    "summary": {
+      "ug": "دېلتاكۇئاد (DeltaQuad) شىركىتى ئۆزىنىڭ ئېلېكترلىك، مۇقىم قاناتلىق ھەم تىك قوزغىلىپ تىك قونىدىغان (VTOL) ئۇچقۇچىسىز ئايروپىلانلىرىنىڭ يېڭى بىر ئەۋلاد نۇسخىسى بولغان، سەككىز سائەتكىچە ئۇدا ئۇچۇش ئىقتىدارىغا ئىگە ئېۋو-ئېل-ئى (Evo-LE) تىپلىق ئا...",
+      "en": "DeltaQuad announced Evo-LE, the new long-endurance version of its electric fixed-wing vertical take-off and landing"
+    },
+    "content": {
+      "ug": "دېلتاكۇئاد (DeltaQuad) شىركىتى ئۆزىنىڭ ئېلېكترلىك، مۇقىم قاناتلىق ھەم تىك قوزغىلىپ تىك قونىدىغان (VTOL) ئۇچقۇچىسىز ئايروپىلانلىرىنىڭ يېڭى بىر ئەۋلاد نۇسخىسى بولغان، سەككىز سائەتكىچە ئۇدا ئۇچۇش ئىقتىدارىغا ئىگە ئېۋو-ئېل-ئى (Evo-LE) تىپلىق ئادەمسىز ئايروپىلانىنى رەسمىي ئېلان قىلدى. مەزكۇر يېڭى تىپتىكى ئايروپىلان ئاساسلىقى ئۇزۇن مۇددەتلىك كۆزىتىش ۋە چارلاش ۋەزىپىلىرىنى ئورۇنداش ئۈچۈن لايىھەلەنگەن بولۇپ، ئىلغار ئېلېكترلىك ماتور سىستېمىسى ئارقىلىق ھەربىي ۋە پۇقراۋى ساھەلەردە يۇقىرى ئۈنۈملۈك مەشغۇلات قىلىش ئىمكانىيىتىگە ئىگە قىلىنغان.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
+      "en": "DeltaQuad announced Evo-LE, the new long-endurance version of its electric fixed-wing vertical take-off and landing\n\n---\n**Source:** sUAS News (Drones)"
+    },
+    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/delta-quad-8-hours.webp?fit=400%2C225&#038;ssl=1",
+    "author": "sUAS News (Drones)",
+    "date": "2026-10-09",
+    "status": "published",
+    "featured": true,
+    "views": 118,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئۇچقۇچىسىز ئايروپىلان"
+    ],
+    "specs": {
+      "مەنبە": "sUAS News (Drones)",
+      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/deltaquad-launches-evo-le-with-up-to-eight-hours-of-flight-endurance/",
+      "sourceUrl": "https://www.suasnews.com/2026/10/deltaquad-launches-evo-le-with-up-to-eight-hours-of-flight-endurance/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "wpn_1791529236246",
     "category": "database",
     "title": {
@@ -3477,41 +3511,6 @@
       "مەنبە": "Defense One",
       "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/10/china-linked-hackers-posed-former-us-officials-anthropic-employee-target-ai-experts/416384/",
       "sourceUrl": "https://www.defenseone.com/threats/2026/10/china-linked-hackers-posed-former-us-officials-anthropic-employee-target-ai-experts/416384/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1790980538739_966",
-    "category": "weapons",
-    "title": {
-      "ug": "فرانسىيە سۇۋېرېن سۈنئىي ئەقىل تەرەققىياتىنى تېزلىتىش ئۈچۈن 2028-يىلى «سادىق قاناتداش» ئۇچقۇچىسىز ئايروپىلانىنى سىناق قىلىشنى پىلانلىدى",
-      "en": "French Air Force plans loyal wingman flight in 2028 in sovereign AI push"
-    },
-    "summary": {
-      "ug": "فرانسىيە ھاۋا ئارمىيەسى دۆلەتنىڭ سۇۋېرېن سۈنئىي ئەقىل ئىقتىدارىنى يۇقىرى كۆتۈرۈش تىرىشچانلىقىنىڭ بىر قىسمى سۈپىتىدە، «خىپىرىئون» (Hypairion) تۈرى ئاستىدا، 2028-يىلى ئادەملىك كۈرەشچى ئايروپىلانلار بىلەن سۈنئىي ئەقىل ئارقىلىق باشقۇرۇلىدىغان ج...",
-      "en": "The French Air Force plans to fly crewed fighter jets in collaboration with AI-powered combat drones in 2028, under project Hypairion."
-    },
-    "content": {
-      "ug": "فرانسىيە ھاۋا ئارمىيەسى دۆلەتنىڭ سۇۋېرېن سۈنئىي ئەقىل ئىقتىدارىنى يۇقىرى كۆتۈرۈش تىرىشچانلىقىنىڭ بىر قىسمى سۈپىتىدە، «خىپىرىئون» (Hypairion) تۈرى ئاستىدا، 2028-يىلى ئادەملىك كۈرەشچى ئايروپىلانلار بىلەن سۈنئىي ئەقىل ئارقىلىق باشقۇرۇلىدىغان جەڭگىۋار ئۇچقۇچىسىز ئايروپىلانلارنى (دىرون) بىرلىكتە ماس قەدەمدە ئۇچۇرۇش سىنىقى ئېلىپ بېرىشنى پىلانلىماقتا.\n\n---\n📌 **مەنبە:** C4ISRNET",
-      "en": "The French Air Force plans to fly crewed fighter jets in collaboration with AI-powered combat drones in 2028, under project Hypairion.\n\n---\n**Source:** C4ISRNET"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/LBQRMXZ4GJG45EW6OW67PKZ7VQ.jpg",
-    "author": "C4ISRNET",
-    "date": "2026-10-02",
-    "status": "published",
-    "featured": true,
-    "views": 160,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "سۈنئىي ئەقىل",
-      "فرانسىيە"
-    ],
-    "specs": {
-      "مەنبە": "C4ISRNET",
-      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/global/europe/2026/10/02/french-air-force-plans-loyal-wingman-flight-in-2028-in-sovereign-ai-push/",
-      "sourceUrl": "https://www.c4isrnet.com/global/europe/2026/10/02/french-air-force-plans-loyal-wingman-flight-in-2028-in-sovereign-ai-push/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

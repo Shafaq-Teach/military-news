@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791545455056_791",
+    "category": "weapons",
+    "title": {
+      "ug": "پېنتاگون بىلەن لوكىد مارتىن شىركىتى كۆپ يىللىق F-35 كۈرەشچى ئايروپىلانىنى ئىشلەپچىقىرىش ۋە ئاسراش كېلىشىمىنى مۇزاكىرە قىلماقتا",
+      "en": "Pentagon, Lockheed weigh multi-year F-35 production, sustainment deal"
+    },
+    "summary": {
+      "ug": "ئامېرىكا دۆلەت مۇداپىئە مىنىستىرلىقى (پېنتاگون) بىلەن لوكىد مارتىن (Lockheed Martin) شىركىتى F-35 كۆرۈنمەس (راداردىن يوشۇرۇنغۇچى) كۈرەشچى ئايروپىلانلىرىنى كۆپ يىللىق ئىشلەپچىقىرىش ۋە تېخنىكىلىق ئاسراشقا ئائىت يېڭى بىر كېلىشىم ئۈستىدە مۇزاكى...",
+      "en": "One source familiar with the negotiations expressed doubt that Lockheed &#8220;can successfully propose something that demonstrates long term cost savings.&#8221;"
+    },
+    "content": {
+      "ug": "ئامېرىكا دۆلەت مۇداپىئە مىنىستىرلىقى (پېنتاگون) بىلەن لوكىد مارتىن (Lockheed Martin) شىركىتى F-35 كۆرۈنمەس (راداردىن يوشۇرۇنغۇچى) كۈرەشچى ئايروپىلانلىرىنى كۆپ يىللىق ئىشلەپچىقىرىش ۋە تېخنىكىلىق ئاسراشقا ئائىت يېڭى بىر كېلىشىم ئۈستىدە مۇزاكىرە ئېلىپ بارماقتا. سۆھبەت جەريانىدىن خەۋەردار بىر مەنبەنىڭ بىلدۈرۈشىچە، لوكىد مارتىن شىركىتىنىڭ ئۇزۇن مۇددەتلىك تەننەرخنى تېجەپ قالالايدىغانلىقىنى ئەمەلىي ئىسپاتلاپ بېرەلەيدىغان بىرەر ئۈنۈملۈك لايىھەنى مۇۋەپپەقىيەتلىك ئوتتۇرىغا قويالايدىغانلىقىغا قارىتا گۇمانىي قاراشلار مەۋجۇت بولماقتا.\n\n---\n📌 **مەنبە:** Breaking Defense",
+      "en": "One source familiar with the negotiations expressed doubt that Lockheed &#8220;can successfully propose something that demonstrates long term cost savings.&#8221;\n\n---\n**Source:** Breaking Defense"
+    },
+    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/01/eielson-f-35-scaled-e1738163481700-1024x577.jpg",
+    "author": "Breaking Defense",
+    "date": "2026-10-09",
+    "status": "published",
+    "featured": true,
+    "views": 31,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "مۇداپىئە",
+      "ئايروپىلان"
+    ],
+    "specs": {
+      "مەنبە": "Breaking Defense",
+      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/pentagon-lockheed-weigh-multi-year-f-35-production-sustainment-deal/",
+      "sourceUrl": "https://breakingdefense.com/2026/10/pentagon-lockheed-weigh-multi-year-f-35-production-sustainment-deal/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791545429979_412",
     "category": "drones",
     "title": {
@@ -3479,41 +3514,6 @@
       "مەنبە": "sUAS News (Drones)",
       "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/lexisnexis-names-valqari-the-no-3-most-innovative-drone-startup-in-the-world/",
       "sourceUrl": "https://www.suasnews.com/2026/10/lexisnexis-names-valqari-the-no-3-most-innovative-drone-startup-in-the-world/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1790914613911_313",
-    "category": "weapons",
-    "title": {
-      "ug": "ئوق-دورا زاپىسى ئەندىشىسى جەريانىدا، ئامېرىكا دېڭىز ئارمىيەسى RTX گۇرۇھىنىڭ رەيتېئون شىركىتى بىلەن SM-6 باشقۇرۇلىدىغان بومبىلىرىنى سېتىۋېلىش بويىچە 24.4 مىليارد دوللارلىق توختام ئىمزالىدى",
-      "en": "US Navy awards RTX’s Raytheon $24.4B for SM-6 missiles amid stockpile concerns"
-    },
-    "summary": {
-      "ug": "مەزكۇر SM-6 تىپلىق تۇتۇپ قالغۇچى باشقۇرۇلىدىغان بومبىلارنى سېتىۋېلىش كېلىشىمى، پېنتاگوننىڭ يېقىن شەرقتىكى توقۇنۇشلار سەۋەبىدىن ئازىيىپ كەتكەن ئوق-دورا زاپاسلىرىنى جىددىي تولۇقلاشقا تىرىشىۋاتقان بىر پەيتىدە ئىمزالاندى.",
-      "en": "The deal for the SM-6 interceptors comes as the Pentagon pushes to replenish munitions stockpiles depleted by conflicts in the Middle East."
-    },
-    "content": {
-      "ug": "مەزكۇر SM-6 تىپلىق تۇتۇپ قالغۇچى باشقۇرۇلىدىغان بومبىلارنى سېتىۋېلىش كېلىشىمى، پېنتاگوننىڭ يېقىن شەرقتىكى توقۇنۇشلار سەۋەبىدىن ئازىيىپ كەتكەن ئوق-دورا زاپاسلىرىنى جىددىي تولۇقلاشقا تىرىشىۋاتقان بىر پەيتىدە ئىمزالاندى.\n\n---\n📌 **مەنبە:** Defense News",
-      "en": "The deal for the SM-6 interceptors comes as the Pentagon pushes to replenish munitions stockpiles depleted by conflicts in the Middle East.\n\n---\n**Source:** Defense News"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/TI4GBTVCMFGWHGVVCCTJ5634PI.jpg",
-    "author": "Defense News",
-    "date": "2026-10-02",
-    "status": "published",
-    "featured": true,
-    "views": 137,
-    "tags": [
-      "ئامېرىكا دېڭىز ئارمىيەسى",
-      "رەيتېئون",
-      "SM-6 باشقۇرۇلىدىغان بومبىسى",
-      "پېنتاگون",
-      "مۇداپىئە"
-    ],
-    "specs": {
-      "مەنبە": "Defense News",
-      "ئەسلى ئۇلانما": "https://www.defensenews.com/industry/techwatch/2026/10/01/us-navy-awards-rtxs-raytheon-244b-for-sm-6-missiles-amid-stockpile-concerns/",
-      "sourceUrl": "https://www.defensenews.com/industry/techwatch/2026/10/01/us-navy-awards-rtxs-raytheon-244b-for-sm-6-missiles-amid-stockpile-concerns/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

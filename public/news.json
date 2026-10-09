@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1791512910947_574",
+    "category": "drones",
+    "title": {
+      "ug": "پېنتاگوننىڭ ئۇچقۇچىسىز ئايروپىلان مۇسابىقىسىدە «نېروس» ۋە «پېرېننىئال ئوتونومى» شىركەتلىرى ئالدىنقى ئورۇنغا ئۆتتى",
+      "en": "Neros, Perennial Autonomy lead in Pentagon’s drone competition"
+    },
+    "summary": {
+      "ug": "ئامېرىكا مۇداپىئە مىنىستىرلىقى (پېنتاگون) يۇقىرى سۈپەتلىك ھەم ئەرزان باھالىق سودا خاراكتېرلىك ئۇچقۇچىسىز ئايروپىلانلارنى (دىرون) ئىشلەپچىقىرىش ئىقتىدارىغا ئىگە كارخانىلارنى تاللاپ چىقىش مەقسىتىدە ئۇيۇشتۇرغان مۇسابىقىنىڭ ئىككىنچى باسقۇچىنى ت...",
+      "en": "Two companies scored highest during the second phase of a Pentagon competition to find companies that can produce high-quality, low-cost commercial drones."
+    },
+    "content": {
+      "ug": "ئامېرىكا مۇداپىئە مىنىستىرلىقى (پېنتاگون) يۇقىرى سۈپەتلىك ھەم ئەرزان باھالىق سودا خاراكتېرلىك ئۇچقۇچىسىز ئايروپىلانلارنى (دىرون) ئىشلەپچىقىرىش ئىقتىدارىغا ئىگە كارخانىلارنى تاللاپ چىقىش مەقسىتىدە ئۇيۇشتۇرغان مۇسابىقىنىڭ ئىككىنچى باسقۇچىنى تاماملىدى. مەزكۇر مۇسابىقىدە «نېروس» (Neros) ۋە «پېرېننىئال ئوتونومى» (Perennial Autonomy) دەپ ئاتىلىدىغان ئىككى شىركەت ئەڭ يۇقىرى نومۇرغا ئېرىشىپ، ئالدىنقى قاتاردىن ئورۇن ئالدى.\n\n---\n📌 **مەنبە:** C4ISRNET",
+      "en": "Two companies scored highest during the second phase of a Pentagon competition to find companies that can produce high-quality, low-cost commercial drones.\n\n---\n**Source:** C4ISRNET"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/5P3QO3TXHJGJNCRVDV4YDT266Y.jpg",
+    "author": "C4ISRNET",
+    "date": "2024-11-01",
+    "status": "published",
+    "featured": true,
+    "views": 138,
+    "tags": [
+      "پېنتاگون",
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "ھەربىي تېخنىكا",
+      "مۇسابىقە"
+    ],
+    "specs": {
+      "مەنبە": "C4ISRNET",
+      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/unmanned/2026/10/01/neros-perennial-autonomy-lead-in-pentagons-drone-competition/",
+      "sourceUrl": "https://www.c4isrnet.com/unmanned/2026/10/01/neros-perennial-autonomy-lead-in-pentagons-drone-competition/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791502135403_815",
     "category": "weapons",
     "title": {
@@ -3468,47 +3502,6 @@
       "sourceUrl": "https://www.facebook.com/alitamiii",
       "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
       "ھالىتى": "تەستىقلانغان ئانالىز"
-    }
-  },
-  {
-    "id": "wpn_1790838076425",
-    "category": "database",
-    "title": {
-      "ug": "AK-47 ئاپتومات مىلتىقى (كالىاشنىكوف ئاپتوماتى) - قورال تەپسىلاتى",
-      "en": "AK-47 Technical Dossier"
-    },
-    "summary": {
-      "ug": "AK-47 ئاپتومات مىلتىقى (كالىاشنىكوف ئاپتوماتى): سوۋېت ئىتتىپاقى / رۇسىيە ئىشلەپچىقارغان ئاپتومات مىلتىق (Assault Rifle). ئوق ئۆلچىمى: 7.62×39 مىللىمېتىر، ئۈنۈملۈك ئارىلىقى: 350-400 مېتىر.",
-      "en": "Technical specifications for AK-47"
-    },
-    "content": {
-      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nAK-47 ئاپتومات مىلتىقى (كالىاشنىكوف ئاپتوماتى) ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** AK-47 ئاپتومات مىلتىقى (كالىاشنىكوف ئاپتوماتى)\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** سوۋېت ئىتتىپاقى / رۇسىيە\n- ⚙️ **قورال تىپى:** ئاپتومات مىلتىق (Assault Rifle)\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 7.62×39 مىللىمېتىر\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: 3.47 كىلوگرام (ئوقسىز)، ئۇزۇنلۇقى: 880 مىللىمېتىر\n- 🎯 **ئوقدان سىغىمى:** 30 ئوقلۇق ئوقدان (ئۆلچەملىك)\n- ⚡ **ئوق ئېتىش سۈرئىتى:** مىنۇتىغا 600 ئوق (نەزەرىيەۋى)\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** 350-400 مېتىر\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** AKM, AK-74, خىتاي 56-تىپلىق ئاپتوماتى، RPK\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-      "en": "Comprehensive technical dossier for AK-47"
-    },
-    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/AK-47_type_II_noBG.png/1280px-AK-47_type_II_noBG.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-    "date": "2026-10-01",
-    "status": "published",
-    "featured": true,
-    "views": 199,
-    "tags": [
-      "مەلۇمات_ئامبىرى",
-      "قورال",
-      "تېخنىكا"
-    ],
-    "specs": {
-      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
-      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
-      "قورال ئىسمى": "AK-47 ئاپتومات مىلتىقى (كالىاشنىكوف ئاپتوماتى)",
-      "ئىشلەپچىقارغان دۆلەت": "سوۋېت ئىتتىپاقى / رۇسىيە",
-      "قورال تىپى": "ئاپتومات مىلتىق (Assault Rifle)",
-      "ئوق ئۆلچىمى": "7.62×39 مىللىمېتىر",
-      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: 3.47 كىلوگرام (ئوقسىز)، ئۇزۇنلۇقى: 880 مىللىمېتىر",
-      "ئوقدان سىغىمى": "30 ئوقلۇق ئوقدان (ئۆلچەملىك)",
-      "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 600 ئوق (نەزەرىيەۋى)",
-      "ئۈنۈملۈك ئارىلىقى": "350-400 مېتىر",
-      "ئاساسلىق ۋارىيانتلىرى": "AKM, AK-74, خىتاي 56-تىپلىق ئاپتوماتى، RPK"
     }
   }
 ]

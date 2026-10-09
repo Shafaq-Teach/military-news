@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791545429979_412",
+    "category": "drones",
+    "title": {
+      "ug": "ئېستونىيەنىڭ KrattWorks شىركىتى ھاۋا مۇداپىئە مەشىقى ئۈچۈن «شاھىد» تىپلىق ساختا ئۇچقۇچىسىز ئايروپىلان ئىشلەپچىقارماقتا",
+      "en": "Estonia’s KrattWorks crafting Shahed-like dummy drone for target practice"
+    },
+    "summary": {
+      "ug": "ئېستونىيەنىڭ مۇداپىئە تېخنىكا شىركىتى «كراتتۋوركىس» (KrattWorks) ئوق چىقىرىش ۋە ھاۋا مۇداپىئە مەشىقلىرىدە نىشان سۈپىتىدە ئىشلىتىلىدىغان، ئىراننىڭ «شاھىد» (Shahed) تىپلىق كامىكادزې دىرونىغا تەقلىد قىلىپ ياسالغان ساختا ئۇچقۇچىسىز ئايروپىلاننى...",
+      "en": "The Estonian company, which has announced a Shahed-like target drone, will show its products at this year's AUSA conference in Washington."
+    },
+    "content": {
+      "ug": "ئېستونىيەنىڭ مۇداپىئە تېخنىكا شىركىتى «كراتتۋوركىس» (KrattWorks) ئوق چىقىرىش ۋە ھاۋا مۇداپىئە مەشىقلىرىدە نىشان سۈپىتىدە ئىشلىتىلىدىغان، ئىراننىڭ «شاھىد» (Shahed) تىپلىق كامىكادزې دىرونىغا تەقلىد قىلىپ ياسالغان ساختا ئۇچقۇچىسىز ئايروپىلاننى تەتقىق قىلىپ چىققانلىقىنى ئېلان قىلدى. مەزكۇر شىركەت ئۆزىنىڭ يېڭى ھەربىي تېخنىكا مەھسۇلاتلىرىنى ۋاشىنگتوندا ئۆتكۈزۈلىدىغان ئامېرىكا قۇرۇقلۇق ئارمىيە جەمئىيىتىنىڭ (AUSA) بۇ يىللىق نۆۋەتلىك كۆرگەزمىسىدە رەسمىي نامايان قىلىشنى پىلانلىماقتا.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "The Estonian company, which has announced a Shahed-like target drone, will show its products at this year's AUSA conference in Washington.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/SFTM367OFVDKZPNKLOWMUXMJRE.JPG",
+    "author": "Defense News",
+    "date": "2024-10-14",
+    "status": "published",
+    "featured": true,
+    "views": 91,
+    "tags": [
+      "ئېستونىيە",
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "شاھىد",
+      "مۇداپىئە مەشىقى",
+      "ھەربىي تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/global/europe/2026/10/09/estonias-krattworks-crafting-shahed-like-dummy-drone-for-target-practice/",
+      "sourceUrl": "https://www.defensenews.com/global/europe/2026/10/09/estonias-krattworks-crafting-shahed-like-dummy-drone-for-target-practice/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1791544229178",
     "category": "analysis",
     "title": {
@@ -3479,40 +3514,6 @@
       "مەنبە": "Defense News",
       "ئەسلى ئۇلانما": "https://www.defensenews.com/industry/techwatch/2026/10/01/us-navy-awards-rtxs-raytheon-244b-for-sm-6-missiles-amid-stockpile-concerns/",
       "sourceUrl": "https://www.defensenews.com/industry/techwatch/2026/10/01/us-navy-awards-rtxs-raytheon-244b-for-sm-6-missiles-amid-stockpile-concerns/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1790925720934_230",
-    "category": "weapons",
-    "title": {
-      "ug": "ئامېرىكا مۇداپىئە مىنىستىرلىقى مۆھلەتتىن بۇرۇن 142 مىليارد دوللار مەبلەغنى ئىشلىتىشكە بېكىتتى",
-      "en": "DoD obligates $142B from reconciliation bill before deadline, leaving billions subject to cuts"
-    },
-    "summary": {
-      "ug": "ئامېرىكا مۇداپىئە مىنىستىرلىقى (پېنتاگون) ئۆتكەن يىللىق مۇرەسسە قانۇن لايىھەسىدىن ئاجرىتىلغان مەبلەغنىڭ مۆھلەت توشۇشتىن بۇرۇن 142 مىليارد دوللىرىنى ئىشلىتىشكە بېكىتكەن بولسىمۇ، ئەمما ئىشلىتىلمەي قالغان مىلياردلىغان دوللار مەبلەغ 2027-مالىيە...",
-      "en": "Any funding from last year&#8217;s reconciliation bill left unspent by the Pentagon suffers an 8.3 percent cut known as sequestration as fiscal 2027 starts."
-    },
-    "content": {
-      "ug": "ئامېرىكا مۇداپىئە مىنىستىرلىقى (پېنتاگون) ئۆتكەن يىللىق مۇرەسسە قانۇن لايىھەسىدىن ئاجرىتىلغان مەبلەغنىڭ مۆھلەت توشۇشتىن بۇرۇن 142 مىليارد دوللىرىنى ئىشلىتىشكە بېكىتكەن بولسىمۇ، ئەمما ئىشلىتىلمەي قالغان مىلياردلىغان دوللار مەبلەغ 2027-مالىيە يىلىنىڭ بېشىدىن باشلاپ «مەجبۇرىي خامچوت قىسقارتىش» (sequestration) تەرتىپى بويىچە %8.3 نىسبەتتە قىسقارتىلىش خەۋپىگە دۇچ كەلمەكتە.\n\n---\n📌 **مەنبە:** Breaking Defense",
-      "en": "Any funding from last year&#8217;s reconciliation bill left unspent by the Pentagon suffers an 8.3 percent cut known as sequestration as fiscal 2027 starts.\n\n---\n**Source:** Breaking Defense"
-    },
-    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/08/250812_trump_reconciliation_GettyImages-2223602541-e1755010493318.jpg",
-    "author": "Breaking Defense",
-    "date": "2026-10-02",
-    "status": "published",
-    "featured": true,
-    "views": 109,
-    "tags": [
-      "ئامېرىكا",
-      "مۇداپىئە",
-      "خامچوت",
-      "پېنتاگون"
-    ],
-    "specs": {
-      "مەنبە": "Breaking Defense",
-      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/dod-obligates-142b-from-reconciliation-bill-before-deadline-leaving-billions-subject-to-cuts/",
-      "sourceUrl": "https://breakingdefense.com/2026/10/dod-obligates-142b-from-reconciliation-bill-before-deadline-leaving-billions-subject-to-cuts/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

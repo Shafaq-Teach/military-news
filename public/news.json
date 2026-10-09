@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791534536213_129",
+    "category": "aviation",
+    "title": {
+      "ug": "سەپتىن چىقىرىلغان KC-10 «ئېكستېندېر» ماي قاچىلاش ئايروپىلانلىرى شىمالىي ئافرىقىدىكى سىرلىق بىر خېرىدارنىڭ قولىدا قايتىدىن خىزمەتكە كىرىشى مۇمكىن",
+      "en": "Retired KC-10 Extender Tankers Could Get A Second Life With North African Mystery Operator"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى نامى ئاشكارىلانمىغان بىر خېرىدارغا تاپشۇرۇپ بېرىش ئۈچۈن، سەپتىن چىقىرىلغان تۆت دانە KC-10 تىپلىق ھاۋادا يېقىلغۇ قاچىلاش ئايروپىلانىنى قايتىدىن رېمونت قىلىپ ئەسلىگە كەلتۈرۈشكە كېتىدىغان تەلەپلەرنى ئېنىقلاشقا كىرىشكەن ...",
+      "en": "The USAF wants to know what it would take to regenerate a quartet of KC-10s for an undisclosed operator, and there are a couple of likely suspects.\n\n\nThe post Retired KC-10 Extender Tankers Could Get A Second Life With North African Mystery"
+    },
+    "content": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى نامى ئاشكارىلانمىغان بىر خېرىدارغا تاپشۇرۇپ بېرىش ئۈچۈن، سەپتىن چىقىرىلغان تۆت دانە KC-10 تىپلىق ھاۋادا يېقىلغۇ قاچىلاش ئايروپىلانىنى قايتىدىن رېمونت قىلىپ ئەسلىگە كەلتۈرۈشكە كېتىدىغان تەلەپلەرنى ئېنىقلاشقا كىرىشكەن بولۇپ، بۇ سىرلىق سېتىۋالغۇچى بولۇش ئېھتىماللىقى يۇقىرى بولغان بىر قانچە دۆلەت مۆلچەرلەنمەكتە.\n\n---\n📌 **مەنبە:** The War Zone (TWZ)",
+      "en": "The USAF wants to know what it would take to regenerate a quartet of KC-10s for an undisclosed operator, and there are a couple of likely suspects.\n\n\nThe post Retired KC-10 Extender Tankers Could Get A Second Life With North African Mystery Operator appeared first on TWZ.\n\n---\n**Source:** The War Zone (TWZ)"
+    },
+    "imageUrl": "https://www.twz.com/wp-content/uploads/2026/10/KC10-Retired-North-Africa.jpg?quality=85",
+    "author": "The War Zone (TWZ)",
+    "date": "2026-10-09",
+    "status": "published",
+    "featured": true,
+    "views": 138,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئاۋىئاتسىيە",
+      "ماي_قاچىلاش_ئايروپىلانى"
+    ],
+    "specs": {
+      "مەنبە": "The War Zone (TWZ)",
+      "ئەسلى ئۇلانما": "https://www.twz.com/air/retired-kc-10-extender-tankers-could-get-a-second-life-with-north-african-mystery-operator",
+      "sourceUrl": "https://www.twz.com/air/retired-kc-10-extender-tankers-could-get-a-second-life-with-north-african-mystery-operator",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791534522598_102",
     "category": "drones",
     "title": {
@@ -3476,41 +3511,6 @@
       "مەنبە": "C4ISRNET",
       "ئەسلى ئۇلانما": "https://www.c4isrnet.com/unmanned/2026/10/01/neros-perennial-autonomy-lead-in-pentagons-drone-competition/",
       "sourceUrl": "https://www.c4isrnet.com/unmanned/2026/10/01/neros-perennial-autonomy-lead-in-pentagons-drone-competition/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1790980521455_662",
-    "category": "weapons",
-    "title": {
-      "ug": "خىتايغا چېتىشلىق خاككېرلار سۈنئىي ئەقىل مۇتەخەسسىسلىرىنى تۇزاققا چۈشۈرۈش ئۈچۈن ئامېرىكا سابىق ئەمەلدارلىرىنىڭ كىملىكى بىلەن نىقابلىنىۋالغان",
-      "en": "China-linked hackers posed as former US officials, Anthropic employee to target AI experts"
-    },
-    "summary": {
-      "ug": "تور بىخەتەرلىك ساھەسىدىكى داڭلىق شىركەت «پروۋپويىنت» (Proofpoint) نىڭ ئاشكارىلىشىچە، خىتاي بىلەن ئالاقىسى بارلىقى تەخمىن قىلىنىۋاتقان خاككېرلار گۇرۇھى ئامېرىكىدىكى سۈنئىي ئەقىل ۋە دۆلەت سىياسىتى تەتقىقاتچىلىرىنىڭ بۇلۇت سىستېمىسى ھېساباتىغا ...",
-      "en": "Proofpoint identified phishing campaigns that borrowed prominent figures’ identities to approach U.S. policy researchers before attempting to steal access to their cloud accounts."
-    },
-    "content": {
-      "ug": "تور بىخەتەرلىك ساھەسىدىكى داڭلىق شىركەت «پروۋپويىنت» (Proofpoint) نىڭ ئاشكارىلىشىچە، خىتاي بىلەن ئالاقىسى بارلىقى تەخمىن قىلىنىۋاتقان خاككېرلار گۇرۇھى ئامېرىكىدىكى سۈنئىي ئەقىل ۋە دۆلەت سىياسىتى تەتقىقاتچىلىرىنىڭ بۇلۇت سىستېمىسى ھېساباتىغا كىرىش ھوقۇقىنى قولغا كىرگۈزۈش ئۈچۈن، ئامېرىكا ھۆكۈمىتىنىڭ سابىق يۇقىرى دەرىجىلىك ئەمەلدارلىرى ۋە داڭلىق سۈنئىي ئەقىل تەتقىقات شىركىتى «ئانتروپىك» (Anthropic) نىڭ خىزمەتچىلىرى قىياپىتىگە كىرىۋېلىپ، كەڭ كۆلەملىك تور بېلىقچىلىقى (Phishing) ھۇجۇمى ئېلىپ بارغان.\n\n---\n📌 **مەنبە:** Defense One",
-      "en": "Proofpoint identified phishing campaigns that borrowed prominent figures’ identities to approach U.S. policy researchers before attempting to steal access to their cloud accounts.\n\n---\n**Source:** Defense One"
-    },
-    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/02/093026ChinaNG/large.jpg",
-    "author": "Defense One",
-    "date": "2026-10-02",
-    "status": "published",
-    "featured": true,
-    "views": 48,
-    "tags": [
-      "تور بىخەتەرلىكى",
-      "خىتاي خاككېرلىرى",
-      "سۈنئىي ئەقىل",
-      "ئامېرىكا",
-      "ئاخبارات ئۇرۇشى"
-    ],
-    "specs": {
-      "مەنبە": "Defense One",
-      "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/10/china-linked-hackers-posed-former-us-officials-anthropic-employee-target-ai-experts/416384/",
-      "sourceUrl": "https://www.defenseone.com/threats/2026/10/china-linked-hackers-posed-former-us-officials-anthropic-employee-target-ai-experts/416384/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

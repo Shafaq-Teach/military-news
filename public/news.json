@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791502135403_815",
+    "category": "weapons",
+    "title": {
+      "ug": "بۆسۈش ھاسىل قىلىش: ماشىنا ئادەملەشكەن زامانىۋى قوشۇنلارغا قارشى ھەرىكەتچان ئۇرۇش تاكتىكىسى",
+      "en": "Achieving Breakthrough: Maneuver Warfare in the Face of Robotic Mass"
+    },
+    "summary": {
+      "ug": "1914-يىلى، ياۋروپا ئارمىيەلىرى ھەرىكەتچان جەڭ قىلىشقا ماسلاشتۇرۇلغان قوشۇنلىرى بىلەن ئۇرۇش مەيدانىغا كىرگەن بولسىمۇ، ئەمما بىر نەچچە ئاي ئىچىدىلا يەر ئاستى ئىستىھكاملىرىنى كولاشقا مەجبۇر بولغان ئىدى. يېڭىدىن ئىشلىتىشكە باشلانغان پولېموتلار ...",
+      "en": "In 1914, European armies entered a war with forces designed to move. Within months, they were digging themselves into the earth. Fires from newly introduced machine guns and heavy artillery made movement across exposed ground a proposition "
+    },
+    "content": {
+      "ug": "1914-يىلى، ياۋروپا ئارمىيەلىرى ھەرىكەتچان جەڭ قىلىشقا ماسلاشتۇرۇلغان قوشۇنلىرى بىلەن ئۇرۇش مەيدانىغا كىرگەن بولسىمۇ، ئەمما بىر نەچچە ئاي ئىچىدىلا يەر ئاستى ئىستىھكاملىرىنى كولاشقا مەجبۇر بولغان ئىدى. يېڭىدىن ئىشلىتىشكە باشلانغان پولېموتلار ۋە ئېغىر تىپتىكى توپ-زەمبىرەكلەرنىڭ قويۇق ئوق يامغۇرى، ئوچۇقچىلىقتىكى ھەرىكەتنى ئىنسانىيەت تارىخىدىكى ھەر قانداق ئۇرۇشتىكىدىنمۇ بەكرەك ۋەيران قىلغۇچ ۋە دەھشەتلىك ئۆلۈم خەۋپىگە ئايلاندۇردى. ئارىدىن بىر ئەسىردىن كۆپرەك ۋاقىت ئۆتكەندىن كېيىن، بۈگۈنكى كۈندە ئارمىيەلەر ئۇكرائىنا ئۇرۇش مەيدانىدا شۇ كونا تارىخنىڭ كىشىنى چۆچۈتىدىغان قايتا تەكرارلىنىشىغا دۇچ كەلمەكتە. نۆۋەتتە، ئۇچقۇچىسىز ئايروپىلانلار (دىرونلار) ۋە باشقا ماشىنا ئادەملەشكەن ئېنىق زەربە بېرىش قوراللىرى تۆۋەن بوشلۇقنى تولدۇرۇپ، ئۇكرائىنا فرونت لىنىيەسىگە يېقىن كەلگەن تانكا ۋە باشقا چوڭ تىپتىكى ھەربىي ماشىنىلارنى بايقاپلا ۋەيران قىلماقتا، شۇنداقلا پىيادە ئەسكەرلەرنىڭ قۇرۇقلۇقتىكى ھەر قانداق ھەرىكەتچان ھۇجۇم قىلىش ئۇرۇنۇشلىرىنى بەربات قىلماقتا. غەرب دۆلەتلىرى...\n\n---\n📌 **مەنبە:** War on the Rocks",
+      "en": "In 1914, European armies entered a war with forces designed to move. Within months, they were digging themselves into the earth. Fires from newly introduced machine guns and heavy artillery made movement across exposed ground a proposition far more deadly than in any war that had ever afflicted humanity. More than a century later, armies are confronting an unsettling echo of that experience in Ukraine.Drones and other robotic precision weapons fill the low-altitude airspace, detecting and destroying tanks and other large vehicles that appear anywhere near the Ukrainian front and devastating any attempts at mobile ground offensives by infantry. Western\n\n\nThe post Achieving Breakthrough: Maneuver Warfare in the Face of Robotic Mass appeared first on War on the Rocks.\n\n---\n**Source:** War on the Rocks"
+    },
+    "imageUrl": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-47892-c4039aa714ba.jpg",
+    "author": "War on the Rocks",
+    "date": "2026-10-08",
+    "status": "published",
+    "featured": true,
+    "views": 105,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "ئۇكرائىنا ئۇرۇشى"
+    ],
+    "specs": {
+      "مەنبە": "War on the Rocks",
+      "ئەسلى ئۇلانما": "https://warontherocks.com/achieving-breakthrough-maneuver-warfare-in-the-face-of-robotic-mass/",
+      "sourceUrl": "https://warontherocks.com/achieving-breakthrough-maneuver-warfare-in-the-face-of-robotic-mass/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791502110758_31",
     "category": "weapons",
     "title": {
@@ -3474,41 +3509,6 @@
       "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 600 ئوق (نەزەرىيەۋى)",
       "ئۈنۈملۈك ئارىلىقى": "350-400 مېتىر",
       "ئاساسلىق ۋارىيانتلىرى": "AKM, AK-74, خىتاي 56-تىپلىق ئاپتوماتى، RPK"
-    }
-  },
-  {
-    "id": "news_1790736941595_198",
-    "category": "weapons",
-    "title": {
-      "ug": "ياۋروپانىڭ ئامېرىكىغا بولغان بېقىندىلىقىنى ئازايتىش تىرىشچانلىقى مۇداپىئە ئالەم بوشلۇقى بازىرىدا يېڭى بۇرۇلۇش ياسىماقتا",
-      "en": "Europe’s push to reduce US reliance is reshaping the defense space market"
-    },
-    "summary": {
-      "ug": "يېقىنقى مەزگىللەردە يۈز بەرگەن كرىزىسلاردا ئامېرىكىنىڭ سۈنئىي ھەمراھ سانلىق مەلۇماتلىرىدىن پايدىلىنىشنى چەكلەپ قويۇشىدىن قاتتىق ئەندىشىگە چۈشكەن ياۋروپا دۆلەتلىرى، ئۆزلىرىنىڭ مۇستەقىل ئالەم بوشلۇقى مۇداپىئە ئىقتىدارىنى تېز سۈرئەتتە يۇقىرى ك...",
-      "en": "Spooked by U.S. restrictions on satellite data access during recent crises, European countries are scrambling to catch up on sovereign capabilities."
-    },
-    "content": {
-      "ug": "يېقىنقى مەزگىللەردە يۈز بەرگەن كرىزىسلاردا ئامېرىكىنىڭ سۈنئىي ھەمراھ سانلىق مەلۇماتلىرىدىن پايدىلىنىشنى چەكلەپ قويۇشىدىن قاتتىق ئەندىشىگە چۈشكەن ياۋروپا دۆلەتلىرى، ئۆزلىرىنىڭ مۇستەقىل ئالەم بوشلۇقى مۇداپىئە ئىقتىدارىنى تېز سۈرئەتتە يۇقىرى كۆتۈرۈش ۋە بۇ ساھەدىكى بوشلۇقنى تولدۇرۇش ئۈچۈن جىددىي ھەرىكەتكە ئۆتمەكتە. بۇ ئىستراتېگىيەلىك بۇرۇلۇش نۆۋەتتە يەرشارى مۇداپىئە ئالەم بوشلۇقى بازىرىنىڭ قۇرۇلمىسىنى تۈپتىن ئۆزگەرتمەكتە.\n\n---\n📌 **مەنبە:** C4ISRNET",
-      "en": "Spooked by U.S. restrictions on satellite data access during recent crises, European countries are scrambling to catch up on sovereign capabilities.\n\n---\n**Source:** C4ISRNET"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/W7IPMORUIRGRRFL2LCU6K2VQXM.JPG",
-    "author": "C4ISRNET",
-    "date": "2026-09-30",
-    "status": "published",
-    "featured": true,
-    "views": 126,
-    "tags": [
-      "مۇداپىئە",
-      "ئالەم_بوشلۇقى",
-      "ياۋروپا",
-      "ئامېرىكا",
-      "سۈنئىي_ھەمراھ"
-    ],
-    "specs": {
-      "مەنبە": "C4ISRNET",
-      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/",
-      "sourceUrl": "https://www.c4isrnet.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }
 ]

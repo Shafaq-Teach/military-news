@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791556241742_407",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ يېڭى قوماندانلىق ئورگىنى ئۆزلۈكىدىن ھەرىكەت قىلىدىغان ئۇرۇش سىستېمىلىرىنى سېتىۋېلىش مۇساپىسىنى تېزلىتىشنى پىلانلىماقتا",
+      "en": "Army’s new command plans to streamline autonomous warfare acquisition"
+    },
+    "summary": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ يېڭىدىن قۇرۇلغان قوماندانلىق ئورگىنى ئادەمسىز ۋە ئۆزلۈكىدىن ھەرىكەت قىلىدىغان ئۇرۇش سىستېمىلىرىنى سېتىۋېلىش ۋە تەمىنلەش مۇساپىسىنى تېخىمۇ ئاددىيلاشتۇرۇپ، زامانىۋى ئۇرۇش ئېھتىياجىغا تېز سۈرئەتتە ماسلىشىشنى نىشا...",
+      "en": "Experts weigh in on what it will take to be successful."
+    },
+    "content": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ يېڭىدىن قۇرۇلغان قوماندانلىق ئورگىنى ئادەمسىز ۋە ئۆزلۈكىدىن ھەرىكەت قىلىدىغان ئۇرۇش سىستېمىلىرىنى سېتىۋېلىش ۋە تەمىنلەش مۇساپىسىنى تېخىمۇ ئاددىيلاشتۇرۇپ، زامانىۋى ئۇرۇش ئېھتىياجىغا تېز سۈرئەتتە ماسلىشىشنى نىشانلىماقتا. ھەربىي ۋە تېخنىكا مۇتەخەسسىسلىرى بۇ يېڭى تەشەببۇسنىڭ مۇۋەپپەقىيەتلىك بولۇشى ئۈچۈن قايسى ھالقىلىق ئامىللارنىڭ زۆرۈر ئىكەنلىكى ھەققىدە ئۆزلىرىنىڭ ئىستراتېگىيەلىك قاراشلىرىنى ئوتتۇرىغا قويدى.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "Experts weigh in on what it will take to be successful.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/09/9977056/large.jpg",
+    "author": "Defense One",
+    "date": "2026-10-09",
+    "status": "published",
+    "featured": true,
+    "views": 49,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئادەمسىز_سىستېمىلار",
+      "سېتىۋېلىش"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/technology/2026/10/armys-new-command-plans-streamline-autonomous-warfare-acquisition/416523/",
+      "sourceUrl": "https://www.defenseone.com/technology/2026/10/armys-new-command-plans-streamline-autonomous-warfare-acquisition/416523/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791545455056_791",
     "category": "weapons",
     "title": {
@@ -3482,39 +3517,6 @@
       "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 700-950 ئوق",
       "ئۈنۈملۈك ئارىلىقى": "500 مېتىر (نۇقتىلىق نىشان)، 600 مېتىر (رايونلۇق نىشان)",
       "ئاساسلىق ۋارىيانتلىرى": "M4, M4A1, SOPMOD Block I/II, Mk 18 Mod 0/1"
-    }
-  },
-  {
-    "id": "news_1790903807810_811",
-    "category": "drones",
-    "title": {
-      "ug": "«ۋالقارى» شىركىتى دۇنيادىكى ئەڭ يېڭىلىق ياراتقۇچى ئۈچىنچى ئۇچقۇچىسىز ئايروپىلان شىركىتى بولۇپ باھالاندى",
-      "en": "LexisNexis Names Valqari the No. 3 Most Innovative Drone Startup in the World"
-    },
-    "summary": {
-      "ug": "تولۇق ئاپتوماتىك ئۇچقۇچىسىز ئايروپىلان (دىرون) يەتكۈزۈش ئۇل ئەسلىھەلىرى ساھەسىدە يول ئاچقۇچى «ۋالقارى» (Valqari) شىركىتى، داڭلىق تەتقىقات ئورگىنى «لېكسىس-نېكسىس» (LexisNexis) تەرىپىدىن دۇنيادىكى ئەڭ يېڭىلىق ياراتقۇچى ئۈچىنچى ئۇچقۇچىسىز ئاير...",
-      "en": "Valqari, the company pioneering fully autonomous drone delivery infrastructure, has been named the third most"
-    },
-    "content": {
-      "ug": "تولۇق ئاپتوماتىك ئۇچقۇچىسىز ئايروپىلان (دىرون) يەتكۈزۈش ئۇل ئەسلىھەلىرى ساھەسىدە يول ئاچقۇچى «ۋالقارى» (Valqari) شىركىتى، داڭلىق تەتقىقات ئورگىنى «لېكسىس-نېكسىس» (LexisNexis) تەرىپىدىن دۇنيادىكى ئەڭ يېڭىلىق ياراتقۇچى ئۈچىنچى ئۇچقۇچىسىز ئايروپىلان يېڭى شىركىتى بولۇپ باھالاندى. مەزكۇر شىركەت ئۆزىنىڭ ئىلغار ئاپتوماتىك سىستېمىلىرى ئارقىلىق كەلگۈسى ھاۋا قاتنىشى ۋە ئەشيا ئوبوروتى تېخنىكىسىدا مۇھىم رول ئوينىماقتا.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
-      "en": "Valqari, the company pioneering fully autonomous drone delivery infrastructure, has been named the third most\n\n---\n**Source:** sUAS News (Drones)"
-    },
-    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2020/08/valquri.jpg?fit=800%2C450&#038;ssl=1",
-    "author": "sUAS News (Drones)",
-    "date": "2026-10-02",
-    "status": "published",
-    "featured": true,
-    "views": 107,
-    "tags": [
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "تېخنىكا",
-      "ئەشيا ئوبوروتى"
-    ],
-    "specs": {
-      "مەنبە": "sUAS News (Drones)",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/lexisnexis-names-valqari-the-no-3-most-innovative-drone-startup-in-the-world/",
-      "sourceUrl": "https://www.suasnews.com/2026/10/lexisnexis-names-valqari-the-no-3-most-innovative-drone-startup-in-the-world/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }
 ]

@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791610782139_811",
+    "category": "weapons",
+    "title": {
+      "ug": "ياۋروپانىڭ ئامېرىكىغا بولغان بېقىندىلىقىنى ئازايتىش تىرىشچانلىقى مۇداپىئە بوشلۇقى بازىرىدا زور ئۆزگىرىشلەرنى پەيدا قىلماقتا",
+      "en": "Europe’s push to reduce US reliance is reshaping the defense space market"
+    },
+    "summary": {
+      "ug": "يېقىنقى مەزگىللەردە يۈز بەرگەن كىرىزىسلار جەريانىدا ئامېرىكىنىڭ سۈنئىي ھەمراھ سانلىق مەلۇماتلىرىغا ئېرىشىش جەھەتتە چەكلىمە قويۇشى ياۋروپا دۆلەتلىرىنى قاتتىق ئەندىشىگە سالدى. بۇ ئەھۋال ياۋروپا ئەللىرىنى ئۆزلىرىنىڭ ئىگىلىك ھوقۇقلۇق بوشلۇق ئىق...",
+      "en": "Spooked by U.S. restrictions on satellite data access during recent crises, European countries are scrambling to catch up on sovereign capabilities."
+    },
+    "content": {
+      "ug": "يېقىنقى مەزگىللەردە يۈز بەرگەن كىرىزىسلار جەريانىدا ئامېرىكىنىڭ سۈنئىي ھەمراھ سانلىق مەلۇماتلىرىغا ئېرىشىش جەھەتتە چەكلىمە قويۇشى ياۋروپا دۆلەتلىرىنى قاتتىق ئەندىشىگە سالدى. بۇ ئەھۋال ياۋروپا ئەللىرىنى ئۆزلىرىنىڭ ئىگىلىك ھوقۇقلۇق بوشلۇق ئىقتىدارىنى تەرەققىي قىلدۇرۇش ۋە ئامېرىكىغا بولغان تايىنىشچانلىقىنى تۆۋەنلىتىش ئۈچۈن جىددىي ھەرىكەتكە ئۆتۈشكە مەجبۇرلىدى. نۆۋەتتە، ياۋروپا دۆلەتلىرى سۈنئىي ھەمراھ تېخنىكىسى ۋە بوشلۇق مۇداپىئەسى ساھەسىدە مۇستەقىللىقنى قولغا كەلتۈرۈش ئۈچۈن مەبلەغ سېلىشنى كۆپەيتىپ، پۈتكۈل مۇداپىئە بوشلۇقى بازىرىنىڭ قۇرۇلمىسىنى قايتىدىن شەكىللەندۈرمەكتە.\n\n---\n📌 **مەنبە:** C4ISRNET",
+      "en": "Spooked by U.S. restrictions on satellite data access during recent crises, European countries are scrambling to catch up on sovereign capabilities.\n\n---\n**Source:** C4ISRNET"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/W7IPMORUIRGRRFL2LCU6K2VQXM.JPG",
+    "author": "C4ISRNET",
+    "date": "2024-05-22",
+    "status": "published",
+    "featured": true,
+    "views": 167,
+    "tags": [
+      "ياۋروپا",
+      "ئامېرىكا",
+      "سۈنئىي ھەمراھ",
+      "مۇداپىئە",
+      "بوشلۇق تېخنىكىسى"
+    ],
+    "specs": {
+      "مەنبە": "C4ISRNET",
+      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/",
+      "sourceUrl": "https://www.c4isrnet.com/global/europe/2026/09/23/europes-push-to-reduce-us-reliance-is-reshaping-the-defense-space-market/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791599808894_422",
     "category": "analysis",
     "title": {
@@ -3468,47 +3503,6 @@
       "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/09/anthropic-lawsuit-supply-chain-risk/416252/",
       "sourceUrl": "https://www.defenseone.com/threats/2026/09/anthropic-lawsuit-supply-chain-risk/416252/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "wpn_1791097250220",
-    "category": "database",
-    "title": {
-      "ug": "Steyr AUG ئاپتومات مىلتىقى - قورال تەپسىلاتى",
-      "en": "Steyr AUG Technical Dossier"
-    },
-    "summary": {
-      "ug": "Steyr AUG ئاپتومات مىلتىقى: ئاۋسترىيە ئىشلەپچىقارغان ئاپتومات مىلتىق (Bullpup Assault Rifle). ئوق ئۆلچىمى: 5.56×45 مىللىمېتىر NATO، ئۈنۈملۈك ئارىلىقى: 450-500 مېتىر.",
-      "en": "Technical specifications for Steyr AUG"
-    },
-    "content": {
-      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nSteyr AUG ئاپتومات مىلتىقى ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** Steyr AUG ئاپتومات مىلتىقى\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** ئاۋسترىيە\n- ⚙️ **قورال تىپى:** ئاپتومات مىلتىق (Bullpup Assault Rifle)\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 5.56×45 مىللىمېتىر NATO\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: 3.6 كىلوگرام (ئۆلچەملىك)، ئۇزۇنلۇقى: 790 مىللىمېتىر\n- 🎯 **ئوقدان سىغىمى:** 30 ياكى 42 پاي ئوق\n- ⚡ **ئوق ئېتىش سۈرئىتى:** مىنۇتىغا 680-750 پاي ئوق\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** 450-500 مېتىر\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** AUG A1, AUG A2, AUG A3, AUG Para, AUG HBAR\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-      "en": "Comprehensive technical dossier for Steyr AUG"
-    },
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Steyr-AUG-A3-SF.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-    "date": "2026-10-04",
-    "status": "published",
-    "featured": true,
-    "views": 168,
-    "tags": [
-      "مەلۇمات_ئامبىرى",
-      "قورال",
-      "تېخنىكا"
-    ],
-    "specs": {
-      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
-      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
-      "قورال ئىسمى": "Steyr AUG ئاپتومات مىلتىقى",
-      "ئىشلەپچىقارغان دۆلەت": "ئاۋسترىيە",
-      "قورال تىپى": "ئاپتومات مىلتىق (Bullpup Assault Rifle)",
-      "ئوق ئۆلچىمى": "5.56×45 مىللىمېتىر NATO",
-      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: 3.6 كىلوگرام (ئۆلچەملىك)، ئۇزۇنلۇقى: 790 مىللىمېتىر",
-      "ئوقدان سىغىمى": "30 ياكى 42 پاي ئوق",
-      "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 680-750 پاي ئوق",
-      "ئۈنۈملۈك ئارىلىقى": "450-500 مېتىر",
-      "ئاساسلىق ۋارىيانتلىرى": "AUG A1, AUG A2, AUG A3, AUG Para, AUG HBAR"
     }
   }
 ]

@@ -1,5 +1,41 @@
 [
   {
+    "id": "news_1791610819698_471",
+    "category": "weapons",
+    "title": {
+      "ug": "لۇكخېد مارتىن شىركىتى فىلىپپىنغا «قارا قارشىغا» (Black Hawk) تەقلىدىي مەشىق سىستېمىسى تەمىنلەيدۇ",
+      "en": "Lockheed Martin to supply Black Hawk simulator suite to Philippines"
+    },
+    "summary": {
+      "ug": "ئامېرىكانىڭ داڭلىق مۇداپىئە سانائىتى گىگانتى لۇكخېد مارتىن (Lockheed Martin) فىلىپپىن دۆلەت مۇداپىئە مىنىستىرلىقى بىلەن رەسمىي كېلىشىم ئىمزالاپ، فىلىپپىن ھاۋا ئارمىيەسى سەپلىمىسىدىكى S-70i «قارا قارشىغا» (Black Hawk) تىپلىق تىكئۇچار فىلوتى ...",
+      "en": "Lockheed Martin has signed a contract with the Philippine Department of National Defence to supply training equipment for the Philippine Air Force’s S-70i Black Hawk fleet."
+    },
+    "content": {
+      "ug": "ئامېرىكانىڭ داڭلىق مۇداپىئە سانائىتى گىگانتى لۇكخېد مارتىن (Lockheed Martin) فىلىپپىن دۆلەت مۇداپىئە مىنىستىرلىقى بىلەن رەسمىي كېلىشىم ئىمزالاپ، فىلىپپىن ھاۋا ئارمىيەسى سەپلىمىسىدىكى S-70i «قارا قارشىغا» (Black Hawk) تىپلىق تىكئۇچار فىلوتى ئۈچۈن زامانىۋى ئۇچۇش تەقلىدىي مەشىق ئۈسكۈنىلىرى توپلىمىنى يەتكۈزۈپ بېرىدىغان بولدى.\n\n---\n📌 **مەنبە:** Air Force Technology",
+      "en": "Lockheed Martin has signed a contract with the Philippine Department of National Defence to supply training equipment for the Philippine Air Force’s S-70i Black Hawk fleet.\n\n---\n**Source:** Air Force Technology"
+    },
+    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/Lockheed-Martin-S-70i-Black-Hawk.jpg",
+    "author": "Air Force Technology",
+    "date": "2024-10-24",
+    "status": "published",
+    "featured": true,
+    "views": 136,
+    "tags": [
+      "لۇكخېد مارتىن",
+      "فىلىپپىن",
+      "قارا قارشىغا",
+      "سىمۇلياتور",
+      "تەدبىقات",
+      "ھەربىي تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "Air Force Technology",
+      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/lockheed-martin-black-hawk-simulator/",
+      "sourceUrl": "https://www.airforce-technology.com/news/lockheed-martin-black-hawk-simulator/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791610782139_811",
     "category": "weapons",
     "title": {
@@ -3468,40 +3504,6 @@
       "مەنبە": "Breaking Defense",
       "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/pentagon-partners-with-cias-in-q-tel-for-technology-scouting/",
       "sourceUrl": "https://breakingdefense.com/2026/10/pentagon-partners-with-cias-in-q-tel-for-technology-scouting/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791154494533_589",
-    "category": "weapons",
-    "title": {
-      "ug": "ئانتوپىك شىركىتى پېنتاگوننىڭ ئۆزىنى «تەمىنلەش زەنجىرى خەۋپى» دەپ بېكىتىشىگە قارشى ئاچقان سوت دەۋاسىدا مەغلۇپ بولدى",
-      "en": "Anthropic loses legal fight to shed DOD's designation as a 'supply-chain risk'"
-    },
-    "summary": {
-      "ug": "ئامېرىكا مۇداپىئە مىنىستىرلىقى (DOD) تەرىپىدىن «تەمىنلەش زەنجىرى خەۋپى» دەپ بېكىتىلگەن سۈنئىي ئەقىل شىركىتى ئانتوپىك (Anthropic)، بۇ نامنى ئۆچۈرۈش ئۈچۈن ئېلىپ بارغان قانۇنىي دەۋاسىدا مەغلۇپ بولدى. ئادەتتە رەقىب دۆلەتلەر ھۆكۈمەتلىرى بىلەن يو...",
-      "en": "The label is more typically assigned to companies suspected of ties to adversarial governments."
-    },
-    "content": {
-      "ug": "ئامېرىكا مۇداپىئە مىنىستىرلىقى (DOD) تەرىپىدىن «تەمىنلەش زەنجىرى خەۋپى» دەپ بېكىتىلگەن سۈنئىي ئەقىل شىركىتى ئانتوپىك (Anthropic)، بۇ نامنى ئۆچۈرۈش ئۈچۈن ئېلىپ بارغان قانۇنىي دەۋاسىدا مەغلۇپ بولدى. ئادەتتە رەقىب دۆلەتلەر ھۆكۈمەتلىرى بىلەن يوشۇرۇن ئالاقىسى بار دەپ گۇمان قىلىنغان كارخانىلارغا بېرىلىدىغان مەزكۇر نامنىڭ ئۆزلىرىگە قويۇلۇشىغا قارشى تۇرغان شىركەتنىڭ ئەرزى سوت مەھكىمىسى تەرىپىدىن رەت قىلىندى.\n\n---\n📌 **مەنبە:** Defense One",
-      "en": "The label is more typically assigned to companies suspected of ties to adversarial governments.\n\n---\n**Source:** Defense One"
-    },
-    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/09/25/GettyImages_2294307208/large.jpg",
-    "author": "Defense One",
-    "date": "2026-10-04",
-    "status": "published",
-    "featured": true,
-    "views": 69,
-    "tags": [
-      "مۇداپىئە",
-      "سۈنئىي ئەقىل",
-      "تەمىنلەش زەنجىرى",
-      "پېنتاگون"
-    ],
-    "specs": {
-      "مەنبە": "Defense One",
-      "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/09/anthropic-lawsuit-supply-chain-risk/416252/",
-      "sourceUrl": "https://www.defenseone.com/threats/2026/09/anthropic-lawsuit-supply-chain-risk/416252/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

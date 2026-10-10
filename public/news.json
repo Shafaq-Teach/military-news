@@ -1,5 +1,41 @@
 [
   {
+    "id": "news_1791632436576_704",
+    "category": "drones",
+    "title": {
+      "ug": "«ۋىگىلانت ئاۋىئاتسىيە سىستېمىلىرى» شىركىتى 2026-يىللىق خەلقئارالىق ئىلغار تېخنىكا باھالىشىدا ئالدىنقى تۆت روبوت ۋە ئاپتوماتلاشتۇرۇش كارخانىسى قاتارىدىن ئورۇن ئالدى",
+      "en": "Vigilant Aerospace Named as Top 4 Robotics and Automation Company in Fast Company’s 2026 Next Big Things in Tech Awards"
+    },
+    "summary": {
+      "ug": "ئۇچقۇچىسىز ئايروپىلانلارنىڭ (دىرونلارنىڭ) ھاۋا بوشلۇقىنى كۆزىتىش ۋە سوقۇلۇشتىن ئاپتوماتىك ساقلىنىش سىستېمىلىرى ساھەسىدىكى يېتەكچى كارخانا ھېسابلانغان «ۋىگىلانت ئاۋىئاتسىيە سىستېمىلىرى» (Vigilant Aerospace Systems)، خەلقئارالىق نوپۇزلۇق «Fas...",
+      "en": "Vigilant Aerospace Systems today announced that it has been named one of the world’s most"
+    },
+    "content": {
+      "ug": "ئۇچقۇچىسىز ئايروپىلانلارنىڭ (دىرونلارنىڭ) ھاۋا بوشلۇقىنى كۆزىتىش ۋە سوقۇلۇشتىن ئاپتوماتىك ساقلىنىش سىستېمىلىرى ساھەسىدىكى يېتەكچى كارخانا ھېسابلانغان «ۋىگىلانت ئاۋىئاتسىيە سىستېمىلىرى» (Vigilant Aerospace Systems)، خەلقئارالىق نوپۇزلۇق «Fast Company» ژۇرنىلى تەرىپىدىن تەسىس قىلىنغان «2026-يىللىق تېخنىكا ساھەسىدىكى غايەت زور بۆسۈشلەر» تۈرى بويىچە، روبوت ۋە ئاپتوماتلاشتۇرۇش سەھىپىسىدە دۇنيا مىقياسىدىكى ئەڭ ئالدىنقى تۆت كۈچلۈك كارخانىنىڭ بىرى دەپ باھالانغانلىقىنى ئېلان قىلدى. شىركەتنىڭ ئىلغار رادار ۋە سېنزور ئۇچۇرلىرىنى بىرىكتۈرۈش تېخنىكىسى ھەربىي ۋە پۇقراۋى ئۇچقۇچىسىز ھاۋا سىستېمىلىرىنىڭ ئاپتونوم ھەرىكەت بىخەتەرلىكىنى ئۆستۈرۈشتە تۈرتكىلىك رول ئوينىماقتا.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
+      "en": "Vigilant Aerospace Systems today announced that it has been named one of the world’s most\n\n---\n**Source:** sUAS News (Drones)"
+    },
+    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/FH-DEFENDER-20250620_135237-1280x1456-1.jpg?fit=1055%2C1200&#038;ssl=1",
+    "author": "sUAS News (Drones)",
+    "date": "2026-10-10",
+    "status": "published",
+    "featured": true,
+    "views": 154,
+    "tags": [
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "دىرون",
+      "ئاپتوماتلاشتۇرۇش",
+      "روبوت تېخنىكىسى",
+      "ھاۋا بوشلۇقى بىخەتەرلىكى",
+      "ئەسكىرىي تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "sUAS News (Drones)",
+      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/vigilant-aerospace-named-as-top-4-robotics-and-automation-company-in-fast-companys-2026-next-big-things-in-tech-awards/",
+      "sourceUrl": "https://www.suasnews.com/2026/10/vigilant-aerospace-named-as-top-4-robotics-and-automation-company-in-fast-companys-2026-next-big-things-in-tech-awards/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791621651658_667",
     "category": "weapons",
     "title": {
@@ -3459,40 +3495,6 @@
       "مەنبە": "C4ISRNET",
       "ئەسلى ئۇلانما": "https://www.c4isrnet.com/news/your-military/2026/09/16/ai-military-targeting-may-move-faster-than-humans-can-authenticate-critics-warn/",
       "sourceUrl": "https://www.c4isrnet.com/news/your-military/2026/09/16/ai-military-targeting-may-move-faster-than-humans-can-authenticate-critics-warn/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791089538896_824",
-    "category": "aviation",
-    "title": {
-      "ug": "ئامېرىكا ھاۋا ئارمىيەسى تۇنجى قېتىملىق ئەمەلىي-تەقلىدىي سىناق ئۇچۇشىدا T-7A ئايروپىلانى بىلەن يەر يۈزى مەشىق سىستېمىسىنى ئۆزئارا باغلىدى",
-      "en": "AETC links T-7A aircraft and simulators in first live-virtual flight test"
-    },
-    "summary": {
-      "ug": "ئامېرىكا ھاۋا ئارمىيەسى ھاۋا مائارىپى ۋە مەشىق قوماندانلىق ئىشتابى (AETC) ئەمەلىي، تەقلىدىي ۋە قۇرۇلمىلىق بىرىكمە مانېۋىر جەريانىدا، T-7A «قىزىل بۈركۈت» (Red Hawk) تىپلىق مەشىق ئايروپىلانى بىلەن T-7A يەر يۈزى مەشىق سىستېمىسىنى ئۆزئارا باغلا...",
-      "en": "The US Air Force’s Air Education and Training Command (AETC) has completed its first flight linking a T-7A Red Hawk training aircraft with the T-7A Ground-Based Training System in a live-virtual-constructive exercise."
-    },
-    "content": {
-      "ug": "ئامېرىكا ھاۋا ئارمىيەسى ھاۋا مائارىپى ۋە مەشىق قوماندانلىق ئىشتابى (AETC) ئەمەلىي، تەقلىدىي ۋە قۇرۇلمىلىق بىرىكمە مانېۋىر جەريانىدا، T-7A «قىزىل بۈركۈت» (Red Hawk) تىپلىق مەشىق ئايروپىلانى بىلەن T-7A يەر يۈزى مەشىق سىستېمىسىنى ئۆزئارا باغلاپ، ئۆزىنىڭ تۇنجى قېتىملىق سىناق ئۇچۇشىنى مۇۋەپپەقىيەتلىك تاماملىدى.\n\n---\n📌 **مەنبە:** Air Force Technology",
-      "en": "The US Air Force’s Air Education and Training Command (AETC) has completed its first flight linking a T-7A Red Hawk training aircraft with the T-7A Ground-Based Training System in a live-virtual-constructive exercise.\n\n---\n**Source:** Air Force Technology"
-    },
-    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/09/T-7A-aircraft.jpg",
-    "author": "Air Force Technology",
-    "date": "2026-10-04",
-    "status": "published",
-    "featured": true,
-    "views": 54,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "ئاۋىئاتسىيە"
-    ],
-    "specs": {
-      "مەنبە": "Air Force Technology",
-      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/usaf-aetc-t-7a-aircraft/",
-      "sourceUrl": "https://www.airforce-technology.com/news/usaf-aetc-t-7a-aircraft/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

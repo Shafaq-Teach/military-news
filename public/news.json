@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791599794239_766",
+    "category": "analysis",
+    "title": {
+      "ug": "مۇداپىئە سودىسىدىكى يېڭى يۈزلىنىشلەر: گابې كامارىلو بىلەن سۆھبەت ۋە تاموژنا بېجىنىڭ تەسىرى",
+      "en": "Defense Business Brief: 1:1 with Gabe Camarillo; Tariff ripple effects?, and more"
+    },
+    "summary": {
+      "ug": "«مۇداپىئە بىرىنچى» (Defense One) تورىنىڭ ئەڭ يېڭى خەۋىرىگە ئاساسلانغاندا، ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ مۇئاۋىن كاتىپى گابې كامارىلو بىلەن ئېلىپ بېرىلغان مەخسۇس سۆھبەتتە، نۆۋەتتىكى ھەربىي سېتىۋېلىش سىستېمىسىنىڭ ئۈنۈمى ۋە تېخنىكا تەرەققىيات...",
+      "en": ""
+    },
+    "content": {
+      "ug": "«مۇداپىئە بىرىنچى» (Defense One) تورىنىڭ ئەڭ يېڭى خەۋىرىگە ئاساسلانغاندا، ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ مۇئاۋىن كاتىپى گابې كامارىلو بىلەن ئېلىپ بېرىلغان مەخسۇس سۆھبەتتە، نۆۋەتتىكى ھەربىي سېتىۋېلىش سىستېمىسىنىڭ ئۈنۈمى ۋە تېخنىكا تەرەققىياتى مۇزاكىرە قىلىنغان. شۇنىڭ بىلەن بىر ۋاقىتتا، كانادا خان جەمەتى ھاۋا ئارمىيەسىنىڭ ھاۋادىن ئالدىن ئاگاھلاندۇرۇش ۋە قوماندانلىق قىلىش ئايروپىلانى (AEW&C) ئېھتىياجىنى قاندۇرۇش ئۈچۈن، شىۋېتسىيەنىڭ ساب (Saab) شىركىتى بىلەن «يەرشارى كۆزى» (GlobalEye) سىستېمىسىنى سېتىۋېلىشقا مۇناسىۋەتلىك مەجبۇرىي كۈچكە ئىگە بولمىغان دەسلەپكى رامكا كېلىشىمى ئىمزالانغانلىقى مەلۇم بولدى. خەۋەردە يەنە، خىتاي بىلەن بولغان سودا رىقابىتى ۋە يېڭى تاموژنا بېجى سىياسەتلىرىنىڭ مۇداپىئە سانائىتى تەمىنات زەنجىرىگە كۆرسىتىدىغان ئېھتىماللىق تەسىرى ھەققىدە تەپسىلىي تەھلىل يۈرگۈزۈلگەن.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/08/DBB_lander/large.jpg",
+    "author": "Defense One",
+    "date": "2024-05-22",
+    "status": "published",
+    "featured": true,
+    "views": 45,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "خىتاي",
+      "كانادا"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/business/2026/10/defense-business-brief-11-gabe-camarillo-tariff-ripple-effects-and-more/416490/",
+      "sourceUrl": "https://www.defenseone.com/business/2026/10/defense-business-brief-11-gabe-camarillo-tariff-ripple-effects-and-more/416490/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791589012402_397",
     "category": "weapons",
     "title": {
@@ -3472,40 +3507,6 @@
       "مەنبە": "Air Force Technology",
       "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/sikorsky-us-army-flexible-black-hawk-contract/",
       "sourceUrl": "https://www.airforce-technology.com/news/sikorsky-us-army-flexible-black-hawk-contract/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791002762358_51",
-    "category": "drones",
-    "title": {
-      "ug": "مۇداپىئە تارماقلىرى سىزنى چاقىرىدۇ: «ئۇچقۇچىسىز ئايروپىلان ئۈستۈنلۈكى پىروگراممىسى» FPV ئۇچقۇچىلىرىنى ئىزدەۋاتىدۇ",
-      "en": "DoW wants you"
-    },
-    "summary": {
-      "ug": "سىز بىرىنچى شەخس كۆز قارىشىدىكى (FPV) ئۇچقۇچىسىز ئايروپىلان باشقۇرغۇچىسىمۇ؟ ئۇنداق بولسا، «ئۇچقۇچىسىز ئايروپىلان ئۈستۈنلۈكى پىروگراممىسى» (Drone Dominance Program) سىز بىلەن ھەمكارلىشىشنى خالايدۇ. مەزكۇر پىروگرامما زامانىۋى ھەربىي توقۇنۇشلا...",
-      "en": "Are you an FPV pilot? We want to hear from you! The Drone Dominance Program"
-    },
-    "content": {
-      "ug": "سىز بىرىنچى شەخس كۆز قارىشىدىكى (FPV) ئۇچقۇچىسىز ئايروپىلان باشقۇرغۇچىسىمۇ؟ ئۇنداق بولسا، «ئۇچقۇچىسىز ئايروپىلان ئۈستۈنلۈكى پىروگراممىسى» (Drone Dominance Program) سىز بىلەن ھەمكارلىشىشنى خالايدۇ. مەزكۇر پىروگرامما زامانىۋى ھەربىي توقۇنۇشلاردا ھەل قىلغۇچ رول ئويناۋاتقان ئۇچقۇچىسىز ئايروپىلان (دىرون) تېخنىكىسىنى تەرەققىي قىلدۇرۇش ۋە بۇ ساھەدە ئىستراتېگىيەلىك ئۈستۈنلۈكنى قولغا كەلتۈرۈش ئۈچۈن، ماھارەتلىك FPV ئۇچقۇچىلىرىنى ئۆز ئارا پىكىر ئالماشتۇرۇشقا ۋە ھەمكارلىشىشقا چاقىرىدۇ.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
-      "en": "Are you an FPV pilot? We want to hear from you! The Drone Dominance Program\n\n---\n**Source:** sUAS News (Drones)"
-    },
-    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/drone-dominance-fpv.jpeg?fit=800%2C800&#038;ssl=1",
-    "author": "sUAS News (Drones)",
-    "date": "2026-10-03",
-    "status": "published",
-    "featured": true,
-    "views": 37,
-    "tags": [
-      "ھەربىي",
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "تېخنىكا",
-      "FPV"
-    ],
-    "specs": {
-      "مەنبە": "sUAS News (Drones)",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/dow-wants-you/",
-      "sourceUrl": "https://www.suasnews.com/2026/10/dow-wants-you/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

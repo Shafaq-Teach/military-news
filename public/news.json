@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1791643376355_299",
+    "category": "weapons",
+    "title": {
+      "ug": "ئارمىيەنىڭ «FUZE» يېڭىلىق يارىتىش مەركىزى قۇرۇلۇپ بىر يىلدىن كېيىن، مەركەز مەسئۇلى قورال-ياراغ سېتىۋېلىش جەھەتتىكى تېخىمۇ زور خىرىسلارغا يۈزلەنمەكتە",
+      "en": "One year in, Army’s FUZE leader eyes &#8216;bigger&#8217; acquisition challenges"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ئارمىيەسىنىڭ «FUZE» يېڭىلىق يارىتىش مەركىزى قۇرۇلۇپ بىر يىل توشقان پەيتتە، مەركەز مۇدىرى مات ۋىللىس (Matt Willis) «Breaking Defense» تورىغا بەرگەن باياناتىدا، ئىستىقباللىق تېخنىكىلارنىڭ پەقەت ئەسلى نۇسخا (prototype) باسقۇچىدىلا توخ...",
+      "en": "The Army innovation hub&#8217;s first year also revealed the challenge of making sure promising technologies don’t stop at the prototype stage, FUZE Director Matt Willis told Breaking Defense."
+    },
+    "content": {
+      "ug": "ئامېرىكا ئارمىيەسىنىڭ «FUZE» يېڭىلىق يارىتىش مەركىزى قۇرۇلۇپ بىر يىل توشقان پەيتتە، مەركەز مۇدىرى مات ۋىللىس (Matt Willis) «Breaking Defense» تورىغا بەرگەن باياناتىدا، ئىستىقباللىق تېخنىكىلارنىڭ پەقەت ئەسلى نۇسخا (prototype) باسقۇچىدىلا توختاپ قالماي، بەلكى ئەمەلىي سېتىۋېلىش ۋە قوراللىنىش باسقۇچىغا ئوڭۇشلۇق ئۆتۈشىگە كاپالەتلىك قىلىشنىڭ نۆۋەتتىكى ئەڭ چوڭ خىرىس ئىكەنلىكىنى تەكىتلىدى. ئۇ يەنە، مەركەزنىڭ بىرىنچى يىللىق خىزمەتلىرى جەريانىدا تېخنىكىلىق يېڭىلىقلارنى ئەمەلىي جەڭگىۋارلىققا ئايلاندۇرۇش يولىدىكى توسالغۇلارنىڭ تېخىمۇ ئېنىق كۆرۈنگەنلىكىنى تىلغا ئالدى.\n\n---\n📌 **مەنبە:** Breaking Defense",
+      "en": "The Army innovation hub&#8217;s first year also revealed the challenge of making sure promising technologies don’t stop at the prototype stage, FUZE Director Matt Willis told Breaking Defense.\n\n---\n**Source:** Breaking Defense"
+    },
+    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/9945010-e1791406636796-1024x577.jpg",
+    "author": "Breaking Defense",
+    "date": "2024-05-22",
+    "status": "published",
+    "featured": true,
+    "views": 114,
+    "tags": [
+      "ئارمىيە",
+      "يېڭىلىق_يارىتىش",
+      "سېتىۋېلىش",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "Breaking Defense",
+      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/one-year-in-armys-fuze-leader-eyes-bigger-acquisition-challenges/",
+      "sourceUrl": "https://breakingdefense.com/2026/10/one-year-in-armys-fuze-leader-eyes-bigger-acquisition-challenges/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791643328412_45",
     "category": "weapons",
     "title": {
@@ -3455,47 +3489,6 @@
       "sourceUrl": "https://goo.su/r7hpO",
       "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
       "ھالىتى": "تەستىقلانغان ئانالىز"
-    }
-  },
-  {
-    "id": "wpn_1791183645127",
-    "category": "database",
-    "title": {
-      "ug": "FN SCAR-H ئېغىر تىپتىكى جەڭ مىلتىقى - قورال تەپسىلاتى",
-      "en": "FN SCAR-H Technical Dossier"
-    },
-    "summary": {
-      "ug": "FN SCAR-H ئېغىر تىپتىكى جەڭ مىلتىقى: بېلگىيە / ئامېرىكا ئىشلەپچىقارغان ئاپتومات مىلتىق (Battle Rifle). ئوق ئۆلچىمى: 7.62×51 مىللىمېتىر NATO، ئۈنۈملۈك ئارىلىقى: 600 - 800 مېتىر.",
-      "en": "Technical specifications for FN SCAR-H"
-    },
-    "content": {
-      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nFN SCAR-H ئېغىر تىپتىكى جەڭ مىلتىقى ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** FN SCAR-H ئېغىر تىپتىكى جەڭ مىلتىقى\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** بېلگىيە / ئامېرىكا\n- ⚙️ **قورال تىپى:** ئاپتومات مىلتىق (Battle Rifle)\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 7.62×51 مىللىمېتىر NATO\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: تەخمىنەن 3.58 كىلوگرام (قۇرۇق ھالەتتە)، ئۇزۇنلۇقى: 965 مىللىمېتىر (قۇنداق يېيىلغاندا) / 711 مىللىمېتىر (قۇنداق قاتلانغاندا)\n- 🎯 **ئوقدان سىغىمى:** 20 ئوق (ئۆلچەملىك ئوقدان)\n- ⚡ **ئوق ئېتىش سۈرئىتى:** مىنۇتىغا 625 ئوق\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** 600 - 800 مېتىر\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** SCAR-H CQC (يېقىن جەڭ تىپى), SCAR-H STD (ئۆلچەملىك تىپ), SCAR-H LB (ئۇزۇن لولىلىق تىپ), Mk 17, Mk 20 SSR (مەرگەنلىك مىلتىقى)\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-      "en": "Comprehensive technical dossier for FN SCAR-H"
-    },
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/29/ScarSandiaPix.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-    "date": "2026-10-05",
-    "status": "published",
-    "featured": true,
-    "views": 116,
-    "tags": [
-      "مەلۇمات_ئامبىرى",
-      "قورال",
-      "تېخنىكا"
-    ],
-    "specs": {
-      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
-      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
-      "قورال ئىسمى": "FN SCAR-H ئېغىر تىپتىكى جەڭ مىلتىقى",
-      "ئىشلەپچىقارغان دۆلەت": "بېلگىيە / ئامېرىكا",
-      "قورال تىپى": "ئاپتومات مىلتىق (Battle Rifle)",
-      "ئوق ئۆلچىمى": "7.62×51 مىللىمېتىر NATO",
-      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: تەخمىنەن 3.58 كىلوگرام (قۇرۇق ھالەتتە)، ئۇزۇنلۇقى: 965 مىللىمېتىر (قۇنداق يېيىلغاندا) / 711 مىللىمېتىر (قۇنداق قاتلانغاندا)",
-      "ئوقدان سىغىمى": "20 ئوق (ئۆلچەملىك ئوقدان)",
-      "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 625 ئوق",
-      "ئۈنۈملۈك ئارىلىقى": "600 - 800 مېتىر",
-      "ئاساسلىق ۋارىيانتلىرى": "SCAR-H CQC (يېقىن جەڭ تىپى), SCAR-H STD (ئۆلچەملىك تىپ), SCAR-H LB (ئۇزۇن لولىلىق تىپ), Mk 17, Mk 20 SSR (مەرگەنلىك مىلتىقى)"
     }
   }
 ]

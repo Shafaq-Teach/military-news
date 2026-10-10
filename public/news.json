@@ -1,5 +1,46 @@
 [
   {
+    "id": "wpn_1791615635591",
+    "category": "database",
+    "title": {
+      "ug": "IWI Galil ACE ئاپتومات مىلتىقى - قورال تەپسىلاتى",
+      "en": "IWI Galil ACE Technical Dossier"
+    },
+    "summary": {
+      "ug": "IWI Galil ACE ئاپتومات مىلتىقى: ئىسرائىلىيە ئىشلەپچىقارغان ئاپتومات مىلتىق (Assault Rifle). ئوق ئۆلچىمى: 5.56×45 مىللىمېتىر NATO / 7.62×39 مىللىمېتىر / 7.62×51 مىللىمېتىر NATO، ئۈنۈملۈك ئارىلىقى: 300 – 550 مېتىر (ئوق شەكلى ۋە نىشان ئۇزۇنلۇقىغا قاراپ).",
+      "en": "Technical specifications for IWI Galil ACE"
+    },
+    "content": {
+      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nIWI Galil ACE ئاپتومات مىلتىقى ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** IWI Galil ACE ئاپتومات مىلتىقى\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** ئىسرائىلىيە\n- ⚙️ **قورال تىپى:** ئاپتومات مىلتىق (Assault Rifle)\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 5.56×45 مىللىمېتىر NATO / 7.62×39 مىللىمېتىر / 7.62×51 مىللىمېتىر NATO\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: 3.05 كىلوگرام – 3.8 كىلوگرام (مودېلىغا قاراپ قۇرۇق ھالەتتە)؛ ئۇزۇنلۇقى: 730 مىللىمېتىر – 1020 مىللىمېتىر (قۇندۇق ئۇزارتىلغان ياكى قاتلانغان ھالىتىگە باغلىق)\n- 🎯 **ئوقدان سىغىمى:** 30 ئوق (5.56×45mm NATO ۋە 7.62×39mm ئۈچۈن)، 20 ياكى 25 ئوق (7.62×51mm NATO ئۈچۈن)\n- ⚡ **ئوق ئېتىش سۈرئىتى:** مىنۇتىغا 680 – 700 ئوق\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** 300 – 550 مېتىر (ئوق شەكلى ۋە نىشان ئۇزۇنلۇقىغا قاراپ)\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** Galil ACE 21/22/23 (5.56×45mm NATO)، Galil ACE 31/32 (7.62×39mm)، Galil ACE 52/53 (7.62×51mm NATO)، Galil ACE-N\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "en": "Comprehensive technical dossier for IWI Galil ACE"
+    },
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/IWI_3686.jpg/1280px-IWI_3686.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+    "date": "2026-10-10",
+    "status": "published",
+    "featured": true,
+    "views": 89,
+    "tags": [
+      "مەلۇمات_ئامبىرى",
+      "قورال",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
+      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
+      "قورال ئىسمى": "IWI Galil ACE ئاپتومات مىلتىقى",
+      "ئىشلەپچىقارغان دۆلەت": "ئىسرائىلىيە",
+      "قورال تىپى": "ئاپتومات مىلتىق (Assault Rifle)",
+      "ئوق ئۆلچىمى": "5.56×45 مىللىمېتىر NATO / 7.62×39 مىللىمېتىر / 7.62×51 مىللىمېتىر NATO",
+      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: 3.05 كىلوگرام – 3.8 كىلوگرام (مودېلىغا قاراپ قۇرۇق ھالەتتە)؛ ئۇزۇنلۇقى: 730 مىللىمېتىر – 1020 مىللىمېتىر (قۇندۇق ئۇزارتىلغان ياكى قاتلانغان ھالىتىگە باغلىق)",
+      "ئوقدان سىغىمى": "30 ئوق (5.56×45mm NATO ۋە 7.62×39mm ئۈچۈن)، 20 ياكى 25 ئوق (7.62×51mm NATO ئۈچۈن)",
+      "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 680 – 700 ئوق",
+      "ئۈنۈملۈك ئارىلىقى": "300 – 550 مېتىر (ئوق شەكلى ۋە نىشان ئۇزۇنلۇقىغا قاراپ)",
+      "ئاساسلىق ۋارىيانتلىرى": "Galil ACE 21/22/23 (5.56×45mm NATO)، Galil ACE 31/32 (7.62×39mm)، Galil ACE 52/53 (7.62×51mm NATO)، Galil ACE-N"
+    }
+  },
+  {
     "id": "news_1791610819698_471",
     "category": "weapons",
     "title": {
@@ -3470,40 +3511,6 @@
       "مەنبە": "Defense One",
       "ئەسلى ئۇلانما": "https://www.defenseone.com/policy/2026/09/white-house-unveils-super-intelligence-executive-order-and-industry-accord/416383/",
       "sourceUrl": "https://www.defenseone.com/policy/2026/09/white-house-unveils-super-intelligence-executive-order-and-industry-accord/416383/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791143561322_190",
-    "category": "weapons",
-    "title": {
-      "ug": "پېنتاگون ئىلغار تېخنىكىلارنى بايقاش ئۈچۈن مەركىزىي ئاخبارات ئىدارىسىنىڭ «In-Q-Tel» مەبلەغ سېلىش ئورگىنى بىلەن ھەمكارلىق ئورناتتى",
-      "en": "Pentagon partners with CIA’s In-Q-Tel for ‘technology scouting’"
-    },
-    "summary": {
-      "ug": "ئىلگىرى «ئاندۇرىل» (Anduril) ۋە «پالانتير» (Palantir) قاتارلىق يېڭىدىن گۈللەنگەن ھەربىي تېخنىكا شىركەتلىرىنى مەبلەغ بىلەن تەمىنلەشتە تۈرتكىلىك رول ئوينىغان، مەركىزىي ئاخبارات ئىدارىسى (CIA) تەرىپىدىن قوللىنىدىغان «In-Q-Tel» مەبلەغ سېلىش شىر...",
-      "en": "The CIA-funded investment firm, which has helped finance startups from Anduril to Palantir, is now formally coordinating with the Pentagon’s Critical Technologies office."
-    },
-    "content": {
-      "ug": "ئىلگىرى «ئاندۇرىل» (Anduril) ۋە «پالانتير» (Palantir) قاتارلىق يېڭىدىن گۈللەنگەن ھەربىي تېخنىكا شىركەتلىرىنى مەبلەغ بىلەن تەمىنلەشتە تۈرتكىلىك رول ئوينىغان، مەركىزىي ئاخبارات ئىدارىسى (CIA) تەرىپىدىن قوللىنىدىغان «In-Q-Tel» مەبلەغ سېلىش شىركىتى، نۆۋەتتە ئامېرىكا دۆلەت مۇداپىئە مىنىستىرلىقى (پېنتاگون) نىڭ ھالقىلىق تېخنىكىلار ئىشخانىسى بىلەن رەسمىي ماسلىشىشچانلىق ئورنىتىپ، دۆلەت مۇداپىئەسىگە كېرەكلىك ئىلغار تېخنىكىلارنى بايقاش ۋە تەرەققىي قىلدۇرۇش خىزمىتىنى باشلىدى.\n\n---\n📌 **مەنبە:** Breaking Defense",
-      "en": "The CIA-funded investment firm, which has helped finance startups from Anduril to Palantir, is now formally coordinating with the Pentagon’s Critical Technologies office.\n\n---\n**Source:** Breaking Defense"
-    },
-    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/261002_cia_seal_floor_GettyImages-635268902-e1790959020409.jpg",
-    "author": "Breaking Defense",
-    "date": "2026-10-04",
-    "status": "published",
-    "featured": true,
-    "views": 107,
-    "tags": [
-      "پېنتاگون",
-      "مەركىزىي ئاخبارات ئىدارىسى",
-      "ھەربىي تېخنىكا",
-      "مەبلەغ سېلىش"
-    ],
-    "specs": {
-      "مەنبە": "Breaking Defense",
-      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/pentagon-partners-with-cias-in-q-tel-for-technology-scouting/",
-      "sourceUrl": "https://breakingdefense.com/2026/10/pentagon-partners-with-cias-in-q-tel-for-technology-scouting/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

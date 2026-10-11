@@ -1,5 +1,46 @@
 [
   {
+    "id": "wpn_1791702153672",
+    "category": "database",
+    "title": {
+      "ug": "پ ك م (PKM) زامانىۋىلاشتۇرۇلغان ئومۇمىي مەقسەتلىك پىلىموتى - قورال تەپسىلاتى",
+      "en": "PKM Machine Gun Technical Dossier"
+    },
+    "summary": {
+      "ug": "پ ك م (PKM) زامانىۋىلاشتۇرۇلغان ئومۇمىي مەقسەتلىك پىلىموتى: سوۋېت ئىتتىپاقى / رۇسىيە ئىشلەپچىقارغان ئومۇمىي مەقسەتلىك پىلىموت (GPMG). ئوق ئۆلچىمى: 7.62×54 مىللىمېتىر R، ئۈنۈملۈك ئارىلىقى: 1000 - 1500 مېتىر.",
+      "en": "Technical specifications for PKM Machine Gun"
+    },
+    "content": {
+      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nپ ك م (PKM) زامانىۋىلاشتۇرۇلغان ئومۇمىي مەقسەتلىك پىلىموتى ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** پ ك م (PKM) زامانىۋىلاشتۇرۇلغان ئومۇمىي مەقسەتلىك پىلىموتى\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** سوۋېت ئىتتىپاقى / رۇسىيە\n- ⚙️ **قورال تىپى:** ئومۇمىي مەقسەتلىك پىلىموت (GPMG)\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 7.62×54 مىللىمېتىر R\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: 7.5 كىلوگرام (ئوقسىز ۋە ئۈچپۇتسىز)؛ ئومۇمىي ئۇزۇنلۇقى: 1192 مىللىمېتىر؛ تۇڭ ئۇزۇنلۇقى: 645 مىللىمېتىر\n- 🎯 **ئوقدان سىغىمى:** 100، 200 ۋە 250 ئوقلۇق مېتال پاتىران تاسمىسى (ئوق قۇتىسى بىلەن بىللە)\n- ⚡ **ئوق ئېتىش سۈرئىتى:** مىنۇتىغا تەخمىنەن 650 ئوق (نەزەرىيىۋى ئېتىش سۈرئىتى)\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** 1000 - 1500 مېتىر\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** PK, PKMS (ئۈچپۇتلۇق پىيادە ئەسكەر نۇسخىسى), PKT (تانكا ۋە برونېۋىك نۇسخىسى), PKMB, PKP «Pecheneg», خىتاي 80-تىپلىق پىلىموتى (خىتاي تەرىپىدىن كۆچۈرۈپ ياسالغان نۇسخىسى)\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "en": "Comprehensive technical dossier for PKM Machine Gun"
+    },
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/SpB-Museum-artillery-114.jpg/1280px-SpB-Museum-artillery-114.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+    "date": "2026-10-11",
+    "status": "published",
+    "featured": true,
+    "views": 81,
+    "tags": [
+      "مەلۇمات_ئامبىرى",
+      "قورال",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
+      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
+      "قورال ئىسمى": "پ ك م (PKM) زامانىۋىلاشتۇرۇلغان ئومۇمىي مەقسەتلىك پىلىموتى",
+      "ئىشلەپچىقارغان دۆلەت": "سوۋېت ئىتتىپاقى / رۇسىيە",
+      "قورال تىپى": "ئومۇمىي مەقسەتلىك پىلىموت (GPMG)",
+      "ئوق ئۆلچىمى": "7.62×54 مىللىمېتىر R",
+      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: 7.5 كىلوگرام (ئوقسىز ۋە ئۈچپۇتسىز)؛ ئومۇمىي ئۇزۇنلۇقى: 1192 مىللىمېتىر؛ تۇڭ ئۇزۇنلۇقى: 645 مىللىمېتىر",
+      "ئوقدان سىغىمى": "100، 200 ۋە 250 ئوقلۇق مېتال پاتىران تاسمىسى (ئوق قۇتىسى بىلەن بىللە)",
+      "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا تەخمىنەن 650 ئوق (نەزەرىيىۋى ئېتىش سۈرئىتى)",
+      "ئۈنۈملۈك ئارىلىقى": "1000 - 1500 مېتىر",
+      "ئاساسلىق ۋارىيانتلىرى": "PK, PKMS (ئۈچپۇتلۇق پىيادە ئەسكەر نۇسخىسى), PKT (تانكا ۋە برونېۋىك نۇسخىسى), PKMB, PKP «Pecheneg», خىتاي 80-تىپلىق پىلىموتى (خىتاي تەرىپىدىن كۆچۈرۈپ ياسالغان نۇسخىسى)"
+    }
+  },
+  {
     "id": "news_1791697638593_117",
     "category": "weapons",
     "title": {
@@ -3452,41 +3493,6 @@
       "مەنبە": "sUAS News (Drones)",
       "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/yokowos-evolving-connector-product-lineup/",
       "sourceUrl": "https://www.suasnews.com/2026/10/yokowos-evolving-connector-product-lineup/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791165420157_440",
-    "category": "analysis",
-    "title": {
-      "ug": "B-1B تىپلىق بومباردىمانچى ئايروپىلانلار ئەنگلىيەدىن جىددىي يۆتكىلىپ كەتتى",
-      "en": "B-1B Bombers Make Hasty Departure From England"
-    },
-    "summary": {
-      "ug": "ئىلگىرى ئىران تەرىپىدىن ئاشكارە تەھدىتكە ئۇچرىغان، شۇنداقلا «ئېپىك غەزەپ» (Epic Fury) ھەرىكىتى جەريانىدا ئامېرىكا بومباردىمانچى ئايروپىلانلىرىنى قوبۇل قىلىپ، ئۇلارنىڭ بىر قىسمىنى ساقلاپ كەلگەن ئەنگلىيە خان جەمەتى ھاۋا ئارمىيەسىنىڭ فەيرفورد ...",
-      "en": "RAF Fairford, which hosted U.S. bombers during Operation Epic Fury, some of which had stayed, has been threatened openly by Iran before.\n\n\nThe post B-1B Bombers Make Hasty Departure From England appeared first on TWZ."
-    },
-    "content": {
-      "ug": "ئىلگىرى ئىران تەرىپىدىن ئاشكارە تەھدىتكە ئۇچرىغان، شۇنداقلا «ئېپىك غەزەپ» (Epic Fury) ھەرىكىتى جەريانىدا ئامېرىكا بومباردىمانچى ئايروپىلانلىرىنى قوبۇل قىلىپ، ئۇلارنىڭ بىر قىسمىنى ساقلاپ كەلگەن ئەنگلىيە خان جەمەتى ھاۋا ئارمىيەسىنىڭ فەيرفورد (RAF Fairford) بازىسىدىن B-1B تىپلىق ستراتېگىيەلىك بومباردىمانچى ئايروپىلانلار تۇيۇقسىز ۋە جىددىي ھالدا ئايرىلدى.\n\n---\n📌 **مەنبە:** The War Zone (TWZ)",
-      "en": "RAF Fairford, which hosted U.S. bombers during Operation Epic Fury, some of which had stayed, has been threatened openly by Iran before.\n\n\nThe post B-1B Bombers Make Hasty Departure From England appeared first on TWZ.\n\n---\n**Source:** The War Zone (TWZ)"
-    },
-    "imageUrl": "https://www.twz.com/wp-content/uploads/2026/10/B1-Leave-Fairford.jpg?quality=85",
-    "author": "The War Zone (TWZ)",
-    "date": "2026-10-05",
-    "status": "published",
-    "featured": true,
-    "views": 132,
-    "tags": [
-      "ھەربىي",
-      "بومباردىمانچى_ئايروپىلان",
-      "ئەنگلىيە",
-      "ئامېرىكا",
-      "ئىران"
-    ],
-    "specs": {
-      "مەنبە": "The War Zone (TWZ)",
-      "ئەسلى ئۇلانما": "https://www.twz.com/air/b-1b-bombers-make-hasty-departure-from-england",
-      "sourceUrl": "https://www.twz.com/air/b-1b-bombers-make-hasty-departure-from-england",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791752003432_918",
+    "category": "drones",
+    "title": {
+      "ug": "ئۇچقۇچىسىز ئايروپىلانلار ۋە ئاپتونوم ئۇرۇش: «بىر يۆنىلىشلىك ھۇجۇم» قوراللىرى ئىستىخبارات ۋە رازۋېتكا ساھەسىنى قايتا شەكىللەندۈرمەكتە",
+      "en": "Drones and autonomous warfare: ‘One-way attack’ and reshaping ISR"
+    },
+    "summary": {
+      "ug": "ئاساسىي قىسىمنىڭ ئايرىلماس تەركىبىي قىسمى سۈپىتىدە ماسلىشىش بىلەن بىر ۋاقىتتا، ئۆزلۈكىدىن مۇستەقىل ھەرىكەت قىلىش ئىقتىدارىغا ئىگە بولغان ئاپتونوم سىستېمىلار كۆپ ساھەلىك بىرلەشمە ھەربىي ھەرىكەتلەرنى مۇۋەپپەقىيەتلىك ئېلىپ بېرىشتا ھەل قىلغۇچ ئ...",
+      "en": "[Sponsored] Systems that can work independently while still being part of a unit are critical to carrying out multi-domain operations."
+    },
+    "content": {
+      "ug": "ئاساسىي قىسىمنىڭ ئايرىلماس تەركىبىي قىسمى سۈپىتىدە ماسلىشىش بىلەن بىر ۋاقىتتا، ئۆزلۈكىدىن مۇستەقىل ھەرىكەت قىلىش ئىقتىدارىغا ئىگە بولغان ئاپتونوم سىستېمىلار كۆپ ساھەلىك بىرلەشمە ھەربىي ھەرىكەتلەرنى مۇۋەپپەقىيەتلىك ئېلىپ بېرىشتا ھەل قىلغۇچ ئەھمىيەتكە ئىگە بولماقتا.\n\n---\n📌 **مەنبە:** Breaking Defense",
+      "en": "[Sponsored] Systems that can work independently while still being part of a unit are critical to carrying out multi-domain operations.\n\n---\n**Source:** Breaking Defense"
+    },
+    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/AEVEX-1-rzd-1024x657.jpg",
+    "author": "Breaking Defense",
+    "date": "2026-10-11",
+    "status": "published",
+    "featured": true,
+    "views": 141,
+    "tags": [
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "ئاپتونوم ئۇرۇش",
+      "كۆپ ساھەلىك ئۇرۇش",
+      "رازۋېتكا",
+      "ھەربىي تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "Breaking Defense",
+      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/drones-and-autonomous-warfare-one-way-attack-and-reshaping-isr/",
+      "sourceUrl": "https://breakingdefense.com/2026/10/drones-and-autonomous-warfare-one-way-attack-and-reshaping-isr/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791751980050_43",
     "category": "analysis",
     "title": {
@@ -3435,41 +3470,6 @@
       "مەنبە": "Air Force Technology",
       "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/south-korea-kf-21-systems/",
       "sourceUrl": "https://www.airforce-technology.com/news/south-korea-kf-21-systems/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791295663346_760",
-    "category": "weapons",
-    "title": {
-      "ug": "پېنتاگون سۈنئىي ئىدراك ئارقىلىق ئىشەنچلىكلىكنى تەكشۈرۈش تۈرىدىن ۋاز كەچتىمۇ؟",
-      "en": "Has the Pentagon given up on AI polygraph analysis of trustworthiness?"
-    },
-    "summary": {
-      "ug": "پېنتاگوننىڭ سۈنئىي ئىدراك تېخنىكىسىدىن پايدىلىنىپ، سۆز ئەندىزىسى، ئاۋازدىكى جىددىيلىك ياكى يۈز ئىپادىسى ئارقىلىق كىشىلەرنىڭ ئىشەنچلىكلىكىنى ۋە ئوي-پىكىرلىرىنى ئوقۇشقا ئۇرۇنۇش تەشەببۇسى ئالىملار ۋە تەنقىدچىلەرنىڭ قاتتىق نارازىلىقىغا ئۇچرىدى....",
-      "en": "AI-aided scanning of speech patterns, vocal stress or facial expressions to read minds lacks scientific backing and will compound errors, critics argue."
-    },
-    "content": {
-      "ug": "پېنتاگوننىڭ سۈنئىي ئىدراك تېخنىكىسىدىن پايدىلىنىپ، سۆز ئەندىزىسى، ئاۋازدىكى جىددىيلىك ياكى يۈز ئىپادىسى ئارقىلىق كىشىلەرنىڭ ئىشەنچلىكلىكىنى ۋە ئوي-پىكىرلىرىنى ئوقۇشقا ئۇرۇنۇش تەشەببۇسى ئالىملار ۋە تەنقىدچىلەرنىڭ قاتتىق نارازىلىقىغا ئۇچرىدى. مۇتەخەسسىسلەرنىڭ قارىشىچە، بۇ خىل ئۇسۇللارنىڭ ئىلمىي ئاساسى يوق بولۇپ، ئۇنىڭ قوللىنىلىشى ئەكسىچە خاتا قارارلارنىڭ كۆپىيىشىنى كەلتۈرۈپ چىقىرىدۇ.\n\n---\n📌 **مەنبە:** C4ISRNET",
-      "en": "AI-aided scanning of speech patterns, vocal stress or facial expressions to read minds lacks scientific backing and will compound errors, critics argue.\n\n---\n**Source:** C4ISRNET"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/CGSLKS4QGBEK5ARFHZQ7G6H3ME.jpg",
-    "author": "C4ISRNET",
-    "date": "2026-10-06",
-    "status": "published",
-    "featured": true,
-    "views": 26,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "سۈنئىي ئىدراك",
-      "پېنتاگون"
-    ],
-    "specs": {
-      "مەنبە": "C4ISRNET",
-      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/news/pentagon-congress/2026/10/05/has-the-pentagon-given-up-on-ai-polygraph-analysis-of-trustworthiness/",
-      "sourceUrl": "https://www.c4isrnet.com/news/pentagon-congress/2026/10/05/has-the-pentagon-given-up-on-ai-polygraph-analysis-of-trustworthiness/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

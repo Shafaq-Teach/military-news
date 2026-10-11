@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791708430033_427",
+    "category": "weapons",
+    "title": {
+      "ug": "مۇتەخەسسىسلەر: يېقىنقى تەيۋەن تەقلىدىي مانېۋىرى ئامېرىكىنىڭ خىتايغا قارشى تور مۇداپىئە ئاجىزلىقلىرىنى ئاشكارىلىدى",
+      "en": "Recent Taiwan simulation highlights US cyberdefense gaps against China, experts warn"
+    },
+    "summary": {
+      "ug": "بىر نۆۋەتلىك تور ئۇرۇشى تەقلىدىي مانېۋىرىنى تەشكىللىگۈچى مۇتەخەسسىسلەر ئامېرىكا ھۆكۈمىتىنىڭ ئاشكارا ھەربىي توقۇنۇش كەلتۈرۈپ چىقارماستىن، بىر تەرەپتىن پۇقراۋى مۇلازىمەتلەرنى ئىقتىدارسىزلاشتۇرىدىغان، يەنە بىر تەرەپتىن تەيبېيغا بېسىم ئىشلىتىدى...",
+      "en": "Organizers of a cyber exercise say Washington needs to prepare for attacks that both disrupt civilian services and pressure Taipei without triggering outright military conflict."
+    },
+    "content": {
+      "ug": "بىر نۆۋەتلىك تور ئۇرۇشى تەقلىدىي مانېۋىرىنى تەشكىللىگۈچى مۇتەخەسسىسلەر ئامېرىكا ھۆكۈمىتىنىڭ ئاشكارا ھەربىي توقۇنۇش كەلتۈرۈپ چىقارماستىن، بىر تەرەپتىن پۇقراۋى مۇلازىمەتلەرنى ئىقتىدارسىزلاشتۇرىدىغان، يەنە بىر تەرەپتىن تەيبېيغا بېسىم ئىشلىتىدىغان خىتاينىڭ تور ھۇجۇملىرىغا قارشى ئالدىن پۇختا تەييارلىق كۆرۈشى زۆرۈرلۈكىنى ئاگاھلاندۇردى.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "Organizers of a cyber exercise say Washington needs to prepare for attacks that both disrupt civilian services and pressure Taipei without triggering outright military conflict.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/07/100726TaiwanNG-1/large.jpg",
+    "author": "Defense One",
+    "date": "2026-10-11",
+    "status": "published",
+    "featured": true,
+    "views": 46,
+    "tags": [
+      "ھەربىي",
+      "تور ئۇرۇشى",
+      "خىتاي",
+      "ئامېرىكا",
+      "تەيۋەن"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/10/recent-taiwan-simulation-highlights-us-cyberdefense-gaps-against-china-experts-warn/416487/",
+      "sourceUrl": "https://www.defenseone.com/threats/2026/10/recent-taiwan-simulation-highlights-us-cyberdefense-gaps-against-china-experts-warn/416487/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1791702857258",
     "category": "analysis",
     "title": {
@@ -3455,47 +3490,6 @@
       "sourceUrl": "https://www.facebook.com/alitamiii/posts/4692547844307104/",
       "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
       "ھالىتى": "تەستىقلانغان ئانالىز"
-    }
-  },
-  {
-    "id": "wpn_1791270033497",
-    "category": "database",
-    "title": {
-      "ug": "Heckler & Koch HK416 ئاپتومات مىلتىقى - قورال تەپسىلاتى",
-      "en": "Heckler & Koch HK416 Technical Dossier"
-    },
-    "summary": {
-      "ug": "Heckler & Koch HK416 ئاپتومات مىلتىقى: گېرمانىيە ئىشلەپچىقارغان ئاپتومات مىلتىق (Assault Rifle). ئوق ئۆلچىمى: 5.56×45 مىللىمېتىر NATO، ئۈنۈملۈك ئارىلىقى: 300 - 800 مېتىر (لولا ئۇزۇنلۇقىغا قاراپ ئوخشىمايدۇ).",
-      "en": "Technical specifications for Heckler & Koch HK416"
-    },
-    "content": {
-      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nHeckler & Koch HK416 ئاپتومات مىلتىقى ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** Heckler & Koch HK416 ئاپتومات مىلتىقى\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** گېرمانىيە\n- ⚙️ **قورال تىپى:** ئاپتومات مىلتىق (Assault Rifle)\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 5.56×45 مىللىمېتىر NATO\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: 3.49 كىلوگرام (14.5 ديۇملۇق لولىسى بىلەن قۇرۇق ھالەتتە)، ئۇزۇنلۇقى: 797 مىللىمېتىر (قۇنداق يىغىلغاندا) / 893 مىللىمېتىر (قۇنداق يېزىلغاندا)\n- 🎯 **ئوقدان سىغىمى:** 30 ئوقلۇق ئۆلچەملىك چوقلاق (شۇنداقلا 100 ئوقلۇق دۇمباق چوقلاقنىمۇ ئىشلەتكىلى بولىدۇ)\n- ⚡ **ئوق ئېتىش سۈرئىتى:** مىنۇتىغا 700 - 900 ئوق\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** 300 - 800 مېتىر (لولا ئۇزۇنلۇقىغا قاراپ ئوخشىمايدۇ)\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** HK416C (كۆمۈرچەك نۇسخىسى)، HK416 D (ئۆلچەملىك نۇسخىسى)، HK416 F (فىرانسىيە ئارمىيەسى نۇسخىسى)، M27 IAR (ئامېرىكا دېڭىز ئارمىيە پىيادە ئەسكەرلىرى نۇسخىسى)\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-      "en": "Comprehensive technical dossier for Heckler & Koch HK416"
-    },
-    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/HK416N.png/1280px-HK416N.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-    "date": "2026-10-06",
-    "status": "published",
-    "featured": true,
-    "views": 89,
-    "tags": [
-      "مەلۇمات_ئامبىرى",
-      "قورال",
-      "تېخنىكا"
-    ],
-    "specs": {
-      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
-      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
-      "قورال ئىسمى": "Heckler & Koch HK416 ئاپتومات مىلتىقى",
-      "ئىشلەپچىقارغان دۆلەت": "گېرمانىيە",
-      "قورال تىپى": "ئاپتومات مىلتىق (Assault Rifle)",
-      "ئوق ئۆلچىمى": "5.56×45 مىللىمېتىر NATO",
-      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: 3.49 كىلوگرام (14.5 ديۇملۇق لولىسى بىلەن قۇرۇق ھالەتتە)، ئۇزۇنلۇقى: 797 مىللىمېتىر (قۇنداق يىغىلغاندا) / 893 مىللىمېتىر (قۇنداق يېزىلغاندا)",
-      "ئوقدان سىغىمى": "30 ئوقلۇق ئۆلچەملىك چوقلاق (شۇنداقلا 100 ئوقلۇق دۇمباق چوقلاقنىمۇ ئىشلەتكىلى بولىدۇ)",
-      "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 700 - 900 ئوق",
-      "ئۈنۈملۈك ئارىلىقى": "300 - 800 مېتىر (لولا ئۇزۇنلۇقىغا قاراپ ئوخشىمايدۇ)",
-      "ئاساسلىق ۋارىيانتلىرى": "HK416C (كۆمۈرچەك نۇسخىسى)، HK416 D (ئۆلچەملىك نۇسخىسى)، HK416 F (فىرانسىيە ئارمىيەسى نۇسخىسى)، M27 IAR (ئامېرىكا دېڭىز ئارمىيە پىيادە ئەسكەرلىرى نۇسخىسى)"
     }
   }
 ]

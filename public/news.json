@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1791708446579_901",
+    "category": "weapons",
+    "title": {
+      "ug": "قۇرۇقلۇق ئاپتونومىيەلىك روبوتلىرى ئۇرۇش سېپىگە يېتىپ كەلدى",
+      "en": "Ground Robots Are Arriving on the Front Lines"
+    },
+    "summary": {
+      "ug": "نۇرغۇن يىللاردىن بۇيان، قۇرۇقلۇق ئاپتونومىيە تېخنىكىسى ھاۋا بوشلۇقىدىكى ئوخشاش تۈردىكى ئادەمسىز سىستېمىلاردىن خېلىلا ئارقىدا قېلىۋاتقان بولۇپ، ھازىر بۇ پەرق بارا-بارا كىچىكلەشكە باشلىدى. بۇ قېتىملىق مۇنازىرىدە رىيان ھارت مان (Ondas Sentinel...",
+      "en": "For years, ground autonomy lagged well behind its counterparts in the air. That gap is starting to close. Jonathan is joined by Ryan Hartman (Ondas Sentinel) and Scott Philips (Forterra) to examine what it takes to field autonomous ground v"
+    },
+    "content": {
+      "ug": "نۇرغۇن يىللاردىن بۇيان، قۇرۇقلۇق ئاپتونومىيە تېخنىكىسى ھاۋا بوشلۇقىدىكى ئوخشاش تۈردىكى ئادەمسىز سىستېمىلاردىن خېلىلا ئارقىدا قېلىۋاتقان بولۇپ، ھازىر بۇ پەرق بارا-بارا كىچىكلەشكە باشلىدى. بۇ قېتىملىق مۇنازىرىدە رىيان ھارت مان (Ondas Sentinel) ۋە سكات فىلىپس (Forterra) قاتارلىق ئادەمسىز سىستېما مۇتەخەسسىسلىرى بىلەن بىرلىكتە، جەڭ مەيدانىغا ئاپتونومىيەلىك قۇرۇقلۇق ئاپتوموبىللىرىنى ئورۇنلاشتۇرۇشقا كېتىدىغان تېخنىكىلىق تەپەككۇرلار ئەتراپلىق تەھلىل قىلىندى. سۆھبەتتە ۋۇكرائىنا ۋە غەززە ئۇرۇش مەيدانلىرىدىن ئېرىشىلگەن تەجرىبە-ساباقلار، جۇغراپىيەلىك ئورۇن بەلگىلەش سىستېمىسى (GPS) توختىتىپ قويۇلغان ۋە ئېلېكترونلۇق دەخلى-تەرۇزغا ئۇچرىغان مۇھىتتا سىجىل ئالاقىنى ساقلاش، شۇنىڭدەك ھاۋا-قۇرۇقلۇق بىرلىشىپ جەڭ قىلىش مۇداپىئە تەكتىكىلىرى تەپسىلىي مۇزاكىرە قىلىندى.\n\n---\n📌 **مەنبە:** War on the Rocks",
+      "en": "For years, ground autonomy lagged well behind its counterparts in the air. That gap is starting to close. Jonathan is joined by Ryan Hartman (Ondas Sentinel) and Scott Philips (Forterra) to examine what it takes to field autonomous ground vehicles in combat. The conversation ranges across what Ukraine and Gaza have taught them, what operating without GPS and resilient communications really looks like, air-ground teaming, and more. Image: Lance Cpl. Talan Werner via DVIDS.\n\n\nThe post Ground Robots Are Arriving on the Front Lines appeared first on War on the Rocks.\n\n---\n**Source:** War on the Rocks"
+    },
+    "imageUrl": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-47986-d8e393e4b3d3.jpg",
+    "author": "War on the Rocks",
+    "date": "2026-03-29",
+    "status": "published",
+    "featured": true,
+    "views": 114,
+    "tags": [
+      "ئەسكىرىي تېخنىكا",
+      "ئادەمسىز سىستېما",
+      "قۇرۇقلۇق روبوتلىرى",
+      "ئۇرۇش سېپى"
+    ],
+    "specs": {
+      "مەنبە": "War on the Rocks",
+      "ئەسلى ئۇلانما": "https://warontherocks.com/cogs-of-war/ground-robots-are-arriving-on-the-front-lines/",
+      "sourceUrl": "https://warontherocks.com/cogs-of-war/ground-robots-are-arriving-on-the-front-lines/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791708430033_427",
     "category": "weapons",
     "title": {
@@ -3455,41 +3489,6 @@
       "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program/",
       "sourceUrl": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "pol_1791245096145",
-    "category": "analysis",
-    "title": {
-      "ug": "يەمەن ئارمىيەسى دۆلەتنىڭ غەربىي جەنۇبىدىكى باب ئەلمەندەب بوغۇزىنىڭ كونتروللۇقىنى قايتۇرۇۋالغانلىقىنى جاكارلىدى",
-      "en": "الجيش اليمني يعلن استعادة السيطرة على مضيق باب المندب جنوب غربي البلاد، إثر تحرير مديرية ذ"
-    },
-    "summary": {
-      "ug": "يەمەن ئارمىيەسى ھۇسىيلار گۇرۇھى بىلەن يۈز بەرگەن توقۇنۇشلاردىن كېيىن، باب ئەلمەندەب بوغۇزىغا قاراپ تۇرىدىغان زۇ باب ناھىيەسىنى ئازاد قىلىش ئارقىلىق، دۆلەتنىڭ غەربىي جەنۇبىدىكى باب ئەلمەندەب بوغۇزىنىڭ كونتروللۇقىنى قايتۇرۇۋالغانلىقىنى جاكارلىدى.",
-      "en": "الجيش اليمني يعلن استعادة السيطرة على مضيق باب المندب جنوب غربي البلاد، إثر تحرير مديرية ذو باب المطلة عليه، بعد مواجهات مع جماعة الحوثي.…"
-    },
-    "content": {
-      "ug": "يەمەن ئارمىيەسى ھۇسىيلار گۇرۇھى بىلەن يۈز بەرگەن توقۇنۇشلاردىن كېيىن، باب ئەلمەندەب بوغۇزىغا قاراپ تۇرىدىغان زۇ باب ناھىيەسىنى ئازاد قىلىش ئارقىلىق، دۆلەتنىڭ غەربىي جەنۇبىدىكى باب ئەلمەندەب بوغۇزىنىڭ كونتروللۇقىنى قايتۇرۇۋالغانلىقىنى جاكارلىدى.\n\n---\n🔗 **ئەسلى مەنبە ئۇلانمىسى:** [علي التميمي (Facebook) دىن ئەسلى تەھلىلنى كۆرۈش](https://www.facebook.com/alitamiii/posts/4692547844307104/)",
-      "en": "الجيش اليمني يعلن استعادة السيطرة على مضيق باب المندب جنوب غربي البلاد، إثر تحرير مديرية ذو باب المطلة عليه، بعد مواجهات مع جماعة الحوثي.…"
-    },
-    "imageUrl": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/833494197_4008822702746189_4229496949706142537_n.png?stp=dst-jpg_tt6&cstp=mx864x486&ctp=s864x486&_nc_cat=1&ccb=1-7&_nc_sid=833d8c&_nc_ohc=k2MQJCgTOQQQ7kNvwFstqFc&_nc_oc=AdqOL-P357MaCXndQ310CkiPMZx20nKn9X56nXemVSL9fXdv4nelmvlWrNKEynRIlsI&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=McUzVyHrVKePBcSZyWTV3g&_nc_ss=7b289&oh=00_AQNhCCN48GAWFcC3SX_GluT9xqioxlXiXQpA3-4ZbTkBFQ&oe=6ACA0577",
-    "author": "علي التميمي (Facebook)",
-    "date": "2026-10-06",
-    "status": "published",
-    "featured": true,
-    "views": 128,
-    "tags": [
-      "يەمەن",
-      "باب_ئەلمەندەب",
-      "ھۇسىيلار",
-      "ھەربىي_توقۇنۇش"
-    ],
-    "specs": {
-      "مەنبە": "علي التميمي (Facebook)",
-      "ئەسلى ئۇلانما": "https://www.facebook.com/alitamiii/posts/4692547844307104/",
-      "sourceUrl": "https://www.facebook.com/alitamiii/posts/4692547844307104/",
-      "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
-      "ھالىتى": "تەستىقلانغان ئانالىز"
     }
   }
 ]

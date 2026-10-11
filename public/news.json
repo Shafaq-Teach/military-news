@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791697621811_606",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى مەخپىي ھەربىي ماتېرىياللار ئۈچۈن ئورتاق يۇمشاق دېتال سۇپىسى تەسىس قىلىدۇ",
+      "en": "US Army, Kaizen Laboratories to establish common software platform for classified material"
+    },
+    "summary": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى ئىنتايىن سەزگۈر ۋە يۇقىرى دەرىجىلىك مەخپىي ھەربىي ماتېرىياللارنى بىر تەرەپ قىلىدىغان يۇمىلاق جابدۇق ئەپلىرىنى ئېچىش ئۈچۈن، «كايزېن تەجرىبىخانىلىرى» (Kaizen Laboratories) شىركىتىگە 43 مىليون دوللارلىق كېلىشىم ئاجر...",
+      "en": "The U.S. Army recently awarded $43 million to Kaizen Laboratories to create application software for highly sensitive military material."
+    },
+    "content": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى ئىنتايىن سەزگۈر ۋە يۇقىرى دەرىجىلىك مەخپىي ھەربىي ماتېرىياللارنى بىر تەرەپ قىلىدىغان يۇمىلاق جابدۇق ئەپلىرىنى ئېچىش ئۈچۈن، «كايزېن تەجرىبىخانىلىرى» (Kaizen Laboratories) شىركىتىگە 43 مىليون دوللارلىق كېلىشىم ئاجرىتىپ، ئورتاق يۇمشاق دېتال سۇپىسى بەرپا قىلىدىغانلىقىنى ئېلان قىلدى.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "The U.S. Army recently awarded $43 million to Kaizen Laboratories to create application software for highly sensitive military material.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/GTP3R4RA6RBDVL4MCFWY3Z2NJ4.jpg",
+    "author": "Defense News",
+    "date": "2026-03-30",
+    "status": "published",
+    "featured": true,
+    "views": 146,
+    "tags": [
+      "ئامېرىكا",
+      "قۇرۇقلۇق ئارمىيەسى",
+      "يۇمشاق دېتال",
+      "مەخپىيەتلىك",
+      "ھەربىي تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/industry/techwatch/2026/10/10/us-army-kaizen-laboratories-to-establish-common-software-platform-for-classified-material/",
+      "sourceUrl": "https://www.defensenews.com/industry/techwatch/2026/10/10/us-army-kaizen-laboratories-to-establish-common-software-platform-for-classified-material/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791686839135_746",
     "category": "weapons",
     "title": {
@@ -3452,41 +3487,6 @@
       "مەنبە": "Defense One",
       "ئەسلى ئۇلانما": "https://www.defenseone.com/policy/2026/09/poland-get-us-base-polish-defense-official-says/416257/",
       "sourceUrl": "https://www.defenseone.com/policy/2026/09/poland-get-us-base-polish-defense-official-says/416257/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791187146202_2",
-    "category": "weapons",
-    "title": {
-      "ug": "ئامېرىكا ئاپپېلياتسىيە سوت مەھكىمىسى پېنتاگوننىڭ «ئانتروپىك» شىركىتىنى قارا تىزىملىككە كىرگۈزۈش قارارىنى كۈچكە ئىگە دەپ بېكىتتى",
-      "en": "US appeals court upholds Pentagon’s blacklisting of Anthropic"
-    },
-    "summary": {
-      "ug": "ئامېرىكا فېدېراتسىيە ئاپپېلياتسىيە سوت مەھكىمىسى پېنتاگوننىڭ سۈنئىي ئەقىل تېخنىكا شىركىتى «ئانتروپىك» (Anthropic) نى ھەربىي توختام تۈزۈشتىن چەكلەپ قارا تىزىملىككە كىرگۈزۈش قارارىنى كۈچكە ئىگە دەپ بېكىتتى. بۇ قارار پرېزىدېنت ترامپ ۋە ئامېرىك...",
-      "en": "A federal appeals court upheld the Pentagon’s blacklisting of Anthropic from military contracts, handing a victory to President Trump and the Pentagon."
-    },
-    "content": {
-      "ug": "ئامېرىكا فېدېراتسىيە ئاپپېلياتسىيە سوت مەھكىمىسى پېنتاگوننىڭ سۈنئىي ئەقىل تېخنىكا شىركىتى «ئانتروپىك» (Anthropic) نى ھەربىي توختام تۈزۈشتىن چەكلەپ قارا تىزىملىككە كىرگۈزۈش قارارىنى كۈچكە ئىگە دەپ بېكىتتى. بۇ قارار پرېزىدېنت ترامپ ۋە ئامېرىكا مۇداپىئە مىنىستىرلىقى (پېنتاگون) ئۈچۈن ھەربىي تېخنىكا بىخەتەرلىكى ۋە دۆلەت مۇداپىئە توختاملىرىنى باشقۇرۇش جەھەتتە قولغا كەلتۈرۈلگەن مۇھىم بىر غەلىبە دەپ باھالانماقتا.\n\n---\n📌 **مەنبە:** C4ISRNET",
-      "en": "A federal appeals court upheld the Pentagon’s blacklisting of Anthropic from military contracts, handing a victory to President Trump and the Pentagon.\n\n---\n**Source:** C4ISRNET"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/6N7EZFKZOZF27FAT4MFMPHS25I.JPG",
-    "author": "C4ISRNET",
-    "date": "2026-10-05",
-    "status": "published",
-    "featured": true,
-    "views": 117,
-    "tags": [
-      "ئامېرىكا",
-      "پېنتاگون",
-      "ئانتروپىك",
-      "ھەربىي_توختام",
-      "سوت_مەھكىمىسى"
-    ],
-    "specs": {
-      "مەنبە": "C4ISRNET",
-      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/",
-      "sourceUrl": "https://www.c4isrnet.com/news/pentagon-congress/2026/09/25/us-appeals-court-upholds-pentagons-blacklisting-of-anthropic/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

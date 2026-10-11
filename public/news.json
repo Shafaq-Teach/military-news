@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791676026502_389",
+    "category": "weapons",
+    "title": {
+      "ug": "بوئىنگ شىركىتى PAC-3 MSE توسۇش بومبىلىرىنىڭ ئىزلاش-يېتەكلەش سىستېمىسى ئىشلەپچىقىرىشىنى ئۈچ ھەسسىلەش ئۈچۈن 14.7 مىللىئارد دوللارلىق كېلىشىمگە ئېرىشتى",
+      "en": "Boeing nets $14.7bn contract to triple PAC-3 MSE seeker output"
+    },
+    "summary": {
+      "ug": "لوكخىد مارتىن (Lockheed Martin) شىركىتى PAC-3 MSE توسۇپ زەربە بېرىش باشقۇرۇلىدىغان بومبىلىرىنىڭ نىشاننى ئىزلاپ-يېتەكلەش سىستېمىسىنى (seeker) تەمىنلەش ۋە ئۇنىڭ ئىشلەپچىقىرىش مىقدارىنى ئۈچ ھەسسە ئاشۇرۇش ئۈچۈن بوئىنگ (Boeing) شىركىتىگە 14.7 مى...",
+      "en": "Lockheed Martin has awarded Boeing an undefinitised contract action to increase production and supply seekers for PAC-3 MSE interceptors."
+    },
+    "content": {
+      "ug": "لوكخىد مارتىن (Lockheed Martin) شىركىتى PAC-3 MSE توسۇپ زەربە بېرىش باشقۇرۇلىدىغان بومبىلىرىنىڭ نىشاننى ئىزلاپ-يېتەكلەش سىستېمىسىنى (seeker) تەمىنلەش ۋە ئۇنىڭ ئىشلەپچىقىرىش مىقدارىنى ئۈچ ھەسسە ئاشۇرۇش ئۈچۈن بوئىنگ (Boeing) شىركىتىگە 14.7 مىللىئارد ئامېرىكا دوللىرى قىممىتىدىكى دەسلەپكى ئېنىقسىز باھالىق تەڭشەش كېلىشىمى بەردى.\n\n---\n📌 **مەنبە:** Army Technology",
+      "en": "Lockheed Martin has awarded Boeing an undefinitised contract action to increase production and supply seekers for PAC-3 MSE interceptors.\n\n---\n**Source:** Army Technology"
+    },
+    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/10/PAC-3-1.jpg",
+    "author": "Army Technology",
+    "date": "2026-03-29",
+    "status": "published",
+    "featured": true,
+    "views": 162,
+    "tags": [
+      "ھەربىي",
+      "تېخنىكا",
+      "بوئىنگ",
+      "لوكخىد مارتىن",
+      "ھاۋا مۇداپىئە سىستېمىسى"
+    ],
+    "specs": {
+      "مەنبە": "Army Technology",
+      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/boeing-pac3-seeker-contract/",
+      "sourceUrl": "https://www.army-technology.com/news/boeing-pac3-seeker-contract/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791665243720_555",
     "category": "aviation",
     "title": {
@@ -3453,42 +3488,6 @@
       "مەنبە": "The War Zone (TWZ)",
       "ئەسلى ئۇلانما": "https://www.twz.com/news-features/germany-is-finally-giving-its-f125-frigates-some-more-teeth-with-iris-t-slm-surface-to-air-missiles",
       "sourceUrl": "https://www.twz.com/news-features/germany-is-finally-giving-its-f125-frigates-some-more-teeth-with-iris-t-slm-surface-to-air-missiles",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791241456073_436",
-    "category": "weapons",
-    "title": {
-      "ug": "تەيۋەن ئامېرىكىغا زاكاز قىلىنغان F-16V تىپلىق كۈرەشچى ئايروپىلانلارنىڭ دەسلەپكى تۈركۈمىنى تاپشۇرۇۋالدى",
-      "en": "Taiwan receives first F-16V fighters from delayed US order"
-    },
-    "summary": {
-      "ug": "تەيۋەن 2019-يىلى ئامېرىكىدىن سېتىۋېلىشقا زاكاز بەرگەن جەمئىي 66 دانە ھەربىي ئايروپىلان تەمىنلەش كېلىشىمى دائىرىسىدە، تاپشۇرۇلۇشى كېچىكتۈرۈلگەن F-16V «بىلوك 70» (Block 70) تىپلىق ئىلغار كۈرەشچى ئايروپىلانلاردىن دەسلەپكى ئىككى دانىسىنى رەسمىي...",
-      "en": "Taiwan has received the first two F-16V Block 70 fighter jets from a 66-aircraft order placed with the US in 2019."
-    },
-    "content": {
-      "ug": "تەيۋەن 2019-يىلى ئامېرىكىدىن سېتىۋېلىشقا زاكاز بەرگەن جەمئىي 66 دانە ھەربىي ئايروپىلان تەمىنلەش كېلىشىمى دائىرىسىدە، تاپشۇرۇلۇشى كېچىكتۈرۈلگەن F-16V «بىلوك 70» (Block 70) تىپلىق ئىلغار كۈرەشچى ئايروپىلانلاردىن دەسلەپكى ئىككى دانىسىنى رەسمىي تاپشۇرۇۋالدى.\n\n---\n📌 **مەنبە:** Air Force Technology",
-      "en": "Taiwan has received the first two F-16V Block 70 fighter jets from a 66-aircraft order placed with the US in 2019.\n\n---\n**Source:** Air Force Technology"
-    },
-    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/Taiwan-F-16V.jpg",
-    "author": "Air Force Technology",
-    "date": "2026-10-05",
-    "status": "published",
-    "featured": true,
-    "views": 142,
-    "tags": [
-      "تەيۋەن",
-      "ئامېرىكا",
-      "F-16V",
-      "كۈرەشچى ئايروپىلان",
-      "مۇداپىئە",
-      "خىتاي"
-    ],
-    "specs": {
-      "مەنبە": "Air Force Technology",
-      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/taiwan-f16v-aircraft-delivery/",
-      "sourceUrl": "https://www.airforce-technology.com/news/taiwan-f16v-aircraft-delivery/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

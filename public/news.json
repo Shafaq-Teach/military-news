@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1791817153442_483",
+    "category": "weapons",
+    "title": {
+      "ug": "«AUSA 2026» يىللىق ھەربىي كۆرگەزمىسىنىڭ 1-كۈنىدىكى نەق مەيدان كۆرسىتىشى",
+      "en": "Watch AUSA 2026 Day 1: Live"
+    },
+    "summary": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيە جەمئىيىتى (AUSA) نىڭ 2026-يىللىق يىغىنى بىلەن بىر ۋاقىتتا ئۆتكۈزۈلگەن كۆرگەزمە زالىدىكى مەخسۇس ئېكسكليۇزىپ زىيارەتلەر، ھەربىي مۇھىم پائالىيەتلەر ۋە ئەڭ يېڭى ئامېرىكا قۇرۇقلۇق ئارمىيە تەتقىقات ئۆزگىرىشلىرىنى بۇ يەرد...",
+      "en": "Catch interviews, events, and all the action from the show floor right here."
+    },
+    "content": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيە جەمئىيىتى (AUSA) نىڭ 2026-يىللىق يىغىنى بىلەن بىر ۋاقىتتا ئۆتكۈزۈلگەن كۆرگەزمە زالىدىكى مەخسۇس ئېكسكليۇزىپ زىيارەتلەر، ھەربىي مۇھىم پائالىيەتلەر ۋە ئەڭ يېڭى ئامېرىكا قۇرۇقلۇق ئارمىيە تەتقىقات ئۆزگىرىشلىرىنى بۇ يەردىن بىۋاسىتە كۆرەلەيسىز.\n\n---\n📌 **مەنبە:** C4ISRNET",
+      "en": "Catch interviews, events, and all the action from the show floor right here.\n\n---\n**Source:** C4ISRNET"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/2LPJ45TXPFHTBNE24YPW32Q6KM.jpg",
+    "author": "C4ISRNET",
+    "date": "2026-10-12",
+    "status": "published",
+    "featured": true,
+    "views": 41,
+    "tags": [
+      "ھەربىي",
+      "ئامېرىكا قۇرۇقلۇق ئارمىيەسى",
+      "AUSA",
+      "كۆرگەزمە"
+    ],
+    "specs": {
+      "مەنبە": "C4ISRNET",
+      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/digital-show-dailies/ausa/2026/10/12/watch-ausa-2026-day-1-live/",
+      "sourceUrl": "https://www.c4isrnet.com/digital-show-dailies/ausa/2026/10/12/watch-ausa-2026-day-1-live/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "dossier-1791812093408",
     "title": {
       "ug": "سۇرىيە سەئۇدى ئەرەبىستانغا يەمەن ئۇرۇشىدا قانداق ياردەم بېرەلەيدۇ؟"
@@ -3424,41 +3458,6 @@
       "مەنبە": "sUAS News (Drones)",
       "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/ga-asi-teams-with-u-s-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle/",
       "sourceUrl": "https://www.suasnews.com/2026/10/ga-asi-teams-with-u-s-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791360754234_86",
-    "category": "weapons",
-    "title": {
-      "ug": "ئاۋسترىيە ۋە ئىتالىيە ئارمىيەسى «ئىنېئوس» (INEOS) شىركىتىنىڭ «گىرېنادىئېر» (Grenadier) 4x4 دالىدا يۈرۈش ماشىنىسىنى تاللىدى",
-      "en": "INEOS’ Grenadier 4×4 selected by Austria and Italy"
-    },
-    "summary": {
-      "ug": "ئىلگىرى پەقەت يېرىم ھۆكۈمەت ئورگانلىرى ۋە چېگرا مۇداپىئە قىسىملىرىغىلا سېتىلغان «گىرېنادىئېر» (Grenadier) تىپلىق دالىدا يۈرۈش ماشىنىسى، بۇ قېتىم ئاۋسترىيە ۋە ئىتالىيە ئارمىيەسى تەرىپىدىن تاللىنىپ، ئۆزىنىڭ تۇنجى قېتىملىق رەسمىي ھەربىي سېتىۋې...",
-      "en": "The order represents the first made by a military customer, with previous Grenadier sales heading to parapublic and border security forces."
-    },
-    "content": {
-      "ug": "ئىلگىرى پەقەت يېرىم ھۆكۈمەت ئورگانلىرى ۋە چېگرا مۇداپىئە قىسىملىرىغىلا سېتىلغان «گىرېنادىئېر» (Grenadier) تىپلىق دالىدا يۈرۈش ماشىنىسى، بۇ قېتىم ئاۋسترىيە ۋە ئىتالىيە ئارمىيەسى تەرىپىدىن تاللىنىپ، ئۆزىنىڭ تۇنجى قېتىملىق رەسمىي ھەربىي سېتىۋېلىش زاكازىغا ئېرىشتى. بۇ كېلىشىم مەزكۇر دالىدا يۈرۈش ماشىنىسىنىڭ تۇنجى قېتىم رەسمىي ھەربىي خېرىدار تەرىپىدىن سېتىۋېلىنىشى سۈپىتىدە كۆرۈنەرلىك ئەھمىيەتكە ئىگە.\n\n---\n📌 **مەنبە:** Army Technology",
-      "en": "The order represents the first made by a military customer, with previous Grenadier sales heading to parapublic and border security forces.\n\n---\n**Source:** Army Technology"
-    },
-    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/10/INEOS-Grenadier-Military-Blue-Light_01-lo-res.jpg",
-    "author": "Army Technology",
-    "date": "2024-03-15",
-    "status": "published",
-    "featured": true,
-    "views": 24,
-    "tags": [
-      "ھەربىي",
-      "قورال-ياراق",
-      "دالىدا_يۈرۈش_ماشىنىسى",
-      "ئاۋسترىيە",
-      "ئىتالىيە"
-    ],
-    "specs": {
-      "مەنبە": "Army Technology",
-      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/ineos-grenadier-4x4-selected-by-austria-and-italy/",
-      "sourceUrl": "https://www.army-technology.com/news/ineos-grenadier-4x4-selected-by-austria-and-italy/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

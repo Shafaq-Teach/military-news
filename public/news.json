@@ -1,5 +1,38 @@
 [
   {
+    "id": "news_1791795436056_222",
+    "category": "weapons",
+    "title": {
+      "ug": "نازارەتچىلىك ئورگىنى: ئامېرىكا قۇرۇقلۇق ئارمىيە ئىنژېنېرلار ئەترىتى مۇھىتنى ئەسلىگە كەلتۈرۈش خىزمىتىدىكى كۆرۈنەرلىك تۆۋەنلەشنىڭ سەۋەبىنى ئېنىق كۆرسىتەلمىدى",
+      "en": "US Army Corps of Engineers failed to explain drop in environmental mitigation work: Watchdog"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ھۆكۈمەت مەسئۇلىيەت ئىشخانىسى (GAO) ئېلان قىلغان يېڭى بىر دىئاگراممىدا، ئامېرىكا قۇرۇقلۇق ئارمىيە ئىنژېنېرلار ئەترىتىنىڭ 2022-يىلىدىن 2025-يىلىغىچە بولغان مەزگىلدىكى ياۋايى ھايۋانلار ۋە ئۇلارنىڭ ياشاش مۇھىتىنى قوغداشقا ئائىت تەسىرنى...",
+      "en": "A chart published by GAO shows a sharp decline in the agency's decisions to make mitigation plans for wildlife and habitat protection from 2022 to 2025."
+    },
+    "content": {
+      "ug": "ئامېرىكا ھۆكۈمەت مەسئۇلىيەت ئىشخانىسى (GAO) ئېلان قىلغان يېڭى بىر دىئاگراممىدا، ئامېرىكا قۇرۇقلۇق ئارمىيە ئىنژېنېرلار ئەترىتىنىڭ 2022-يىلىدىن 2025-يىلىغىچە بولغان مەزگىلدىكى ياۋايى ھايۋانلار ۋە ئۇلارنىڭ ياشاش مۇھىتىنى قوغداشقا ئائىت تەسىرنى ئازايتىش پىلانلىرىنى تۈزۈش قارارىنىڭ تېز سۈرئەتتە تۆۋەنلەپ كەتكەنلىكى ئاشكارىلاندى. مەزكۇر نازارەتچىلىك ئورگىنى ئارمىيە ئىنژېنېرلار ئەترىتىنىڭ مۇھىتنى ئەسلىگە كەلتۈرۈش خىزمىتىدىكى بۇ كۆرۈنەرلىك كېمىيىشنىڭ سەۋەبلىرىنى يېتەرلىك دەرىجىدە چۈشەندۈرۈپ بېرەلمىگەنلىكىنى تەنقىد قىلدى.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "A chart published by GAO shows a sharp decline in the agency's decisions to make mitigation plans for wildlife and habitat protection from 2022 to 2025.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/DPVJSY5Y5VACXFRWDMOGKPJLZA.jpg",
+    "author": "Defense News",
+    "date": "2024-05-23",
+    "status": "published",
+    "featured": true,
+    "views": 109,
+    "tags": [
+      "ئامېرىكا ئارمىيەسى",
+      "مۇھىتنى قوغداش",
+      "نازارەتچىلىك"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/news/your-army/2026/10/09/us-army-corps-of-engineers-failed-to-explain-drop-in-environmental-mitigation-work-watchdog/",
+      "sourceUrl": "https://www.defensenews.com/news/your-army/2026/10/09/us-army-corps-of-engineers-failed-to-explain-drop-in-environmental-mitigation-work-watchdog/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791795458603_712",
     "category": "analysis",
     "title": {
@@ -3450,41 +3483,6 @@
       "مەنبە": "Air Force Technology",
       "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/sk-aerospace-pros7-usaf-contract/",
       "sourceUrl": "https://www.airforce-technology.com/news/sk-aerospace-pros7-usaf-contract/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791339181274_262",
-    "category": "weapons",
-    "title": {
-      "ug": "غەربىي قىرغاقتا ئوت تۇتىشامدۇ؟ ئوت پىلتىسى، تۈرتكە ۋە چەكلەش سىياسىتى",
-      "en": "Kindling, Catalyst, and Containment: Will the West Bank Ignite?"
-    },
-    "summary": {
-      "ug": "ئىسرائىلىيە كۆچمەنلىرىنىڭ غەربىي قىرغاقتىكى پەلەستىن ئاھالىلىرىگە قاراتقان زوراۋانلىق ھەرىكەتلىرىنىڭ ئەۋج ئېلىشى، بولۇپمۇ ئىسرائىلىيە ئارمىيەسىنىڭ بۇ خىل قىلمىشلارغا سۈكۈت قىلىشى ياكى ئارقا تىرەك بولۇشى، شۇنداقلا ئىسرائىلىيە ھۆكۈمىتىنىڭ پەل...",
-      "en": "As violence by Israeli settlers against Palestinians in the West Bank has escalated, often with the acquiescence or support of Israel&#8217;s military, and the Israeli government has increasingly constricted Palestinian daily life, the pote"
-    },
-    "content": {
-      "ug": "ئىسرائىلىيە كۆچمەنلىرىنىڭ غەربىي قىرغاقتىكى پەلەستىن ئاھالىلىرىگە قاراتقان زوراۋانلىق ھەرىكەتلىرىنىڭ ئەۋج ئېلىشى، بولۇپمۇ ئىسرائىلىيە ئارمىيەسىنىڭ بۇ خىل قىلمىشلارغا سۈكۈت قىلىشى ياكى ئارقا تىرەك بولۇشى، شۇنداقلا ئىسرائىلىيە ھۆكۈمىتىنىڭ پەلەستىنلىكلەرنىڭ كۈندىلىك تۇرمۇش بوشلۇقىنى بارغانسېرى تارايتىشى نەتىجىسىدە، يېڭى بىر قېتىملىق «ئىنتىفادا» (Intifada - قوزغىلاڭ) نىڭ پارتلاش ئېھتىماللىقى يۇقىرى پەللىگە يەتتى. 1987-يىلىنىڭ ئاخىرىدا باشلانغان بىرىنچى قېتىملىق ئىنتىفادا ئاساسلىقى پۇقراۋى جەمئىيەتنىڭ يېتەكچىلىكىدە، ئىقتىسادىي بايقۇت قىلىش ۋە ئىش تاشلاش قاتارلىق تىنچ ئۇسۇللار بىلەن ئېلىپ بېرىلغان بولسا، 2000-يىلىدىن 2005-يىلىغىچە داۋاملاشقان ئىككىنچى قېتىملىق ئىنتىفادا تېخىمۇ كەسكىن زوراۋانلىق تۈسىنى ئالغان ئىدى. نۆۋەتتە غەربىي قىرغاقتىكى جىددىي ۋەزىيەت رايوننىڭ يەنە بىر قېتىم كەڭ كۆلەملىك قوزغىلاڭ ئوتى ئىچىدە قېلىش خەۋپىنى ئوتتۇرىغا قويماقتا.\n\n---\n📌 **مەنبە:** War on the Rocks",
-      "en": "As violence by Israeli settlers against Palestinians in the West Bank has escalated, often with the acquiescence or support of Israel&#8217;s military, and the Israeli government has increasingly constricted Palestinian daily life, the potential for a new intifada &#8212; or uprising &#8212; has intensified. The first Palestinian intifada began in late 1987 and continued for several years. Civil society played a major role in organizing the first intifada, which started as mostly nonviolent and included economic measures such as strikes and boycotts. The second intifada broke out in 2000 and lasted into 2005. It was much more violent than the\n\n\nThe post Kindling, Catalyst, and Containment: Will the West Bank Ignite? appeared first on War on the Rocks.\n\n---\n**Source:** War on the Rocks"
-    },
-    "imageUrl": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-47977-97ec780df5ce.jpg",
-    "author": "War on the Rocks",
-    "date": "2024-05-22",
-    "status": "published",
-    "featured": true,
-    "views": 95,
-    "tags": [
-      "غەربىي قىرغاق",
-      "ئىسرائىلىيە",
-      "پەلەستىن",
-      "ئىنتىفادا",
-      "ئەسكىرىي"
-    ],
-    "specs": {
-      "مەنبە": "War on the Rocks",
-      "ئەسلى ئۇلانما": "https://warontherocks.com/kindling-catalyst-and-containment-will-the-west-bank-ignite/",
-      "sourceUrl": "https://warontherocks.com/kindling-catalyst-and-containment-will-the-west-bank-ignite/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,46 @@
 [
   {
+    "id": "wpn_1791788756921",
+    "category": "database",
+    "title": {
+      "ug": "M249 SAW يېنىك پىلىموتى - قورال تەپسىلاتى",
+      "en": "M249 SAW Technical Dossier"
+    },
+    "summary": {
+      "ug": "M249 SAW يېنىك پىلىموتى: ئامېرىكا / بېلگىيە ئىشلەپچىقارغان يېنىك پىلىموت (LMG) / ئەترەت ئاپتوماتىك قورالى (SAW). ئوق ئۆلچىمى: 5.56×45 مىللىمېتىر NATO، ئۈنۈملۈك ئارىلىقى: نۇقتىلىق نىشانغا قارىتا 800 مېتىر، يۈزىلىك (رايون) نىشانلارغا قارىتا 1000 مېتىر؛ ئەڭ يىراق ئېتىش مۇساپىسى: 3600 مېتىر.",
+      "en": "Technical specifications for M249 SAW"
+    },
+    "content": {
+      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nM249 SAW يېنىك پىلىموتى ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** M249 SAW يېنىك پىلىموتى\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** ئامېرىكا / بېلگىيە\n- ⚙️ **قورال تىپى:** يېنىك پىلىموت (LMG) / ئەترەت ئاپتوماتىك قورالى (SAW)\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 5.56×45 مىللىمېتىر NATO\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: 7.5 كىلوگرام (قۇرۇق)، 10 كىلوگرام ئەتراپىدا (200 پايلىق ئوق لېنتىسى بىلەن)؛ ئۇزۇنلۇقى: 1041 مىللىمېتىر (ئۆلچەملىك مودېلى)، 893 مىللىمېتىر (پارا مودېلى يىغىلغان ھالەتتە)\n- 🎯 **ئوقدان سىغىمى:** 100 ياكى 200 پايلىق يۇمشاق/قاتتىق لېنتا قۇتىسى؛ زاپاس سۈپىتىدە 30 پايلىق STANAG ئۆلچەملىك ماگازىنى ئىشلىتىلىدۇ\n- ⚡ **ئوق ئېتىش سۈرئىتى:** مىنۇتىغا 750 – 1000 پاي ئارىلىقىدا (تەڭشىگىلى بولىدۇ)\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** نۇقتىلىق نىشانغا قارىتا 800 مېتىر، يۈزىلىك (رايون) نىشانلارغا قارىتا 1000 مېتىر؛ ئەڭ يىراق ئېتىش مۇساپىسى: 3600 مېتىر\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** M249 PIP, M249 Paratrooper (Para), M249 Special Purpose Weapon (SPW), Mk 46 Mod 0, Mk 48\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "en": "Comprehensive technical dossier for M249 SAW"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/AK-47_type_II_noBG.png/1280px-AK-47_type_II_noBG.png",
+    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+    "date": "2026-10-12",
+    "status": "published",
+    "featured": true,
+    "views": 242,
+    "tags": [
+      "مەلۇمات_ئامبىرى",
+      "قورال",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
+      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
+      "قورال ئىسمى": "M249 SAW يېنىك پىلىموتى",
+      "ئىشلەپچىقارغان دۆلەت": "ئامېرىكا / بېلگىيە",
+      "قورال تىپى": "يېنىك پىلىموت (LMG) / ئەترەت ئاپتوماتىك قورالى (SAW)",
+      "ئوق ئۆلچىمى": "5.56×45 مىللىمېتىر NATO",
+      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: 7.5 كىلوگرام (قۇرۇق)، 10 كىلوگرام ئەتراپىدا (200 پايلىق ئوق لېنتىسى بىلەن)؛ ئۇزۇنلۇقى: 1041 مىللىمېتىر (ئۆلچەملىك مودېلى)، 893 مىللىمېتىر (پارا مودېلى يىغىلغان ھالەتتە)",
+      "ئوقدان سىغىمى": "100 ياكى 200 پايلىق يۇمشاق/قاتتىق لېنتا قۇتىسى؛ زاپاس سۈپىتىدە 30 پايلىق STANAG ئۆلچەملىك ماگازىنى ئىشلىتىلىدۇ",
+      "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 750 – 1000 پاي ئارىلىقىدا (تەڭشىگىلى بولىدۇ)",
+      "ئۈنۈملۈك ئارىلىقى": "نۇقتىلىق نىشانغا قارىتا 800 مېتىر، يۈزىلىك (رايون) نىشانلارغا قارىتا 1000 مېتىر؛ ئەڭ يىراق ئېتىش مۇساپىسى: 3600 مېتىر",
+      "ئاساسلىق ۋارىيانتلىرى": "M249 PIP, M249 Paratrooper (Para), M249 Special Purpose Weapon (SPW), Mk 46 Mod 0, Mk 48"
+    }
+  },
+  {
     "id": "wpn_1791788721091",
     "category": "database",
     "title": {
@@ -3444,40 +3485,6 @@
       "مەنبە": "Defense One",
       "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/09/after-40-days-combat-navy-destroyer-returns-home/416311/",
       "sourceUrl": "https://www.defenseone.com/threats/2026/09/after-40-days-combat-navy-destroyer-returns-home/416311/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791328263593_970",
-    "category": "weapons",
-    "title": {
-      "ug": "كىچىك تىپتىكى ئۈسكۈنىلەردىكى كۈچلۈك ئېلېكترونلۇق ئۇرۇش ئىقتىدارى",
-      "en": "Big offensive EW capabilities in a small package"
-    },
-    "summary": {
-      "ug": "يۇمشاق دېتال ئارقىلىق سەپلەنگەن كىچىك تىپتىكى قۇۋۋەت، ئېغىرلىق ۋە ھەجىم (SWaP) رادىئو ئاپپاراتلىرىنىڭ تەرەققىي قىلىشىغا ئەگىشىپ، ئۇلار كىچىك تىپتىكى سەھنىلەر ۋە سۇپىلار ئۈچۈن ئەڭ مۇۋاپىق ھەم ئەمەلىي تاللاشقا ئايلاندى.",
-      "en": "[Sponsored] Increased capabilities of low SWaP software-defined radios make them viable options for smaller platforms."
-    },
-    "content": {
-      "ug": "يۇمشاق دېتال ئارقىلىق سەپلەنگەن كىچىك تىپتىكى قۇۋۋەت، ئېغىرلىق ۋە ھەجىم (SWaP) رادىئو ئاپپاراتلىرىنىڭ تەرەققىي قىلىشىغا ئەگىشىپ، ئۇلار كىچىك تىپتىكى سەھنىلەر ۋە سۇپىلار ئۈچۈن ئەڭ مۇۋاپىق ھەم ئەمەلىي تاللاشقا ئايلاندى.\n\n---\n📌 **مەنبە:** Breaking Defense",
-      "en": "[Sponsored] Increased capabilities of low SWaP software-defined radios make them viable options for smaller platforms.\n\n---\n**Source:** Breaking Defense"
-    },
-    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/BAE-26-A04-08_Shadow500_r2-1024x576.png",
-    "author": "Breaking Defense",
-    "date": "2026-10-06",
-    "status": "published",
-    "featured": true,
-    "views": 40,
-    "tags": [
-      "ھەربىي",
-      "ئېلېكترونلۇق_ئۇرۇش",
-      "رادىئو",
-      "تېخنىكا"
-    ],
-    "specs": {
-      "مەنبە": "Breaking Defense",
-      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/big-offensive-ew-capabilities-in-a-small-package/",
-      "sourceUrl": "https://breakingdefense.com/2026/10/big-offensive-ew-capabilities-in-a-small-package/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

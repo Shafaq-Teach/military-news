@@ -1,5 +1,41 @@
 [
   {
+    "id": "news_1791817169729_794",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى بىلەن نورتوپ گرۇممان شىركىتى B-21 بومباردىمانچى ئايروپىلانىنىڭ يېڭى قۇراشتۇرۇش زاۋۇتىنىڭ ئۇلىنى سالدى",
+      "en": "US DAF, Northrop Grumman break ground on new B-21 assembly line"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيە مىنىستىرلىقى (DAF) بىلەن نورتوپ گرۇممان (Northrop Grumman) شىركىتى كالىفورنىيە شتاتىنىڭ پالمدال شەھىرىگە جايلاشقان 42-نۇمۇرلۇق ھاۋا ئارمىيە زاۋۇتىدا (Air Force Plant 42) B-21 «رەيدەر» (B-21 Raider) كۆرۈنمەس (راداردىن ي...",
+      "en": "The US Department of the Air Force (DAF) and Northrop Grumman have broken ground on a new final assembly facility for the B-21 Raider at Air Force Plant 42 in Palmdale, California."
+    },
+    "content": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيە مىنىستىرلىقى (DAF) بىلەن نورتوپ گرۇممان (Northrop Grumman) شىركىتى كالىفورنىيە شتاتىنىڭ پالمدال شەھىرىگە جايلاشقان 42-نۇمۇرلۇق ھاۋا ئارمىيە زاۋۇتىدا (Air Force Plant 42) B-21 «رەيدەر» (B-21 Raider) كۆرۈنمەس (راداردىن يوشۇرۇنغۇچى) بومباردىمانچى ئايروپىلانىنىڭ يېڭى ئاخىرقى قۇراشتۇرۇش ئەسلىھەسىنىڭ ئۇل سېلىش مۇراسىمىنى ئۆتكۈزدى.\n\n---\n📌 **مەنبە:** Air Force Technology",
+      "en": "The US Department of the Air Force (DAF) and Northrop Grumman have broken ground on a new final assembly facility for the B-21 Raider at Air Force Plant 42 in Palmdale, California.\n\n---\n**Source:** Air Force Technology"
+    },
+    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/US-B-21.jpg",
+    "author": "Air Force Technology",
+    "date": "2026-03-30",
+    "status": "published",
+    "featured": true,
+    "views": 131,
+    "tags": [
+      "ئامېرىكا",
+      "B-21",
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئاۋىياتسىيە"
+    ],
+    "specs": {
+      "مەنبە": "Air Force Technology",
+      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/us-northrop-grumman-b-21/",
+      "sourceUrl": "https://www.airforce-technology.com/news/us-northrop-grumman-b-21/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791817153442_483",
     "category": "weapons",
     "title": {
@@ -3424,40 +3460,6 @@
       "مەنبە": "The War Zone (TWZ)",
       "ئەسلى ئۇلانما": "https://www.twz.com/sea/where-are-the-aircraft-carriers-october-6-2026",
       "sourceUrl": "https://www.twz.com/sea/where-are-the-aircraft-carriers-october-6-2026",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791371671484_14",
-    "category": "drones",
-    "title": {
-      "ug": "GA-ASI شىركىتى ئامېرىكا دېڭىز ئارمىيەسى بىلەن بىرلىكتە تەقلىدىي جەڭدە ئۆزلۈكىدىن ۋەزىپە پىلانلاش تېخنىكىسىنى سىناق قىلدى",
-      "en": "GA-ASI Teams With U.S. Navy To Demonstrate Collaborative Autonomous Mission Planning for Simulated Battle"
-    },
-    "summary": {
-      "ug": "جېنېرال ئاتومىكىس ئاۋىئاماتكا سىستېمىسى شىركىتى (GA-ASI) ئامېرىكا دېڭىز ئارمىيەسىنىڭ زەربە بېرىشنى پىلانلاش ۋە ئىجرا قىلىش سىستېمىسى بۆلۈمى بىلەن ھەمكارلىشىپ، تەقلىدىي جەڭ مۇھىتىدا ئۇچقۇچىسىز ئايروپىلانلارنىڭ ئۆزلۈكىدىن بىرلىكتە ۋەزىپە پىلا...",
-      "en": "General Atomics Aeronautical Systems, Inc. (GA-ASI) and the U.S. Navy’s Strike Planning and Execution Systems"
-    },
-    "content": {
-      "ug": "جېنېرال ئاتومىكىس ئاۋىئاماتكا سىستېمىسى شىركىتى (GA-ASI) ئامېرىكا دېڭىز ئارمىيەسىنىڭ زەربە بېرىشنى پىلانلاش ۋە ئىجرا قىلىش سىستېمىسى بۆلۈمى بىلەن ھەمكارلىشىپ، تەقلىدىي جەڭ مۇھىتىدا ئۇچقۇچىسىز ئايروپىلانلارنىڭ ئۆزلۈكىدىن بىرلىكتە ۋەزىپە پىلانلاش ئىقتىدارىنى مۇۋەپپەقىيەتلىك نامايان قىلدى. مەزكۇر ھەمكارلىق كەلگۈسىدىكى ئادەمسىز ئۇرۇش سىستېمىلىرىنىڭ جەڭ مەيدانىدىكى ماسلىشىشچانلىقى ۋە ئاپتونومىيىلىك مەشغۇلات ئۈنۈمىنى يۇقىرى كۆتۈرۈشتە مۇھىم ئەھمىيەتكە ئىگە.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
-      "en": "General Atomics Aeronautical Systems, Inc. (GA-ASI) and the U.S. Navy’s Strike Planning and Execution Systems\n\n---\n**Source:** sUAS News (Drones)"
-    },
-    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2011/12/Predator_C.jpg?fit=440%2C293&#038;ssl=1",
-    "author": "sUAS News (Drones)",
-    "date": "2026-10-07",
-    "status": "published",
-    "featured": true,
-    "views": 102,
-    "tags": [
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "ئامېرىكا دېڭىز ئارمىيەسى",
-      "ھەربىي تېخنىكا",
-      "ئاپتونومىيىلىك سىستېما"
-    ],
-    "specs": {
-      "مەنبە": "sUAS News (Drones)",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/ga-asi-teams-with-u-s-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle/",
-      "sourceUrl": "https://www.suasnews.com/2026/10/ga-asi-teams-with-u-s-navy-to-demonstrate-collaborative-autonomous-mission-planning-for-simulated-battle/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

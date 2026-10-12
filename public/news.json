@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1791762902816_167",
+    "category": "analysis",
+    "title": {
+      "ug": "پېنتاگوننىڭ ئاپتونومىيە قوماندانلىق شتابى ئۆتمۈش ۋە ھازىرقى تەجرىبىلەردىن ئۆرنەك ئېلىشى كېرەك",
+      "en": "The Pentagon’s autonomy command should draw on lessons old and new"
+    },
+    "summary": {
+      "ug": "پېنتاگون تەرىپىدىن يېڭىدىن تەشكىللەنگەن «ئاپتونومىيە ئۇرۇش قوماندانلىق شتابى» (AUTOWARCOM) كەلگۈسىدە ئادەمسىز ئۇرۇش سىستېمىلىرىنى جەڭ جەريانىغا ئومۇملاشتۇرۇشتەك غايەت زور ھەربىي ۋەزىپىگە يۈزلىنىدۇ. خۇشاللىنارلىقى شۇكى، بۇ ئىستراتېگىيەلىك ئو...",
+      "en": "AUTOWARCOM will have a big task. Luckily, it’s not starting from scratch."
+    },
+    "content": {
+      "ug": "پېنتاگون تەرىپىدىن يېڭىدىن تەشكىللەنگەن «ئاپتونومىيە ئۇرۇش قوماندانلىق شتابى» (AUTOWARCOM) كەلگۈسىدە ئادەمسىز ئۇرۇش سىستېمىلىرىنى جەڭ جەريانىغا ئومۇملاشتۇرۇشتەك غايەت زور ھەربىي ۋەزىپىگە يۈزلىنىدۇ. خۇشاللىنارلىقى شۇكى، بۇ ئىستراتېگىيەلىك ئورگان ئۆز خىزمىتىنى نۆلدىن باشلىماستىن، ئامېرىكا ئارمىيەسىنىڭ ئۆتمۈشتىكى ۋە يېقىنقى مەزگىلدىكى ھەربىي تېخنىكا تەجرىبىلىرى ھەم ساۋاقلىرىدىن ئۈنۈملۈك پايدىلىنىش پۇرسىتىگە ئىگە.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "AUTOWARCOM will have a big task. Luckily, it’s not starting from scratch.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/06/9980636/large.jpg",
+    "author": "Defense One",
+    "date": "2026-03-30",
+    "status": "published",
+    "featured": true,
+    "views": 38,
+    "tags": [
+      "پېنتاگون",
+      "ئاپتونومىيە",
+      "ئادەمسىز سىستېما",
+      "ھەربىي ئىستراتېگىيە"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/policy/2026/10/pentagon-autonomy-command-patriot-maven/416444/",
+      "sourceUrl": "https://www.defenseone.com/policy/2026/10/pentagon-autonomy-command-patriot-maven/416444/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791752003432_918",
     "category": "drones",
     "title": {
@@ -3437,40 +3471,6 @@
       "sourceUrl": "https://t.me/QasiounStudies/6051",
       "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
       "ھالىتى": "تەستىقلانغان ئانالىز"
-    }
-  },
-  {
-    "id": "news_1791295672785_480",
-    "category": "weapons",
-    "title": {
-      "ug": "يەرلىك تېخنىكا كورېيە ئاقسارىيىگە KF-21 ئايروپىلانىنىڭ ئېكسپورت قىلىنىشىنى ئۆز كونتروللۇقىدا تۇتۇش ئىمكانىيىتىنى يارىتىپ بەردى، دەپ كۆرسەتتى «گلوبالداتا» (GlobalData)",
-      "en": "Domestic tech gives Seoul control over KF-21 exports, says GlobalData"
-    },
-    "summary": {
-      "ug": "خەلقئارالىق بازار تەتقىقات ئورگىنى «گلوبالداتا» نىڭ بىلدۈرىشىچە، جەنۇبىي كورېيەنىڭ ئۆزىگە خاس KF-21 «بورامايې» (Boramae) ئايروپىلانىنىڭ ئاچقۇچلۇق سىستېمىلىرىنى تولۇق كونترول قىلىشى چەت ئەل ھۆكۈمەتلىرىنىڭ تەستىقىغا بولغان تايىنىشچانلىقىنى زو...",
-      "en": "South Korea’s control of key KF-21 Boramae systems could boost the fighter’s exports by reducing its reliance on foreign government approval."
-    },
-    "content": {
-      "ug": "خەلقئارالىق بازار تەتقىقات ئورگىنى «گلوبالداتا» نىڭ بىلدۈرىشىچە، جەنۇبىي كورېيەنىڭ ئۆزىگە خاس KF-21 «بورامايې» (Boramae) ئايروپىلانىنىڭ ئاچقۇچلۇق سىستېمىلىرىنى تولۇق كونترول قىلىشى چەت ئەل ھۆكۈمەتلىرىنىڭ تەستىقىغا بولغان تايىنىشچانلىقىنى زور دەرىجىدە تۆۋەنلىتىپ، مەزكۇر قىرىش ئايروپىلانىنىڭ خەلقئارا بازاردىكى ئېكسپورت يوشۇرۇن كۈچىنى كۆرۈنەرلىك ئاشۇرىدىكەن.\n\n---\n📌 **مەنبە:** Air Force Technology",
-      "en": "South Korea’s control of key KF-21 Boramae systems could boost the fighter’s exports by reducing its reliance on foreign government approval.\n\n---\n**Source:** Air Force Technology"
-    },
-    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/KF-21-Boramae.jpg",
-    "author": "Air Force Technology",
-    "date": "2026-10-06",
-    "status": "published",
-    "featured": true,
-    "views": 81,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "فوتو-ئاپپارات"
-    ],
-    "specs": {
-      "مەنبە": "Air Force Technology",
-      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/south-korea-kf-21-systems/",
-      "sourceUrl": "https://www.airforce-technology.com/news/south-korea-kf-21-systems/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }
 ]

@@ -1,5 +1,46 @@
 [
   {
+    "id": "wpn_1791788721091",
+    "category": "database",
+    "title": {
+      "ug": "M249 ئەترەت ئاپتوماتىك قورالى (SAW) يېنىك پىلىموتى - قورال تەپسىلاتى",
+      "en": "M249 SAW Technical Dossier"
+    },
+    "summary": {
+      "ug": "M249 ئەترەت ئاپتوماتىك قورالى (SAW) يېنىك پىلىموتى: ئامېرىكا / بېلگىيە ئىشلەپچىقارغان يېنىك پىلىموت (LMG). ئوق ئۆلچىمى: 5.56×45 مىللىمېتىرلىق NATO، ئۈنۈملۈك ئارىلىقى: نۇقتىلىق نىشانغا: 800 مېتىر، رايون نىشانىغا: 1000 مېتىر، ئەڭ چوڭ ئېتىش مۇساپىسى: 3600 مېتىر.",
+      "en": "Technical specifications for M249 SAW"
+    },
+    "content": {
+      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nM249 ئەترەت ئاپتوماتىك قورالى (SAW) يېنىك پىلىموتى ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** M249 ئەترەت ئاپتوماتىك قورالى (SAW) يېنىك پىلىموتى\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** ئامېرىكا / بېلگىيە\n- ⚙️ **قورال تىپى:** يېنىك پىلىموت (LMG)\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 5.56×45 مىللىمېتىرلىق NATO\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: 7.5 كىلوگرام (ئوقسىز)، تولۇق ئوقلانغاندا تەخمىنەن 10 كىلوگرام؛ ئۇزۇنلۇقى: 1038 مىللىمېتىر (قوندىقى سوزۇلغاندا)، 790 مىللىمېتىر (قاتلانغاندا)\n- 🎯 **ئوقدان سىغىمى:** 100 ياكى 200 پاتۇرۇنلۇق پارچىلىنىدىغان زەنجىرسىمان بەلۋاغ قۇتىسى؛ شۇنىڭدەك 30 پاتۇرۇنلۇق STANAG ئۆلچەملىك مىلتىق ئوقدانلىرىنى قوشۇمچە ئىشلەتكىلى بولىدۇ\n- ⚡ **ئوق ئېتىش سۈرئىتى:** مىنۇتىغا 750 – 1000 ئوق (نەزەرىيىۋى ئېتىش سۈرئىتى)\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** نۇقتىلىق نىشانغا: 800 مېتىر، رايون نىشانىغا: 1000 مېتىر، ئەڭ چوڭ ئېتىش مۇساپىسى: 3600 مېتىر\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** M249 PIP, M249 Paratrooper (Para), M249 Special Purpose Weapon (SPW), Mk 46 Mod 0, Mk 48 Mod 0\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "en": "Comprehensive technical dossier for M249 SAW"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/AK-47_type_II_noBG.png/1280px-AK-47_type_II_noBG.png",
+    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+    "date": "2026-10-12",
+    "status": "published",
+    "featured": true,
+    "views": 247,
+    "tags": [
+      "مەلۇمات_ئامبىرى",
+      "قورال",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
+      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
+      "قورال ئىسمى": "M249 ئەترەت ئاپتوماتىك قورالى (SAW) يېنىك پىلىموتى",
+      "ئىشلەپچىقارغان دۆلەت": "ئامېرىكا / بېلگىيە",
+      "قورال تىپى": "يېنىك پىلىموت (LMG)",
+      "ئوق ئۆلچىمى": "5.56×45 مىللىمېتىرلىق NATO",
+      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: 7.5 كىلوگرام (ئوقسىز)، تولۇق ئوقلانغاندا تەخمىنەن 10 كىلوگرام؛ ئۇزۇنلۇقى: 1038 مىللىمېتىر (قوندىقى سوزۇلغاندا)، 790 مىللىمېتىر (قاتلانغاندا)",
+      "ئوقدان سىغىمى": "100 ياكى 200 پاتۇرۇنلۇق پارچىلىنىدىغان زەنجىرسىمان بەلۋاغ قۇتىسى؛ شۇنىڭدەك 30 پاتۇرۇنلۇق STANAG ئۆلچەملىك مىلتىق ئوقدانلىرىنى قوشۇمچە ئىشلەتكىلى بولىدۇ",
+      "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 750 – 1000 ئوق (نەزەرىيىۋى ئېتىش سۈرئىتى)",
+      "ئۈنۈملۈك ئارىلىقى": "نۇقتىلىق نىشانغا: 800 مېتىر، رايون نىشانىغا: 1000 مېتىر، ئەڭ چوڭ ئېتىش مۇساپىسى: 3600 مېتىر",
+      "ئاساسلىق ۋارىيانتلىرى": "M249 PIP, M249 Paratrooper (Para), M249 Special Purpose Weapon (SPW), Mk 46 Mod 0, Mk 48 Mod 0"
+    }
+  },
+  {
     "id": "pol_1791788668927",
     "category": "analysis",
     "title": {
@@ -3437,40 +3478,6 @@
       "مەنبە": "Breaking Defense",
       "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/big-offensive-ew-capabilities-in-a-small-package/",
       "sourceUrl": "https://breakingdefense.com/2026/10/big-offensive-ew-capabilities-in-a-small-package/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791328230134_137",
-    "category": "weapons",
-    "title": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى ياخشىلانغان M8 تىپلىق مىلتىقنى رەسمىي ھالدا 12-ئايدىن باشلاپ سەپلەشكە باشلايدۇ",
-      "en": "It’s official: US Army’s improved M8 rifle to begin fielding in December"
-    },
-    "summary": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى ئەسكەرلەرنىڭ ئىنكاسلىرى ۋە پىكىر-تەكلىپلىرىگە ئاساسەن، ئىلگىرىكى M7 تىپلىق مىلتىقنىڭ ئورنىغا تېخىمۇ يېنىك ۋە قىسقا قىلىپ لايىھەلەنگەن يېڭى نۇسخىدىكى كاربىن مىلتىقىنى سەپلەيدىغان بولدى. بۇ دائىرىدە، سىگ سائۇئېر (S...",
-      "en": "The U.S. Army will begin fielding Sig Sauer’s M8 rifle in December, replacing the M7 with a lighter, shorter carbine based on soldier feedback."
-    },
-    "content": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى ئەسكەرلەرنىڭ ئىنكاسلىرى ۋە پىكىر-تەكلىپلىرىگە ئاساسەن، ئىلگىرىكى M7 تىپلىق مىلتىقنىڭ ئورنىغا تېخىمۇ يېنىك ۋە قىسقا قىلىپ لايىھەلەنگەن يېڭى نۇسخىدىكى كاربىن مىلتىقىنى سەپلەيدىغان بولدى. بۇ دائىرىدە، سىگ سائۇئېر (Sig Sauer) شىركىتى ئىشلەپچىقارغان ياخشىلانغان M8 تىپلىق مىلتىقنى رەسمىي ھالدا بۇ يىل 12-ئايدىن باشلاپ قوشۇنلارنىڭ ئىشلىتىشىگە تاپشۇرۇش پىلانلاندى.\n\n---\n📌 **مەنبە:** Defense News",
-      "en": "The U.S. Army will begin fielding Sig Sauer’s M8 rifle in December, replacing the M7 with a lighter, shorter carbine based on soldier feedback.\n\n---\n**Source:** Defense News"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/MBI4AZUI4VH4XB2H235QF5XXLI.jpg",
-    "author": "Defense News",
-    "date": "2026-10-06",
-    "status": "published",
-    "featured": true,
-    "views": 121,
-    "tags": [
-      "ھەربىي",
-      "ئامېرىكا_ئارمىيەسى",
-      "قورال-ياراق",
-      "M8_مىلتىقى"
-    ],
-    "specs": {
-      "مەنبە": "Defense News",
-      "ئەسلى ئۇلانما": "https://www.defensenews.com/industry/techwatch/2026/10/06/its-official-us-armys-improved-m8-rifle-to-begin-fielding-in-december/",
-      "sourceUrl": "https://www.defensenews.com/industry/techwatch/2026/10/06/its-official-us-armys-improved-m8-rifle-to-begin-fielding-in-december/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

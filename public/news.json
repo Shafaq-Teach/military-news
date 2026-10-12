@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791806355763_388",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى «كەچلىك سوت» تەكشۈرۈش مېخانىزمىنى ئەسلىگە كەلتۈرۈپ، 100 مىليون دوللاردىن ئارتۇق مەبلەغنى قايتا تەقسىملىدى",
+      "en": "Army brings back ‘night court’ audit of programs, shifting more than $100M"
+    },
+    "summary": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى بۇ يازدا پەن-تېخنىكا تەتقىقات تۈرلىرىنى نىشان قىلغان ھالدا، «كەچلىك سوت» (night court) دەپ ئاتىلىدىغان پروگراممىلارنى تەكشۈرۈپ بېكىتىش مېخانىزمىنى رەسمىي ئەسلىگە كەلتۈردى. بۇ قېتىملىق تەكشۈرۈش ۋە تەپتىش قىلىش پائ...",
+      "en": "The effort started this summer with science and tech efforts."
+    },
+    "content": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى بۇ يازدا پەن-تېخنىكا تەتقىقات تۈرلىرىنى نىشان قىلغان ھالدا، «كەچلىك سوت» (night court) دەپ ئاتىلىدىغان پروگراممىلارنى تەكشۈرۈپ بېكىتىش مېخانىزمىنى رەسمىي ئەسلىگە كەلتۈردى. بۇ قېتىملىق تەكشۈرۈش ۋە تەپتىش قىلىش پائالىيىتى نەتىجىسىدە، ئارمىيە 100 مىليون دوللاردىن ئارتۇق مەبلەغنى ئۈنۈمى تۆۋەن تۈرلەردىن يۆتكەپ، باشقا مۇھىم ھەربىي ئېھتىياجلارغا قايتا تەقسىملىدى. بۇ تەدبىر ئارمىيەنىڭ بايلىقنى ئەلالاشتۇرۇش ۋە يۇقىرى تېخنىكىلىق مۇداپىئە ئىقتىدارىنى ئاشۇرۇش ئىستراتېگىيەسىنىڭ بىر قىسمىدۇر.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "The effort started this summer with science and tech efforts.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/12/9755688/large.jpg",
+    "author": "Defense One",
+    "date": "2024-05-22",
+    "status": "published",
+    "featured": true,
+    "views": 142,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئامېرىكا",
+      "مەبلەغ"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/policy/2026/10/army-brings-back-night-court-audit-programs-shifting-more-100m/416547/",
+      "sourceUrl": "https://www.defenseone.com/policy/2026/10/army-brings-back-night-court-audit-programs-shifting-more-100m/416547/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791795436056_222",
     "category": "weapons",
     "title": {
@@ -3449,41 +3484,6 @@
       "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 650 ئوق",
       "ئۈنۈملۈك ئارىلىقى": "400 مېتىر (ئادەتتىكى نىشان)، 600 مېتىر (ئوپتىكىلىق ئۈسكۈنە بىلەن)",
       "ئاساسلىق ۋارىيانتلىرى": "QBZ-95B (كارابىن نۇسخىسى)، QJB-95 (يېنىك پىلىموت)، QBZ-97 (5.56 مىللىمېتىرلىق ئېكسپورت نۇسخىسى)"
-    }
-  },
-  {
-    "id": "news_1791349987096_549",
-    "category": "analysis",
-    "title": {
-      "ug": "«S&K ئاۋىئاتسىيە شىركىتى» ئامېرىكا ھاۋا ئارمىيەسىنىڭ 4.3 مىليارد دوللارلىق مۇھىم تەمىنات توختامىغا ئېرىشتى",
-      "en": "S&K Aerospace awarded $4.3bn US Air Force PROS 7 contract"
-    },
-    "summary": {
-      "ug": "ئامېرىكا ھاۋا ئارمىيەسى (USAF) «S&K ئاۋىئاتسىيە شىركىتى» (S&K Aerospace) بىلەن قىممىتى 4.3 مىليارد دوللارغا يېتىدىغان چوڭ تىپتىكى ھۆددىگەرلىك كېلىشىمى تۈزدى. مەزكۇر شىركەت «زاپچاس ۋە رېمونت قىلىش زاكاز سىستېمىسى 7» (PROS 7) پروگراممىسىغا يې...",
-      "en": "S&K Aerospace has received a $4.3bn contract by the US Air Force (USAF) to lead the Parts and Repair Ordering System 7 (PROS 7), delivering supply and logistics support for foreign military sales (FMS) customers over a potential 10-year per"
-    },
-    "content": {
-      "ug": "ئامېرىكا ھاۋا ئارمىيەسى (USAF) «S&K ئاۋىئاتسىيە شىركىتى» (S&K Aerospace) بىلەن قىممىتى 4.3 مىليارد دوللارغا يېتىدىغان چوڭ تىپتىكى ھۆددىگەرلىك كېلىشىمى تۈزدى. مەزكۇر شىركەت «زاپچاس ۋە رېمونت قىلىش زاكاز سىستېمىسى 7» (PROS 7) پروگراممىسىغا يېتەكچىلىك قىلىش مەسئۇلىيىتىنى ئۈستىگە ئالغان بولۇپ، پەرەز قىلىنغان 10 يىللىق مۇددەت ئىچىدە، ئامېرىكىنىڭ تاشقى ھەربىي سېتىش (FMS) تۈرىدىكى شېرىك دۆلەتلەرنى تەمىنات، ئەشيا ئوبوروتى ۋە تېخنىكىلىق رېمونت بويىچە ئەتراپلىق مۇلازىمەت بىلەن كاپالەتلەندۈرىدۇ.\n\n---\n📌 **مەنبە:** Air Force Technology",
-      "en": "S&K Aerospace has received a $4.3bn contract by the US Air Force (USAF) to lead the Parts and Repair Ordering System 7 (PROS 7), delivering supply and logistics support for foreign military sales (FMS) customers over a potential 10-year period.\n\n---\n**Source:** Air Force Technology"
-    },
-    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/SK-Aerospace.jpg",
-    "author": "Air Force Technology",
-    "date": "2026-10-07",
-    "status": "published",
-    "featured": true,
-    "views": 136,
-    "tags": [
-      "ئامېرىكا",
-      "ھاۋا ئارمىيەسى",
-      "ھەربىي تەمىنات",
-      "ئەشيا ئوبوروتى",
-      "FMS"
-    ],
-    "specs": {
-      "مەنبە": "Air Force Technology",
-      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/sk-aerospace-pros7-usaf-contract/",
-      "sourceUrl": "https://www.airforce-technology.com/news/sk-aerospace-pros7-usaf-contract/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }
 ]

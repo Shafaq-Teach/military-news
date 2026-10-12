@@ -1,5 +1,41 @@
 [
   {
+    "id": "pol_1791826038702",
+    "category": "analysis",
+    "title": {
+      "ug": "ئىسرائىلىيە بىلەن ئىراننىڭ سۈۋەيدادىكى غەلىتە مۇناسىۋىتى",
+      "en": "إسر١ئيل وإيران في حرب طاحنة، إلا في السويداء، حيث تعيش تل أبيب وطهران شهر عسل! علم «يا علي"
+    },
+    "summary": {
+      "ug": "ئىسرائىلىيە بىلەن ئىران شىددەتلىك ئۇرۇش ئىچىدە، ئەمما سۈۋەيدادا تېل ئاۋىۋ بىلەن تېھران ھەسەل ئېيىنى ئۆتكۈزمەكتە! «يا ئەلى» بايرىقى ئىسرائىلىيە بايرىقىنىڭ يېنىدا تولۇق (ماسلىشىش) ئىچىدە تۇرماقتا. ئەڭ غەلىتە يېرى شۇكى، تېل ئاۋىۋ ئۇ يەردە ... نىڭ قالدۇقلىرىنى قوللىماقتا.",
+      "en": "إسر١ئيل وإيران في حرب طاحنة، إلا في السويداء، حيث تعيش تل أبيب وطهران شهر عسل! علم «يا علي» بجانب علم إسر١ئيل في حالة (وئام) تام. والأغرب أن تل أبيب تدعم هناك فلول الن…"
+    },
+    "content": {
+      "ug": "ئىسرائىلىيە بىلەن ئىران شىددەتلىك ئۇرۇش ئىچىدە، ئەمما سۈۋەيدادا تېل ئاۋىۋ بىلەن تېھران ھەسەل ئېيىنى ئۆتكۈزمەكتە! «يا ئەلى» بايرىقى ئىسرائىلىيە بايرىقىنىڭ يېنىدا تولۇق (ماسلىشىش) ئىچىدە تۇرماقتا. ئەڭ غەلىتە يېرى شۇكى، تېل ئاۋىۋ ئۇ يەردە ... نىڭ قالدۇقلىرىنى قوللىماقتا.\n\n---\n🔗 **ئەسلى مەنبە ئۇلانمىسى:** [صقر العرب (Facebook) دىن ئەسلى تەھلىلنى كۆرۈش](https://www.facebook.com/100095329718337/posts/938180482702934/)",
+      "en": "إسر١ئيل وإيران في حرب طاحنة، إلا في السويداء، حيث تعيش تل أبيب وطهران شهر عسل! علم «يا علي» بجانب علم إسر١ئيل في حالة (وئام) تام. والأغرب أن تل أبيب تدعم هناك فلول الن…"
+    },
+    "imageUrl": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/845950114_4479017569079659_3757574084427292177_n.png?stp=dst-jpg_tt6&cstp=mx1080x809&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Yw_vGxnEA0sQ7kNvwEBbxSB&_nc_oc=Ados2jlF4Q1qlctMmZVAkQ40PADGHtqtsryXMZvohO-whCWIQQ5HMsbLaK41L2rF-kA&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=-QvDAt0W073fk3DsPvgVJA&_nc_ss=7b289&oh=00_AQO7IiU2zZe0Wzu7No5LlNqTah6jUdC-mn-0GsO5GDvfvA&oe=6AD2D6EB",
+    "author": "صقر العرب (Facebook)",
+    "date": "2024-05-22",
+    "status": "published",
+    "featured": true,
+    "views": 68,
+    "tags": [
+      "ئىسرائىلىيە",
+      "ئىران",
+      "سۈرىيە",
+      "سۈۋەيدا",
+      "گېئو-سىياسىي"
+    ],
+    "specs": {
+      "مەنبە": "صقر العرب (Facebook)",
+      "ئەسلى ئۇلانما": "https://www.facebook.com/100095329718337/posts/938180482702934/",
+      "sourceUrl": "https://www.facebook.com/100095329718337/posts/938180482702934/",
+      "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
+      "ھالىتى": "تەستىقلانغان ئانالىز"
+    }
+  },
+  {
     "id": "news_1791817169729_794",
     "category": "weapons",
     "title": {
@@ -3425,41 +3461,6 @@
       "مەنبە": "Defense News",
       "ئەسلى ئۇلانما": "https://www.defensenews.com/global/asia-pacific/2026/10/07/embraer-lockheed-martin-vie-for-indias-105b-military-transport-aircraft-deal/",
       "sourceUrl": "https://www.defensenews.com/global/asia-pacific/2026/10/07/embraer-lockheed-martin-vie-for-indias-105b-military-transport-aircraft-deal/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791371683414_999",
-    "category": "naval",
-    "title": {
-      "ug": "ئاۋىئاماتكىلار نەدە؟ ئامېرىكا ئاۋىئاماتكىسى 188 كۈنلۈك ۋەزىپىدىن كېيىن پورتتا توختىدى",
-      "en": "Where Are The Aircraft Carriers?: October 6, 2026"
-    },
-    "summary": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيەسىنىڭ «جورج بوش» ناملىق ئاۋىئاماتكىسى (USS George H.W. Bush) ئوچۇق دېڭىزدا 188 كۈنلۈك ئۇزۇن مۇددەتلىك ۋەزىپىنى ئورۇندىغاندىن كېيىن، تۇنجى قېتىملىق دەم ئېلىش ۋە پورت زىيارىتى ئۈچۈن تايلاندنىڭ پۇكېت ئارىلىغا لەڭگەر تاشلى...",
-      "en": "USS George H.W. Bush pulls into Phuket for first liberty call after 188 days at sea, leaving USS George Washington as the sole carrier supporting operations against Iran.\n\n\nThe post Where Are The Aircraft Carriers?: October 6, 2026 appeared"
-    },
-    "content": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيەسىنىڭ «جورج بوش» ناملىق ئاۋىئاماتكىسى (USS George H.W. Bush) ئوچۇق دېڭىزدا 188 كۈنلۈك ئۇزۇن مۇددەتلىك ۋەزىپىنى ئورۇندىغاندىن كېيىن، تۇنجى قېتىملىق دەم ئېلىش ۋە پورت زىيارىتى ئۈچۈن تايلاندنىڭ پۇكېت ئارىلىغا لەڭگەر تاشلىدى. بۇ ئەھۋال، ئىرانغا قارشى ئېلىپ بېرىلىۋاتقان ھەربىي ھەرىكەتلەرنى قوللاش ۋەزىپىسىنى ئۆتەۋاتقان بىردىنبىر ئاۋىئاماتكا سۈپىتىدە پەقەت «جورج ۋاشىنگتون» ناملىق ئاۋىئاماتكىنىڭلا (USS George Washington) قالغانلىقىدىن دېرەك بېرىدۇ.\n\n---\n📌 **مەنبە:** The War Zone (TWZ)",
-      "en": "USS George H.W. Bush pulls into Phuket for first liberty call after 188 days at sea, leaving USS George Washington as the sole carrier supporting operations against Iran.\n\n\nThe post Where Are The Aircraft Carriers?: October 6, 2026 appeared first on TWZ.\n\n---\n**Source:** The War Zone (TWZ)"
-    },
-    "imageUrl": "https://www.twz.com/wp-content/uploads/2026/10/TWZ-Carrier-Fleet-Tracker-As-Of-October-6-2026-Top.png?quality=85",
-    "author": "The War Zone (TWZ)",
-    "date": "2026-10-06",
-    "status": "published",
-    "featured": true,
-    "views": 137,
-    "tags": [
-      "ئاۋىئاماتكا",
-      "ئامېرىكا دېڭىز ئارمىيەسى",
-      "ئىران",
-      "پۇكېت",
-      "ھەربىي ۋەزىپە"
-    ],
-    "specs": {
-      "مەنبە": "The War Zone (TWZ)",
-      "ئەسلى ئۇلانما": "https://www.twz.com/sea/where-are-the-aircraft-carriers-october-6-2026",
-      "sourceUrl": "https://www.twz.com/sea/where-are-the-aircraft-carriers-october-6-2026",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791806373696_470",
+    "category": "analysis",
+    "title": {
+      "ug": "خىتاي بىلەن ئامېرىكىنىڭ رىقابەتتىن مۇقىملىققا ئۆتۈش يولى",
+      "en": "How China and America Can Move from Competition to Stability"
+    },
+    "summary": {
+      "ug": "2010-يىللىرى ئامېرىكا ئارمىيەسىنىڭ ئۇزۇن مۇددەتلىك تەتقىقات تۈرى ئاساسىدا تەشكىللەنگەن خىتاي-ئامېرىكا يېپىق كىرىزېس تەقلىدىي مانېۋىرىدا، ئامېرىكا تەرەپ خىتاي بىلەن فىلىپپىن ئوتتۇرىسىدىكى دېڭىز ماجىراسى رايونىدىن بىر ئاۋىئاماتكىسىنى يىراقلاش...",
+      "en": "The American team thought it was signaling restraint. The Chinese team saw preparations for combat. In a closed-door Sino-American crisis simulation I helped organize in the 2010s &#8212; which the U.S. military funded as part of a long-ter"
+    },
+    "content": {
+      "ug": "2010-يىللىرى ئامېرىكا ئارمىيەسىنىڭ ئۇزۇن مۇددەتلىك تەتقىقات تۈرى ئاساسىدا تەشكىللەنگەن خىتاي-ئامېرىكا يېپىق كىرىزېس تەقلىدىي مانېۋىرىدا، ئامېرىكا تەرەپ خىتاي بىلەن فىلىپپىن ئوتتۇرىسىدىكى دېڭىز ماجىراسى رايونىدىن بىر ئاۋىئاماتكىسىنى يىراقلاشتۇرۇش ئارقىلىق ئۆزىنىڭ ئېغىر-بېسىقلىقىنى بىلدۈرمەكچى بولغان. لېكىن خىتاي ۋەكىللىرى بۇ ھەرىكەتنى ئامېرىكىنىڭ ھۇجۇمدىن قوغدىنىش بىلەن بىرگە جەڭ ھەرىكىتى ئېلىپ بارىدىغان ئەڭ مۇۋاپىق ئورۇنغا ئۆتۈش تەييارلىقى دەپ چۈشىنىپ، ئىنتايىن ئەندىشىگە چۈشكەن. بۇ تەقلىدىي مانېۋىر ئىككى دۆلەت ئوتتۇرىسىدىكى ئۆزئارا گۇمان ۋە ئىشەنچسىزلىكنىڭ تىنچلىق مەقسىتىدىكى بىر قەدەمىمۇ قانداق قىلىپ تەھدىتكە ئايلاندۇرۇپ قويىدىغانلىقىنى كۆرسىتىپ بەردى.\n\n---\n📌 **مەنبە:** War on the Rocks",
+      "en": "The American team thought it was signaling restraint. The Chinese team saw preparations for combat. In a closed-door Sino-American crisis simulation I helped organize in the 2010s &#8212; which the U.S. military funded as part of a long-term project &#8212; the Americans repositioned an aircraft carrier away from a maritime dispute between China and the Philippines, expecting the move to reassure Beijing. Instead, the Chinese participants became deeply alarmed. They believed the carrier was now ideally positioned to launch combat operations while remaining less vulnerable to attack. The episode revealed how suspicion could turn an intended reassurance into an apparent\n\n\nThe post How China and America Can Move from Competition to Stability appeared first on War on the Rocks.\n\n---\n**Source:** War on the Rocks"
+    },
+    "imageUrl": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-47940-cd509647fa6c.jpg",
+    "author": "War on the Rocks",
+    "date": "2026-03-30",
+    "status": "published",
+    "featured": true,
+    "views": 137,
+    "tags": [
+      "خىتاي",
+      "ئامېرىكا",
+      "ئىسرويتېرس ئاگېنتلىقىېگىيە",
+      "ئاۋىئاماتكا",
+      "كىرىزېس"
+    ],
+    "specs": {
+      "مەنبە": "War on the Rocks",
+      "ئەسلى ئۇلانما": "https://warontherocks.com/how-china-and-america-can-move-from-competition-to-stability/",
+      "sourceUrl": "https://warontherocks.com/how-china-and-america-can-move-from-competition-to-stability/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791806355763_388",
     "category": "weapons",
     "title": {
@@ -3443,47 +3478,6 @@
       "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/saab-kraken-k3-scout/",
       "sourceUrl": "https://www.naval-technology.com/news/saab-kraken-k3-scout/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "wpn_1791356451951",
-    "category": "database",
-    "title": {
-      "ug": "QBZ-95 ئاپتومات مىلتىقى (95-تۈر) - قورال تەپسىلاتى",
-      "en": "QBZ-95 Technical Dossier"
-    },
-    "summary": {
-      "ug": "QBZ-95 ئاپتومات مىلتىقى (95-تۈر): خىتاي ئىشلەپچىقارغان ئاپتومات مىلتىق (Bullpup Assault Rifle). ئوق ئۆلچىمى: 5.8×42 مىللىمېتىر (DBP87)، ئۈنۈملۈك ئارىلىقى: 400 مېتىر (ئادەتتىكى نىشان)، 600 مېتىر (ئوپتىكىلىق ئۈسكۈنە بىلەن).",
-      "en": "Technical specifications for QBZ-95"
-    },
-    "content": {
-      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nQBZ-95 ئاپتومات مىلتىقى (95-تۈر) ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** QBZ-95 ئاپتومات مىلتىقى (95-تۈر)\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** خىتاي\n- ⚙️ **قورال تىپى:** ئاپتومات مىلتىق (Bullpup Assault Rifle)\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 5.8×42 مىللىمېتىر (DBP87)\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: 3.25 كىلوگرام (قۇرۇق ھالەتتە)؛ ئۇزۇنلۇقى: 745 مىللىمېتىر\n- 🎯 **ئوقدان سىغىمى:** 30 ئوقلۇق ئۆلچەملىك قاپ ياكى 75 ئوقلۇق دۇمباق\n- ⚡ **ئوق ئېتىش سۈرئىتى:** مىنۇتىغا 650 ئوق\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** 400 مېتىر (ئادەتتىكى نىشان)، 600 مېتىر (ئوپتىكىلىق ئۈسكۈنە بىلەن)\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** QBZ-95B (كارابىن نۇسخىسى)، QJB-95 (يېنىك پىلىموت)، QBZ-97 (5.56 مىللىمېتىرلىق ئېكسپورت نۇسخىسى)\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-      "en": "Comprehensive technical dossier for QBZ-95"
-    },
-    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/QBZ95_automatic_rifle_mod_noBG.png/1280px-QBZ95_automatic_rifle_mod_noBG.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-    "date": "2026-10-07",
-    "status": "published",
-    "featured": true,
-    "views": 52,
-    "tags": [
-      "مەلۇمات_ئامبىرى",
-      "قورال",
-      "تېخنىكا"
-    ],
-    "specs": {
-      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
-      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
-      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
-      "قورال ئىسمى": "QBZ-95 ئاپتومات مىلتىقى (95-تۈر)",
-      "ئىشلەپچىقارغان دۆلەت": "خىتاي",
-      "قورال تىپى": "ئاپتومات مىلتىق (Bullpup Assault Rifle)",
-      "ئوق ئۆلچىمى": "5.8×42 مىللىمېتىر (DBP87)",
-      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: 3.25 كىلوگرام (قۇرۇق ھالەتتە)؛ ئۇزۇنلۇقى: 745 مىللىمېتىر",
-      "ئوقدان سىغىمى": "30 ئوقلۇق ئۆلچەملىك قاپ ياكى 75 ئوقلۇق دۇمباق",
-      "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 650 ئوق",
-      "ئۈنۈملۈك ئارىلىقى": "400 مېتىر (ئادەتتىكى نىشان)، 600 مېتىر (ئوپتىكىلىق ئۈسكۈنە بىلەن)",
-      "ئاساسلىق ۋارىيانتلىرى": "QBZ-95B (كارابىن نۇسخىسى)، QJB-95 (يېنىك پىلىموت)، QBZ-97 (5.56 مىللىمېتىرلىق ئېكسپورت نۇسخىسى)"
     }
   }
 ]

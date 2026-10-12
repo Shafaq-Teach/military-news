@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1791834303952_501",
+    "category": "weapons",
+    "title": {
+      "ug": "سۈنئىي ئىدراك ۋاسىتىسى بىلەن لايىھەلەنگەن بىئولوگىيەلىك ۋىرۇسلاردىن مۇداپىئەلىنىش ئىستراتېگىيەسى",
+      "en": "How to Defend Against AI-Designed Viruses"
+    },
+    "summary": {
+      "ug": "يېقىندا «ئانتروپىك» () شىركىتى بىر قىسىم ئىشلەتكۈچىلەرنىڭ ئۆز دۆلەت سالاھىيىتىنى يوشۇرۇپ تۇرۇپ، «كلود» () ناملىق سۈنئىي ئىدراك سىستېمىسىدىن كېسەللىك قوزغاتقۇچى باكتېرىيە ياكى زەھەرلىك ماددىلارنى كۈچەيتىش جەھەتتە ياردەم سورىغانلىقىغا دائىر ب...",
+      "en": "Anthropic recently disclosed five cases in which users hid their countries while asking Claude for help enhancing pathogens or toxins. This added fuel to the ongoing debate over whether progress in AI should be slowed. Insider warnings of t"
+    },
+    "content": {
+      "ug": "يېقىندا «ئانتروپىك» () شىركىتى بىر قىسىم ئىشلەتكۈچىلەرنىڭ ئۆز دۆلەت سالاھىيىتىنى يوشۇرۇپ تۇرۇپ، «كلود» () ناملىق سۈنئىي ئىدراك سىستېمىسىدىن كېسەللىك قوزغاتقۇچى باكتېرىيە ياكى زەھەرلىك ماددىلارنى كۈچەيتىش جەھەتتە ياردەم سورىغانلىقىغا دائىر بەش تۈرلۈك ۋەقەنى ئاشكارىلىدى. بۇ ئەھۋال سۈنئىي ئىدراك تېخنىكىسىنىڭ تەرەققىيات سۈرئىتىنى ئاستىلىتىش كېرەكمۇ-يوق دېگەن مەسىلە ئۈستىدىكى تالاش-تارتىشلارنى تېخىمۇ كۈچەيتىۋەتتى. سۈنئىي ئىدراك تېخنىكىسىنىڭ ئىنسانىيەت ھاياتىغا ئېلىپ كېلىدىغان تەھدىتلىرى ھەققىدىكى ئىچكى ئاگاھلاندۇرۇشلارغا نىسبەتەن، بەزىلەر بۇنى ئالدىن كۆرەرلىك دەپ قارىسا، يەنە بەزىلەر بۇنى بىر خىل ئالدامچىلىق ياكى بازار ئېچىش تاكتىكىسى دەپ قارىماقتا. ئەمما، سۈنئىي ئىدراك تەرىپىدىن لايىھەلەنگەن بىئولوگىيەلىك ۋىرۇسلار تەجرىبىخانىلاردا يېتىشتۈرۈلۈشكە باشلىغان بۈگۈنكى كۈندە، ھەرقانداق بىئولوگىيەلىك مۇداپىئە ئىستراتېگىيەسىدە بۇ خىل تەھدىتلەر چوقۇم جىددىي ئويلىنىشى كېرەك. بىئولوگىيەلىك خەتەرلەرگە قارىتا ئوتتۇرىغا قويۇلغان «سۈنئىي ئىدراك ۋەيرانچىلىقى» (AI ) مودېلىغا ئاساسلانغاندا، سۈنئىي ئىدراك ئىنسانىيەتنىڭ ئەقلىي ئىقتىدارىدىن ھالقىپ كەتكەن بىر سەۋىيەگە يېتىشى مۇمكىن.\n\n---\n📌 **مەنبە:** ",
+      "en": "Anthropic recently disclosed five cases in which users hid their countries while asking Claude for help enhancing pathogens or toxins. This added fuel to the ongoing debate over whether progress in AI should be slowed. Insider warnings of threats to human lives from artificial intelligence have been received as everything from prescient humility to a hoax or marketing stunt. But in a world where AI-designed biological viruses have already been grown in the lab, the threats should be reckoned with in any biodefense strategy.The &#8220;AI doomer&#8221; model of biological risks is that AI will develop intelligence beyond that of any\n\n\nThe post How to Defend Against AI-Designed Viruses appeared first on War on the Rocks.\n\n---\n**Source:** "
+    },
+    "imageUrl": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-47219-f67095673a78.jpg",
+    "author": "",
+    "date": "2024-05-22",
+    "status": "published",
+    "featured": true,
+    "views": 127,
+    "tags": [
+      "سۈنئىي ئىدراك",
+      "بىئولوگىيەلىك مۇداپىئە",
+      "تېخنىكا بىخەتەرلىكى",
+      "ئەسكىرىي تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "",
+      "ئەسلى ئۇلانما": "https://warontherocks.com/how-to-defend-against-ai-designed-viruses/",
+      "sourceUrl": "https://warontherocks.com/how-to-defend-against-ai-designed-viruses/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791834150778_956",
     "category": "weapons",
     "title": {
@@ -3429,40 +3463,6 @@
       "sourceUrl": "https://t.me/alkhattabirw/27493",
       "تىپى": "ھەربىي ۋەزىيەت خەرىتىسى",
       "ھالىتى": "تەستىقلانغان ئانالىز"
-    }
-  },
-  {
-    "id": "news_1791393721874_922",
-    "category": "weapons",
-    "title": {
-      "ug": "ئاتلانتىك ئوكيان قىسقىچە بايانى: ئامېرىكا ۋە ياۋروپانىڭ يادروۋى توسۇش كۈچىگە بولغان قاراشلىرى",
-      "en": "The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence"
-    },
-    "summary": {
-      "ug": "بۇ قېتىمقى «ئاتلانتىك ئوكيان قىسقىچە بايانى» ناملىق پىروگراممىدا، پادىشاھلىق بىرلەشمە مۇداپىئە تەتقىقات ئورنى ۋە «تاغ ئۈستىدىكى ئۇرۇش» ژۇرنىلى بىرلىكتە ئامېرىكا بىلەن ياۋروپانىڭ يادروۋى توسۇش كۈچىگە بولغان قاراشلىرى ھەققىدە مۇھاكمە ئۇيۇشتۇر...",
-      "en": "For this edition of The Atlantic Brief, the Royal United Services Institute and War on the Rocks&#160;present a dialogue on U.S. and European Perspectives on Nuclear Deterrence. Participating experts from the United Kingdom, continental Eur"
-    },
-    "content": {
-      "ug": "🏷️ <b>تۈرى:</b> #ئەسكىرىي_خەۋەرلەر #خەلقئارا_مۇداپىئە\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n📌 <b>ئاتلانتىك ئوكيان قىسقىچە بايانى: ئامېرىكا ۋە ياۋروپانىڭ يادروۋى توسۇش كۈچىگە بولغان قاراشلىرى</b> 📝 بۇ قېتىمقى «ئاتلانتىك ئوكيان قىسقىچە بايانى» ناملىق پىروگراممىدا، پادىشاھلىق بىرلەشمە مۇداپىئە تەتقىقات ئورنى ۋە «تاغ ئۈستىدىكى ئۇرۇش» ژۇرنىلى بىرلىكتە ئامېرىكا بىلەن ياۋروپانىڭ يادروۋى توسۇش كۈچىگە بولغان قاراشلىرى ھەققىدە مۇھاكمە ئۇيۇشتۇردى. ئەنگلىيە، ياۋروپا قىتئەسى ۋە ئامېرىكادىن كەلگەن مۇتەخەسسىسلەر قوراللىق قوەتلەر، دىپلوماتىيە ۋە تاشقى سىياسەت ساھەلىرىدە ئون يىللىق ئەمەلىي تەجرىبىگە ئىگە بولۇپ، ئامېرىكىنىڭ كېڭەيتىلگەن يادروۋى توسۇش سىياسىتىگە بولغان ئۆزگىرىۋاتقان قاراشلىرىنى، شۇنداقلا ئەنگلىيە ۋە فرانسىيە يادرو كۈچلىرىنىڭ رولىنى تەرەققىي قىلدۇرۇش توغۇرسىدا بولدى 📅 <b>ئېلان قىلىنغان ۋاقتى:</b> 2026-10-07\n🏢 <b>مەنبە:</b> War on the Rocks\n📌 #ھەربىي #ئەسكىرىي #يادروۋى قورال #مۇداپىئە\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
-      "en": "For this edition of The Atlantic Brief, the Royal United Services Institute and War on the Rocks&#160;present a dialogue on U.S. and European Perspectives on Nuclear Deterrence. Participating experts from the United Kingdom, continental Europe, and the United States bring decades of first-hand experience in the armed forces, diplomacy, and foreign policy. They explore evolving views of America&#8217;s extended nuclear deterrence, the role of the British and French nuclear forces, and assess implications for NATO.Speakers: Ankit Panda: Stanton Senior Fellow in the Nuclear Policy Program at the Carnegie Endowment for International Peace and host of the War on the Rocks\n\n\nThe post The Atlantic Brief: U.S. and European Perspectives on Nuclear Deterrence appeared first on War on the Rocks.\n\n---\n**Source:** War on the Rocks"
-    },
-    "imageUrl": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-46580-1e2f630afe7b.jpg",
-    "author": "War on the Rocks",
-    "date": "2026-10-07",
-    "status": "published",
-    "featured": true,
-    "views": 78,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "يادروۋى قورال",
-      "مۇداپىئە"
-    ],
-    "specs": {
-      "مەنبە": "War on the Rocks",
-      "ئەسلى ئۇلانما": "https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/",
-      "sourceUrl": "https://warontherocks.com/the-atlantic-brief-u-s-and-european-perspectives-on-nuclear-deterrence/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }
 ]

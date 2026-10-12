@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791784508777_945",
+    "category": "drones",
+    "title": {
+      "ug": "«توسۇپ زەربە بېرىش كۆپۈكى»: روسىيە ئۇچقۇچىسىز ئايروپىلانغا قارشى تېخنىكىدا ئالدىدا ماڭماقتا",
+      "en": "The Interceptor Bubble"
+    },
+    "summary": {
+      "ug": "روسىيە ئۇچقۇچىسىز ئايروپىلانلارغا توسۇپ زەربە بېرىش تېخنىكىسى ۋە ھاۋا مۇداپىئە سىستېمىلىرى جەھەتتە غەربتىن ئۈچ قەدەم ئالدىدا تورماقتا. ھەربىي مەبلەغ ئاجرىتقۇچى يۇقىرى دەرىجىلىك تەدبىر بەلگىلىگۈچىلەر بۇ خىل ئارقىدا قېلىش ئەھۋالىنىڭ تۈپ سەۋەب...",
+      "en": "Russia is three steps ahead. Are the people writing the checks asking why? Those of"
+    },
+    "content": {
+      "ug": "روسىيە ئۇچقۇچىسىز ئايروپىلانلارغا توسۇپ زەربە بېرىش تېخنىكىسى ۋە ھاۋا مۇداپىئە سىستېمىلىرى جەھەتتە غەربتىن ئۈچ قەدەم ئالدىدا تورماقتا. ھەربىي مەبلەغ ئاجرىتقۇچى يۇقىرى دەرىجىلىك تەدبىر بەلگىلىگۈچىلەر بۇ خىل ئارقىدا قېلىش ئەھۋالىنىڭ تۈپ سەۋەبلىرى خۇسۇسىدا يېتەرلىك ئىزدىنىۋاتامدۇ-ياق، بۇ جىددىي سوئاللارنى پەيدا قىلماقتا.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
+      "en": "Russia is three steps ahead. Are the people writing the checks asking why? Those of\n\n---\n**Source:** sUAS News (Drones)"
+    },
+    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/geran5.png?fit=487%2C273&#038;ssl=1",
+    "author": "sUAS News (Drones)",
+    "date": "2026-03-30",
+    "status": "published",
+    "featured": true,
+    "views": 85,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "روسىيە"
+    ],
+    "specs": {
+      "مەنبە": "sUAS News (Drones)",
+      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/the-interceptor-bubble/",
+      "sourceUrl": "https://www.suasnews.com/2026/10/the-interceptor-bubble/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791773730981_573",
     "category": "weapons",
     "title": {
@@ -3435,40 +3470,6 @@
       "مەنبە": "Army Technology",
       "ئەسلى ئۇلانما": "https://www.army-technology.com/news/us-counter-drone-pilot/",
       "sourceUrl": "https://www.army-technology.com/news/us-counter-drone-pilot/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791306531250_200",
-    "category": "weapons",
-    "title": {
-      "ug": "ئۇرسا ماجور شىركىتى ئامېرىكا دېڭىز ئارمىيەسىدىن «CAAM» ۋە «NMM» را ماتورى ئۈچۈن 137 مىليون دوللارلىق توختامغا ئېرىشتى",
-      "en": "Ursa Major wins $137m US contract for CAAM and NMM rocket motors"
-    },
-    "summary": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيەسى «ئىخچام ھاۋادىن-ھاۋاغا ئاساسلىق باشقۇرۇلىدىغان بومبا (CAAM)» ۋە «دېڭىز مودۇللۇق باشقۇرۇلىدىغان بومبا (NMM)» پىروگراممىلىرى ئۈچۈن قاتتىق يېقىلغۇلۇق را ماتورلىرىنى تەتقىق قىلىش ۋە سىناقتىن ئۆتكۈزۈپ سالاھىيەتكە ئىگە قى...",
-      "en": "The US Navy has awarded Ursa Major two contracts worth a combined $137m to develop and qualify solid rocket motors for the Compact Air-to-Air Missile (CAAM) and Naval Modular Missile (NMM) programmes.\n\n\nThe post Ursa Major wins $137m US con"
-    },
-    "content": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيەسى «ئىخچام ھاۋادىن-ھاۋاغا ئاساسلىق باشقۇرۇلىدىغان بومبا (CAAM)» ۋە «دېڭىز مودۇللۇق باشقۇرۇلىدىغان بومبا (NMM)» پىروگراممىلىرى ئۈچۈن قاتتىق يېقىلغۇلۇق را ماتورلىرىنى تەتقىق قىلىش ۋە سىناقتىن ئۆتكۈزۈپ سالاھىيەتكە ئىگە قىلىش مەقسەتلىرىدە، «ئۇرسا ماجور (Ursa Major)» شىركىتىگە ئومۇمىي قىممىتى 137 مىليون دوللار كېلىدىغان ئىككى تۈرلۈك مۇھىم توختامنى رەسمىي تاپشۇردى.\n\n---\n📌 **مەنبە:** Naval Technology",
-      "en": "The US Navy has awarded Ursa Major two contracts worth a combined $137m to develop and qualify solid rocket motors for the Compact Air-to-Air Missile (CAAM) and Naval Modular Missile (NMM) programmes.\n\n\nThe post Ursa Major wins $137m US contract for CAAM and NMM rocket motors appeared first on Naval Technology.\n\n---\n**Source:** Naval Technology"
-    },
-    "imageUrl": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/10/Ursa-Major-1.jpg",
-    "author": "Naval Technology",
-    "date": "2026-03-30",
-    "status": "published",
-    "featured": true,
-    "views": 145,
-    "tags": [
-      "ئامېرىكا دېڭىز ئارمىيەسى",
-      "را ماتورى",
-      "مۇداپىئە توختامى",
-      "ئۇرسا ماجور"
-    ],
-    "specs": {
-      "مەنبە": "Naval Technology",
-      "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/ursa-major-rocket-motors-contract/",
-      "sourceUrl": "https://www.naval-technology.com/news/ursa-major-rocket-motors-contract/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

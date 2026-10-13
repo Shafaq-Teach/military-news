@@ -1,5 +1,38 @@
 [
   {
+    "id": "news_1791914895723_499",
+    "category": "weapons",
+    "title": {
+      "ug": "ئىسرائىلىيە ئاۋىئاتسىيە سانائىتى شىركىتى (IAI) AUSA يىغىنىدا ئۈچ يېڭى ھاۋا مۇداپىئە سىستېمىسىنى ئاممىغا ئېلان قىلدى",
+      "en": "Israel’s IAI unveils 3 new air defense systems at AUSA"
+    },
+    "summary": {
+      "ug": "بۈگۈن ئۆتكۈزۈلگەن AUSA يىغىنى جەريانىدا ئاشكارىلانغان بۇ ئۈچ يېڭى سىستېما، ئۇچقۇچىسىز ئايروپىلانلار (دىرونلار) زامانىۋى ئۇرۇش ئۇسۇلىنى تۈپتىن ئۆزگەرتىۋاتقان بۈگۈنكى كۈندە، مۇداپىئە شىركەتلىرىنىڭ ئوخشىمىغان تېخنىكىلىق يۆنىلىش ۋە چارە-تەدبىرل...",
+      "en": "Unveiled today during the AUSA conference, the three systems represent the different approaches defense companies are pursuing as unmanned aerial vehicles reshape modern warfare."
+    },
+    "content": {
+      "ug": "بۈگۈن ئۆتكۈزۈلگەن AUSA يىغىنى جەريانىدا ئاشكارىلانغان بۇ ئۈچ يېڭى سىستېما، ئۇچقۇچىسىز ئايروپىلانلار (دىرونلار) زامانىۋى ئۇرۇش ئۇسۇلىنى تۈپتىن ئۆزگەرتىۋاتقان بۈگۈنكى كۈندە، مۇداپىئە شىركەتلىرىنىڭ ئوخشىمىغان تېخنىكىلىق يۆنىلىش ۋە چارە-تەدبىرلەرنى قوللىنىۋاتقانلىقىدىن دېرەك بېرىدۇ.\n\n---\n📌 **مەنبە:** ",
+      "en": "Unveiled today during the AUSA conference, the three systems represent the different approaches defense companies are pursuing as unmanned aerial vehicles reshape modern warfare.\n\n---\n**Source:** "
+    },
+    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/FireStorm250-e1791906382612-1024x577.png",
+    "author": "",
+    "date": "2026-10-13",
+    "status": "published",
+    "featured": true,
+    "views": 119,
+    "tags": [
+      "ھەربىي",
+      "مۇداپىئە",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "",
+      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/israels-iai-unveils-3-new-air-defense-systems-at-ausa/",
+      "sourceUrl": "https://breakingdefense.com/2026/10/israels-iai-unveils-3-new-air-defense-systems-at-ausa/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791914804296_780",
     "category": "weapons",
     "title": {
@@ -3419,41 +3452,6 @@
       "مەنبە": "Defense News",
       "ئەسلى ئۇلانما": "https://www.defensenews.com/news/your-army/2026/10/08/sig-sauer-develops-25-round-mag-for-armys-next-gen-rifle/",
       "sourceUrl": "https://www.defensenews.com/news/your-army/2026/10/08/sig-sauer-develops-25-round-mag-for-armys-next-gen-rifle/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791480295400_232",
-    "category": "aviation",
-    "title": {
-      "ug": "سىكورسكىي شىركىتىنىڭ «قارا بۈركۈت 2070» ئىستراتېگىيەسى ئېلان قىلىندى: بۇ يىل ئادەمسىز «يۇ-خوك» (U-Hawk) تىك ئايروپىلانى سىناق قىلىنىدۇ",
-      "en": "Sikorsky’s “Black Hawk 2070” Strategy Includes Drones, New Engines, And Flying The Pilotless U-Hawk This Year"
-    },
-    "summary": {
-      "ug": "سىكورسكىي (Sikorsky) شىركىتىنىڭ UH-60 «قارا بۈركۈت» تىك ئايروپىلانلىرىنى زامانىۋىلاشتۇرۇش پىلانى دائىرىسىدە ئوتتۇرىغا قويغان «قارا بۈركۈت 2070» (Black Hawk 2070) ئىستراتېگىيەسى يېڭى ماتورلار، تېخىمۇ ئۇزۇن ئۇچۇش مۇساپىسى، قويۇپ بېرىلىدىغان ق...",
-      "en": "Branded Content: A planned suite of UH-60 upgrades includes the uncrewed U-Hawk, new engines, more range, launched effects, and expanding autonomy.\n\n\nThe post Sikorsky’s “Black Hawk 2070” Strategy Includes Drones, New Engines, And Flying Th"
-    },
-    "content": {
-      "ug": "سىكورسكىي (Sikorsky) شىركىتىنىڭ UH-60 «قارا بۈركۈت» تىك ئايروپىلانلىرىنى زامانىۋىلاشتۇرۇش پىلانى دائىرىسىدە ئوتتۇرىغا قويغان «قارا بۈركۈت 2070» (Black Hawk 2070) ئىستراتېگىيەسى يېڭى ماتورلار، تېخىمۇ ئۇزۇن ئۇچۇش مۇساپىسى، قويۇپ بېرىلىدىغان قوشۇمچە قورال سىستېمىلىرى ۋە كېڭەيتىلگەن ئۆزلۈكىدىن باشقۇرۇش ئىقتىدارى قاتارلىق بىر يۈرۈش يېڭىلاش تۈرلىرىنى ئۆز ئىچىگە ئالىدۇ. بۇ ئىستراتېگىيەنىڭ ئەڭ مۇھىم قىسمى سۈپىتىدە، پۈتۈنلەي ئادەمسىز باشقۇرۇلىدىغان «يۇ-خوك» (U-Hawk) تىك ئايروپىلانىنى بۇ يىل ئىچىدە تۇنجى قېتىم سىناق تەرىقىسىدە ئۇچۇرۇش پىلانلانغان.\n\n---\n📌 **مەنبە:** The War Zone (TWZ)",
-      "en": "Branded Content: A planned suite of UH-60 upgrades includes the uncrewed U-Hawk, new engines, more range, launched effects, and expanding autonomy.\n\n\nThe post Sikorsky’s “Black Hawk 2070” Strategy Includes Drones, New Engines, And Flying The Pilotless U-Hawk This Year appeared first on TWZ.\n\n---\n**Source:** The War Zone (TWZ)"
-    },
-    "imageUrl": "https://www.twz.com/wp-content/uploads/2026/10/2070-Black-Hawk-UH-60.jpg?quality=85",
-    "author": "The War Zone (TWZ)",
-    "date": "2026-10-08",
-    "status": "published",
-    "featured": true,
-    "views": 24,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "ئۇچقۇچىسىز_ئايروپىلان",
-      "تىك_ئايروپىلان"
-    ],
-    "specs": {
-      "مەنبە": "The War Zone (TWZ)",
-      "ئەسلى ئۇلانما": "https://www.twz.com/sponsored-content/sikorskys-black-hawk-2070-strategy-includes-drones-new-engines-and-flying-the-pilotless-u-hawk-this-year",
-      "sourceUrl": "https://www.twz.com/sponsored-content/sikorskys-black-hawk-2070-strategy-includes-drones-new-engines-and-flying-the-pilotless-u-hawk-this-year",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791893119515_183",
+    "category": "weapons",
+    "title": {
+      "ug": "ئاۋستىرىيە ۋە ئىتالىيە ئىنېئوس (INEOS) شىركىتىنىڭ «گرېنادىئېر 4x4» ئاپتوموبىلىنى تاللىدى",
+      "en": "INEOS’ Grenadier 4×4 selected by Austria and Italy"
+    },
+    "summary": {
+      "ug": "ئاۋستىرىيە ۋە ئىتالىيە قوراللىق كۈچلىرى ئىنېئوس (INEOS) شىركىتى تەتقىق قىلىپ ئىشلەپچىقارغان «گرېنادىئېر 4x4» ( 4x4) يولسىز جەڭ ئاپتوموبىلىنى تاللىدى. ئىلگىرى پەقەت يېرىم ھەربىي تەشكىلاتلار بىلەن چېگرا مۇداپىئە كۈچلىرىگىلا سېتىپ بېرىلگەن مەز...",
+      "en": "The order represents the first made by a military customer, with previous Grenadier sales heading to parapublic and border security forces."
+    },
+    "content": {
+      "ug": "ئاۋستىرىيە ۋە ئىتالىيە قوراللىق كۈچلىرى ئىنېئوس (INEOS) شىركىتى تەتقىق قىلىپ ئىشلەپچىقارغان «گرېنادىئېر 4x4» ( 4x4) يولسىز جەڭ ئاپتوموبىلىنى تاللىدى. ئىلگىرى پەقەت يېرىم ھەربىي تەشكىلاتلار بىلەن چېگرا مۇداپىئە كۈچلىرىگىلا سېتىپ بېرىلگەن مەزكۇر ئاپتوموبىل ئۈچۈن بۇ قېتىمقى زاكاز ئۆز نۆۋىتىدە تۇنجى رەسمىي ھەربىي خېرىدار تەرىپىدىن بېرىلگەن سېتىۋېلىش كېلىشىمى ھېسابلىنىدۇ.\n\n---\n📌 **مەنبە:** ",
+      "en": "The order represents the first made by a military customer, with previous Grenadier sales heading to parapublic and border security forces.\n\n---\n**Source:** "
+    },
+    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/10/INEOS-Grenadier-Military-Blue-Light_01-lo-res.jpg",
+    "author": "",
+    "date": "2026-10-13",
+    "status": "published",
+    "featured": true,
+    "views": 132,
+    "tags": [
+      "ئاۋستىرىيە",
+      "ئىتالىيە",
+      "ھەربىي ئاپتوموبىل",
+      "مۇداپىئە",
+      "قوراللىق كۈچلەر"
+    ],
+    "specs": {
+      "مەنبە": "",
+      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/ineos-grenadier-4x4-selected-by-austria-and-italy/",
+      "sourceUrl": "https://www.army-technology.com/news/ineos-grenadier-4x4-selected-by-austria-and-italy/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1791892971449",
     "category": "analysis",
     "title": {
@@ -3420,41 +3455,6 @@
       "مەنبە": "Air Force Technology",
       "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/bae-systems-f35-ew-systems/",
       "sourceUrl": "https://www.airforce-technology.com/news/bae-systems-f35-ew-systems/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791458715753_897",
-    "category": "weapons",
-    "title": {
-      "ug": "دوكلات: ئامېرىكا مەركىزىي ئاخبارات ئىدارىسى (CIA) ياۋروپا دۆلەتلىرىگە رۇسىيەنىڭ ئوتتۇرا دېڭىزدىكى پاراخوتلاردىن ئۇچقۇچىسىز ئايروپىلان (دىرون) ئارقىلىق ھۇجۇم قىلىش خەۋپىنى ئاگاھلاندۇردى",
-      "en": "Report: CIA warned Europe of Russian drone attack from vessels in the Mediterranean"
-    },
-    "summary": {
-      "ug": "مەلۇم بولۇشىچە، ئامېرىكا مەركىزىي ئاخبارات ئىدارىسى (CIA) ياۋروپا دۆلەتلىرىگە رۇسىيەنىڭ ئوتتۇرا دېڭىزدا قاتناۋاتقان سودا پاراخوتلىرى ئۈستىدىن پارتلاتقۇچ يۈكلەنگەن ئۇچقۇچىسىز ئايروپىلان (دىرون)لارنى قويۇپ بېرىپ ھۇجۇم قىلىشقا ئائىت گۇمانلىق پ...",
-      "en": "The CIA reportedly warned European nations of a suspected Russian plot to launch explosive drones from aboard commercial vessels in the Mediterranean."
-    },
-    "content": {
-      "ug": "مەلۇم بولۇشىچە، ئامېرىكا مەركىزىي ئاخبارات ئىدارىسى (CIA) ياۋروپا دۆلەتلىرىگە رۇسىيەنىڭ ئوتتۇرا دېڭىزدا قاتناۋاتقان سودا پاراخوتلىرى ئۈستىدىن پارتلاتقۇچ يۈكلەنگەن ئۇچقۇچىسىز ئايروپىلان (دىرون)لارنى قويۇپ بېرىپ ھۇجۇم قىلىشقا ئائىت گۇمانلىق پىلانى توغرىسىدا جىددىي ئاگاھلاندۇرۇش بەرگەن.\n\n---\n📌 **مەنبە:** C4ISRNET",
-      "en": "The CIA reportedly warned European nations of a suspected Russian plot to launch explosive drones from aboard commercial vessels in the Mediterranean.\n\n---\n**Source:** C4ISRNET"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/5PIUG2BHDNC2NKMUML6K5OIJBM.jpg",
-    "author": "C4ISRNET",
-    "date": "2024-05-24",
-    "status": "published",
-    "featured": true,
-    "views": 47,
-    "tags": [
-      "ھەربىي_ئاخبارات",
-      "ئۇچقۇچىسىز_ئايروپىلان",
-      "رۇسىيە",
-      "ياۋروپا",
-      "ئوتتۇرا_دېڭىز"
-    ],
-    "specs": {
-      "مەنبە": "C4ISRNET",
-      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/",
-      "sourceUrl": "https://www.c4isrnet.com/global/europe/2026/09/24/report-cia-warned-europe-of-russian-drone-attack-from-vessels-in-the-mediterranean/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

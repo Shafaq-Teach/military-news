@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791904096626_553",
+    "category": "weapons",
+    "title": {
+      "ug": "ئۇچقۇچىسىز ئايروپىلانلار ئامېرىكا ئارمىيەسىنىڭ دۈشمەننى قايمۇقتۇرۇش ئىقتىدارى ئۈچۈن يېڭى پۇرسەتلەرنى يارىتىپ بەرمەكتە",
+      "en": "Drones Are Creating New Opportunities For The U.S. Army To Deceive Its Enemies"
+    },
+    "summary": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ يېڭى جەڭگىۋار ھەرىكەت پىرىنسىپىدا، ئادەمسىز سۇپىلار ئارقىلىق دۈشمەننى قايمۇقتۇرۇش ۋە ھىيلە-مىكىر ئىشلىتىش ئەڭ ئاساسلىق ۋەزىپىلەرنىڭ بىرى سۈپىتىدە ئوتتۇرىغا چىقماقتا. مەزكۇر يېڭى مەشغۇلات ئۇقۇمىغا ئاساسلانغاندا...",
+      "en": "Deception and guile are emerging as primary tasks for uncrewed platforms in the Army's new concept of operations.\n\n\nThe post Drones Are Creating New Opportunities For The U.S. Army To Deceive Its Enemies appeared first on TWZ."
+    },
+    "content": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ يېڭى جەڭگىۋار ھەرىكەت پىرىنسىپىدا، ئادەمسىز سۇپىلار ئارقىلىق دۈشمەننى قايمۇقتۇرۇش ۋە ھىيلە-مىكىر ئىشلىتىش ئەڭ ئاساسلىق ۋەزىپىلەرنىڭ بىرى سۈپىتىدە ئوتتۇرىغا چىقماقتا. مەزكۇر يېڭى مەشغۇلات ئۇقۇمىغا ئاساسلانغاندا، ئۇچقۇچىسىز ئايروپىلانلار (دىرونلار) جەڭ مەيدانىدا دۈشمەننى قايمۇقتۇرۇش ۋە ئۇلارنىڭ ئىستراتېگىيەلىك قارارلىرىنى ئاستى-ئۈستۈن قىلىشتا مۇھىم رول ئوينايدۇ.\n\n---\n📌 **مەنبە:** (TWZ)",
+      "en": "Deception and guile are emerging as primary tasks for uncrewed platforms in the Army's new concept of operations.\n\n\nThe post Drones Are Creating New Opportunities For The U.S. Army To Deceive Its Enemies appeared first on TWZ.\n\n---\n**Source:** (TWZ)"
+    },
+    "imageUrl": "https://www.twz.com/wp-content/uploads/2026/10/army-drone-deception-tactics.jpg?quality=85",
+    "author": "(TWZ)",
+    "date": "2026-10-13",
+    "status": "published",
+    "featured": true,
+    "views": 53,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئۇچقۇچىسىز_ئايروپىلان",
+      "ئامېرىكا"
+    ],
+    "specs": {
+      "مەنبە": "(TWZ)",
+      "ئەسلى ئۇلانما": "https://www.twz.com/news-features/drones-are-creating-new-opportunities-for-the-u-s-army-to-deceive-its-enemies",
+      "sourceUrl": "https://www.twz.com/news-features/drones-are-creating-new-opportunities-for-the-u-s-army-to-deceive-its-enemies",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791903989670_662",
     "category": "drones",
     "title": {
@@ -3418,41 +3453,6 @@
       "مەنبە": "sUAS News (Drones)",
       "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/uav-navigation-grupo-oesia-to-collaborate-with-esa-on-leo-signals-of-opportunity-for-resilient-uas-navigation/",
       "sourceUrl": "https://www.suasnews.com/2026/10/uav-navigation-grupo-oesia-to-collaborate-with-esa-on-leo-signals-of-opportunity-for-resilient-uas-navigation/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791469481965_75",
-    "category": "naval",
-    "title": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيەسى بىلەن ئاندۇرىل شىركىتى مارىلاندتا 6.6 مىليارد دوللارلىق «ئارسېنال-2» كېمىسازلىق زاۋۇتى قۇرۇشنى پىلانلىماقتا",
-      "en": "US Navy, Anduril plan $6.6bn Arsenal-2 shipyard in Maryland"
-    },
-    "summary": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيەسى بىلەن ئاندۇرىل سانائەت شىركىتى (Anduril Industries) سۇ ئاستى پاراخوتى سىستېمىلىرىنى ئىشلەپچىقىرىشقا قارىتىلغان يېڭى بىر كېمىسازلىق زاۋۇتى قۇرۇش ئۈچۈن، مارىلاند شتاتىنىڭ سپاررائۇس پويىنت (Sparrows Point) رايونىغا 6.6...",
-      "en": "The US Navy and Anduril Industries plan to invest $6.6bn in a new shipyard at Sparrows Point, Maryland, intended to produce submarine systems.\n\n\nThe post US Navy, Anduril plan $6.6bn Arsenal-2 shipyard in Maryland appeared first on Naval Te"
-    },
-    "content": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيەسى بىلەن ئاندۇرىل سانائەت شىركىتى (Anduril Industries) سۇ ئاستى پاراخوتى سىستېمىلىرىنى ئىشلەپچىقىرىشقا قارىتىلغان يېڭى بىر كېمىسازلىق زاۋۇتى قۇرۇش ئۈچۈن، مارىلاند شتاتىنىڭ سپاررائۇس پويىنت (Sparrows Point) رايونىغا 6.6 مىليارد دوللار مەبلەغ سېلىشنى پىلانلىماقتا.\n\n---\n📌 **مەنبە:** Naval Technology",
-      "en": "The US Navy and Anduril Industries plan to invest $6.6bn in a new shipyard at Sparrows Point, Maryland, intended to produce submarine systems.\n\n\nThe post US Navy, Anduril plan $6.6bn Arsenal-2 shipyard in Maryland appeared first on Naval Technology.\n\n---\n**Source:** Naval Technology"
-    },
-    "imageUrl": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/10/Arsenal-2-shipyard.jpg",
-    "author": "Naval Technology",
-    "date": "2024-11-15",
-    "status": "published",
-    "featured": true,
-    "views": 106,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "كېمىسازلىق",
-      "سۇ ئاستى پاراخوتى"
-    ],
-    "specs": {
-      "مەنبە": "Naval Technology",
-      "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/arsenal-2-shipyard-us-navy/",
-      "sourceUrl": "https://www.naval-technology.com/news/arsenal-2-shipyard-us-navy/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

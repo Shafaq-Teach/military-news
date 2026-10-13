@@ -1,5 +1,41 @@
 [
   {
+    "id": "news_1791893473950_262",
+    "category": "weapons",
+    "title": {
+      "ug": "ئېدجۋىڭ () شىركىتى GCAP جەڭچى ئايروپىلان پروگراممىسى ئۈچۈن تۇرىندا يېڭى مەركەز ئاچتى",
+      "en": "Edgewing opens Turin hub for GCAP fighter programme"
+    },
+    "summary": {
+      "ug": "ئېدجۋىڭ () شىركىتى ئىتالىيە، ياپونىيە ۋە ئەنگلىيە بىرلىكتە يولغا قويغان «يەرشارى جەڭگىۋار ھاۋا پروگراممىسى» (GCAP) نىڭ تەرەققىياتىنى قوللاش مەقسىتىدە، ئىتالىيەنىڭ تۇرىن شەھىرىدە يېڭى بىر قۇرۇلۇش مەركىزىنى رەسمىي ئىشقا كىرىشتۈردى.",
+      "en": "Edgewing has opened an engineering facility in Turin, Italy, to support development of the Global Combat Air Programme (GCAP) combat aircraft being pursued by Italy, Japan and the UK."
+    },
+    "content": {
+      "ug": "ئېدجۋىڭ () شىركىتى ئىتالىيە، ياپونىيە ۋە ئەنگلىيە بىرلىكتە يولغا قويغان «يەرشارى جەڭگىۋار ھاۋا پروگراممىسى» (GCAP) نىڭ تەرەققىياتىنى قوللاش مەقسىتىدە، ئىتالىيەنىڭ تۇرىن شەھىرىدە يېڭى بىر قۇرۇلۇش مەركىزىنى رەسمىي ئىشقا كىرىشتۈردى.\n\n---\n📌 **مەنبە:** ",
+      "en": "Edgewing has opened an engineering facility in Turin, Italy, to support development of the Global Combat Air Programme (GCAP) combat aircraft being pursued by Italy, Japan and the UK.\n\n---\n**Source:** "
+    },
+    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/GCAP-aircraft.jpg",
+    "author": "",
+    "date": "2026-10-13",
+    "status": "published",
+    "featured": true,
+    "views": 41,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "GCAP",
+      "ئەنگلىيە",
+      "ئىتالىيە"
+    ],
+    "specs": {
+      "مەنبە": "",
+      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/edgewing-turin-gcap-fighter/",
+      "sourceUrl": "https://www.airforce-technology.com/news/edgewing-turin-gcap-fighter/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791893200179_772",
     "category": "weapons",
     "title": {
@@ -3420,42 +3456,6 @@
       "ئەسلى ئۇلانما": "https://www.army-technology.com/news/renk-patria-hswl-076/",
       "sourceUrl": "https://www.army-technology.com/news/renk-patria-hswl-076/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "pol_1791468390630",
-    "category": "analysis",
-    "title": {
-      "ug": "ئىنفىگرافىك | ئاخبارات ئۇرۇشى يەمەندە ھۇسىيلار (ئەنسارۇللاھ)غا قارشى بۇرۇلۇش ياسىدى",
-      "en": "انفوغرافيك | حرب الاستخبارات تنقلب ضد الحوثيين في اليمن"
-    },
-    "summary": {
-      "ug": "#ئىنفىگرافىك | ئاخبارات ئۇرۇشى يەمەندە ھۇسىيلار (ئەنسارۇللاھ)غا قارشى بۇرۇلۇش ياسىدى ▪️ھۇسىيلار (ئەنسارۇللاھ) سۈنئىي ھەمراھ سۈرەتلىرى، ئىراننىڭ قوللىشى ۋە ئۆز رەقىبلىرىنىڭ سېپىگە سىڭىپ كىرىش پۇرسەتلىرىدىن پايدىلانغان ئىدى، ئاندىن 19-سېنتەبىردىكى سانا زەربىسى يۈز بېرىپ، قارار چىقىرىش زەنجىرىنىڭ ئۆزىگە زەربە بەردى. ئۇچۇر ۋە ئالاقە قانداق قىلىپ توقۇنۇشنىڭ يېڭى مەيدانىغا ئايلىنىپ قالدى؟ قاسيون تەتقىقات مەركىزى\nتېلېگرام - X - فېيسبۇك - ئىنستاگرام",
-      "en": "#انفوغرافيك | حرب الاستخبارات تنقلب ضد الحوثيين في اليمن"
-    },
-    "content": {
-      "ug": "#ئىنفىگرافىك | ئاخبارات ئۇرۇشى يەمەندە ھۇسىيلار (ئەنسارۇللاھ)غا قارشى بۇرۇلۇش ياسىدى ▪️ھۇسىيلار (ئەنسارۇللاھ) سۈنئىي ھەمراھ سۈرەتلىرى، ئىراننىڭ قوللىشى ۋە ئۆز رەقىبلىرىنىڭ سېپىگە سىڭىپ كىرىش پۇرسەتلىرىدىن پايدىلانغان ئىدى، ئاندىن 19-سېنتەبىردىكى سانا زەربىسى يۈز بېرىپ، قارار چىقىرىش زەنجىرىنىڭ ئۆزىگە زەربە بەردى. ئۇچۇر ۋە ئالاقە قانداق قىلىپ توقۇنۇشنىڭ يېڭى مەيدانىغا ئايلىنىپ قالدى؟ قاسيون تەتقىقات مەركىزى\nتېلېگرام - X - فېيسبۇك - ئىنستاگرام\n\n---\n🔗 **ئەسلى مەنبە ئۇلانمىسى:** [مركز قاسيون للدراسات دىن ئەسلى تەھلىلنى كۆرۈش](https://t.me/QasiounStudies/6059)",
-      "en": "#انفوغرافيك | حرب الاستخبارات تنقلب ضد الحوثيين في اليمن\n\n▪️استفاد الحوثيون من صور أقمار صناعية ودعم إيراني ومن اختراقات داخل صفوف خصومهم، ثم جاءت ضربة صنعاء يوم 19 سبتمبر لتصيب سلسلة القرار نفسها.\n\nكيف تحولت المعلومات والاتصالات إلى ساحة جديدة للصراع؟\n\nقاسيون للدراسات\nTelegram - X - Facebook - Instagram"
-    },
-    "imageUrl": "https://cdn4.telesco.pe/file/ukCkczxr3_H4vVvLDwPjNK5o89jVyEJ6EzGRDxrxBMB1PidT2WAW-ZS1xLthztY-3QUcsN7vmn4zBiErChLCB1OaAVhbfV0FnunTgVm0SzUFw2BmYsJzJhHQJ37Y-KCysj1mhBw4KAM2ywZg_3ckLKZC0IOzQwx5FGcCWd8GvMAiYHVyg05I-UJhtSJQ1vLO6U9lD_lCdFrQB5xLUU4ubZ2UZSr7o7K5fqHS1v1tpbUPMtCBxyGoxDVcQ9lrIwZoGBnI6f36nNd5m0szq9HD9PpQWOr3yCOYYUqZLjZ1BgNi7FAJLvQW-S-yHBP71QfPk_VdKGNW9SnXur3jQYqZ9A.jpg",
-    "author": "مركز قاسيون للدراسات",
-    "date": "2026-10-08",
-    "status": "published",
-    "featured": true,
-    "views": 123,
-    "tags": [
-      "ئاخبارات_ئۇرۇشى",
-      "ھۇسىيلار",
-      "يەمەن",
-      "ئوتتۇرا_شەرق",
-      "قاسيون_تەتقىقات_مەركىزى"
-    ],
-    "specs": {
-      "مەنبە": "مركز قاسيون للدراسات",
-      "ئەسلى ئۇلانما": "https://t.me/QasiounStudies/6059",
-      "sourceUrl": "https://t.me/QasiounStudies/6059",
-      "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
-      "ھالىتى": "تەستىقلانغان ئانالىز"
     }
   }
 ]

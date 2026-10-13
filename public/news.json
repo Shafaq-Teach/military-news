@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791914804296_780",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى 2028-يىلى تۇنجى تۈركۈمدىكى يۇقىرى ئېنېرگىيەلىك لازېرلىق ئۇچقۇچىسىز ئايروپىلانغا قارشى قوراللارنى سەپلەشنى پىلانلىماقتا",
+      "en": "US Army targets 2028 for first high-energy laser counter-drone weapons"
+    },
+    "summary": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى تەرىپىدىن تاللانغان تۇنجى يۆنىلىشلىك ئېنېرگىيە قورالىنىڭ سىناق باسقۇچلىرىنى تاماملاپ، 2028-يىلىنىڭ بېشىدا ئۇچقۇچىسىز ئايروپىلانلارغا قارشى جەڭگىۋار ھەرىكەتلەرگە رەسمىي تەييار بولۇشى مۆلچەرلەنمەكتە. بۇ يۇقىرى ئېنې...",
+      "en": "The first directed energy weapon selected by the U.S. Army could be out of testing and ready for counter-drone operations by early 2028."
+    },
+    "content": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى تەرىپىدىن تاللانغان تۇنجى يۆنىلىشلىك ئېنېرگىيە قورالىنىڭ سىناق باسقۇچلىرىنى تاماملاپ، 2028-يىلىنىڭ بېشىدا ئۇچقۇچىسىز ئايروپىلانلارغا قارشى جەڭگىۋار ھەرىكەتلەرگە رەسمىي تەييار بولۇشى مۆلچەرلەنمەكتە. بۇ يۇقىرى ئېنېرگىيەلىك لازېر سىستېمىسى زامانىۋى ئۇرۇش مەيدانلىرىدىكى ئۇچقۇچىسىز ئايروپىلان تەھدىتلىرىگە تاقابىل تۇرۇشتا مۇھىم ئەھمىيەتكە ئىگە بولۇپ، ھاۋا مۇداپىئە ئىقتىدارىنى يېڭى بىر بالداققا كۆتۈرۈش مەقسەت قىلىنغان.\n\n---\n📌 **مەنبە:** ",
+      "en": "The first directed energy weapon selected by the U.S. Army could be out of testing and ready for counter-drone operations by early 2028.\n\n---\n**Source:** "
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/T35JASW27NHP5ANMH4FHYUDW5U.png",
+    "author": "",
+    "date": "2024-05-22",
+    "status": "published",
+    "featured": true,
+    "views": 96,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "لازېر",
+      "ئۇچقۇچىسىز ئايروپىلان"
+    ],
+    "specs": {
+      "مەنبە": "",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/industry/techwatch/2026/10/13/us-army-targets-2028-for-first-high-energy-laser-counter-drone-weapons/",
+      "sourceUrl": "https://www.defensenews.com/industry/techwatch/2026/10/13/us-army-targets-2028-for-first-high-energy-laser-counter-drone-weapons/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791904096626_553",
     "category": "weapons",
     "title": {
@@ -3419,40 +3454,6 @@
       "مەنبە": "The War Zone (TWZ)",
       "ئەسلى ئۇلانما": "https://www.twz.com/sponsored-content/sikorskys-black-hawk-2070-strategy-includes-drones-new-engines-and-flying-the-pilotless-u-hawk-this-year",
       "sourceUrl": "https://www.twz.com/sponsored-content/sikorskys-black-hawk-2070-strategy-includes-drones-new-engines-and-flying-the-pilotless-u-hawk-this-year",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791480271778_162",
-    "category": "drones",
-    "title": {
-      "ug": "«UAV Navigation-Grupo Oesía» شىركىتى ئۇچقۇچىسىز ئايروپىلانلارنىڭ كاپالەتلىك يول باشلاش تېخنىكىسىنى تەرەققىي قىلدۇرۇش ئۈچۈن ياۋروپا ئالەم بوشلۇقى ئىدارىسى بىلەن ھەمكارلىشىدۇ",
-      "en": "UAV Navigation-Grupo Oesía to Collaborate with ESA on LEO Signals of Opportunity for Resilient UAS Navigation"
-    },
-    "summary": {
-      "ug": "ياۋروپا ئالەم بوشلۇقى ئىدارىسى (ESA) نىڭ سۈنئىي ھەمراھ ئارقىلىق يول باشلاشتا يېڭىلىق يارىتىش ۋە قوللاش پروگراممىسى (NAVISP) نىڭ 2-تۈرى تەرىپىدىن مەبلەغ بىلەن تەمىنلەنگەن مەزكۇر يېڭى تەتقىقات تۈرى، ئۇچقۇچىسىز ئايروپىلان سىستېمىسى (UAS) نىڭ م...",
-      "en": "●&#160;&#160;&#160;&#160;&#160;&#160;&#160; The project, funded through ESA’s NAVISP Element 2 Programme, explores the use of Low"
-    },
-    "content": {
-      "ug": "ياۋروپا ئالەم بوشلۇقى ئىدارىسى (ESA) نىڭ سۈنئىي ھەمراھ ئارقىلىق يول باشلاشتا يېڭىلىق يارىتىش ۋە قوللاش پروگراممىسى (NAVISP) نىڭ 2-تۈرى تەرىپىدىن مەبلەغ بىلەن تەمىنلەنگەن مەزكۇر يېڭى تەتقىقات تۈرى، ئۇچقۇچىسىز ئايروپىلان سىستېمىسى (UAS) نىڭ مۇرەككەپ مۇھىتلاردىكى كاپالەتلىك ۋە ماسلىشىشچان يول باشلاش ئىقتىدارىنى كۈچەيتىش ئۈچۈن، تۆۋەن يەر ئوربىتىسى (LEO) دىن كېلىدىغان پۇرسەت سىگناللىرىدىن پايدىلىنىش تېخنىكىسى ئۈستىدە ئىزدىنىشنى مەقسەت قىلىدۇ.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
-      "en": "●&#160;&#160;&#160;&#160;&#160;&#160;&#160; The project, funded through ESA’s NAVISP Element 2 Programme, explores the use of Low\n\n---\n**Source:** sUAS News (Drones)"
-    },
-    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/PR_UAV-Navigation_ESA-NAVISP_PNT_LEO_2.webp?fit=400%2C267&#038;ssl=1",
-    "author": "sUAS News (Drones)",
-    "date": "2026-10-08",
-    "status": "published",
-    "featured": true,
-    "views": 32,
-    "tags": [
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "يول باشلاش سىستېمىسى",
-      "ئالەم تېخنىكىسى",
-      "ھەمكارلىق"
-    ],
-    "specs": {
-      "مەنبە": "sUAS News (Drones)",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/uav-navigation-grupo-oesia-to-collaborate-with-esa-on-leo-signals-of-opportunity-for-resilient-uas-navigation/",
-      "sourceUrl": "https://www.suasnews.com/2026/10/uav-navigation-grupo-oesia-to-collaborate-with-esa-on-leo-signals-of-opportunity-for-resilient-uas-navigation/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

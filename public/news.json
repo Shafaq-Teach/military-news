@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1791871472793_441",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى جۇڭگىلىق مەشىقىگە قايتتى: پانامالىق ھەربىيلەر ئامېرىكا ئەسكەرلىرىگە يول كۆرسەتمەكتە",
+      "en": "The US Army is back in the jungle. Panamanians are showing soldiers the way."
+    },
+    "summary": {
+      "ug": "ئىسسىق بەلباغ جۇڭگىلىقلىرىدا ئۇزۇن يىللاردىن بۇيان ياشاپ، مەشىق قىلىپ، ھەتتا بەزى ئەھۋاللاردا ئەمەلىي جەڭ تەجرىبىسىنى توپلىغان پاناما قوراللىق كۈچلىرى ئەزالىرى نۆۋەتتە جۇڭگىلىق مەشغۇلاتىغا قايتا قەدەم قويغان ئامېرىكا ئەسكەرلىرىگە تەبىئىي مۇ...",
+      "en": "Panamanian service members have trained, lived — and in some cases, fought — in the jungle. Now, they are teaching U.S. service members."
+    },
+    "content": {
+      "ug": "ئىسسىق بەلباغ جۇڭگىلىقلىرىدا ئۇزۇن يىللاردىن بۇيان ياشاپ، مەشىق قىلىپ، ھەتتا بەزى ئەھۋاللاردا ئەمەلىي جەڭ تەجرىبىسىنى توپلىغان پاناما قوراللىق كۈچلىرى ئەزالىرى نۆۋەتتە جۇڭگىلىق مەشغۇلاتىغا قايتا قەدەم قويغان ئامېرىكا ئەسكەرلىرىگە تەبىئىي مۇھىتتا ھايات قېلىش ۋە ئۇرۇش قىلىش ماھارەتلىرىنى ئۆگەتمەكتە.\n\n---\n📌 **مەنبە:** ",
+      "en": "Panamanian service members have trained, lived — and in some cases, fought — in the jungle. Now, they are teaching U.S. service members.\n\n---\n**Source:** "
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/MHF5OCAOFVBVTFSGBITQT5RY5I.jpg",
+    "author": "",
+    "date": "2026-10-13",
+    "status": "published",
+    "featured": true,
+    "views": 70,
+    "tags": [
+      "ھەربىي_مەشىق",
+      "ئامېرىكا_ئارمىيەسى",
+      "پاناما",
+      "جۇڭگىلىق_ئۇرۇشى"
+    ],
+    "specs": {
+      "مەنبە": "",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/news/your-military/2026/10/12/the-us-army-is-back-in-the-jungle-panamanians-are-showing-soldiers-the-way/",
+      "sourceUrl": "https://www.defensenews.com/news/your-military/2026/10/12/the-us-army-is-back-in-the-jungle-panamanians-are-showing-soldiers-the-way/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791860659600_748",
     "category": "weapons",
     "title": {
@@ -3426,40 +3460,6 @@
       "مەنبە": "The War Zone (TWZ)",
       "ئەسلى ئۇلانما": "https://www.twz.com/air/how-the-groundwork-for-f-47-flight-testing-is-being-laid",
       "sourceUrl": "https://www.twz.com/air/how-the-groundwork-for-f-47-flight-testing-is-being-laid",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791415122892_538",
-    "category": "weapons",
-    "title": {
-      "ug": "فىرانسىيە يادرو ئىقتىدارىغا ئىگە M51.3 باللىستىك باشقۇرۇلىدىغان بومبىسىنى تۇنجى قېتىم سۇ ئاستى كېمىسىدىن مۇۋەپپەقىيەتلىك قويۇپ بەردى",
-      "en": "France conducts first submarine launch of M51.3 nuclear-capable missile"
-    },
-    "summary": {
-      "ug": "فىرانسىيە ئۆزىنىڭ دەرىجىسى ئۆستۈرۈلگەن M51.3 تىپلىق ئىستراتېگىيەلىك باللىستىك باشقۇرۇلىدىغان بومبىسىنى «لې ۋىگىلانت» (Le Vigilant) ناملىق يادرو ئېنېرگىيەلىك سۇ ئاستى كېمىسىدىن قويۇپ بېرىپ، تارىختىكى تۇنجى قېتىملىق سۇ ئاستى كېمىسىنى ئاساس قى...",
-      "en": "France has successfully carried out the first-ever submarine-based test launch of its upgraded M51.3 strategic ballistic missile, deployed from the nuclear-powered submarine Le Vigilant.\n\n\nThe post France conducts first submarine launch of "
-    },
-    "content": {
-      "ug": "فىرانسىيە ئۆزىنىڭ دەرىجىسى ئۆستۈرۈلگەن M51.3 تىپلىق ئىستراتېگىيەلىك باللىستىك باشقۇرۇلىدىغان بومبىسىنى «لې ۋىگىلانت» (Le Vigilant) ناملىق يادرو ئېنېرگىيەلىك سۇ ئاستى كېمىسىدىن قويۇپ بېرىپ، تارىختىكى تۇنجى قېتىملىق سۇ ئاستى كېمىسىنى ئاساس قىلغان سىناق تەرىقىسىدە قويۇپ بېرىش مەشغۇلاتىنى مۇۋەپپەقىيەتلىك تاماملىدى.\n\n---\n📌 **مەنبە:** Naval Technology",
-      "en": "France has successfully carried out the first-ever submarine-based test launch of its upgraded M51.3 strategic ballistic missile, deployed from the nuclear-powered submarine Le Vigilant.\n\n\nThe post France conducts first submarine launch of M51.3 nuclear-capable missile appeared first on Naval Technology.\n\n---\n**Source:** Naval Technology"
-    },
-    "imageUrl": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/10/M51.3-ballistic-missile.jpg",
-    "author": "Naval Technology",
-    "date": "2023-11-19",
-    "status": "published",
-    "featured": true,
-    "views": 124,
-    "tags": [
-      "فىرانسىيە",
-      "باللىستىك باشقۇرۇلىدىغان بومبا",
-      "سۇ ئاستى كېمىسى",
-      "يادرو مۇداپىئەسى"
-    ],
-    "specs": {
-      "مەنبە": "Naval Technology",
-      "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/france-m51-3-missile-launch/",
-      "sourceUrl": "https://www.naval-technology.com/news/france-m51-3-missile-launch/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

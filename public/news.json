@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1791990684195_469",
+    "category": "weapons",
+    "title": {
+      "ug": "كراتوس شىركىتى J85 تۇربوۋېنتلىق ماتورىنىڭ ئۈچ خىل قويۇپ بېرىش ھالىتىدىكى سىناقلىرىنى مۇۋەپپەقىيەتلىك تاماملىدى",
+      "en": "Kratos tests J85 turbojet engine in three launch configurations"
+    },
+    "summary": {
+      "ug": "ئامېرىكانىڭ مۇداپىئە ۋە بىخەتەرلىك ھەل قىلىش چارىلىرى بىلەن تەمىنلىگۈچى كراتوس ( & ) شىركىتى، ئۆزىنىڭ TDI-J85 تۇربوۋېنتلىق ماتورىنى ئاسما، پالتالىق ۋە يەر يۈزىدىن يەر يۈزىگە قويۇپ بېرىش قاتارلىق ئۈچ خىل ئوخشاش بولمىغان سەپلىمە ھالىتىدە ئۇچۇ...",
+      "en": "Kratos Defence & Security Solutions has completed flight tests of its TDI-J85 turbojet engine in lugged-launch, palletised-launch and surface-to-surface configurations."
+    },
+    "content": {
+      "ug": "ئامېرىكانىڭ مۇداپىئە ۋە بىخەتەرلىك ھەل قىلىش چارىلىرى بىلەن تەمىنلىگۈچى كراتوس ( & ) شىركىتى، ئۆزىنىڭ TDI-J85 تۇربوۋېنتلىق ماتورىنى ئاسما، پالتالىق ۋە يەر يۈزىدىن يەر يۈزىگە قويۇپ بېرىش قاتارلىق ئۈچ خىل ئوخشاش بولمىغان سەپلىمە ھالىتىدە ئۇچۇش سىناقلىرىدىن ئۆتكۈزدى.\n\n---\n📌 **مەنبە:** ",
+      "en": "Kratos Defence & Security Solutions has completed flight tests of its TDI-J85 turbojet engine in lugged-launch, palletised-launch and surface-to-surface configurations.\n\n---\n**Source:** "
+    },
+    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/Kratos.jpg",
+    "author": "",
+    "date": "2026-10-14",
+    "status": "published",
+    "featured": true,
+    "views": 49,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "مۇداپىئە"
+    ],
+    "specs": {
+      "مەنبە": "",
+      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/kratos-j85-turbojet-engine/",
+      "sourceUrl": "https://www.airforce-technology.com/news/kratos-j85-turbojet-engine/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791990668825_872",
     "category": "weapons",
     "title": {
@@ -3410,41 +3444,6 @@
       "مەنبە": "War on the Rocks",
       "ئەسلى ئۇلانما": "https://warontherocks.com/cogs-of-war/the-last-mile-of-pentagon-reform-runs-through-the-brigade/",
       "sourceUrl": "https://warontherocks.com/cogs-of-war/the-last-mile-of-pentagon-reform-runs-through-the-brigade/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791556241742_407",
-    "category": "weapons",
-    "title": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ يېڭى قوماندانلىق ئورگىنى ئۆزلۈكىدىن ھەرىكەت قىلىدىغان ئۇرۇش سىستېمىلىرىنى سېتىۋېلىش مۇساپىسىنى تېزلىتىشنى پىلانلىماقتا",
-      "en": "Army’s new command plans to streamline autonomous warfare acquisition"
-    },
-    "summary": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ يېڭىدىن قۇرۇلغان قوماندانلىق ئورگىنى ئادەمسىز ۋە ئۆزلۈكىدىن ھەرىكەت قىلىدىغان ئۇرۇش سىستېمىلىرىنى سېتىۋېلىش ۋە تەمىنلەش مۇساپىسىنى تېخىمۇ ئاددىيلاشتۇرۇپ، زامانىۋى ئۇرۇش ئېھتىياجىغا تېز سۈرئەتتە ماسلىشىشنى نىشا...",
-      "en": "Experts weigh in on what it will take to be successful."
-    },
-    "content": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ يېڭىدىن قۇرۇلغان قوماندانلىق ئورگىنى ئادەمسىز ۋە ئۆزلۈكىدىن ھەرىكەت قىلىدىغان ئۇرۇش سىستېمىلىرىنى سېتىۋېلىش ۋە تەمىنلەش مۇساپىسىنى تېخىمۇ ئاددىيلاشتۇرۇپ، زامانىۋى ئۇرۇش ئېھتىياجىغا تېز سۈرئەتتە ماسلىشىشنى نىشانلىماقتا. ھەربىي ۋە تېخنىكا مۇتەخەسسىسلىرى بۇ يېڭى تەشەببۇسنىڭ مۇۋەپپەقىيەتلىك بولۇشى ئۈچۈن قايسى ھالقىلىق ئامىللارنىڭ زۆرۈر ئىكەنلىكى ھەققىدە ئۆزلىرىنىڭ ئىستراتېگىيەلىك قاراشلىرىنى ئوتتۇرىغا قويدى.\n\n---\n📌 **مەنبە:** Defense One",
-      "en": "Experts weigh in on what it will take to be successful.\n\n---\n**Source:** Defense One"
-    },
-    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/09/9977056/large.jpg",
-    "author": "Defense One",
-    "date": "2026-10-09",
-    "status": "published",
-    "featured": true,
-    "views": 49,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "ئادەمسىز_سىستېمىلار",
-      "سېتىۋېلىش"
-    ],
-    "specs": {
-      "مەنبە": "Defense One",
-      "ئەسلى ئۇلانما": "https://www.defenseone.com/technology/2026/10/armys-new-command-plans-streamline-autonomous-warfare-acquisition/416523/",
-      "sourceUrl": "https://www.defenseone.com/technology/2026/10/armys-new-command-plans-streamline-autonomous-warfare-acquisition/416523/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

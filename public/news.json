@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791969062905_609",
+    "category": "analysis",
+    "title": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى ئاپتونوم سىستېمىلار تەرەققىياتىنى كۈچەيتىپ، ھىندى-تىنچ ئوكياندىكى رولىنى بېكىتتى",
+      "en": "Army doubles down on autonomy, stakes out Indo-Pacific role: AUSA Day 2"
+    },
+    "summary": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى جەمئىيىتىنىڭ يىللىق يىغىنى (AUSA) دا ئارمىيە رەھبەرلىرى يېڭىدىن تەشكىللەنگەن قوماندانلىق ئورگانلىرى ۋە تىنچ ئوكيان رايونىدىكى ئۇزۇن مۇساپىلىك زەربە بېرىش ئىقتىدارىنى ئۆز ئىچىگە ئالغان كەلگۈسى ئۇرۇش تەييارلىق پىلا...",
+      "en": "From a newly redesignated command to long-range fires in the Pacific, Army leaders laid out where they see the service fitting into the future fight."
+    },
+    "content": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى جەمئىيىتىنىڭ يىللىق يىغىنى (AUSA) دا ئارمىيە رەھبەرلىرى يېڭىدىن تەشكىللەنگەن قوماندانلىق ئورگانلىرى ۋە تىنچ ئوكيان رايونىدىكى ئۇزۇن مۇساپىلىك زەربە بېرىش ئىقتىدارىنى ئۆز ئىچىگە ئالغان كەلگۈسى ئۇرۇش تەييارلىق پىلانلىرىنى ئوتتۇرىغا قويدى. قۇرۇقلۇق ئارمىيە قوماندانلىرى بولۇپمۇ ئادەمسىز ئاپتونوم تېخنىكىلارغا ئاجرىتىلىدىغان سېلىنمىلارنى ھەسسىلەپ ئاشۇرۇش ئارقىلىق، ئارمىيەنىڭ كەلگۈسى توقۇنۇشلاردا، جۈملىدىن ھىندى-تىنچ ئوكيان تەۋەلىكىدىكى ئىستراتېگىيەلىك ئورنى ۋە ھەل قىلغۇچ رولىنى تېخىمۇ مۇستەھكەملەشنى كۆزلەۋاتقانلىقىنى جاكارلىدى.\n\n---\n📌 **مەنبە:** ",
+      "en": "From a newly redesignated command to long-range fires in the Pacific, Army leaders laid out where they see the service fitting into the future fight.\n\n---\n**Source:** "
+    },
+    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/AUSA2026day2-pb-1024x576.png",
+    "author": "",
+    "date": "2026-10-14",
+    "status": "published",
+    "featured": true,
+    "views": 56,
+    "tags": [
+      "ئا ق ش قۇرۇقلۇق ئارمىيەسى",
+      "ئاپتونوم سىستېما",
+      "ھىندى-تىنچ ئوكيان",
+      "ئۇزۇن مۇساپىلىك زەربە بېرىش",
+      "AUSA"
+    ],
+    "specs": {
+      "مەنبە": "",
+      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/army-doubles-down-on-autonomy-stakes-out-indo-pacific-role-ausa-day-2/",
+      "sourceUrl": "https://breakingdefense.com/2026/10/army-doubles-down-on-autonomy-stakes-out-indo-pacific-role-ausa-day-2/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791969042442_125",
     "category": "weapons",
     "title": {
@@ -3413,41 +3448,6 @@
       "sourceUrl": "https://t.me/QasiounStudies/6067",
       "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
       "ھالىتى": "تەستىقلانغان ئانالىز"
-    }
-  },
-  {
-    "id": "news_1791534536213_129",
-    "category": "aviation",
-    "title": {
-      "ug": "سەپتىن چىقىرىلغان KC-10 «ئېكستېندېر» ماي قاچىلاش ئايروپىلانلىرى شىمالىي ئافرىقىدىكى سىرلىق بىر خېرىدارنىڭ قولىدا قايتىدىن خىزمەتكە كىرىشى مۇمكىن",
-      "en": "Retired KC-10 Extender Tankers Could Get A Second Life With North African Mystery Operator"
-    },
-    "summary": {
-      "ug": "ئامېرىكا ھاۋا ئارمىيەسى نامى ئاشكارىلانمىغان بىر خېرىدارغا تاپشۇرۇپ بېرىش ئۈچۈن، سەپتىن چىقىرىلغان تۆت دانە KC-10 تىپلىق ھاۋادا يېقىلغۇ قاچىلاش ئايروپىلانىنى قايتىدىن رېمونت قىلىپ ئەسلىگە كەلتۈرۈشكە كېتىدىغان تەلەپلەرنى ئېنىقلاشقا كىرىشكەن ...",
-      "en": "The USAF wants to know what it would take to regenerate a quartet of KC-10s for an undisclosed operator, and there are a couple of likely suspects.\n\n\nThe post Retired KC-10 Extender Tankers Could Get A Second Life With North African Mystery"
-    },
-    "content": {
-      "ug": "ئامېرىكا ھاۋا ئارمىيەسى نامى ئاشكارىلانمىغان بىر خېرىدارغا تاپشۇرۇپ بېرىش ئۈچۈن، سەپتىن چىقىرىلغان تۆت دانە KC-10 تىپلىق ھاۋادا يېقىلغۇ قاچىلاش ئايروپىلانىنى قايتىدىن رېمونت قىلىپ ئەسلىگە كەلتۈرۈشكە كېتىدىغان تەلەپلەرنى ئېنىقلاشقا كىرىشكەن بولۇپ، بۇ سىرلىق سېتىۋالغۇچى بولۇش ئېھتىماللىقى يۇقىرى بولغان بىر قانچە دۆلەت مۆلچەرلەنمەكتە.\n\n---\n📌 **مەنبە:** The War Zone (TWZ)",
-      "en": "The USAF wants to know what it would take to regenerate a quartet of KC-10s for an undisclosed operator, and there are a couple of likely suspects.\n\n\nThe post Retired KC-10 Extender Tankers Could Get A Second Life With North African Mystery Operator appeared first on TWZ.\n\n---\n**Source:** The War Zone (TWZ)"
-    },
-    "imageUrl": "https://www.twz.com/wp-content/uploads/2026/10/KC10-Retired-North-Africa.jpg?quality=85",
-    "author": "The War Zone (TWZ)",
-    "date": "2026-10-09",
-    "status": "published",
-    "featured": true,
-    "views": 138,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "ئاۋىئاتسىيە",
-      "ماي_قاچىلاش_ئايروپىلانى"
-    ],
-    "specs": {
-      "مەنبە": "The War Zone (TWZ)",
-      "ئەسلى ئۇلانما": "https://www.twz.com/air/retired-kc-10-extender-tankers-could-get-a-second-life-with-north-african-mystery-operator",
-      "sourceUrl": "https://www.twz.com/air/retired-kc-10-extender-tankers-could-get-a-second-life-with-north-african-mystery-operator",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }
 ]

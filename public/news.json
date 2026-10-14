@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1791969042442_125",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ خاككېرلىق مۇسابىقىسى ئاپتونومىيە تېخنىكىسىنى مەركەز قىلغان AUSA يىغىنىغا ئاساس سالدى",
+      "en": "US Army hackathon sets backdrop for an AUSA focused on autonomy"
+    },
+    "summary": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ « ھەرىكىتى» ( ) ناملىق تەشەببۇسى مۇداپىئە شىركەتلىرىدىن بىر-بىرىنىڭ ئاپتونومىيەلىك سىستېمىلىرى ۋە ماشىنىلىرىغا خاككېرلىق بىلەن سىڭىپ كىرىشنى تەلەپ قىلىش ئارقىلىق، مەزكۇر سىستېمىلار ئوتتۇرىسىدىكى ئۆزئارا ئالاقە...",
+      "en": "The Army's Operation Jailbreak initiative asked defense companies to hack into each other's autonomous systems and machines, enabling them to communicate."
+    },
+    "content": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ « ھەرىكىتى» ( ) ناملىق تەشەببۇسى مۇداپىئە شىركەتلىرىدىن بىر-بىرىنىڭ ئاپتونومىيەلىك سىستېمىلىرى ۋە ماشىنىلىرىغا خاككېرلىق بىلەن سىڭىپ كىرىشنى تەلەپ قىلىش ئارقىلىق، مەزكۇر سىستېمىلار ئوتتۇرىسىدىكى ئۆزئارا ئالاقە ئىقتىدارىنى سىناق قىلدى. بۇ تېخنىكىلىق پائالىيەت ئاپتونومىيەلىك سىستېمىلارنى ئاساسلىق تېما قىلغان ئامېرىكا قۇرۇقلۇق ئارمىيەسى جەمئىيىتىنىڭ (AUSA) يىللىق يىغىنى ئۈچۈن مۇھىم ئاساس يارىتىپ بەردى.\n\n---\n📌 **مەنبە:** ",
+      "en": "The Army's Operation Jailbreak initiative asked defense companies to hack into each other's autonomous systems and machines, enabling them to communicate.\n\n---\n**Source:** "
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/ITFGIIZFBZASLBWHW4QOOGOT4I.jpg",
+    "author": "",
+    "date": "2024-10-14",
+    "status": "published",
+    "featured": true,
+    "views": 95,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئامېرىكا",
+      "ئاپتونومىيە"
+    ],
+    "specs": {
+      "مەنبە": "",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/industry/techwatch/2026/10/14/us-army-hackathon-sets-backdrop-for-an-ausa-focused-on-autonomy/",
+      "sourceUrl": "https://www.defensenews.com/industry/techwatch/2026/10/14/us-army-hackathon-sets-backdrop-for-an-ausa-focused-on-autonomy/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1791958262153_722",
     "category": "aviation",
     "title": {
@@ -3412,40 +3447,6 @@
       "مەنبە": "The War Zone (TWZ)",
       "ئەسلى ئۇلانما": "https://www.twz.com/air/retired-kc-10-extender-tankers-could-get-a-second-life-with-north-african-mystery-operator",
       "sourceUrl": "https://www.twz.com/air/retired-kc-10-extender-tankers-could-get-a-second-life-with-north-african-mystery-operator",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791534522598_102",
-    "category": "drones",
-    "title": {
-      "ug": "دېلتاكۇئاد شىركىتى سەككىز سائەت ئۇچۇش ئىقتىدارىغا ئىگە ئېۋو-ئېل-ئى (Evo-LE) ناملىق يېڭى تىپتىكى ئۇچقۇچىسىز ئايروپىلانىنى ئېلان قىلدى",
-      "en": "DeltaQuad Launches Evo-LE With up to Eight Hours of Flight Endurance"
-    },
-    "summary": {
-      "ug": "دېلتاكۇئاد (DeltaQuad) شىركىتى ئۆزىنىڭ ئېلېكترلىك، مۇقىم قاناتلىق ھەم تىك قوزغىلىپ تىك قونىدىغان (VTOL) ئۇچقۇچىسىز ئايروپىلانلىرىنىڭ يېڭى بىر ئەۋلاد نۇسخىسى بولغان، سەككىز سائەتكىچە ئۇدا ئۇچۇش ئىقتىدارىغا ئىگە ئېۋو-ئېل-ئى (Evo-LE) تىپلىق ئا...",
-      "en": "DeltaQuad announced Evo-LE, the new long-endurance version of its electric fixed-wing vertical take-off and landing"
-    },
-    "content": {
-      "ug": "دېلتاكۇئاد (DeltaQuad) شىركىتى ئۆزىنىڭ ئېلېكترلىك، مۇقىم قاناتلىق ھەم تىك قوزغىلىپ تىك قونىدىغان (VTOL) ئۇچقۇچىسىز ئايروپىلانلىرىنىڭ يېڭى بىر ئەۋلاد نۇسخىسى بولغان، سەككىز سائەتكىچە ئۇدا ئۇچۇش ئىقتىدارىغا ئىگە ئېۋو-ئېل-ئى (Evo-LE) تىپلىق ئادەمسىز ئايروپىلانىنى رەسمىي ئېلان قىلدى. مەزكۇر يېڭى تىپتىكى ئايروپىلان ئاساسلىقى ئۇزۇن مۇددەتلىك كۆزىتىش ۋە چارلاش ۋەزىپىلىرىنى ئورۇنداش ئۈچۈن لايىھەلەنگەن بولۇپ، ئىلغار ئېلېكترلىك ماتور سىستېمىسى ئارقىلىق ھەربىي ۋە پۇقراۋى ساھەلەردە يۇقىرى ئۈنۈملۈك مەشغۇلات قىلىش ئىمكانىيىتىگە ئىگە قىلىنغان.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
-      "en": "DeltaQuad announced Evo-LE, the new long-endurance version of its electric fixed-wing vertical take-off and landing\n\n---\n**Source:** sUAS News (Drones)"
-    },
-    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/delta-quad-8-hours.webp?fit=400%2C225&#038;ssl=1",
-    "author": "sUAS News (Drones)",
-    "date": "2026-10-09",
-    "status": "published",
-    "featured": true,
-    "views": 118,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "ئۇچقۇچىسىز ئايروپىلان"
-    ],
-    "specs": {
-      "مەنبە": "sUAS News (Drones)",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/deltaquad-launches-evo-le-with-up-to-eight-hours-of-flight-endurance/",
-      "sourceUrl": "https://www.suasnews.com/2026/10/deltaquad-launches-evo-le-with-up-to-eight-hours-of-flight-endurance/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

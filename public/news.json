@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792077677746_152",
+    "category": "analysis",
+    "title": {
+      "ug": "«ئالتۇن گۈمبەز» باشقۇرۇلىدىغان بومبىدىن مۇداپىئە سىستېمىسى تېخنىكىلىق ۋە مالىيە جەھەتتىن ئەمەلگە ئاشۇرغۇسىز بىر خىيالدۇر",
+      "en": "Golden Dome Is Technologically and Financially Infeasible"
+    },
+    "summary": {
+      "ug": "ئىستراتېگىيەلىك باللىستىك باشقۇرۇلىدىغان بومبىلار مەيدانغا كەلگەندىن بۇيان، ھەربىي ئىستراتېگىيەچىلەر ۋە ئىنژېنېرلار قىتئەلەرا باللىستىك باشقۇرۇلىدىغان بومبا ھۇجۇملىرىنى ئۈنۈملۈك توسۇۋالغۇدەك ياكى ئاجىزلاشتۇرغۇدەك بىر قوغداش قالقىنى ياساپ چى...",
+      "en": "For as long as nuclear-armed, intercontinental ballistic missiles and submarine-launched ballistic missiles have existed, strategists and engineers have pursued a seductive idea: a shield effective enough to diminish &#8212; or even block &"
+    },
+    "content": {
+      "ug": "ئىستراتېگىيەلىك باللىستىك باشقۇرۇلىدىغان بومبىلار مەيدانغا كەلگەندىن بۇيان، ھەربىي ئىستراتېگىيەچىلەر ۋە ئىنژېنېرلار قىتئەلەرا باللىستىك باشقۇرۇلىدىغان بومبا ھۇجۇملىرىنى ئۈنۈملۈك توسۇۋالغۇدەك ياكى ئاجىزلاشتۇرغۇدەك بىر قوغداش قالقىنى ياساپ چىقىشنى بغىسىپ كەلدى. بىراق، بۇ خىل ئىستراتېگىيەلىك ھاۋا مۇداپىئە سىستېمىلىرىنىڭ تارىخى ئۈمىدسىزلىكلەرگە تولغان بولۇپ، ئامېرىكا ئۆتكەن يەتتە اون يىلغا يېقىن ۋاقىت ئىچىدە يادرولۇق باشقۇرۇلىدىغان بومبىلاردىن مۇداپىئەلىنىش ئۈچۈن 500 مىليارد دوللاردىن ئارتۇق مەبلەغ سەرپ قىلدى.\n\n---\n📌 **مەنبە:** War on the Rocks",
+      "en": "For as long as nuclear-armed, intercontinental ballistic missiles and submarine-launched ballistic missiles have existed, strategists and engineers have pursued a seductive idea: a shield effective enough to diminish &#8212; or even block &#8212; a ballistic missile attack. The appeal is obvious. A state that could reliably intercept ballistic missiles could protect its cities from these terrifying weapons and reduce its adversaries&#8217; leverage.But defenses against strategic ballistic missiles have a long history of disappointments. Over roughly seven decades, the United States has spent more than $500 billion (in 2025 dollars) on missile defenses, much of it to defend against intercontinental ballistic\n\n\nThe post Golden Dome Is Technologically and Financially Infeasible appeared first on War on the Rocks.\n\n---\n**Source:** War on the Rocks"
+    },
+    "imageUrl": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-48000-183fe4814c77.jpg",
+    "author": "War on the Rocks",
+    "date": "2026-10-15",
+    "status": "published",
+    "featured": true,
+    "views": 31,
+    "tags": [
+      "مۇداپىئە",
+      "باللىستىك بومبا",
+      "ئىستراتېگىيە",
+      "ئامېرىكا"
+    ],
+    "specs": {
+      "مەنبە": "War on the Rocks",
+      "ئەسلى ئۇلانما": "https://warontherocks.com/cogs-of-war/golden-dome-is-technologically-and-financially-infeasible/",
+      "sourceUrl": "https://warontherocks.com/cogs-of-war/golden-dome-is-technologically-and-financially-infeasible/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792077662907_835",
     "category": "weapons",
     "title": {
@@ -3414,40 +3448,6 @@
       "مەنبە": "Naval Technology",
       "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/raytheon-sm3-block-ib-missile/",
       "sourceUrl": "https://www.naval-technology.com/news/raytheon-sm3-block-ib-missile/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791621627691_759",
-    "category": "weapons",
-    "title": {
-      "ug": "GDLS ۋە Primordial Labs جەڭگىۋار ماشىنىلارنى تەبىئىي تىل ئارقىلىق كونترول قىلىش تېخنىكىسىنى تەتقىق قىلىدۇ",
-      "en": "GDLS and Primordial Labs partner on natural language vehicle control"
-    },
-    "summary": {
-      "ug": "«جېنېرال دىنامىكىس قۇرۇقلۇق سىستېمىسى» (GDLS) شىركىتى بىلەن «پرىموردىئال تەجرىبىخانىسى» (Primordial Labs) جەڭگىۋار ماشىنىلاردا تەبىئىي تىل ئارقىلىق قوماندانلىق قىلىش ۋە كونترول قىلىش تېخنىكىسىنى قوللىنىش ئۈستىدە ئىزدىنىش مەقسىتىدە ھەمكارلىق...",
-      "en": "GDLS and Primordial Labs have agreed to explore the use of natural language command and control technology on combat vehicles."
-    },
-    "content": {
-      "ug": "«جېنېرال دىنامىكىس قۇرۇقلۇق سىستېمىسى» (GDLS) شىركىتى بىلەن «پرىموردىئال تەجرىبىخانىسى» (Primordial Labs) جەڭگىۋار ماشىنىلاردا تەبىئىي تىل ئارقىلىق قوماندانلىق قىلىش ۋە كونترول قىلىش تېخنىكىسىنى قوللىنىش ئۈستىدە ئىزدىنىش مەقسىتىدە ھەمكارلىق ئورناتقانلىقىنى ئېلان قىلدى. مەزكۇر ئىستراتېگىيەلىك ھەمكارلىق كەلگۈسىدىكى جەڭ مەيدانلىرىدا ئادەملىك ۋە ئادەمسىز جەڭگىۋار ماشىنىلارنى ئاۋازلىق بۇيرۇق ئارقىلىق تېخىمۇ ئەقلىي ئىقتىدارلىق ۋە ئۈنۈملۈك باشقۇرۇشنى نىشان قىلىدۇ.\n\n---\n📌 **مەنبە:** Army Technology",
-      "en": "GDLS and Primordial Labs have agreed to explore the use of natural language command and control technology on combat vehicles.\n\n---\n**Source:** Army Technology"
-    },
-    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/10/GDLS.jpg",
-    "author": "Army Technology",
-    "date": "2024-05-22",
-    "status": "published",
-    "featured": true,
-    "views": 157,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "قۇرۇقلۇق_ئارمىيە"
-    ],
-    "specs": {
-      "مەنبە": "Army Technology",
-      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/gdls-primordial-labs-vehicle-control/",
-      "sourceUrl": "https://www.army-technology.com/news/gdls-primordial-labs-vehicle-control/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

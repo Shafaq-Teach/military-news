@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792132027342_555",
+    "category": "weapons",
+    "title": {
+      "ug": "بەل شىركىتى MV-75 چايان تىپلىق ئايروپىلاننىڭ تۇنجى گوندولا قۇرۇلمىسىنى تاماملىدى ھەمدە سۈرئەت ئۆزگەرتكۈچ سىستېمىسىنى سىناق قىلىشقا باشلىدى",
+      "en": "Bell completes first MV-75 Cheyenne nacelles, starts gearbox testing"
+    },
+    "summary": {
+      "ug": "بەل تېكىسترون ( ) شىركىتى MV-75 چايان تىپلىق سىناق ئايروپىلانى ئۈچۈن تۇنجى قېتىم گوندولا () قۇرۇلمىسىنى ياساپ بولدى ۋە مەزكۇر ئايروپىلاننىڭ سۈرئەت ئۆزگەرتكۈچ () سىستېمىسىنى سىناق قىلىش خىزمىتىنى رەسمىي باشلىدى.",
+      "en": "Bell Textron has completed the first nacelle structures for its MV-75 Cheyenne test aircraft and begun testing the aircraft’s gearbox system."
+    },
+    "content": {
+      "ug": "بەل تېكىسترون ( ) شىركىتى MV-75 چايان تىپلىق سىناق ئايروپىلانى ئۈچۈن تۇنجى قېتىم گوندولا () قۇرۇلمىسىنى ياساپ بولدى ۋە مەزكۇر ئايروپىلاننىڭ سۈرئەت ئۆزگەرتكۈچ () سىستېمىسىنى سىناق قىلىش خىزمىتىنى رەسمىي باشلىدى.\n\n---\n📌 **مەنبە:** Air Force Technology",
+      "en": "Bell Textron has completed the first nacelle structures for its MV-75 Cheyenne test aircraft and begun testing the aircraft’s gearbox system.\n\n---\n**Source:** Air Force Technology"
+    },
+    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/MV-75-Cheyenne.jpg",
+    "author": "Air Force Technology",
+    "date": "2026-10-16",
+    "status": "published",
+    "featured": true,
+    "views": 72,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ئاۋىئاتسىيە"
+    ],
+    "specs": {
+      "مەنبە": "Air Force Technology",
+      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/bell-mv-75-cheyenne/",
+      "sourceUrl": "https://www.airforce-technology.com/news/bell-mv-75-cheyenne/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792132016674_960",
     "category": "cyber",
     "title": {
@@ -3395,40 +3429,6 @@
       "مەنبە": "Air Force Technology",
       "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/gripen-e-brazil-flight/",
       "sourceUrl": "https://www.airforce-technology.com/news/gripen-e-brazil-flight/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791665225870_822",
-    "category": "weapons",
-    "title": {
-      "ug": "فرانسىيە ئارمىيەسى «سۈزۈك جەڭ مەيدانى»دا رەقىبلىرىنى قايمۇقتۇرۇش ئۈچۈن «تېجەشلىك سۈنئىي ئىدراك» تېخنىكىسىنى تەرەققىي قىلدۇرماقتا",
-      "en": "French Army wants to keep adversaries guessing on see-through battlefield"
-    },
-    "summary": {
-      "ug": "فرانسىيە كەلگۈسى جەڭ قوماندانلىق مەركىزى ھازىرقى زامان ئۇرۇشلىرىدىكى بارلىق ھەرىكەتلەر رەقىبلەرگە ئاشكارە بولۇپ قالىدىغان «سۈزۈك جەڭ مەيدانى» شارائىتىدا ئۈستۈنلۈكنى ساقلاپ قېلىش ئۈچۈن يېڭى ئىستراتېگىيەلەرنى تۈزمەكتە. مەزكۇر قوماندانلىق مەرك...",
-      "en": "The French Future Combat Command is looking at what Baratz called “frugal artificial intelligence,” designed to consume as little energy as possible."
-    },
-    "content": {
-      "ug": "فرانسىيە كەلگۈسى جەڭ قوماندانلىق مەركىزى ھازىرقى زامان ئۇرۇشلىرىدىكى بارلىق ھەرىكەتلەر رەقىبلەرگە ئاشكارە بولۇپ قالىدىغان «سۈزۈك جەڭ مەيدانى» شارائىتىدا ئۈستۈنلۈكنى ساقلاپ قېلىش ئۈچۈن يېڭى ئىستراتېگىيەلەرنى تۈزمەكتە. مەزكۇر قوماندانلىق مەركىزى گېنېرال باراتز (Baratz) تەرىپىدىن «تېجەشلىك سۈنئىي ئىدراك» (frugal AI) دەپ ئاتالغان، ئېنېرگىيە سەرپىياتى ئىنتايىن تۆۋەن بولغان سۈنئىي ئىدراك سىستېمىسى ئۈستىدە تەتقىقات ئېلىپ بارماقتا. بۇ تېخنىكا ئارقىلىق فرانسىيە ئارمىيەسى جەڭ مەيدانىدىكى ئېنىقسىزلىقنى ئاشۇرۇپ، دۈشمەننىڭ ئالدىن مۆلچەرلىشىگە توسالغۇ بولۇشنى نىشانلىغان.\n\n---\n📌 **مەنبە:** C4ISRNET",
-      "en": "The French Future Combat Command is looking at what Baratz called “frugal artificial intelligence,” designed to consume as little energy as possible.\n\n---\n**Source:** C4ISRNET"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/UZU4TTCHD5DA7MTOR4ZXPU3RS4.jpg",
-    "author": "C4ISRNET",
-    "date": "2024-05-22",
-    "status": "published",
-    "featured": true,
-    "views": 65,
-    "tags": [
-      "فرانسىيە",
-      "ئەسكىرىي",
-      "سۈنئىي ئىدراك",
-      "تېخنىكا"
-    ],
-    "specs": {
-      "مەنبە": "C4ISRNET",
-      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/global/europe/2026/09/18/french-army-wants-to-keep-adversaries-guessing-on-see-through-battlefield/",
-      "sourceUrl": "https://www.c4isrnet.com/global/europe/2026/09/18/french-army-wants-to-keep-adversaries-guessing-on-see-through-battlefield/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1792110302489_246",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا ئارمىيەسى ئۈچىنچى قېتىملىق CAML سىستېمىسىنى سەپلەشنى پىلانلىدى",
+      "en": "Army looks to add third CAML system, Lozano says"
+    },
+    "summary": {
+      "ug": "يېقىنقى كەلگۈسىدە ئۇچۇر توپلاش ئىلتىماسى ئېلان قىلىنىدىغانلىقىنى بىلدۈ ئامېرىكا ئارمىيەسى ئوت ئۆچۈرۈش ۋە باشقۇرۇلىدىغان بومبا ਪ੍ਰوجېكتىنىڭ باشلىقى، گېنې-لېيتېنان فىرانك لوزانونىڭ بىلدۈرۈشىچە، ئارمىيە تارماقلىرى كېدىغان يىلنىڭ مارت ۋە ئاپرېل...",
+      "en": "A request for information will be coming out in the near future, and the service is looking to make some “early selections” in the March to April timeframe for the CAML-light, Lt. Gen. Frank Lozano, PAE for Fires, said."
+    },
+    "content": {
+      "ug": "يېقىنقى كەلگۈسىدە ئۇچۇر توپلاش ئىلتىماسى ئېلان قىلىنىدىغانلىقىنى بىلدۈ ئامېرىكا ئارمىيەسى ئوت ئۆچۈرۈش ۋە باشقۇرۇلىدىغان بومبا ਪ੍ਰوجېكتىنىڭ باشلىقى، گېنې-لېيتېنان فىرانك لوزانونىڭ بىلدۈرۈشىچە، ئارمىيە تارماقلىرى كېدىغان يىلنىڭ مارت ۋە ئاپرېل ئايلىرى ئارىلىقىدا يېنىك تىپتىكى CAML سىستېمىسى («») ئۈچۈن دەسلەپكى تاللاشلارنى ئېلىپ بېرىشنى نىشان قىلغان.\n\n---\n📌 **مەنبە:** Breaking Defense",
+      "en": "A request for information will be coming out in the near future, and the service is looking to make some “early selections” in the March to April timeframe for the CAML-light, Lt. Gen. Frank Lozano, PAE for Fires, said.\n\n---\n**Source:** Breaking Defense"
+    },
+    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/max1200-2-e1788283642113-1024x576.jpg",
+    "author": "Breaking Defense",
+    "date": "2026-10-16",
+    "status": "published",
+    "featured": true,
+    "views": 29,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "قورال-يارراق",
+      "ئامېرىكا_ئارمىيەسى",
+      "مۇداپىئە"
+    ],
+    "specs": {
+      "مەنبە": "Breaking Defense",
+      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/army-looks-to-add-third-caml-system-lozano-says/",
+      "sourceUrl": "https://breakingdefense.com/2026/10/army-looks-to-add-third-caml-system-lozano-says/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792110300170_784",
     "category": "weapons",
     "title": {
@@ -3399,40 +3434,6 @@
       "sourceUrl": "https://www.facebook.com/alitamiii",
       "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
       "ھالىتى": "تەستىقلانغان ئانالىز"
-    }
-  },
-  {
-    "id": "news_1791643376355_299",
-    "category": "weapons",
-    "title": {
-      "ug": "ئارمىيەنىڭ «FUZE» يېڭىلىق يارىتىش مەركىزى قۇرۇلۇپ بىر يىلدىن كېيىن، مەركەز مەسئۇلى قورال-ياراغ سېتىۋېلىش جەھەتتىكى تېخىمۇ زور خىرىسلارغا يۈزلەنمەكتە",
-      "en": "One year in, Army’s FUZE leader eyes &#8216;bigger&#8217; acquisition challenges"
-    },
-    "summary": {
-      "ug": "ئامېرىكا ئارمىيەسىنىڭ «FUZE» يېڭىلىق يارىتىش مەركىزى قۇرۇلۇپ بىر يىل توشقان پەيتتە، مەركەز مۇدىرى مات ۋىللىس (Matt Willis) «Breaking Defense» تورىغا بەرگەن باياناتىدا، ئىستىقباللىق تېخنىكىلارنىڭ پەقەت ئەسلى نۇسخا (prototype) باسقۇچىدىلا توخ...",
-      "en": "The Army innovation hub&#8217;s first year also revealed the challenge of making sure promising technologies don’t stop at the prototype stage, FUZE Director Matt Willis told Breaking Defense."
-    },
-    "content": {
-      "ug": "ئامېرىكا ئارمىيەسىنىڭ «FUZE» يېڭىلىق يارىتىش مەركىزى قۇرۇلۇپ بىر يىل توشقان پەيتتە، مەركەز مۇدىرى مات ۋىللىس (Matt Willis) «Breaking Defense» تورىغا بەرگەن باياناتىدا، ئىستىقباللىق تېخنىكىلارنىڭ پەقەت ئەسلى نۇسخا (prototype) باسقۇچىدىلا توختاپ قالماي، بەلكى ئەمەلىي سېتىۋېلىش ۋە قوراللىنىش باسقۇچىغا ئوڭۇشلۇق ئۆتۈشىگە كاپالەتلىك قىلىشنىڭ نۆۋەتتىكى ئەڭ چوڭ خىرىس ئىكەنلىكىنى تەكىتلىدى. ئۇ يەنە، مەركەزنىڭ بىرىنچى يىللىق خىزمەتلىرى جەريانىدا تېخنىكىلىق يېڭىلىقلارنى ئەمەلىي جەڭگىۋارلىققا ئايلاندۇرۇش يولىدىكى توسالغۇلارنىڭ تېخىمۇ ئېنىق كۆرۈنگەنلىكىنى تىلغا ئالدى.\n\n---\n📌 **مەنبە:** Breaking Defense",
-      "en": "The Army innovation hub&#8217;s first year also revealed the challenge of making sure promising technologies don’t stop at the prototype stage, FUZE Director Matt Willis told Breaking Defense.\n\n---\n**Source:** Breaking Defense"
-    },
-    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/9945010-e1791406636796-1024x577.jpg",
-    "author": "Breaking Defense",
-    "date": "2024-05-22",
-    "status": "published",
-    "featured": true,
-    "views": 114,
-    "tags": [
-      "ئارمىيە",
-      "يېڭىلىق_يارىتىش",
-      "سېتىۋېلىش",
-      "تېخنىكا"
-    ],
-    "specs": {
-      "مەنبە": "Breaking Defense",
-      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/one-year-in-armys-fuze-leader-eyes-bigger-acquisition-challenges/",
-      "sourceUrl": "https://breakingdefense.com/2026/10/one-year-in-armys-fuze-leader-eyes-bigger-acquisition-challenges/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }
 ]

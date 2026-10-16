@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792186137272_723",
+    "category": "weapons",
+    "title": {
+      "ug": "دراكەن شىركىتى ئەنگلىيە خان جەمەتى ھاۋا ئارمىيەسىنىڭ ھەربىي مانېۋىرىدا «ستىڭ» ناملىق يەر يۈزى تەھدىتىنى تەقلىد قىلىش سىستېمىسىنى تۇنجى قېتىم سىناقتىن ئۆتكۈزدى",
+      "en": "Draken debuts ‘Sting’ surface threat simulation in RAF exercise"
+    },
+    "summary": {
+      "ug": "ئەنگلىيە خان جەمەتى ھاۋا ئارمىيەسىنىڭ «كوبرا ۋارىئور 26-2» ناملىق ھەربىي مانېۋىرى جەريانىدا، دراكەن شىركىتى ئۆزىنىڭ «ستىڭ» دەپ ئاتىلىدىغان يەر يۈزى تەھدىتىنى تەقلىد قىلىپ كۆرسىتىش سىستېمىسىنى تۇنجى قېتىم ئەمەلىي مەشغۇلات مۇھىتىدا مۇۋەپپەقىي...",
+      "en": "Draken has completed the first operational deployment of its Sting surface threat replication system as part of the Royal Air Force’s (RAF) Exercise Cobra Warrior 26-2."
+    },
+    "content": {
+      "ug": "ئەنگلىيە خان جەمەتى ھاۋا ئارمىيەسىنىڭ «كوبرا ۋارىئور 26-2» ناملىق ھەربىي مانېۋىرى جەريانىدا، دراكەن شىركىتى ئۆزىنىڭ «ستىڭ» دەپ ئاتىلىدىغان يەر يۈزى تەھدىتىنى تەقلىد قىلىپ كۆرسىتىش سىستېمىسىنى تۇنجى قېتىم ئەمەلىي مەشغۇلات مۇھىتىدا مۇۋەپپەقىيەتلىك قوللاندى.\n\n---\n📌 **مەنبە:** Air Force Technology",
+      "en": "Draken has completed the first operational deployment of its Sting surface threat replication system as part of the Royal Air Force’s (RAF) Exercise Cobra Warrior 26-2.\n\n---\n**Source:** Air Force Technology"
+    },
+    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/Draken.jpg",
+    "author": "Air Force Technology",
+    "date": "2026-10-16",
+    "status": "published",
+    "featured": true,
+    "views": 132,
+    "tags": [
+      "ھەربىي مانېۋىر",
+      "ھاۋا ئارمىيەسى",
+      "ئەنگلىيە",
+      "تەھدىت تەقلىد قىلىش"
+    ],
+    "specs": {
+      "مەنبە": "Air Force Technology",
+      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/draken-raf-sting-system/",
+      "sourceUrl": "https://www.airforce-technology.com/news/draken-raf-sting-system/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1792179441709",
     "category": "analysis",
     "title": {
@@ -3386,39 +3420,5 @@
     "pubDate": "2026-10-11T11:24:02.763Z",
     "image": "https://cdn4.telesco.pe/file/rlueXSLMUCjkdS6kT_Rmpg5Nvc1LYvYKGf42eM29pg0ZUiT4OrZOAK1MVQjiCxCRS8gJSU-SEH0HxFF4o2ZmQr_gYuzb2_ILNM3URIu-D4MQz8Q_ZF7JQ5wTmjj5DmSMYntBmDlWjQjHtQpYrlNkXOdxP-IoHravfLWBvsUjKcGRvZuZTxIWSP8uvZn_AQ0gfb1bRnGeCZINPQQ8tZJwYR5FFzQOcgFY0YvDx5n-d7NbWsZW1TQ1aBu22DGKSHZhDfN3OYK8sH3MhY8P6IexACjCgPGiD29GP7KVVy_7meGIGazII4g5QqygnvXBmV08E0PGYPx8WmSIT7fzQPH8Gg.jpg",
     "featured": true
-  },
-  {
-    "id": "news_1791708446579_901",
-    "category": "weapons",
-    "title": {
-      "ug": "قۇرۇقلۇق ئاپتونومىيەلىك روبوتلىرى ئۇرۇش سېپىگە يېتىپ كەلدى",
-      "en": "Ground Robots Are Arriving on the Front Lines"
-    },
-    "summary": {
-      "ug": "نۇرغۇن يىللاردىن بۇيان، قۇرۇقلۇق ئاپتونومىيە تېخنىكىسى ھاۋا بوشلۇقىدىكى ئوخشاش تۈردىكى ئادەمسىز سىستېمىلاردىن خېلىلا ئارقىدا قېلىۋاتقان بولۇپ، ھازىر بۇ پەرق بارا-بارا كىچىكلەشكە باشلىدى. بۇ قېتىملىق مۇنازىرىدە رىيان ھارت مان (Ondas Sentinel...",
-      "en": "For years, ground autonomy lagged well behind its counterparts in the air. That gap is starting to close. Jonathan is joined by Ryan Hartman (Ondas Sentinel) and Scott Philips (Forterra) to examine what it takes to field autonomous ground v"
-    },
-    "content": {
-      "ug": "نۇرغۇن يىللاردىن بۇيان، قۇرۇقلۇق ئاپتونومىيە تېخنىكىسى ھاۋا بوشلۇقىدىكى ئوخشاش تۈردىكى ئادەمسىز سىستېمىلاردىن خېلىلا ئارقىدا قېلىۋاتقان بولۇپ، ھازىر بۇ پەرق بارا-بارا كىچىكلەشكە باشلىدى. بۇ قېتىملىق مۇنازىرىدە رىيان ھارت مان (Ondas Sentinel) ۋە سكات فىلىپس (Forterra) قاتارلىق ئادەمسىز سىستېما مۇتەخەسسىسلىرى بىلەن بىرلىكتە، جەڭ مەيدانىغا ئاپتونومىيەلىك قۇرۇقلۇق ئاپتوموبىللىرىنى ئورۇنلاشتۇرۇشقا كېتىدىغان تېخنىكىلىق تەپەككۇرلار ئەتراپلىق تەھلىل قىلىندى. سۆھبەتتە ۋۇكرائىنا ۋە غەززە ئۇرۇش مەيدانلىرىدىن ئېرىشىلگەن تەجرىبە-ساباقلار، جۇغراپىيەلىك ئورۇن بەلگىلەش سىستېمىسى (GPS) توختىتىپ قويۇلغان ۋە ئېلېكترونلۇق دەخلى-تەرۇزغا ئۇچرىغان مۇھىتتا سىجىل ئالاقىنى ساقلاش، شۇنىڭدەك ھاۋا-قۇرۇقلۇق بىرلىشىپ جەڭ قىلىش مۇداپىئە تەكتىكىلىرى تەپسىلىي مۇزاكىرە قىلىندى.\n\n---\n📌 **مەنبە:** War on the Rocks",
-      "en": "For years, ground autonomy lagged well behind its counterparts in the air. That gap is starting to close. Jonathan is joined by Ryan Hartman (Ondas Sentinel) and Scott Philips (Forterra) to examine what it takes to field autonomous ground vehicles in combat. The conversation ranges across what Ukraine and Gaza have taught them, what operating without GPS and resilient communications really looks like, air-ground teaming, and more. Image: Lance Cpl. Talan Werner via DVIDS.\n\n\nThe post Ground Robots Are Arriving on the Front Lines appeared first on War on the Rocks.\n\n---\n**Source:** War on the Rocks"
-    },
-    "imageUrl": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-47986-d8e393e4b3d3.jpg",
-    "author": "War on the Rocks",
-    "date": "2026-03-29",
-    "status": "published",
-    "featured": true,
-    "views": 114,
-    "tags": [
-      "ئەسكىرىي تېخنىكا",
-      "ئادەمسىز سىستېما",
-      "قۇرۇقلۇق روبوتلىرى",
-      "ئۇرۇش سېپى"
-    ],
-    "specs": {
-      "مەنبە": "War on the Rocks",
-      "ئەسلى ئۇلانما": "https://warontherocks.com/cogs-of-war/ground-robots-are-arriving-on-the-front-lines/",
-      "sourceUrl": "https://warontherocks.com/cogs-of-war/ground-robots-are-arriving-on-the-front-lines/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
   }
 ]

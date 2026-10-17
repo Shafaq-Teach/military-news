@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792218541511_512",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا ئالاھىدە جەڭ قىسىملىرى يېڭى تىپتىكى قوغداش نىقابى ۋە كۆزئەينەك سىستېمىسىنى سەپلىدى",
+      "en": "US Special Operations adopts new half-mask and goggles"
+    },
+    "summary": {
+      "ug": "«ئاۋون پروپېكشن» شىركىتى ئىشلەپچىقارغان MITR تىپلىق يېرىم يۈز نىقابى ۋە كۆزئەينەك سىستېمىسى ئاتموسفەرادىكى خەتەرلىك خىمىيەۋى ماددىلار ھەم زەھەرلىك بىرىكمىلەرنىڭ زىيىنىدىن جەڭچىلەرنى ئۈنۈملۈك قوغداش ئۈچۈن لايىھەلەنگەن بولۇپ، ئامېرىكا ئالاھىد...",
+      "en": "Avon Protection's MITR half-mask and goggle system is designed to protect wearers from dangerous chemicals and toxic substances in the atmosphere."
+    },
+    "content": {
+      "ug": "«ئاۋون پروپېكشن» شىركىتى ئىشلەپچىقارغان MITR تىپلىق يېرىم يۈز نىقابى ۋە كۆزئەينەك سىستېمىسى ئاتموسفەرادىكى خەتەرلىك خىمىيەۋى ماددىلار ھەم زەھەرلىك بىرىكمىلەرنىڭ زىيىنىدىن جەڭچىلەرنى ئۈنۈملۈك قوغداش ئۈچۈن لايىھەلەنگەن بولۇپ، ئامېرىكا ئالاھىدە مەشغۇلات قىسىملىرى تەرىپىدىن رەسمىي ئىشلىتىلىشكە باشلاندى.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "Avon Protection's MITR half-mask and goggle system is designed to protect wearers from dangerous chemicals and toxic substances in the atmosphere.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/XVV3ZYXPHZHKXHE5ZBI2LPBTTM.jpg",
+    "author": "Defense News",
+    "date": "2026-10-17",
+    "status": "published",
+    "featured": true,
+    "views": 120,
+    "tags": [
+      "ھەربىي",
+      "ئامېرىكا",
+      "ئالاھىدە_ئارمىيە",
+      "جابدۇق"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/land/2026/10/15/us-special-operations-adopts-new-half-mask-and-goggles/",
+      "sourceUrl": "https://www.defensenews.com/land/2026/10/15/us-special-operations-adopts-new-half-mask-and-goggles/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1792217224144",
     "category": "analysis",
     "title": {
@@ -3400,40 +3434,6 @@
       "مەنبە": "The War Zone (TWZ)",
       "ئەسلى ئۇلانما": "https://www.twz.com/sea/uss-abraham-lincoln-comes-home-with-its-island-superstructure-covered-in-kill-marks",
       "sourceUrl": "https://www.twz.com/sea/uss-abraham-lincoln-comes-home-with-its-island-superstructure-covered-in-kill-marks",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791741075967_526",
-    "category": "drones",
-    "title": {
-      "ug": "«ئۇچقۇچىسىز ئايروپىلاندا ئۈستۈنلۈك» پروگراممىسىنىڭ «گونتلېت 2.5» سىناق مانېۋىرى كەينىگە سۈرۈلدى",
-      "en": "Gauntlet 2.5 delayed"
-    },
-    "summary": {
-      "ug": "«ئۇچقۇچىسىز ئايروپىلاندا ئۈستۈنلۈك پروگراممىسى» (Drone Dominance Program) ئامېرىكانىڭ مىچىگان شتاتىغا جايلاشقان «گرايلىڭ» (Camp Grayling) ھەربىي بازىسىدا ئۆتكۈزۈلىدىغان «گونتلېت 2.5» (Gauntlet 2.5) سىناق تۈرىنىڭ باشلىنىش ۋاقتىنى كەينىگە سۈر...",
-      "en": "The Drone Dominance Program is postponing the Gauntlet 2.5 start date at Camp Grayling, Michigan."
-    },
-    "content": {
-      "ug": "«ئۇچقۇچىسىز ئايروپىلاندا ئۈستۈنلۈك پروگراممىسى» (Drone Dominance Program) ئامېرىكانىڭ مىچىگان شتاتىغا جايلاشقان «گرايلىڭ» (Camp Grayling) ھەربىي بازىسىدا ئۆتكۈزۈلىدىغان «گونتلېت 2.5» (Gauntlet 2.5) سىناق تۈرىنىڭ باشلىنىش ۋاقتىنى كەينىگە سۈرگەنلىكىنى ئېلان قىلدى.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
-      "en": "The Drone Dominance Program is postponing the Gauntlet 2.5 start date at Camp Grayling, Michigan.\n\n---\n**Source:** sUAS News (Drones)"
-    },
-    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/drone-dominace.jpeg?fit=800%2C285&#038;ssl=1",
-    "author": "sUAS News (Drones)",
-    "date": "2026-10-11",
-    "status": "published",
-    "featured": true,
-    "views": 69,
-    "tags": [
-      "ھەربىي",
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "ئامېرىكا",
-      "مانېۋىر"
-    ],
-    "specs": {
-      "مەنبە": "sUAS News (Drones)",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/gauntlet-2-5-delayed/",
-      "sourceUrl": "https://www.suasnews.com/2026/10/gauntlet-2-5-delayed/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792229463393_469",
+    "category": "weapons",
+    "title": {
+      "ug": "دېڭىز پىيادىلەر قوشۇنى جەڭ مەيدانىدىكى ئۇزۇن مۇددەتلىك داۋالاش ئۈچۈن يېڭى يۇقىرى تېخنىكىلارنى ئىشقا سالماقتا",
+      "en": "Marines fielding new tech for prolonged medical care on the battlefield"
+    },
+    "summary": {
+      "ug": "كۆچمە قان توڭلىتىش-سوۋۇتۇش ئۈسكۈنىلىرى، ئېلىپ يۈرۈشكە قولايلىق -ئۇلتىرا ئاۋاز دولقۇنلۇق تەكشۈرۈش ئاپپاراتلىرى ۋە ئېنېرگىيە ھاسىل قىلىش سىستېمىلىرى ئارقىلىق، جەڭ مەيدانىدىكى يارالانغان ئەسكەرلەرنىڭ ئەنئەنىۋى «ئالتۇن قۇتقۇزۇش سائىتى»دىن ئۆتۈپ...",
+      "en": "Mobile blood refrigeration, ultrasounds, and power generation will keep troops alive beyond the “golden hour.”"
+    },
+    "content": {
+      "ug": "كۆچمە قان توڭلىتىش-سوۋۇتۇش ئۈسكۈنىلىرى، ئېلىپ يۈرۈشكە قولايلىق -ئۇلتىرا ئاۋاز دولقۇنلۇق تەكشۈرۈش ئاپپاراتلىرى ۋە ئېنېرگىيە ھاسىل قىلىش سىستېمىلىرى ئارقىلىق، جەڭ مەيدانىدىكى يارالانغان ئەسكەرلەرنىڭ ئەنئەنىۋى «ئالتۇن قۇتقۇزۇش سائىتى»دىن ئۆتۈپ كەتكەن جىددىي شارائىتلاردىمۇ ھاياتىنى ساقلاپ قېلىش ئىقتىدارى ئۆستۈرۈلمەكتە.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "Mobile blood refrigeration, ultrasounds, and power generation will keep troops alive beyond the “golden hour.”\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/16/10011593/large.jpg",
+    "author": "Defense One",
+    "date": "2026-03-30",
+    "status": "published",
+    "featured": true,
+    "views": 60,
+    "tags": [
+      "دېڭىز پىيادىلىرى",
+      "ھەربىي تېخنىكا",
+      "جەڭ مەيدانى داۋالاش",
+      "مۇداپىئە"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/10/marines-fielding-new-tech-prolonged-medical-care-battlefield/416656/",
+      "sourceUrl": "https://www.defenseone.com/threats/2026/10/marines-fielding-new-tech-prolonged-medical-care-battlefield/416656/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792218549013_209",
     "category": "drones",
     "title": {
@@ -3400,41 +3434,6 @@
       "مەنبە": "Breaking Defense",
       "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/drones-and-autonomous-warfare-one-way-attack-and-reshaping-isr/",
       "sourceUrl": "https://breakingdefense.com/2026/10/drones-and-autonomous-warfare-one-way-attack-and-reshaping-isr/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791751980050_43",
-    "category": "analysis",
-    "title": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى ھىندى-تىنچ ئوكيان رايونىدا يېڭى كۆپ ساھەلىك مەشغۇلات ئالاھىدە قىسمىنى رەسمىي ھەرىكەتكە كەلتۈردى",
-      "en": "US Army activates new multi-domain task force to ‘deny, disrupt’ enemies in Indo-Pacific"
-    },
-    "summary": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى ھىندى-تىنچ ئوكيان رايونىدىكى دۈشمەن كۈچلەرگە قارشى تاقابىل تۇرۇش، ھەربىي تەھدىتلەرنى پاراكەندە قىلىش ۋە توسۇش ئىقتىدارىنى كۈچەيتىش مەقسىتىدە، يېڭىدىن تەشكىللەنگەن 4-كۆپ ساھەلىك مەشغۇلات ئالاھىدە قىسمىنى (4th Mult...",
-      "en": "The new 4th Multi-Domain Task Force includes four battalions and is planned to grow to 2,100 soldiers."
-    },
-    "content": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى ھىندى-تىنچ ئوكيان رايونىدىكى دۈشمەن كۈچلەرگە قارشى تاقابىل تۇرۇش، ھەربىي تەھدىتلەرنى پاراكەندە قىلىش ۋە توسۇش ئىقتىدارىنى كۈچەيتىش مەقسىتىدە، يېڭىدىن تەشكىللەنگەن 4-كۆپ ساھەلىك مەشغۇلات ئالاھىدە قىسمىنى (4th Multi-Domain Task Force) رەسمىي ئىشقا كىرىشتۈردى. مەزكۇر ئالاھىدە قىسىم ھازىرچە تۆت باتاليوندىن تەركىب تاپقان بولۇپ، كەلگۈسىدە ئەسكەر سانىنىڭ 2100 گە يەتكۈزۈلۈشى پىلانلانماقتا.\n\n---\n📌 **مەنبە:** Defense News",
-      "en": "The new 4th Multi-Domain Task Force includes four battalions and is planned to grow to 2,100 soldiers.\n\n---\n**Source:** Defense News"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/OZNRPN2U7VB33AOXM5J66MF5S4.jpg",
-    "author": "Defense News",
-    "date": "2026-10-11",
-    "status": "published",
-    "featured": true,
-    "views": 80,
-    "tags": [
-      "ئامېرىكا",
-      "ھىندى_تىنچ_ئوكيان",
-      "كۆپ_ساھەلىك_ئۇرۇش",
-      "قۇرۇقلۇق_ئارمىيەسى",
-      "ھەربىي_ئىستراتېگىيە"
-    ],
-    "specs": {
-      "مەنبە": "Defense News",
-      "ئەسلى ئۇلانما": "https://www.defensenews.com/news/your-military/2026/10/09/us-army-activates-new-multi-domain-task-force-to-deny-disrupt-enemies-in-indo-pacific/",
-      "sourceUrl": "https://www.defensenews.com/news/your-military/2026/10/09/us-army-activates-new-multi-domain-task-force-to-deny-disrupt-enemies-in-indo-pacific/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,38 @@
 [
   {
+    "id": "news_1792207738435_241",
+    "category": "drones",
+    "title": {
+      "ug": "«ۋىڭكىسپاند» شىركىتى ھاۋا، قۇرۇقلۇق ۋە دېڭىز بۆلگۈنچىلىرىگە ماس كېلىدىغان ناملىق ئادەمسىز ئومۇمىي سىستېمىنى ئاممىغا ئېلان قىلدى",
+      "en": "WingXpand Unveils xPAIR: A Universal Autonomous System for Air, Ground and Maritime"
+    },
+    "summary": {
+      "ug": "زامانىۋى ھەربىي ۋەزىپىلەر پەقەت بىرلا ساھە بىلەنلا چەكلەنگۈچە ئەمەس، ئادەمسىز سىستېمىلارمۇ مۇشۇنداق چەكلىمە ئىچىدە قالماسلىقى كېرەك. لېنتا يېشىش مراسىمىغىچە بولغان جەرياندا، ھەرقايسى ساھەلەرنى ئۆز ئىچىگە ئېلىش ئىقتىدارى مۇھىم بىر بۆسۈش سۈپى...",
+      "en": "Modern missions don’t stay in one domain. Autonomous systems shouldn’t either. But, until now, covering"
+    },
+    "content": {
+      "ug": "زامانىۋى ھەربىي ۋەزىپىلەر پەقەت بىرلا ساھە بىلەنلا چەكلەنگۈچە ئەمەس، ئادەمسىز سىستېمىلارمۇ مۇشۇنداق چەكلىمە ئىچىدە قالماسلىقى كېرەك. لېنتا يېشىش مراسىمىغىچە بولغان جەرياندا، ھەرقايسى ساھەلەرنى ئۆز ئىچىگە ئېلىش ئىقتىدارى مۇھىم بىر بۆسۈش سۈپىتىدە ئوتتۇرىغا چىقتى.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
+      "en": "Modern missions don’t stay in one domain. Autonomous systems shouldn’t either. But, until now, covering\n\n---\n**Source:** sUAS News (Drones)"
+    },
+    "imageUrl": "https://s0.wp.com/i/blank.jpg",
+    "author": "sUAS News (Drones)",
+    "date": "2026-05-20",
+    "status": "published",
+    "featured": true,
+    "views": 160,
+    "tags": [
+      "ھەربىي",
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "ئەسكىرىي تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "sUAS News (Drones)",
+      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/wingxpand-unveils-xpair-a-universal-autonomous-system-for-air-ground-and-maritime/",
+      "sourceUrl": "https://www.suasnews.com/2026/10/wingxpand-unveils-xpair-a-universal-autonomous-system-for-air-ground-and-maritime/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792196957132_137",
     "category": "naval",
     "title": {
@@ -3402,40 +3435,6 @@
       "مەنبە": "Army Technology",
       "ئەسلى ئۇلانما": "https://www.army-technology.com/news/oshkosh-morocco-het-ai-tractors/",
       "sourceUrl": "https://www.army-technology.com/news/oshkosh-morocco-het-ai-tractors/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791719372131_4",
-    "category": "weapons",
-    "title": {
-      "ug": "2026-يىلىدىن 2036-يىلىغىچە بولغان دۇنياۋى ھەربىي ئوق-دورا بازىرىنىڭ تەرەققىيات مۆلچەرى ئېلان قىلىندى",
-      "en": "Forecasts: Global military ammunition market (2026–2036)"
-    },
-    "summary": {
-      "ug": "كەلگۈسى ئون يىل ئىچىدە، دۇنياۋى ھەربىي ئوق-دورا بازىرىنىڭ شىمالىي ئامېرىكا، ياۋروپا ۋە ئاسىيا-تىنچ ئوكيان رايونلىرىنىڭ يېتەكچىلىكىدە كۆرۈنەرلىك دەرىجىدە ئاشىدىغانلىقى مۆلچەرلەنمەكتە. «ھاۋا ئارمىيە تېخنىكىسى» (Air Force Technology) نىڭ تەھلى...",
-      "en": "The global military ammunition market is forecast to grow significantly over the next decade, led by North America, Europe, and Asia-Pacific."
-    },
-    "content": {
-      "ug": "كەلگۈسى ئون يىل ئىچىدە، دۇنياۋى ھەربىي ئوق-دورا بازىرىنىڭ شىمالىي ئامېرىكا، ياۋروپا ۋە ئاسىيا-تىنچ ئوكيان رايونلىرىنىڭ يېتەكچىلىكىدە كۆرۈنەرلىك دەرىجىدە ئاشىدىغانلىقى مۆلچەرلەنمەكتە. «ھاۋا ئارمىيە تېخنىكىسى» (Air Force Technology) نىڭ تەھلىلىگە ئاساسلانغاندا، مەزكۇر بازار 2026-يىلىدىن 2036-يىلىغىچە بولغان مەزگىلدە يەر شارى خاراكتېرلىك مۇداپىئە ئېھتىياجىنىڭ تۈرتكىسىدە تېز سۈرئەتتە كېڭىيىپ، ھەربىي تەمىنات زەنجىرىدە مۇھىم ئورۇننى ئىگىلەيدۇ.\n\n---\n📌 **مەنبە:** Air Force Technology",
-      "en": "The global military ammunition market is forecast to grow significantly over the next decade, led by North America, Europe, and Asia-Pacific.\n\n---\n**Source:** Air Force Technology"
-    },
-    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/shutterstock_2125596824.jpg",
-    "author": "Air Force Technology",
-    "date": "2026-10-11",
-    "status": "published",
-    "featured": true,
-    "views": 163,
-    "tags": [
-      "ھەربىي",
-      "ئوق-دورا",
-      "مۇداپىئە",
-      "بازار مۆلچەرى"
-    ],
-    "specs": {
-      "مەنبە": "Air Force Technology",
-      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/features/forecasts-global-military-ammunition-market-2026-2036/",
-      "sourceUrl": "https://www.airforce-technology.com/features/forecasts-global-military-ammunition-market-2026-2036/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

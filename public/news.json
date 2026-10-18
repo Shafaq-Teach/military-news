@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792305421170_132",
+    "category": "weapons",
+    "title": {
+      "ug": "ئوشكوش شىركىتى گوللاندىيە مۇداپىئە مىنىستىرلىقى ئۈچۈن «كايمان» تىپلىق ئەترەتكە قارشى تۇرۇش ۋە چارلاش ئاپتوموبىلىنىڭ دەسلەپكى ئۈلگە نۇسخىسىنى ئىشلەپچىقىرىشقا باشلىدى",
+      "en": "Oshkosh begins Kaaiman prototype production for Dutch MoD"
+    },
+    "summary": {
+      "ug": "ئوشكوش مۇداپىئە شىركىتى گوللاندىيە مۇداپىئە مىنىستىرلىقى ئۈچۈن «كايمان» دەپ ئاتالغان گوللاندىيە ئېكسپېدىتسىيە چارلاش ئاپتوموبىلىنىڭ تۇنجى ئۈلگە نۇسخىسىنى ئىشلەپچىقىرىش خىزمىتىنى رەسمىي باشلىدى.",
+      "en": "Oshkosh Defense has commenced production of the first prototype of the Dutch Expeditionary Patrol Vehicle (DXPV), designated “Kaaiman,” for the Netherlands Ministry of Defence."
+    },
+    "content": {
+      "ug": "ئوشكوش مۇداپىئە شىركىتى گوللاندىيە مۇداپىئە مىنىستىرلىقى ئۈچۈن «كايمان» دەپ ئاتالغان گوللاندىيە ئېكسپېدىتسىيە چارلاش ئاپتوموبىلىنىڭ تۇنجى ئۈلگە نۇسخىسىنى ئىشلەپچىقىرىش خىزمىتىنى رەسمىي باشلىدى.\n\n---\n📌 **مەنبە:** Army Technology",
+      "en": "Oshkosh Defense has commenced production of the first prototype of the Dutch Expeditionary Patrol Vehicle (DXPV), designated “Kaaiman,” for the Netherlands Ministry of Defence.\n\n---\n**Source:** Army Technology"
+    },
+    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/10/Oshkosh-Defense-1.jpg",
+    "author": "Army Technology",
+    "date": "2026-05-19",
+    "status": "published",
+    "featured": true,
+    "views": 133,
+    "tags": [
+      "مۇداپىئە",
+      "ئوشكوش",
+      "گوللاندىيە",
+      "ھەربىي ئاپتوموبىل"
+    ],
+    "specs": {
+      "مەنبە": "Army Technology",
+      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/oshkosh-kaaiman-netherlands-defence/",
+      "sourceUrl": "https://www.army-technology.com/news/oshkosh-kaaiman-netherlands-defence/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792294516896_491",
     "category": "weapons",
     "title": {
@@ -3382,39 +3416,6 @@
       "مەنبە": "Defense One",
       "ئەسلى ئۇلانما": "https://www.defenseone.com/policy/2026/10/army-brings-back-night-court-audit-programs-shifting-more-100m/416547/",
       "sourceUrl": "https://www.defenseone.com/policy/2026/10/army-brings-back-night-court-audit-programs-shifting-more-100m/416547/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791795436056_222",
-    "category": "weapons",
-    "title": {
-      "ug": "نازارەتچىلىك ئورگىنى: ئامېرىكا قۇرۇقلۇق ئارمىيە ئىنژېنېرلار ئەترىتى مۇھىتنى ئەسلىگە كەلتۈرۈش خىزمىتىدىكى كۆرۈنەرلىك تۆۋەنلەشنىڭ سەۋەبىنى ئېنىق كۆرسىتەلمىدى",
-      "en": "US Army Corps of Engineers failed to explain drop in environmental mitigation work: Watchdog"
-    },
-    "summary": {
-      "ug": "ئامېرىكا ھۆكۈمەت مەسئۇلىيەت ئىشخانىسى (GAO) ئېلان قىلغان يېڭى بىر دىئاگراممىدا، ئامېرىكا قۇرۇقلۇق ئارمىيە ئىنژېنېرلار ئەترىتىنىڭ 2022-يىلىدىن 2025-يىلىغىچە بولغان مەزگىلدىكى ياۋايى ھايۋانلار ۋە ئۇلارنىڭ ياشاش مۇھىتىنى قوغداشقا ئائىت تەسىرنى...",
-      "en": "A chart published by GAO shows a sharp decline in the agency's decisions to make mitigation plans for wildlife and habitat protection from 2022 to 2025."
-    },
-    "content": {
-      "ug": "ئامېرىكا ھۆكۈمەت مەسئۇلىيەت ئىشخانىسى (GAO) ئېلان قىلغان يېڭى بىر دىئاگراممىدا، ئامېرىكا قۇرۇقلۇق ئارمىيە ئىنژېنېرلار ئەترىتىنىڭ 2022-يىلىدىن 2025-يىلىغىچە بولغان مەزگىلدىكى ياۋايى ھايۋانلار ۋە ئۇلارنىڭ ياشاش مۇھىتىنى قوغداشقا ئائىت تەسىرنى ئازايتىش پىلانلىرىنى تۈزۈش قارارىنىڭ تېز سۈرئەتتە تۆۋەنلەپ كەتكەنلىكى ئاشكارىلاندى. مەزكۇر نازارەتچىلىك ئورگىنى ئارمىيە ئىنژېنېرلار ئەترىتىنىڭ مۇھىتنى ئەسلىگە كەلتۈرۈش خىزمىتىدىكى بۇ كۆرۈنەرلىك كېمىيىشنىڭ سەۋەبلىرىنى يېتەرلىك دەرىجىدە چۈشەندۈرۈپ بېرەلمىگەنلىكىنى تەنقىد قىلدى.\n\n---\n📌 **مەنبە:** Defense News",
-      "en": "A chart published by GAO shows a sharp decline in the agency's decisions to make mitigation plans for wildlife and habitat protection from 2022 to 2025.\n\n---\n**Source:** Defense News"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/DPVJSY5Y5VACXFRWDMOGKPJLZA.jpg",
-    "author": "Defense News",
-    "date": "2024-05-23",
-    "status": "published",
-    "featured": true,
-    "views": 109,
-    "tags": [
-      "ئامېرىكا ئارمىيەسى",
-      "مۇھىتنى قوغداش",
-      "نازارەتچىلىك"
-    ],
-    "specs": {
-      "مەنبە": "Defense News",
-      "ئەسلى ئۇلانما": "https://www.defensenews.com/news/your-army/2026/10/09/us-army-corps-of-engineers-failed-to-explain-drop-in-environmental-mitigation-work-watchdog/",
-      "sourceUrl": "https://www.defensenews.com/news/your-army/2026/10/09/us-army-corps-of-engineers-failed-to-explain-drop-in-environmental-mitigation-work-watchdog/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

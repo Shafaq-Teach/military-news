@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792327158361_29",
+    "category": "drones",
+    "title": {
+      "ug": "تۈركىيە ئاۋىئاتسىيە ۋە ئاسمان سانائەت شىركىتى يېڭى تىپتىكى «ئانكا-3» ئۇچقۇچىسىز ئايروپىلانى ئۈچۈن ئىشلەپچىقىرىش لىنىيەسىنى كېڭەيتىدۇ",
+      "en": "Turkish Aerospace expands Anka 3 production with new line for upgraded drone"
+    },
+    "summary": {
+      "ug": "بىر شىركەت ئەمەلدارىنىڭ بىلدۈرۈشىچە، مەزكۇر يېڭى لىنىيەدە قۇراشتۇرۇلىدىغان تۇنجى ئايروپىلاننىڭ يېقىندا زاۋۇتتىن چىقىشى ۋە ئارقىدىنلا سىناق ئۇچۇشىدىن ئۆتكۈزۈلۈشى مۆلچەرلەنمەكتە.",
+      "en": "A company official said the first aircraft to be built on the new line is expected to roll out &#8220;soon&#8221; and undergo flight testing afterward."
+    },
+    "content": {
+      "ug": "بىر شىركەت ئەمەلدارىنىڭ بىلدۈرۈشىچە، مەزكۇر يېڭى لىنىيەدە قۇراشتۇرۇلىدىغان تۇنجى ئايروپىلاننىڭ يېقىندا زاۋۇتتىن چىقىشى ۋە ئارقىدىنلا سىناق ئۇچۇشىدىن ئۆتكۈزۈلۈشى مۆلچەرلەنمەكتە.\n\n---\n📌 **مەنبە:** Breaking Defense",
+      "en": "A company official said the first aircraft to be built on the new line is expected to roll out &#8220;soon&#8221; and undergo flight testing afterward.\n\n---\n**Source:** Breaking Defense"
+    },
+    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/CG2Q5GSZZBAMNJLUAGRFRQJ7WY-e1792095854542.avif",
+    "author": "Breaking Defense",
+    "date": "2026-05-19",
+    "status": "published",
+    "featured": true,
+    "views": 142,
+    "tags": [
+      "تۈركىيە",
+      "ئانكا-3",
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "ھەربىي سانائەت"
+    ],
+    "specs": {
+      "مەنبە": "Breaking Defense",
+      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/turkish-aerospace-expands-anka-3-production-with-new-line-for-upgraded-drone/",
+      "sourceUrl": "https://breakingdefense.com/2026/10/turkish-aerospace-expands-anka-3-production-with-new-line-for-upgraded-drone/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1792323499729",
     "category": "analysis",
     "title": {
@@ -3404,42 +3438,6 @@
       "ئەسلى ئۇلانما": "https://www.army-technology.com/news/lockheed-martin-pac-3-edge/",
       "sourceUrl": "https://www.army-technology.com/news/lockheed-martin-pac-3-edge/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "pol_1791826038702",
-    "category": "analysis",
-    "title": {
-      "ug": "ئىسرائىلىيە بىلەن ئىراننىڭ سۈۋەيدادىكى غەلىتە مۇناسىۋىتى",
-      "en": "إسر١ئيل وإيران في حرب طاحنة، إلا في السويداء، حيث تعيش تل أبيب وطهران شهر عسل! علم «يا علي"
-    },
-    "summary": {
-      "ug": "ئىسرائىلىيە بىلەن ئىران شىددەتلىك ئۇرۇش ئىچىدە، ئەمما سۈۋەيدادا تېل ئاۋىۋ بىلەن تېھران ھەسەل ئېيىنى ئۆتكۈزمەكتە! «يا ئەلى» بايرىقى ئىسرائىلىيە بايرىقىنىڭ يېنىدا تولۇق (ماسلىشىش) ئىچىدە تۇرماقتا. ئەڭ غەلىتە يېرى شۇكى، تېل ئاۋىۋ ئۇ يەردە ... نىڭ قالدۇقلىرىنى قوللىماقتا.",
-      "en": "إسر١ئيل وإيران في حرب طاحنة، إلا في السويداء، حيث تعيش تل أبيب وطهران شهر عسل! علم «يا علي» بجانب علم إسر١ئيل في حالة (وئام) تام. والأغرب أن تل أبيب تدعم هناك فلول الن…"
-    },
-    "content": {
-      "ug": "ئىسرائىلىيە بىلەن ئىران شىددەتلىك ئۇرۇش ئىچىدە، ئەمما سۈۋەيدادا تېل ئاۋىۋ بىلەن تېھران ھەسەل ئېيىنى ئۆتكۈزمەكتە! «يا ئەلى» بايرىقى ئىسرائىلىيە بايرىقىنىڭ يېنىدا تولۇق (ماسلىشىش) ئىچىدە تۇرماقتا. ئەڭ غەلىتە يېرى شۇكى، تېل ئاۋىۋ ئۇ يەردە ... نىڭ قالدۇقلىرىنى قوللىماقتا.\n\n---\n🔗 **ئەسلى مەنبە ئۇلانمىسى:** [صقر العرب (Facebook) دىن ئەسلى تەھلىلنى كۆرۈش](https://www.facebook.com/100095329718337/posts/938180482702934/)",
-      "en": "إسر١ئيل وإيران في حرب طاحنة، إلا في السويداء، حيث تعيش تل أبيب وطهران شهر عسل! علم «يا علي» بجانب علم إسر١ئيل في حالة (وئام) تام. والأغرب أن تل أبيب تدعم هناك فلول الن…"
-    },
-    "imageUrl": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/845950114_4479017569079659_3757574084427292177_n.png?stp=dst-jpg_tt6&cstp=mx1080x809&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Yw_vGxnEA0sQ7kNvwEBbxSB&_nc_oc=Ados2jlF4Q1qlctMmZVAkQ40PADGHtqtsryXMZvohO-whCWIQQ5HMsbLaK41L2rF-kA&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=-QvDAt0W073fk3DsPvgVJA&_nc_ss=7b289&oh=00_AQO7IiU2zZe0Wzu7No5LlNqTah6jUdC-mn-0GsO5GDvfvA&oe=6AD2D6EB",
-    "author": "صقر العرب (Facebook)",
-    "date": "2024-05-22",
-    "status": "published",
-    "featured": true,
-    "views": 68,
-    "tags": [
-      "ئىسرائىلىيە",
-      "ئىران",
-      "سۈرىيە",
-      "سۈۋەيدا",
-      "گېئو-سىياسىي"
-    ],
-    "specs": {
-      "مەنبە": "صقر العرب (Facebook)",
-      "ئەسلى ئۇلانما": "https://www.facebook.com/100095329718337/posts/938180482702934/",
-      "sourceUrl": "https://www.facebook.com/100095329718337/posts/938180482702934/",
-      "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
-      "ھالىتى": "تەستىقلانغان ئانالىز"
     }
   }
 ]

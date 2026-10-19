@@ -1,5 +1,40 @@
 [
   {
+    "id": "pol_1792417170817",
+    "category": "analysis",
+    "title": {
+      "ug": "تەرتۇس: سەئۇدى ئەرەبىستان ئارامكو شىركىتىدىن مازوت قاچىلانغان تۇنجى ماي باكى پاراخوتى بانىياس نېفىت تۇرۇبا چىقىش ئېغىزىغا يېتىپ كەلدى",
+      "en": "طرطوس | وصول أول ناقلة محمّلة بمادة المازوت من شركة أرامكو السعودية إلى مصب بانياس النفطي،"
+    },
+    "summary": {
+      "ug": "تەرتۇس | سۈرىيە نېفىت شىركىتى بىلەن سەئۇدى ئەرەبىستان ئارامكو شىركىتى ئوتتۇرىسىدا تۈزۈلگەن كېلىشىمگە ئاساسەن، سەئۇدى ئەرەبىستان ئارامكو شىركىتىدىن مازوت ماتېرىيالى قاچىلانغان تۇنجى ماي باكى پاراخوتى بانىياس نېفىت تۇرۇبا چىقىش ئېغىزىغا يېتىپ كەلدى. مەنبە: ئەلئەخبارييە",
+      "en": "Log In"
+    },
+    "content": {
+      "ug": "تەرتۇس | سۈرىيە نېفىت شىركىتى بىلەن سەئۇدى ئەرەبىستان ئارامكو شىركىتى ئوتتۇرىسىدا تۈزۈلگەن كېلىشىمگە ئاساسەن، سەئۇدى ئەرەبىستان ئارامكو شىركىتىدىن مازوت ماتېرىيالى قاچىلانغان تۇنجى ماي باكى پاراخوتى بانىياس نېفىت تۇرۇبا چىقىش ئېغىزىغا يېتىپ كەلدى. مەنبە: ئەلئەخبارييە\n\n---\n🔗 **ئەسلى مەنبە ئۇلانمىسى:** [صقر العرب دىن ئەسلى تەھلىلنى كۆرۈش](https://www.facebook.com/100095329718337/posts/944506255403690/)",
+      "en": "Log In\n\nLog In\n\nForgot Account?\n\n## ‎صقر العرب‎'s Post\n\n* * *\n\n[](https://www.facebook.com/stories/104190926101898/UzpfSVNDOjE4NDAyMDY3OTQwMDA3Mzk=/?view_single=false&__cft__[0]=AZjBBgiDzCXLyd4aU4PtWaZ-ApS-B6PtEzyzWY0_-hsv4m-j0s5azN1ao6h2kOWulxVBZb8o1DY1KNkxB2KovKVM9pypiUJvAIkorncDKD5LL_wd3oXciVxr2JgclT7n2_n7w4kroVL4WS24-SJeTgT0F7Nzsc8&__tn__=%3C%3C%2CP-R)\n\n### **صقر العرب**\n\n18 minutes ago\n\n18m ·\n\n طرطوس | وصول أول ناقلة محمّلة بمادة المازوت من شركة أرامكو السعودية إلى مصب بانياس النفطي، بموجب الاتفاق المبرم بين الشركة السورية للبترول وأرامكو السعودية.\n\nالمصدر: الإخبارية"
+    },
+    "imageUrl": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/854930328_985442811268760_6327688906884180963_n.png?stp=dst-jpg_tt6&cstp=mx720x358&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=UvYokQfmBL4Q7kNvwFctvOz&_nc_oc=AdpkFXB-EKOVnu4yI2fmWWh3HHzaqXXkOxme3MlTGFX_ytNYVUcwySIFrHbaDxfLJOw&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=SjKUhpAnyf1wBeyy9iwpUg&_nc_ss=7b289&oh=00_AQOzSt1m2V1SNnZC8NC4r7_2439fcE2cb64X0yBm9054Sg&oe=6ADC0302",
+    "author": "صقر العرب",
+    "date": "2026-10-19",
+    "status": "published",
+    "featured": true,
+    "views": 39,
+    "tags": [
+      "سۈرىيە",
+      "ئىقتىسادىي_ئانالىز",
+      "ئوتتۇرا_شەرق",
+      "گېئو-ئىقتىسادىي"
+    ],
+    "specs": {
+      "مەنبە": "صقر العرب",
+      "ئەسلى ئۇلانما": "https://www.facebook.com/100095329718337/posts/944506255403690/",
+      "sourceUrl": "https://www.facebook.com/100095329718337/posts/944506255403690/",
+      "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
+      "ھالىتى": "تەستىقلانغان ئانالىز"
+    }
+  },
+  {
     "id": "news_1792414398587_12",
     "category": "naval",
     "title": {
@@ -3397,40 +3432,6 @@
       "مەنبە": "(TWZ)",
       "ئەسلى ئۇلانما": "https://www.twz.com/news-features/drones-are-creating-new-opportunities-for-the-u-s-army-to-deceive-its-enemies",
       "sourceUrl": "https://www.twz.com/news-features/drones-are-creating-new-opportunities-for-the-u-s-army-to-deceive-its-enemies",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791903989670_662",
-    "category": "drones",
-    "title": {
-      "ug": "ئەئروبۇس شىركىتىنىڭ U740 فالكېر () ئادەمسىز جەڭگىۋار ئايروپىلانى ياروپادا تۇنجى قېتىم سىناق ئۇچۇشىنى مۇۋەپپەقىيەتلىك تاماملىدى",
-      "en": "Airbus U740 Valkyrie uncrewed combat aircraft takes off for its maiden flight in Europe"
-    },
-    "summary": {
-      "ug": "ئەئروبۇس شىركىتى « & » شىركىتى بىلەن ھەمكارلاشقان ھالدا، تۇنجى قېتىملىق ئۇچۇش ۋەزىپىسىنى ياروپادا مۇۋەپپەقىيەتلىك ئىجرا قىلغانلىقىنى جاكارلىدى.",
-      "en": "Airbus, in partnership with Kratos Defense &#38; Security Solutions, Inc. (NASDAQ: KTOS), has successfully completed"
-    },
-    "content": {
-      "ug": "ئەئروبۇس شىركىتى « & » شىركىتى بىلەن ھەمكارلاشقان ھالدا، تۇنجى قېتىملىق ئۇچۇش ۋەزىپىسىنى ياروپادا مۇۋەپپەقىيەتلىك ئىجرا قىلغانلىقىنى جاكارلىدى.\n\n---\n📌 **مەنبە:** ()",
-      "en": "Airbus, in partnership with Kratos Defense &#38; Security Solutions, Inc. (NASDAQ: KTOS), has successfully completed\n\n---\n**Source:** ()"
-    },
-    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/Airbus-U740-Valkyrie-.webp?fit=600%2C328&#038;ssl=1",
-    "author": "()",
-    "date": "2026-10-13",
-    "status": "published",
-    "featured": true,
-    "views": 128,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "ئەئروبۇس"
-    ],
-    "specs": {
-      "مەنبە": "()",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/airbus-u740-valkyrie-uncrewed-combat-aircraft-takes-off-for-its-maiden-flight-in-europe/",
-      "sourceUrl": "https://www.suasnews.com/2026/10/airbus-u740-valkyrie-uncrewed-combat-aircraft-takes-off-for-its-maiden-flight-in-europe/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

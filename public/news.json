@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792370703774_977",
+    "category": "weapons",
+    "title": {
+      "ug": "«درونشېلد» شىركىتىنىڭ 4-پەسىللىك يۇمشاق دېتالى ئۇچقۇچىسىز ئايروپىلان تەھدىتلىرىنى تېخىمۇ تېز بايقاش ۋە يوقىتىشنى ئىشقا ئاشۇردى",
+      "en": "DroneShield Q4 Software Release Helps Operators Detect, Identify and Defeat Drone Threats Faster"
+    },
+    "summary": {
+      "ug": "سۈنئىي ئىنتېللېكت ئاساسىدىكى ئۇچقۇچىسىز ئايروپىلانلارغا قارشى تۇرۇش تېخنىكىسى بويىچە دۇنيادىكى يېتەكچى كورپوراتسىيەلەرنىڭ بىرى بولغان «درونشېلد» شىركىتى 2026-يىللىق تۆتىنچى پەسىللىك يۇمشاق دېتال يېڭىلانمىسىنى ئېلان قىلدى. يېڭىلانغان سىستېما...",
+      "en": "&#160;DroneShield (ASX:DRO), a global leader in AI-powered counter-drone technology, today announced its Q4 2026 software"
+    },
+    "content": {
+      "ug": "سۈنئىي ئىنتېللېكت ئاساسىدىكى ئۇچقۇچىسىز ئايروپىلانلارغا قارشى تۇرۇش تېخنىكىسى بويىچە دۇنيادىكى يېتەكچى كورپوراتسىيەلەرنىڭ بىرى بولغان «درونشېلد» شىركىتى 2026-يىللىق تۆتىنچى پەسىللىك يۇمشاق دېتال يېڭىلانمىسىنى ئېلان قىلدى. يېڭىلانغان سىستېما مەشغۇلاتچىلارنىڭ خەتەرلىك ئۇچقۇچىسىز ئايروپىلان (دىرون) تەھدىتلىرىنى تېخىمۇ يۇقىرى سۈرئەتتە بايقاش، ئايرىپ كۆرسىتىش ۋە بىكار قىلىپ ئۈنۈملۈك بىر تەرەپ قىلىش ئىقتىدارىنى كۆرۈنەرلىك ئاشۇرىدۇ.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
+      "en": "&#160;DroneShield (ASX:DRO), a global leader in AI-powered counter-drone technology, today announced its Q4 2026 software\n\n---\n**Source:** sUAS News (Drones)"
+    },
+    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/droneshield-graphic.webp?fit=600%2C338&#038;ssl=1",
+    "author": "sUAS News (Drones)",
+    "date": "2026-10-19",
+    "status": "published",
+    "featured": true,
+    "views": 24,
+    "tags": [
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "ھاۋا مۇداپىئە سىستېمىسى",
+      "سۈنئىي ئىنتېللېكت",
+      "ئەسكىرىي تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "sUAS News (Drones)",
+      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/droneshield-q4-software-release-helps-operators-detect-identify-and-defeat-drone-threats-faster/",
+      "sourceUrl": "https://www.suasnews.com/2026/10/droneshield-q4-software-release-helps-operators-detect-identify-and-defeat-drone-threats-faster/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792370706967_63",
     "category": "naval",
     "title": {
@@ -3402,41 +3436,6 @@
       "مەنبە": "",
       "ئەسلى ئۇلانما": "https://www.defenseone.com/technology/2026/10/army-plans-rodeo-round-supply-chain-problems/416550/",
       "sourceUrl": "https://www.defenseone.com/technology/2026/10/army-plans-rodeo-round-supply-chain-problems/416550/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791871492071_337",
-    "category": "weapons",
-    "title": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيە يىغىنىدا (AUSA) ئىشلەپچىقىرىش قىيىنچىلىقلىرى ۋە تەمىنات زەنجىرىدىكى ئاجىز ھالقىلار مۇزاكىرە قىلىندى",
-      "en": "Telle talks &#8216;manufacturing rodeo,&#8217; supply chain &#8216;weak links&#8217;: AUSA Day 1"
-    },
-    "summary": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيە جەمئىيىتىنىڭ يىللىق مۇداپىئە كۆرگەزمىسى (AUSA) نىڭ تۇنجى كۈنىدە، مەسئۇل ئەمەلدار تېللې مۇداپىئە ساھەسىدىكى مۇرەككەپ ئىشلەپچىقىرىش كۈرىشى ۋە تەمىنات زەنجىرىدىكى ئاجىز ھالقىلار توغرىسىدا مۇھىم توختالدى. يىغىندا قورال...",
-      "en": "The Breaking Defense team is on the ground, reporting for AUSA 2026."
-    },
-    "content": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيە جەمئىيىتىنىڭ يىللىق مۇداپىئە كۆرگەزمىسى (AUSA) نىڭ تۇنجى كۈنىدە، مەسئۇل ئەمەلدار تېللې مۇداپىئە ساھەسىدىكى مۇرەككەپ ئىشلەپچىقىرىش كۈرىشى ۋە تەمىنات زەنجىرىدىكى ئاجىز ھالقىلار توغرىسىدا مۇھىم توختالدى. يىغىندا قورال-ياراغ ياسىمىچىلىقىنىڭ ئۈنۈمىنى ئاشۇرۇش، زاپچاس تەمىناتىنى كۈچەيتىش ھەمدە كەلگۈسى ئۇرۇش ئېھتىياجى ئۈچۈن سانائەت بازىسىنىڭ جىددىي تاقابىل تۇرۇش ئىقتىدارىنى كاپالەتلەندۈرۈش مەسىلىلىرى نۇقتىلىق ئوتتۇرىغا قويۇلدى.\n\n---\n📌 **مەنبە:** ",
-      "en": "The Breaking Defense team is on the ground, reporting for AUSA 2026.\n\n---\n**Source:** "
-    },
-    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/261012_DVIDS_telle_AUSA_10007115_PLAY-1024x576.jpg",
-    "author": "",
-    "date": "2026-10-13",
-    "status": "published",
-    "featured": true,
-    "views": 42,
-    "tags": [
-      "ئامېرىكا قۇرۇقلۇق ئارمىيەسى",
-      "AUSA",
-      "تەمىنات زەنجىرى",
-      "ھەربىي سانائەت",
-      "مۇداپىئە تېخنىكىسى"
-    ],
-    "specs": {
-      "مەنبە": "",
-      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/telle-talks-manufacturing-rodeo-supply-chain-weak-links-ausa-day-1/",
-      "sourceUrl": "https://breakingdefense.com/2026/10/telle-talks-manufacturing-rodeo-supply-chain-weak-links-ausa-day-1/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

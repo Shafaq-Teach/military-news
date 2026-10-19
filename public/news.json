@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792403480253_346",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا مۇداپىئە مىنىستىرلىقى سۈنئىي ئەقىل ئارقىلىق ساداقەتنى تەكشۈرۈش تۈرىدىن ۋاز كەچتىمۇ؟",
+      "en": "Has the Pentagon given up on AI polygraph analysis of loyalty?"
+    },
+    "summary": {
+      "ug": "تەنقىدچىلەرنىڭ كۆرسىتىشىچە، سۆز ئەندىزىسى، ئاۋاز جىددىيلىكى ياكى يۈز ئىپادىسىگە قاراپ سۈنئىي ئەقىل ياردىمىدە كىشىلەرنىڭ نىيىتىنى ئوقۇش تېخنىكىسى ئىلىم-پەن ئاساسىدىن مەھرۇم بولۇپلا قالماستىن، بەلكى خاتالىقلارنىڭ كۆپىيىپ كېتىشىنى كەلتۈرۈپ چىقىرىدۇ.",
+      "en": "AI-aided scanning of speech patterns, vocal stress or facial expressions to read minds lacks scientific backing and will compound errors, critics argue."
+    },
+    "content": {
+      "ug": "تەنقىدچىلەرنىڭ كۆرسىتىشىچە، سۆز ئەندىزىسى، ئاۋاز جىددىيلىكى ياكى يۈز ئىپادىسىگە قاراپ سۈنئىي ئەقىل ياردىمىدە كىشىلەرنىڭ نىيىتىنى ئوقۇش تېخنىكىسى ئىلىم-پەن ئاساسىدىن مەھرۇم بولۇپلا قالماستىن، بەلكى خاتالىقلارنىڭ كۆپىيىپ كېتىشىنى كەلتۈرۈپ چىقىرىدۇ.\n\n---\n📌 **مەنبە:** C4ISRNET",
+      "en": "AI-aided scanning of speech patterns, vocal stress or facial expressions to read minds lacks scientific backing and will compound errors, critics argue.\n\n---\n**Source:** C4ISRNET"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/CGSLKS4QGBEK5ARFHZQ7G6H3ME.jpg",
+    "author": "C4ISRNET",
+    "date": "2026-03-30",
+    "status": "published",
+    "featured": true,
+    "views": 92,
+    "tags": [
+      "پېگون",
+      "سۈنئىي ئەقىل",
+      "ھەربىي ئىستخبارات",
+      "مۇداپىئە تېخنىكىسى"
+    ],
+    "specs": {
+      "مەنبە": "C4ISRNET",
+      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/news/pentagon-congress/2026/10/05/has-the-pentagon-given-up-on-ai-polygraph-analysis-of-trustworthiness/",
+      "sourceUrl": "https://www.c4isrnet.com/news/pentagon-congress/2026/10/05/has-the-pentagon-given-up-on-ai-polygraph-analysis-of-trustworthiness/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792403494288_929",
     "category": "weapons",
     "title": {
@@ -3400,41 +3434,6 @@
       "مەنبە": "C4ISRNET",
       "ئەسلى ئۇلانما": "https://www.c4isrnet.com/global/europe/2026/10/05/germany-to-set-up-first-drone-regiment-next-year-modeled-after-ukraine-war-lessons/",
       "sourceUrl": "https://www.c4isrnet.com/global/europe/2026/10/05/germany-to-set-up-first-drone-regiment-next-year-modeled-after-ukraine-war-lessons/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791893138506_840",
-    "category": "weapons",
-    "title": {
-      "ug": "ئۇرسا مېيجور شىركىتى ئامېرىكا دېڭىز ئارمىيەسىنىڭ 137 مىليون دوللارلىق راكېتا ماتورى توختامىغا ئېرىشتى",
-      "en": "Ursa Major wins $137m US contract for CAAM and NMM rocket motors"
-    },
-    "summary": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيەسى «ئۇرسا مېيجور» ( ) شىركىتىگە «ئىخچام ھاۋادىن ھاۋاغا قويۇپ بېرىلىدىغان باشقۇرۇلىدىغان بومبا» (CAAM) ۋە «دېڭىز ئارمىيەسى مودۇللۇق باشقۇرۇلىدىغان بومبىسى» (NMM) پىروگراممىلىرى ئۈچۈن قاتتىق يېقىلغۇلۇق راكېتا ماتورلىرىنى...",
-      "en": "The US Navy has awarded Ursa Major two contracts worth a combined $137m to develop and qualify solid rocket motors for the Compact Air-to-Air Missile (CAAM) and Naval Modular Missile (NMM) programmes.\n\n\nThe post Ursa Major wins $137m US con"
-    },
-    "content": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيەسى «ئۇرسا مېيجور» ( ) شىركىتىگە «ئىخچام ھاۋادىن ھاۋاغا قويۇپ بېرىلىدىغان باشقۇرۇلىدىغان بومبا» (CAAM) ۋە «دېڭىز ئارمىيەسى مودۇللۇق باشقۇرۇلىدىغان بومبىسى» (NMM) پىروگراممىلىرى ئۈچۈن قاتتىق يېقىلغۇلۇق راكېتا ماتورلىرىنى تەتقىق قىلىپ ياساش ۋە سالاھىيەت بېكىتىش مەقسىتىدە، ئومۇمىي قىممىتى 137 مىليون دوللارلىق ئىككى تۈرلۈك توختام بەردى. مەزكۇر تۈر ئامېرىكا دېڭىز ئارمىيەسىنىڭ باشقۇرۇلىدىغان بومبا سىستېمىسىنى زامانىۋىلاشتۇرۇش ۋە ئۇرۇش ئىقتىدارىنى ئاشۇرۇش تىرىشچانلىقىنىڭ مۇھىم بىر قىسمىدۇر.\n\n---\n📌 **مەنبە:** ",
-      "en": "The US Navy has awarded Ursa Major two contracts worth a combined $137m to develop and qualify solid rocket motors for the Compact Air-to-Air Missile (CAAM) and Naval Modular Missile (NMM) programmes.\n\n\nThe post Ursa Major wins $137m US contract for CAAM and NMM rocket motors appeared first on Naval Technology.\n\n---\n**Source:** "
-    },
-    "imageUrl": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/10/Ursa-Major-1.jpg",
-    "author": "",
-    "date": "2024-05-22",
-    "status": "published",
-    "featured": true,
-    "views": 103,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "راكېتا",
-      "ئامېرىكا"
-    ],
-    "specs": {
-      "مەنبە": "",
-      "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/ursa-major-rocket-motors-contract/",
-      "sourceUrl": "https://www.naval-technology.com/news/ursa-major-rocket-motors-contract/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

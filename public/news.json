@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792490355374_552",
+    "category": "cyber",
+    "title": {
+      "ug": "ترامپ تەرەپدارلىرى فېدېراتسىيە كىبېر خەۋپسىزلىك ئورگانسىدىن ئاۋاز بېرىش ماشىنىسىنى مەخپىي ھالدا توردا بۇزۇپ كىرىشكە تەلەپ قىلغان",
+      "en": "Trump appointees asked a federal cybersecurity agency to secretly hack a voting machine"
+    },
+    "summary": {
+      "ug": "مەزكۇر تەلەپ فېدېراتسىيە خىزمەتچىلىرىدە قاتتىق سەپزە ۋە ئەندىشە پەيدا قىلغان بولۇپ، ئۇلار بۇ ئىشنىڭ سىياسىي جەھەتتىن سايلامغا ئارىلىشىش قىلمىشىغا چېتىلىپ قېلىشىدىن ئەنسىرەشكەن.",
+      "en": "The request shocked staffers, who feared they were being asked to take part in political interference."
+    },
+    "content": {
+      "ug": "مەزكۇر تەلەپ فېدېراتسىيە خىزمەتچىلىرىدە قاتتىق سەپزە ۋە ئەندىشە پەيدا قىلغان بولۇپ، ئۇلار بۇ ئىشنىڭ سىياسىي جەھەتتىن سايلامغا ئارىلىشىش قىلمىشىغا چېتىلىپ قېلىشىدىن ئەنسىرەشكەن.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "The request shocked staffers, who feared they were being asked to take part in political interference.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/19/GettyImages_2301019165/large.jpg",
+    "author": "Defense One",
+    "date": "2026-10-20",
+    "status": "published",
+    "featured": true,
+    "views": 77,
+    "tags": [
+      "كىبېر خەۋپسىزلىك",
+      "فېدېراتسىيە",
+      "سايلام",
+      "مۇداپىئە"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/10/trump-appointees-cybersecurity-agency-hack-voting-machine/416692/",
+      "sourceUrl": "https://www.defenseone.com/threats/2026/10/trump-appointees-cybersecurity-agency-hack-voting-machine/416692/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792490344481_364",
     "category": "weapons",
     "title": {
@@ -3388,40 +3422,6 @@
       "مەنبە": "",
       "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/kratos-j85-turbojet-engine/",
       "sourceUrl": "https://www.airforce-technology.com/news/kratos-j85-turbojet-engine/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791990668825_872",
-    "category": "weapons",
-    "title": {
-      "ug": "ئامېرىكا مۇداپىئە مىنىستىرى پېت ھېگسېت 2026-يىللىق AUSA يىغىنىدا ئاپتوماتلاشقان ئۇرۇش تېمىسىدىكى مۇھاكىمە يىغىنىدا سۆز قىلدى",
-      "en": "Watch live: Hegseth speaks on autonomous warfare panel at AUSA Annual 2026"
-    },
-    "summary": {
-      "ug": "ئامېرىكا مۇداپىئە مىنىستىرى پېت ھېگسېت 2026-يىللىق ئامېرىكا قۇرۇقلۇق ئارمىيەسى جەمئىيىتى (AUSA) يىللىق يىغىنى دائىرىسىدە ئۆتكۈزۈلگەن ئاپتوماتلاشقان ئۇرۇش تېمىسىدىكى يۇقىرى دەرىجىلىك مۇھاكىمە يىغىنىغا قاتنىشىپ، مەزكۇر مۇھاكىمە يىغىنىدا مەخسۇ...",
-      "en": "Secretary of War Pete Hegseth delivers remarks livestreamed from AUSA Annual 2026."
-    },
-    "content": {
-      "ug": "ئامېرىكا مۇداپىئە مىنىستىرى پېت ھېگسېت 2026-يىللىق ئامېرىكا قۇرۇقلۇق ئارمىيەسى جەمئىيىتى (AUSA) يىللىق يىغىنى دائىرىسىدە ئۆتكۈزۈلگەن ئاپتوماتلاشقان ئۇرۇش تېمىسىدىكى يۇقىرى دەرىجىلىك مۇھاكىمە يىغىنىغا قاتنىشىپ، مەزكۇر مۇھاكىمە يىغىنىدا مەخسۇس نۇتۇق سۆزلىدى ھەمدە بۇ سۆز توردا بىۋاسىتە تارقىتىلدى.\n\n---\n📌 **مەنبە:** C4ISRNET",
-      "en": "Secretary of War Pete Hegseth delivers remarks livestreamed from AUSA Annual 2026.\n\n---\n**Source:** C4ISRNET"
-    },
-    "imageUrl": "https://archetype-military-times-prod.web.arc-cdn.net/resizer/v2/undefined?width=1200&auth=",
-    "author": "C4ISRNET",
-    "date": "2026-10-14",
-    "status": "published",
-    "featured": true,
-    "views": 149,
-    "tags": [
-      "مۇداپىئە",
-      "ئەسكىرىي",
-      "ئاپتوماتلاشقان_ئۇرۇش",
-      "ئاۋات_مۇھاكىمە"
-    ],
-    "specs": {
-      "مەنبە": "C4ISRNET",
-      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/digital-show-dailies/ausa/2026/10/14/watch-live-hegseth-speaks-on-autonomous-warfare-panel-at-ausa-annual-2026/",
-      "sourceUrl": "https://www.c4isrnet.com/digital-show-dailies/ausa/2026/10/14/watch-live-hegseth-speaks-on-autonomous-warfare-panel-at-ausa-annual-2026/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

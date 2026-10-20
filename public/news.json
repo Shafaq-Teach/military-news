@@ -1,5 +1,38 @@
 [
   {
+    "id": "news_1792446893788_798",
+    "category": "cyber",
+    "title": {
+      "ug": "نۇرغۇنلىغان فېدېراتسىيە تور بېكەتلىرىدە ئاساسلىق جاسۇسلۇققا قارشى مۇداپىئە سىستېمىسى كەمچىل، دەپ كۆرسەت بىر سەناتور",
+      "en": "Hundreds of federal websites lack key defense against spies, senator says"
+    },
+    "summary": {
+      "ug": "فېدېراتسىيە ھۆكۈمىتىگە قاراشلىق يۈزلىگەن تور بېكەتلەردە دۆلەت خەۋپسىزلىكىگە تەھدىت سالىدىغان جاسۇسلۇق پائالىيەتلىرىگە قارشى تۇرىدىغان ئاچقۇچلۇق مۇداپىئە تەدبىرلىرىنىڭ يوقلىقى ئاشكارىلاندى. بۇ سەزگۈر تىزىملىككە فېدېراتسىيە تەپتىش مەھكىمىسى (...",
+      "en": "The list includes sites for FBI tips, intelligence job applications, and the Veterans Crisis Line."
+    },
+    "content": {
+      "ug": "فېدېراتسىيە ھۆكۈمىتىگە قاراشلىق يۈزلىگەن تور بېكەتلەردە دۆلەت خەۋپسىزلىكىگە تەھدىت سالىدىغان جاسۇسلۇق پائالىيەتلىرىگە قارشى تۇرىدىغان ئاچقۇچلۇق مۇداپىئە تەدبىرلىرىنىڭ يوقلىقى ئاشكارىلاندى. بۇ سەزگۈر تىزىملىككە فېدېراتسىيە تەپتىش مەھكىمىسى (FBI) نىڭ ئۇچۇر يوللاش سۇپىلىرى، ئىستخبارات تارماقلىرىنىڭ خىزمەتكە ئۆتۈش ئىلتىماس بېكەتلىرى ۋە تارىخىي ئارقا كۆرۈنۈشكە ئىگە ئارداگەرلەر كرىزىسى لىنىيىسى قاتارلىق مۇھىم ئورۇنلار كىرگەنلىكى بىلدۈرۈلدى.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "The list includes sites for FBI tips, intelligence job applications, and the Veterans Crisis Line.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/19/101626WydenNG-1/large.jpg",
+    "author": "Defense One",
+    "date": "2026-10-19",
+    "status": "published",
+    "featured": true,
+    "views": 101,
+    "tags": [
+      "مۇداپىئە",
+      "كىبېر خەۋپسىزلىك",
+      "ئىستخبارات"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/10/senator-warns-hundreds-federal-web-addresses-may-lack-key-spying-protection/416671/",
+      "sourceUrl": "https://www.defenseone.com/threats/2026/10/senator-warns-hundreds-federal-web-addresses-may-lack-key-spying-protection/416671/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1792442225260",
     "category": "analysis",
     "title": {
@@ -3396,41 +3429,6 @@
       "مەنبە": "",
       "ئەسلى ئۇلانما": "https://www.army-technology.com/news/ausa-2026-heavy-armour-out-drones-and-mobility-in/",
       "sourceUrl": "https://www.army-technology.com/news/ausa-2026-heavy-armour-out-drones-and-mobility-in/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791936627195_382",
-    "category": "weapons",
-    "title": {
-      "ug": "ئېيربۇس بىلەن كراتوس شىركىتى U740 ۋالكىرىيە ئادەمسىز ئايروپىلانىنىڭ ياۋروپادىكى تۇنجى ئۇچۇشىنى تاماملىدى",
-      "en": "Airbus and Kratos complete first European flight of U740 Valkyrie"
-    },
-    "summary": {
-      "ug": "ئېيربۇس () شىركىتى بىلەن كراتوس مۇداپىئە ۋە بىخەتەرلىك ھەل قىلىش چارىلىرى شىركىتى ( & ) بىرلىكتە ھەمكارلىشىپ، U740 ۋالكىرىيە (U740 ) ناملىق ئادەمسىز ئايروپىلاننىڭ ياۋروپا تەۋەلىكىدىكى تۇنجى قېتىملىق ئۇچۇش ۋەزىپىسىنى غەلىبىلىك ئورۇندىغانلىقى...",
-      "en": "Airbus and Kratos Defence & Security Solutions have completed the first European flight of the U740-Valkyrie uncrewed aircraft."
-    },
-    "content": {
-      "ug": "ئېيربۇس () شىركىتى بىلەن كراتوس مۇداپىئە ۋە بىخەتەرلىك ھەل قىلىش چارىلىرى شىركىتى ( & ) بىرلىكتە ھەمكارلىشىپ، U740 ۋالكىرىيە (U740 ) ناملىق ئادەمسىز ئايروپىلاننىڭ ياۋروپا تەۋەلىكىدىكى تۇنجى قېتىملىق ئۇچۇش ۋەزىپىسىنى غەلىبىلىك ئورۇندىغانلىقىنى ئېلان قىلدى. مەزكۇر سىناقنىڭ مۇۋەپپەقىيەتلىك بولۇشى ئىلغار ئادەمسىز ئۇچۇش سىستېمىلىرىنى ياۋروپا ھاۋا مۇداپىئە ساھەسىگە بىر گەۋدىلەشتۈرۈشتىكى مۇھىم بىر قەدەم ھېسابلىنىدۇ.\n\n---\n📌 **مەنبە:** ",
-      "en": "Airbus and Kratos Defence & Security Solutions have completed the first European flight of the U740-Valkyrie uncrewed aircraft.\n\n---\n**Source:** "
-    },
-    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/Airbus-U740.jpg",
-    "author": "",
-    "date": "2024-05-22",
-    "status": "published",
-    "featured": true,
-    "views": 65,
-    "tags": [
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "ئادەمسىز ئايروپىلان",
-      "ئېيربۇس",
-      "ياۋروپا"
-    ],
-    "specs": {
-      "مەنبە": "",
-      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/airbus-kratos-valkyrie-flight/",
-      "sourceUrl": "https://www.airforce-technology.com/news/airbus-kratos-valkyrie-flight/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792501170651_260",
+    "category": "weapons",
+    "title": {
+      "ug": "قورال-ياراغ، ئىقتىسادىي ئۆسۈش ۋە گېرمانىيەنىڭ ھەربىي كېينېسچىلىقنى قايتىدىن يارىتىشى",
+      "en": "Guns, Growth, and the German Reinvention of Military Keynesianism"
+    },
+    "summary": {
+      "ug": "2025-يىلى مارتتا گېرمانىيە مالىيە قائىدىسىنى بوشاشتۇرۇپلا قالماي، ياۋروپادىكى ناچارلىشىۋاتقان خەۋپسىزلىك تەرتىپى ۋە چېكىنىۋاتقان سانائەت ئەندىزىسى قاتارلىق ئىككى چوڭ دۆلەتلىك جىددىي ۋەزىيەتنى بىرلىككە كەلتۈرۈپ، بىر تۇتاش ئاساسىي قانۇن كېلىش...",
+      "en": "In March 2025, Germany did more than loosen a fiscal rule. It fused two national emergencies &#8212; a deteriorating European security order and a deteriorating industrial model &#8212; into a single constitutional bargain. The reform de fa"
+    },
+    "content": {
+      "ug": "2025-يىلى مارتتا گېرمانىيە مالىيە قائىدىسىنى بوشاشتۇرۇپلا قالماي، ياۋروپادىكى ناچارلىشىۋاتقان خەۋپسىزلىك تەرتىپى ۋە چېكىنىۋاتقان سانائەت ئەندىزىسى قاتارلىق ئىككى چوڭ دۆلەتلىك جىددىي ۋەزىيەتنى بىرلىككە كەلتۈرۈپ، بىر تۇتاش ئاساسىي قانۇن كېلىشىمى ھاسىل قىلدى. گېرمانىيە فېدېراتىپ بانكىسىمۇ ئېتىراپ قىلغىنىدەك، بۇ ئىسلاھات گېرمانىيەنىڭ مۇداپىئە چىقىملىرىنى ھەرقانداق دۆلەت ئىچىدىكى خامچوت چېكىدىن ئەمەلىيەتتە ئازاد قىلدى ھەمدە غايەت زور كۆلەمدىكى ھەربىي كېڭىيىشنى ئىشقا ئاشۇردى.\n\n---\n📌 **مەنبە:** War on the Rocks",
+      "en": "In March 2025, Germany did more than loosen a fiscal rule. It fused two national emergencies &#8212; a deteriorating European security order and a deteriorating industrial model &#8212; into a single constitutional bargain. The reform de facto exempted German defense expenditure from any domestic budgetary ceiling &#8212; as the German Bundesbank itself has acknowledged &#8212; and enabled a military expansion of extraordinary proportions. E.U. debt rules of 3 percent of GDP for annual government deficits and 60 percent for public debt technically still apply &#8212; though 14 out of the 27 Eurozone countries are not expected to meet these rules\n\n\nThe post Guns, Growth, and the German Reinvention of Military Keynesianism appeared first on War on the Rocks.\n\n---\n**Source:** War on the Rocks"
+    },
+    "imageUrl": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-48091-6b80ddd95a17.jpg",
+    "author": "War on the Rocks",
+    "date": "2025-03-15",
+    "status": "published",
+    "featured": true,
+    "views": 163,
+    "tags": [
+      "گېرمانىيە",
+      "مۇداپىئە",
+      "ئىقتىساد",
+      "ھەربىي كېڭىيىش"
+    ],
+    "specs": {
+      "مەنبە": "War on the Rocks",
+      "ئەسلى ئۇلانما": "https://warontherocks.com/guns-growth-and-the-german-reinvention-of-military-keynesianism/",
+      "sourceUrl": "https://warontherocks.com/guns-growth-and-the-german-reinvention-of-military-keynesianism/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792490355374_552",
     "category": "cyber",
     "title": {
@@ -3388,40 +3422,6 @@
       "مەنبە": "",
       "ئەسلى ئۇلانما": "https://www.army-technology.com/news/ausa-2026-raucous-scenes-as-protesters-disrupt-keynote-panel/",
       "sourceUrl": "https://www.army-technology.com/news/ausa-2026-raucous-scenes-as-protesters-disrupt-keynote-panel/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791990684195_469",
-    "category": "weapons",
-    "title": {
-      "ug": "كراتوس شىركىتى J85 تۇربوۋېنتلىق ماتورىنىڭ ئۈچ خىل قويۇپ بېرىش ھالىتىدىكى سىناقلىرىنى مۇۋەپپەقىيەتلىك تاماملىدى",
-      "en": "Kratos tests J85 turbojet engine in three launch configurations"
-    },
-    "summary": {
-      "ug": "ئامېرىكانىڭ مۇداپىئە ۋە بىخەتەرلىك ھەل قىلىش چارىلىرى بىلەن تەمىنلىگۈچى كراتوس ( & ) شىركىتى، ئۆزىنىڭ TDI-J85 تۇربوۋېنتلىق ماتورىنى ئاسما، پالتالىق ۋە يەر يۈزىدىن يەر يۈزىگە قويۇپ بېرىش قاتارلىق ئۈچ خىل ئوخشاش بولمىغان سەپلىمە ھالىتىدە ئۇچۇ...",
-      "en": "Kratos Defence & Security Solutions has completed flight tests of its TDI-J85 turbojet engine in lugged-launch, palletised-launch and surface-to-surface configurations."
-    },
-    "content": {
-      "ug": "ئامېرىكانىڭ مۇداپىئە ۋە بىخەتەرلىك ھەل قىلىش چارىلىرى بىلەن تەمىنلىگۈچى كراتوس ( & ) شىركىتى، ئۆزىنىڭ TDI-J85 تۇربوۋېنتلىق ماتورىنى ئاسما، پالتالىق ۋە يەر يۈزىدىن يەر يۈزىگە قويۇپ بېرىش قاتارلىق ئۈچ خىل ئوخشاش بولمىغان سەپلىمە ھالىتىدە ئۇچۇش سىناقلىرىدىن ئۆتكۈزدى.\n\n---\n📌 **مەنبە:** ",
-      "en": "Kratos Defence & Security Solutions has completed flight tests of its TDI-J85 turbojet engine in lugged-launch, palletised-launch and surface-to-surface configurations.\n\n---\n**Source:** "
-    },
-    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/Kratos.jpg",
-    "author": "",
-    "date": "2026-10-14",
-    "status": "published",
-    "featured": true,
-    "views": 49,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "مۇداپىئە"
-    ],
-    "specs": {
-      "مەنبە": "",
-      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/kratos-j85-turbojet-engine/",
-      "sourceUrl": "https://www.airforce-technology.com/news/kratos-j85-turbojet-engine/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792501191643_23",
+    "category": "weapons",
+    "title": {
+      "ug": "2026-يىللىق ئامېرىكا قۇرۇقلۇق ئارمىيەسى كۆرگەزمىسىنىڭ ئىككىنچى كۈنىدىكى ئەڭ يېڭى ۋەقەلىكلەر ۋە مەخسۇس سۆھبەتلەر",
+      "en": "Watch AUSA 2026 Day 2: Live"
+    },
+    "summary": {
+      "ug": "مەزكۇر مۇداپىئە كۆرگەزمىسىنىڭ مەيدانىدىن تارقىتىلىۋاتقان ئەڭ يېڭى سۆھبەتلەر، مۇھىم پائالىيەتلەر ۋە بارلىق ھەربىي ھەرىكەتلەرنىڭ جەريانلىرىنى بىۋاسىتە كۆزىتىپ بېرىڭ.",
+      "en": "Catch interviews, events, and all the action from the show floor right here."
+    },
+    "content": {
+      "ug": "مەزكۇر مۇداپىئە كۆرگەزمىسىنىڭ مەيدانىدىن تارقىتىلىۋاتقان ئەڭ يېڭى سۆھبەتلەر، مۇھىم پائالىيەتلەر ۋە بارلىق ھەربىي ھەرىكەتلەرنىڭ جەريانلىرىنى بىۋاسىتە كۆزىتىپ بېرىڭ.\n\n---\n📌 **مەنبە:** C4ISRNET",
+      "en": "Catch interviews, events, and all the action from the show floor right here.\n\n---\n**Source:** C4ISRNET"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/2LPJ45TXPFHTBNE24YPW32Q6KM.jpg",
+    "author": "C4ISRNET",
+    "date": "2026-10-20",
+    "status": "published",
+    "featured": true,
+    "views": 86,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "مۇداپىئە",
+      "كۆرگەزمە"
+    ],
+    "specs": {
+      "مەنبە": "C4ISRNET",
+      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/digital-show-dailies/ausa/2026/10/13/watch-ausa-2026-day-2-live/",
+      "sourceUrl": "https://www.c4isrnet.com/digital-show-dailies/ausa/2026/10/13/watch-ausa-2026-day-2-live/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792501170651_260",
     "category": "weapons",
     "title": {
@@ -3388,40 +3422,6 @@
       "مەنبە": "",
       "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/safe-us-marine-corps-mule/",
       "sourceUrl": "https://www.naval-technology.com/news/safe-us-marine-corps-mule/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792000538235_203",
-    "category": "weapons",
-    "title": {
-      "ug": "2026-يىللىق AUSA يىغىنى: نامايىشچىلار ئاساسلىق مۇنبەرنى قالايمىقانلاشتۇردى",
-      "en": "AUSA 2026: raucous scenes as protesters disrupt keynote panel"
-    },
-    "summary": {
-      "ug": "2026-يىللىق ئامېرىكا قۇرۇقلۇق ئارمىيەسى جەمئىيىتى (AUSA 2026) يىغىنىدا ماسلاشتۇرۇلغان بىر يۈرۈش نامايىشلار ئاساسلىق مۇنبەر مۇھاكىمىسىنى ئۈزۈپ تاشلىدى، بۇ قېتىمقى نارازىلىق نامايىشىدا مۇداپىئە مىنىستىرى پېت ھېگسەت ( ) نىشانغا ئېلىندى.",
-      "en": "A coordinated series of protests interrupted a keynote panel discussion at AUSA 2026, with Secretary of War Pete Hegseth the target."
-    },
-    "content": {
-      "ug": "2026-يىللىق ئامېرىكا قۇرۇقلۇق ئارمىيەسى جەمئىيىتى (AUSA 2026) يىغىنىدا ماسلاشتۇرۇلغان بىر يۈرۈش نامايىشلار ئاساسلىق مۇنبەر مۇھاكىمىسىنى ئۈزۈپ تاشلىدى، بۇ قېتىمقى نارازىلىق نامايىشىدا مۇداپىئە مىنىستىرى پېت ھېگسەت ( ) نىشانغا ئېلىندى.\n\n---\n📌 **مەنبە:** ",
-      "en": "A coordinated series of protests interrupted a keynote panel discussion at AUSA 2026, with Secretary of War Pete Hegseth the target.\n\n---\n**Source:** "
-    },
-    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/10/speech-panel.png",
-    "author": "",
-    "date": "2026-10-14",
-    "status": "published",
-    "featured": true,
-    "views": 80,
-    "tags": [
-      "ھەربىي",
-      "AUSA 2026",
-      "نامايىش",
-      "مۇداپىئە مىنىستىرى"
-    ],
-    "specs": {
-      "مەنبە": "",
-      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/ausa-2026-raucous-scenes-as-protesters-disrupt-keynote-panel/",
-      "sourceUrl": "https://www.army-technology.com/news/ausa-2026-raucous-scenes-as-protesters-disrupt-keynote-panel/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,38 @@
 [
   {
+    "id": "news_1792457708171_631",
+    "category": "weapons",
+    "title": {
+      "ug": "F-22 ئايروپىلانى ھاۋادىكى ئاپتونومىيە سىنىقى جەريانىدا YFQ-44A تىپلىق ئۇچقۇچىسىز ئايروپىلاننى (دىرون) باشقۇردى",
+      "en": "F-22 directs YFQ-44A drone in airborne autonomy test"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى مىنىستىرلىقى F-22 تىپلىق راداردىن يوشۇرۇنغۇچى جەڭگىۋار ئايروپىلان ئارقىلىق YFQ-44A تىپلىق ھەمكارلاشقۇچى جەڭگىۋار ئۇچقۇچىسىز ئايروپىلاننى (CCA) ھاۋادىن تكتىكىلىق جەھەتتىن قوماندانلىق قىلىش ۋە تىزگىنلەش سىنىقىنى مۇۋەپپ...",
+      "en": "The US Department of the Air Force (DAF) has demonstrated airborne tactical control of a YFQ-44A Collaborative Combat Aircraft (CCA) from an F-22 Raptor."
+    },
+    "content": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى مىنىستىرلىقى F-22 تىپلىق راداردىن يوشۇرۇنغۇچى جەڭگىۋار ئايروپىلان ئارقىلىق YFQ-44A تىپلىق ھەمكارلاشقۇچى جەڭگىۋار ئۇچقۇچىسىز ئايروپىلاننى (CCA) ھاۋادىن تكتىكىلىق جەھەتتىن قوماندانلىق قىلىش ۋە تىزگىنلەش سىنىقىنى مۇۋەپپەقىيەتلىك تاماملانغانلىقىنى جاكارلىدى.\n\n---\n📌 **مەنبە:** Air Force Technology",
+      "en": "The US Department of the Air Force (DAF) has demonstrated airborne tactical control of a YFQ-44A Collaborative Combat Aircraft (CCA) from an F-22 Raptor.\n\n---\n**Source:** Air Force Technology"
+    },
+    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/YFQ-44A-drone.jpg",
+    "author": "Air Force Technology",
+    "date": "2026-10-20",
+    "status": "published",
+    "featured": true,
+    "views": 156,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "Air Force Technology",
+      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/fpq-44a-cca-f22-test/",
+      "sourceUrl": "https://www.airforce-technology.com/news/fpq-44a-cca-f22-test/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792457699537_949",
     "category": "drones",
     "title": {
@@ -3394,41 +3427,6 @@
       "مەنبە": "(TWZ)",
       "ئەسلى ئۇلانما": "https://www.twz.com/sponsored-content/airbus-details-progress-with-lakota-connector-uncrewed-cargo-helicopter",
       "sourceUrl": "https://www.twz.com/sponsored-content/airbus-details-progress-with-lakota-connector-uncrewed-cargo-helicopter",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791958226899_15",
-    "category": "drones",
-    "title": {
-      "ug": "«پارروت» شىركىتى ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ د / سېتىۋېلىش پىلانىدىكى ئورنىنى تېخىمۇ مۇستەھكەملىدى",
-      "en": "Parrot Strengthens Its Position in U.S. Army Drone Procurement Programs"
-    },
-    "summary": {
-      "ug": "ياۋروپانىڭ كەسپىي كىچىك تىپتىكى ئۇچقۇچىسىز ئايروپىلان (مىكرو دىرون) ساھەسىدىكى ئەڭ ئالدىنقى قاتاردىكى شىركەتلىرىنىڭ بىرى بولغان «پارروت» ()، ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ ئۇچقۇچىسىز ئايروپىلان سىستېمىلىرىنى سېتىۋېلىش ۋە تەمىنلەش پروگراممىل...",
-      "en": "Parrot, a European leader in professional micro-UAV systems, today announces significant progress in its engagement"
-    },
-    "content": {
-      "ug": "ياۋروپانىڭ كەسپىي كىچىك تىپتىكى ئۇچقۇچىسىز ئايروپىلان (مىكرو دىرون) ساھەسىدىكى ئەڭ ئالدىنقى قاتاردىكى شىركەتلىرىنىڭ بىرى بولغان «پارروت» ()، ئامېرىكا قۇرۇقلۇق ئارمىيەسىنىڭ ئۇچقۇچىسىز ئايروپىلان سىستېمىلىرىنى سېتىۋېلىش ۋە تەمىنلەش پروگراممىلىرىغا قاتنىشىش مۇساپىسىدە زور ئىستراتېگىيەلىك ئىلگىرىلەشلەرنى قولغا كەلتۈرگەنلىكىنى جاكارلىدى.\n\n---\n📌 **مەنبە:** ()",
-      "en": "Parrot, a European leader in professional micro-UAV systems, today announces significant progress in its engagement\n\n---\n**Source:** ()"
-    },
-    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/parrot-us-army.webp?fit=450%2C228&#038;ssl=1",
-    "author": "()",
-    "date": "2025-05-20",
-    "status": "published",
-    "featured": true,
-    "views": 99,
-    "tags": [
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "ئامېرىكا ئارمىيەسى",
-      "پارروت",
-      "مۇداپىئە كېلىشىمى",
-      "ھەربىي تېخنىكا"
-    ],
-    "specs": {
-      "مەنبە": "()",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/parrot-strengthens-its-position-in-u-s-army-drone-procurement-programs/",
-      "sourceUrl": "https://www.suasnews.com/2026/10/parrot-strengthens-its-position-in-u-s-army-drone-procurement-programs/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

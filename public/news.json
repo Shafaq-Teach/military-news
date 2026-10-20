@@ -1,5 +1,38 @@
 [
   {
+    "id": "news_1792468504042_445",
+    "category": "weapons",
+    "title": {
+      "ug": "غەرب دۆلەتلىرىنىڭ ئوق-دورا زاپىسىنى تولۇقلاش تەلىپى ئېنېرگىيەلىك ماتېرىياللارغا بولغان ئېھتىياجنى ئاشۇردى",
+      "en": "Demand signal: SWEBAL on Western energetics needs"
+    },
+    "summary": {
+      "ug": "غەرب دۆلەتلىرى ئۆزلىرىنىڭ جىددىي تۆۋەنلەپ كەتكەن ئوق-دورا زاپاسلىرىنى قايتىدىن تولۇقلاشقا ئۇرۇنماقتا، بۇ ئەھۋال باشقۇرۇلىدىغان بومبا جەڭكاللىكى ھەم ئىتتىرگۈچى يېقىلغۇلاردا ئىشلىتىلىدىغان ئېنېرگىيەلىك پارتلاتقۇچ ماتېرىياللىرىغا بولغان تەلەپن...",
+      "en": "Western countries are looking to replenish ammunition supplies, creating demand on energetics material used in warheads and propellent."
+    },
+    "content": {
+      "ug": "غەرب دۆلەتلىرى ئۆزلىرىنىڭ جىددىي تۆۋەنلەپ كەتكەن ئوق-دورا زاپاسلىرىنى قايتىدىن تولۇقلاشقا ئۇرۇنماقتا، بۇ ئەھۋال باشقۇرۇلىدىغان بومبا جەڭكاللىكى ھەم ئىتتىرگۈچى يېقىلغۇلاردا ئىشلىتىلىدىغان ئېنېرگىيەلىك پارتلاتقۇچ ماتېرىياللىرىغا بولغان تەلەپنى ئىنتايىن يۇقىرى پەللىگە كۆتۈردى.\n\n---\n📌 **مەنبە:** Army Technology",
+      "en": "Western countries are looking to replenish ammunition supplies, creating demand on energetics material used in warheads and propellent.\n\n---\n**Source:** Army Technology"
+    },
+    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/10/M777-firing.jpg",
+    "author": "Army Technology",
+    "date": "2026-03-29",
+    "status": "published",
+    "featured": true,
+    "views": 44,
+    "tags": [
+      "ھەربىي سانائەت",
+      "ئوق-دورا",
+      "مۇداپىئە"
+    ],
+    "specs": {
+      "مەنبە": "Army Technology",
+      "ئەسلى ئۇلانما": "https://www.army-technology.com/features/demand-signal-swebal-on-western-energetics-needs/",
+      "sourceUrl": "https://www.army-technology.com/features/demand-signal-swebal-on-western-energetics-needs/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792457708171_631",
     "category": "weapons",
     "title": {
@@ -3393,40 +3426,6 @@
       "مەنبە": "",
       "ئەسلى ئۇلانما": "https://www.defensenews.com/industry/techwatch/2026/10/14/us-army-hackathon-sets-backdrop-for-an-ausa-focused-on-autonomy/",
       "sourceUrl": "https://www.defensenews.com/industry/techwatch/2026/10/14/us-army-hackathon-sets-backdrop-for-an-ausa-focused-on-autonomy/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791958262153_722",
-    "category": "aviation",
-    "title": {
-      "ug": "ئەيربۇس شىركىتى «لاكوتا كوننېكتور» ناملىق ئادەمسىز يۈك تىك ئۇچار ئايروپىلانىنىڭ تەرەققىيات ئەھۋالىنى ئاشكارىلىدى",
-      "en": "Airbus Details Progress With Lakota Connector Uncrewed Cargo Helicopter"
-    },
-    "summary": {
-      "ug": "ئەيربۇس () شىركىتى ئۆزىنىڭ «لاكوتا كوننېكتور» ( ) ناملىق ئادەمسىز يۈك تىك ئۇچار ئايروپىلانىنىڭ تەرەققىيات مۇساپىسىگە ئائىت يېڭى تەپسىلاتلارنى ئاشكارىلىدى. مەزكۇر ئايروپىلان ئۈزلۈكسىز ئەشيا ئوبوروتى بىلەن تەمىنلەش ئىقتىدارىنى ئۆستۈرۈش ئۈچۈن ...",
-      "en": "Branded Content: This aircraft is planned to enable continuous logistics support, while reducing sustainment requirements and risk to personnel.\n\n\nThe post Airbus Details Progress With Lakota Connector Uncrewed Cargo Helicopter appeared fir"
-    },
-    "content": {
-      "ug": "ئەيربۇس () شىركىتى ئۆزىنىڭ «لاكوتا كوننېكتور» ( ) ناملىق ئادەمسىز يۈك تىك ئۇچار ئايروپىلانىنىڭ تەرەققىيات مۇساپىسىگە ئائىت يېڭى تەپسىلاتلارنى ئاشكارىلىدى. مەزكۇر ئايروپىلان ئۈزلۈكسىز ئەشيا ئوبوروتى بىلەن تەمىنلەش ئىقتىدارىنى ئۆستۈرۈش ئۈچۈن لايىھەلەنگەن بولۇپ، ئۇ ئاسراش تەننەرخىنى تۆۋەنلىتىش بىلەن بىر ۋاقىتتا، ھەربىي خادىملار دۇچ كېلىدىغان خەۋپ-خەتەرنى ئەڭ تۆۋەن چەككە چۈشۈرۈشنى مەقسەت قىلىدۇ.\n\n---\n📌 **مەنبە:** (TWZ)",
-      "en": "Branded Content: This aircraft is planned to enable continuous logistics support, while reducing sustainment requirements and risk to personnel.\n\n\nThe post Airbus Details Progress With Lakota Connector Uncrewed Cargo Helicopter appeared first on TWZ.\n\n---\n**Source:** (TWZ)"
-    },
-    "imageUrl": "https://www.twz.com/wp-content/uploads/2026/10/Lakota-Connector-Rendering.jpg?quality=85",
-    "author": "(TWZ)",
-    "date": "2024-05-22",
-    "status": "published",
-    "featured": true,
-    "views": 42,
-    "tags": [
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "ئادەمسىز ئايروپىلان",
-      "ئەيربۇس"
-    ],
-    "specs": {
-      "مەنبە": "(TWZ)",
-      "ئەسلى ئۇلانما": "https://www.twz.com/sponsored-content/airbus-details-progress-with-lakota-connector-uncrewed-cargo-helicopter",
-      "sourceUrl": "https://www.twz.com/sponsored-content/airbus-details-progress-with-lakota-connector-uncrewed-cargo-helicopter",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

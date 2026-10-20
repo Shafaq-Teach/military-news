@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792479434341_792",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا ئارمىيەسى ئادەم شەكلىدىكى ماشىنا ئادەملەرنىڭ ھەربىي ساھەدىكى قوللىنىش ئىمكانىيەتلىرى ئۈستىدە ئىزدىنىش مۇسابىقىسى ئۆتكۈزدى",
+      "en": "US Army competition explores military uses for humanoid robots"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ئارمىيەسى ھەربىي ساھەگە ماس كېلىدىغان ئادەم شەكلىدىكى ماشىنا ئادەملەرنى تەرەققىي قىلدۇرۇش ۋە ئۇلارنىڭ جەڭ مەيدانىدىكى ئەمەلىي قىممىتىنى باھالاش ئۈچۈن يېڭى بىر نۆۋەتلىك مۇسابىقە پائالىيىتىنى قوزغىدى. گەرچە كىنو سىنارىيەلىرىدىكى «تېر...",
+      "en": "They're still a long way off from mass-producing Terminators."
+    },
+    "content": {
+      "ug": "ئامېرىكا ئارمىيەسى ھەربىي ساھەگە ماس كېلىدىغان ئادەم شەكلىدىكى ماشىنا ئادەملەرنى تەرەققىي قىلدۇرۇش ۋە ئۇلارنىڭ جەڭ مەيدانىدىكى ئەمەلىي قىممىتىنى باھالاش ئۈچۈن يېڭى بىر نۆۋەتلىك مۇسابىقە پائالىيىتىنى قوزغىدى. گەرچە كىنو سىنارىيەلىرىدىكى «تېرمىناتور» دەرىجىلىك قوراللىق ماشىنا ئادەملەرنى كەڭ كۆلەمدە ئىشلەپچىقىرىش ۋە مەيدانغا سېلىشقا تېخىمۇ خېلى ئۇزۇن ۋاقىت كېرەك بولسىمۇ، بىراق نۆۋەتتىكى تېخنىكىلىق تەتقىقاتلار بۇ ساھەنىڭ كەلگۈسى ئىستىقبالىدىن بشارەت بەرمەكتە.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "They're still a long way off from mass-producing Terminators.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/XQ6LFK35VRHNHOJEGOR4W7VSQM.JPG",
+    "author": "Defense News",
+    "date": "2026-10-20",
+    "status": "published",
+    "featured": true,
+    "views": 143,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "تېخنىكا",
+      "ماشىنا ئادەم"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/industry/techwatch/2026/10/16/us-army-competition-explores-military-uses-for-humanoid-robots/",
+      "sourceUrl": "https://www.defensenews.com/industry/techwatch/2026/10/16/us-army-competition-explores-military-uses-for-humanoid-robots/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792479428922_311",
     "category": "weapons",
     "title": {
@@ -3390,40 +3424,6 @@
       "مەنبە": "",
       "ئەسلى ئۇلانما": "https://warontherocks.com/the-mecca-pact-and-pakistans-bid-to-become-indispensable/",
       "sourceUrl": "https://warontherocks.com/the-mecca-pact-and-pakistans-bid-to-become-indispensable/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1791979861540_735",
-    "category": "weapons",
-    "title": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى «كېلەچەك ۋە ئۇقۇم قوماندانلىق ئورگىنى»نى «كېلەچەك ۋە ئاپتونومىيە قوماندانلىق ئورگىنى»غا ئۆزگەرتتى",
-      "en": "Army converts Futures and Concepts Command to Futures and Autonomy Command"
-    },
-    "summary": {
-      "ug": "مەسئۇل ئورگانلار مۇداپىئە مىنىستىرلىقىنىڭ يېڭىدىن تەشكىللەنگەن ئاپتونوم جەڭ قوماندانلىق شتابىغا قارايدىغان تەركىبىي قىسىملىرىنىڭ ئورۇنلاشتۇرۇلۇشىغا ئائىت تېخىمۇ كۆپ تەپسىلاتلارنى ئېلان قىلدى.",
-      "en": "Officials released more details about its component organization under the Defense Department’s new Autonomous Warfare Command."
-    },
-    "content": {
-      "ug": "مەسئۇل ئورگانلار مۇداپىئە مىنىستىرلىقىنىڭ يېڭىدىن تەشكىللەنگەن ئاپتونوم جەڭ قوماندانلىق شتابىغا قارايدىغان تەركىبىي قىسىملىرىنىڭ ئورۇنلاشتۇرۇلۇشىغا ئائىت تېخىمۇ كۆپ تەپسىلاتلارنى ئېلان قىلدى.\n\n---\n📌 **مەنبە:** ",
-      "en": "Officials released more details about its component organization under the Defense Department’s new Autonomous Warfare Command.\n\n---\n**Source:** "
-    },
-    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/13/9966431/large.jpg",
-    "author": "",
-    "date": "2026-03-29",
-    "status": "published",
-    "featured": true,
-    "views": 86,
-    "tags": [
-      "ئامېرىكا ئارمىيەسى",
-      "مۇداپىئە",
-      "ئاپتونومىيە",
-      "ھەربىي ئىسلاھات"
-    ],
-    "specs": {
-      "مەنبە": "",
-      "ئەسلى ئۇلانما": "https://www.defenseone.com/technology/2026/10/army-converts-futures-and-concepts-command-futures-and-autonomy-command/416576/",
-      "sourceUrl": "https://www.defenseone.com/technology/2026/10/army-converts-futures-and-concepts-command-futures-and-autonomy-command/416576/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792600356777_484",
+    "category": "cyber",
+    "title": {
+      "ug": "مەخپىيەتلىك بىر تەرەپ قىلىش تىزىملىكىگە «سۈنئىي ئەقىلدىن كېيىنكى» شىفىرلاش تېخنىكىسىنى قوشۇڭ",
+      "en": "Add ‘post-AI’ encryption to your to-do list"
+    },
+    "summary": {
+      "ug": "ئوچېن ئاي شىركىتىدىكى تۆت يۈزدىن ئارتۇق ماتېماتىكىلىق تەتقىقات نەتىجىسى ئەنئەنىۋى شىفىرلاش ئۇسۇللىرىنىڭ ئېغىر خەۋپكە دۇچ كېلىش ئېھتىماللىقى بارلىقىدىن دېرەك بەرمەكتە.",
+      "en": "OpenAI’s trove of 400+ math results suggests traditional encryption may be at risk."
+    },
+    "content": {
+      "ug": "ئوچېن ئاي شىركىتىدىكى تۆت يۈزدىن ئارتۇق ماتېماتىكىلىق تەتقىقات نەتىجىسى ئەنئەنىۋى شىفىرلاش ئۇسۇللىرىنىڭ ئېغىر خەۋپكە دۇچ كېلىش ئېھتىماللىقى بارلىقىدىن دېرەك بەرمەكتە.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "OpenAI’s trove of 400+ math results suggests traditional encryption may be at risk.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/21/GettyImages_2283773175/large.jpg",
+    "author": "Defense One",
+    "date": "2026-03-30",
+    "status": "published",
+    "featured": true,
+    "views": 76,
+    "tags": [
+      "ھەربىي",
+      "ئەسكىرىي",
+      "كىبېر",
+      "شىفىرلاش"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/technology/2026/10/add-post-ai-encryption-your-do-list/416722/",
+      "sourceUrl": "https://www.defenseone.com/technology/2026/10/add-post-ai-encryption-your-do-list/416722/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792600278334_885",
     "category": "weapons",
     "title": {
@@ -3417,40 +3451,6 @@
       "مەنبە": "Army Technology",
       "ئەسلى ئۇلانما": "https://www.army-technology.com/news/renk-knds-leopard2-transmission/",
       "sourceUrl": "https://www.army-technology.com/news/renk-knds-leopard2-transmission/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792132027342_555",
-    "category": "weapons",
-    "title": {
-      "ug": "بەل شىركىتى MV-75 چايان تىپلىق ئايروپىلاننىڭ تۇنجى گوندولا قۇرۇلمىسىنى تاماملىدى ھەمدە سۈرئەت ئۆزگەرتكۈچ سىستېمىسىنى سىناق قىلىشقا باشلىدى",
-      "en": "Bell completes first MV-75 Cheyenne nacelles, starts gearbox testing"
-    },
-    "summary": {
-      "ug": "بەل تېكىسترون ( ) شىركىتى MV-75 چايان تىپلىق سىناق ئايروپىلانى ئۈچۈن تۇنجى قېتىم گوندولا () قۇرۇلمىسىنى ياساپ بولدى ۋە مەزكۇر ئايروپىلاننىڭ سۈرئەت ئۆزگەرتكۈچ () سىستېمىسىنى سىناق قىلىش خىزمىتىنى رەسمىي باشلىدى.",
-      "en": "Bell Textron has completed the first nacelle structures for its MV-75 Cheyenne test aircraft and begun testing the aircraft’s gearbox system."
-    },
-    "content": {
-      "ug": "بەل تېكىسترون ( ) شىركىتى MV-75 چايان تىپلىق سىناق ئايروپىلانى ئۈچۈن تۇنجى قېتىم گوندولا () قۇرۇلمىسىنى ياساپ بولدى ۋە مەزكۇر ئايروپىلاننىڭ سۈرئەت ئۆزگەرتكۈچ () سىستېمىسىنى سىناق قىلىش خىزمىتىنى رەسمىي باشلىدى.\n\n---\n📌 **مەنبە:** Air Force Technology",
-      "en": "Bell Textron has completed the first nacelle structures for its MV-75 Cheyenne test aircraft and begun testing the aircraft’s gearbox system.\n\n---\n**Source:** Air Force Technology"
-    },
-    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/MV-75-Cheyenne.jpg",
-    "author": "Air Force Technology",
-    "date": "2026-10-16",
-    "status": "published",
-    "featured": true,
-    "views": 72,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "ئاۋىئاتسىيە"
-    ],
-    "specs": {
-      "مەنبە": "Air Force Technology",
-      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/bell-mv-75-cheyenne/",
-      "sourceUrl": "https://www.airforce-technology.com/news/bell-mv-75-cheyenne/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

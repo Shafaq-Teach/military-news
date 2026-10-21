@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792611680478_625",
+    "category": "drones",
+    "title": {
+      "ug": "ئەۋۇرپا دۆلەتلىرى ئۇچقۇچىسىز ئايروپىلانلارغا تاقابىل تۇرۇش ئۈچۈن ئۇل ئەسلىھە شىركەتلىرىگە تېخىمۇ كۆپ ھوقۇق بېرىشنى ئويلاشماقتا",
+      "en": "Europe weighs giving utilities, infrastructure companies more powers to bring down drones"
+    },
+    "summary": {
+      "ug": "رۇس ئارمىيەسىنىڭ ھۇجۇملىرىدىن كېيىن ئۇكرائىنادا مىليونلىغان كىشىنىڭ توكسىز قالغانلىقىدەك ۋەقەلەرنىڭ كۆپەيگەنلىكىنى كۆزدە تۇتقان مۇداپىئە ئەمەلدارلىرى، ئۇچقۇچىسىز ئايروپىلانلارنىڭ ئېلېكتر ۋە مۇھىم ئۇل ئەسلىھە تۈگۈنلىرىگە زىيان يەتكۈزۈش خەۋپى...",
+      "en": "Offials are worried that drone attacks could knock out power to millions of people — as has happened frequently in Ukraine after Russian strikes."
+    },
+    "content": {
+      "ug": "رۇس ئارمىيەسىنىڭ ھۇجۇملىرىدىن كېيىن ئۇكرائىنادا مىليونلىغان كىشىنىڭ توكسىز قالغانلىقىدەك ۋەقەلەرنىڭ كۆپەيگەنلىكىنى كۆزدە تۇتقان مۇداپىئە ئەمەلدارلىرى، ئۇچقۇچىسىز ئايروپىلانلارنىڭ ئېلېكتر ۋە مۇھىم ئۇل ئەسلىھە تۈگۈنلىرىگە زىيان يەتكۈزۈش خەۋپىدىن قاتتىق ئەنسىرەشمەكتە.\n\n---\n📌 **مەنبە:** C4ISRNET",
+      "en": "Offials are worried that drone attacks could knock out power to millions of people — as has happened frequently in Ukraine after Russian strikes.\n\n---\n**Source:** C4ISRNET"
+    },
+    "imageUrl": "https://one.sightlinemg.com/wp-content/uploads/2026/10/2026-10-21T060928Z_3_LYNXMPEM9K0DW_RTROPTP_4_EUROPE-DEFENCE-DRONES.JPG.jpg",
+    "author": "C4ISRNET",
+    "date": "2026-10-21",
+    "status": "published",
+    "featured": true,
+    "views": 111,
+    "tags": [
+      "مۇداپىئە",
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "ئۇل ئەسلىھە",
+      "ئەۋۇرپا"
+    ],
+    "specs": {
+      "مەنبە": "C4ISRNET",
+      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/unmanned/2026/10/21/europe-weighs-giving-utilities-infrastructure-companies-more-powers-to-bring-down-drones/",
+      "sourceUrl": "https://www.c4isrnet.com/unmanned/2026/10/21/europe-weighs-giving-utilities-infrastructure-companies-more-powers-to-bring-down-drones/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792611670527_239",
     "category": "weapons",
     "title": {
@@ -3418,41 +3452,6 @@
       "sourceUrl": "https://qasiounstudies.org/share/183",
       "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
       "ھالىتى": "تەستىقلانغان ئانالىز"
-    }
-  },
-  {
-    "id": "news_1792142820390_267",
-    "category": "drones",
-    "title": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيە ئاۋىئاتسىيە ئۈسكۈنىلىرى مەركىزى (NAWCAD) ھەرىكەتتىكى دېڭىز ئارمىيە پاراخوتلىرىغا سۈنئىي ھەمراھ (GPS) سىگنالىسىز ئۇچقۇچىسىز ئايروپىلانلارنى قوندۇرۇش سىنىقىنى مۇۋەفپەقىيەتلىك تاماملىدى",
-      "en": "NAWCAD tests GPS-free drone landings on moving US Navy ships"
-    },
-    "summary": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيە ھاۋا ئارمىيە ئۈسكۈنىلىرى قۇرۇلۇش مەركىزى (NAWCAD) سۈنئىي ھەمراھ يېتەكچى سىستېمىسى (GPS) ياكى ئۇچقۇچىنىڭ بىۋاسىتە كونتروللۇقىسىز، ئۆزلۈكىدىن ۋەزىپە ئىجرا قىلىش ۋە ھەرىكەت قىلىۋاتقان پاراخوتلارغا ئۆزلۈكىدىن قوندۇرۇلۇش ئ...",
-      "en": "The US Navy has successfully tested an uncrewed aerial system (UAS) capable of autonomously flying missions and landing on moving ships without relying on GPS or pilot oversight.\n\n\nThe post NAWCAD tests GPS-free drone landings on moving US "
-    },
-    "content": {
-      "ug": "ئامېرىكا دېڭىز ئارمىيە ھاۋا ئارمىيە ئۈسكۈنىلىرى قۇرۇلۇش مەركىزى (NAWCAD) سۈنئىي ھەمراھ يېتەكچى سىستېمىسى (GPS) ياكى ئۇچقۇچىنىڭ بىۋاسىتە كونتروللۇقىسىز، ئۆزلۈكىدىن ۋەزىپە ئىجرا قىلىش ۋە ھەرىكەت قىلىۋاتقان پاراخوتلارغا ئۆزلۈكىدىن قوندۇرۇلۇش ئىقتىدارىغا ئىگە بولغان ئادەمسىز ئايروپىلان سىستېمىسىنى (UAS) مۇۋەفپەقىيەتلىك سىناق قىلدى.\n\n---\n📌 **مەنبە:** Naval Technology",
-      "en": "The US Navy has successfully tested an uncrewed aerial system (UAS) capable of autonomously flying missions and landing on moving ships without relying on GPS or pilot oversight.\n\n\nThe post NAWCAD tests GPS-free drone landings on moving US Navy ships  appeared first on Naval Technology.\n\n---\n**Source:** Naval Technology"
-    },
-    "imageUrl": "https://www.naval-technology.com/wp-content/uploads/sites/15/2026/10/US-Navy-17.jpg",
-    "author": "Naval Technology",
-    "date": "2026-10-16",
-    "status": "published",
-    "featured": true,
-    "views": 101,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "ئۇچقۇچىسىز_ئايروپىلان",
-      "ئامېرىكا",
-      "دېڭىز_ئارمىيەسى"
-    ],
-    "specs": {
-      "مەنبە": "Naval Technology",
-      "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/nawcad-drone-test-navy-ships/",
-      "sourceUrl": "https://www.naval-technology.com/news/nawcad-drone-test-navy-ships/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }
 ]

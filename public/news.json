@@ -1,5 +1,38 @@
 [
   {
+    "id": "news_1792533671688_664",
+    "category": "weapons",
+    "title": {
+      "ug": "شەرەپ مېدىتالى ساھىبى داكوتا مەيېر «قازارما مەخسۇس ۋەزىپە گۇرۇپپىسى» نىڭ يۇقىرى دەرىجىلىك مەسلىھەتچىلىكىگە تەيىنلەندى",
+      "en": "Medal of Honor recipient Dakota Meyer tapped as Barracks Task Force senior advisor"
+    },
+    "summary": {
+      "ug": "ئەڭ ئالىي شەرەپ مېدىتالى بىلەن تەقدىرلەنگەن داكوتا مەيېر مۇداپىئە مىنىستىرى ھېگسېتونىڭ يۇقىرى دەرىجىلىك مەسلىھەتچىسى بولۇپ تاللانغان بولۇپ، ئۇ دۆلەت ئىچىدىكى ھەربىي ئورۇنلارنى كۆزدىن كەچۈرۈش ئۈچۈن زىيارەتتە بولىدۇ.",
+      "en": "Medal of Honor recipient Dakota Meyer was selected as Secretary Hegseth's senior advisor and will visit military installations across the country."
+    },
+    "content": {
+      "ug": "ئەڭ ئالىي شەرەپ مېدىتالى بىلەن تەقدىرلەنگەن داكوتا مەيېر مۇداپىئە مىنىستىرى ھېگسېتونىڭ يۇقىرى دەرىجىلىك مەسلىھەتچىسى بولۇپ تاللانغان بولۇپ، ئۇ دۆلەت ئىچىدىكى ھەربىي ئورۇنلارنى كۆزدىن كەچۈرۈش ئۈچۈن زىيارەتتە بولىدۇ.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "Medal of Honor recipient Dakota Meyer was selected as Secretary Hegseth's senior advisor and will visit military installations across the country.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/NQBLE7JWBNBTBNDCAVEJ5G2B5I.jpg",
+    "author": "Defense News",
+    "date": "2026-03-30",
+    "status": "published",
+    "featured": true,
+    "views": 29,
+    "tags": [
+      "مۇداپىئە",
+      "هەربىي",
+      "سىياسەت"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/news/pentagon-congress/2026/10/20/medal-of-honor-recipient-dakota-meyer-tapped-as-barracks-task-force-senior-advisor/",
+      "sourceUrl": "https://www.defensenews.com/news/pentagon-congress/2026/10/20/medal-of-honor-recipient-dakota-meyer-tapped-as-barracks-task-force-senior-advisor/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792533661035_147",
     "category": "weapons",
     "title": {
@@ -3396,40 +3429,6 @@
       "مەنبە": "Air Force Technology",
       "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/boeing-third-quarter-deliveries/",
       "sourceUrl": "https://www.airforce-technology.com/news/boeing-third-quarter-deliveries/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792033978450_315",
-    "category": "drones",
-    "title": {
-      "ug": "پېت ھېگسېت: ئامېرىكا مۇداپىئە مىنىستىرلىقى ئاپتوماتىك ۋە ئادەمسىز سىستېمىلارنى كەڭ كۆلەمدە ئىشلەپچىقىرىش ئۈچۈن 50 مىليارد دوللارغا موھتاج",
-      "en": "Pentagon needs $50B for mass drone production, Hegseth says"
-    },
-    "summary": {
-      "ug": "ئامېرىكا مۇداپىئە مىنىستىرى پېت ھېگسېتنىڭ بىلدۈرىشىچە، ئامېرىكا مۇداپىئە مىنىستىرلىقىنىڭ ئاپتوماتىك ۋە ئادەمسىز ماشىنا سىستېمىلىرىنى زور كۆلەمدە كېڭەيتىش قەدىمىنى قوللاش ئۈچۈن، مەلۇماتلارنى تەڭشەش مەبلەغىدىن 50 مىليارد دوللار ئاجرىتىپ بېرىش...",
-      "en": "Defense Secretary Pete Hegseth wants $50 billion in reconciliation funding to support the Pentagon's push to scale autonomous and robotic systems."
-    },
-    "content": {
-      "ug": "ئامېرىكا مۇداپىئە مىنىستىرى پېت ھېگسېتنىڭ بىلدۈرىشىچە، ئامېرىكا مۇداپىئە مىنىستىرلىقىنىڭ ئاپتوماتىك ۋە ئادەمسىز ماشىنا سىستېمىلىرىنى زور كۆلەمدە كېڭەيتىش قەدىمىنى قوللاش ئۈچۈن، مەلۇماتلارنى تەڭشەش مەبلەغىدىن 50 مىليارد دوللار ئاجرىتىپ بېرىشىنى تەلەپ قىلغان.\n\n---\n📌 **مەنبە:** C4ISRNET",
-      "en": "Defense Secretary Pete Hegseth wants $50 billion in reconciliation funding to support the Pentagon's push to scale autonomous and robotic systems.\n\n---\n**Source:** C4ISRNET"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/A3R4BV6GVBH7DKAYDW7ODWTMXU.jpg",
-    "author": "C4ISRNET",
-    "date": "2026-03-31",
-    "status": "published",
-    "featured": true,
-    "views": 98,
-    "tags": [
-      "مۇداپىئە",
-      "ئامېرىكا",
-      "ئۇچقۇچىسىز ئايروپىلان (دىرون)",
-      "پېت ھېگسېت"
-    ],
-    "specs": {
-      "مەنبە": "C4ISRNET",
-      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/news/pentagon-congress/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says/",
-      "sourceUrl": "https://www.c4isrnet.com/news/pentagon-congress/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

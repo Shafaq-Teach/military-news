@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792545071460_109",
+    "category": "weapons",
+    "title": {
+      "ug": "دىپلوماتىيە كۈچى ئاجىزلاپ، ھەربىي قۇدرەت كۈنسېرى كۈچەيمەكتە، دەپ كۆرسەتتى ئىتتىپاقداشلار ۋە كرىزىس كۆزەتكۈچىلىرى",
+      "en": "Military power rising as power of diplomacy falling, diplomats, crisis monitors, allies say"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ئۆزى بۇرۇن قوغداپ كەلگەن خەلقئارالىق قائىدە-يوسۇنلار ۋە ئىتتىپاقداشلىرىنى تەدرىجىي تاشلاپ بارماقتا، دەپ بىلدۈردى دىپلوماتلار، كرىزىس كۆزەتكۈچىلىرى ۋە مۇداپىئە ئىتتىپاقداشلىرى.",
+      "en": "America is abandoning the rules, and the allies, it once kept safe."
+    },
+    "content": {
+      "ug": "ئامېرىكا ئۆزى بۇرۇن قوغداپ كەلگەن خەلقئارالىق قائىدە-يوسۇنلار ۋە ئىتتىپاقداشلىرىنى تەدرىجىي تاشلاپ بارماقتا، دەپ بىلدۈردى دىپلوماتلار، كرىزىس كۆزەتكۈچىلىرى ۋە مۇداپىئە ئىتتىپاقداشلىرى.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "America is abandoning the rules, and the allies, it once kept safe.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/20/GettyImages_2240369625/large.jpg",
+    "author": "Defense One",
+    "date": "2026-03-31",
+    "status": "published",
+    "featured": true,
+    "views": 138,
+    "tags": [
+      "ھەربىي قۇدرەت",
+      "دىپلوماتىيە",
+      "مۇداپىئە",
+      "ئامېرىكا"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/10/military-power-rising-power-diplomacy-falling-diplomats-crisis-monitors-allies-say/416720/",
+      "sourceUrl": "https://www.defenseone.com/threats/2026/10/military-power-rising-power-diplomacy-falling-diplomats-crisis-monitors-allies-say/416720/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792545067777_175",
     "category": "weapons",
     "title": {
@@ -3395,40 +3429,6 @@
       "مەنبە": "Naval Technology",
       "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/hii-nns-aukus-contract/",
       "sourceUrl": "https://www.naval-technology.com/news/hii-nns-aukus-contract/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792044895638_925",
-    "category": "weapons",
-    "title": {
-      "ug": "ئامېرىكا ئارمىيەسى كەلگۈسى قوماندانلىق شتابىنىڭ نامىنى ئۆزگەرتىپ، يېڭى «ئۇچقۇچىسىز سىستېمىلار قوماندانلىق شتابى» قۇرۇشقا تەييارلاندى",
-      "en": "US Army redesignates Futures Command as FASCOM"
-    },
-    "summary": {
-      "ug": "ئامېرىكا ئارمىيەسى ئۆزىنىڭ كەلگۈسى ۋە ئۇقۇم تەتقىقات قوماندانلىق شتابىنىڭ نامىنى «ئامېرىكا ئارمىيەسىنىڭ كەلگۈسى ۋە ئۇچقۇچىسىز سىستېمىلار قوماندانلىق شتابى» (FASCOM) دەپ ئۆزگەرتىدىغانلىقىنى جاكارلىدى. بۇ يېڭىدىن قۇرۇلغان ئۈچ يۇلتۇزلۇق ېنېرال...",
-      "en": "The US Army will redesignate its Futures and Concepts Command as the US Army Futures and Autonomous Systems Command (FASCOM), placing responsibility for integrating autonomous capabilities across its warfighting functions under a new three-"
-    },
-    "content": {
-      "ug": "ئامېرىكا ئارمىيەسى ئۆزىنىڭ كەلگۈسى ۋە ئۇقۇم تەتقىقات قوماندانلىق شتابىنىڭ نامىنى «ئامېرىكا ئارمىيەسىنىڭ كەلگۈسى ۋە ئۇچقۇچىسىز سىستېمىلار قوماندانلىق شتابى» (FASCOM) دەپ ئۆزگەرتىدىغانلىقىنى جاكارلىدى. بۇ يېڭىدىن قۇرۇلغان ئۈچ يۇلتۇزلۇق ېنېرال دەرىجىلىك قوماندانلىق شتابى ئارمىيەنىڭ ھەرقايسى ئۇرۇش ۇنكسىيەلىرىگە ئۇچقۇچىسىز ئىقتىدارلارنى سىڭدۈرۈش ۋە ماسلاشتۇرۇش ۋەزىپىسىنى ئۈستىگە ئالىدۇ.\n\n---\n📌 **مەنبە:** Army Technology",
-      "en": "The US Army will redesignate its Futures and Concepts Command as the US Army Futures and Autonomous Systems Command (FASCOM), placing responsibility for integrating autonomous capabilities across its warfighting functions under a new three-star command.\n\n---\n**Source:** Army Technology"
-    },
-    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/10/US-Army-10.jpg",
-    "author": "Army Technology",
-    "date": "2026-03-30",
-    "status": "published",
-    "featured": true,
-    "views": 79,
-    "tags": [
-      "ئامېرىكا ئارمىيەسى",
-      "مۇداپىئە ئىسلاھاتى",
-      "ئۇچقۇچىسىز سىستېما",
-      "قوماندانلىق شتابى"
-    ],
-    "specs": {
-      "مەنبە": "Army Technology",
-      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/us-army-fascom-redesignate/",
-      "sourceUrl": "https://www.army-technology.com/news/us-army-fascom-redesignate/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

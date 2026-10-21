@@ -1,5 +1,46 @@
 [
   {
+    "id": "wpn_1792566072012",
+    "category": "database",
+    "title": {
+      "ug": "M16A4 ئاپتومات مىلتىق - قورال تەپسىلاتى",
+      "en": "M16A4 Technical Dossier"
+    },
+    "summary": {
+      "ug": "M16A4 ئاپتومات مىلتىق: ئامېرىكا قوشما شتاتلىرى ئىشلەپچىقارغان ئاپتومات مىلتىق. ئوق ئۆلچىمى: 5.56×45 مىللىمېتىرلىق NATO ئۆلچەملىك ئوقى، ئۈنۈملۈك ئارىلىقى: نۇقتىلىق نىشانغا 550 مېتىر، رايون خاراكتېرلىك نىشانغا 800 مېتىر.",
+      "en": "Technical specifications for M16A4"
+    },
+    "content": {
+      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nM16A4 ئاپتومات مىلتىق ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** M16A4 ئاپتومات مىلتىق\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** ئامېرىكا قوشما شتاتلىرى\n- ⚙️ **قورال تىپى:** ئاپتومات مىلتىق\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 5.56×45 مىللىمېتىرلىق NATO ئۆلچەملىك ئوقى\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** بوش ئېغىرلىقى 3.26 كىلوگرام، 30 ئوقلۇق ئوقدان بىلەن 3.99 كىلوگرام؛ ئومۇمىي ئۇزۇنلۇقى 1000 مىللىمېتىر، ۇلە (كولباسا) ئۇزۇنلۇقى 508 مىللىمېتىر\n- 🎯 **ئوقدان سىغىمى:** ئۆلچەملىك 20 ياكى 30 ئوقلۇق STANAG ئوقدانى\n- ⚡ **ئوق ئېتىش سۈرئىتى:** مىنۇتىغا 700 - 800 ئوق\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** نۇقتىلىق نىشانغا 550 مېتىر، رايون خاراكتېرلىك نىشانغا 800 مېتىر\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** M16, M16A1, M16A2, M16A3, M16A4\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "en": "Comprehensive technical dossier for M16A4"
+    },
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/M16A2_noBG.jpg/1280px-M16A2_noBG.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+    "date": "2026-10-21",
+    "status": "published",
+    "featured": true,
+    "views": 61,
+    "tags": [
+      "مەلۇمات_ئامبىرى",
+      "قورال",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
+      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
+      "قورال ئىسمى": "M16A4 ئاپتومات مىلتىق",
+      "ئىشلەپچىقارغان دۆلەت": "ئامېرىكا قوشما شتاتلىرى",
+      "قورال تىپى": "ئاپتومات مىلتىق",
+      "ئوق ئۆلچىمى": "5.56×45 مىللىمېتىرلىق NATO ئۆلچەملىك ئوقى",
+      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "بوش ئېغىرلىقى 3.26 كىلوگرام، 30 ئوقلۇق ئوقدان بىلەن 3.99 كىلوگرام؛ ئومۇمىي ئۇزۇنلۇقى 1000 مىللىمېتىر، ۇلە (كولباسا) ئۇزۇنلۇقى 508 مىللىمېتىر",
+      "ئوقدان سىغىمى": "ئۆلچەملىك 20 ياكى 30 ئوقلۇق STANAG ئوقدانى",
+      "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 700 - 800 ئوق",
+      "ئۈنۈملۈك ئارىلىقى": "نۇقتىلىق نىشانغا 550 مېتىر، رايون خاراكتېرلىك نىشانغا 800 مېتىر",
+      "ئاساسلىق ۋارىيانتلىرى": "M16, M16A1, M16A2, M16A3, M16A4"
+    }
+  },
+  {
     "id": "news_1792555878019_629",
     "category": "weapons",
     "title": {
@@ -3393,40 +3434,6 @@
       "مەنبە": "The War Zone (TWZ)",
       "ئەسلى ئۇلانما": "https://www.twz.com/land/the-days-of-army-air-defense-systems-firing-just-one-type-of-interceptor-are-ending",
       "sourceUrl": "https://www.twz.com/land/the-days-of-army-air-defense-systems-firing-just-one-type-of-interceptor-are-ending",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792055815216_140",
-    "category": "drones",
-    "title": {
-      "ug": "ئۇنىفاي.س.2 () شىركىتى ئېرىك فلېكتېننى باش مالىيە ئەمەلدارى قىلىپ تەيىنلىدى",
-      "en": "UNIFY.C2 Appoints Eric Fleckten as Chief Financial Officer"
-    },
-    "summary": {
-      "ug": "تەجرىبىلىك ئاۋىئاتسىيە-ئەمەلىيەت ۋە تېخنىكا رەھبىرى ئېرىك فلېكتېن مە்பەغ سېلىش، مەشغۇلات ۋە ئىستراتېگىيەلىك رەھبەرلىك ساھەسىدە 25 يىلدىن ئارتۇق مول تەجرىبىگە ئىگە بولۇپ، مەزكۇر شىركەتكە يېڭى ۋەزىپىگە تەيىنلەندى.",
-      "en": "Experienced aerospace and technology executive brings 25+ years of financial, operational, and strategic leadership to"
-    },
-    "content": {
-      "ug": "تەجرىبىلىك ئاۋىئاتسىيە-ئەمەلىيەت ۋە تېخنىكا رەھبىرى ئېرىك فلېكتېن مە்பەغ سېلىش، مەشغۇلات ۋە ئىستراتېگىيەلىك رەھبەرلىك ساھەسىدە 25 يىلدىن ئارتۇق مول تەجرىبىگە ئىگە بولۇپ، مەزكۇر شىركەتكە يېڭى ۋەزىپىگە تەيىنلەندى.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
-      "en": "Experienced aerospace and technology executive brings 25+ years of financial, operational, and strategic leadership to\n\n---\n**Source:** sUAS News (Drones)"
-    },
-    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/erik-flecin.jpg?fit=350%2C250&#038;ssl=1",
-    "author": "sUAS News (Drones)",
-    "date": "2026-03-30",
-    "status": "published",
-    "featured": true,
-    "views": 137,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "ئۇچقۇچىسىز ئايروپىلان (دىرون)"
-    ],
-    "specs": {
-      "مەنبە": "sUAS News (Drones)",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/unify-c2-appoints-eric-fleckten-as-chief-financial-officer/",
-      "sourceUrl": "https://www.suasnews.com/2026/10/unify-c2-appoints-eric-fleckten-as-chief-financial-officer/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

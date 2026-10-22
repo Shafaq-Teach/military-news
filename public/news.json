@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792700226916_276",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا ئارمىيەسى ئېشىۋاتقان ئېھتىياجنى قاندۇرۇش ئۈچۈن 155 مىللىمېتىرلىق لوۋلا ئىشلەپچىقارغۇچىلارنى ئىزدەۋاتىدۇ",
+      "en": "US Army seeks manufacturers for 155mm howitzer barrels amid boost in demand"
+    },
+    "summary": {
+      "ug": "پېنتاگوننىڭ ئامېرىكا ھۆكۈمىتىگە قاراشلىق بىرسىنبىر لوۋلا ئىشلەپچىقىرىش زاۋۇتىنىڭ يېقىنقى مەزگىلدىكى ئېشىۋاتقان تەلىپىگە تاقابىل تۇرالماسلىقىدىن ئەندىشە قىلىۋاتقان مەزگىلدە، بۇ قەدەم تاشلاندى.",
+      "en": "The move comes amid Pentagon concerns that the U.S. government’s only plant for manufacturing howitzer barrels can’t keep up with the recent demand."
+    },
+    "content": {
+      "ug": "پېنتاگوننىڭ ئامېرىكا ھۆكۈمىتىگە قاراشلىق بىرسىنبىر لوۋلا ئىشلەپچىقىرىش زاۋۇتىنىڭ يېقىنقى مەزگىلدىكى ئېشىۋاتقان تەلىپىگە تاقابىل تۇرالماسلىقىدىن ئەندىشە قىلىۋاتقان مەزگىلدە، بۇ قەدەم تاشلاندى.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "The move comes amid Pentagon concerns that the U.S. government’s only plant for manufacturing howitzer barrels can’t keep up with the recent demand.\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/CA6OOP7JEJGRRJEOU5O6TEJYKA.jpg",
+    "author": "Defense News",
+    "date": "2026-10-22",
+    "status": "published",
+    "featured": true,
+    "views": 91,
+    "tags": [
+      "ئامېرىكا ئارمىيەسى",
+      "قورال-ياراغ",
+      "پېنتاگون",
+      "مۇداپىئە"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/news/your-military/2026/10/22/us-army-seeks-manufacturers-for-155mm-howitzer-barrels-amid-boost-in-demand/",
+      "sourceUrl": "https://www.defensenews.com/news/your-military/2026/10/22/us-army-seeks-manufacturers-for-155mm-howitzer-barrels-amid-boost-in-demand/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792700082732_780",
     "category": "weapons",
     "title": {
@@ -3432,40 +3466,6 @@
       "مەنبە": "Breaking Defense",
       "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/you-cant-have-a-fence-high-enough-to-protect-your-facility-against-drones/",
       "sourceUrl": "https://breakingdefense.com/2026/10/you-cant-have-a-fence-high-enough-to-protect-your-facility-against-drones/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792545071460_109",
-    "category": "weapons",
-    "title": {
-      "ug": "دىپلوماتىيە كۈچى ئاجىزلاپ، ھەربىي قۇدرەت كۈنسېرى كۈچەيمەكتە، دەپ كۆرسەتتى ئىتتىپاقداشلار ۋە كرىزىس كۆزەتكۈچىلىرى",
-      "en": "Military power rising as power of diplomacy falling, diplomats, crisis monitors, allies say"
-    },
-    "summary": {
-      "ug": "ئامېرىكا ئۆزى بۇرۇن قوغداپ كەلگەن خەلقئارالىق قائىدە-يوسۇنلار ۋە ئىتتىپاقداشلىرىنى تەدرىجىي تاشلاپ بارماقتا، دەپ بىلدۈردى دىپلوماتلار، كرىزىس كۆزەتكۈچىلىرى ۋە مۇداپىئە ئىتتىپاقداشلىرى.",
-      "en": "America is abandoning the rules, and the allies, it once kept safe."
-    },
-    "content": {
-      "ug": "ئامېرىكا ئۆزى بۇرۇن قوغداپ كەلگەن خەلقئارالىق قائىدە-يوسۇنلار ۋە ئىتتىپاقداشلىرىنى تەدرىجىي تاشلاپ بارماقتا، دەپ بىلدۈردى دىپلوماتلار، كرىزىس كۆزەتكۈچىلىرى ۋە مۇداپىئە ئىتتىپاقداشلىرى.\n\n---\n📌 **مەنبە:** Defense One",
-      "en": "America is abandoning the rules, and the allies, it once kept safe.\n\n---\n**Source:** Defense One"
-    },
-    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/20/GettyImages_2240369625/large.jpg",
-    "author": "Defense One",
-    "date": "2026-03-31",
-    "status": "published",
-    "featured": true,
-    "views": 138,
-    "tags": [
-      "ھەربىي قۇدرەت",
-      "دىپلوماتىيە",
-      "مۇداپىئە",
-      "ئامېرىكا"
-    ],
-    "specs": {
-      "مەنبە": "Defense One",
-      "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/10/military-power-rising-power-diplomacy-falling-diplomats-crisis-monitors-allies-say/416720/",
-      "sourceUrl": "https://www.defenseone.com/threats/2026/10/military-power-rising-power-diplomacy-falling-diplomats-crisis-monitors-allies-say/416720/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

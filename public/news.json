@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1792656089374_149",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى 2035-يىلغىچە جەڭگە تەييار 1509 دانە ئۇرۇش ئايروپىلانىغا ئېھتىياج بارلىقىنى پارلامېنتقا ئۇقتۇردى",
+      "en": "Air Force needs 1,509 combat-ready jets by 2035, service tells Congress"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى دۆلەت مەجلىسىگە سۇنغان دوكلاتىدا، ئىستراتېگىيەلىك تەھدىتلەرگە تاقابىل تۇرۇش ئۈچۈن 2035-يىلىغىچە جەڭگە تولۇق تەييار ھالەتتىكى 1509 دانە ئۇرۇش ئايروپىلانىغا ئېھتىياجلىق ئىكەنلىكىنى بىلدۈردى. شۇنىڭ بىلەن بىر ۋاقىتتا، گې...",
+      "en": "Lt. Gen. David Tabor also confirmed reporting that the Air Force is considering a new build F-16, but said that decision wasn&#8217;t &#8220;urgent.&#8221;"
+    },
+    "content": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى دۆلەت مەجلىسىگە سۇنغان دوكلاتىدا، ئىستراتېگىيەلىك تەھدىتلەرگە تاقابىل تۇرۇش ئۈچۈن 2035-يىلىغىچە جەڭگە تولۇق تەييار ھالەتتىكى 1509 دانە ئۇرۇش ئايروپىلانىغا ئېھتىياجلىق ئىكەنلىكىنى بىلدۈردى. شۇنىڭ بىلەن بىر ۋاقىتتا، گېنېرال-لېيتېنانت داۋىد تابور ھاۋا ئارمىيەسىنىڭ يېڭى نۇسخىدىكى F-16 ئۇرۇش ئايروپىلانلىرىنى سېتىۋېلىش ئېھتىماللىقىنى تەستىقلىغان بولسىمۇ، بۇ ھەقتىكى ئاخىرقى قارارنىڭ تېخىچە «جىددىي مەسىلە» ئەمەسلىكىنى ئوتتۇرىغا قويدى.\n\n---\n📌 **مەنبە:** Breaking Defense",
+      "en": "Lt. Gen. David Tabor also confirmed reporting that the Air Force is considering a new build F-16, but said that decision wasn&#8217;t &#8220;urgent.&#8221;\n\n---\n**Source:** Breaking Defense"
+    },
+    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2024/07/240728_f35s_fog_USAF-scaled-e1722204407178-1024x577.jpg",
+    "author": "Breaking Defense",
+    "date": "2026-10-22",
+    "status": "published",
+    "featured": true,
+    "views": 92,
+    "tags": [
+      "ھاۋا ئارمىيەسى",
+      "ئامېرىكا",
+      "F-16",
+      "ئۇرۇش ئايروپىلانى",
+      "دۆلەت مۇداپىئەسى"
+    ],
+    "specs": {
+      "مەنبە": "Breaking Defense",
+      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/air-force-needs-1509-combat-ready-jets-by-2035-service-tells-congress/",
+      "sourceUrl": "https://breakingdefense.com/2026/10/air-force-needs-1509-combat-ready-jets-by-2035-service-tells-congress/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "wpn_1792652481869",
     "category": "database",
     "title": {
@@ -3426,40 +3461,6 @@
       "مەنبە": "Army Technology",
       "ئەسلى ئۇلانما": "https://www.army-technology.com/news/hanwha-cheongwang-laser-test/",
       "sourceUrl": "https://www.army-technology.com/news/hanwha-cheongwang-laser-test/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792186137272_723",
-    "category": "weapons",
-    "title": {
-      "ug": "دراكەن شىركىتى ئەنگلىيە خان جەمەتى ھاۋا ئارمىيەسىنىڭ ھەربىي مانېۋىرىدا «ستىڭ» ناملىق يەر يۈزى تەھدىتىنى تەقلىد قىلىش سىستېمىسىنى تۇنجى قېتىم سىناقتىن ئۆتكۈزدى",
-      "en": "Draken debuts ‘Sting’ surface threat simulation in RAF exercise"
-    },
-    "summary": {
-      "ug": "ئەنگلىيە خان جەمەتى ھاۋا ئارمىيەسىنىڭ «كوبرا ۋارىئور 26-2» ناملىق ھەربىي مانېۋىرى جەريانىدا، دراكەن شىركىتى ئۆزىنىڭ «ستىڭ» دەپ ئاتىلىدىغان يەر يۈزى تەھدىتىنى تەقلىد قىلىپ كۆرسىتىش سىستېمىسىنى تۇنجى قېتىم ئەمەلىي مەشغۇلات مۇھىتىدا مۇۋەپپەقىي...",
-      "en": "Draken has completed the first operational deployment of its Sting surface threat replication system as part of the Royal Air Force’s (RAF) Exercise Cobra Warrior 26-2."
-    },
-    "content": {
-      "ug": "ئەنگلىيە خان جەمەتى ھاۋا ئارمىيەسىنىڭ «كوبرا ۋارىئور 26-2» ناملىق ھەربىي مانېۋىرى جەريانىدا، دراكەن شىركىتى ئۆزىنىڭ «ستىڭ» دەپ ئاتىلىدىغان يەر يۈزى تەھدىتىنى تەقلىد قىلىپ كۆرسىتىش سىستېمىسىنى تۇنجى قېتىم ئەمەلىي مەشغۇلات مۇھىتىدا مۇۋەپپەقىيەتلىك قوللاندى.\n\n---\n📌 **مەنبە:** Air Force Technology",
-      "en": "Draken has completed the first operational deployment of its Sting surface threat replication system as part of the Royal Air Force’s (RAF) Exercise Cobra Warrior 26-2.\n\n---\n**Source:** Air Force Technology"
-    },
-    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/Draken.jpg",
-    "author": "Air Force Technology",
-    "date": "2026-10-16",
-    "status": "published",
-    "featured": true,
-    "views": 132,
-    "tags": [
-      "ھەربىي مانېۋىر",
-      "ھاۋا ئارمىيەسى",
-      "ئەنگلىيە",
-      "تەھدىت تەقلىد قىلىش"
-    ],
-    "specs": {
-      "مەنبە": "Air Force Technology",
-      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/draken-raf-sting-system/",
-      "sourceUrl": "https://www.airforce-technology.com/news/draken-raf-sting-system/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

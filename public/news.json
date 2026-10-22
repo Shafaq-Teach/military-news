@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1792656102191_895",
+    "category": "weapons",
+    "title": {
+      "ug": "NSA ۋە FBI كۆپ قوللىنىلىدىغان تور بېكەت يۇمشاق دېتالىدىكى ئېغىر نۇقسانلار توغرىسىدا جىددىي ئاگاھلاندۇرۇش ئېلان قىلدى",
+      "en": "Critical flaws in ubiquitous website software draw urgent warning from NSA, FBI"
+    },
+    "summary": {
+      "ug": "ئامېرىكا دۆلەت بىخەتەرلىك ئاگېنتلىقى (NSA) بىلەن فېدېراتسىيە تەكشۈرۈش بىئۇروسى (FBI) كەڭ ئومۇملاشقان PHP تور بېكەت يۇمشاق دېتالىدا ئېغىر دەرىجىدىكى بىخەتەرلىك نۇقسانلىرىنىڭ بايقالغانلىقىنى ئۇقتۇردى. ئىختىساسلاشقان ئاگېنتلىقلار بارلىق ئورگان...",
+      "en": "Organizations should immediately update to the latest version of PHP or take systems offline, agencies say."
+    },
+    "content": {
+      "ug": "ئامېرىكا دۆلەت بىخەتەرلىك ئاگېنتلىقى (NSA) بىلەن فېدېراتسىيە تەكشۈرۈش بىئۇروسى (FBI) كەڭ ئومۇملاشقان PHP تور بېكەت يۇمشاق دېتالىدا ئېغىر دەرىجىدىكى بىخەتەرلىك نۇقسانلىرىنىڭ بايقالغانلىقىنى ئۇقتۇردى. ئىختىساسلاشقان ئاگېنتلىقلار بارلىق ئورگان ۋە شىركەتلەرنىڭ PHP سىستېمىسىنى دەرھال ئەڭ يېڭى نۇسخىغا يۈكسەلدۈرۈشىنى، ياكى ئوقيا تەھدىتىنىڭ ئالدىنى ئېلىش ئۈچۈن مۇناسىۋەتلىك تور سىستېمىلىرىنى دەرھال تورسىز ھالەتكە كەلتۈرۈشىنى جىددىي تەۋسىيە قىلدى.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "Organizations should immediately update to the latest version of PHP or take systems offline, agencies say.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/21/GettyImages_2291209767-1/large.jpg",
+    "author": "Defense One",
+    "date": "2024-06-11",
+    "status": "published",
+    "featured": true,
+    "views": 28,
+    "tags": [
+      "NSA",
+      "FBI",
+      "PHP",
+      "تور بىخەتەرلىكى",
+      "ئاگاھلاندۇرۇش"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/threats/2026/10/critical-flaws-php-warning/416727/",
+      "sourceUrl": "https://www.defenseone.com/threats/2026/10/critical-flaws-php-warning/416727/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792656089374_149",
     "category": "weapons",
     "title": {
@@ -3426,41 +3461,6 @@
       "مەنبە": "Naval Technology",
       "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/navantia-angola-navy-patrol-vessel/",
       "sourceUrl": "https://www.naval-technology.com/news/navantia-angola-navy-patrol-vessel/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792196947386_241",
-    "category": "weapons",
-    "title": {
-      "ug": "خەنخۇا شىركىتىنىڭ «چونگۋاڭ» لەرزان ھاۋا مۇداپىئە سىستېمىسى سىناق جەريانىدا پۈتۈنلەي مۇۋەپپەقىيەت قازاندى",
-      "en": "Hanwha’s Cheongwang records 100% interception test"
-    },
-    "summary": {
-      "ug": "كورېيە جۇمھۇرىيىتى ئارمىيەسى ئۆتكۈزگەن ئەمەلىي ئوق ئاتلاش كۆرسەتمە پائالىيىتىدە، خەنخۇا سىستېمىلىرى شىركىتى تەرىپىدىن تەتقىق قىلىپ ياسالغان «چونگۋاڭ» لەرزان ھاۋا مۇداپىئە سىستېمىسى نىشانغا ئېلىنغان ئۈچ دانە ئۇچقۇچىسىز ئايروپىلاننى تامامەن ن...",
-      "en": "Hanwha Systems’ Cheongwang laser air-defence system has recorded a 100% interception rate after neutralising three target drones during a live demonstration for the Republic of Korea (ROK) Army."
-    },
-    "content": {
-      "ug": "كورېيە جۇمھۇرىيىتى ئارمىيەسى ئۆتكۈزگەن ئەمەلىي ئوق ئاتلاش كۆرسەتمە پائالىيىتىدە، خەنخۇا سىستېمىلىرى شىركىتى تەرىپىدىن تەتقىق قىلىپ ياسالغان «چونگۋاڭ» لەرزان ھاۋا مۇداپىئە سىستېمىسى نىشانغا ئېلىنغان ئۈچ دانە ئۇچقۇچىسىز ئايروپىلاننى تامامەن نېيتراللاشتۇرۇپ، %100لىك نىشانغا تېگىش نىسبىتىنى ياراتتى.\n\n---\n📌 **مەنبە:** Army Technology",
-      "en": "Hanwha Systems’ Cheongwang laser air-defence system has recorded a 100% interception rate after neutralising three target drones during a live demonstration for the Republic of Korea (ROK) Army.\n\n---\n**Source:** Army Technology"
-    },
-    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/10/Hanwha.jpg",
-    "author": "Army Technology",
-    "date": "2026-10-17",
-    "status": "published",
-    "featured": true,
-    "views": 84,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "ھاۋا مۇداپىئە",
-      "لې",
-      "كورېيە"
-    ],
-    "specs": {
-      "مەنبە": "Army Technology",
-      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/hanwha-cheongwang-laser-test/",
-      "sourceUrl": "https://www.army-technology.com/news/hanwha-cheongwang-laser-test/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

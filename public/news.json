@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1792644774462_188",
+    "category": "naval",
+    "title": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى تىنچ ئوكياندىكى پاراخوتلىرىنى ئاپتونوملاشتۇرۇش ۋە ئادەمسىز كېمىلەرنى سەپلەشنى پىلانلىماقتا",
+      "en": "How The U.S. Army’s ‘Navy’ Aims To Go More Autonomous With Its Vessels In The Pacific"
+    },
+    "summary": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى تىنچ ئوكيان رايونىدىكى دېڭىز ترانسپورتى ۋە ھەربىي تەييارلىق ئىقتىدارىنى زامانىۋىلاشتۇرۇش مەقسىتىدە، 100 گىچە يېڭى ئادەمسىز سۇ ئۈستى كېمىسى (USV) سېتىۋېلىشنى، شۇنداقلا ھازىرقى ئادەملىك پاراخوتلىرىغا ئاپتونوم (ئۆزل...",
+      "en": "The Army wants to buy up to 100 new USVs and add autonomous capabilities into existing crewed vessels.\n\n\nThe post How The U.S. Army’s &#8216;Navy&#8217; Aims To Go More Autonomous With Its Vessels In The Pacific appeared first on TWZ."
+    },
+    "content": {
+      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى تىنچ ئوكيان رايونىدىكى دېڭىز ترانسپورتى ۋە ھەربىي تەييارلىق ئىقتىدارىنى زامانىۋىلاشتۇرۇش مەقسىتىدە، 100 گىچە يېڭى ئادەمسىز سۇ ئۈستى كېمىسى (USV) سېتىۋېلىشنى، شۇنداقلا ھازىرقى ئادەملىك پاراخوتلىرىغا ئاپتونوم (ئۆزلۈكىدىن ھەرىكەت قىلىش) تېخنىكىسىنى قوشۇشنى پىلانلىماقتا. مەزكۇر قەدەم كەلگۈسىدە رايوندا خىتايغا قارشى يۈز بېرىش ئېھتىمالى بولغان توقۇنۇشلاردا، ھەربىي ئەشيا ئوبوروتى ۋە تەمىنات لىنىيەلىرىنىڭ ئۈنۈمىنى ئاشۇرۇشنى نىشان قىلغان.\n\n---\n📌 **مەنبە:** The War Zone (TWZ)",
+      "en": "The Army wants to buy up to 100 new USVs and add autonomous capabilities into existing crewed vessels.\n\n\nThe post How The U.S. Army’s &#8216;Navy&#8217; Aims To Go More Autonomous With Its Vessels In The Pacific appeared first on TWZ.\n\n---\n**Source:** The War Zone (TWZ)"
+    },
+    "imageUrl": "https://www.twz.com/wp-content/uploads/2026/10/Army-drone-boat-vision-pacific-plans.jpg?quality=85",
+    "author": "The War Zone (TWZ)",
+    "date": "2025-05-20",
+    "status": "published",
+    "featured": true,
+    "views": 46,
+    "tags": [
+      "ئامېرىكا",
+      "تىنچ ئوكيان",
+      "ئادەمسىز كېمە",
+      "USV",
+      "قۇرۇقلۇق ئارمىيەسى"
+    ],
+    "specs": {
+      "مەنبە": "The War Zone (TWZ)",
+      "ئەسلى ئۇلانما": "https://www.twz.com/sea/how-the-u-s-armys-navy-aims-to-go-more-autonomous-with-its-vessels-in-the-pacific",
+      "sourceUrl": "https://www.twz.com/sea/how-the-u-s-armys-navy-aims-to-go-more-autonomous-with-its-vessels-in-the-pacific",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792633929889_894",
     "category": "weapons",
     "title": {
@@ -3418,41 +3453,6 @@
       "مەنبە": "Breaking Defense",
       "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/germany-changes-course-on-plans-to-buy-mq-28-drone-wingman-boeing-official/",
       "sourceUrl": "https://breakingdefense.com/2026/10/germany-changes-course-on-plans-to-buy-mq-28-drone-wingman-boeing-official/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792164477526_415",
-    "category": "weapons",
-    "title": {
-      "ug": "جەنۇبىي كورېيەنىڭ لازېرلىق قوراللىرى ھەربىي سىناقتا ئۈچ دانە ئۇچقۇچىسىز ئايروپىلاننى ئېتىپ چۈشۈردى",
-      "en": "South Korean lasers down three drones in Army demo, Hanwha says"
-    },
-    "summary": {
-      "ug": "خەنۋا سىستېمىسى ( ) شىركىتىنىڭ باياناتىغا ئاساسلانغاندا، جەنۇبىي كورېيە ئارمىيەسى تەرىپىدىن ئۆتكۈزۈلگەن بىر قېتىملىق نامايىش سىنىقىدا، مەزكۇر شىركەت تەتقىق قىلىپ چىققان لازېرلىق قورال سىستېمىسى نىشان قىلىنغان ئۈچ دانە ئۇچقۇچىسىز ئايروپىلانن...",
-      "en": "Hanwha Systems laser weapons shot down target drones during a South Korean Army demonstration, the company said."
-    },
-    "content": {
-      "ug": "خەنۋا سىستېمىسى ( ) شىركىتىنىڭ باياناتىغا ئاساسلانغاندا، جەنۇبىي كورېيە ئارمىيەسى تەرىپىدىن ئۆتكۈزۈلگەن بىر قېتىملىق نامايىش سىنىقىدا، مەزكۇر شىركەت تەتقىق قىلىپ چىققان لازېرلىق قورال سىستېمىسى نىشان قىلىنغان ئۈچ دانە ئۇچقۇچىسىز ئايروپىلاننى (دىرون) مۇۋەپپەقىيەتلىك ئېتىپ چۈشۈرۈپ، ئۆزىنىڭ يۇقىرى ئۈنۈملۈك مۇداپىئە ئىقتىدارىنى نامايان قىلغان.\n\n---\n📌 **مەنبە:** Defense News",
-      "en": "Hanwha Systems laser weapons shot down target drones during a South Korean Army demonstration, the company said.\n\n---\n**Source:** Defense News"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/IDBG3PYO2NFAXH2T5EQKSJT7P4.jpeg",
-    "author": "Defense News",
-    "date": "2024-05-22",
-    "status": "published",
-    "featured": true,
-    "views": 57,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "لازېر",
-      "ئۇچقۇچىسىز_ئايروپىلان"
-    ],
-    "specs": {
-      "مەنبە": "Defense News",
-      "ئەسلى ئۇلانما": "https://www.defensenews.com/industry/techwatch/2026/10/16/south-korean-lasers-down-three-drones-in-army-demo-hanwha-says/",
-      "sourceUrl": "https://www.defensenews.com/industry/techwatch/2026/10/16/south-korean-lasers-down-three-drones-in-army-demo-hanwha-says/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

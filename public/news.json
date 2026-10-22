@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792623111263_540",
+    "category": "weapons",
+    "title": {
+      "ug": "مۇداپىئە سانائىتىدا سۈنئىي ئىقتىدار تەتقىقاتچىلىرىغا بولغان ئېھتىياج شىددەت بىلەن ئاشتى",
+      "en": "Defense primes advertising one research-scientist role for every 1.4 developer roles"
+    },
+    "summary": {
+      "ug": "مۇداپىئە سانائىتىدىكى يېتەكچى كارخانىلاردا سۈنئىي ئىقتىدار (AI) ساھەسى بويىچە خادىم قوبۇل قىلىش يۈزلىنىشى ئۆزگىرىپ، تەتقىقاتچى ئالىملارنى قوبۇل قىلىش ئېلانلىرى ئۈزلۈكسىز كۆپەيمەكتە. ئەكسىنچە، ئەنئەنىۋى يۇمشاق دېتال ئاچقۇچىلارغا بولغان ئېھتى...",
+      "en": "Explore defense industry AI hiring as research scientist postings rise and software developer demand falls."
+    },
+    "content": {
+      "ug": "مۇداپىئە سانائىتىدىكى يېتەكچى كارخانىلاردا سۈنئىي ئىقتىدار (AI) ساھەسى بويىچە خادىم قوبۇل قىلىش يۈزلىنىشى ئۆزگىرىپ، تەتقىقاتچى ئالىملارنى قوبۇل قىلىش ئېلانلىرى ئۈزلۈكسىز كۆپەيمەكتە. ئەكسىنچە، ئەنئەنىۋى يۇمشاق دېتال ئاچقۇچىلارغا بولغان ئېھتىياج تۆۋەنلىگەن بولۇپ، نۆۋەتتە مۇداپىئە ساھەسىدىكى ئاساسلىق ھۆددېكار ئورۇنلاردا ھەر 1.4 يۇمشاق دېتال ئىجادىيەتچىسى ئورنىغا بىر تەتقىقاتچى ئالىم ئورنى تەسىس قىلىنماقتا.\n\n---\n📌 **مەنبە:** Army Technology",
+      "en": "Explore defense industry AI hiring as research scientist postings rise and software developer demand falls.\n\n---\n**Source:** Army Technology"
+    },
+    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/10/shutterstock_2590753873-1.jpg",
+    "author": "Army Technology",
+    "date": "2026-03-29",
+    "status": "published",
+    "featured": true,
+    "views": 157,
+    "tags": [
+      "مۇداپىئە سانائىتى",
+      "سۈنئىي ئىقتىدار",
+      "ئەسكىرىي تېخنىكا",
+      "تەتقىقات"
+    ],
+    "specs": {
+      "مەنبە": "Army Technology",
+      "ئەسلى ئۇلانما": "https://www.army-technology.com/sponsored/defense-primes-advertising-one-research-scientist-role-for-every-1-4-developer-roles/",
+      "sourceUrl": "https://www.army-technology.com/sponsored/defense-primes-advertising-one-research-scientist-role-for-every-1-4-developer-roles/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792623091853_514",
     "category": "weapons",
     "title": {
@@ -3418,39 +3452,6 @@
       "مەنبە": "The War Zone (TWZ)",
       "ئەسلى ئۇلانما": "https://www.twz.com/air/mq-72c-cargo-helicopter-drone-capabilities-demonstrated-for-u-s-army",
       "sourceUrl": "https://www.twz.com/air/mq-72c-cargo-helicopter-drone-capabilities-demonstrated-for-u-s-army",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792153627131_347",
-    "category": "drones",
-    "title": {
-      "ug": "ئانرا تېخنىكا شىركىتى (ANRA ) ئۇچقۇچىسىز ئايروپىلان تىجارەتچىلىرىگە ئەتراپتىكى ھاۋا بوشلۇقى پائالىيىتىنى تېخىمۇ ياخشى كۆزىتىش ئىمكانىيىتىنى بېرىدىغان «ۋىستا» (VISTA) سىستېمىسىنى تونۇشتۇردى",
-      "en": "ANRA Technologies Introduces VISTA to Give Drone Operators Greater Awareness of Nearby Airspace Activity"
-    },
-    "summary": {
-      "ug": "يېڭىدىن ئوتتۇرىغا قويۇلغان بۇ ئەپ دېتالى جامائەت خەۋپسىزلىكى، كارخانا ۋە باشقا ساھەلەردىكى ئۇچقۇچىسىز ئايروپىلان (دىرون) تىجارەتچىلىرىگە يېقىن ئەتراپتىكى ھاۋا بوشلۇقى ۋە ئۇچقۇچىسىز ئايروپىلانلارنىڭ ھەرىكىتى توغرىسىدا تېخىمۇ كەڭ دائىرىلىك ۋە...",
-      "en": "New application gives public safety, enterprise and other drone operators greater awareness of nearby drone"
-    },
-    "content": {
-      "ug": "يېڭىدىن ئوتتۇرىغا قويۇلغان بۇ ئەپ دېتالى جامائەت خەۋپسىزلىكى، كارخانا ۋە باشقا ساھەلەردىكى ئۇچقۇچىسىز ئايروپىلان (دىرون) تىجارەتچىلىرىگە يېقىن ئەتراپتىكى ھاۋا بوشلۇقى ۋە ئۇچقۇچىسىز ئايروپىلانلارنىڭ ھەرىكىتى توغرىسىدا تېخىمۇ كەڭ دائىرىلىك ۋە ئېنىق خەبەردار بولۇش ئىمكانىيىتىنى يارىتىپ بېرىدۇ.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
-      "en": "New application gives public safety, enterprise and other drone operators greater awareness of nearby drone\n\n---\n**Source:** sUAS News (Drones)"
-    },
-    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/anra-vista.jpg?fit=600%2C357&#038;ssl=1",
-    "author": "sUAS News (Drones)",
-    "date": "2026-03-31",
-    "status": "published",
-    "featured": true,
-    "views": 108,
-    "tags": [
-      "ھەربىي",
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "تېخنىكا"
-    ],
-    "specs": {
-      "مەنبە": "sUAS News (Drones)",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/anra-technologies-introduces-vista-to-give-drone-operators-greater-awareness-of-nearby-airspace-activity/",
-      "sourceUrl": "https://www.suasnews.com/2026/10/anra-technologies-introduces-vista-to-give-drone-operators-greater-awareness-of-nearby-airspace-activity/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

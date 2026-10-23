@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792788135484_511",
+    "category": "weapons",
+    "title": {
+      "ug": "ئاپتونوم ئۇرۇش قوماندانلىق مەرگىزى قۇرۇلۇشى: DRPM نىڭ يېڭى قەدىمى",
+      "en": "Building the Autonomous Warfare Command &#8211; DRPM UxS"
+    },
+    "summary": {
+      "ug": "ئادەمسىز سىستېمىلارنى تەرەققىي قىلدۇرۇش ۋە ئاپتونوم ئۇرۇش ئىقتىدارىنى يۇقىرى كۆتۈرۈش مەقسىتىدە، ئالاقىدار مۇداپىئە ئورگانلىرى تەرىپىدىن يېڭى بىر باسقۇچلۇق ئىستراتېگىيەلىك پىلان يولغا قويۇلدى.",
+      "en": "SUBJECT: Building the Autonomous Warfare Command In 1928, Secretary of War Dwight Davis ordered the"
+    },
+    "content": {
+      "ug": "ئادەمسىز سىستېمىلارنى تەرەققىي قىلدۇرۇش ۋە ئاپتونوم ئۇرۇش ئىقتىدارىنى يۇقىرى كۆتۈرۈش مەقسىتىدە، ئالاقىدار مۇداپىئە ئورگانلىرى تەرىپىدىن يېڭى بىر باسقۇچلۇق ئىستراتېگىيەلىك پىلان يولغا قويۇلدى.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
+      "en": "SUBJECT: Building the Autonomous Warfare Command In 1928, Secretary of War Dwight Davis ordered the\n\n---\n**Source:** sUAS News (Drones)"
+    },
+    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/07/DOW-Seal.webp?fit=400%2C400&#038;ssl=1",
+    "author": "sUAS News (Drones)",
+    "date": "2026-03-31",
+    "status": "published",
+    "featured": true,
+    "views": 169,
+    "tags": [
+      "ھەربىي",
+      "ئۇچقۇچىسىز",
+      "ئاپتونوم_ئۇرۇش",
+      "مۇداپىئە"
+    ],
+    "specs": {
+      "مەنبە": "sUAS News (Drones)",
+      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/building-the-autonomous-warfare-command-drpm-uxs/",
+      "sourceUrl": "https://www.suasnews.com/2026/10/building-the-autonomous-warfare-command-drpm-uxs/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "pol_1792781432105",
     "category": "analysis",
     "title": {
@@ -3439,40 +3473,6 @@
       "مەنبە": "Naval Technology",
       "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/nawcad-drone-test-navy-ships/",
       "sourceUrl": "https://www.naval-technology.com/news/nawcad-drone-test-navy-ships/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792153645613_296",
-    "category": "drones",
-    "title": {
-      "ug": "ئامېرىكا ئارمىيەسى ئۈچۈن MQ-72C تىپلىق يۈك توشۇش ئۇچقۇچىسىز تىك ئۇچار ئايروپىلانىنىڭ ئىقتىدارى كۆرسىتىپ بېرىلدى",
-      "en": "MQ-72C Cargo Helicopter Drone Capabilities Demonstrated For U.S. Army"
-    },
-    "summary": {
-      "ug": "MQ-72C تىپلىق يۈك توشۇش ئۇچقۇچىسىز تىك ئۇچار ئايروپىلانىنىڭ ئىقتىدارلىرى ئامېرىكا ئارمىيەسىگە نامايان قىلىندى. ھازىرغا قەدەر دېڭىز ئارمىيە قىسىملىرى بۇ ئايروپىلانغا ئەڭ كۆپ قىزىقىش بىلدۈرگەن بولسىمۇ، لېكىن ئامېرىكا ئارمىيەسى ئاللىقاچان UH-7...",
-      "en": "The Marines have been the primary interested party in the MQ-72C, but the Army already flies the UH-72 Lakota and needs similar capabilities.\n\n\nThe post MQ-72C Cargo Helicopter Drone Capabilities Demonstrated For U.S. Army appeared first on"
-    },
-    "content": {
-      "ug": "MQ-72C تىپلىق يۈك توشۇش ئۇچقۇچىسىز تىك ئۇچار ئايروپىلانىنىڭ ئىقتىدارلىرى ئامېرىكا ئارمىيەسىگە نامايان قىلىندى. ھازىرغا قەدەر دېڭىز ئارمىيە قىسىملىرى بۇ ئايروپىلانغا ئەڭ كۆپ قىزىقىش بىلدۈرگەن بولسىمۇ، لېكىن ئامېرىكا ئارمىيەسى ئاللىقاچان UH-72 تىپلىق تىك ئۇچارلارنى باشقۇرۇۋاتقانلىقى ۋە شۇنىڭغا ئوخشاش مۇداپىئە ئىقتىدارلىرىغا جىددىي ئېھتىياجلىق ئىلىكى مەلۇم بولدى.\n\n---\n📌 **مەنبە:** The War Zone (TWZ)",
-      "en": "The Marines have been the primary interested party in the MQ-72C, but the Army already flies the UH-72 Lakota and needs similar capabilities.\n\n\nThe post MQ-72C Cargo Helicopter Drone Capabilities Demonstrated For U.S. Army appeared first on TWZ.\n\n---\n**Source:** The War Zone (TWZ)"
-    },
-    "imageUrl": "https://www.twz.com/wp-content/uploads/2026/10/mq-72c-drone-helicopter-army-demo.jpg?quality=85",
-    "author": "The War Zone (TWZ)",
-    "date": "2026-10-16",
-    "status": "published",
-    "featured": true,
-    "views": 124,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "ئامېرىكا ئارمىيەسى"
-    ],
-    "specs": {
-      "مەنبە": "The War Zone (TWZ)",
-      "ئەسلى ئۇلانما": "https://www.twz.com/air/mq-72c-cargo-helicopter-drone-capabilities-demonstrated-for-u-s-army",
-      "sourceUrl": "https://www.twz.com/air/mq-72c-cargo-helicopter-drone-capabilities-demonstrated-for-u-s-army",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

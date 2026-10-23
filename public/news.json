@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792722008981_13",
+    "category": "weapons",
+    "title": {
+      "ug": "سەپداشلىقتىن شىپالىققىچە: ئۇرۇش پېشقەدەملىرىنىڭ روھىي سىلكىنىشىنى داۋالاشتىكى يېڭى بۆسۈش",
+      "en": "Brothers in Arms, Partners in Healing: A Story about a Breakthrough in Treating Post-Traumatic Stress"
+    },
+    "summary": {
+      "ug": "ئىراق ئۇرۇشى جەريانىدا سەپداشلىرىدىن ئايرىلغاندىن كېيىن ئېغىر روھىي زەربىگە ئۇچراپ ھاياتى تەھدىتكە ئۇچرىغان ئامېرىكا دېڭىز ئارمىيە پىيادە ئەسكىرى جېف لىندكۋىست كېيىنچە يېڭىچە داۋالاش تېخنىكىسى ئارقىلىق سالامەتلىكىنى ئەسلىگە كەلتۈردى. مەزكۇر...",
+      "en": "After losing fellow marines in Iraq, Jeff Lindquist struggled with post-traumatic stress that was steadily destroying his life. Years later, an innovative technology helped him reclaim it. This is the story of Jeff and Erik Won, two veteran"
+    },
+    "content": {
+      "ug": "ئىراق ئۇرۇشى جەريانىدا سەپداشلىرىدىن ئايرىلغاندىن كېيىن ئېغىر روھىي زەربىگە ئۇچراپ ھاياتى تەھدىتكە ئۇچرىغان ئامېرىكا دېڭىز ئارمىيە پىيادە ئەسكىرى جېف لىندكۋىست كېيىنچە يېڭىچە داۋالاش تېخنىكىسى ئارقىلىق سالامەتلىكىنى ئەسلىگە كەلتۈردى. مەزكۇر ھېكايە بىرلىكتە ۋەزىپە ئۆتىگەن ئىككى پېشقەدەم جەڭچى — جېف بىلەن ئېرىك ۋوننىڭ تەجرىبىسىنى ئاساس قىلغان بولۇپ، ئۇلار ماگنىتلىق رېزونانسلىق داۋالاش ھەمدە ماس قەدەملىك باش سۆڭىكى ھالقىغان ماگنىتلىق قوزغىتىش ئۇسۇلىنى قوللىنىپ، ئۇرۇشتىن كېيىنكى روھىي جىددىيلىك ئالامەتلىرى (PTSD) بىلەن كۈرەش قىلىۋاتقان باشقا ئەسكەرلەرگە شىپالىق ئېلىپ كېلىش يولىدا يېڭى مۇساپە ئاچتى.\n\n---\n📌 **مەنبە:** War on the Rocks",
+      "en": "After losing fellow marines in Iraq, Jeff Lindquist struggled with post-traumatic stress that was steadily destroying his life. Years later, an innovative technology helped him reclaim it. This is the story of Jeff and Erik Won, two veterans who served together, and how efforts to help Jeff recover was the first step on a mission to help others suffering from post-traumatic stress do the same, using Magnetic e-Resonance Therapy (MeRT) and synchronized transcranial magnetic stimulation.Disclaimer: This discussion is for informational and educational purposes only and does not establish a doctor-patient relationship. The views and opinions expressed by the guests are\n\n\nThe post Brothers in Arms, Partners in Healing: A Story about a Breakthrough in Treating Post-Traumatic Stress appeared first on War on the Rocks.\n\n---\n**Source:** War on the Rocks"
+    },
+    "imageUrl": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-48221-6ed12efc2e06.jpg",
+    "author": "War on the Rocks",
+    "date": "2026-10-23",
+    "status": "published",
+    "featured": true,
+    "views": 83,
+    "tags": [
+      "ھەربىي تېبابەت",
+      "ئۇرۇش پېشقەدەملىرى",
+      "روھىي زەربە",
+      "داۋالاش تېخنىكىسى"
+    ],
+    "specs": {
+      "مەنبە": "War on the Rocks",
+      "ئەسلى ئۇلانما": "https://warontherocks.com/brothers-in-arms-partners-in-healing-a-story-about-a-breakthrough-in-treating-post-traumatic-stress/",
+      "sourceUrl": "https://warontherocks.com/brothers-in-arms-partners-in-healing-a-story-about-a-breakthrough-in-treating-post-traumatic-stress/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792711074247_453",
     "category": "weapons",
     "title": {
@@ -3435,39 +3469,6 @@
       "مەنبە": "Breaking Defense",
       "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/turkish-aerospace-expands-anka-3-production-with-new-line-for-upgraded-drone/",
       "sourceUrl": "https://breakingdefense.com/2026/10/turkish-aerospace-expands-anka-3-production-with-new-line-for-upgraded-drone/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792153627131_347",
-    "category": "drones",
-    "title": {
-      "ug": "ئانرا تېخنىكا شىركىتى (ANRA ) ئۇچقۇچىسىز ئايروپىلان تىجارەتچىلىرىگە ئەتراپتىكى ھاۋا بوشلۇقى پائالىيىتىنى تېخىمۇ ياخشى كۆزىتىش ئىمكانىيىتىنى بېرىدىغان «ۋىستا» (VISTA) سىستېمىسىنى تونۇشتۇردى",
-      "en": "ANRA Technologies Introduces VISTA to Give Drone Operators Greater Awareness of Nearby Airspace Activity"
-    },
-    "summary": {
-      "ug": "يېڭىدىن ئوتتۇرىغا قويۇلغان بۇ ئەپ دېتالى جامائەت خەۋپسىزلىكى، كارخانا ۋە باشقا ساھەلەردىكى ئۇچقۇچىسىز ئايروپىلان (دىرون) تىجارەتچىلىرىگە يېقىن ئەتراپتىكى ھاۋا بوشلۇقى ۋە ئۇچقۇچىسىز ئايروپىلانلارنىڭ ھەرىكىتى توغرىسىدا تېخىمۇ كەڭ دائىرىلىك ۋە...",
-      "en": "New application gives public safety, enterprise and other drone operators greater awareness of nearby drone"
-    },
-    "content": {
-      "ug": "يېڭىدىن ئوتتۇرىغا قويۇلغان بۇ ئەپ دېتالى جامائەت خەۋپسىزلىكى، كارخانا ۋە باشقا ساھەلەردىكى ئۇچقۇچىسىز ئايروپىلان (دىرون) تىجارەتچىلىرىگە يېقىن ئەتراپتىكى ھاۋا بوشلۇقى ۋە ئۇچقۇچىسىز ئايروپىلانلارنىڭ ھەرىكىتى توغرىسىدا تېخىمۇ كەڭ دائىرىلىك ۋە ئېنىق خەبەردار بولۇش ئىمكانىيىتىنى يارىتىپ بېرىدۇ.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
-      "en": "New application gives public safety, enterprise and other drone operators greater awareness of nearby drone\n\n---\n**Source:** sUAS News (Drones)"
-    },
-    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/anra-vista.jpg?fit=600%2C357&#038;ssl=1",
-    "author": "sUAS News (Drones)",
-    "date": "2026-03-31",
-    "status": "published",
-    "featured": true,
-    "views": 108,
-    "tags": [
-      "ھەربىي",
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "تېخنىكا"
-    ],
-    "specs": {
-      "مەنبە": "sUAS News (Drones)",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/anra-technologies-introduces-vista-to-give-drone-operators-greater-awareness-of-nearby-airspace-activity/",
-      "sourceUrl": "https://www.suasnews.com/2026/10/anra-technologies-introduces-vista-to-give-drone-operators-greater-awareness-of-nearby-airspace-activity/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

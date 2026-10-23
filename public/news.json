@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1792732851656_50",
+    "category": "drones",
+    "title": {
+      "ug": "«گلوبال ئوردنانس» ۋە «سپاركز» شىركەتلىرى 2027-يىلىغىچە ئامېرىكا ئارمىيەسى ئۈچۈن دۇرۇن باتارېيەسى ئىشلەپچىقىرىشنى نىشان قىلماقتا",
+      "en": "Global Ordnance and Sparkz target US drone battery production in 2027"
+    },
+    "summary": {
+      "ug": "مۇداپىئە ساھەسىدىكى «گلوبال ئوردنانس» شىركىتى ئامېرىكا ئارمىيەسىنىڭ ئۇچقۇچىسىز ئايروپىلانلىرى (دىرون) ئۈچۈن مەخسۇس باتارېيە گۇرۇپپىلىرىنى ئىشلەپچىقىرىش مەقسىتىدە، باتارېيە تېخنىكىسى بىلەن شۇغۇللىنىدىغان «سپاركز» شىركىتى بىلەن ئاساسىي تەمىنل...",
+      "en": "Global Ordnance has signed a master supply agreement with battery manufacturer Sparkz for the production of drone battery packs for the US military."
+    },
+    "content": {
+      "ug": "مۇداپىئە ساھەسىدىكى «گلوبال ئوردنانس» شىركىتى ئامېرىكا ئارمىيەسىنىڭ ئۇچقۇچىسىز ئايروپىلانلىرى (دىرون) ئۈچۈن مەخسۇس باتارېيە گۇرۇپپىلىرىنى ئىشلەپچىقىرىش مەقسىتىدە، باتارېيە تېخنىكىسى بىلەن شۇغۇللىنىدىغان «سپاركز» شىركىتى بىلەن ئاساسىي تەمىنلەش كېلىشىمى ئىمزالىدى. پىلانغا ئاساسەن، مەزكۇر تۈر ئارقىلىق 2027-يىلىدىن باشلاپ ئامېرىكا قوراللىق كۈچلىرىنىڭ ئېھتىياجىنى قامدايدىغان يۇقىرى ئىقتىدارلىق باتارېيەلەرنى ئىشلەپچىقىرىش نىشان قىلىنماقتا.\n\n---\n📌 **مەنبە:** Army Technology",
+      "en": "Global Ordnance has signed a master supply agreement with battery manufacturer Sparkz for the production of drone battery packs for the US military.\n\n---\n**Source:** Army Technology"
+    },
+    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/10/Global-Ordnance-drone-battery.jpg",
+    "author": "Army Technology",
+    "date": "2026-10-23",
+    "status": "published",
+    "featured": true,
+    "views": 74,
+    "tags": [
+      "ئامېرىكا ئارمىيەسى",
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "باتارېيە",
+      "ھەربىي تەمىنات",
+      "مۇداپىئە سانائىتى"
+    ],
+    "specs": {
+      "مەنبە": "Army Technology",
+      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/global-ordinance-sparkz-drone/",
+      "sourceUrl": "https://www.army-technology.com/news/global-ordinance-sparkz-drone/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792732760082_474",
     "category": "weapons",
     "title": {
@@ -3438,39 +3473,6 @@
       "مەنبە": "Breaking Defense",
       "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/turkey-qatar-indonesia-pakistan-ink-defense-cooperation-mou/",
       "sourceUrl": "https://breakingdefense.com/2026/10/turkey-qatar-indonesia-pakistan-ink-defense-cooperation-mou/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792207738435_241",
-    "category": "drones",
-    "title": {
-      "ug": "«ۋىڭكىسپاند» شىركىتى ھاۋا، قۇرۇقلۇق ۋە دېڭىز بۆلگۈنچىلىرىگە ماس كېلىدىغان ناملىق ئادەمسىز ئومۇمىي سىستېمىنى ئاممىغا ئېلان قىلدى",
-      "en": "WingXpand Unveils xPAIR: A Universal Autonomous System for Air, Ground and Maritime"
-    },
-    "summary": {
-      "ug": "زامانىۋى ھەربىي ۋەزىپىلەر پەقەت بىرلا ساھە بىلەنلا چەكلەنگۈچە ئەمەس، ئادەمسىز سىستېمىلارمۇ مۇشۇنداق چەكلىمە ئىچىدە قالماسلىقى كېرەك. لېنتا يېشىش مراسىمىغىچە بولغان جەرياندا، ھەرقايسى ساھەلەرنى ئۆز ئىچىگە ئېلىش ئىقتىدارى مۇھىم بىر بۆسۈش سۈپى...",
-      "en": "Modern missions don’t stay in one domain. Autonomous systems shouldn’t either. But, until now, covering"
-    },
-    "content": {
-      "ug": "زامانىۋى ھەربىي ۋەزىپىلەر پەقەت بىرلا ساھە بىلەنلا چەكلەنگۈچە ئەمەس، ئادەمسىز سىستېمىلارمۇ مۇشۇنداق چەكلىمە ئىچىدە قالماسلىقى كېرەك. لېنتا يېشىش مراسىمىغىچە بولغان جەرياندا، ھەرقايسى ساھەلەرنى ئۆز ئىچىگە ئېلىش ئىقتىدارى مۇھىم بىر بۆسۈش سۈپىتىدە ئوتتۇرىغا چىقتى.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
-      "en": "Modern missions don’t stay in one domain. Autonomous systems shouldn’t either. But, until now, covering\n\n---\n**Source:** sUAS News (Drones)"
-    },
-    "imageUrl": "https://s0.wp.com/i/blank.jpg",
-    "author": "sUAS News (Drones)",
-    "date": "2026-05-20",
-    "status": "published",
-    "featured": true,
-    "views": 160,
-    "tags": [
-      "ھەربىي",
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "ئەسكىرىي تېخنىكا"
-    ],
-    "specs": {
-      "مەنبە": "sUAS News (Drones)",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/wingxpand-unveils-xpair-a-universal-autonomous-system-for-air-ground-and-maritime/",
-      "sourceUrl": "https://www.suasnews.com/2026/10/wingxpand-unveils-xpair-a-universal-autonomous-system-for-air-ground-and-maritime/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

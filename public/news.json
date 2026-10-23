@@ -1,5 +1,46 @@
 [
   {
+    "id": "wpn_1792738982362",
+    "category": "database",
+    "title": {
+      "ug": "M82 .50 BMG مەرگەن مىلتىقى - قورال تەپسىلاتى",
+      "en": "Barrett M82 .50 BMG Technical Dossier"
+    },
+    "summary": {
+      "ug": "M82 .50 BMG مەرگەن مىلتىقى: ئامېرىكا قوشما شتاتلىرى ئىشلەپچىقارغان ماتېرىيالغا قارشى ئېغىر مەرگەن مىلتىقى. ئوق ئۆلچىمى: 12.7×99 مىللىمېتىرلىق ناتو ئۆلچىمى (.50 BMG)، ئۈنۈملۈك ئارىلىقى: 1,800 مېتىر (ئەڭ يىراق زەربە بېرىش ئارىلىقى 2,600 مېتىردىن ئاشىدۇ).",
+      "en": "Technical specifications for Barrett M82 .50 BMG"
+    },
+    "content": {
+      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nM82 .50 BMG مەرگەن مىلتىقى ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** M82 .50 BMG مەرگەن مىلتىقى\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** ئامېرىكا قوشما شتاتلىرى\n- ⚙️ **قورال تىپى:** ماتېرىيالغا قارشى ئېغىر مەرگەن مىلتىقى\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** 12.7×99 مىللىمېتىرلىق ناتو ئۆلچىمى (.50 BMG)\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئېغىرلىقى: 14.0 كىلوگرام؛ ئۇزۇنلۇقى: 145 سۇنتىمېتىر (لولى ئۇزۇنلۇقى 73.7 سۇنتىمېتىر)\n- 🎯 **ئوقدان سىغىمى:** 10 ئوقلۇق ئاجرىتىلىدىغان قۇتا ئوقدان\n- ⚡ **ئوق ئېتىش سۈرئىتى:** يېرىم ئاپتوماتىك ئېتىش سۈرئىتى (مىنۇتىغا تەخمىنەن 40-60 ئوق)\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** 1,800 مېتىر (ئەڭ يىراق زەربە بېرىش ئارىلىقى 2,600 مېتىردىن ئاشىدۇ)\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** M82A1, M82A2, M82A3, M107, M107A1\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "en": "Comprehensive technical dossier for Barrett M82 .50 BMG"
+    },
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Barrett-M82A1-Independence-Day-2017-IZE-048-white.jpg/1280px-Barrett-M82A1-Independence-Day-2017-IZE-048-white.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+    "date": "2026-10-23",
+    "status": "published",
+    "featured": true,
+    "views": 143,
+    "tags": [
+      "مەلۇمات_ئامبىرى",
+      "قورال",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
+      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
+      "قورال ئىسمى": "M82 .50 BMG مەرگەن مىلتىقى",
+      "ئىشلەپچىقارغان دۆلەت": "ئامېرىكا قوشما شتاتلىرى",
+      "قورال تىپى": "ماتېرىيالغا قارشى ئېغىر مەرگەن مىلتىقى",
+      "ئوق ئۆلچىمى": "12.7×99 مىللىمېتىرلىق ناتو ئۆلچىمى (.50 BMG)",
+      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئېغىرلىقى: 14.0 كىلوگرام؛ ئۇزۇنلۇقى: 145 سۇنتىمېتىر (لولى ئۇزۇنلۇقى 73.7 سۇنتىمېتىر)",
+      "ئوقدان سىغىمى": "10 ئوقلۇق ئاجرىتىلىدىغان قۇتا ئوقدان",
+      "ئوق ئېتىش سۈرئىتى": "يېرىم ئاپتوماتىك ئېتىش سۈرئىتى (مىنۇتىغا تەخمىنەن 40-60 ئوق)",
+      "ئۈنۈملۈك ئارىلىقى": "1,800 مېتىر (ئەڭ يىراق زەربە بېرىش ئارىلىقى 2,600 مېتىردىن ئاشىدۇ)",
+      "ئاساسلىق ۋارىيانتلىرى": "M82A1, M82A2, M82A3, M107, M107A1"
+    }
+  },
+  {
     "id": "news_1792732851656_50",
     "category": "drones",
     "title": {
@@ -3437,42 +3478,6 @@
       "مەنبە": "Naval Technology",
       "ئەسلى ئۇلانما": "https://www.naval-technology.com/news/fincantieri-italian-navy-ppa/",
       "sourceUrl": "https://www.naval-technology.com/news/fincantieri-italian-navy-ppa/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792600278334_885",
-    "category": "weapons",
-    "title": {
-      "ug": "تۈركىيە، قاتار، ھىوندونېزىيە ۋە پاكىستان مۇداپىئە ساھەسىدىكى ھەمكارلىق مەمورانلۇمى ئىمزالىدى",
-      "en": "Turkey, Qatar, Indonesia, Pakistan ink defense cooperation MoU"
-    },
-    "summary": {
-      "ug": "مەزكۇر تۆت دۆلەت زامانىۋى مۇداپىئە سىستېمىلىرىنىڭ تەرەققىياتىغا ماس كېلىدىغان ھەل قىلىش چارىلىرى ۋە سانائەت ساھەلىرىنى بىرلىكتە تەرەققىي قىلدۇرۇشنى مەقسەت قىلغان بولۇپ، ئۆزئارا ئىقتىدارلارنىڭ بىر-بىرىنى تولۇقلايدىغانلىقىنى تەكىتلىدى.",
-      "en": "The countries will seek developing “solutions and industries compatible with the development of modern defense systems,” pointing that the capabilities of the four countries are complementary."
-    },
-    "content": {
-      "ug": "مەزكۇر تۆت دۆلەت زامانىۋى مۇداپىئە سىستېمىلىرىنىڭ تەرەققىياتىغا ماس كېلىدىغان ھەل قىلىش چارىلىرى ۋە سانائەت ساھەلىرىنى بىرلىكتە تەرەققىي قىلدۇرۇشنى مەقسەت قىلغان بولۇپ، ئۆزئارا ئىقتىدارلارنىڭ بىر-بىرىنى تولۇقلايدىغانلىقىنى تەكىتلىدى.\n\n---\n📌 **مەنبە:** Breaking Defense",
-      "en": "The countries will seek developing “solutions and industries compatible with the development of modern defense systems,” pointing that the capabilities of the four countries are complementary.\n\n---\n**Source:** Breaking Defense"
-    },
-    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/261021_turkish_soldier_GettyImages-2300600438-e1792593958347.jpg",
-    "author": "Breaking Defense",
-    "date": "2026-06-07",
-    "status": "published",
-    "featured": true,
-    "views": 150,
-    "tags": [
-      "مۇداپىئە",
-      "تۈركىيە",
-      "قاتار",
-      "ھىوندونېزىيە",
-      "پاكىستان",
-      "ھەمكارلىق"
-    ],
-    "specs": {
-      "مەنبە": "Breaking Defense",
-      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/turkey-qatar-indonesia-pakistan-ink-defense-cooperation-mou/",
-      "sourceUrl": "https://breakingdefense.com/2026/10/turkey-qatar-indonesia-pakistan-ink-defense-cooperation-mou/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

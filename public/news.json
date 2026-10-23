@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792754322542_728",
+    "category": "weapons",
+    "title": {
+      "ug": "يېڭى زېلاندىيە مۇداپىئە ئىشلىرى باشلىقى «نامۇۋاپىق مۇناسىۋەت» سەۋەبىدىن ۋەزىپىسىدىن ئىست بە",
+      "en": "New Zealand defense chief resigns over ‘inappropriate relationship’"
+    },
+    "summary": {
+      "ug": "يېڭى زېلاندىيە مۇداپىئە قوماندانى ئۆزىنىڭ ئىلگىرى بۆلۈم قوماندانلىق ۋەزىپىسىنى ئۆتەۋاتقان مەزگىلدە كۆرۈلگەن «نامۇۋاپىق مۇناسىۋەت» مەسىلىسى سەۋەبىدىن ئىست بەرگەنلىكىنى، ھەمدە بۇ ئەھۋالنى دەل ۋاقتىدا ئاشكارىلىمىغانلىقىدىن قاتتىق پۇمان قىلىدىغ...",
+      "en": "“These matters revolved around an inappropriate relationship I had when in a position of unit command, and I regret not disclosing this.\""
+    },
+    "content": {
+      "ug": "يېڭى زېلاندىيە مۇداپىئە قوماندانى ئۆزىنىڭ ئىلگىرى بۆلۈم قوماندانلىق ۋەزىپىسىنى ئۆتەۋاتقان مەزگىلدە كۆرۈلگەن «نامۇۋاپىق مۇناسىۋەت» مەسىلىسى سەۋەبىدىن ئىست بەرگەنلىكىنى، ھەمدە بۇ ئەھۋالنى دەل ۋاقتىدا ئاشكارىلىمىغانلىقىدىن قاتتىق پۇمان قىلىدىغانلىقىنى بىلدۈرد.\n\n---\n📌 **مەنبە:** Defense News",
+      "en": "“These matters revolved around an inappropriate relationship I had when in a position of unit command, and I regret not disclosing this.\"\n\n---\n**Source:** Defense News"
+    },
+    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/MN5S3G3L6VFDDHUQGUY5XCBUJ4.jpg",
+    "author": "Defense News",
+    "date": "2026-10-24",
+    "status": "published",
+    "featured": true,
+    "views": 108,
+    "tags": [
+      "ھەربىي",
+      "مۇداپىئە",
+      "يېڭى زېلاندىيە",
+      "ئىست"
+    ],
+    "specs": {
+      "مەنبە": "Defense News",
+      "ئەسلى ئۇلانما": "https://www.defensenews.com/global/asia-pacific/2026/10/23/new-zealand-defense-chief-resigns-over-inappropriate-relationship/",
+      "sourceUrl": "https://www.defensenews.com/global/asia-pacific/2026/10/23/new-zealand-defense-chief-resigns-over-inappropriate-relationship/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792743660689_413",
     "category": "drones",
     "title": {
@@ -3441,42 +3475,6 @@
       "مەنبە": "قاسىيۇن ئىستراتېگىيەلىك تەتقىقات مەركىزى",
       "ئەسلى ئۇلانما": "https://qasiounstudies.org/share/189",
       "sourceUrl": "https://qasiounstudies.org/share/189",
-      "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
-      "ھالىتى": "تەستىقلانغان ئانالىز"
-    }
-  },
-  {
-    "id": "pol_1790343134684",
-    "category": "analysis",
-    "title": {
-      "ug": "ئەلى تەمىمى تەھلىلى: ۋەيرانچىلىق ۋە قىممەتلىك بەدەل بەدىلىگە كەلگەن ئازادلىق",
-      "en": "هذا البلد لم يتحرر إلا بعد أن دفع فاتورة باهظة جداً من الدمار والخراب، وشعب كامل تهجّر بعد"
-    },
-    "summary": {
-      "ug": "بۇ دۆلەت ۋەيرانچىلىق ۋە خارابىلىكتىن ئىبارەت ئىنتايىن ئېغىر بىر ھەق تۆلىگەندىن كىيىنلا ئاندىن ئازاد بولدى. پۈتۈن بىر خەلق پۈتكۈل دۇنيا تەرىپىدىن يالغۇز تاشلىۋېتىلگەندىن ۋە ئۆز ھالىغا قويۇۋېتىلگەندىن كېيىن يۇرت-ماكانلىرىدىنەمەھەللە-كويلىرىدىن باستۇرۇلۇپ كۆچۈشكە مەجبۇر بولدى.",
-      "en": "هذا البلد لم يتحرر إلا بعد أن دفع فاتورة باهظة جداً من الدمار والخراب، وشعب كامل تهجّر بعد أن خذله العالم أجمع.…"
-    },
-    "content": {
-      "ug": "بۇ دۆلەت ۋەيرانچىلىق ۋە خارابىلىكتىن ئىبارەت ئىنتايىن ئېغىر بىر ھەق تۆلىگەندىن كىيىنلا ئاندىن ئازاد بولدى. پۈتۈن بىر خەلق پۈتكۈل دۇنيا تەرىپىدىن يالغۇز تاشلىۋېتىلگەندىن ۋە ئۆز ھالىغا قويۇۋېتىلگەندىن كېيىن يۇرت-ماكانلىرىدىنەمەھەللە-كويلىرىدىن باستۇرۇلۇپ كۆچۈشكە مەجبۇر بولدى.\n\n---\n🔗 **ئەسلى مەنبە ئۇلانمىسى:** [علي التميمي (Facebook) دىن ئەسلى تەھلىلنى كۆرۈش](https://www.facebook.com/alitamiii/posts/pfbid02wqvxswx2VFMsPKBY9RRiBGby9WcGiyjdi4dTuXqs2Xnp1oSAcqUD8X6aYira9rwdl)",
-      "en": "هذا البلد لم يتحرر إلا بعد أن دفع فاتورة باهظة جداً من الدمار والخراب، وشعب كامل تهجّر بعد أن خذله العالم أجمع.…"
-    },
-    "imageUrl": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/819776916_2911335322574393_439708106432998844_n.png?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s720x720&_nc_cat=1&ccb=1-7&_nc_sid=833d8c&_nc_ohc=WxryWOHAmKAQ7kNvwHNJ4ZK&_nc_oc=AdqP2U0jNOYNVhUQ1sMtMu4e93xAkkkdY-QZEsy4l215MhOtF7_8P3LEgQQ90vfW_Es&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=fKOZotupurAyu8B2M0Pzjw&_nc_ss=7b289&oh=00_AQI01ZSWTmLOPGfzq7_VZ9BBK76GpCVY1FSpA_caqaY1fQ&oe=6ABC51B8",
-    "author": "علي التميمي (Facebook)",
-    "date": "2026-09-25",
-    "status": "published",
-    "featured": true,
-    "views": 36,
-    "tags": [
-      "ئەلى_تەمىمى",
-      "ئىستراتېگىيە",
-      "گېئوپولىتىكا",
-      "ئازادلىق",
-      "ۋەيرانچىلىق"
-    ],
-    "specs": {
-      "مەنبە": "علي التميمي (Facebook)",
-      "ئەسلى ئۇلانما": "https://www.facebook.com/alitamiii/posts/pfbid02wqvxswx2VFMsPKBY9RRiBGby9WcGiyjdi4dTuXqs2Xnp1oSAcqUD8X6aYira9rwdl",
-      "sourceUrl": "https://www.facebook.com/alitamiii/posts/pfbid02wqvxswx2VFMsPKBY9RRiBGby9WcGiyjdi4dTuXqs2Xnp1oSAcqUD8X6aYira9rwdl",
       "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
       "ھالىتى": "تەستىقلانغان ئانالىز"
     }

@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1792711074247_453",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا بەش بۇرجەكلىك بىناسى كېلەر يىلىدىن باشلاپ گرېنلاندىيەدىكى ھەربىي بازىلىرىنى كېڭەيتىشنى باشلايدۇ",
+      "en": "Pentagon to start expanding Greenland bases next year: official"
+    },
+    "summary": {
+      "ug": "ئامېرىكا مۇداپىئە مىنىستىرلىقى مەسئۇللىرىنىڭ ئاشكارىلىشىچە، ئامېرىكا كېلەر يىلىدىن باشلاپ گرېنلاندىيەدىكى ھەربىي بازىلىرىنى كېڭەيتىش قۇرۇلۇشىنى ئېلىپ بارىدۇ. بۇ قېتىمقى ئۆستۈرۈپ يېڭىلاش ھەرىكىتى يۈك تىرانسپورت ئايروپىلانلىرى، ئۇرۇشچى ئايروپ...",
+      "en": "The U.S. is looking at upgrades to support cargo, fighter aircraft, and more troops."
+    },
+    "content": {
+      "ug": "ئامېرىكا مۇداپىئە مىنىستىرلىقى مەسئۇللىرىنىڭ ئاشكارىلىشىچە، ئامېرىكا كېلەر يىلىدىن باشلاپ گرېنلاندىيەدىكى ھەربىي بازىلىرىنى كېڭەيتىش قۇرۇلۇشىنى ئېلىپ بارىدۇ. بۇ قېتىمقى ئۆستۈرۈپ يېڭىلاش ھەرىكىتى يۈك تىرانسپورت ئايروپىلانلىرى، ئۇرۇشچى ئايروپىلانلار ھەمدە تېخىمۇ كۆپ قوشۇنلارنى ئورۇنلاشتۇرۇشنى ئۈنۈملۈك قوللاش ئۈچۈن ئېلىپ بېرىلىدۇ.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "The U.S. is looking at upgrades to support cargo, fighter aircraft, and more troops.\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/20/GettyImages_2286208340/large.jpg",
+    "author": "Defense One",
+    "date": "2024-05-20",
+    "status": "published",
+    "featured": true,
+    "views": 152,
+    "tags": [
+      "ئامېرىكا",
+      "گرېنلاندىيە",
+      "ھەربىي بازا",
+      "بەش بۇرجەكلىك بىنا",
+      "مۇداپىئە"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/policy/2026/10/pentagon-expand-greenland-bases/416706/",
+      "sourceUrl": "https://www.defenseone.com/policy/2026/10/pentagon-expand-greenland-bases/416706/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792711059146_39",
     "category": "weapons",
     "title": {
@@ -3433,39 +3468,6 @@
       "مەنبە": "sUAS News (Drones)",
       "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/anra-technologies-introduces-vista-to-give-drone-operators-greater-awareness-of-nearby-airspace-activity/",
       "sourceUrl": "https://www.suasnews.com/2026/10/anra-technologies-introduces-vista-to-give-drone-operators-greater-awareness-of-nearby-airspace-activity/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792261987641_944",
-    "category": "drones",
-    "title": {
-      "ug": "ئۇچقۇچىسىز ئايروپىلان ئۇچقۇچىلىرى ئۈچۈن قول ئىشلىتىش ھاجەتسىز قاتناش ئۇقتۇرۇش سىستېمىسى تەتقىق قىلىپ ياساپ چىقىلدى",
-      "en": "skyAlert: Hands-Free Traffic Awareness for UAS Pilots"
-    },
-    "summary": {
-      "ug": "كەسپىي ئۇچقۇچىسىز ئايروپىلان (دىرون) ئۇچقۇچىلىرىنىڭ ۋەزىپە ئىجرا قىلىش جەريانىدىكى دىققىتىنى مەركەزلەشتۈرۈشىگە ياردەم بېرىش مەقسەت قىلىنغان يېڭى سىستېمىسى، ئەتراپتىكى ئايروپىلانلارنىڭ ھەرىكەت ئەھۋالىدىن ئۆزلۈكىدىن خەۋەردار قىلىش ئىقتىدارىغا ئىگە.",
-      "en": "Stay aware of nearby aircraft. Stay focused on your mission.Designed for professional UAS pilots, skyAlert"
-    },
-    "content": {
-      "ug": "كەسپىي ئۇچقۇچىسىز ئايروپىلان (دىرون) ئۇچقۇچىلىرىنىڭ ۋەزىپە ئىجرا قىلىش جەريانىدىكى دىققىتىنى مەركەزلەشتۈرۈشىگە ياردەم بېرىش مەقسەت قىلىنغان يېڭى سىستېمىسى، ئەتراپتىكى ئايروپىلانلارنىڭ ھەرىكەت ئەھۋالىدىن ئۆزلۈكىدىن خەۋەردار قىلىش ئىقتىدارىغا ئىگە.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
-      "en": "Stay aware of nearby aircraft. Stay focused on your mission.Designed for professional UAS pilots, skyAlert\n\n---\n**Source:** sUAS News (Drones)"
-    },
-    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/skyAlert_1x1.webp?fit=600%2C600&#038;ssl=1",
-    "author": "sUAS News (Drones)",
-    "date": "2026-03-31",
-    "status": "published",
-    "featured": true,
-    "views": 40,
-    "tags": [
-      "ھەربىي",
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "تېخنىكا"
-    ],
-    "specs": {
-      "مەنبە": "sUAS News (Drones)",
-      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/skyalert-hands-free-traffic-awareness-for-uas-pilots/",
-      "sourceUrl": "https://www.suasnews.com/2026/10/skyalert-hands-free-traffic-awareness-for-uas-pilots/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792743660689_413",
+    "category": "drones",
+    "title": {
+      "ug": "ئاممىۋى بىخەتەرلىك ۋە جىددىي تاقابىل تۇرۇش ئورگانلىرى ئۈچۈن تولۇق ئاپتوماتلاشقان دىرون سىستېمىسى ئېلان قىلىندى",
+      "en": "Evolver DFR Debuts a Complete Drone as First Responder Program for Public Safety Agencies"
+    },
+    "summary": {
+      "ug": "ئاممىۋى ئامانلىق ۋە جىددىي ۋەقەلەرگە تاقابىل تۇرۇش ئورگانلىرىنىڭ نازارەت ۋە ھەرىكەت ئىقتىدارىنى ئاشۇرۇش مەقسىتىدە، جىددىي ئەھۋاللارغا تۇنجى بولۇپ ئىنكاس قايتۇرۇش ئىقتىدارىغا ئىگە « DFR» ناملىق پۈتۈن گەۋدىلەشكەن سىستېما بازارغا سېلىندى. مەزك...",
+      "en": "The solution, powered by Drone Nerds, combines Parrot ANAFI UKR aircraft, DBOX autonomous docking station,"
+    },
+    "content": {
+      "ug": "ئاممىۋى ئامانلىق ۋە جىددىي ۋەقەلەرگە تاقابىل تۇرۇش ئورگانلىرىنىڭ نازارەت ۋە ھەرىكەت ئىقتىدارىنى ئاشۇرۇش مەقسىتىدە، جىددىي ئەھۋاللارغا تۇنجى بولۇپ ئىنكاس قايتۇرۇش ئىقتىدارىغا ئىگە « DFR» ناملىق پۈتۈن گەۋدىلەشكەن سىستېما بازارغا سېلىندى. مەزكۇر ھەل قىلىش چارىسى تاكتىكىلىق « ANAFI UKR» تىپلىق ئۇچقۇچىسىز ئايروپىلان بىلەن «DBOX» ئاپتونوم قونۇش ۋە توك قاچىلاش پونكىتىنى ئۆزئارا مۇكەممەل بىرلەشتۈرگەن بولۇپ، قىسقا ۋاقىت ئىچىدە ۋەقە يۈز بەرگەن ئورۇنغا يېتىپ بېرىپ، ئاخبارات توپلاش ۋە نەق مەيدان ۋەزىيىتىنى باھالاش پۇرسىتى يارىتىپ بېرىدۇ.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
+      "en": "The solution, powered by Drone Nerds, combines Parrot ANAFI UKR aircraft, DBOX autonomous docking station,\n\n---\n**Source:** sUAS News (Drones)"
+    },
+    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/Evolver-DFR-PR-Image.webp?fit=600%2C455&#038;ssl=1",
+    "author": "sUAS News (Drones)",
+    "date": "2025-05-20",
+    "status": "published",
+    "featured": true,
+    "views": 79,
+    "tags": [
+      "ئۇچقۇچىسىز ئايروپىلان",
+      "ئاممىۋى بىخەتەرلىك",
+      "تاكتىكىلىق ئاخبارات",
+      "ئەسكىرىي تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "sUAS News (Drones)",
+      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/evolver-dfr-debuts-a-complete-drone-as-first-responder-program-for-public-safety-agencies/",
+      "sourceUrl": "https://www.suasnews.com/2026/10/evolver-dfr-debuts-a-complete-drone-as-first-responder-program-for-public-safety-agencies/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792743566765_272",
     "category": "naval",
     "title": {
@@ -3445,41 +3479,6 @@
       "sourceUrl": "https://www.facebook.com/alitamiii/posts/pfbid02wqvxswx2VFMsPKBY9RRiBGby9WcGiyjdi4dTuXqs2Xnp1oSAcqUD8X6aYira9rwdl",
       "تىپى": "ئىستراتېگىيەلىك ۋە سىياسىي تەھلىل",
       "ھالىتى": "تەستىقلانغان ئانالىز"
-    }
-  },
-  {
-    "id": "news_1792229477145_702",
-    "category": "drones",
-    "title": {
-      "ug": "ئابۇ دىبىنىڭ سەۋەبىدىن سۇدان قانداق قىلىپ ئۇچقۇچىسىز ئايروپىلان ئۇرۇشىنىڭ سىناق مەيدانىغا ئايلاندى؟",
-      "en": "How Sudan Became a Laboratory for Drone Warfare, Thanks to Abu Dhabi"
-    },
-    "summary": {
-      "ug": "2023-يىلى 4-ئايدا سۇداندا ئۇرۇش پارتلىغاندىن بۇيان، مەن 2026-يىلى 6-ئايدا تۇنجى قېتىم ئۆزۈمنىڭ تۇغۇلۇپ ئۆسكەن يۇرتى خارتۇمغا قايتىپ كەلدىم. ئۇرۇش ئوتى پۇقرالار ئولتۇراق رايونلىرىغا يېتىپ كەلگەندىن كېيىن، مەن ئائىلەم بىلەن بىرگە بىخەتەرلىك ئ...",
-      "en": "In June 2026, I visited Khartoum, my hometown, for the first time since the war broke out in Sudan in April 2023. I left the city to seek safety with my family after the war spread into civilian neighborhoods. I never imagined I would retur"
-    },
-    "content": {
-      "ug": "2023-يىلى 4-ئايدا سۇداندا ئۇرۇش پارتلىغاندىن بۇيان، مەن 2026-يىلى 6-ئايدا تۇنجى قېتىم ئۆزۈمنىڭ تۇغۇلۇپ ئۆسكەن يۇرتى خارتۇمغا قايتىپ كەلدىم. ئۇرۇش ئوتى پۇقرالار ئولتۇراق رايونلىرىغا يېتىپ كەلگەندىن كېيىن، مەن ئائىلەم بىلەن بىرگە بىخەتەرلىك ئىزدەپ شەھەردىن ئايرىلغان ئىدىم. بۇ ئانا شەھىرىمگە قايتا قەدەم تەشلىشىمنى ئېسىمگە كەلتۈرۈپمۇ باقمىغان ئىدىم. ئايروپىلان خارتۇم خەلقئارا ئايروپورتىغا قونغاندا، ئۆز كۆزۈم بىلەن كۆرگەن ۋەيرانچىلىقلار مەندە بىر تەرەپتىن زور ھاياجان، يەنە بىر تەرەپتىن ئېغىر روھىي زەخىم پەيدا قىلدى. 2026-يىلى 5-ئايدا سودا ئاۋىياتسىيە لىنىيەلىرى قايتا ئېچىلغاندىن كېيىن، نۇرغۇنلىغان سۇدانلىقلار ئۆيلىرىگە قايتىشقا باشلىغان بولۇپ، ئايروپورت ئىنتايىن ئاۋات ئىدى. ئامما، سۇداندا كۈنسېرى ئەۋج ئېلىپ كېڭىيىۋاتقان ئۇچقۇچىسىز ئايروپىلان (دىرون) ئۇرۇشى ئۈمىد بىلەن يۇرتىغا قايتقان سۇدان خەلقىنىڭ كېلەچىكىگە ئېغىر تەھديد سالماقتا.\n\n---\n📌 **مەنبە:** War on the Rocks",
-      "en": "In June 2026, I visited Khartoum, my hometown, for the first time since the war broke out in Sudan in April 2023. I left the city to seek safety with my family after the war spread into civilian neighborhoods. I never imagined I would return to the same city. I was very excited but also traumatized by the destruction I saw as the plane landed at Khartoum International Airport. The airport was busy, with many Sudanese returning after commercial flights resumed in May 2026. But the growing drone warfare that is spreading over Sudan threatens the return of hopeful Sudanese\n\n\nThe post How Sudan Became a Laboratory for Drone Warfare, Thanks to Abu Dhabi appeared first on War on the Rocks.\n\n---\n**Source:** War on the Rocks"
-    },
-    "imageUrl": "https://warontherocks.com/wp-content/uploads/wotr-og-images/wotr-og-48060-af27749ed05c.jpg",
-    "author": "War on the Rocks",
-    "date": "2026-06-15",
-    "status": "published",
-    "featured": true,
-    "views": 82,
-    "tags": [
-      "سۇدان",
-      "ئۇچقۇچىسىز ئايروپىلان",
-      "ئابۇ دىبى",
-      "ئەسكىرىي ئۇرۇش",
-      "خارتۇم"
-    ],
-    "specs": {
-      "مەنبە": "War on the Rocks",
-      "ئەسلى ئۇلانما": "https://warontherocks.com/how-sudan-became-a-laboratory-for-drone-warfare-thanks-to-abu-dhabi/",
-      "sourceUrl": "https://warontherocks.com/how-sudan-became-a-laboratory-for-drone-warfare-thanks-to-abu-dhabi/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }
 ]

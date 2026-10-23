@@ -1,5 +1,40 @@
 [
   {
+    "id": "news_1792732760082_474",
+    "category": "weapons",
+    "title": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى تېز سۈرئەتلىك ھەربىي تىرانسپورت ئۈچۈن سىپېس ئېكسنىڭ يۈك كاپسۇلىنى سىناق قىلدى",
+      "en": "AFRL tests SpaceX Starfall capsule for rapid rocket cargo delivery"
+    },
+    "summary": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى تەتقىقات تەجرىبىخانىسى دۇنيانىڭ ھەرقانداق جايىغا قىسقا ۋاقىت ئىچىدە جىددىي ھەربىي ئەشيا يەتكۈزۈپ بېرىشنى نىشان قىلغان «راكتىلا يۈك تىرانسپورتى» پىروگراممىسى دائىرىسىدە، يۈك كاپسۇلى لايىھەلىرىنى مۇۋەپپەقىيەتلىك سىناقت...",
+      "en": "The US Air Force Research Laboratory has tested cargo-pod designs for its Rocket Cargo programme during a commercial rideshare launch from Cape Canaveral Space Force Station on 20 October."
+    },
+    "content": {
+      "ug": "ئامېرىكا ھاۋا ئارمىيەسى تەتقىقات تەجرىبىخانىسى دۇنيانىڭ ھەرقانداق جايىغا قىسقا ۋاقىت ئىچىدە جىددىي ھەربىي ئەشيا يەتكۈزۈپ بېرىشنى نىشان قىلغان «راكتىلا يۈك تىرانسپورتى» پىروگراممىسى دائىرىسىدە، يۈك كاپسۇلى لايىھەلىرىنى مۇۋەپپەقىيەتلىك سىناقتىن ئۆتكۈزدى. مەزكۇر سىناق 20-ئۆكتەبىر كۈنى كاناۋېرال تۇمشۇقى ئالەم بوشلۇقى قىسىملىرى بازىسىدىن سودا خاراكتېرلىك بوشلۇققا چىقىرىش ۋەزىپىسى ئىجرا قىلىنىۋاتقان مەزگىلدە سىپېس ئېكس شىركىتىنىڭ كاپسۇل سىستېمىسىدىن پايدىلىنىپ ئېلىپ بېرىلدى.\n\n---\n📌 **مەنبە:** Air Force Technology",
+      "en": "The US Air Force Research Laboratory has tested cargo-pod designs for its Rocket Cargo programme during a commercial rideshare launch from Cape Canaveral Space Force Station on 20 October.\n\n---\n**Source:** Air Force Technology"
+    },
+    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/AFRL-SpaceX.jpg",
+    "author": "Air Force Technology",
+    "date": "2024-10-20",
+    "status": "published",
+    "featured": true,
+    "views": 23,
+    "tags": [
+      "ئامېرىكا ھاۋا ئارمىيەسى",
+      "سىپېس ئېكس",
+      "ئالەم قاتنىشى",
+      "ھەربىي لوگىستىكا",
+      "راكتىلا"
+    ],
+    "specs": {
+      "مەنبە": "Air Force Technology",
+      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/afrl-spacex-starfall-rocket-cargo/",
+      "sourceUrl": "https://www.airforce-technology.com/news/afrl-spacex-starfall-rocket-cargo/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792722022998_593",
     "category": "weapons",
     "title": {
@@ -3436,40 +3471,6 @@
       "مەنبە": "sUAS News (Drones)",
       "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/wingxpand-unveils-xpair-a-universal-autonomous-system-for-air-ground-and-maritime/",
       "sourceUrl": "https://www.suasnews.com/2026/10/wingxpand-unveils-xpair-a-universal-autonomous-system-for-air-ground-and-maritime/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792305421170_132",
-    "category": "weapons",
-    "title": {
-      "ug": "ئوشكوش شىركىتى گوللاندىيە مۇداپىئە مىنىستىرلىقى ئۈچۈن «كايمان» تىپلىق ئەترەتكە قارشى تۇرۇش ۋە چارلاش ئاپتوموبىلىنىڭ دەسلەپكى ئۈلگە نۇسخىسىنى ئىشلەپچىقىرىشقا باشلىدى",
-      "en": "Oshkosh begins Kaaiman prototype production for Dutch MoD"
-    },
-    "summary": {
-      "ug": "ئوشكوش مۇداپىئە شىركىتى گوللاندىيە مۇداپىئە مىنىستىرلىقى ئۈچۈن «كايمان» دەپ ئاتالغان گوللاندىيە ئېكسپېدىتسىيە چارلاش ئاپتوموبىلىنىڭ تۇنجى ئۈلگە نۇسخىسىنى ئىشلەپچىقىرىش خىزمىتىنى رەسمىي باشلىدى.",
-      "en": "Oshkosh Defense has commenced production of the first prototype of the Dutch Expeditionary Patrol Vehicle (DXPV), designated “Kaaiman,” for the Netherlands Ministry of Defence."
-    },
-    "content": {
-      "ug": "ئوشكوش مۇداپىئە شىركىتى گوللاندىيە مۇداپىئە مىنىستىرلىقى ئۈچۈن «كايمان» دەپ ئاتالغان گوللاندىيە ئېكسپېدىتسىيە چارلاش ئاپتوموبىلىنىڭ تۇنجى ئۈلگە نۇسخىسىنى ئىشلەپچىقىرىش خىزمىتىنى رەسمىي باشلىدى.\n\n---\n📌 **مەنبە:** Army Technology",
-      "en": "Oshkosh Defense has commenced production of the first prototype of the Dutch Expeditionary Patrol Vehicle (DXPV), designated “Kaaiman,” for the Netherlands Ministry of Defence.\n\n---\n**Source:** Army Technology"
-    },
-    "imageUrl": "https://www.army-technology.com/wp-content/uploads/sites/3/2026/10/Oshkosh-Defense-1.jpg",
-    "author": "Army Technology",
-    "date": "2026-05-19",
-    "status": "published",
-    "featured": true,
-    "views": 133,
-    "tags": [
-      "مۇداپىئە",
-      "ئوشكوش",
-      "گوللاندىيە",
-      "ھەربىي ئاپتوموبىل"
-    ],
-    "specs": {
-      "مەنبە": "Army Technology",
-      "ئەسلى ئۇلانما": "https://www.army-technology.com/news/oshkosh-kaaiman-netherlands-defence/",
-      "sourceUrl": "https://www.army-technology.com/news/oshkosh-kaaiman-netherlands-defence/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

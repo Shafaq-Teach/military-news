@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792808772079_515",
+    "category": "weapons",
+    "title": {
+      "ug": "مۇداپىئە سانائەت خەۋەرلىرى: MOSA سىستېمىسى، گوللاندىيە-ئامېرىكا سانائەت كۈنلەر مۇنبىرى ۋە باشقىلار",
+      "en": "Defense Business Brief: A little bit of MOSA; Netherlands-U.S. industry days, and more"
+    },
+    "summary": {
+      "ug": "يېقىنقى مەزگىلدىكى خەلقئارا مۇداپىئە بازىرى ۋە سانائەت تەرەققىياتلىرى ئاساسىدا، مودۇللۇق ئوچۇق سىستېما ئۆلچىمى (MOSA) ھەمدە گوللاندىيە بىلەن ئامېرىكا ئوتتۇرىسىدىكى سانائەت ھەمكارلىق پائالىيەتلىرى يېڭى مۇداپىئە تەدبىرلىرىنىڭ مەركىزىگە ئايلاندى.",
+      "en": ""
+    },
+    "content": {
+      "ug": "يېقىنقى مەزگىلدىكى خەلقئارا مۇداپىئە بازىرى ۋە سانائەت تەرەققىياتلىرى ئاساسىدا، مودۇللۇق ئوچۇق سىستېما ئۆلچىمى (MOSA) ھەمدە گوللاندىيە بىلەن ئامېرىكا ئوتتۇرىسىدىكى سانائەت ھەمكارلىق پائالىيەتلىرى يېڭى مۇداپىئە تەدبىرلىرىنىڭ مەركىزىگە ئايلاندى.\n\n---\n📌 **مەنبە:** Defense One",
+      "en": "\n\n---\n**Source:** Defense One"
+    },
+    "imageUrl": "https://cdn.defenseone.com/media/img/cd/2026/10/22/DBB_lander/large.jpg",
+    "author": "Defense One",
+    "date": "2026-03-30",
+    "status": "published",
+    "featured": true,
+    "views": 146,
+    "tags": [
+      "مۇداپىئە",
+      "سانائەت",
+      "ھەربىي",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "Defense One",
+      "ئەسلى ئۇلانما": "https://www.defenseone.com/business/2026/10/defense-business-brief-little-bit-mosa-netherlands-us-industry-days-and-more/416776/",
+      "sourceUrl": "https://www.defenseone.com/business/2026/10/defense-business-brief-little-bit-mosa-netherlands-us-industry-days-and-more/416776/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792808735893_568",
     "category": "weapons",
     "title": {
@@ -3439,40 +3473,6 @@
       "مەنبە": "War on the Rocks",
       "ئەسلى ئۇلانما": "https://warontherocks.com/do-the-benefits-outweigh-the-risks-of-hosting-u-s-military-bases/",
       "sourceUrl": "https://warontherocks.com/do-the-benefits-outweigh-the-risks-of-hosting-u-s-military-bases/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792132016674_960",
-    "category": "cyber",
-    "title": {
-      "ug": "ئامېرىكا ئارمىيەسى يېقىنقى ئاي ئىچىدە ئىككىنچى تىجارى كىبېر باتالىيونىنى قۇرۇپ چىقىدىغانلىقىنى بىلدۈردى",
-      "en": "US Army to stand up second expeditionary cyber battalion in coming months"
-    },
-    "summary": {
-      "ug": "ئامېرىكا ئارمىيەسى كىبېر قوماندانلىق باشقارمىسىنىڭ مەسئۇلى بۇ ھەپتە قىلغان سۆزىدە، ئارمىيەنىڭ كەلگۈسى بىر نەچچە ئاي ئىچىدە 11-كىبېر باتالىيونىنىڭ دەل ئۆزىدەك ئوخشاش بىر نۇسخىسىنى يەنە قۇرۇپ چىقىدىغانلىقىنى جاكارلىدى.",
-      "en": "The head of U.S. Army Cyber Command said this week that the service would be building an exact replica of the 11th Cyber Battalion in the next few months."
-    },
-    "content": {
-      "ug": "ئامېرىكا ئارمىيەسى كىبېر قوماندانلىق باشقارمىسىنىڭ مەسئۇلى بۇ ھەپتە قىلغان سۆزىدە، ئارمىيەنىڭ كەلگۈسى بىر نەچچە ئاي ئىچىدە 11-كىبېر باتالىيونىنىڭ دەل ئۆزىدەك ئوخشاش بىر نۇسخىسىنى يەنە قۇرۇپ چىقىدىغانلىقىنى جاكارلىدى.\n\n---\n📌 **مەنبە:** C4ISRNET",
-      "en": "The head of U.S. Army Cyber Command said this week that the service would be building an exact replica of the 11th Cyber Battalion in the next few months.\n\n---\n**Source:** C4ISRNET"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/AHFXHECS5ZBLJDKOFAZDNF2LNI.jpg",
-    "author": "C4ISRNET",
-    "date": "2026-10-16",
-    "status": "published",
-    "featured": true,
-    "views": 83,
-    "tags": [
-      "ئامېرىكا",
-      "مۇداپىئە",
-      "كىبېر باتالىيونى",
-      "ھەربىي"
-    ],
-    "specs": {
-      "مەنبە": "C4ISRNET",
-      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/industry/techwatch/2026/10/14/us-army-to-stand-up-second-expeditionary-cyber-battalion-in-coming-months/",
-      "sourceUrl": "https://www.c4isrnet.com/industry/techwatch/2026/10/14/us-army-to-stand-up-second-expeditionary-cyber-battalion-in-coming-months/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

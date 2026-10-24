@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792808735893_568",
+    "category": "weapons",
+    "title": {
+      "ug": "GDIT شىركىتى ئېمىي جونسوننى يېڭى رەئىس قىلىپ تەيىنلىگەنلىكىنى ئېلان قىلدى",
+      "en": "GDIT announces Amy Johnson as new president"
+    },
+    "summary": {
+      "ug": "ئامېرىكا مۇداپىئە سانائىتى تېخنىكا ماگناتى «گېنېرال دىنامىكس ئۇچۇر تېخنىكىسى بۆلۈمى» (GDIT) ئېمىي جونسوننىڭ يېڭى شىركەت رەئىسى بولۇپ ۋەزىپىگە ئولتۇرغانلىقىنى جاكارلىدى. جونسون شىركەتنىڭ ئالاقىدار بۆلۈمىگە ئون يىلغا يېقىن رەھبەرلىك قىلغاندىن...",
+      "en": "Johnson replaces longtime president Amy Gilliland, who was let go from the company earlier this month after almost a decade of leading the business unit."
+    },
+    "content": {
+      "ug": "ئامېرىكا مۇداپىئە سانائىتى تېخنىكا ماگناتى «گېنېرال دىنامىكس ئۇچۇر تېخنىكىسى بۆلۈمى» (GDIT) ئېمىي جونسوننىڭ يېڭى شىركەت رەئىسى بولۇپ ۋەزىپىگە ئولتۇرغانلىقىنى جاكارلىدى. جونسون شىركەتنىڭ ئالاقىدار بۆلۈمىگە ئون يىلغا يېقىن رەھبەرلىك قىلغاندىن كېيىن مۇشۇ ئاينىڭ بېشىدا خىزمىتىدىن ئايرىلغان سابىق رەئىس ئېمىي گىللىلاندنىڭ ئورنىغا تەيىنلەندى.\n\n---\n📌 **مەنبە:** Breaking Defense",
+      "en": "Johnson replaces longtime president Amy Gilliland, who was let go from the company earlier this month after almost a decade of leading the business unit.\n\n---\n**Source:** Breaking Defense"
+    },
+    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/general-dybnamics-logo-scaled-e1792789797924-1024x577.jpg",
+    "author": "Breaking Defense",
+    "date": "2026-10-24",
+    "status": "published",
+    "featured": true,
+    "views": 31,
+    "tags": [
+      "GDIT",
+      "ھەربىي سانائەت",
+      "تەيىنلەش",
+      "مۇداپىئە تېخنىكىسى"
+    ],
+    "specs": {
+      "مەنبە": "Breaking Defense",
+      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/gdit-announces-amy-johnson-as-new-president/",
+      "sourceUrl": "https://breakingdefense.com/2026/10/gdit-announces-amy-johnson-as-new-president/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792797959226_956",
     "category": "analysis",
     "title": {
@@ -3439,40 +3473,6 @@
       "مەنبە": "C4ISRNET",
       "ئەسلى ئۇلانما": "https://www.c4isrnet.com/industry/techwatch/2026/10/14/us-army-to-stand-up-second-expeditionary-cyber-battalion-in-coming-months/",
       "sourceUrl": "https://www.c4isrnet.com/industry/techwatch/2026/10/14/us-army-to-stand-up-second-expeditionary-cyber-battalion-in-coming-months/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792132027342_555",
-    "category": "weapons",
-    "title": {
-      "ug": "بەل شىركىتى MV-75 چايان تىپلىق ئايروپىلاننىڭ تۇنجى گوندولا قۇرۇلمىسىنى تاماملىدى ھەمدە سۈرئەت ئۆزگەرتكۈچ سىستېمىسىنى سىناق قىلىشقا باشلىدى",
-      "en": "Bell completes first MV-75 Cheyenne nacelles, starts gearbox testing"
-    },
-    "summary": {
-      "ug": "بەل تېكىسترون ( ) شىركىتى MV-75 چايان تىپلىق سىناق ئايروپىلانى ئۈچۈن تۇنجى قېتىم گوندولا () قۇرۇلمىسىنى ياساپ بولدى ۋە مەزكۇر ئايروپىلاننىڭ سۈرئەت ئۆزگەرتكۈچ () سىستېمىسىنى سىناق قىلىش خىزمىتىنى رەسمىي باشلىدى.",
-      "en": "Bell Textron has completed the first nacelle structures for its MV-75 Cheyenne test aircraft and begun testing the aircraft’s gearbox system."
-    },
-    "content": {
-      "ug": "بەل تېكىسترون ( ) شىركىتى MV-75 چايان تىپلىق سىناق ئايروپىلانى ئۈچۈن تۇنجى قېتىم گوندولا () قۇرۇلمىسىنى ياساپ بولدى ۋە مەزكۇر ئايروپىلاننىڭ سۈرئەت ئۆزگەرتكۈچ () سىستېمىسىنى سىناق قىلىش خىزمىتىنى رەسمىي باشلىدى.\n\n---\n📌 **مەنبە:** Air Force Technology",
-      "en": "Bell Textron has completed the first nacelle structures for its MV-75 Cheyenne test aircraft and begun testing the aircraft’s gearbox system.\n\n---\n**Source:** Air Force Technology"
-    },
-    "imageUrl": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/10/MV-75-Cheyenne.jpg",
-    "author": "Air Force Technology",
-    "date": "2026-10-16",
-    "status": "published",
-    "featured": true,
-    "views": 72,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "ئاۋىئاتسىيە"
-    ],
-    "specs": {
-      "مەنبە": "Air Force Technology",
-      "ئەسلى ئۇلانما": "https://www.airforce-technology.com/news/bell-mv-75-cheyenne/",
-      "sourceUrl": "https://www.airforce-technology.com/news/bell-mv-75-cheyenne/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

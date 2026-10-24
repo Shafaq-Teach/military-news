@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792852291064_972",
+    "category": "weapons",
+    "title": {
+      "ug": "پېت ھېگسەت: پېنتاگون ئادەمسىز دىرونلارنى كۆلەملەشتۈرۈپ ئىشلەپچىقىرىش ئۈچۈن 50 مىليارد دوللارلىق مەبلەغكە ئېھتىياجلىق",
+      "en": "Pentagon needs $50B for mass drone production, Hegseth says"
+    },
+    "summary": {
+      "ug": "ئامېرىكا مۇداپىئە ۋەزىرى پېت ھېگسەتنىڭ بىلدۈرۈشىچە، پېنتاگون ئاپتوماتلاشقان ۋە ماشىنىلاشقان سىستېمىلارنى تەرەققىي قىلدۇرۇش ۋە كۆلەملەشتۈرۈش خىزمەتلىرىنى جىددىي ئىلگىرى سۈرۈش ئۈچۈن، ئالاھىدە ماسلاشتۇرۇش فوندىدىن 50 مىليارد دوللار مەبلەغ ئاجر...",
+      "en": "Defense Secretary Pete Hegseth wants $50 billion in reconciliation funding to support the Pentagon's push to scale autonomous and robotic systems."
+    },
+    "content": {
+      "ug": "ئامېرىكا مۇداپىئە ۋەزىرى پېت ھېگسەتنىڭ بىلدۈرۈشىچە، پېنتاگون ئاپتوماتلاشقان ۋە ماشىنىلاشقان سىستېمىلارنى تەرەققىي قىلدۇرۇش ۋە كۆلەملەشتۈرۈش خىزمەتلىرىنى جىددىي ئىلگىرى سۈرۈش ئۈچۈن، ئالاھىدە ماسلاشتۇرۇش فوندىدىن 50 مىليارد دوللار مەبلەغ ئاجرىتىپ بېرىشنى تەلەپ قىلغان.\n\n---\n📌 **مەنبە:** C4ISRNET",
+      "en": "Defense Secretary Pete Hegseth wants $50 billion in reconciliation funding to support the Pentagon's push to scale autonomous and robotic systems.\n\n---\n**Source:** C4ISRNET"
+    },
+    "imageUrl": "https://one.sightlinemg.com/wp-content/uploads/2026/10/GettyImages-2299606998.jpg.jpg",
+    "author": "C4ISRNET",
+    "date": "2026-10-24",
+    "status": "published",
+    "featured": true,
+    "views": 151,
+    "tags": [
+      "پېنتاگون",
+      "مۇداپىئە_بۈجىتى",
+      "ئۇچقۇچىسىز_ئايروپىلان",
+      "ئەسكىرىي_تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "C4ISRNET",
+      "ئەسلى ئۇلانما": "https://www.c4isrnet.com/battlefield-tech/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says/",
+      "sourceUrl": "https://www.c4isrnet.com/battlefield-tech/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792852248739_493",
     "category": "analysis",
     "title": {
@@ -3445,40 +3479,6 @@
       "مەنبە": "The War Zone (TWZ)",
       "ئەسلى ئۇلانما": "https://www.twz.com/air/f-22-pilot-controls-fq-44-fighter-drone-from-the-cockpit-for-the-first-time",
       "sourceUrl": "https://www.twz.com/air/f-22-pilot-controls-fq-44-fighter-drone-from-the-cockpit-for-the-first-time",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792218541511_512",
-    "category": "weapons",
-    "title": {
-      "ug": "ئامېرىكا ئالاھىدە جەڭ قىسىملىرى يېڭى تىپتىكى قوغداش نىقابى ۋە كۆزئەينەك سىستېمىسىنى سەپلىدى",
-      "en": "US Special Operations adopts new half-mask and goggles"
-    },
-    "summary": {
-      "ug": "«ئاۋون پروپېكشن» شىركىتى ئىشلەپچىقارغان MITR تىپلىق يېرىم يۈز نىقابى ۋە كۆزئەينەك سىستېمىسى ئاتموسفەرادىكى خەتەرلىك خىمىيەۋى ماددىلار ھەم زەھەرلىك بىرىكمىلەرنىڭ زىيىنىدىن جەڭچىلەرنى ئۈنۈملۈك قوغداش ئۈچۈن لايىھەلەنگەن بولۇپ، ئامېرىكا ئالاھىد...",
-      "en": "Avon Protection's MITR half-mask and goggle system is designed to protect wearers from dangerous chemicals and toxic substances in the atmosphere."
-    },
-    "content": {
-      "ug": "«ئاۋون پروپېكشن» شىركىتى ئىشلەپچىقارغان MITR تىپلىق يېرىم يۈز نىقابى ۋە كۆزئەينەك سىستېمىسى ئاتموسفەرادىكى خەتەرلىك خىمىيەۋى ماددىلار ھەم زەھەرلىك بىرىكمىلەرنىڭ زىيىنىدىن جەڭچىلەرنى ئۈنۈملۈك قوغداش ئۈچۈن لايىھەلەنگەن بولۇپ، ئامېرىكا ئالاھىدە مەشغۇلات قىسىملىرى تەرىپىدىن رەسمىي ئىشلىتىلىشكە باشلاندى.\n\n---\n📌 **مەنبە:** Defense News",
-      "en": "Avon Protection's MITR half-mask and goggle system is designed to protect wearers from dangerous chemicals and toxic substances in the atmosphere.\n\n---\n**Source:** Defense News"
-    },
-    "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/archetype/XVV3ZYXPHZHKXHE5ZBI2LPBTTM.jpg",
-    "author": "Defense News",
-    "date": "2026-10-17",
-    "status": "published",
-    "featured": true,
-    "views": 120,
-    "tags": [
-      "ھەربىي",
-      "ئامېرىكا",
-      "ئالاھىدە_ئارمىيە",
-      "جابدۇق"
-    ],
-    "specs": {
-      "مەنبە": "Defense News",
-      "ئەسلى ئۇلانما": "https://www.defensenews.com/land/2026/10/15/us-special-operations-adopts-new-half-mask-and-goggles/",
-      "sourceUrl": "https://www.defensenews.com/land/2026/10/15/us-special-operations-adopts-new-half-mask-and-goggles/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

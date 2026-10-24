@@ -1,5 +1,46 @@
 [
   {
+    "id": "wpn_1792825313718",
+    "category": "database",
+    "title": {
+      "ug": "كولت M1911 تاپانچىسى ( M1911 ) - قورال تەپسىلاتى",
+      "en": "Colt M1911 Technical Dossier"
+    },
+    "summary": {
+      "ug": "كولت M1911 تاپانچىسى ( M1911 ): ئامېرىكا قوشما شتاتلىرى ئىشلەپچىقارغان يېرىم ئاپتوماتىك تاپانچا. ئوق ئۆلچىمى: .45 ACP (11.43×23 مىللىمېتىر)، ئۈنۈملۈك ئارىلىقى: 50 مېتىر.",
+      "en": "Technical specifications for Colt M1911"
+    },
+    "content": {
+      "ug": "### 📌 قورال ھەققىدە قىسقىچە بايان\nكولت M1911 تاپانچىسى ( M1911 ) ھەققىدە قوراللار مەلۇماتى.\n\n### ⚙️ تېخنىكىلىق كۆرسەتكۈچلىرى\n- 🔫 **قورال ئىسمى:** كولت M1911 تاپانچىسى ( M1911 )\n- 🌍 **ئىشلەپچىقارغان دۆلەت:** ئامېرىكا قوشما شتاتلىرى\n- ⚙️ **قورال تىپى:** يېرىم ئاپتوماتىك تاپانچا\n- 📏 **ئوق ئۆلچىمى (كالىبېر):** .45 ACP (11.43×23 مىللىمېتىر)\n- ⚖️ **ئېغىرلىقى ۋە ئۇزۇنلۇقى:** ئوقسىز ئېغىرلىقى: 1.105 كىلوگرام؛ ئومۇمىي ئۇزۇنلۇقى: 216 مىللىمېتىر؛ مىل ئۇزۇنلۇقى: 127 مىللىمېتىر (5 دىيۇم)\n- 🎯 **ئوقدان سىغىمى:** 7+1 پاتون (ئۆلچەملىك يەككە قاتارلىق ئوقدان)\n- ⚡ **ئوق ئېتىش سۈرئىتى:** مىنۇتىغا 20-30 ئوق (ئەمەلىي يېرىم ئاپتوماتىك ئېتىش سۈرئىتى)\n- 🎯 **ئۈنۈملۈك ئارىلىقى:** 50 مېتىر\n- 🔄 **ئاساسلىق ۋارىيانتلىرى:** M1911A1، كولت كوماندىر، ھۆكۈمەت نۇسخىسى، كولت ئوفىتسېر ( ' ACP)، ئامېرىكا دېڭىز ئارمىيە قۇرۇقلۇق قىسملىرى ئۈچۈن MEU(SOC)، خىتاي شىركىتى نورىنكو ئىشلەپچىقارغان كۆچۈرمە نۇسخىلىرى (NP-28، M1911A1 خىتاي نۇسخىسى)\n\n---\n📌 **مەنبە:** ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "en": "Comprehensive technical dossier for Colt M1911"
+    },
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/M1911_and_M1911A1_pistols.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "author": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+    "date": "2026-10-24",
+    "status": "published",
+    "featured": true,
+    "views": 125,
+    "tags": [
+      "مەلۇمات_ئامبىرى",
+      "قورال",
+      "تېخنىكا"
+    ],
+    "specs": {
+      "مەنبە": "ھەربىي مەلۇمات ئامبىرى (Arsenal Wiki)",
+      "ئەسلى ئۇلانما": "https://shafaq-teach.github.io/military-news/",
+      "sourceUrl": "https://shafaq-teach.github.io/military-news/",
+      "قورال ئىسمى": "كولت M1911 تاپانچىسى ( M1911 )",
+      "ئىشلەپچىقارغان دۆلەت": "ئامېرىكا قوشما شتاتلىرى",
+      "قورال تىپى": "يېرىم ئاپتوماتىك تاپانچا",
+      "ئوق ئۆلچىمى": ".45 ACP (11.43×23 مىللىمېتىر)",
+      "ئېغىرلىقى ۋە ئۇزۇنلۇقى": "ئوقسىز ئېغىرلىقى: 1.105 كىلوگرام؛ ئومۇمىي ئۇزۇنلۇقى: 216 مىللىمېتىر؛ مىل ئۇزۇنلۇقى: 127 مىللىمېتىر (5 دىيۇم)",
+      "ئوقدان سىغىمى": "7+1 پاتون (ئۆلچەملىك يەككە قاتارلىق ئوقدان)",
+      "ئوق ئېتىش سۈرئىتى": "مىنۇتىغا 20-30 ئوق (ئەمەلىي يېرىم ئاپتوماتىك ئېتىش سۈرئىتى)",
+      "ئۈنۈملۈك ئارىلىقى": "50 مېتىر",
+      "ئاساسلىق ۋارىيانتلىرى": "M1911A1، كولت كوماندىر، ھۆكۈمەت نۇسخىسى، كولت ئوفىتسېر ( ' ACP)، ئامېرىكا دېڭىز ئارمىيە قۇرۇقلۇق قىسملىرى ئۈچۈن MEU(SOC)، خىتاي شىركىتى نورىنكو ئىشلەپچىقارغان كۆچۈرمە نۇسخىلىرى (NP-28، M1911A1 خىتاي نۇسخىسى)"
+    }
+  },
+  {
     "id": "news_1792819539909_711",
     "category": "weapons",
     "title": {
@@ -3437,41 +3478,6 @@
       "مەنبە": "Defense News",
       "ئەسلى ئۇلانما": "https://www.defensenews.com/industry/techwatch/2026/10/15/lockheed-invests-300m-in-texas-plant-to-feed-missile-surge/",
       "sourceUrl": "https://www.defensenews.com/industry/techwatch/2026/10/15/lockheed-invests-300m-in-texas-plant-to-feed-missile-surge/",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792110302489_246",
-    "category": "weapons",
-    "title": {
-      "ug": "ئامېرىكا ئارمىيەسى ئۈچىنچى قېتىملىق CAML سىستېمىسىنى سەپلەشنى پىلانلىدى",
-      "en": "Army looks to add third CAML system, Lozano says"
-    },
-    "summary": {
-      "ug": "يېقىنقى كەلگۈسىدە ئۇچۇر توپلاش ئىلتىماسى ئېلان قىلىنىدىغانلىقىنى بىلدۈ ئامېرىكا ئارمىيەسى ئوت ئۆچۈرۈش ۋە باشقۇرۇلىدىغان بومبا ਪ੍ਰوجېكتىنىڭ باشلىقى، گېنې-لېيتېنان فىرانك لوزانونىڭ بىلدۈرۈشىچە، ئارمىيە تارماقلىرى كېدىغان يىلنىڭ مارت ۋە ئاپرېل...",
-      "en": "A request for information will be coming out in the near future, and the service is looking to make some “early selections” in the March to April timeframe for the CAML-light, Lt. Gen. Frank Lozano, PAE for Fires, said."
-    },
-    "content": {
-      "ug": "يېقىنقى كەلگۈسىدە ئۇچۇر توپلاش ئىلتىماسى ئېلان قىلىنىدىغانلىقىنى بىلدۈ ئامېرىكا ئارمىيەسى ئوت ئۆچۈرۈش ۋە باشقۇرۇلىدىغان بومبا ਪ੍ਰوجېكتىنىڭ باشلىقى، گېنې-لېيتېنان فىرانك لوزانونىڭ بىلدۈرۈشىچە، ئارمىيە تارماقلىرى كېدىغان يىلنىڭ مارت ۋە ئاپرېل ئايلىرى ئارىلىقىدا يېنىك تىپتىكى CAML سىستېمىسى («») ئۈچۈن دەسلەپكى تاللاشلارنى ئېلىپ بېرىشنى نىشان قىلغان.\n\n---\n📌 **مەنبە:** Breaking Defense",
-      "en": "A request for information will be coming out in the near future, and the service is looking to make some “early selections” in the March to April timeframe for the CAML-light, Lt. Gen. Frank Lozano, PAE for Fires, said.\n\n---\n**Source:** Breaking Defense"
-    },
-    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/max1200-2-e1788283642113-1024x576.jpg",
-    "author": "Breaking Defense",
-    "date": "2026-10-16",
-    "status": "published",
-    "featured": true,
-    "views": 29,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "قورال-يارراق",
-      "ئامېرىكا_ئارمىيەسى",
-      "مۇداپىئە"
-    ],
-    "specs": {
-      "مەنبە": "Breaking Defense",
-      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/army-looks-to-add-third-caml-system-lozano-says/",
-      "sourceUrl": "https://breakingdefense.com/2026/10/army-looks-to-add-third-caml-system-lozano-says/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }

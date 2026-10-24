@@ -1,5 +1,39 @@
 [
   {
+    "id": "news_1792841405956_103",
+    "category": "weapons",
+    "title": {
+      "ug": "«چۇيكا 4.5.0»: ئوكرائىنا ئارمىيەسىنىڭ «خەتەرسىز ۋەزىيەت» ئىپادىلەش ئاتالغۇسى",
+      "en": "Chuyka 4.5.0."
+    },
+    "summary": {
+      "ug": "ئوكرائىنا ئارمىيەسىنىڭ ھەربىي ئاتالغۇ ئادىتىدە «4.5.0» كودى ۋەزىيەتنىڭ پۈتۈنلەي تىنچ-ئامانلىقىنى، مۇھىتتا ھېچقانداق تەھدىت ياكى خەتەرنىڭ مەۋجۇت ئەمەسلىكىنى بىلدۈرىدۇ.",
+      "en": "In Ukrainian military slang, “4.5.0” means the situation is calm and there are no threats."
+    },
+    "content": {
+      "ug": "ئوكرائىنا ئارمىيەسىنىڭ ھەربىي ئاتالغۇ ئادىتىدە «4.5.0» كودى ۋەزىيەتنىڭ پۈتۈنلەي تىنچ-ئامانلىقىنى، مۇھىتتا ھېچقانداق تەھدىت ياكى خەتەرنىڭ مەۋجۇت ئەمەسلىكىنى بىلدۈرىدۇ.\n\n---\n📌 **مەنبە:** sUAS News (Drones)",
+      "en": "In Ukrainian military slang, “4.5.0” means the situation is calm and there are no threats.\n\n---\n**Source:** sUAS News (Drones)"
+    },
+    "imageUrl": "https://i0.wp.com/www.suasnews.com/wp-content/uploads/2026/10/Chuyka-4.5.0.jpeg?fit=800%2C800&#038;ssl=1",
+    "author": "sUAS News (Drones)",
+    "date": "2026-03-30",
+    "status": "published",
+    "featured": true,
+    "views": 147,
+    "tags": [
+      "ئوكرائىنا",
+      "ھەربىي ئاتالغۇ",
+      "مۇداپىئە",
+      "ئۇچقۇچىسىز ئايروپىلان (دىرون)"
+    ],
+    "specs": {
+      "مەنبە": "sUAS News (Drones)",
+      "ئەسلى ئۇلانما": "https://www.suasnews.com/2026/10/chuyka-4-5-0/",
+      "sourceUrl": "https://www.suasnews.com/2026/10/chuyka-4-5-0/",
+      "ھالىتى": "تەستىقلانغان ئاخبارات"
+    }
+  },
+  {
     "id": "news_1792841347122_71",
     "category": "weapons",
     "title": {
@@ -3445,40 +3479,6 @@
       "مەنبە": "The War Zone (TWZ)",
       "ئەسلى ئۇلانما": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-211",
       "sourceUrl": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-211",
-      "ھالىتى": "تەستىقلانغان ئاخبارات"
-    }
-  },
-  {
-    "id": "news_1792272904158_772",
-    "category": "weapons",
-    "title": {
-      "ug": "يۇقىرى دەرىجىلىك ئەمەلدار: ئوچۇق سىستېما ئارخىتېاسى قۇرۇقلۇق ئارمىيەسىنىڭ XM30 پىراگراممىسىنى تاللاشتىكى ئىنتايىن مۇھىم ئامىلدۇر",
-      "en": "Open system architecture will be ‘hyper important’ in downselect of Army&#8217;s XM30: Senior official"
-    },
-    "summary": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى ۋە ئۇنىڭ سانائەتتىكى ھەمكارلاشقۇچىلىرىنىڭ ئوچۇق سىستېما ئارخىتېاسى ئارقىلىق يېڭى ھەم ئوخشاش بولمىغان يۇمشاق دېتال ۋە قاتتىق دېتال ئىقتىدارلىرىنى سەھنىگە بىرلەشتۈرۈشىگە شارائىت ھازىرلىنىدىغانلىقى بىلدۈرۈلدى.",
-      "en": "An open systems architecture allows the Army and its industry partners to plug new and different software and hardware capabilities into the platform."
-    },
-    "content": {
-      "ug": "ئامېرىكا قۇرۇقلۇق ئارمىيەسى ۋە ئۇنىڭ سانائەتتىكى ھەمكارلاشقۇچىلىرىنىڭ ئوچۇق سىستېما ئارخىتېاسى ئارقىلىق يېڭى ھەم ئوخشاش بولمىغان يۇمشاق دېتال ۋە قاتتىق دېتال ئىقتىدارلىرىنى سەھنىگە بىرلەشتۈرۈشىگە شارائىت ھازىرلىنىدىغانلىقى بىلدۈرۈلدى.\n\n---\n📌 **مەنبە:** Breaking Defense",
-      "en": "An open systems architecture allows the Army and its industry partners to plug new and different software and hardware capabilities into the platform.\n\n---\n**Source:** Breaking Defense"
-    },
-    "imageUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/9770428.jpg",
-    "author": "Breaking Defense",
-    "date": "2026-10-17",
-    "status": "published",
-    "featured": true,
-    "views": 31,
-    "tags": [
-      "ھەربىي",
-      "ئەسكىرىي",
-      "تېخنىكا",
-      "XM30"
-    ],
-    "specs": {
-      "مەنبە": "Breaking Defense",
-      "ئەسلى ئۇلانما": "https://breakingdefense.com/2026/10/open-system-architecture-will-be-hyper-important-in-downselect-of-armys-xm30-senior-official/",
-      "sourceUrl": "https://breakingdefense.com/2026/10/open-system-architecture-will-be-hyper-important-in-downselect-of-armys-xm30-senior-official/",
       "ھالىتى": "تەستىقلانغان ئاخبارات"
     }
   }
